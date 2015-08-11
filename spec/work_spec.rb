@@ -18,9 +18,7 @@ describe 'work' do
     end
 
     it 'works are uris' do
-      work_solns.each { |soln|
-        expect(soln.work.uri?).to be true
-      }
+      work_solns.each { |soln| expect(soln.work.uri?).to be true }
     end
 
     let(:brain_art_of_horn_work_query) {
