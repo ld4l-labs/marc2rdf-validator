@@ -1,0 +1,48 @@
+Bib recs for:
+
+Single work, single instance:
+  book
+    books about other works (art books, books on Beethoven's 5th)
+    books about authors
+    books about other books in our collection (book about grapes of wrath)
+    artist's book (the book is the work of art)
+  music recording
+  music score
+  map
+  video
+  manuscript
+  multimedia:
+    book + CD
+    kits
+    music-minus-one
+  image
+  citation database (online)
+  objects (e.g. bucky fuller model from spec)
+
+Single work, multiple instances:
+  book online and physical copy (and scan?)
+  journal
+  music recording (multiple takes as bonus tracks on jazz recording)
+  map  (multiple states?)
+  video in multiple formats (dvd, vhs, streaming)
+  newspaper?
+  digital collection?
+  archive - boxes of papers  (and if it's digitized into a coll?)
+  archive - set of posters  "
+  archive - MJF recordings  "
+
+Multiple works, single instance
+  music score with multiple pieces in single book
+
+Multiple works, multiple instances
+  series? (yearbooks)
+  conf proceedings?
+
+
+what about:
+
+Series
+Bound With
+
+
+
