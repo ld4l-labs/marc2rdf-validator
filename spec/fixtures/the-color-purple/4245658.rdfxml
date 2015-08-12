@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://naomi.org/a4245658">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/MovingImage"/>
+      <bf:authorizedAccessPoint>Spielberg, Steven, 1947- The Color purple [videorecording] / Warner Brothers.The Color purple</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://naomi.org/a4245658title5"/>
+      <bf:title xml:lang="x-bf-sort">Color purple</bf:title>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658person7"/>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658person8"/>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658person9"/>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658person10"/>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658organization11"/>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658organization12"/>
+      <bf:intendedAudience rdf:resource="http://naomi.org/a4245658intendedaudience13"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:language rdf:resource="http://naomi.org/a4245658language15"/>
+      <bf:subject rdf:resource="http://naomi.org/a4245658topic17"/>
+      <bf:relatedResource rdf:resource="http://naomi.org/a4245658work18"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">spielbergsteven1947unauthorizedwalkeralice1944a1323922goldbergwhoopi1955a509871gloverdannya504588winfreyopraha581569warnerbrosa164952warnerhomevideofirma885612colorpurpleengworkmovingimage</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://naomi.org/a4245658work18">
+      <bf:title>Color purple.</bf:title>
+      <bf:authorizedAccessPoint>Walker, Alice, 1944- Color purple.</bf:authorizedAccessPoint>
+      <bf:contributor rdf:resource="http://naomi.org/a4245658person22"/>
+      <bf:carrierCategory>Videorecording.</bf:carrierCategory>
+   </bf:Work>
+   <bf:Instance rdf:about="http://naomi.org/a4245658instance21">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://naomi.org/a4245658title24"/>
+      <bf:title xml:lang="x-bf-sort">Color purple</bf:title>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/0790729717"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9780790729718"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Warner Home Video</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Burbank, CA </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1997, c1985</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:soundContent>Sound on medium</bf:soundContent>
+      <bf:soundContent>Videodisc</bf:soundContent>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>1 videodisc (154 min.) :</bf:extent>
+      <bf:dimensions>4 3/4 in.</bf:dimensions>
+      <bf:illustrationNote>sd., col. ;</bf:illustrationNote>
+      <bf:titleStatement>The Color purple</bf:titleStatement>
+      <bf:formDesignation>videorecording</bf:formDesignation>
+      <bf:providerStatement>Burbank, CA : Warner Home Video, 1997, c1985.</bf:providerStatement>
+      <bf:creditsNote>Credits: Executive producers, Jon Peters, Peter Guber ; producer-director, Steven Spielberg ; screenplay, Menno Meyjes.</bf:creditsNote>
+      <bf:performerNote>Cast: Whoopi Goldberg, Danny Glover, Adolph Caesar, Margaret Avery, Rae Dawn Chong, Oprah Winfrey.</bf:performerNote>
+      <bf:languageNote>Closed captioned.</bf:languageNote>
+      <bf:note>Based on the novel by Alice Walker.</bf:note>
+      <bf:note>Videodisc release of the 1985 motion picture by Warner Brothers.</bf:note>
+      <bf:note>An uneducated woman living in the rural American south who was raped by her father, deprived of the children she bore him and forced to marry a brutal man she calls "Mister" is transformed by the friendship of two remarkable women, acquiring self-worth and the strength to forgive.</bf:note>
+      <bf:note>Rated PG-13.</bf:note>
+      <bf:note>DVD.</bf:note>
+      <bf:note>1</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)38063484</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)275654522</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://naomi.org/a4245658"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://naomi.org/a4245658annotation20">
+      <bf:derivedFrom rdf:resource="http://naomi.org/a4245658.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/mcp"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-06-12T00:30</bf:changeDate>
+      <bf:annotates rdf:resource="http://naomi.org/a4245658"/>
+   </bf:Annotation>
+   <bf:Summary rdf:about="http://naomi.org/a4245658summary16">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Summary"/>
+      <bf:label>Summary</bf:label>
+      <bf:annotationAssertedBy rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:annotationBody>An uneducated woman living in the rural American south who was raped by her father, deprived of the children she bore him and forced to marry a brutal man she calls "Mister" is transformed by the friendship of two remarkable women, acquiring self-worth and the strength to forgive.</bf:annotationBody>
+      <bf:summaryOf rdf:resource="http://naomi.org/a4245658"/>
+   </bf:Summary>
+   <bf:Title rdf:about="http://naomi.org/a4245658title5">
+      <bf:label>The Color purple [videorecording] / Warner Brothers.</bf:label>
+      <bf:titleValue>The Color purple</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://naomi.org/a4245658person7">
+      <bf:label>Spielberg, Steven, 1947-</bf:label>
+      <bf:authorizedAccessPoint>Spielberg, Steven, 1947-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Spielberg, Steven, 1947-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a4245658person8">
+      <bf:label>Goldberg, Whoopi, 1955-</bf:label>
+      <bf:authorizedAccessPoint>Goldberg, Whoopi, 1955-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Goldberg, Whoopi, 1955-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a4245658person9">
+      <bf:label>Glover, Danny.</bf:label>
+      <bf:authorizedAccessPoint>Glover, Danny.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Glover, Danny.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a4245658person10">
+      <bf:label>Winfrey, Oprah.</bf:label>
+      <bf:authorizedAccessPoint>Winfrey, Oprah.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Winfrey, Oprah.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Organization rdf:about="http://naomi.org/a4245658organization11">
+      <bf:label>Warner Bros.</bf:label>
+      <bf:authorizedAccessPoint>Warner Bros.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Warner Bros.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://naomi.org/a4245658organization12">
+      <bf:label>Warner Home Video (Firm)</bf:label>
+      <bf:authorizedAccessPoint>Warner Home Video (Firm)</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Warner Home Video (Firm)</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:IntendedAudience rdf:about="http://naomi.org/a4245658intendedaudience13">
+      <bf:audience>Rated PG-13.</bf:audience>
+   </bf:IntendedAudience>
+   <bf:Language rdf:about="http://naomi.org/a4245658language15">
+      <bf:resourcePart>summary or abstract</bf:resourcePart>
+      <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/fre"/>
+      <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+   </bf:Language>
+   <bf:Topic rdf:about="http://naomi.org/a4245658topic17">
+      <bf:authorizedAccessPoint>Feature films.--^A1017258</bf:authorizedAccessPoint>
+      <bf:label>Feature films.--^A1017258</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Topic"/>
+            <madsrdf:authoritativeLabel>Feature films.--^A1017258</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Person rdf:about="http://naomi.org/a4245658person22">
+      <bf:label>Walker, Alice, 1944-</bf:label>
+      <bf:authorizedAccessPoint>Walker, Alice, 1944-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Walker, Alice, 1944-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Title rdf:about="http://naomi.org/a4245658title24">
+      <bf:label>The Color purple [videorecording] / Warner Brothers.</bf:label>
+      <bf:titleValue>The Color purple</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

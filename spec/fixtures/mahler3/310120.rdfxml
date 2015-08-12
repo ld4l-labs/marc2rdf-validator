@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://naomi.org/a310120">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Audio"/>
+      <bf:authorizedAccessPoint>Mahler, Gustav, 1860-1911. Symphonies, no. 3, D minor ^A230732</bf:authorizedAccessPoint>
+      <madsrdf:authoritativeLabel>Symphonies, no. 3, D minor ^A230732</madsrdf:authoritativeLabel>
+      <bf:workTitle rdf:resource="http://naomi.org/a310120title6"/>
+      <bf:creator rdf:resource="http://naomi.org/a310120person7"/>
+      <relators:prf rdf:resource="http://naomi.org/a310120person8"/>
+      <relators:cnd rdf:resource="http://naomi.org/a310120person9"/>
+      <relators:prf rdf:resource="http://naomi.org/a310120organization10"/>
+      <relators:prf rdf:resource="http://naomi.org/a310120organization11"/>
+      <relators:prf rdf:resource="http://naomi.org/a310120organization12"/>
+      <bf:event rdf:resource="http://naomi.org/a310120event13"/>
+      <bf:musicKey>D minor</bf:musicKey>
+      <bf:duration>013300</bf:duration>
+      <bf:note>Recorded November 1982, Orchestra Hall, Chicago.</bf:note>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/zxx"/>
+      <bf:language rdf:resource="http://naomi.org/a310120language18"/>
+      <bf:subject rdf:resource="http://naomi.org/a310120topic19"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">derneschhelgaa324779soltigeorg19121997a212357chicagosymphonychoruswomenschorusa369154glenellynchildrenschorusa369155chicagosymphonyorchestraa41201mahlergustav18601911a230732symphoniesno3dminora230732zxxworkaudio</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://naomi.org/a310120instance22">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://naomi.org/a310120title25"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>London</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>London </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>p1983</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>2 sound discs (93 min.) : 1 booklet (16 p.).</bf:extent>
+      <bf:dimensions>4 3/4 in. +</bf:dimensions>
+      <bf:illustrationNote>digital, stereo. ;</bf:illustrationNote>
+      <bf:titleStatement>Symphony no. 3</bf:titleStatement>
+      <bf:formDesignation>sound recording</bf:formDesignation>
+      <bf:providerStatement>London : London, p1983.</bf:providerStatement>
+      <bf:performerNote>Helga Dernesch, contralto ; Chicago Symphony Orchestra Women's Chorus ; Glen Ellen Children's Chorus ; Chicago Symphony Orchestra ; Sir Georg Solti, conductor.</bf:performerNote>
+      <bf:note>London: 414 268-2 (414 233-2 -- 414 234-2).</bf:note>
+      <bf:note>Compact discs.</bf:note>
+      <bf:note>18</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(CStRLIN)CSUG86-R1829</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(CStRLIN)CSUG86-R1829</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)20077192</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)272289297</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:isrc>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/isrc"/>
+            <bf:identifierValue>2894142682</bf:identifierValue>
+         </bf:Identifier>
+      </bf:isrc>
+      <bf:issueNumber>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issueNumber"/>
+            <bf:identifierValue>414 268-2</bf:identifierValue>
+            <bf:identifierAssigner>London</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:issueNumber>
+      <bf:issueNumber>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issueNumber"/>
+            <bf:identifierValue>414 233-2</bf:identifierValue>
+            <bf:identifierAssigner>London</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:issueNumber>
+      <bf:issueNumber>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issueNumber"/>
+            <bf:identifierValue>414 234-2</bf:identifierValue>
+            <bf:identifierAssigner>London</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:issueNumber>
+      <bf:instanceOf rdf:resource="http://naomi.org/a310120"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://naomi.org/a310120annotation21">
+      <bf:derivedFrom rdf:resource="http://naomi.org/a310120.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/cu"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/cst"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/orlob"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-03-21T05:00</bf:changeDate>
+      <bf:annotates rdf:resource="http://naomi.org/a310120"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://naomi.org/a310120title6">
+      <bf:titleValue>Symphonies</bf:titleValue>
+      <bf:partNumber>no. 3</bf:partNumber>
+   </bf:Title>
+   <bf:Person rdf:about="http://naomi.org/a310120person7">
+      <bf:label>Mahler, Gustav, 1860-1911.</bf:label>
+      <bf:authorizedAccessPoint>Mahler, Gustav, 1860-1911.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Mahler, Gustav, 1860-1911.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a310120person8">
+      <bf:label>Dernesch, Helga</bf:label>
+      <bf:authorizedAccessPoint>Dernesch, Helga</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Dernesch, Helga</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a310120person9">
+      <bf:label>Solti, Georg, 1912-1997</bf:label>
+      <bf:authorizedAccessPoint>Solti, Georg, 1912-1997</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Solti, Georg, 1912-1997</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Organization rdf:about="http://naomi.org/a310120organization10">
+      <bf:label>Chicago Symphony Chorus. Women's Chorus</bf:label>
+      <bf:authorizedAccessPoint>Chicago Symphony Chorus. Women's Chorus</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Chicago Symphony Chorus. Women's Chorus</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://naomi.org/a310120organization11">
+      <bf:label>Glen Ellyn Children's Chorus</bf:label>
+      <bf:authorizedAccessPoint>Glen Ellyn Children's Chorus</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Glen Ellyn Children's Chorus</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://naomi.org/a310120organization12">
+      <bf:label>Chicago Symphony Orchestra</bf:label>
+      <bf:authorizedAccessPoint>Chicago Symphony Orchestra</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Chicago Symphony Orchestra</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Event rdf:about="http://naomi.org/a310120event13">
+      <bf:eventDate rdf:datatype="xsd:dateTime">198211--</bf:eventDate>
+   </bf:Event>
+   <bf:Language rdf:about="http://naomi.org/a310120language18">
+      <bf:resourcePart>accompanying material other than librettos</bf:resourcePart>
+      <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+   </bf:Language>
+   <bf:Topic rdf:about="http://naomi.org/a310120topic19">
+      <bf:authorizedAccessPoint>Symphonies.--^A1066579</bf:authorizedAccessPoint>
+      <bf:label>Symphonies.--^A1066579</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Topic"/>
+            <madsrdf:authoritativeLabel>Symphonies.--^A1066579</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Title rdf:about="http://naomi.org/a310120title25">
+      <bf:label>Symphony no. 3 [sound recording] / Mahler.</bf:label>
+      <bf:titleValue>Symphony no. 3</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

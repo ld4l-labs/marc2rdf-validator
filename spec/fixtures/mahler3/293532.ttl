@@ -1,0 +1,167 @@
+@prefix bibframe: <http://bibframe.org/vocab/> .
+@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a293532annotation18> a bibframe:Annotation;
+   bibframe:annotates <http://naomi.org/a293532>;
+   bibframe:changeDate "2015-07-13T00:30";
+   bibframe:derivedFrom <http://naomi.org/a293532.marcxml.xml>;
+   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>,
+     <http://id.loc.gov/vocabulary/organizations/orlob>;
+   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a293532helditem39> a bibframe:HeldItem;
+   bibframe:holdingFor <http://naomi.org/a293532instance19>;
+   bibframe:label "M1001 .M21 no. 3 1989";
+   bibframe:shelfMarkLcc "M1001 .M21 no. 3 1989" .
+
+<http://naomi.org/a293532instance19> a bibframe:Instance,
+     bibframe:Monograph;
+   bibframe:dimensions "31 cm.";
+   bibframe:extent "1 score (353 p.) ;";
+   bibframe:instanceOf <http://naomi.org/a293532>;
+   bibframe:instanceTitle <http://naomi.org/a293532title22>;
+   bibframe:isbn10 <http://isbn.example.org/0486261662>;
+   bibframe:isbn13 <http://isbn.example.org/9780486261669>;
+   bibframe:lccn [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:lccn;
+     bibframe:identifierValue "89755121 /M"
+   ];
+   bibframe:modeOfIssuance "single unit";
+   bibframe:note "The 1st work for alto, women's chorus, boys' choir, and orchestra; the 2nd for soprano and orchestra.",
+     "Text of the 1st work, 4th movement: Also sprach Zarathustra / Nietzsche, 5th movement: Es sungen drei Engel, from Des Knaben Wunderhorn; 2nd work, 4th movement: Das himmlische Leben, from Des Knaben Wunderhorn; also printed as texts with English translations.",
+     "18";
+   bibframe:providerStatement "New York : Dover, 1989.";
+   bibframe:publication [
+     a bibframe:Provider;
+     bibframe:providerDate "1989";
+     bibframe:providerName [
+       a bibframe:Organization;
+       bibframe:label "Dover"
+     ];
+     bibframe:providerPlace [
+       a bibframe:Place;
+       bibframe:label "New York "
+     ]
+   ];
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(CStRLIN)CSUG89-C5393"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-M)20637826"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-I)272212219"
+   ];
+   bibframe:titleStatement "Symphonies nos. 3 and 4" .
+
+<http://naomi.org/a293532language11> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/ger>,
+     <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:resourcePart "librettos" .
+
+<http://naomi.org/a293532language12> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/ger>;
+   bibframe:resourcePart "original" .
+
+<http://naomi.org/a293532person13> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Nietzsche, Friedrich Wilhelm, 1844-1900 ^A91425--Musical settings.";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Nietzsche, Friedrich Wilhelm, 1844-1900 ^A91425--Musical settings.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Nietzsche, Friedrich Wilhelm, 1844-1900";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Nietzsche, Friedrich Wilhelm,"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1844-1900"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Musical settings";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Musical settings."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Nietzsche, Friedrich Wilhelm, 1844-1900 ^A91425--Musical settings." .
+
+<http://naomi.org/a293532person20> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Mahler, Gustav, 1860-1911. no. 4";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Mahler, Gustav, 1860-1911. no. 4"
+   ];
+   bibframe:label "Mahler, Gustav, 1860-1911. no. 4" .
+
+<http://naomi.org/a293532person7> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Mahler, Gustav, 1860-1911.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Mahler, Gustav, 1860-1911."
+   ];
+   bibframe:label "Mahler, Gustav, 1860-1911." .
+
+<http://naomi.org/a293532person8> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Nietzsche, Friedrich Wilhelm, 1844-1900.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Nietzsche, Friedrich Wilhelm, 1844-1900."
+   ];
+   bibframe:label "Nietzsche, Friedrich Wilhelm, 1844-1900." .
+
+<http://naomi.org/a293532title22> a bibframe:Title;
+   bibframe:label "Symphonies nos. 3 and 4 / Gustav Mahler.";
+   bibframe:titleValue "Symphonies nos. 3 and 4" .
+
+<http://naomi.org/a293532title6> a bibframe:Title;
+   bibframe:partNumber "no. 3";
+   bibframe:titleValue "Symphonies" .
+
+<http://naomi.org/a293532topic14> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Symphonies.--^A1066579";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Symphonies.--^A1066579";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Symphonies.--^A1066579" .
+
+<http://naomi.org/a293532work16> a bibframe:Work;
+   bibframe:authorizedAccessPoint "Mahler, Gustav, 1860-1911. no. 4 Symphonies, no. 4";
+   bibframe:contributor <http://naomi.org/a293532person20>;
+   bibframe:title "Symphonies, no. 4" .
+
+<http://naomi.org/a293532> a bibframe:Work,
+     bibframe:NotatedMusic;
+   bibframe:authorizedAccessPoint "Mahler, Gustav, 1860-1911. Symphonies, no. 3, D minor ^A230732",
+     "mahlergustav18601911a230732nietzschefriedrichwilhelm18441900a91425mahlergustav18601911a893495symphoniesno3dminora230732gerworknotatedmusic"@x-bf-hash;
+   bibframe:classificationLcc <http://id.loc.gov/authorities/classification/M1001>;
+   bibframe:contributor <http://naomi.org/a293532person8>;
+   bibframe:creator <http://naomi.org/a293532person7>;
+   bibframe:hasPart <http://naomi.org/a293532work16>;
+   bibframe:language <http://id.loc.gov/vocabulary/languages/ger>,
+     <http://naomi.org/a293532language11>,
+     <http://naomi.org/a293532language12>;
+   bibframe:musicKey "D minor";
+   bibframe:subject <http://naomi.org/a293532person13>,
+     <http://naomi.org/a293532topic14>;
+   bibframe:workTitle <http://naomi.org/a293532title6>;
+   mads:authoritativeLabel "Symphonies, no. 3, D minor ^A230732" .

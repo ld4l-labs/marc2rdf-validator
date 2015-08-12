@@ -1,0 +1,137 @@
+@prefix bibframe: <http://bibframe.org/vocab/> .
+@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a410549annotation13> a bibframe:Annotation;
+   bibframe:annotates <http://naomi.org/a410549>;
+   bibframe:changeDate "2015-03-21T05:00";
+   bibframe:derivedFrom <http://naomi.org/a410549.marcxml.xml>;
+   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/mul>,
+     <http://id.loc.gov/vocabulary/organizations/ctymus>,
+     <http://id.loc.gov/vocabulary/organizations/cst>,
+     <http://id.loc.gov/vocabulary/organizations/orlob>;
+   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/gu>;
+   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a410549helditem36> a bibframe:HeldItem;
+   bibframe:copyNote "LATEST IN CURRENT PERIODICALS";
+   bibframe:heldBy "CSt";
+   bibframe:holdingFor <http://naomi.org/a410549instance14>;
+   bibframe:label "";
+   bibframe:shelfMark "1";
+   bibframe:subLocation "MUSIC" .
+
+<http://naomi.org/a410549instance14> a bibframe:Instance,
+     bibframe:Serial;
+   bibframe:dimensions "23 cm.";
+   bibframe:extent "v. :";
+   bibframe:illustrationNote "ill., music, ports. ;";
+   bibframe:instanceOf <http://naomi.org/a410549>;
+   bibframe:instanceTitle <http://naomi.org/a410549title17>;
+   bibframe:issn [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:issn;
+     bibframe:identifierValue "0046-7928"
+   ];
+   bibframe:lccn [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:lccn;
+     bibframe:identifierValue "sf 82004007"
+   ];
+   bibframe:modeOfIssuance "serial";
+   bibframe:note "\"Journal of the International Horn Society, Internationale Horngesellschaft, La Société Internationale des Cornistes, Sociedad Internacional de Trompas\"",
+     "18";
+   bibframe:providerStatement "Durant, Okla. : International Horn Society.";
+   bibframe:publication [
+     a bibframe:Provider;
+     bibframe:providerName [
+       a bibframe:Organization;
+       bibframe:label "International Horn Society"
+     ];
+     bibframe:providerPlace [
+       a bibframe:Place;
+       bibframe:label "Durant, Okla. "
+     ]
+   ];
+   bibframe:serialFirstIssue "Vol. 1 (1971)";
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(CStRLIN)CSUP092518-S"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(CSt)ipf 10586458"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-M)4828279"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-I)271886219"
+   ];
+   bibframe:title "Horn call"@x-bf-sort;
+   bibframe:titleStatement "The Horn call." .
+
+<http://naomi.org/a410549organization7> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "International Horn Society.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "International Horn Society."
+   ];
+   bibframe:label "International Horn Society." .
+
+<http://naomi.org/a410549title17> a bibframe:Title;
+   bibframe:label "The Horn call.";
+   bibframe:titleValue "The Horn call" .
+
+<http://naomi.org/a410549title5> a bibframe:Title;
+   bibframe:label "The Horn call.";
+   bibframe:titleValue "The Horn call" .
+
+<http://naomi.org/a410549topic10> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Horn (Musical instrument)--Periodicals.--^A1025790";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Horn (Musical instrument)--Periodicals.--^A1025790";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Horn (Musical instrument)";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Horn (Musical instrument)"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Periodicals";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Periodicals."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Horn (Musical instrument)--Periodicals.--^A1025790" .
+
+<http://naomi.org/a410549> a bibframe:Work,
+     bibframe:Text;
+   bibframe:authorizedAccessPoint "International Horn Society. The Horn call.The Horn call",
+     "internationalhornsocietya275720horncallengworktext"@x-bf-hash;
+   bibframe:contributor <http://naomi.org/a410549organization7>;
+   bibframe:findingAidNote "Vols. 1-10, after v. 10.";
+   bibframe:issnL [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:issnL;
+     bibframe:identifierValue ""
+   ];
+   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:subject <http://naomi.org/a410549topic10>;
+   bibframe:title "Horn call"@x-bf-sort;
+   bibframe:workTitle <http://naomi.org/a410549title5> .

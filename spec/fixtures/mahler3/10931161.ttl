@@ -1,0 +1,265 @@
+@prefix bibframe: <http://bibframe.org/vocab/> .
+@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a10931161annotation33> a bibframe:Annotation;
+   bibframe:annotates <http://naomi.org/a10931161>;
+   bibframe:changeDate "2015-05-14T00:30";
+   bibframe:derivedFrom <http://naomi.org/a10931161.marcxml.xml>;
+   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/pn>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
+   bibframe:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>;
+   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/naxos>;
+   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a10931161instance34> a bibframe:Instance,
+     bibframe:Electronic,
+     bibframe:Monograph;
+   bibframe:carrierCategory <http://id.loc.gov/vocabulary/carriers/cr>;
+   bibframe:contentsNote "CD 1. Kräftig, Entschieden (Der Sommer marschiert ein) (34:19).",
+     "CD 2. Tempo di Menuetto. Sehr mässig (Was mir die Blumen auf der Wiese erzählen) (9:54) -- Comodo. Scherzando. Ohne Hast (Was mir die Tiere im Walde erzählen) (17:37) -- Sehr Langsam. Misterioso. Durchaus ppp: \"O Mensch! Gib Acht!\" (Was mir die Nacht erzählt) (9:01) -- Listig im tempo und keck im Ausdruck: \"Es sungen drei Engel\" (Was mir die Morgenglocken erzählen) (4:20) -- Langsam. Ryhevoll. Empfunden (Was mir die Liebe erzählt) (22:57).";
+   bibframe:extent "1 online resource (1 sound file)";
+   bibframe:instanceOf <http://naomi.org/a10931161>;
+   bibframe:instanceTitle <http://naomi.org/a10931161title38>;
+   bibframe:isrc [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:isrc;
+     bibframe:identifierValue "NLG761000401"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:isrc;
+     bibframe:identifierValue "NLG761000402"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:isrc;
+     bibframe:identifierValue "NLG761000403"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:isrc;
+     bibframe:identifierValue "NLG761000404"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:isrc;
+     bibframe:identifierValue "NLG761000405"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:isrc;
+     bibframe:identifierValue "NLG761000406"
+   ];
+   bibframe:issueNumber [
+     a bibframe:Identifier;
+     bibframe:identifierAssigner "RCO Live";
+     bibframe:identifierScheme identifiers:issueNumber;
+     bibframe:identifierValue "RCO10004"
+   ];
+   bibframe:languageNote "Sung in German; texts in German with French and English translations, and program notes in Dutch with English, French and German translations (1 v. (unpaged) : ill. ; 13 cm.) inserted in container.";
+   bibframe:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/c>;
+   bibframe:modeOfIssuance "single unit";
+   bibframe:note "For the latest highly anticipated release in the Royal Concertgebouw Orchestra's Mahler symphony cycle under the direction of its chief conductor Mariss Jansons, the orchestra now turns its attention to the Third Symphony. Like no other, Jansons possesses the ability to integrate all this beautiful detailing into the virtually infinite overarching climaxes that can make listening to Mahler's symphonies such an exciting experience.",
+     "Hard copy version record.",
+     "22";
+   bibframe:otherPhysicalFormat <http://naomi.org/a10931161instance44>;
+   bibframe:performerNote "Bernarda Fink, mezzo-soprano; Netherlands Radio Choir; Boys of the Breda Sacrament Choir; Rijnmond Boys' Choir; Royal Concertgebouw Orchestra; Mariss Jansons, chief conductor.";
+   bibframe:providerStatement "Netherlands : RCO Live, 2010";
+   bibframe:publication [
+     a bibframe:Provider;
+     bibframe:providerDate "[2010]";
+     bibframe:providerName [
+       a bibframe:Organization;
+       bibframe:label "RCO Live"
+     ];
+     bibframe:providerPlace [
+       a bibframe:Place;
+       bibframe:label "Netherlands "
+     ]
+   ];
+   bibframe:soundContent "Sound on medium";
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-M)906565258"
+   ];
+   bibframe:titleStatement "Symphony no. 3";
+   bibframe:titleVariation <http://naomi.org/a10931161title39>,
+     <http://naomi.org/a10931161title40> .
+
+<http://naomi.org/a10931161instance35> a bibframe:Instance,
+     bibframe:Electronic;
+   bibframe:instanceOf <http://naomi.org/a10931161>;
+   bibframe:label "Electronic Resource";
+   bibframe:uri <http://ezproxy.stanford.edu/login?url=http://stanford.naxosmusiclibrary.com/catalogue/item.asp?cid=RCO10004> .
+
+<http://naomi.org/a10931161summary25> a bibframe:Summary;
+   bibframe:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bibframe:annotationBody "For the latest highly anticipated release in the Royal Concertgebouw Orchestra's Mahler symphony cycle under the direction of its chief conductor Mariss Jansons, the orchestra now turns its attention to the Third Symphony. Like no other, Jansons possesses the ability to integrate all this beautiful detailing into the virtually infinite overarching climaxes that can make listening to Mahler's symphonies such an exciting experience.";
+   bibframe:label "Summary";
+   bibframe:summaryOf <http://naomi.org/a10931161> .
+
+<http://naomi.org/a10931161classification31> a bibframe:Classification;
+   bibframe:classificationEdition "full",
+     "22";
+   bibframe:classificationNumber "784.2";
+   bibframe:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bibframe:label "784.2" .
+
+<http://naomi.org/a10931161instance44> a bibframe:Instance;
+   bibframe:systemNumber <http://www.worldcat.org/oclc/732786688>;
+   bibframe:title "Symphony no. 3." .
+
+<http://naomi.org/a10931161language24> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/ger>;
+   bibframe:resourcePart "sung or spoken text" .
+
+<http://naomi.org/a10931161organization10> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Koninklijk Concertgebouworkest.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Koninklijk Concertgebouworkest."
+   ];
+   bibframe:label "Koninklijk Concertgebouworkest." .
+
+<http://naomi.org/a10931161organization11> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Groot Omroepkoor.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Groot Omroepkoor."
+   ];
+   bibframe:label "Groot Omroepkoor." .
+
+<http://naomi.org/a10931161organization12> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Sacramentskoor Breda. Jongenskoor.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sacramentskoor Breda. Jongenskoor."
+   ];
+   bibframe:label "Sacramentskoor Breda. Jongenskoor." .
+
+<http://naomi.org/a10931161organization13> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Rijnmond Boys' Choir.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Rijnmond Boys' Choir."
+   ];
+   bibframe:label "Rijnmond Boys' Choir." .
+
+<http://naomi.org/a10931161person7> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Mahler, Gustav, 1860-1911.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Mahler, Gustav, 1860-1911."
+   ];
+   bibframe:label "Mahler, Gustav, 1860-1911." .
+
+<http://naomi.org/a10931161person8> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Fink, Bernarda.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Fink, Bernarda."
+   ];
+   bibframe:label "Fink, Bernarda." .
+
+<http://naomi.org/a10931161person9> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Jansons, Mariss, 1943-";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Jansons, Mariss, 1943-"
+   ];
+   bibframe:label "Jansons, Mariss, 1943-" .
+
+<http://naomi.org/a10931161title38> a bibframe:Title;
+   bibframe:label "Symphony no. 3 / Mahler.";
+   bibframe:titleValue "Symphony no. 3" .
+
+<http://naomi.org/a10931161title39> a bibframe:Title;
+   bibframe:label "Title on disc surface may be read as: RCO live";
+   bibframe:titleType "Title on disc surface may be read as:";
+   bibframe:titleValue "RCO live" .
+
+<http://naomi.org/a10931161title40> a bibframe:Title;
+   bibframe:label "Live";
+   bibframe:titleValue "Live" .
+
+<http://naomi.org/a10931161title6> a bibframe:Title;
+   bibframe:partNumber "no. 3";
+   bibframe:titleValue "Symphonies" .
+
+<http://naomi.org/a10931161topic26> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Symphonies.--^A1066579";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Symphonies.--^A1066579";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Symphonies.--^A1066579" .
+
+<http://naomi.org/a10931161topic27> a bibframe:Topic;
+   bibframe:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/fast";
+   bibframe:authorizedAccessPoint "Symphonies";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Symphonies";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/fast>
+   ];
+   bibframe:label "Symphonies";
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierValue "(OCoLC)fst01140873"
+   ] .
+
+<http://naomi.org/a10931161topic28> a bibframe:Topic;
+   bibframe:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bibframe:authorizedAccessPoint "Live sound recordings.--^A2950651";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Live sound recordings.--^A2950651";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bibframe:label "Live sound recordings.--^A2950651" .
+
+<http://naomi.org/a10931161topic29> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Streaming audio";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Streaming audio";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Streaming audio" .
+
+<http://naomi.org/a10931161> a bibframe:Work,
+     bibframe:Audio;
+   bibframe:authorizedAccessPoint "Mahler, Gustav, 1860-1911. Symphonies, no. 3, D minor ^A230732",
+     "finkbernardaa769934jansonsmariss1943a354062koninklijkconcertgebouworkesta1401275grootomroepkoora1772340sacramentskoorbredajongenskoora3068776rijnmondboyschoira3306541mahlergustav18601911a230732symphoniesno3dminora230732gerworkaudio"@x-bf-hash;
+   bibframe:classification <http://naomi.org/a10931161classification31>;
+   bibframe:classificationLcc <http://id.loc.gov/authorities/classification/M1001>;
+   bibframe:contentCategory <http://id.loc.gov/vocabulary/contentTypes/prm>;
+   bibframe:contributor <http://naomi.org/a10931161person8>,
+     <http://naomi.org/a10931161person9>,
+     <http://naomi.org/a10931161organization10>,
+     <http://naomi.org/a10931161organization11>,
+     <http://naomi.org/a10931161organization12>,
+     <http://naomi.org/a10931161organization13>;
+   bibframe:creator <http://naomi.org/a10931161person7>;
+   bibframe:duration "003419",
+     "000954",
+     "001737",
+     "000901",
+     "000420",
+     "002257";
+   bibframe:language <http://id.loc.gov/vocabulary/languages/ger>,
+     <http://naomi.org/a10931161language24>;
+   bibframe:musicKey "D minor";
+   bibframe:note "Recorded live at Concertgebouw Amsterdam on 3-5 Feb. 2010.";
+   bibframe:subject <http://naomi.org/a10931161topic26>,
+     <http://naomi.org/a10931161topic27>,
+     <http://naomi.org/a10931161topic28>,
+     <http://naomi.org/a10931161topic29>;
+   bibframe:workTitle <http://naomi.org/a10931161title6>;
+   mads:authoritativeLabel "Symphonies, no. 3, D minor ^A230732" .

@@ -1,0 +1,309 @@
+@prefix bibframe: <http://bibframe.org/vocab/> .
+@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a10738698annotation31> a bibframe:Annotation;
+   bibframe:annotates <http://naomi.org/a10738698>;
+   bibframe:changeDate "2015-07-22T00:30";
+   bibframe:derivedFrom <http://naomi.org/a10738698.marcxml.xml>;
+   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bibframe:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/oclco>,
+     <http://id.loc.gov/vocabulary/organizations/gk8>,
+     <http://id.loc.gov/vocabulary/organizations/stf>;
+   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/jbl>;
+   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a10738698instance32> a bibframe:Instance,
+     bibframe:Electronic,
+     bibframe:Monograph;
+   bibframe:carrierCategory <http://id.loc.gov/vocabulary/carriers/cd>;
+   bibframe:creditsNote "Credits: Developed by PlatinumGames Inc.";
+   bibframe:dimensions "4 3/4 in. +";
+   bibframe:edition "Wii U.";
+   bibframe:extent "2 computer optical discs : 1 folded sheet.";
+   bibframe:formDesignation "electronic resource.";
+   bibframe:identifier [
+     a bibframe:Identifier;
+     bibframe:identifierQualifier "(Bayonetta 2 disc)";
+     bibframe:identifierValue "WUP-P-AQUE-USA-0"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierQualifier "(Bayonetta disc)";
+     bibframe:identifierValue "WUP-P-AAFE-USA-0"
+   ],  [
+     a bibframe:Identifier;
+     bibframe:identifierQualifier "(container)";
+     bibframe:identifierValue "WUP P BPCE USZ"
+   ];
+   bibframe:illustrationNote "sd., col. ;";
+   bibframe:instanceOf <http://naomi.org/a10738698>;
+   bibframe:instanceTitle <http://naomi.org/a10738698title36>;
+   bibframe:languageNote "Game and container text in English, French, and Spanish.";
+   bibframe:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/c>;
+   bibframe:modeOfIssuance "single unit";
+   bibframe:note "System requirements: Nintendo Wii U systems sold for the Americas only.",
+     "Title from disc label.",
+     "1 player.",
+     "\"Nintendo Network\"--Container.",
+     "\"Includes a disc of the original Bayonetta game, now on Wii U\"--Container.",
+     "ESRB content rating: M, Mature 17+ (blood and gore, intense violence, partial nudity, strong language, suggestive themes).",
+     "Angels and demons stand in her way ... punish enimies with elaborate summons; master new moves with Bayonetta's trademark style; utilize new weapons and skills in battle\"--Container.",
+     "1";
+   bibframe:providerStatement "Redmond, WA : Nintendo of America Inc., c2014.";
+   bibframe:publication [
+     a bibframe:Provider;
+     bibframe:copyrightDate "c2014.";
+     bibframe:providerName [
+       a bibframe:Organization;
+       bibframe:label "Nintendo of America Inc"
+     ];
+     bibframe:providerPlace [
+       a bibframe:Place;
+       bibframe:label "Redmond, WA "
+     ]
+   ];
+   bibframe:publisherNumber [
+     a bibframe:Identifier;
+     bibframe:identifierAssigner "Nintendo of America Inc.";
+     bibframe:identifierQualifier "(container)";
+     bibframe:identifierScheme identifiers:publisherNumber;
+     bibframe:identifierValue "83663A"
+   ];
+   bibframe:soundContent "Sound on medium";
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-M)893916897"
+   ];
+   bibframe:titleStatement "Bayonetta 2";
+   bibframe:upc [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:upc;
+     bibframe:identifierValue "045496903466"
+   ] .
+
+<http://naomi.org/a10738698summary20> a bibframe:Summary;
+   bibframe:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bibframe:annotationBody "Angels and demons stand in her way ... punish enimies with elaborate summons; master new moves with Bayonetta's trademark style; utilize new weapons and skills in battle\"--Container.";
+   bibframe:label "Summary";
+   bibframe:summaryOf <http://naomi.org/a10738698> .
+
+<http://naomi.org/a10738698classification29> a bibframe:Classification;
+   bibframe:classificationEdition "full",
+     "23";
+   bibframe:classificationNumber "793.932";
+   bibframe:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bibframe:label "793.932" .
+
+<http://naomi.org/a10738698intendedaudience12> a bibframe:IntendedAudience;
+   bibframe:audience "ESRB content rating: M, Mature 17+ (blood and gore, intense violence, partial nudity, strong language, suggestive themes)." .
+
+<http://naomi.org/a10738698language16> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:resourcePart "accompanying material other than librettos" .
+
+<http://naomi.org/a10738698language17> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/fre>;
+   bibframe:resourcePart "accompanying material other than librettos" .
+
+<http://naomi.org/a10738698language18> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/spa>;
+   bibframe:resourcePart "accompanying material other than librettos" .
+
+<http://naomi.org/a10738698language19> a bibframe:Language;
+   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:resourcePart "original" .
+
+<http://naomi.org/a10738698organization8> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "PlatinumGames Inc.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "PlatinumGames Inc."
+   ];
+   bibframe:label "PlatinumGames Inc." .
+
+<http://naomi.org/a10738698organization9> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Nintendo of America Inc.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Nintendo of America Inc."
+   ];
+   bibframe:label "Nintendo of America Inc." .
+
+<http://naomi.org/a10738698title36> a bibframe:Title;
+   bibframe:label "Bayonetta 2 [electronic resource].";
+   bibframe:titleValue "Bayonetta 2" .
+
+<http://naomi.org/a10738698title7> a bibframe:Title;
+   bibframe:label "Bayonetta 2 [electronic resource].";
+   bibframe:titleValue "Bayonetta 2" .
+
+<http://naomi.org/a10738698topic22> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Hand-to-hand fighting--Computer games.--^A1024064";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Hand-to-hand fighting--Computer games.--^A1024064";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Hand-to-hand fighting";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Hand-to-hand fighting"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Computer games";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Computer games."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Hand-to-hand fighting--Computer games.--^A1024064" .
+
+<http://naomi.org/a10738698topic23> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Shooting--Computer games.--^A1060792";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Shooting--Computer games.--^A1060792";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Shooting";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Shooting"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Computer games";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Computer games."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Shooting--Computer games.--^A1060792" .
+
+<http://naomi.org/a10738698topic24> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Demonology--Computer games.--^A1010607";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Demonology--Computer games.--^A1010607";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Demonology";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Demonology"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Computer games";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Computer games."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Demonology--Computer games.--^A1010607" .
+
+<http://naomi.org/a10738698topic25> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Angels--Computer games.--^A992367";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Angels--Computer games.--^A992367";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Angels";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Angels"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Computer games";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Computer games."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Angels--Computer games.--^A992367" .
+
+<http://naomi.org/a10738698topic26> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Fantasy games";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Fantasy games";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Fantasy games" .
+
+<http://naomi.org/a10738698topic27> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Video games";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Video games";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Video games" .
+
+<http://naomi.org/a10738698topic28> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Nintendo Wii video games";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Nintendo Wii video games";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Nintendo Wii video games" .
+
+<http://naomi.org/a10738698> a bibframe:Work,
+     bibframe:MovingImage,
+     bibframe:Multimedia,
+     bibframe:Dataset;
+   bibframe:authorizedAccessPoint "PlatinumGames Inc. Bayonetta 2 [electronic resource].Bayonetta 2",
+     "platinumgamesinca3325199nintendoofamericainca1592866bayonetta2engworkmovingimage"@x-bf-hash;
+   bibframe:classification <http://naomi.org/a10738698classification29>;
+   bibframe:contentCategory <http://id.loc.gov/vocabulary/contentTypes/tdi>,
+     <http://id.loc.gov/vocabulary/contentTypes/cop>;
+   bibframe:contributor <http://naomi.org/a10738698organization8>,
+     <http://naomi.org/a10738698organization9>;
+   bibframe:intendedAudience <http://naomi.org/a10738698intendedaudience12>,
+     <http://id.loc.gov/vocabulary/targetAudiences/adu>;
+   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>,
+     <http://id.loc.gov/vocabulary/languages/fre>,
+     <http://id.loc.gov/vocabulary/languages/spa>,
+     <http://naomi.org/a10738698language16>,
+     <http://naomi.org/a10738698language17>,
+     <http://naomi.org/a10738698language18>,
+     <http://naomi.org/a10738698language19>;
+   bibframe:subject <http://naomi.org/a10738698topic22>,
+     <http://naomi.org/a10738698topic23>,
+     <http://naomi.org/a10738698topic24>,
+     <http://naomi.org/a10738698topic25>,
+     <http://naomi.org/a10738698topic26>,
+     <http://naomi.org/a10738698topic27>,
+     <http://naomi.org/a10738698topic28>;
+   bibframe:workTitle <http://naomi.org/a10738698title7> .

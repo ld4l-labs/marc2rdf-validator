@@ -1,0 +1,142 @@
+@prefix bibframe: <http://bibframe.org/vocab/> .
+@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix marcrelators: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a11235362annotation22> a bibframe:Annotation;
+   bibframe:annotates <http://naomi.org/a11235362>;
+   bibframe:changeDate "2015-07-19T00:30";
+   bibframe:derivedFrom <http://naomi.org/a11235362.marcxml.xml>;
+   bibframe:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/pn>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
+   bibframe:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/mvi>;
+   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/gpo>;
+   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a11235362instance23> a bibframe:Instance,
+     bibframe:Electronic,
+     bibframe:Monograph;
+   bibframe:carrierCategory <http://id.loc.gov/vocabulary/carriers/cr>;
+   bibframe:cartographicCoordinates "(W 87⁰36ʹ00ʺ--W 87⁰35ʹ00ʺ/N 41⁰41ʹ00ʺ--N 41⁰40ʹ00ʺ).",
+     "W0873600° W0873500° N0414100° N0414000°";
+   bibframe:cartographicProjection "transverse Mercator projection";
+   bibframe:cartographicScale "Linear scale",
+     "6680",
+     "Scale 1:6,680 ;";
+   bibframe:extent "1 online resource (1 map) : pamphlet (iv, 34 pages).";
+   bibframe:illustrationNote "color +";
+   bibframe:instanceOf <http://naomi.org/a11235362>;
+   bibframe:instanceTitle <http://naomi.org/a11235362title27>;
+   bibframe:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/c>;
+   bibframe:modeOfIssuance "single unit";
+   bibframe:note "Depths shown by gradient tints.",
+     "Title from title screen (viewed on June 22, 2015).",
+     "Includes text, location map, and hydrograph.",
+     "22";
+   bibframe:providerStatement "Reston, Va. : U.S. Department of the Interior, U.S. Geological Survey, 2015.";
+   bibframe:publication [
+     a bibframe:Provider;
+     bibframe:providerDate "2015";
+     bibframe:providerName [
+       a bibframe:Organization;
+       bibframe:label "U.S. Department of the Interior, U.S. Geological Survey"
+     ];
+     bibframe:providerPlace [
+       a bibframe:Place;
+       bibframe:label "Reston, Va. "
+     ]
+   ];
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-M)913773862"
+   ];
+   bibframe:titleStatement "Bathymetric survey of Lake Calumet, Cook County, Illinois" .
+
+<http://naomi.org/a11235362instance24> a bibframe:Instance,
+     bibframe:Electronic;
+   bibframe:instanceOf <http://naomi.org/a11235362>;
+   bibframe:label "Electronic Resource";
+   bibframe:uri <http://purl.fdlp.gov/GPO/gpo58347> .
+
+<http://naomi.org/a11235362classification19> a bibframe:Classification;
+   bibframe:classificationNumber "I 19.91/3:3330";
+   bibframe:classificationScheme "SUDOC" .
+
+<http://naomi.org/a11235362organization10> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Great Lakes Restoration Initiative (U.S.)";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Great Lakes Restoration Initiative (U.S.)"
+   ];
+   bibframe:label "Great Lakes Restoration Initiative (U.S.)" .
+
+<http://naomi.org/a11235362organization11> a bibframe:Organization;
+   bibframe:authorizedAccessPoint "Geological Survey (U.S.)";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Geological Survey (U.S.)"
+   ];
+   bibframe:label "Geological Survey (U.S.)" .
+
+<http://naomi.org/a11235362person7> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Duncker, James J.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Duncker, James J."
+   ];
+   bibframe:label "Duncker, James J." .
+
+<http://naomi.org/a11235362person8> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Johnson, Kevin K.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Johnson, Kevin K."
+   ];
+   bibframe:label "Johnson, Kevin K." .
+
+<http://naomi.org/a11235362person9> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Sharpe, Jennifer B.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sharpe, Jennifer B."
+   ];
+   bibframe:label "Sharpe, Jennifer B." .
+
+<http://naomi.org/a11235362title27> a bibframe:Title;
+   bibframe:label "Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.";
+   bibframe:titleValue "Bathymetric survey of Lake Calumet, Cook County, Illinois" .
+
+<http://naomi.org/a11235362title6> a bibframe:Title;
+   bibframe:label "Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.";
+   bibframe:titleValue "Bathymetric survey of Lake Calumet, Cook County, Illinois" .
+
+<http://naomi.org/a11235362work20> a bibframe:Work;
+   bibframe:authorizedAccessPoint "Scientific investigations map ; 3330";
+   bibframe:title "Scientific investigations map ; 3330" .
+
+<http://naomi.org/a11235362> a bibframe:Work,
+     bibframe:Cartography,
+     bibframe:StillImage;
+   bibframe:authorizedAccessPoint "Duncker, James J. Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.Bathymetric survey of Lake Calumet, Cook County, Illinois",
+     "dunckerjamesja1740404johnsonkevinka2959098sharpejenniferba1434053greatlakesrestorationinitiativeusa3180919geologicalsurveyusa179855bathymetricsurveyoflakecalumetcookcountyillinoisengworkcartography"@x-bf-hash;
+   bibframe:cartographicCoordinates "(W 87⁰36ʹ00ʺ--W 87⁰35ʹ00ʺ/N 41⁰41ʹ00ʺ--N 41⁰40ʹ00ʺ).";
+   bibframe:cartographicProjection "transverse Mercator projection";
+   bibframe:cartographicScale "Scale 1:6,680 ;";
+   bibframe:classification <http://naomi.org/a11235362classification19>;
+   bibframe:classificationLcc <http://id.loc.gov/authorities/classification/G4104.C6>;
+   bibframe:contentCategory <http://id.loc.gov/vocabulary/contentTypes/cri>;
+   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:series <http://naomi.org/a11235362work20>;
+   bibframe:subject <http://id.loc.gov/vocabulary/geographicAreas/n-us-il>;
+   bibframe:workTitle <http://naomi.org/a11235362title6>;
+   marcrelators:ctg <http://naomi.org/a11235362person7>,
+     <http://naomi.org/a11235362person8>,
+     <http://naomi.org/a11235362person9>;
+   marcrelators:isb <http://naomi.org/a11235362organization11>;
+   marcrelators:spn <http://naomi.org/a11235362organization10> .

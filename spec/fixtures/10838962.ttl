@@ -1,0 +1,180 @@
+@prefix bibframe: <http://bibframe.org/vocab/> .
+@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a10838962annotation21> a bibframe:Annotation;
+   bibframe:annotates <http://naomi.org/a10838962>;
+   bibframe:changeDate "2015-06-28T00:30";
+   bibframe:derivedFrom <http://naomi.org/a10838962.marcxml.xml>;
+   bibframe:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
+   bibframe:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/oclco>,
+     <http://id.loc.gov/vocabulary/organizations/utorblw>;
+   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a10838962helditem46> a bibframe:HeldItem;
+   bibframe:holdingFor <http://naomi.org/a10838962instance22>;
+   bibframe:label "G1046.E1 M3 2015";
+   bibframe:shelfMarkLcc "G1046.E1 M3 2015" .
+
+<http://naomi.org/a10838962classification18> a bibframe:Classification;
+   bibframe:classificationEdition "full",
+     "23";
+   bibframe:classificationNumber "912";
+   bibframe:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bibframe:label "912" .
+
+<http://naomi.org/a10838962instance22> a bibframe:Instance,
+     bibframe:Monograph;
+   bibframe:carrierCategory <http://id.loc.gov/vocabulary/carriers/nc>;
+   bibframe:cartographicScale "Scales differ.";
+   bibframe:copyrightDate "©2015";
+   bibframe:dimensions "25 cm.";
+   bibframe:extent "1 atlas (96 pages) :";
+   bibframe:illustrationNote "color illustrations, color maps ;";
+   bibframe:instanceOf <http://naomi.org/a10838962>;
+   bibframe:instanceTitle <http://naomi.org/a10838962title25>;
+   bibframe:isbn10 <http://isbn.example.org/2746735849>;
+   bibframe:isbn13 <http://isbn.example.org/9782746735842>;
+   bibframe:lccn [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:lccn;
+     bibframe:identifierValue "2015588552"
+   ];
+   bibframe:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/n>;
+   bibframe:modeOfIssuance "single unit";
+   bibframe:note "1";
+   bibframe:providerStatement "Paris : Éditions Autrement, 2015",
+     "©2015";
+   bibframe:publication [
+     a bibframe:Provider;
+     bibframe:providerDate "[2015]";
+     bibframe:providerName [
+       a bibframe:Organization;
+       bibframe:label "Éditions Autrement"
+     ];
+     bibframe:providerPlace [
+       a bibframe:Place;
+       bibframe:label "Paris "
+     ]
+   ],  [
+     a bibframe:Provider;
+     bibframe:copyrightDate "©2015"
+   ];
+   bibframe:supplementaryContentNote "Includes bibliographical references (pages 90-93).";
+   bibframe:systemNumber [
+     a bibframe:Identifier;
+     bibframe:identifierScheme identifiers:systemNumber;
+     bibframe:identifierValue "(OCoLC-M)905954594"
+   ];
+   bibframe:titleStatement "Atlas mondial des femmes : les paradoxes de l'émancipation" .
+
+<http://naomi.org/a10838962person10> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Rault, Wilfried.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Rault, Wilfried."
+   ];
+   bibframe:label "Rault, Wilfried." .
+
+<http://naomi.org/a10838962person7> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Marin, Cécile.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Marin, Cécile."
+   ];
+   bibframe:label "Marin, Cécile." .
+
+<http://naomi.org/a10838962person8> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Attané, Isabelle.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Attané, Isabelle."
+   ];
+   bibframe:label "Attané, Isabelle." .
+
+<http://naomi.org/a10838962person9> a bibframe:Person;
+   bibframe:authorizedAccessPoint "Brugeilles, Carole.";
+   bibframe:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Brugeilles, Carole."
+   ];
+   bibframe:label "Brugeilles, Carole." .
+
+<http://naomi.org/a10838962title25> a bibframe:Title;
+   bibframe:label "Atlas mondial des femmes : les paradoxes de l'émancipation / sous la direction de Isabelle Attané, Carole Brugeilles, Wilfried Rault ; cartographie, Cécile Marin.";
+   bibframe:subtitle "les paradoxes de l'émancipation ";
+   bibframe:titleValue "Atlas mondial des femmes :" .
+
+<http://naomi.org/a10838962title6> a bibframe:Title;
+   bibframe:label "Atlas mondial des femmes : les paradoxes de l'émancipation / sous la direction de Isabelle Attané, Carole Brugeilles, Wilfried Rault ; cartographie, Cécile Marin.";
+   bibframe:subtitle "les paradoxes de l'émancipation ";
+   bibframe:titleValue "Atlas mondial des femmes :" .
+
+<http://naomi.org/a10838962topic14> a bibframe:Topic;
+   bibframe:authorizedAccessPoint "Women--Maps.--^A1075472";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Women--Maps.--^A1075472";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Women";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Women"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Maps";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Maps."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bibframe:label "Women--Maps.--^A1075472" .
+
+<http://naomi.org/a10838962topic15> a bibframe:Topic;
+   bibframe:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bibframe:authorizedAccessPoint "World atlases.--^A2950826";
+   bibframe:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "World atlases.--^A2950826";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bibframe:label "World atlases.--^A2950826" .
+
+<http://naomi.org/a10838962work19> a bibframe:Work;
+   bibframe:authorizedAccessPoint "Collection Atlas-monde";
+   bibframe:issn <urn:issn:1272-0151>;
+   bibframe:title "Collection Atlas-monde" .
+
+<http://naomi.org/a10838962> a bibframe:Work,
+     bibframe:Cartography,
+     bibframe:StillImage;
+   bibframe:authorizedAccessPoint "Marin, Cécile. Atlas mondial des femmes : les paradoxes de l'émancipation / sous la direction de Isabelle Attané, Carole Brugeilles, Wilfried Rault ; cartographie, Cécile Marin.Atlas mondial des femmes :les paradoxes de l'émancipation",
+     "attanéisabellea2510855brugeillescarolea2588720raultwilfrieda2421119marincécilea1658232atlasmondialdesfemmeslesparadoxesdelémancipationfreworkcartography"@x-bf-hash;
+   bibframe:cartographicScale "Scales differ.";
+   bibframe:classification <http://naomi.org/a10838962classification18>;
+   bibframe:classificationLcc <http://id.loc.gov/authorities/classification/G3201>,
+     <http://id.loc.gov/authorities/classification/G1046.E1>;
+   bibframe:contentCategory <http://id.loc.gov/vocabulary/contentTypes/cri>;
+   bibframe:contributor <http://naomi.org/a10838962person8>,
+     <http://naomi.org/a10838962person9>,
+     <http://naomi.org/a10838962person10>;
+   bibframe:creator <http://naomi.org/a10838962person7>;
+   bibframe:language <http://id.loc.gov/vocabulary/languages/fre>;
+   bibframe:series <http://naomi.org/a10838962work19>;
+   bibframe:subject <http://naomi.org/a10838962topic14>,
+     <http://naomi.org/a10838962topic15>;
+   bibframe:workTitle <http://naomi.org/a10838962title6> .

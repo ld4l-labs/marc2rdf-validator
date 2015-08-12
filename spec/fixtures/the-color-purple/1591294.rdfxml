@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://naomi.org/a1591294">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Walker, Alice, 1944- The color purple / Alice Walker.The color purple</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://naomi.org/a1591294title5"/>
+      <bf:title xml:lang="x-bf-sort">color purple</bf:title>
+      <bf:creator rdf:resource="http://naomi.org/a1591294person7"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">walkeralice1944a128228colorpurpleengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://naomi.org/a1591294instance11">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://naomi.org/a1591294title14"/>
+      <bf:title xml:lang="x-bf-sort">color purple</bf:title>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/0671526022"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9780671526023"/>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/0671668781"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9780671668785"/>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/0671019074"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9780671019075"/>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/0671458531"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9780671458539"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Washington Square Press</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>New York </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1983, c1982</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>253 p. ;</bf:extent>
+      <bf:dimensions>21 cm.</bf:dimensions>
+      <bf:titleStatement>The color purple</bf:titleStatement>
+      <bf:providerStatement>New York : Washington Square Press, 1983, c1982.</bf:providerStatement>
+      <bf:note>1</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>81048242</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(CStRLIN)CSUG85-B80245</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)22434890</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)273758601</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://naomi.org/a1591294"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://naomi.org/a1591294annotation10">
+      <bf:derivedFrom rdf:resource="http://naomi.org/a1591294.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/rpb"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/orlob"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-07-21T00:30</bf:changeDate>
+      <bf:annotates rdf:resource="http://naomi.org/a1591294"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://naomi.org/a1591294title5">
+      <bf:label>The color purple / Alice Walker.</bf:label>
+      <bf:titleValue>The color purple</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://naomi.org/a1591294person7">
+      <bf:label>Walker, Alice, 1944-</bf:label>
+      <bf:authorizedAccessPoint>Walker, Alice, 1944-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Walker, Alice, 1944-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Title rdf:about="http://naomi.org/a1591294title14">
+      <bf:label>The color purple / Alice Walker.</bf:label>
+      <bf:titleValue>The color purple</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://naomi.org/a11235362">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Cartography"/>
+      <rdf:type rdf:resource="http://bibframe.org/vocab/StillImage"/>
+      <bf:authorizedAccessPoint>Duncker, James J. Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.Bathymetric survey of Lake Calumet, Cook County, Illinois</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://naomi.org/a11235362title6"/>
+      <relators:ctg rdf:resource="http://naomi.org/a11235362person7"/>
+      <relators:ctg rdf:resource="http://naomi.org/a11235362person8"/>
+      <relators:ctg rdf:resource="http://naomi.org/a11235362person9"/>
+      <relators:spn rdf:resource="http://naomi.org/a11235362organization10"/>
+      <relators:isb rdf:resource="http://naomi.org/a11235362organization11"/>
+      <bf:contentCategory rdf:resource="http://id.loc.gov/vocabulary/contentTypes/cri"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:cartographicScale>Scale 1:6,680 ;</bf:cartographicScale>
+      <bf:cartographicProjection>transverse Mercator projection</bf:cartographicProjection>
+      <bf:cartographicCoordinates>(W 87⁰36ʹ00ʺ--W 87⁰35ʹ00ʺ/N 41⁰41ʹ00ʺ--N 41⁰40ʹ00ʺ).</bf:cartographicCoordinates>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us-il"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/G4104.C6"/>
+      <bf:classification rdf:resource="http://naomi.org/a11235362classification19"/>
+      <bf:series rdf:resource="http://naomi.org/a11235362work20"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">dunckerjamesja1740404johnsonkevinka2959098sharpejenniferba1434053greatlakesrestorationinitiativeusa3180919geologicalsurveyusa179855bathymetricsurveyoflakecalumetcookcountyillinoisengworkcartography</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://naomi.org/a11235362work20">
+      <bf:title>Scientific investigations map ; 3330</bf:title>
+      <bf:authorizedAccessPoint>Scientific investigations map ; 3330</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://naomi.org/a11235362instance23">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://naomi.org/a11235362title27"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>U.S. Department of the Interior, U.S. Geological Survey</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Reston, Va. </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>2015</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:cartographicScale>Linear scale</bf:cartographicScale>
+      <bf:cartographicScale>6680</bf:cartographicScale>
+      <bf:cartographicScale>Scale 1:6,680 ;</bf:cartographicScale>
+      <bf:cartographicProjection>transverse Mercator projection</bf:cartographicProjection>
+      <bf:cartographicCoordinates>(W 87⁰36ʹ00ʺ--W 87⁰35ʹ00ʺ/N 41⁰41ʹ00ʺ--N 41⁰40ʹ00ʺ).</bf:cartographicCoordinates>
+      <bf:cartographicCoordinates>W0873600° W0873500° N0414100° N0414000°</bf:cartographicCoordinates>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>1 online resource (1 map) : pamphlet (iv, 34 pages).</bf:extent>
+      <bf:illustrationNote>color +</bf:illustrationNote>
+      <bf:titleStatement>Bathymetric survey of Lake Calumet, Cook County, Illinois</bf:titleStatement>
+      <bf:providerStatement>Reston, Va. : U.S. Department of the Interior, U.S. Geological Survey, 2015.</bf:providerStatement>
+      <bf:note>Depths shown by gradient tints.</bf:note>
+      <bf:note>Title from title screen (viewed on June 22, 2015).</bf:note>
+      <bf:note>Includes text, location map, and hydrograph.</bf:note>
+      <bf:note>22</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)913773862</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/c"/>
+      <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/cr"/>
+      <bf:instanceOf rdf:resource="http://naomi.org/a11235362"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://naomi.org/a11235362instance24">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <bf:label>Electronic Resource</bf:label>
+      <bf:uri rdf:resource="http://purl.fdlp.gov/GPO/gpo58347"/>
+      <bf:instanceOf rdf:resource="http://naomi.org/a11235362"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://naomi.org/a11235362annotation22">
+      <bf:derivedFrom rdf:resource="http://naomi.org/a11235362.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/gpo"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/mvi"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/pn"/>
+      <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/pcc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/isbd"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-07-19T00:30</bf:changeDate>
+      <bf:annotates rdf:resource="http://naomi.org/a11235362"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://naomi.org/a11235362title6">
+      <bf:label>Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.</bf:label>
+      <bf:titleValue>Bathymetric survey of Lake Calumet, Cook County, Illinois</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://naomi.org/a11235362person7">
+      <bf:label>Duncker, James J.</bf:label>
+      <bf:authorizedAccessPoint>Duncker, James J.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Duncker, James J.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a11235362person8">
+      <bf:label>Johnson, Kevin K.</bf:label>
+      <bf:authorizedAccessPoint>Johnson, Kevin K.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Johnson, Kevin K.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a11235362person9">
+      <bf:label>Sharpe, Jennifer B.</bf:label>
+      <bf:authorizedAccessPoint>Sharpe, Jennifer B.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Sharpe, Jennifer B.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Organization rdf:about="http://naomi.org/a11235362organization10">
+      <bf:label>Great Lakes Restoration Initiative (U.S.)</bf:label>
+      <bf:authorizedAccessPoint>Great Lakes Restoration Initiative (U.S.)</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Great Lakes Restoration Initiative (U.S.)</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://naomi.org/a11235362organization11">
+      <bf:label>Geological Survey (U.S.)</bf:label>
+      <bf:authorizedAccessPoint>Geological Survey (U.S.)</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Geological Survey (U.S.)</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Classification rdf:about="http://naomi.org/a11235362classification19">
+      <bf:classificationNumber>I 19.91/3:3330</bf:classificationNumber>
+      <bf:classificationScheme>SUDOC</bf:classificationScheme>
+   </bf:Classification>
+   <bf:Title rdf:about="http://naomi.org/a11235362title27">
+      <bf:label>Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.</bf:label>
+      <bf:titleValue>Bathymetric survey of Lake Calumet, Cook County, Illinois</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

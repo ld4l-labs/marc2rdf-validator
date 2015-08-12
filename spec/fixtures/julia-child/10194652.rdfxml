@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://naomi.org/a10194652">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Child, Julia. Mastering the art of French cooking / by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].Mastering the art of French cooking</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://naomi.org/a10194652title5"/>
+      <bf:creator rdf:resource="http://naomi.org/a10194652person6"/>
+      <bf:contributor rdf:resource="http://naomi.org/a10194652person7"/>
+      <bf:contributor rdf:resource="http://naomi.org/a10194652person8"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:subject rdf:resource="http://naomi.org/a10194652topic10"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-fr"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/TX719"/>
+      <bf:classification rdf:resource="http://naomi.org/a10194652classification13"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">berthollelouisettea110056becksimone19041991a109127childjuliaa123471masteringtheartoffrenchcookingengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://naomi.org/a10194652instance16">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://naomi.org/a10194652title19"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Alfred A. Knopf</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>New York </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>2012, c2001</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>xxxi, 684, xxxii p. :</bf:extent>
+      <bf:dimensions>26 cm.</bf:dimensions>
+      <bf:illustrationNote>ill. ;</bf:illustrationNote>
+      <bf:titleStatement>Mastering the art of French cooking</bf:titleStatement>
+      <bf:edition>50th anniversary ed..</bf:edition>
+      <bf:providerStatement>New York : Alfred A. Knopf, 2012, c2001.</bf:providerStatement>
+      <bf:contentsNote>Soups -- Sauces -- Eggs -- Entreés and luncheon dishes -- Fish -- Poultry -- Meat -- Vegetables -- Cold buffet -- Desserts and cakes.</bf:contentsNote>
+      <bf:note>"The story of "Mastering" at Knopf / by Judith Jones": p. xv-xxi.</bf:note>
+      <bf:note>Includes index.</bf:note>
+      <bf:note>24</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)775593238</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)854216011</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://naomi.org/a10194652"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://naomi.org/a10194652annotation15">
+      <bf:derivedFrom rdf:resource="http://naomi.org/a10194652.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/ifk"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/rcj"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/utorblw"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-03-21T05:00</bf:changeDate>
+      <bf:annotates rdf:resource="http://naomi.org/a10194652"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://naomi.org/a10194652helditem35">
+      <bf:label>TX719 .C454 2012</bf:label>
+      <bf:shelfMarkLcc>TX719 .C454 2012</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://naomi.org/a10194652instance16"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://naomi.org/a10194652title5">
+      <bf:label>Mastering the art of French cooking / by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].</bf:label>
+      <bf:titleValue>Mastering the art of French cooking</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://naomi.org/a10194652person6">
+      <bf:label>Child, Julia.</bf:label>
+      <bf:authorizedAccessPoint>Child, Julia.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Child, Julia.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a10194652person7">
+      <bf:label>Bertholle, Louisette.</bf:label>
+      <bf:authorizedAccessPoint>Bertholle, Louisette.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Bertholle, Louisette.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://naomi.org/a10194652person8">
+      <bf:label>Beck, Simone, 1904-1991.</bf:label>
+      <bf:authorizedAccessPoint>Beck, Simone, 1904-1991.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Beck, Simone, 1904-1991.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Topic rdf:about="http://naomi.org/a10194652topic10">
+      <bf:authorizedAccessPoint>Cooking, French.--^A1007979</bf:authorizedAccessPoint>
+      <bf:label>Cooking, French.--^A1007979</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Topic"/>
+            <madsrdf:authoritativeLabel>Cooking, French.--^A1007979</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Classification rdf:about="http://naomi.org/a10194652classification13">
+      <bf:classificationScheme rdf:resource="http://id.loc.gov/authorities/classSchemes/ddc"/>
+      <bf:classificationNumber>641.5944</bf:classificationNumber>
+      <bf:label>641.5944</bf:label>
+      <bf:classificationEdition>full</bf:classificationEdition>
+      <bf:classificationEdition>22</bf:classificationEdition>
+   </bf:Classification>
+   <bf:Title rdf:about="http://naomi.org/a10194652title19">
+      <bf:label>Mastering the art of French cooking / by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].</bf:label>
+      <bf:titleValue>Mastering the art of French cooking</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>
