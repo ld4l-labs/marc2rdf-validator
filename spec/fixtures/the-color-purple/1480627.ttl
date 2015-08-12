@@ -1,103 +1,103 @@
-@prefix bibframe: <http://bibframe.org/vocab/> .
-@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
 @prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a1480627annotation12> a bibframe:Annotation;
-   bibframe:annotates <http://naomi.org/a1480627>;
-   bibframe:changeDate "2015-08-11T12:00";
-   bibframe:derivedFrom <http://naomi.org/a1480627.marcxml.xml>;
-   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
-   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>,
+<http://naomi.org/a1480627annotation12> a bf:Annotation;
+   bf:annotates <http://naomi.org/a1480627>;
+   bf:changeDate "2015-08-11T12:00";
+   bf:derivedFrom <http://naomi.org/a1480627.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>,
      <http://id.loc.gov/vocabulary/organizations/orlob>;
-   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a1480627helditem36> a bibframe:HeldItem;
-   bibframe:holdingFor <http://naomi.org/a1480627instance13>;
-   bibframe:label "PS3573.A425 C6";
-   bibframe:shelfMarkLcc "PS3573.A425 C6" .
+<http://naomi.org/a1480627helditem36> a bf:HeldItem;
+   bf:holdingFor <http://naomi.org/a1480627instance13>;
+   bf:label "PS3573.A425 C6";
+   bf:shelfMarkLcc "PS3573.A425 C6" .
 
-<http://naomi.org/a1480627classification10> a bibframe:Classification;
-   bibframe:classificationEdition "full",
+<http://naomi.org/a1480627classification10> a bf:Classification;
+   bf:classificationEdition "full",
      "19";
-   bibframe:classificationNumber "813/.54";
-   bibframe:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
-   bibframe:label "813/.54" .
+   bf:classificationNumber "813/.54";
+   bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bf:label "813/.54" .
 
-<http://naomi.org/a1480627instance13> a bibframe:Instance,
-     bibframe:Monograph;
-   bibframe:dimensions "23 cm.";
-   bibframe:extent "245 p. ;";
-   bibframe:instanceOf <http://naomi.org/a1480627>;
-   bibframe:instanceTitle <http://naomi.org/a1480627title16>;
-   bibframe:isbn10 <http://isbn.example.org/0151191530>,
+<http://naomi.org/a1480627instance13> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "23 cm.";
+   bf:extent "245 p. ;";
+   bf:instanceOf <http://naomi.org/a1480627>;
+   bf:instanceTitle <http://naomi.org/a1480627title16>;
+   bf:isbn10 <http://isbn.example.org/0151191530>,
      <http://isbn.example.org/0156028352>,
      <http://isbn.example.org/0156031825>;
-   bibframe:isbn13 <http://isbn.example.org/9780151191536>,
+   bf:isbn13 <http://isbn.example.org/9780151191536>,
      <http://isbn.example.org/9780156028356>,
      <http://isbn.example.org/9780156031820>;
-   bibframe:lccn [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:lccn;
-     bibframe:identifierValue "81048242"
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "81048242"
    ];
-   bibframe:modeOfIssuance "single unit";
-   bibframe:note "1";
-   bibframe:providerStatement "New York : Harcourt Brace Jovanovich, 1982.";
-   bibframe:publication [
-     a bibframe:Provider;
-     bibframe:providerDate "1982";
-     bibframe:providerName [
-       a bibframe:Organization;
-       bibframe:label "Harcourt Brace Jovanovich"
+   bf:modeOfIssuance "single unit";
+   bf:note "1";
+   bf:providerStatement "New York : Harcourt Brace Jovanovich, 1982.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "1982";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Harcourt Brace Jovanovich"
      ];
-     bibframe:providerPlace [
-       a bibframe:Place;
-       bibframe:label "New York "
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "New York "
      ]
    ];
-   bibframe:systemNumber [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(CStRLIN)CSUG82-B16273"
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(CStRLIN)CSUG82-B16273"
    ],  [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(OCoLC-M)8221433"
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)8221433"
    ],  [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(OCoLC-I)273363307"
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)273363307"
    ];
-   bibframe:title "color purple :"@x-bf-sort;
-   bibframe:titleStatement "The color purple : a novel" .
+   bf:title "color purple :"@x-bf-sort;
+   bf:titleStatement "The color purple : a novel" .
 
-<http://naomi.org/a1480627person7> a bibframe:Person;
-   bibframe:authorizedAccessPoint "Walker, Alice, 1944-";
-   bibframe:hasAuthority [
+<http://naomi.org/a1480627person7> a bf:Person;
+   bf:authorizedAccessPoint "Walker, Alice, 1944-";
+   bf:hasAuthority [
      a mads:Authority;
      mads:authoritativeLabel "Walker, Alice, 1944-"
    ];
-   bibframe:label "Walker, Alice, 1944-" .
+   bf:label "Walker, Alice, 1944-" .
 
-<http://naomi.org/a1480627title16> a bibframe:Title;
-   bibframe:label "The color purple : a novel / by Alice Walker.";
-   bibframe:subtitle "a novel ";
-   bibframe:titleValue "The color purple :" .
+<http://naomi.org/a1480627title16> a bf:Title;
+   bf:label "The color purple : a novel / by Alice Walker.";
+   bf:subtitle "a novel ";
+   bf:titleValue "The color purple :" .
 
-<http://naomi.org/a1480627title5> a bibframe:Title;
-   bibframe:label "The color purple : a novel / by Alice Walker.";
-   bibframe:subtitle "a novel ";
-   bibframe:titleValue "The color purple :" .
+<http://naomi.org/a1480627title5> a bf:Title;
+   bf:label "The color purple : a novel / by Alice Walker.";
+   bf:subtitle "a novel ";
+   bf:titleValue "The color purple :" .
 
-<http://naomi.org/a1480627> a bibframe:Work,
-     bibframe:Text;
-   bibframe:authorizedAccessPoint "Walker, Alice, 1944- The color purple : a novel / by Alice Walker.The color purple :a novel",
+<http://naomi.org/a1480627> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Walker, Alice, 1944- The color purple : a novel / by Alice Walker.The color purple :a novel",
      "walkeralice1944a128228colorpurpleanovelengworktext"@x-bf-hash;
-   bibframe:classification <http://naomi.org/a1480627classification10>;
-   bibframe:classificationLcc <http://id.loc.gov/authorities/classification/PS3573.A425>;
-   bibframe:creator <http://naomi.org/a1480627person7>;
-   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bibframe:title "color purple :"@x-bf-sort;
-   bibframe:workTitle <http://naomi.org/a1480627title5> .
+   bf:classification <http://naomi.org/a1480627classification10>;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/PS3573.A425>;
+   bf:creator <http://naomi.org/a1480627person7>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:title "color purple :"@x-bf-sort;
+   bf:workTitle <http://naomi.org/a1480627title5> .

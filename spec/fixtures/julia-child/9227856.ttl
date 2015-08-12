@@ -1,107 +1,107 @@
-@prefix bibframe: <http://bibframe.org/vocab/> .
-@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
 @prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a9227856annotation17> a bibframe:Annotation;
-   bibframe:annotates <http://naomi.org/a9227856>;
-   bibframe:changeDate "2015-06-14T00:30";
-   bibframe:derivedFrom <http://naomi.org/a9227856.marcxml.xml>;
-   bibframe:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
-   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
-   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/ydx>,
+<http://naomi.org/a9227856annotation17> a bf:Annotation;
+   bf:annotates <http://naomi.org/a9227856>;
+   bf:changeDate "2015-06-14T00:30";
+   bf:derivedFrom <http://naomi.org/a9227856.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/ydx>,
      <http://id.loc.gov/vocabulary/organizations/ydxcp>,
      <http://id.loc.gov/vocabulary/organizations/bwx>,
      <http://id.loc.gov/vocabulary/organizations/ukmgb>,
      <http://id.loc.gov/vocabulary/organizations/caonfjc>;
-   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/ncd/dlc>;
-   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/ncd/dlc>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a9227856helditem41> a bibframe:HeldItem;
-   bibframe:holdingFor <http://naomi.org/a9227856instance18>;
-   bibframe:label "PN1992.8.C68 P653 2011";
-   bibframe:shelfMarkLcc "PN1992.8.C68 P653 2011" .
+<http://naomi.org/a9227856helditem41> a bf:HeldItem;
+   bf:holdingFor <http://naomi.org/a9227856instance18>;
+   bf:label "PN1992.8.C68 P653 2011";
+   bf:shelfMarkLcc "PN1992.8.C68 P653 2011" .
 
-<http://naomi.org/a9227856instance18> a bibframe:Instance,
-     bibframe:Monograph;
-   bibframe:contentsNote "The difference she made -- Television cookery B.C. (Before Child) -- French cuisine, American style -- The beginnings of The French chef -- Prepping The French chef -- The success of The French chef -- New beginnings and the ending to The French chef -- Kitchen drama.";
-   bibframe:dimensions "21 cm.";
-   bibframe:extent "xiii, 295 p. :";
-   bibframe:illustrationNote "ill. ;";
-   bibframe:instanceOf <http://naomi.org/a9227856>;
-   bibframe:instanceTitle <http://naomi.org/a9227856title21>;
-   bibframe:isbn10 <http://isbn.example.org/0822348721>,
+<http://naomi.org/a9227856instance18> a bf:Instance,
+     bf:Monograph;
+   bf:contentsNote "The difference she made -- Television cookery B.C. (Before Child) -- French cuisine, American style -- The beginnings of The French chef -- Prepping The French chef -- The success of The French chef -- New beginnings and the ending to The French chef -- Kitchen drama.";
+   bf:dimensions "21 cm.";
+   bf:extent "xiii, 295 p. :";
+   bf:illustrationNote "ill. ;";
+   bf:instanceOf <http://naomi.org/a9227856>;
+   bf:instanceTitle <http://naomi.org/a9227856title21>;
+   bf:isbn10 <http://isbn.example.org/0822348721>,
      <http://isbn.example.org/0822348594>;
-   bibframe:isbn13 <http://isbn.example.org/9780822348726>,
+   bf:isbn13 <http://isbn.example.org/9780822348726>,
      <http://isbn.example.org/9780822348597>;
-   bibframe:lccn [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:lccn;
-     bibframe:identifierValue "2011006505"
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2011006505"
    ];
-   bibframe:modeOfIssuance "single unit";
-   bibframe:note "1";
-   bibframe:providerStatement "Durham N.C. : Duke University Press, 2011.";
-   bibframe:publication [
-     a bibframe:Provider;
-     bibframe:providerDate "2011";
-     bibframe:providerName [
-       a bibframe:Organization;
-       bibframe:label "Duke University Press"
+   bf:modeOfIssuance "single unit";
+   bf:note "1";
+   bf:providerStatement "Durham N.C. : Duke University Press, 2011.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "2011";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Duke University Press"
      ];
-     bibframe:providerPlace [
-       a bibframe:Place;
-       bibframe:label "Durham N.C. "
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Durham N.C. "
      ]
    ];
-   bibframe:supplementaryContentNote "Includes bibliographical references (p. [277]-288) and index.";
-   bibframe:systemNumber [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(OCoLC-M)700406666"
+   bf:supplementaryContentNote "Includes bibliographical references (p. [277]-288) and index.";
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)700406666"
    ],  [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(OCoLC-I)758949302"
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)758949302"
    ];
-   bibframe:titleStatement "Julia Child's The French chef";
-   bibframe:titleVariation <http://naomi.org/a9227856title22> .
+   bf:titleStatement "Julia Child's The French chef";
+   bf:titleVariation <http://naomi.org/a9227856title22> .
 
-<http://naomi.org/a9227856person6> a bibframe:Person;
-   bibframe:authorizedAccessPoint "Polan, Dana B., 1953-";
-   bibframe:hasAuthority [
+<http://naomi.org/a9227856person6> a bf:Person;
+   bf:authorizedAccessPoint "Polan, Dana B., 1953-";
+   bf:hasAuthority [
      a mads:Authority;
      mads:authoritativeLabel "Polan, Dana B., 1953-"
    ];
-   bibframe:label "Polan, Dana B., 1953-" .
+   bf:label "Polan, Dana B., 1953-" .
 
-<http://naomi.org/a9227856person8> a bibframe:Person;
-   bibframe:authorizedAccessPoint "Child, Julia. ^A123471";
-   bibframe:hasAuthority [
+<http://naomi.org/a9227856person8> a bf:Person;
+   bf:authorizedAccessPoint "Child, Julia. ^A123471";
+   bf:hasAuthority [
      a mads:Authority,
        mads:PersonalName;
      mads:authoritativeLabel "Child, Julia. ^A123471";
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Child, Julia. ^A123471" .
+   bf:label "Child, Julia. ^A123471" .
 
-<http://naomi.org/a9227856title21> a bibframe:Title;
-   bibframe:label "Julia Child's The French chef / Dana Polan.";
-   bibframe:titleValue "Julia Child's The French chef" .
+<http://naomi.org/a9227856title21> a bf:Title;
+   bf:label "Julia Child's The French chef / Dana Polan.";
+   bf:titleValue "Julia Child's The French chef" .
 
-<http://naomi.org/a9227856title22> a bibframe:Title;
-   bibframe:label "French chef";
-   bibframe:titleType "portion";
-   bibframe:titleValue "French chef" .
+<http://naomi.org/a9227856title22> a bf:Title;
+   bf:label "French chef";
+   bf:titleType "portion";
+   bf:titleValue "French chef" .
 
-<http://naomi.org/a9227856title5> a bibframe:Title;
-   bibframe:label "Julia Child's The French chef / Dana Polan.";
-   bibframe:titleValue "Julia Child's The French chef" .
+<http://naomi.org/a9227856title5> a bf:Title;
+   bf:label "Julia Child's The French chef / Dana Polan.";
+   bf:titleValue "Julia Child's The French chef" .
 
-<http://naomi.org/a9227856topic10> a bibframe:Topic;
-   bibframe:authorizedAccessPoint "Television cooking shows--Social aspects--United States.--^A2342458";
-   bibframe:hasAuthority [
+<http://naomi.org/a9227856topic10> a bf:Topic;
+   bf:authorizedAccessPoint "Television cooking shows--Social aspects--United States.--^A2342458";
+   bf:hasAuthority [
      a mads:Authority,
        mads:ComplexSubject;
      mads:authoritativeLabel "Television cooking shows--Social aspects--United States.--^A2342458";
@@ -132,11 +132,11 @@
        ]);
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Television cooking shows--Social aspects--United States.--^A2342458" .
+   bf:label "Television cooking shows--Social aspects--United States.--^A2342458" .
 
-<http://naomi.org/a9227856topic11> a bibframe:Topic;
-   bibframe:authorizedAccessPoint "Cooking--Social aspects--United States.--^A2522473";
-   bibframe:hasAuthority [
+<http://naomi.org/a9227856topic11> a bf:Topic;
+   bf:authorizedAccessPoint "Cooking--Social aspects--United States.--^A2522473";
+   bf:hasAuthority [
      a mads:Authority,
        mads:ComplexSubject;
      mads:authoritativeLabel "Cooking--Social aspects--United States.--^A2522473";
@@ -167,11 +167,11 @@
        ]);
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Cooking--Social aspects--United States.--^A2522473" .
+   bf:label "Cooking--Social aspects--United States.--^A2522473" .
 
-<http://naomi.org/a9227856topic12> a bibframe:Topic;
-   bibframe:authorizedAccessPoint "Sex role--United States--History--20th century.--^A2545677";
-   bibframe:hasAuthority [
+<http://naomi.org/a9227856topic12> a bf:Topic;
+   bf:authorizedAccessPoint "Sex role--United States--History--20th century.--^A2545677";
+   bf:hasAuthority [
      a mads:Authority,
        mads:ComplexSubject;
      mads:authoritativeLabel "Sex role--United States--History--20th century.--^A2545677";
@@ -210,34 +210,34 @@
        ]);
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Sex role--United States--History--20th century.--^A2545677" .
+   bf:label "Sex role--United States--History--20th century.--^A2545677" .
 
-<http://naomi.org/a9227856topic9> a bibframe:Topic;
-   bibframe:authorizedAccessPoint "Cooking, French.--^A1007979";
-   bibframe:hasAuthority [
+<http://naomi.org/a9227856topic9> a bf:Topic;
+   bf:authorizedAccessPoint "Cooking, French.--^A1007979";
+   bf:hasAuthority [
      a mads:Authority,
        mads:Topic;
      mads:authoritativeLabel "Cooking, French.--^A1007979";
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Cooking, French.--^A1007979" .
+   bf:label "Cooking, French.--^A1007979" .
 
-<http://naomi.org/a9227856work15> a bibframe:Work;
-   bibframe:authorizedAccessPoint "Spin offs";
-   bibframe:title "Spin offs" .
+<http://naomi.org/a9227856work15> a bf:Work;
+   bf:authorizedAccessPoint "Spin offs";
+   bf:title "Spin offs" .
 
-<http://naomi.org/a9227856> a bibframe:Work,
-     bibframe:Text;
-   bibframe:authorizedAccessPoint "Polan, Dana B., 1953- Julia Child's The French chef / Dana Polan.Julia Child's The French chef",
+<http://naomi.org/a9227856> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Polan, Dana B., 1953- Julia Child's The French chef / Dana Polan.Julia Child's The French chef",
      "polandanab1953a440661juliachildsthefrenchchefengworktext"@x-bf-hash;
-   bibframe:classificationLcc <http://id.loc.gov/authorities/classification/PN1992.8.C68>;
-   bibframe:creator <http://naomi.org/a9227856person6>;
-   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bibframe:series <http://naomi.org/a9227856work15>;
-   bibframe:subject <http://naomi.org/a9227856person8>,
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/PN1992.8.C68>;
+   bf:creator <http://naomi.org/a9227856person6>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:series <http://naomi.org/a9227856work15>;
+   bf:subject <http://naomi.org/a9227856person8>,
      <http://naomi.org/a9227856topic9>,
      <http://naomi.org/a9227856topic10>,
      <http://naomi.org/a9227856topic11>,
      <http://naomi.org/a9227856topic12>,
      <http://id.loc.gov/vocabulary/geographicAreas/n-us>;
-   bibframe:workTitle <http://naomi.org/a9227856title5> .
+   bf:workTitle <http://naomi.org/a9227856title5> .

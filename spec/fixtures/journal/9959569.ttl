@@ -1,87 +1,87 @@
-@prefix bibframe: <http://bibframe.org/vocab/> .
-@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
 @prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a9959569annotation11> a bibframe:Annotation;
-   bibframe:annotates <http://naomi.org/a9959569>;
-   bibframe:changeDate "2015-03-21T05:00";
-   bibframe:derivedFrom <http://naomi.org/a9959569.marcxml.xml>;
-   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/nonisbd>;
-   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+<http://naomi.org/a9959569annotation11> a bf:Annotation;
+   bf:annotates <http://naomi.org/a9959569>;
+   bf:changeDate "2015-03-21T05:00";
+   bf:derivedFrom <http://naomi.org/a9959569.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/nonisbd>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a9959569instance12> a bibframe:Instance,
-     bibframe:Electronic,
-     bibframe:Serial;
-   bibframe:abbreviatedTitle <http://naomi.org/a9959569title16>;
-   bibframe:instanceOf <http://naomi.org/a9959569>;
-   bibframe:instanceTitle <http://naomi.org/a9959569title17>;
-   bibframe:issn [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:issn
+<http://naomi.org/a9959569instance12> a bf:Instance,
+     bf:Electronic,
+     bf:Serial;
+   bf:abbreviatedTitle <http://naomi.org/a9959569title16>;
+   bf:instanceOf <http://naomi.org/a9959569>;
+   bf:instanceTitle <http://naomi.org/a9959569title17>;
+   bf:issn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issn
    ],  [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:issn;
-     bibframe:identifierStatus "incorrect";
-     bibframe:identifierValue "0973-1695"
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issn;
+     bf:identifierStatus "incorrect";
+     bf:identifierValue "0973-1695"
    ];
-   bibframe:modeOfIssuance "serial";
-   bibframe:note "MARCit brief record.",
+   bf:modeOfIssuance "serial";
+   bf:note "MARCit brief record.",
      "22";
-   bibframe:otherPhysicalFormat <http://naomi.org/a9959569instance21>;
-   bibframe:providerStatement "Bangalore Kartik Shanker";
-   bibframe:publication [
-     a bibframe:Provider;
-     bibframe:providerName [
-       a bibframe:Organization;
-       bibframe:label "Kartik Shanker"
+   bf:otherPhysicalFormat <http://naomi.org/a9959569instance21>;
+   bf:providerStatement "Bangalore Kartik Shanker";
+   bf:publication [
+     a bf:Provider;
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Kartik Shanker"
      ];
-     bibframe:providerPlace [
-       a bibframe:Place;
-       bibframe:label "Bangalore"
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Bangalore"
      ]
    ];
-   bibframe:soundContent "Unknown";
-   bibframe:systemNumber [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(SFX)1000000000564301"
+   bf:soundContent "Unknown";
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(SFX)1000000000564301"
    ];
-   bibframe:titleStatement "Indian Ocean Turtle Newsletter" .
+   bf:titleStatement "Indian Ocean Turtle Newsletter" .
 
-<http://naomi.org/a9959569instance21> a bibframe:Instance;
-   bibframe:issn [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:issn;
-     bibframe:identifierValue "0973-1695"
+<http://naomi.org/a9959569instance21> a bf:Instance;
+   bf:issn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issn;
+     bf:identifierValue "0973-1695"
    ];
-   bibframe:title "Indian Ocean Turtle Newsletter" .
+   bf:title "Indian Ocean Turtle Newsletter" .
 
-<http://naomi.org/a9959569title16> a bibframe:Title;
-   bibframe:label "INDIAN OCEAN TURTLE NEWSL";
-   bibframe:titleValue "INDIAN OCEAN TURTLE NEWSL" .
+<http://naomi.org/a9959569title16> a bf:Title;
+   bf:label "INDIAN OCEAN TURTLE NEWSL";
+   bf:titleValue "INDIAN OCEAN TURTLE NEWSL" .
 
-<http://naomi.org/a9959569title17> a bibframe:Title;
-   bibframe:label "Indian Ocean Turtle Newsletter";
-   bibframe:titleValue "Indian Ocean Turtle Newsletter" .
+<http://naomi.org/a9959569title17> a bf:Title;
+   bf:label "Indian Ocean Turtle Newsletter";
+   bf:titleValue "Indian Ocean Turtle Newsletter" .
 
-<http://naomi.org/a9959569title6> a bibframe:Title;
-   bibframe:titleValue "Indian Ocean Turtle Newsletter (Online)" .
+<http://naomi.org/a9959569title6> a bf:Title;
+   bf:titleValue "Indian Ocean Turtle Newsletter (Online)" .
 
-<http://naomi.org/a9959569> a bibframe:Work,
-     bibframe:Text;
-   bibframe:authorizedAccessPoint "Indian Ocean Turtle Newsletter (Online) UNAUTHORIZED",
+<http://naomi.org/a9959569> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Indian Ocean Turtle Newsletter (Online) UNAUTHORIZED",
      "indianoceanturtlenewsletteronlineunauthorizedengworktext"@x-bf-hash;
-   bibframe:issnL [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:issnL
+   bf:issnL [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issnL
    ],  [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:issnL;
-     bibframe:identifierStatus "incorrect";
-     bibframe:identifierValue "0973-1695"
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issnL;
+     bf:identifierStatus "incorrect";
+     bf:identifierValue "0973-1695"
    ];
-   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bibframe:workTitle <http://naomi.org/a9959569title6>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:workTitle <http://naomi.org/a9959569title6>;
    mads:authoritativeLabel "Indian Ocean Turtle Newsletter (Online) UNAUTHORIZED" .

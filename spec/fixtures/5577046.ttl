@@ -1,111 +1,111 @@
-@prefix bibframe: <http://bibframe.org/vocab/> .
-@prefix identifiers: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
 @prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
-@prefix marcrelators: <http://id.loc.gov/vocabulary/relators/> .
+@prefix marc_rels: <http://id.loc.gov/vocabulary/relators/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a5577046annotation14> a bibframe:Annotation;
-   bibframe:annotates <http://naomi.org/a5577046>;
-   bibframe:changeDate "2015-03-21T05:00";
-   bibframe:derivedFrom <http://naomi.org/a5577046.marcxml.xml>;
-   bibframe:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
-   bibframe:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>,
+<http://naomi.org/a5577046annotation14> a bf:Annotation;
+   bf:annotates <http://naomi.org/a5577046>;
+   bf:changeDate "2015-03-21T05:00";
+   bf:derivedFrom <http://naomi.org/a5577046.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>,
      <http://id.loc.gov/vocabulary/organizations/omp>,
      <http://id.loc.gov/vocabulary/organizations/oclcq>,
      <http://id.loc.gov/vocabulary/organizations/lvb>,
      <http://id.loc.gov/vocabulary/organizations/cst>;
-   bibframe:descriptionSource <http://id.loc.gov/vocabulary/organizations/vru>;
-   bibframe:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/vru>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a5577046instance15> a bibframe:Instance,
-     bibframe:Monograph;
-   bibframe:contentsNote "The studio sessions. Move (2:33) ; Jeru (3:13) ; Moon dreams (3:19) ; Venus de Milo (3; 13) ; Budo (2:34) ; Deception (2:49) ; Godchild (3:11) ; Boplicity (3:00) ; Rocker (3:06) ; Israel (2:18) ; Rouge (3:15) ; Darn that dream (3:25) -- The live sessions. Birth of the cool theme (0:19) ; Symphony Sid announces the band (1:02) ; Move (3:40) ; Why do I love you (3:41) ; Godchild (5:51) ; Symphony Sid introduction (0:27) ; S'il vous plait (4:22) ; Moon dreams (5:06) ; Budo (Hallucination) (1:25) ; Darn that dream (4:25) ; Move (4:48) ; Moon dreams (3:46) ; Budo (Hallucinations) (4:23).";
-   bibframe:dimensions "4 3/4 in.";
-   bibframe:extent "1 sound disc :";
-   bibframe:formDesignation "sound recording.";
-   bibframe:illustrationNote "digital ;";
-   bibframe:instanceOf <http://naomi.org/a5577046>;
-   bibframe:instanceTitle <http://naomi.org/a5577046title18>;
-   bibframe:issueNumber [
-     a bibframe:Identifier;
-     bibframe:identifierAssigner "Capitol Jazz";
-     bibframe:identifierScheme identifiers:issueNumber;
-     bibframe:identifierValue "CDP 7243 4 94550 2 3"
+<http://naomi.org/a5577046instance15> a bf:Instance,
+     bf:Monograph;
+   bf:contentsNote "The studio sessions. Move (2:33) ; Jeru (3:13) ; Moon dreams (3:19) ; Venus de Milo (3; 13) ; Budo (2:34) ; Deception (2:49) ; Godchild (3:11) ; Boplicity (3:00) ; Rocker (3:06) ; Israel (2:18) ; Rouge (3:15) ; Darn that dream (3:25) -- The live sessions. Birth of the cool theme (0:19) ; Symphony Sid announces the band (1:02) ; Move (3:40) ; Why do I love you (3:41) ; Godchild (5:51) ; Symphony Sid introduction (0:27) ; S'il vous plait (4:22) ; Moon dreams (5:06) ; Budo (Hallucination) (1:25) ; Darn that dream (4:25) ; Move (4:48) ; Moon dreams (3:46) ; Budo (Hallucinations) (4:23).";
+   bf:dimensions "4 3/4 in.";
+   bf:extent "1 sound disc :";
+   bf:formDesignation "sound recording.";
+   bf:illustrationNote "digital ;";
+   bf:instanceOf <http://naomi.org/a5577046>;
+   bf:instanceTitle <http://naomi.org/a5577046title18>;
+   bf:issueNumber [
+     a bf:Identifier;
+     bf:identifierAssigner "Capitol Jazz";
+     bf:identifierScheme loc_ids:issueNumber;
+     bf:identifierValue "CDP 7243 4 94550 2 3"
    ];
-   bibframe:lccn [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:lccn;
-     bibframe:identifierValue "2001540306"
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2001540306"
    ];
-   bibframe:modeOfIssuance "single unit";
-   bibframe:note "Compact disc.",
+   bf:modeOfIssuance "single unit";
+   bf:note "Compact disc.",
      "Notes, durations, and details of the recordings ([22] p. : ports.) inserted in container.",
      "18";
-   bibframe:performerNote "Jazz ensembles featuring Miles Davis, trumpet ; in part with vocals.";
-   bibframe:providerStatement "Hollywood, Calif : Capitol Jazz, p1998.";
-   bibframe:publication [
-     a bibframe:Provider;
-     bibframe:providerDate "p1998";
-     bibframe:providerName [
-       a bibframe:Organization;
-       bibframe:label "Capitol Jazz"
+   bf:performerNote "Jazz ensembles featuring Miles Davis, trumpet ; in part with vocals.";
+   bf:providerStatement "Hollywood, Calif : Capitol Jazz, p1998.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "p1998";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Capitol Jazz"
      ];
-     bibframe:providerPlace [
-       a bibframe:Place;
-       bibframe:label "Hollywood, Calif "
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Hollywood, Calif "
      ]
    ];
-   bibframe:systemNumber [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(OCoLC-M)39551285"
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)39551285"
    ],  [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:systemNumber;
-     bibframe:identifierValue "(OCoLC-I)276149696"
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)276149696"
    ];
-   bibframe:title "complete birth of the cool"@x-bf-sort;
-   bibframe:titleStatement "The complete birth of the cool";
-   bibframe:upc [
-     a bibframe:Identifier;
-     bibframe:identifierScheme identifiers:upc;
-     bibframe:identifierValue "724349455023"
+   bf:title "complete birth of the cool"@x-bf-sort;
+   bf:titleStatement "The complete birth of the cool";
+   bf:upc [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:upc;
+     bf:identifierValue "724349455023"
    ] .
 
-<http://naomi.org/a5577046language10> a bibframe:Language;
-   bibframe:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
-   bibframe:resourcePart "accompanying material other than librettos" .
+<http://naomi.org/a5577046language10> a bf:Language;
+   bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a5577046person7> a bibframe:Person;
-   bibframe:authorizedAccessPoint "Davis, Miles";
-   bibframe:hasAuthority [
+<http://naomi.org/a5577046person7> a bf:Person;
+   bf:authorizedAccessPoint "Davis, Miles";
+   bf:hasAuthority [
      a mads:Authority;
      mads:authoritativeLabel "Davis, Miles"
    ];
-   bibframe:label "Davis, Miles" .
+   bf:label "Davis, Miles" .
 
-<http://naomi.org/a5577046title18> a bibframe:Title;
-   bibframe:label "The complete birth of the cool [sound recording].";
-   bibframe:titleValue "The complete birth of the cool" .
+<http://naomi.org/a5577046title18> a bf:Title;
+   bf:label "The complete birth of the cool [sound recording].";
+   bf:titleValue "The complete birth of the cool" .
 
-<http://naomi.org/a5577046title5> a bibframe:Title;
-   bibframe:label "The complete birth of the cool [sound recording].";
-   bibframe:titleValue "The complete birth of the cool" .
+<http://naomi.org/a5577046title5> a bf:Title;
+   bf:label "The complete birth of the cool [sound recording].";
+   bf:titleValue "The complete birth of the cool" .
 
-<http://naomi.org/a5577046topic11> a bibframe:Topic;
-   bibframe:authorizedAccessPoint "Trumpet music (Jazz)--^A1070197";
-   bibframe:hasAuthority [
+<http://naomi.org/a5577046topic11> a bf:Topic;
+   bf:authorizedAccessPoint "Trumpet music (Jazz)--^A1070197";
+   bf:hasAuthority [
      a mads:Authority,
        mads:Topic;
      mads:authoritativeLabel "Trumpet music (Jazz)--^A1070197";
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Trumpet music (Jazz)--^A1070197" .
+   bf:label "Trumpet music (Jazz)--^A1070197" .
 
-<http://naomi.org/a5577046topic12> a bibframe:Topic;
-   bibframe:authorizedAccessPoint "Jazz--1941-1950.--^A1089336";
-   bibframe:hasAuthority [
+<http://naomi.org/a5577046topic12> a bf:Topic;
+   bf:authorizedAccessPoint "Jazz--1941-1950.--^A1089336";
+   bf:hasAuthority [
      a mads:Authority,
        mads:ComplexSubject;
      mads:authoritativeLabel "Jazz--1941-1950.--^A1089336";
@@ -128,17 +128,17 @@
        ]);
      mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
    ];
-   bibframe:label "Jazz--1941-1950.--^A1089336" .
+   bf:label "Jazz--1941-1950.--^A1089336" .
 
-<http://naomi.org/a5577046> a bibframe:Work,
-     bibframe:Audio;
-   bibframe:authorizedAccessPoint "Davis, Miles The complete birth of the cool [sound recording].The complete birth of the cool",
+<http://naomi.org/a5577046> a bf:Work,
+     bf:Audio;
+   bf:authorizedAccessPoint "Davis, Miles The complete birth of the cool [sound recording].The complete birth of the cool",
      "davismilesa26026completebirthofthecoolengworkaudio"@x-bf-hash;
-   bibframe:language <http://id.loc.gov/vocabulary/languages/eng>,
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>,
      <http://naomi.org/a5577046language10>;
-   bibframe:note "Recorded between Sept. 4, 1948 and Mar. 9, 1950.";
-   bibframe:subject <http://naomi.org/a5577046topic11>,
+   bf:note "Recorded between Sept. 4, 1948 and Mar. 9, 1950.";
+   bf:subject <http://naomi.org/a5577046topic11>,
      <http://naomi.org/a5577046topic12>;
-   bibframe:title "complete birth of the cool"@x-bf-sort;
-   bibframe:workTitle <http://naomi.org/a5577046title5>;
-   marcrelators:prf <http://naomi.org/a5577046person7> .
+   bf:title "complete birth of the cool"@x-bf-sort;
+   bf:workTitle <http://naomi.org/a5577046title5>;
+   marc_rels:prf <http://naomi.org/a5577046person7> .
