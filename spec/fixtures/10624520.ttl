@@ -1,0 +1,824 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix marc_rels: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a10624520annotation127> a bf:Annotation;
+   bf:annotates <http://naomi.org/a10624520>;
+   bf:changeDate "2015-03-22T00:30";
+   bf:derivedFrom <http://naomi.org/a10624520.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/utorblw>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/stf>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a10624520helditem167> a bf:HeldItem;
+   bf:heldBy "CSt";
+   bf:holdingFor <http://naomi.org/a10624520instance128>;
+   bf:label "";
+   bf:shelfMark "1";
+   bf:subLocation "GREEN" .
+
+<http://naomi.org/a10624520summary65> a bf:Summary;
+   bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:annotationBody "\"The Keystone Film Company, under the guidance of pioneering producer and director Mack Sennett, was the birthplace of classic American slapstick comedy.  This historic studio was at one time home to nearly every major silent screen comedian! Now, for the first time, thanks to FlickerAlley, CineMuseum, and Keystone FIlms, 50 of the best surviving Sennett comedies have been gathered from around the world to be fully restored and digitally remastered in HD.  These new editions have been painstakingly reconstructed by CineMuseum, LLC using original 35mm nitrate, archival negatives, preservation materials, and sometimes the lone known surviving film print, from the collections of the Library of Congress, the Museum of Modern Art, The Academy of Motion Picture Arts and Sciences, Blackhawk FIlms, Lobster Films, the Richard M. Roberts Collection, Gierucki Studios and dozens of privately held archives.\"--Container.";
+   bf:label "Summary";
+   bf:summaryOf <http://naomi.org/a10624520> .
+
+<http://naomi.org/a10624520instance128> a bf:Instance,
+     bf:Monograph;
+   bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/vd>;
+   bf:contentsNote "disc 1. The curtain pole (1909) / American Biograph ; director, D.W. Griffith, author, Mack Sennett ; cast: Mack Sennett, Harry Solter, Florence Lawrence (10:02). The manicure lady (1911) / American Biograph ; director, Mack Sennett ; author, Edwin August ; cast: Mack Sennett, Vivian Prescott, Eddie Dillon, Kate Bruce (11:22). A dash through the clouds (1912) / American Biograph ; director, Mack Sennett ; author, Dell Henderson ; cast: Mabel Normand, Fred Mace, Philip Parmalee (10:16 min.). The water nymph (1912) / Keystone ; director, Mack Sennett ; cast: Mabel Normand; Mack Sennett, Ford Sterling (8:20). A grocery clerk's romance (1912) / Keystone ; director, Mack Sennett ; cast: Ford Sterling, James C. Morton (7:38). On his wedding day (1913) / Keystone ; director, Mack Sennett ; cast: Ford Sterling, Dot Farley, Nick Cogley, Mabel Normand (6:16). Bangville Police (1913) / Keystone ; director, Henry \"Pathe\" Lehrman ; cast: Fred Mace, Mabel Normand, Nick Cogley, Dot Farley (6:27). A fishy affair (1913) / Keystone ; director, Mack Sennett ; cast, Ford Sterling, Laura Oakley, Nick Cogley, Dot Farley (7:10). The speed kings - Earl Cooper and Teddy Tetzlaff (1913) / director, Wilfred Lucas ; cast: Mabel Normand, Ford Sterling, Earl Cooper, Teddy Tezlaff, Roscoe \"Fatty\" Arbuckle, Barney Oldfield (8:33). A thief catcher (1914) / Keystone ; director, Ford Sterling ; cast: Ford Sterling, Mack Swain, Edgar Kennedy, Charlie Chaplin (8:00). The great toe mystery (1914) / Keystone ; cast: Charles Parrott (aka Charley Chase), Alice Howell (10:51). Recreation (1914) / Keystone; director, Charles Chaplin ; cast: Charlie Chaplin, Peggy Page, Edwin Frazee (5:24). Shot in the excitement (1914) / Keystone ; cast: Alice Howell, Al St. John, Rube Miller, Josef Swickard (11:49). The noise of bombs (1914) / cast: Charlie Murray, Edgar Kennedy, Lucille Ward, Josef Swickard, Charles Parrott (11:33). Ambrose's first falsehood (1914) / Keystone ; director, F. Richard Jones ; cast: Mack Swain, Minta Durfee, Edgar Kennedy, Charles Parrott (11:14). A bird's a bird (1915) / Keystone; cast: Chester Conklin, Minta Durfee, Alice Davenport (12:40). Gussle's day of rest (1915) / Keystone ; director, F. Richard Jones ; cast: Syd Chaplin, Slim Summerville, Phyllis Allen (21:47). Do-re-mi-boom! (1915) / Keystone ; director, Walter Wright ; cast: Chester Conklin, Charles Arling, Harry Booker, Fred Fishback (11:40). A lover's lost control (1915) / Keystone ; director, Syd Chaplin and Charles Avery ; cast: Syd Chaplin, Phyllis Allen (22:20). A submarine pirate (1915) / Triangle Keystone ; director (Charles Avery and Syd Chaplin); cast: Syd Chaplin, Phyllis Allen, Wesley Ruggles, Louise Fazenda (24:23). Fatty and Mabel adrift (1916) / Triangle Keystone; director, Roscoe Arbuckle ; cast: Roscoe \"Fatty\" Arbuckle, Mabel Normand, Al St. John, Luke (30:38). His bitter pill (1916) / Triangle Keystone ; director, Fred Fishback; cast: Mack Swain, Louella Maxam, Edgar Kennedy (19:35). Madcap Ambrose (1916) / Triangle Keystone ; director, Fred Fishback; cast: Mack Swain, Polly Moran, Edgar Kennedy (21:44). Teddy at the throttle (1915) / Keystone Triangle ; director, Clarence Badger ; cast: Bobby Vernon, Gloria Swanson, Wallace Beery, Teddy (26:36). Bonus features: The water nymph and bathing beauties (outtakes and rushes, 9:01); The Mack Sennett Studio (1:03); The Crossroads of New York trailer (1:22); The Sennett Story by Joe Adamson.",
+     "-- disc 2. Her torpedoed love (1917) / Triangle Keystone ; director, Frank C. Griffin ; cast: Louise Fazenda, Ford Sterling (21:08). A clever dummy (1917) / Triangle Keystone ; director, Herman C. Raymaker ; cast: Ben Turpin, Chester Conklin, Wallace Beery (19:23). Hearts and flowers (1919) / Mack Sennett Comedies ; director, Eddie Cline ; cast: Louise Fazenda, Ford Sterling, Phyllis Haver (21:18). Down on the farm (1920) / Mack Sennett Comedies / director, Erle C. Kenton and Ray Grey; cast: Louise Fazenda, Bert Roach, James Finlayson; Harry Gribbon, Marie Prevost, Ben Turpin, Teddy, Pepper (52:02). Don't weaken (1920) / Mack Sennett Comedies ; director, Mal St. Clair ; cast: Charlie Murray, Ford Sterlng, James Finlayson (21:27). Gymnasium Jim (1922) / Mack Sennett Comedies ; director, Roy Del Ruth; cast: Billy Bevan, Mildred June; Kewpie Morgan (19:19). The Extra girl (1923) / Mack Sennet Comedies ; director: F. Richard Jones ; cast: Mabel Normand, Ralph Graves, George O. Nichols; Vernon Dent, Harry Gribbon (1:12:44). The dare-devil (1923) / Mack Sennett Comedies ; director, Del Lord ; cast: Ben Turpin, Harry Gribbon, Kewpie Morgan, Madeline Hurlock (19:56). Black Oxfords (1924) / Mack Sennett Comedies ; director, Del Lord ; cast: Sid Smith, Vernon Dent, Marceline Day (19:32). Galloping Bungalows (1924) / Mack Sennett Comedies ; director, Del Lord; cast: Billy Bevan, Sid Smith, Natalie Kingston (19:18). His marriage wow (1925) / Mack Sennett Comedies ; director, Harry Edwards; cast: Harry Langdon, Natalie Kingston, Vernon Dent. Bonus features: Mack Sennett on the air (Textaco Star Theatre, 1939, 30:00, Lawrence Welk Show 1949, 3:00), Meet the stars: Stars past and present (dedication of the Mabel Normand soundstage, 1941, 6:39), Erskine Johnson's Hollywood reel (1950, 2:57); Mack Sennett's 70th birthday party (1950, 5:18).",
+     "-- disc 3. Super-hooper-dyne lizzies (1925) / Mack Sennett Comedies ; director, Del Lord ; cast: Billy Bevan, Andy Clyde (17:47). A rainy knight (1925) / Mack Sennett Comedies ; director, Lloyd Bacon ; cast: Raymond McKee, Ruth Taylor (19:55). Saturday afternoon (1926) / Mack Sennett Comedies ; director, Harry Edwards ; cast: Harry Langdon, Ruth Hiatt, Vernon Dent (27:00). A sea dog's tale (1926) / Mack Sennett Comedies ; director, Del Lord ; cast: Billy Bevan, Madeline Hurlock, Andy Clyde, Vernon Dent (11:15). Hoboken to Hollywood (1926) / Mack Sennett Comedies ; director, Del Lord ; cast: Billy Bevan, Vernon Dent, Thelma Hill (20:22). Ice cold cocos (1926) / Mack Sennett Comedies ; director, Del Lord ; cast: Billy Bevan, Andy Clyde, Madeline Hurlock, Kewpie Morgan, Louise Carver (18:34). Broke in China (1927) / Mack Sennett Comedies ; director, Eddie Cline ; cast: Ben Turpin, Louise Carver, Alice Belcher, Ruth Taylor, Andy Clyde (20:21). The pride of Pikeville (1927) / Mack Sennett Comedies ; director, Alf Goulding ; cast: Ben Turpin, Thelma Hill, Ruth Taylor, Andy Clyde, Vernon Dent (20:21). Fiddlesticks (1927) / Mack Sennett Comedies ; director, Harry Edwards ; cast: Harry Langdon, Vernon Dent, Tiny Ward (20:46). Run, girl, run (1928) / Mack Sennett Comedies ; director, Alf Goulding ; cast: Daphne Pollard, Carole Lombard, Lionel Belmore (19:53, color sequences). Taxi for two (1928) / Mack Sennett Comedies ; director, Del Lord ; cast: Jack Cooper, Virginia Vance, Otto Fries, Andy Clyde (16:47). The bluffer (1930) / a Mack Sennett Brevity ; director, Eddie Cline ; cast: Andy Clyde, Patsy O'Leary (11:06, color) ; The Dentist (1932) / a Mack Sennett Star Comedy ; director, Leslie Pearce ; cast: W.C. Fields, Marjorie \"Babe\" Kane, Elise Cavanna, Bud Jamison, Dorothy Granger (21:47). Don't play bridge with your wife (1933) / a Mack Sennett Star Comedy ; director, Leslie Pearce ; cast: Nora Lane, Cornelius Keefe, Grady Sutton, Marjorie Bebe, Bud Jamison (17:57). The fatal glass of beer (1933) / a Mack Sennett Star Comedy ; director, Clyde Bruckman ; cast: W.C. Fields, Rosemary Theby, George Chandler, Rychard Cramer (18:56). Bonus features: This is your life: Mack Sennett (1958, 28:32) ; People in the news - Keystone Cops reunion (1962, 1:09)";
+   bf:copyrightDate "©2014";
+   bf:creditsNote "Credits: Films produced by Mack Sennett for the Keystone Film Company and Mack Sennett Comedies; produced for video by CineMuseum, LLC and Keystone Films, LLC; restorations compiled and directed by Paul E. Gierucki; original scores composed and performed by Philip Carli, Ben Model, Dennis Scott, Andrew Simpson and Donald Sosin.";
+   bf:dimensions "4 3/4 in.";
+   bf:edition "Deluxe Blu-Ray Edition.";
+   bf:extent "3 videodiscs (16 hrs., 45 min.) :";
+   bf:illustrationNote "sound, chiefly black and white ;";
+   bf:instanceOf <http://naomi.org/a10624520>;
+   bf:instanceTitle <http://naomi.org/a10624520title131>;
+   bf:isbn10 <http://isbn.example.org/1893967875>;
+   bf:isbn13 <http://isbn.example.org/9781893967878>;
+   bf:languageNote "Chiefly silent films with English intertitles and musical accompaniment, four films and television program are sound films in English.";
+   bf:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/v>;
+   bf:modeOfIssuance "single unit";
+   bf:note "Accompanying booklet (27 pages : illustrations ; 16 cm.) laid in container has credits and notes on each film.",
+     "Disc characteristics:  Blu-ray.",
+     "Originally produced in the United States as a motion pictures and released between 1909 and 1933.",
+     "Full screen 1.33:1.",
+     "Bonus mateials include commentary tracks by noted film historians, The Sennett Story by Joe Adamson, newsreels, trailers, outtakes, rushes, Sennett-Color films, dedication of the Mabel Normand soundstage; This is your life: Mack Sennett television episode.",
+     "\"The Keystone Film Company, under the guidance of pioneering producer and director Mack Sennett, was the birthplace of classic American slapstick comedy.  This historic studio was at one time home to nearly every major silent screen comedian! Now, for the first time, thanks to FlickerAlley, CineMuseum, and Keystone FIlms, 50 of the best surviving Sennett comedies have been gathered from around the world to be fully restored and digitally remastered in HD.  These new editions have been painstakingly reconstructed by CineMuseum, LLC using original 35mm nitrate, archival negatives, preservation materials, and sometimes the lone known surviving film print, from the collections of the Library of Congress, the Museum of Modern Art, The Academy of Motion Picture Arts and Sciences, Blackhawk FIlms, Lobster Films, the Richard M. Roberts Collection, Gierucki Studios and dozens of privately held archives.\"--Container.",
+     "1";
+   bf:providerStatement "United States : Flicker Alley, 2014",
+     "©2014";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "[2014]";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Flicker Alley"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "United States "
+     ]
+   ],  [
+     a bf:Provider;
+     bf:copyrightDate "©2014"
+   ];
+   bf:soundContent "Sound on medium",
+     "Videodisc";
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)892494482"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)892580709"
+   ];
+   bf:title "Mack Sennett collection"@x-bf-sort;
+   bf:titleStatement "The Mack Sennett collection.";
+   bf:upc [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:upc;
+     bf:identifierValue "617311678790"
+   ];
+   bf:videorecordingNumber [
+     a bf:Identifier;
+     bf:identifierAssigner "Flicker Alley";
+     bf:identifierScheme loc_ids:videorecordingNumber;
+     bf:identifierValue "FA0035"
+   ] .
+
+<http://naomi.org/a10624520organization41> a bf:Organization;
+   bf:authorizedAccessPoint "Keystone Film Company";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Keystone Film Company"
+   ];
+   bf:label "Keystone Film Company" .
+
+<http://naomi.org/a10624520organization42> a bf:Organization;
+   bf:authorizedAccessPoint "Mack Sennett Comedies (Firm)";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Mack Sennett Comedies (Firm)"
+   ];
+   bf:label "Mack Sennett Comedies (Firm)" .
+
+<http://naomi.org/a10624520person10> a bf:Person;
+   bf:authorizedAccessPoint "Sennett, Mack, 1880-1960";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sennett, Mack, 1880-1960"
+   ];
+   bf:label "Sennett, Mack, 1880-1960" .
+
+<http://naomi.org/a10624520person11> a bf:Person;
+   bf:authorizedAccessPoint "Normand, Mabel, 1894-1930";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Normand, Mabel, 1894-1930"
+   ];
+   bf:label "Normand, Mabel, 1894-1930" .
+
+<http://naomi.org/a10624520person12> a bf:Person;
+   bf:authorizedAccessPoint "Sterling, Ford, 1882-1939";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sterling, Ford, 1882-1939"
+   ];
+   bf:label "Sterling, Ford, 1882-1939" .
+
+<http://naomi.org/a10624520person13> a bf:Person;
+   bf:authorizedAccessPoint "Arbuckle, Roscoe, 1887-1933";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Arbuckle, Roscoe, 1887-1933"
+   ];
+   bf:label "Arbuckle, Roscoe, 1887-1933" .
+
+<http://naomi.org/a10624520person14> a bf:Person;
+   bf:authorizedAccessPoint "Arbuckle, Roscoe, 1887-1933";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Arbuckle, Roscoe, 1887-1933"
+   ];
+   bf:label "Arbuckle, Roscoe, 1887-1933" .
+
+<http://naomi.org/a10624520person15> a bf:Person;
+   bf:authorizedAccessPoint "Chaplin, Charlie, 1889-1977";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Chaplin, Charlie, 1889-1977"
+   ];
+   bf:label "Chaplin, Charlie, 1889-1977" .
+
+<http://naomi.org/a10624520person16> a bf:Person;
+   bf:authorizedAccessPoint "Chaplin, Charlie, 1889-1977";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Chaplin, Charlie, 1889-1977"
+   ];
+   bf:label "Chaplin, Charlie, 1889-1977" .
+
+<http://naomi.org/a10624520person17> a bf:Person;
+   bf:authorizedAccessPoint "Chaplin, Syd, 1885-1965";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Chaplin, Syd, 1885-1965"
+   ];
+   bf:label "Chaplin, Syd, 1885-1965" .
+
+<http://naomi.org/a10624520person18> a bf:Person;
+   bf:authorizedAccessPoint "Chaplin, Syd, 1885-1965";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Chaplin, Syd, 1885-1965"
+   ];
+   bf:label "Chaplin, Syd, 1885-1965" .
+
+<http://naomi.org/a10624520person19> a bf:Person;
+   bf:authorizedAccessPoint "Swain, Mack, 1876-1935";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Swain, Mack, 1876-1935"
+   ];
+   bf:label "Swain, Mack, 1876-1935" .
+
+<http://naomi.org/a10624520person20> a bf:Person;
+   bf:authorizedAccessPoint "Conklin, Chester, 1888-1971";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Conklin, Chester, 1888-1971"
+   ];
+   bf:label "Conklin, Chester, 1888-1971" .
+
+<http://naomi.org/a10624520person21> a bf:Person;
+   bf:authorizedAccessPoint "Fazenda, Louise, 1895-1962";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Fazenda, Louise, 1895-1962"
+   ];
+   bf:label "Fazenda, Louise, 1895-1962" .
+
+<http://naomi.org/a10624520person22> a bf:Person;
+   bf:authorizedAccessPoint "Turpin, Ben, 1874-1940";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Turpin, Ben, 1874-1940"
+   ];
+   bf:label "Turpin, Ben, 1874-1940" .
+
+<http://naomi.org/a10624520person23> a bf:Person;
+   bf:authorizedAccessPoint "Kennedy, Edgar, 1890-1948";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kennedy, Edgar, 1890-1948"
+   ];
+   bf:label "Kennedy, Edgar, 1890-1948" .
+
+<http://naomi.org/a10624520person24> a bf:Person;
+   bf:authorizedAccessPoint "Fishback, Fred";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Fishback, Fred"
+   ];
+   bf:label "Fishback, Fred" .
+
+<http://naomi.org/a10624520person25> a bf:Person;
+   bf:authorizedAccessPoint "Beery, Wallace";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Beery, Wallace"
+   ];
+   bf:label "Beery, Wallace" .
+
+<http://naomi.org/a10624520person26> a bf:Person;
+   bf:authorizedAccessPoint "Kenton, Erle C., 1896-1980";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kenton, Erle C., 1896-1980"
+   ];
+   bf:label "Kenton, Erle C., 1896-1980" .
+
+<http://naomi.org/a10624520person27> a bf:Person;
+   bf:authorizedAccessPoint "Finlayson, James, 1887-1953";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Finlayson, James, 1887-1953"
+   ];
+   bf:label "Finlayson, James, 1887-1953" .
+
+<http://naomi.org/a10624520person28> a bf:Person;
+   bf:authorizedAccessPoint "Gribbon, Harry, 1885-1961";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Gribbon, Harry, 1885-1961"
+   ];
+   bf:label "Gribbon, Harry, 1885-1961" .
+
+<http://naomi.org/a10624520person29> a bf:Person;
+   bf:authorizedAccessPoint "St. Clair, Malcolm, 1897-1952";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "St. Clair, Malcolm, 1897-1952"
+   ];
+   bf:label "St. Clair, Malcolm, 1897-1952" .
+
+<http://naomi.org/a10624520person30> a bf:Person;
+   bf:authorizedAccessPoint "Lord, Del, 1894-1970";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Lord, Del, 1894-1970"
+   ];
+   bf:label "Lord, Del, 1894-1970" .
+
+<http://naomi.org/a10624520person31> a bf:Person;
+   bf:authorizedAccessPoint "Edwards, Harry, 1888-1952";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Edwards, Harry, 1888-1952"
+   ];
+   bf:label "Edwards, Harry, 1888-1952" .
+
+<http://naomi.org/a10624520person32> a bf:Person;
+   bf:authorizedAccessPoint "Langdon, Harry, 1884-1944";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Langdon, Harry, 1884-1944"
+   ];
+   bf:label "Langdon, Harry, 1884-1944" .
+
+<http://naomi.org/a10624520person33> a bf:Person;
+   bf:authorizedAccessPoint "Dent, Vernon, 1895-1963";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Dent, Vernon, 1895-1963"
+   ];
+   bf:label "Dent, Vernon, 1895-1963" .
+
+<http://naomi.org/a10624520person34> a bf:Person;
+   bf:authorizedAccessPoint "Bevan, Billy, 1887-1957";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Bevan, Billy, 1887-1957"
+   ];
+   bf:label "Bevan, Billy, 1887-1957" .
+
+<http://naomi.org/a10624520person35> a bf:Person;
+   bf:authorizedAccessPoint "Jones, Richard, 1893-1930";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Jones, Richard, 1893-1930"
+   ];
+   bf:label "Jones, Richard, 1893-1930" .
+
+<http://naomi.org/a10624520person36> a bf:Person;
+   bf:authorizedAccessPoint "Cline, Edward, 1892-1961";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Cline, Edward, 1892-1961"
+   ];
+   bf:label "Cline, Edward, 1892-1961" .
+
+<http://naomi.org/a10624520person37> a bf:Person;
+   bf:authorizedAccessPoint "Goulding, Alfred";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Goulding, Alfred"
+   ];
+   bf:label "Goulding, Alfred" .
+
+<http://naomi.org/a10624520person38> a bf:Person;
+   bf:authorizedAccessPoint "Hurlock, Madeline, 1899-1989";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Hurlock, Madeline, 1899-1989"
+   ];
+   bf:label "Hurlock, Madeline, 1899-1989" .
+
+<http://naomi.org/a10624520person39> a bf:Person;
+   bf:authorizedAccessPoint "Lombard, Carole, 1908-1942";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Lombard, Carole, 1908-1942"
+   ];
+   bf:label "Lombard, Carole, 1908-1942" .
+
+<http://naomi.org/a10624520person40> a bf:Person;
+   bf:authorizedAccessPoint "Fields, W. C. (William Claude), 1880-1946";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Fields, W. C. (William Claude), 1880-1946"
+   ];
+   bf:label "Fields, W. C. (William Claude), 1880-1946" .
+
+<http://naomi.org/a10624520person66> a bf:Person;
+   bf:authorizedAccessPoint "Sennett, Mack, 1880-1960. ^A507605";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:PersonalName;
+     mads:authoritativeLabel "Sennett, Mack, 1880-1960. ^A507605";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Sennett, Mack, 1880-1960. ^A507605" .
+
+<http://naomi.org/a10624520person7> a bf:Person;
+   bf:authorizedAccessPoint "Sennett, Mack, 1880-1960";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sennett, Mack, 1880-1960"
+   ];
+   bf:label "Sennett, Mack, 1880-1960" .
+
+<http://naomi.org/a10624520person8> a bf:Person;
+   bf:authorizedAccessPoint "Sennett, Mack, 1880-1960";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sennett, Mack, 1880-1960"
+   ];
+   bf:label "Sennett, Mack, 1880-1960" .
+
+<http://naomi.org/a10624520person9> a bf:Person;
+   bf:authorizedAccessPoint "Sennett, Mack, 1880-1960";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sennett, Mack, 1880-1960"
+   ];
+   bf:label "Sennett, Mack, 1880-1960" .
+
+<http://naomi.org/a10624520title131> a bf:Title;
+   bf:label "The Mack Sennett collection. Vol. one.";
+   bf:partNumber "Vol. one.";
+   bf:titleValue "The Mack Sennett collection" .
+
+<http://naomi.org/a10624520title5> a bf:Title;
+   bf:label "The Mack Sennett collection. Vol. one.";
+   bf:partNumber "Vol. one.";
+   bf:titleValue "The Mack Sennett collection" .
+
+<http://naomi.org/a10624520topic67> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Comedy films.--^A2950551";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Comedy films.--^A2950551";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Comedy films.--^A2950551" .
+
+<http://naomi.org/a10624520topic68> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Slapstick comedy films.--^A2950744";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Slapstick comedy films.--^A2950744";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Slapstick comedy films.--^A2950744" .
+
+<http://naomi.org/a10624520topic69> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Silent films.--^A2950740";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Silent films.--^A2950740";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Silent films.--^A2950740" .
+
+<http://naomi.org/a10624520topic70> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Nonfiction television programs.--^A2950684";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Nonfiction television programs.--^A2950684";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Nonfiction television programs.--^A2950684" .
+
+<http://naomi.org/a10624520topic71> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Biographical television programs.--^A2950532";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Biographical television programs.--^A2950532";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Biographical television programs.--^A2950532" .
+
+<http://naomi.org/a10624520topic72> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Fiction films.--^A2950597";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Fiction films.--^A2950597";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Fiction films.--^A2950597" .
+
+<http://naomi.org/a10624520topic73> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Short films.--^A2950739";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Short films.--^A2950739";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Short films.--^A2950739" .
+
+<http://naomi.org/a10624520topic74> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Feature films.--^A2950595";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Feature films.--^A2950595";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Feature films.--^A2950595" .
+
+<http://naomi.org/a10624520work100> a bf:Work;
+   bf:authorizedAccessPoint "Clever dummy.";
+   bf:title "Clever dummy." .
+
+<http://naomi.org/a10624520work101> a bf:Work;
+   bf:authorizedAccessPoint "Hearts and flowers (Motion picture 1919)";
+   bf:title "Hearts and flowers (Motion picture 1919)" .
+
+<http://naomi.org/a10624520work102> a bf:Work;
+   bf:authorizedAccessPoint "Down on the farm (Motion picture 1920 Kenton and Grey)";
+   bf:title "Down on the farm (Motion picture 1920 Kenton and Grey)" .
+
+<http://naomi.org/a10624520work103> a bf:Work;
+   bf:authorizedAccessPoint "Don't weaken (Motion picture 1920 St. Clair)";
+   bf:title "Don't weaken (Motion picture 1920 St. Clair)" .
+
+<http://naomi.org/a10624520work104> a bf:Work;
+   bf:authorizedAccessPoint "Gymnasium Jim.";
+   bf:title "Gymnasium Jim." .
+
+<http://naomi.org/a10624520work105> a bf:Work;
+   bf:authorizedAccessPoint "Extra girl.";
+   bf:title "Extra girl." .
+
+<http://naomi.org/a10624520work106> a bf:Work;
+   bf:authorizedAccessPoint "Dare-devil (Motion picture 1923)";
+   bf:title "Dare-devil (Motion picture 1923)" .
+
+<http://naomi.org/a10624520work107> a bf:Work;
+   bf:authorizedAccessPoint "Black Oxfords.";
+   bf:title "Black Oxfords." .
+
+<http://naomi.org/a10624520work108> a bf:Work;
+   bf:authorizedAccessPoint "Galloping Bungalows.";
+   bf:title "Galloping Bungalows." .
+
+<http://naomi.org/a10624520work109> a bf:Work;
+   bf:authorizedAccessPoint "His marriage wow.";
+   bf:title "His marriage wow." .
+
+<http://naomi.org/a10624520work110> a bf:Work;
+   bf:authorizedAccessPoint "Super-hooper-dyne lizzies.";
+   bf:title "Super-hooper-dyne lizzies." .
+
+<http://naomi.org/a10624520work111> a bf:Work;
+   bf:authorizedAccessPoint "Rainy knight.";
+   bf:title "Rainy knight." .
+
+<http://naomi.org/a10624520work112> a bf:Work;
+   bf:authorizedAccessPoint "Saturday afternoon (Motion picture 1926)";
+   bf:title "Saturday afternoon (Motion picture 1926)" .
+
+<http://naomi.org/a10624520work113> a bf:Work;
+   bf:authorizedAccessPoint "Sea dog's tale.";
+   bf:title "Sea dog's tale." .
+
+<http://naomi.org/a10624520work114> a bf:Work;
+   bf:authorizedAccessPoint "Hoboken to Hollywood.";
+   bf:title "Hoboken to Hollywood." .
+
+<http://naomi.org/a10624520work115> a bf:Work;
+   bf:authorizedAccessPoint "Ice cold cocos.";
+   bf:title "Ice cold cocos." .
+
+<http://naomi.org/a10624520work116> a bf:Work;
+   bf:authorizedAccessPoint "Broke in China.";
+   bf:title "Broke in China." .
+
+<http://naomi.org/a10624520work117> a bf:Work;
+   bf:authorizedAccessPoint "Pride of Pikeville.";
+   bf:title "Pride of Pikeville." .
+
+<http://naomi.org/a10624520work118> a bf:Work;
+   bf:authorizedAccessPoint "Fiddlesticks (Motion picture 1927)";
+   bf:title "Fiddlesticks (Motion picture 1927)" .
+
+<http://naomi.org/a10624520work119> a bf:Work;
+   bf:authorizedAccessPoint "Run, girl, run (Motion picture 1928)";
+   bf:title "Run, girl, run (Motion picture 1928)" .
+
+<http://naomi.org/a10624520work120> a bf:Work;
+   bf:authorizedAccessPoint "Taxi for two (Motion picture 1928)";
+   bf:title "Taxi for two (Motion picture 1928)" .
+
+<http://naomi.org/a10624520work121> a bf:Work;
+   bf:authorizedAccessPoint "Bluffer (Motion picture 1930)";
+   bf:title "Bluffer (Motion picture 1930)" .
+
+<http://naomi.org/a10624520work122> a bf:Work;
+   bf:authorizedAccessPoint "Dentist (Motion picture 1932)";
+   bf:title "Dentist (Motion picture 1932)" .
+
+<http://naomi.org/a10624520work123> a bf:Work;
+   bf:authorizedAccessPoint "Don't play bridge with your wife.";
+   bf:title "Don't play bridge with your wife." .
+
+<http://naomi.org/a10624520work124> a bf:Work;
+   bf:authorizedAccessPoint "Fatal glass of beer.";
+   bf:title "Fatal glass of beer." .
+
+<http://naomi.org/a10624520work125> a bf:Work;
+   bf:authorizedAccessPoint "This is your life (Television program) Mack Sennett.";
+   bf:title "This is your life (Television program) Mack Sennett." .
+
+<http://naomi.org/a10624520work75> a bf:Work;
+   bf:authorizedAccessPoint "Curtain pole.";
+   bf:title "Curtain pole." .
+
+<http://naomi.org/a10624520work76> a bf:Work;
+   bf:authorizedAccessPoint "Manicure lady.";
+   bf:title "Manicure lady." .
+
+<http://naomi.org/a10624520work77> a bf:Work;
+   bf:authorizedAccessPoint "Dash through the clouds.";
+   bf:title "Dash through the clouds." .
+
+<http://naomi.org/a10624520work78> a bf:Work;
+   bf:authorizedAccessPoint "Water nymph (Motion picture)";
+   bf:title "Water nymph (Motion picture)" .
+
+<http://naomi.org/a10624520work79> a bf:Work;
+   bf:authorizedAccessPoint "Grocery clerk's romance.";
+   bf:title "Grocery clerk's romance." .
+
+<http://naomi.org/a10624520work80> a bf:Work;
+   bf:authorizedAccessPoint "On his wedding day.";
+   bf:title "On his wedding day." .
+
+<http://naomi.org/a10624520work81> a bf:Work;
+   bf:authorizedAccessPoint "Bangville Police.";
+   bf:title "Bangville Police." .
+
+<http://naomi.org/a10624520work82> a bf:Work;
+   bf:authorizedAccessPoint "Fishy affair.";
+   bf:title "Fishy affair." .
+
+<http://naomi.org/a10624520work83> a bf:Work;
+   bf:authorizedAccessPoint "Speed kings (Motion picture 1913)";
+   bf:title "Speed kings (Motion picture 1913)" .
+
+<http://naomi.org/a10624520work84> a bf:Work;
+   bf:authorizedAccessPoint "Thief catcher.";
+   bf:title "Thief catcher." .
+
+<http://naomi.org/a10624520work85> a bf:Work;
+   bf:authorizedAccessPoint "Great toe mystery.";
+   bf:title "Great toe mystery." .
+
+<http://naomi.org/a10624520work86> a bf:Work;
+   bf:authorizedAccessPoint "Recreation (Motion picture 1914)";
+   bf:title "Recreation (Motion picture 1914)" .
+
+<http://naomi.org/a10624520work87> a bf:Work;
+   bf:authorizedAccessPoint "Shot in the excitement.";
+   bf:title "Shot in the excitement." .
+
+<http://naomi.org/a10624520work88> a bf:Work;
+   bf:authorizedAccessPoint "Noise of bombs.";
+   bf:title "Noise of bombs." .
+
+<http://naomi.org/a10624520work89> a bf:Work;
+   bf:authorizedAccessPoint "Ambrose's first falsehood.";
+   bf:title "Ambrose's first falsehood." .
+
+<http://naomi.org/a10624520work90> a bf:Work;
+   bf:authorizedAccessPoint "Bird's a bird.";
+   bf:title "Bird's a bird." .
+
+<http://naomi.org/a10624520work91> a bf:Work;
+   bf:authorizedAccessPoint "Gussle's day of rest.";
+   bf:title "Gussle's day of rest." .
+
+<http://naomi.org/a10624520work92> a bf:Work;
+   bf:authorizedAccessPoint "Do-re-mi-boom!";
+   bf:title "Do-re-mi-boom!" .
+
+<http://naomi.org/a10624520work93> a bf:Work;
+   bf:authorizedAccessPoint "Lover's lost control.";
+   bf:title "Lover's lost control." .
+
+<http://naomi.org/a10624520work94> a bf:Work;
+   bf:authorizedAccessPoint "Submarine pirate.";
+   bf:title "Submarine pirate." .
+
+<http://naomi.org/a10624520work95> a bf:Work;
+   bf:authorizedAccessPoint "Fatty and Mabel adrift.";
+   bf:title "Fatty and Mabel adrift." .
+
+<http://naomi.org/a10624520work96> a bf:Work;
+   bf:authorizedAccessPoint "His bitter pill.";
+   bf:title "His bitter pill." .
+
+<http://naomi.org/a10624520work97> a bf:Work;
+   bf:authorizedAccessPoint "Madcap Ambrose.";
+   bf:title "Madcap Ambrose." .
+
+<http://naomi.org/a10624520work98> a bf:Work;
+   bf:authorizedAccessPoint "Teddy at the throttle.";
+   bf:title "Teddy at the throttle." .
+
+<http://naomi.org/a10624520work99> a bf:Work;
+   bf:authorizedAccessPoint "Her torpedoed love.";
+   bf:title "Her torpedoed love." .
+
+<http://naomi.org/a10624520> a bf:Work,
+     bf:MovingImage;
+   bf:authorizedAccessPoint "Sennett, Mack, 1880-1960 The Mack Sennett collection. Vol. one.The Mack Sennett collectionVol. one",
+     "sennettmack18801960a507605normandmabel18941930a276453sterlingford18821939a1274040arbuckleroscoe18871933a501120chaplincharlie18891977a135329chaplinsyd18851965a1488424swainmack18761935a501145conklinchester18881971a548184fazendalouise18951962a1332361turpinben18741940a548185kennedyedgar18901948a556421fishbackfreda1961661beerywallacea151804kentonerlec18961980a649346finlaysonjames18871953a636157gribbonharry18851961a3242281stclairmalcolm18971952a645588lorddel18941970a1368155edwardsharry18881952a1274507langdonharry18841944a266358dentvernon18951963a853806bevanbilly18871957a650301jonesrichard18931930a1200609clineedward18921961a645565gouldingalfreda867888hurlockmadeline18991989a1370625lombardcarole19081942a28821fieldswc18801946a121678keystonefilmcompanya45433macksennettcomediesfirma1937873macksennettcollectionengworkmovingimage"@x-bf-hash;
+   bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/tdi>;
+   bf:hasPart <http://naomi.org/a10624520work75>,
+     <http://naomi.org/a10624520work76>,
+     <http://naomi.org/a10624520work77>,
+     <http://naomi.org/a10624520work78>,
+     <http://naomi.org/a10624520work79>,
+     <http://naomi.org/a10624520work80>,
+     <http://naomi.org/a10624520work81>,
+     <http://naomi.org/a10624520work82>,
+     <http://naomi.org/a10624520work83>,
+     <http://naomi.org/a10624520work84>,
+     <http://naomi.org/a10624520work85>,
+     <http://naomi.org/a10624520work86>,
+     <http://naomi.org/a10624520work87>,
+     <http://naomi.org/a10624520work88>,
+     <http://naomi.org/a10624520work89>,
+     <http://naomi.org/a10624520work90>,
+     <http://naomi.org/a10624520work91>,
+     <http://naomi.org/a10624520work92>,
+     <http://naomi.org/a10624520work93>,
+     <http://naomi.org/a10624520work94>,
+     <http://naomi.org/a10624520work95>,
+     <http://naomi.org/a10624520work96>,
+     <http://naomi.org/a10624520work97>,
+     <http://naomi.org/a10624520work98>,
+     <http://naomi.org/a10624520work99>,
+     <http://naomi.org/a10624520work100>,
+     <http://naomi.org/a10624520work101>,
+     <http://naomi.org/a10624520work102>,
+     <http://naomi.org/a10624520work103>,
+     <http://naomi.org/a10624520work104>,
+     <http://naomi.org/a10624520work105>,
+     <http://naomi.org/a10624520work106>,
+     <http://naomi.org/a10624520work107>,
+     <http://naomi.org/a10624520work108>,
+     <http://naomi.org/a10624520work109>,
+     <http://naomi.org/a10624520work110>,
+     <http://naomi.org/a10624520work111>,
+     <http://naomi.org/a10624520work112>,
+     <http://naomi.org/a10624520work113>,
+     <http://naomi.org/a10624520work114>,
+     <http://naomi.org/a10624520work115>,
+     <http://naomi.org/a10624520work116>,
+     <http://naomi.org/a10624520work117>,
+     <http://naomi.org/a10624520work118>,
+     <http://naomi.org/a10624520work119>,
+     <http://naomi.org/a10624520work120>,
+     <http://naomi.org/a10624520work121>,
+     <http://naomi.org/a10624520work122>,
+     <http://naomi.org/a10624520work123>,
+     <http://naomi.org/a10624520work124>,
+     <http://naomi.org/a10624520work125>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:originDate "1909",
+     "1911",
+     "1912",
+     "1913",
+     "1914",
+     "1915",
+     "1916",
+     "1917",
+     "1919",
+     "1920",
+     "1922",
+     "1923",
+     "1924",
+     "1925",
+     "1926",
+     "1927",
+     "1928",
+     "1930",
+     "1932",
+     "1933";
+   bf:subject <http://naomi.org/a10624520person66>,
+     <http://naomi.org/a10624520topic67>,
+     <http://naomi.org/a10624520topic68>,
+     <http://naomi.org/a10624520topic69>,
+     <http://naomi.org/a10624520topic70>,
+     <http://naomi.org/a10624520topic71>,
+     <http://naomi.org/a10624520topic72>,
+     <http://naomi.org/a10624520topic73>,
+     <http://naomi.org/a10624520topic74>;
+   bf:title "Mack Sennett collection"@x-bf-sort;
+   bf:workTitle <http://naomi.org/a10624520title5>;
+   marc_rels:act <http://naomi.org/a10624520person9>,
+     <http://naomi.org/a10624520person11>,
+     <http://naomi.org/a10624520person12>,
+     <http://naomi.org/a10624520person13>,
+     <http://naomi.org/a10624520person15>,
+     <http://naomi.org/a10624520person17>,
+     <http://naomi.org/a10624520person19>,
+     <http://naomi.org/a10624520person20>,
+     <http://naomi.org/a10624520person21>,
+     <http://naomi.org/a10624520person22>,
+     <http://naomi.org/a10624520person23>,
+     <http://naomi.org/a10624520person25>,
+     <http://naomi.org/a10624520person27>,
+     <http://naomi.org/a10624520person28>,
+     <http://naomi.org/a10624520person32>,
+     <http://naomi.org/a10624520person33>,
+     <http://naomi.org/a10624520person34>,
+     <http://naomi.org/a10624520person38>,
+     <http://naomi.org/a10624520person39>,
+     <http://naomi.org/a10624520person40>;
+   marc_rels:aus <http://naomi.org/a10624520person10>;
+   marc_rels:fmd <http://naomi.org/a10624520person7>,
+     <http://naomi.org/a10624520person14>,
+     <http://naomi.org/a10624520person16>,
+     <http://naomi.org/a10624520person18>,
+     <http://naomi.org/a10624520person24>,
+     <http://naomi.org/a10624520person26>,
+     <http://naomi.org/a10624520person29>,
+     <http://naomi.org/a10624520person30>,
+     <http://naomi.org/a10624520person31>,
+     <http://naomi.org/a10624520person35>,
+     <http://naomi.org/a10624520person36>,
+     <http://naomi.org/a10624520person37>;
+   marc_rels:fmp <http://naomi.org/a10624520person8>;
+   marc_rels:prn <http://naomi.org/a10624520organization41>,
+     <http://naomi.org/a10624520organization42> .

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://naomi.org/a10343443">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Cartography"/>
+      <bf:authorizedAccessPoint>Ithaca (N.Y.). City Planning Board. City of Ithaca, New York [cartographic material] / published by Ithaca Chamber of Commerce ; City Planning Board.City of Ithaca, New York</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://naomi.org/a10343443title5"/>
+      <bf:creator rdf:resource="http://naomi.org/a10343443jurisdiction6"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:cartographicScale>Scale ca. 1:12,000.</bf:cartographicScale>
+      <bf:subject rdf:resource="http://naomi.org/a10343443topic9"/>
+      <bf:subject rdf:resource="http://naomi.org/a10343443topic10"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us-ny"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/G3804.I8"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/G3804.I8%201964"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">ithacanycityplanningboarda3157227cityofithacanewyorkengworkcartography</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://naomi.org/a10343443instance16">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://naomi.org/a10343443title19"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Ithaca Chamber of Commerce </bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Ithaca, N.Y. </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1964</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Ithaca City Planning Board</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerDate>1964</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:cartographicScale>Linear scale</bf:cartographicScale>
+      <bf:cartographicScale>12000</bf:cartographicScale>
+      <bf:cartographicScale>Scale [ca. 1:12,000].</bf:cartographicScale>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>1 map :</bf:extent>
+      <bf:dimensions>51 x 40 cm, on sheet 56 x 43 cm</bf:dimensions>
+      <bf:illustrationNote>col. ;</bf:illustrationNote>
+      <bf:titleStatement>City of Ithaca, New York</bf:titleStatement>
+      <bf:formDesignation>cartographic material</bf:formDesignation>
+      <bf:providerStatement>Ithaca, N.Y. : Ithaca Chamber of Commerce : Ithaca City Planning Board, 1964.</bf:providerStatement>
+      <bf:note>"May 1964."</bf:note>
+      <bf:note>Includes indexed for points of interest.</bf:note>
+      <bf:note>31</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>78692673</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)5563557</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)867980340</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://naomi.org/a10343443"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://naomi.org/a10343443annotation15">
+      <bf:derivedFrom rdf:resource="http://naomi.org/a10343443.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/ocl"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/uiu"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/upm"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcf"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/utorblw"/>
+      <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-03-21T05:00</bf:changeDate>
+      <bf:annotates rdf:resource="http://naomi.org/a10343443"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://naomi.org/a10343443helditem39">
+      <bf:label>G3804.I8 1964 .I8</bf:label>
+      <bf:shelfMarkLcc>G3804.I8 1964 .I8</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://naomi.org/a10343443instance16"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://naomi.org/a10343443title5">
+      <bf:label>City of Ithaca, New York [cartographic material] / published by Ithaca Chamber of Commerce ; City Planning Board.</bf:label>
+      <bf:titleValue>City of Ithaca, New York</bf:titleValue>
+   </bf:Title>
+   <bf:Jurisdiction rdf:about="http://naomi.org/a10343443jurisdiction6">
+      <bf:label>Ithaca (N.Y.). City Planning Board.</bf:label>
+      <bf:authorizedAccessPoint>Ithaca (N.Y.). City Planning Board.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Ithaca (N.Y.). City Planning Board.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Jurisdiction>
+   <bf:Topic rdf:about="http://naomi.org/a10343443topic9">
+      <bf:authorizedAccessPoint>Maps.--^A2950662</bf:authorizedAccessPoint>
+      <bf:label>Maps.--^A2950662</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <madsrdf:authoritativeLabel>Maps.--^A2950662</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lcgft"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lcgft</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://naomi.org/a10343443topic10">
+      <bf:authorizedAccessPoint>Maps.--^A2950662</bf:authorizedAccessPoint>
+      <bf:label>Maps.--^A2950662</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <madsrdf:authoritativeLabel>Maps.--^A2950662</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/fast"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/fast</bf:authoritySource>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC)fst01423704</bf:identifierValue>
+         </bf:Identifier>
+      </bf:systemNumber>
+   </bf:Topic>
+   <bf:Title rdf:about="http://naomi.org/a10343443title19">
+      <bf:label>City of Ithaca, New York [cartographic material] / published by Ithaca Chamber of Commerce ; City Planning Board.</bf:label>
+      <bf:titleValue>City of Ithaca, New York</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

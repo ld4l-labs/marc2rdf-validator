@@ -1,0 +1,116 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a2909172annotation14> a bf:Annotation;
+   bf:annotates <http://naomi.org/a2909172>;
+   bf:changeDate "2015-03-21T05:00";
+   bf:derivedFrom <http://naomi.org/a2909172.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>,
+     <http://id.loc.gov/vocabulary/organizations/orlob>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/tlm>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a2909172instance15> a bf:Instance,
+     bf:Monograph;
+   bf:contentsNote "Creature comforts -- Balance -- Technological threat -- The cat came back -- Your face -- A Greek tragedy -- Anna and Bella -- The big snit -- Charade -- Sundae in New York -- The great cognito -- Tango -- Crac -- The fly -- Every child -- Special delivery.";
+   bf:dimensions "1/2 in.";
+   bf:extent "1 videocassette (115 min.) :";
+   bf:formDesignation "videorecording";
+   bf:illustrationNote "sd., col. ;";
+   bf:instanceOf <http://naomi.org/a2909172>;
+   bf:instanceTitle <http://naomi.org/a2909172title18>;
+   bf:isbn10 <http://isbn.example.org/1562990756>;
+   bf:isbn13 <http://isbn.example.org/9781562990756>;
+   bf:modeOfIssuance "single unit";
+   bf:note "Title from cassette label.",
+     "VHS Hi-fi.",
+     "An anthology of the prize winning animated short films made between 1978 and 1990.",
+     "1";
+   bf:providerStatement "Los Angeles : Expanded Entertainment, c1994.";
+   bf:publication [
+     a bf:Provider;
+     bf:copyrightDate "c1994.";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Expanded Entertainment"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Los Angeles "
+     ]
+   ];
+   bf:soundContent "Sound on medium",
+     "Videotape";
+   bf:stockNumber [
+     a bf:Identifier;
+     bf:identifierAssigner "Expanded Entertainment";
+     bf:identifierScheme loc_ids:stockNumber;
+     bf:identifierValue "EX124"
+   ];
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)30810268"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)274913401"
+   ];
+   bf:title "world's greatest animation"@x-bf-sort;
+   bf:titleStatement "The world's greatest animation" .
+
+<http://naomi.org/a2909172summary10> a bf:Summary;
+   bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:annotationBody "An anthology of the prize winning animated short films made between 1978 and 1990.";
+   bf:label "Summary";
+   bf:summaryOf <http://naomi.org/a2909172> .
+
+<http://naomi.org/a2909172organization8> a bf:Organization;
+   bf:authorizedAccessPoint "Expanded Entertainment (Firm)";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Expanded Entertainment (Firm)"
+   ];
+   bf:label "Expanded Entertainment (Firm)" .
+
+<http://naomi.org/a2909172person7> a bf:Person;
+   bf:authorizedAccessPoint "Thoren, Terry.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Thoren, Terry."
+   ];
+   bf:label "Thoren, Terry." .
+
+<http://naomi.org/a2909172title18> a bf:Title;
+   bf:label "The world's greatest animation [videorecording] / produced by Terry Thoren.";
+   bf:titleValue "The world's greatest animation" .
+
+<http://naomi.org/a2909172title5> a bf:Title;
+   bf:label "The world's greatest animation [videorecording] / produced by Terry Thoren.";
+   bf:titleValue "The world's greatest animation" .
+
+<http://naomi.org/a2909172topic12> a bf:Topic;
+   bf:authorizedAccessPoint "Animated films.--^A1041239";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Animated films.--^A1041239";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Animated films.--^A1041239" .
+
+<http://naomi.org/a2909172> a bf:Work,
+     bf:MovingImage;
+   bf:authorizedAccessPoint "Thoren, Terry. The world's greatest animation [videorecording] / produced by Terry Thoren.The world's greatest animation",
+     "thorenterrya2837168expandedentertainmentfirma777438worldsgreatestanimationengworkmovingimage"@x-bf-hash;
+   bf:contributor <http://naomi.org/a2909172person7>,
+     <http://naomi.org/a2909172organization8>;
+   bf:intendedAudience <http://id.loc.gov/vocabulary/targetAudiences/adu>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:subject <http://naomi.org/a2909172topic12>;
+   bf:title "world's greatest animation"@x-bf-sort;
+   bf:workTitle <http://naomi.org/a2909172title5> .

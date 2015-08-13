@@ -1,0 +1,472 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix marc_rels: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://naomi.org/a10401575annotation39> a bf:Annotation;
+   bf:annotates <http://naomi.org/a10401575>;
+   bf:changeDate "2015-07-23T00:30";
+   bf:derivedFrom <http://naomi.org/a10401575.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/stf>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/stf>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://naomi.org/a10401575helditem72> a bf:HeldItem;
+   bf:heldBy "CSt";
+   bf:holdingFor <http://naomi.org/a10401575instance40>;
+   bf:label "";
+   bf:subLocation "GREEN" .
+
+<http://naomi.org/a10401575instance41> a bf:Instance;
+   bf:derivedFrom <http://naomi.org/a10401575.marcxml.xml>;
+   bf:dimensions "4 3/4 in.";
+   bf:extent "1 audio disc ;";
+   bf:instanceOf <http://naomi.org/a10401575>;
+   bf:instanceTitle <http://naomi.org/a10401575title43> .
+
+<http://naomi.org/a10401575instance42> a bf:Instance;
+   bf:derivedFrom <http://naomi.org/a10401575.marcxml.xml>;
+   bf:dimensions "24 cm +";
+   bf:extent "70 pages ; 1 booklet + 3 sheets + 1 button.";
+   bf:instanceOf <http://naomi.org/a10401575>;
+   bf:instanceTitle <http://naomi.org/a10401575title44> .
+
+<http://naomi.org/a10401575summary23> a bf:Summary;
+   bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:annotationBody "Kit intended to promote education about violence against women end encourage its prevention. Included are two commercial feature films on the topic, study guides for the films, audio files, short documentaries, stickers, and a button.";
+   bf:label "Summary";
+   bf:summaryOf <http://naomi.org/a10401575> .
+
+<http://naomi.org/a10401575instance40> a bf:Instance,
+     bf:Electronic,
+     bf:Monograph;
+   bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/vd>,
+     <http://id.loc.gov/vocabulary/carriers/sd>,
+     <http://id.loc.gov/vocabulary/carriers/nc>;
+   bf:contentsNote "Book. Derechos de las mujeres : principales instrumentos internacionales y nacionales -- DVD. Te doy mis ojos (2003) / a Producciones La Iguana y Alta Producción ; productores, Santiago García de Leaniz, Enrique González Macho ; guión, Icíar Bollain, Alicia Luna ; dirección, Icíar Bollain. -- DVD. In the time of the butterflies title on disc: En el tiempo de las mariposas (2001) / Metro-Goldwyn-Mayer presents a Phoenix Pictures/Barnstorm Films production in association with Ventanarosa Productions in association with Producciones AmArAntA ; producer, Ellen Gordon ; teleplay writers, Judy Klass, David Klass ; director, Mariano Barroso ; starring Salma Hayak and Edward James Olmos -- CD-ROM. Documentación y comunicación audio files and two short films -- booklet. Guía práctica para la realización de Cine Foros : película Te doy mis ojos -- booklet. Guía práctica para la realización de Cine Foros : película En el tiempo de las mariposas -- booklet Claves para el tratamiento periodístico de las violencias contra las mujeres -- sheet. Qué haceren caso de ser víctimas de violencia sexual o intrafamiliar? -- 2 sheets of stickers -- button.";
+   bf:dimensions "4 3/4 in. +";
+   bf:extent "2 videodiscs : 2 booklets (24 cm)";
+   bf:illustrationNote "sound, color ;";
+   bf:instanceOf <http://naomi.org/a10401575>;
+   bf:instanceTitle <http://naomi.org/a10401575title44>;
+   bf:languageNote "In Spanish, except for In the time of the butterflies which is in English with optional Spanish subtitles.";
+   bf:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/v>,
+     <http://id.loc.gov/vocabulary/mediaTypes/s>,
+     <http://id.loc.gov/vocabulary/mediaTypes/n>;
+   bf:modeOfIssuance "single unit";
+   bf:note "Disc characteristics: Recorded DVDs, recorded CD-ROM.",
+     "Te doy mis ojos originally produced in Spain as a motion picture and released in 2003; In the time of the butterflies originally produced in the United States and Mexico as a motion picture and released in 2001.",
+     "Full screen 1.33:1.",
+     "Kit intended to promote education about violence against women end encourage its prevention. Included are two commercial feature films on the topic, study guides for the films, audio files, short documentaries, stickers, and a button.",
+     "Title from container.",
+     "1";
+   bf:providerStatement "Colombia : United Nations Development Fund for Women 2012?";
+   bf:soundContent "Sound on medium",
+     "Videodisc";
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)872275775"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)872526434"
+   ];
+   bf:titleStatement "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias" .
+
+<http://naomi.org/a10401575language22> a bf:Language;
+   bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/spa>;
+   bf:resourcePart "subtitles or captions" .
+
+<http://naomi.org/a10401575organization13> a bf:Organization;
+   bf:authorizedAccessPoint "United Nations Development Fund for Women";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "United Nations Development Fund for Women"
+   ];
+   bf:label "United Nations Development Fund for Women" .
+
+<http://naomi.org/a10401575organization14> a bf:Organization;
+   bf:authorizedAccessPoint "United Nations. Secretary-General";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "United Nations. Secretary-General"
+   ];
+   bf:label "United Nations. Secretary-General" .
+
+<http://naomi.org/a10401575person10> a bf:Person;
+   bf:authorizedAccessPoint "Barroso, Mariano, 1959-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Barroso, Mariano, 1959-"
+   ];
+   bf:label "Barroso, Mariano, 1959-" .
+
+<http://naomi.org/a10401575person11> a bf:Person;
+   bf:authorizedAccessPoint "Hayek, Salma, 1968-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Hayek, Salma, 1968-"
+   ];
+   bf:label "Hayek, Salma, 1968-" .
+
+<http://naomi.org/a10401575person12> a bf:Person;
+   bf:authorizedAccessPoint "Olmos, Edward James";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Olmos, Edward James"
+   ];
+   bf:label "Olmos, Edward James" .
+
+<http://naomi.org/a10401575person9> a bf:Person;
+   bf:authorizedAccessPoint "Bollain, Icíar, 1967-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Bollain, Icíar, 1967-"
+   ];
+   bf:label "Bollain, Icíar, 1967-" .
+
+<http://naomi.org/a10401575title43> a bf:Title;
+   bf:titleValue "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias " .
+
+<http://naomi.org/a10401575title8> a bf:Title;
+   bf:label "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias / Colombia, Campaña del Secretario General de las Naciones Unidas Únete para Poner Fin a la Violencia Contras las Mujeres.";
+   bf:titleValue "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias" .
+
+<http://naomi.org/a10401575topic24> a bf:Topic;
+   bf:authorizedAccessPoint "Women--Violence against--Colombia--Prevention.--^A1075472";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Women--Violence against--Colombia--Prevention.--^A1075472";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Women";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Women"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Violence against";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Violence against"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Colombia";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Colombia"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Prevention";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Prevention."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Women--Violence against--Colombia--Prevention.--^A1075472" .
+
+<http://naomi.org/a10401575topic25> a bf:Topic;
+   bf:authorizedAccessPoint "Family violence--Colombia--Prevention.--^A1016977";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Family violence--Colombia--Prevention.--^A1016977";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Family violence";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Family violence"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Colombia";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Colombia"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Prevention";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Prevention."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Family violence--Colombia--Prevention.--^A1016977" .
+
+<http://naomi.org/a10401575topic26> a bf:Topic;
+   bf:authorizedAccessPoint "Spousal abuse--Colombia--Prevention.--^A1865482";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Spousal abuse--Colombia--Prevention.--^A1865482";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Spousal abuse";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Spousal abuse"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Colombia";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Colombia"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Prevention";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Prevention."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Spousal abuse--Colombia--Prevention.--^A1865482" .
+
+<http://naomi.org/a10401575topic27> a bf:Topic;
+   bf:authorizedAccessPoint "Family violence--Drama.--^A1016977";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Family violence--Drama.--^A1016977";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Family violence";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Family violence"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Drama";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Drama."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Family violence--Drama.--^A1016977" .
+
+<http://naomi.org/a10401575topic28> a bf:Topic;
+   bf:authorizedAccessPoint "Spousal abuse--Drama.--^A1865482";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Spousal abuse--Drama.--^A1865482";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Spousal abuse";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Spousal abuse"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Drama";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Drama."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Spousal abuse--Drama.--^A1865482" .
+
+<http://naomi.org/a10401575topic29> a bf:Topic;
+   bf:authorizedAccessPoint "Women--Violence against--Dominican Republic--Drama.--^A1075472";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Women--Violence against--Dominican Republic--Drama.--^A1075472";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Women";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Women"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Violence against";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Violence against"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Dominican Republic";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Dominican Republic"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Drama";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Drama."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Women--Violence against--Dominican Republic--Drama.--^A1075472" .
+
+<http://naomi.org/a10401575topic30> a bf:Topic;
+   bf:authorizedAccessPoint "Women revolutionaries--Dominican Republic--Drama.--^A1075812";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Women revolutionaries--Dominican Republic--Drama.--^A1075812";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Women revolutionaries";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Women revolutionaries"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Dominican Republic";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Dominican Republic"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Drama";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Drama."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Women revolutionaries--Dominican Republic--Drama.--^A1075812" .
+
+<http://naomi.org/a10401575topic31> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Social problem films.--^A2950746";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Social problem films.--^A2950746";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Social problem films.--^A2950746" .
+
+<http://naomi.org/a10401575topic32> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Fiction films.--^A2950597";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Fiction films.--^A2950597";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Fiction films.--^A2950597" .
+
+<http://naomi.org/a10401575topic33> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Feature films.--^A2950595";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Feature films.--^A2950595";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Feature films.--^A2950595" .
+
+<http://naomi.org/a10401575work35> a bf:Work;
+   bf:authorizedAccessPoint "Te doy mis ojos.";
+   bf:title "Te doy mis ojos." .
+
+<http://naomi.org/a10401575work36> a bf:Work;
+   bf:authorizedAccessPoint "In the time of the butterflies.";
+   bf:title "In the time of the butterflies." .
+
+<http://naomi.org/a10401575work37> a bf:Work;
+   bf:authorizedAccessPoint "En el tiempo de las mariposas";
+   bf:title "En el tiempo de las mariposas" .
+
+<http://naomi.org/a10401575title44> a bf:Title;
+   bf:label "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias / Colombia, Campaña del Secretario General de las Naciones Unidas Únete para Poner Fin a la Violencia Contras las Mujeres.";
+   bf:titleValue "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias",
+     "Caja de herramientas por el derecho de las mujeres a una vida libre de violencias " .
+
+<http://naomi.org/a10401575> a bf:Work,
+     bf:MovingImage,
+     bf:Audio,
+     bf:Text,
+     bf:MixedMaterial;
+   bf:authorizedAccessPoint "Bollain, Icíar, 1967- Caja de herramientas por el derecho de las mujeres a una vida libre de violencias / Colombia, Campaña del Secretario General de las Naciones Unidas Únete para Poner Fin a la Violencia Contras las Mujeres.Caja de herramientas por el derecho de las mujeres a una vida libre de violencias",
+     "bollainicíar1967a1319643barrosomariano1959a1775520hayeksalma1968a1361437olmosedwardjamesa380441unitednationsdevelopmentfundforwomena665132unitednationssecretarygenerala108717cajadeherramientasporelderechodelasmujeresaunavidalibredeviolenciasspaworkmovingimage"@x-bf-hash;
+   bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/tdi>,
+     <http://id.loc.gov/vocabulary/contentTypes/spw>,
+     <http://id.loc.gov/vocabulary/contentTypes/txt>;
+   bf:hasPart <http://naomi.org/a10401575work35>,
+     <http://naomi.org/a10401575work36>;
+   bf:language <http://id.loc.gov/vocabulary/languages/spa>,
+     <http://id.loc.gov/vocabulary/languages/eng>,
+     <http://naomi.org/a10401575language22>;
+   bf:originDate "2003",
+     "2001";
+   bf:partOf <http://naomi.org/a10401575work37>;
+   bf:subject <http://naomi.org/a10401575topic24>,
+     <http://naomi.org/a10401575topic25>,
+     <http://naomi.org/a10401575topic26>,
+     <http://naomi.org/a10401575topic27>,
+     <http://naomi.org/a10401575topic28>,
+     <http://naomi.org/a10401575topic29>,
+     <http://naomi.org/a10401575topic30>,
+     <http://naomi.org/a10401575topic31>,
+     <http://naomi.org/a10401575topic32>,
+     <http://naomi.org/a10401575topic33>,
+     <http://id.loc.gov/vocabulary/geographicAreas/s-ck>;
+   bf:workTitle <http://naomi.org/a10401575title8>;
+   marc_rels:act <http://naomi.org/a10401575person11>,
+     <http://naomi.org/a10401575person12>;
+   marc_rels:fmd <http://naomi.org/a10401575person9>,
+     <http://naomi.org/a10401575person10>;
+   marc_rels:isb <http://naomi.org/a10401575organization13>,
+     <http://naomi.org/a10401575organization14> .
