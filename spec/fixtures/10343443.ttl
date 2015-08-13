@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a10343443annotation15> a bf:Annotation;
-   bf:annotates <http://naomi.org/a10343443>;
+<http://example.org/a10343443annotation15> a bf:Annotation;
+   bf:annotates <http://example.org/a10343443>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a10343443.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a10343443.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/ocl>,
@@ -19,12 +19,12 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a10343443helditem39> a bf:HeldItem;
-   bf:holdingFor <http://naomi.org/a10343443instance16>;
+<http://example.org/a10343443helditem39> a bf:HeldItem;
+   bf:holdingFor <http://example.org/a10343443instance16>;
    bf:label "G3804.I8 1964 .I8";
    bf:shelfMarkLcc "G3804.I8 1964 .I8" .
 
-<http://naomi.org/a10343443instance16> a bf:Instance,
+<http://example.org/a10343443instance16> a bf:Instance,
      bf:Monograph;
    bf:cartographicScale "Linear scale",
      "12000",
@@ -33,8 +33,8 @@
    bf:extent "1 map :";
    bf:formDesignation "cartographic material";
    bf:illustrationNote "col. ;";
-   bf:instanceOf <http://naomi.org/a10343443>;
-   bf:instanceTitle <http://naomi.org/a10343443title19>;
+   bf:instanceOf <http://example.org/a10343443>;
+   bf:instanceTitle <http://example.org/a10343443title19>;
    bf:lccn [
      a bf:Identifier;
      bf:identifierScheme loc_ids:lccn;
@@ -75,7 +75,7 @@
    ];
    bf:titleStatement "City of Ithaca, New York" .
 
-<http://naomi.org/a10343443jurisdiction6> a bf:Jurisdiction;
+<http://example.org/a10343443jurisdiction6> a bf:Jurisdiction;
    bf:authorizedAccessPoint "Ithaca (N.Y.). City Planning Board.";
    bf:hasAuthority [
      a mads:Authority;
@@ -83,15 +83,15 @@
    ];
    bf:label "Ithaca (N.Y.). City Planning Board." .
 
-<http://naomi.org/a10343443title19> a bf:Title;
+<http://example.org/a10343443title19> a bf:Title;
    bf:label "City of Ithaca, New York [cartographic material] / published by Ithaca Chamber of Commerce ; City Planning Board.";
    bf:titleValue "City of Ithaca, New York" .
 
-<http://naomi.org/a10343443title5> a bf:Title;
+<http://example.org/a10343443title5> a bf:Title;
    bf:label "City of Ithaca, New York [cartographic material] / published by Ithaca Chamber of Commerce ; City Planning Board.";
    bf:titleValue "City of Ithaca, New York" .
 
-<http://naomi.org/a10343443topic10> a bf:Topic;
+<http://example.org/a10343443topic10> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/fast";
    bf:authorizedAccessPoint "Maps.--^A2950662";
    bf:hasAuthority [
@@ -106,7 +106,7 @@
      bf:identifierValue "(OCoLC)fst01423704"
    ] .
 
-<http://naomi.org/a10343443topic9> a bf:Topic;
+<http://example.org/a10343443topic9> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Maps.--^A2950662";
    bf:hasAuthority [
@@ -117,16 +117,16 @@
    ];
    bf:label "Maps.--^A2950662" .
 
-<http://naomi.org/a10343443> a bf:Work,
+<http://example.org/a10343443> a bf:Work,
      bf:Cartography;
    bf:authorizedAccessPoint "Ithaca (N.Y.). City Planning Board. City of Ithaca, New York [cartographic material] / published by Ithaca Chamber of Commerce ; City Planning Board.City of Ithaca, New York",
      "ithacanycityplanningboarda3157227cityofithacanewyorkengworkcartography"@x-bf-hash;
    bf:cartographicScale "Scale ca. 1:12,000.";
    bf:classificationLcc <http://id.loc.gov/authorities/classification/G3804.I8>,
      <http://id.loc.gov/authorities/classification/G3804.I8%201964>;
-   bf:creator <http://naomi.org/a10343443jurisdiction6>;
+   bf:creator <http://example.org/a10343443jurisdiction6>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:subject <http://naomi.org/a10343443topic9>,
-     <http://naomi.org/a10343443topic10>,
+   bf:subject <http://example.org/a10343443topic9>,
+     <http://example.org/a10343443topic10>,
      <http://id.loc.gov/vocabulary/geographicAreas/n-us-ny>;
-   bf:workTitle <http://naomi.org/a10343443title5> .
+   bf:workTitle <http://example.org/a10343443title5> .

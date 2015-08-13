@@ -5,10 +5,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a10184015annotation39> a bf:Annotation;
-   bf:annotates <http://naomi.org/a10184015>;
+<http://example.org/a10184015annotation39> a bf:Annotation;
+   bf:annotates <http://example.org/a10184015>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a10184015.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a10184015.marcxml.xml>;
    bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
      <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
@@ -17,20 +17,20 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/stf>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a10184015helditem74> a bf:HeldItem;
+<http://example.org/a10184015helditem74> a bf:HeldItem;
    bf:heldBy "CSt";
-   bf:holdingFor <http://naomi.org/a10184015instance40>;
+   bf:holdingFor <http://example.org/a10184015instance40>;
    bf:label "";
    bf:shelfMark "1";
    bf:subLocation "GREEN" .
 
-<http://naomi.org/a10184015summary25> a bf:Summary;
+<http://example.org/a10184015summary25> a bf:Summary;
    bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:annotationBody "In a parody of 1960s Cold War thrillers, a French Air Force pilot pursues a double agent and thief from Paris to Rio to the Amazon jungle in search of a priceless statuette that has been stolen from a Paris museum.";
    bf:label "Summary";
-   bf:summaryOf <http://naomi.org/a10184015> .
+   bf:summaryOf <http://example.org/a10184015> .
 
-<http://naomi.org/a10184015instance40> a bf:Instance,
+<http://example.org/a10184015instance40> a bf:Instance,
      bf:Monograph;
    bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/vd>;
    bf:contentsNote "disque 1. Le film -- disque 2. les suppléments.";
@@ -44,8 +44,8 @@
    ];
    bf:extent "2 videodiscs (112 min.) :";
    bf:illustrationNote "sound, color. ;";
-   bf:instanceOf <http://naomi.org/a10184015>;
-   bf:instanceTitle <http://naomi.org/a10184015title43>;
+   bf:instanceOf <http://example.org/a10184015>;
+   bf:instanceTitle <http://example.org/a10184015title43>;
    bf:languageNote "French dialogue; audio description and captions for the hearing-impaired in French.";
    bf:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/v>;
    bf:modeOfIssuance "single unit";
@@ -86,13 +86,13 @@
    ];
    bf:title "homme de Rio"@x-bf-sort;
    bf:titleStatement "L'homme de Rio";
-   bf:titleVariation <http://naomi.org/a10184015title45> .
+   bf:titleVariation <http://example.org/a10184015title45> .
 
-<http://naomi.org/a10184015language24> a bf:Language;
+<http://example.org/a10184015language24> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/fre>;
    bf:resourcePart "subtitles or captions" .
 
-<http://naomi.org/a10184015organization19> a bf:Organization;
+<http://example.org/a10184015organization19> a bf:Organization;
    bf:authorizedAccessPoint "Films Ariane";
    bf:hasAuthority [
      a mads:Authority;
@@ -100,7 +100,7 @@
    ];
    bf:label "Films Ariane" .
 
-<http://naomi.org/a10184015organization20> a bf:Organization;
+<http://example.org/a10184015organization20> a bf:Organization;
    bf:authorizedAccessPoint "Productions Artistes associés";
    bf:hasAuthority [
      a mads:Authority;
@@ -108,7 +108,7 @@
    ];
    bf:label "Productions Artistes associés" .
 
-<http://naomi.org/a10184015person10> a bf:Person;
+<http://example.org/a10184015person10> a bf:Person;
    bf:authorizedAccessPoint "Boulanger, Daniel, 1922-";
    bf:hasAuthority [
      a mads:Authority;
@@ -116,7 +116,7 @@
    ];
    bf:label "Boulanger, Daniel, 1922-" .
 
-<http://naomi.org/a10184015person11> a bf:Person;
+<http://example.org/a10184015person11> a bf:Person;
    bf:authorizedAccessPoint "Mnouchkine, Alexandre";
    bf:hasAuthority [
      a mads:Authority;
@@ -124,7 +124,7 @@
    ];
    bf:label "Mnouchkine, Alexandre" .
 
-<http://naomi.org/a10184015person12> a bf:Person;
+<http://example.org/a10184015person12> a bf:Person;
    bf:authorizedAccessPoint "Mnouchkine, Alexandre";
    bf:hasAuthority [
      a mads:Authority;
@@ -132,7 +132,7 @@
    ];
    bf:label "Mnouchkine, Alexandre" .
 
-<http://naomi.org/a10184015person13> a bf:Person;
+<http://example.org/a10184015person13> a bf:Person;
    bf:authorizedAccessPoint "Dancigers, Georges, 1908-1993";
    bf:hasAuthority [
      a mads:Authority;
@@ -140,7 +140,7 @@
    ];
    bf:label "Dancigers, Georges, 1908-1993" .
 
-<http://naomi.org/a10184015person14> a bf:Person;
+<http://example.org/a10184015person14> a bf:Person;
    bf:authorizedAccessPoint "Delerue, Georges, 1925-1992";
    bf:hasAuthority [
      a mads:Authority;
@@ -148,7 +148,7 @@
    ];
    bf:label "Delerue, Georges, 1925-1992" .
 
-<http://naomi.org/a10184015person15> a bf:Person;
+<http://example.org/a10184015person15> a bf:Person;
    bf:authorizedAccessPoint "Séchan, Edmond, 1919-";
    bf:hasAuthority [
      a mads:Authority;
@@ -156,7 +156,7 @@
    ];
    bf:label "Séchan, Edmond, 1919-" .
 
-<http://naomi.org/a10184015person16> a bf:Person;
+<http://example.org/a10184015person16> a bf:Person;
    bf:authorizedAccessPoint "Belmondo, Jean-Paul, 1933-";
    bf:hasAuthority [
      a mads:Authority;
@@ -164,7 +164,7 @@
    ];
    bf:label "Belmondo, Jean-Paul, 1933-" .
 
-<http://naomi.org/a10184015person17> a bf:Person;
+<http://example.org/a10184015person17> a bf:Person;
    bf:authorizedAccessPoint "Dorléac, Françoise";
    bf:hasAuthority [
      a mads:Authority;
@@ -172,7 +172,7 @@
    ];
    bf:label "Dorléac, Françoise" .
 
-<http://naomi.org/a10184015person18> a bf:Person;
+<http://example.org/a10184015person18> a bf:Person;
    bf:authorizedAccessPoint "Servais, Jean, 1910-1976";
    bf:hasAuthority [
      a mads:Authority;
@@ -180,7 +180,7 @@
    ];
    bf:label "Servais, Jean, 1910-1976" .
 
-<http://naomi.org/a10184015person7> a bf:Person;
+<http://example.org/a10184015person7> a bf:Person;
    bf:authorizedAccessPoint "Broca, Philippe de, 1933-2004";
    bf:hasAuthority [
      a mads:Authority;
@@ -188,7 +188,7 @@
    ];
    bf:label "Broca, Philippe de, 1933-2004" .
 
-<http://naomi.org/a10184015person8> a bf:Person;
+<http://example.org/a10184015person8> a bf:Person;
    bf:authorizedAccessPoint "Broca, Philippe de, 1933-2004";
    bf:hasAuthority [
      a mads:Authority;
@@ -196,7 +196,7 @@
    ];
    bf:label "Broca, Philippe de, 1933-2004" .
 
-<http://naomi.org/a10184015person9> a bf:Person;
+<http://example.org/a10184015person9> a bf:Person;
    bf:authorizedAccessPoint "Rappeneau, J.-P";
    bf:hasAuthority [
      a mads:Authority;
@@ -204,20 +204,20 @@
    ];
    bf:label "Rappeneau, J.-P" .
 
-<http://naomi.org/a10184015title43> a bf:Title;
+<http://example.org/a10184015title43> a bf:Title;
    bf:label "L'homme de Rio / Les Films Ariane et Les Productions Artistes Associés présentent.";
    bf:titleValue "L'homme de Rio" .
 
-<http://naomi.org/a10184015title45> a bf:Title;
+<http://example.org/a10184015title45> a bf:Title;
    bf:label "English title from Internet Movie Database: That man from Rio.";
    bf:titleType "English title from Internet Movie Database:";
    bf:titleValue "That man from Rio." .
 
-<http://naomi.org/a10184015title5> a bf:Title;
+<http://example.org/a10184015title5> a bf:Title;
    bf:label "L'homme de Rio / Les Films Ariane et Les Productions Artistes Associés présentent.";
    bf:titleValue "L'homme de Rio" .
 
-<http://naomi.org/a10184015topic26> a bf:Topic;
+<http://example.org/a10184015topic26> a bf:Topic;
    bf:authorizedAccessPoint "Spies--France--Drama.--^A1063871";
    bf:hasAuthority [
      a mads:Authority,
@@ -252,7 +252,7 @@
    ];
    bf:label "Spies--France--Drama.--^A1063871" .
 
-<http://naomi.org/a10184015topic27> a bf:Topic;
+<http://example.org/a10184015topic27> a bf:Topic;
    bf:authorizedAccessPoint "Spies--Brazil--Drama.--^A1063871";
    bf:hasAuthority [
      a mads:Authority,
@@ -287,7 +287,7 @@
    ];
    bf:label "Spies--Brazil--Drama.--^A1063871" .
 
-<http://naomi.org/a10184015topic28> a bf:Topic;
+<http://example.org/a10184015topic28> a bf:Topic;
    bf:authorizedAccessPoint "Theft from museums--France--Paris--Drama.--^A1649370";
    bf:hasAuthority [
      a mads:Authority,
@@ -330,7 +330,7 @@
    ];
    bf:label "Theft from museums--France--Paris--Drama.--^A1649370" .
 
-<http://naomi.org/a10184015topic29> a bf:Topic;
+<http://example.org/a10184015topic29> a bf:Topic;
    bf:authorizedAccessPoint "Art thieves--France--Drama.--^A994423";
    bf:hasAuthority [
      a mads:Authority,
@@ -365,7 +365,7 @@
    ];
    bf:label "Art thieves--France--Drama.--^A994423" .
 
-<http://naomi.org/a10184015topic30> a bf:Topic;
+<http://example.org/a10184015topic30> a bf:Topic;
    bf:authorizedAccessPoint "Art thieves--Brazil--Drama.--^A994423";
    bf:hasAuthority [
      a mads:Authority,
@@ -400,7 +400,7 @@
    ];
    bf:label "Art thieves--Brazil--Drama.--^A994423" .
 
-<http://naomi.org/a10184015topic31> a bf:Topic;
+<http://example.org/a10184015topic31> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Thrillers (Motion pictures)--^A2950799";
    bf:hasAuthority [
@@ -411,7 +411,7 @@
    ];
    bf:label "Thrillers (Motion pictures)--^A2950799" .
 
-<http://naomi.org/a10184015topic32> a bf:Topic;
+<http://example.org/a10184015topic32> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Action and adventure films.--^A2950511";
    bf:hasAuthority [
@@ -422,7 +422,7 @@
    ];
    bf:label "Action and adventure films.--^A2950511" .
 
-<http://naomi.org/a10184015topic33> a bf:Topic;
+<http://example.org/a10184015topic33> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Spy films.--^A2950753";
    bf:hasAuthority [
@@ -433,7 +433,7 @@
    ];
    bf:label "Spy films.--^A2950753" .
 
-<http://naomi.org/a10184015topic34> a bf:Topic;
+<http://example.org/a10184015topic34> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Parody films.--^A2950687";
    bf:hasAuthority [
@@ -444,7 +444,7 @@
    ];
    bf:label "Parody films.--^A2950687" .
 
-<http://naomi.org/a10184015topic35> a bf:Topic;
+<http://example.org/a10184015topic35> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Fiction films.--^A2950597";
    bf:hasAuthority [
@@ -455,7 +455,7 @@
    ];
    bf:label "Fiction films.--^A2950597" .
 
-<http://naomi.org/a10184015topic36> a bf:Topic;
+<http://example.org/a10184015topic36> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Feature films.--^A2950595";
    bf:hasAuthority [
@@ -466,43 +466,43 @@
    ];
    bf:label "Feature films.--^A2950595" .
 
-<http://naomi.org/a10184015work37> a bf:Work;
+<http://example.org/a10184015work37> a bf:Work;
    bf:authorizedAccessPoint "Adventurs d'Adrien.";
    bf:title "Adventurs d'Adrien." .
 
-<http://naomi.org/a10184015> a bf:Work,
+<http://example.org/a10184015> a bf:Work,
      bf:MovingImage;
    bf:authorizedAccessPoint "Broca, Philippe de, 1933-2004 L'homme de Rio / Les Films Ariane et Les Productions Artistes Associés présentent.L'homme de Rio",
      "brocaphilippede19332004a760857rappeneaujpa725111boulangerdaniel1922a30700mnouchkinealexandrea1742759dancigersgeorges19081993a1742835deleruegeorges19251992a305931séchanedmond1919a2143252belmondojeanpaul1933a421924dorléacfrançoisea406877servaisjean19101976a1772312filmsarianea1416012productionsartistesassociésa1272257hommederiofreworkmovingimage"@x-bf-hash;
    bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/tdi>;
-   bf:contributor <http://naomi.org/a10184015person14>;
-   bf:hasPart <http://naomi.org/a10184015work37>;
+   bf:contributor <http://example.org/a10184015person14>;
+   bf:hasPart <http://example.org/a10184015work37>;
    bf:language <http://id.loc.gov/vocabulary/languages/fre>,
-     <http://naomi.org/a10184015language24>;
+     <http://example.org/a10184015language24>;
    bf:originDate "1964";
-   bf:subject <http://naomi.org/a10184015topic26>,
-     <http://naomi.org/a10184015topic27>,
-     <http://naomi.org/a10184015topic28>,
-     <http://naomi.org/a10184015topic29>,
-     <http://naomi.org/a10184015topic30>,
-     <http://naomi.org/a10184015topic31>,
-     <http://naomi.org/a10184015topic32>,
-     <http://naomi.org/a10184015topic33>,
-     <http://naomi.org/a10184015topic34>,
-     <http://naomi.org/a10184015topic35>,
-     <http://naomi.org/a10184015topic36>;
+   bf:subject <http://example.org/a10184015topic26>,
+     <http://example.org/a10184015topic27>,
+     <http://example.org/a10184015topic28>,
+     <http://example.org/a10184015topic29>,
+     <http://example.org/a10184015topic30>,
+     <http://example.org/a10184015topic31>,
+     <http://example.org/a10184015topic32>,
+     <http://example.org/a10184015topic33>,
+     <http://example.org/a10184015topic34>,
+     <http://example.org/a10184015topic35>,
+     <http://example.org/a10184015topic36>;
    bf:title "homme de Rio"@x-bf-sort;
-   bf:workTitle <http://naomi.org/a10184015title5>;
-   marc_rels:act <http://naomi.org/a10184015person16>,
-     <http://naomi.org/a10184015person17>,
-     <http://naomi.org/a10184015person18>;
-   marc_rels:aus <http://naomi.org/a10184015person8>,
-     <http://naomi.org/a10184015person9>,
-     <http://naomi.org/a10184015person10>,
-     <http://naomi.org/a10184015person11>;
-   marc_rels:edm <http://naomi.org/a10184015person15>;
-   marc_rels:fmd <http://naomi.org/a10184015person7>;
-   marc_rels:fmp <http://naomi.org/a10184015person12>,
-     <http://naomi.org/a10184015person13>;
-   marc_rels:prn <http://naomi.org/a10184015organization19>,
-     <http://naomi.org/a10184015organization20> .
+   bf:workTitle <http://example.org/a10184015title5>;
+   marc_rels:act <http://example.org/a10184015person16>,
+     <http://example.org/a10184015person17>,
+     <http://example.org/a10184015person18>;
+   marc_rels:aus <http://example.org/a10184015person8>,
+     <http://example.org/a10184015person9>,
+     <http://example.org/a10184015person10>,
+     <http://example.org/a10184015person11>;
+   marc_rels:edm <http://example.org/a10184015person15>;
+   marc_rels:fmd <http://example.org/a10184015person7>;
+   marc_rels:fmp <http://example.org/a10184015person12>,
+     <http://example.org/a10184015person13>;
+   marc_rels:prn <http://example.org/a10184015organization19>,
+     <http://example.org/a10184015organization20> .

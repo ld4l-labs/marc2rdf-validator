@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a10838962annotation21> a bf:Annotation;
-   bf:annotates <http://naomi.org/a10838962>;
+<http://example.org/a10838962annotation21> a bf:Annotation;
+   bf:annotates <http://example.org/a10838962>;
    bf:changeDate "2015-06-28T00:30";
-   bf:derivedFrom <http://naomi.org/a10838962.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a10838962.marcxml.xml>;
    bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
      <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
@@ -17,19 +17,19 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a10838962helditem46> a bf:HeldItem;
-   bf:holdingFor <http://naomi.org/a10838962instance22>;
+<http://example.org/a10838962helditem46> a bf:HeldItem;
+   bf:holdingFor <http://example.org/a10838962instance22>;
    bf:label "G1046.E1 M3 2015";
    bf:shelfMarkLcc "G1046.E1 M3 2015" .
 
-<http://naomi.org/a10838962classification18> a bf:Classification;
+<http://example.org/a10838962classification18> a bf:Classification;
    bf:classificationEdition "full",
      "23";
    bf:classificationNumber "912";
    bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
    bf:label "912" .
 
-<http://naomi.org/a10838962instance22> a bf:Instance,
+<http://example.org/a10838962instance22> a bf:Instance,
      bf:Monograph;
    bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/nc>;
    bf:cartographicScale "Scales differ.";
@@ -37,8 +37,8 @@
    bf:dimensions "25 cm.";
    bf:extent "1 atlas (96 pages) :";
    bf:illustrationNote "color illustrations, color maps ;";
-   bf:instanceOf <http://naomi.org/a10838962>;
-   bf:instanceTitle <http://naomi.org/a10838962title25>;
+   bf:instanceOf <http://example.org/a10838962>;
+   bf:instanceTitle <http://example.org/a10838962title25>;
    bf:isbn10 <http://isbn.example.org/2746735849>;
    bf:isbn13 <http://isbn.example.org/9782746735842>;
    bf:lccn [
@@ -74,7 +74,7 @@
    ];
    bf:titleStatement "Atlas mondial des femmes : les paradoxes de l'émancipation" .
 
-<http://naomi.org/a10838962person10> a bf:Person;
+<http://example.org/a10838962person10> a bf:Person;
    bf:authorizedAccessPoint "Rault, Wilfried.";
    bf:hasAuthority [
      a mads:Authority;
@@ -82,7 +82,7 @@
    ];
    bf:label "Rault, Wilfried." .
 
-<http://naomi.org/a10838962person7> a bf:Person;
+<http://example.org/a10838962person7> a bf:Person;
    bf:authorizedAccessPoint "Marin, Cécile.";
    bf:hasAuthority [
      a mads:Authority;
@@ -90,7 +90,7 @@
    ];
    bf:label "Marin, Cécile." .
 
-<http://naomi.org/a10838962person8> a bf:Person;
+<http://example.org/a10838962person8> a bf:Person;
    bf:authorizedAccessPoint "Attané, Isabelle.";
    bf:hasAuthority [
      a mads:Authority;
@@ -98,7 +98,7 @@
    ];
    bf:label "Attané, Isabelle." .
 
-<http://naomi.org/a10838962person9> a bf:Person;
+<http://example.org/a10838962person9> a bf:Person;
    bf:authorizedAccessPoint "Brugeilles, Carole.";
    bf:hasAuthority [
      a mads:Authority;
@@ -106,17 +106,17 @@
    ];
    bf:label "Brugeilles, Carole." .
 
-<http://naomi.org/a10838962title25> a bf:Title;
+<http://example.org/a10838962title25> a bf:Title;
    bf:label "Atlas mondial des femmes : les paradoxes de l'émancipation / sous la direction de Isabelle Attané, Carole Brugeilles, Wilfried Rault ; cartographie, Cécile Marin.";
    bf:subtitle "les paradoxes de l'émancipation ";
    bf:titleValue "Atlas mondial des femmes :" .
 
-<http://naomi.org/a10838962title6> a bf:Title;
+<http://example.org/a10838962title6> a bf:Title;
    bf:label "Atlas mondial des femmes : les paradoxes de l'émancipation / sous la direction de Isabelle Attané, Carole Brugeilles, Wilfried Rault ; cartographie, Cécile Marin.";
    bf:subtitle "les paradoxes de l'émancipation ";
    bf:titleValue "Atlas mondial des femmes :" .
 
-<http://naomi.org/a10838962topic14> a bf:Topic;
+<http://example.org/a10838962topic14> a bf:Topic;
    bf:authorizedAccessPoint "Women--Maps.--^A1075472";
    bf:hasAuthority [
      a mads:Authority,
@@ -143,7 +143,7 @@
    ];
    bf:label "Women--Maps.--^A1075472" .
 
-<http://naomi.org/a10838962topic15> a bf:Topic;
+<http://example.org/a10838962topic15> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "World atlases.--^A2950826";
    bf:hasAuthority [
@@ -154,27 +154,27 @@
    ];
    bf:label "World atlases.--^A2950826" .
 
-<http://naomi.org/a10838962work19> a bf:Work;
+<http://example.org/a10838962work19> a bf:Work;
    bf:authorizedAccessPoint "Collection Atlas-monde";
    bf:issn <urn:issn:1272-0151>;
    bf:title "Collection Atlas-monde" .
 
-<http://naomi.org/a10838962> a bf:Work,
+<http://example.org/a10838962> a bf:Work,
      bf:Cartography,
      bf:StillImage;
    bf:authorizedAccessPoint "Marin, Cécile. Atlas mondial des femmes : les paradoxes de l'émancipation / sous la direction de Isabelle Attané, Carole Brugeilles, Wilfried Rault ; cartographie, Cécile Marin.Atlas mondial des femmes :les paradoxes de l'émancipation",
      "attanéisabellea2510855brugeillescarolea2588720raultwilfrieda2421119marincécilea1658232atlasmondialdesfemmeslesparadoxesdelémancipationfreworkcartography"@x-bf-hash;
    bf:cartographicScale "Scales differ.";
-   bf:classification <http://naomi.org/a10838962classification18>;
+   bf:classification <http://example.org/a10838962classification18>;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/G3201>,
      <http://id.loc.gov/authorities/classification/G1046.E1>;
    bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/cri>;
-   bf:contributor <http://naomi.org/a10838962person8>,
-     <http://naomi.org/a10838962person9>,
-     <http://naomi.org/a10838962person10>;
-   bf:creator <http://naomi.org/a10838962person7>;
+   bf:contributor <http://example.org/a10838962person8>,
+     <http://example.org/a10838962person9>,
+     <http://example.org/a10838962person10>;
+   bf:creator <http://example.org/a10838962person7>;
    bf:language <http://id.loc.gov/vocabulary/languages/fre>;
-   bf:series <http://naomi.org/a10838962work19>;
-   bf:subject <http://naomi.org/a10838962topic14>,
-     <http://naomi.org/a10838962topic15>;
-   bf:workTitle <http://naomi.org/a10838962title6> .
+   bf:series <http://example.org/a10838962work19>;
+   bf:subject <http://example.org/a10838962topic14>,
+     <http://example.org/a10838962topic15>;
+   bf:workTitle <http://example.org/a10838962title6> .

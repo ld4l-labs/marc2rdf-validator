@@ -5,10 +5,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a11235362annotation22> a bf:Annotation;
-   bf:annotates <http://naomi.org/a11235362>;
+<http://example.org/a11235362annotation22> a bf:Annotation;
+   bf:annotates <http://example.org/a11235362>;
    bf:changeDate "2015-07-19T00:30";
-   bf:derivedFrom <http://naomi.org/a11235362.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a11235362.marcxml.xml>;
    bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
      <http://id.loc.gov/vocabulary/descriptionConventions/pn>,
@@ -18,7 +18,7 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/gpo>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a11235362instance23> a bf:Instance,
+<http://example.org/a11235362instance23> a bf:Instance,
      bf:Electronic,
      bf:Monograph;
    bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/cr>;
@@ -30,8 +30,8 @@
      "Scale 1:6,680 ;";
    bf:extent "1 online resource (1 map) : pamphlet (iv, 34 pages).";
    bf:illustrationNote "color +";
-   bf:instanceOf <http://naomi.org/a11235362>;
-   bf:instanceTitle <http://naomi.org/a11235362title27>;
+   bf:instanceOf <http://example.org/a11235362>;
+   bf:instanceTitle <http://example.org/a11235362title27>;
    bf:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/c>;
    bf:modeOfIssuance "single unit";
    bf:note "Depths shown by gradient tints.",
@@ -58,17 +58,17 @@
    ];
    bf:titleStatement "Bathymetric survey of Lake Calumet, Cook County, Illinois" .
 
-<http://naomi.org/a11235362instance24> a bf:Instance,
+<http://example.org/a11235362instance24> a bf:Instance,
      bf:Electronic;
-   bf:instanceOf <http://naomi.org/a11235362>;
+   bf:instanceOf <http://example.org/a11235362>;
    bf:label "Electronic Resource";
    bf:uri <http://purl.fdlp.gov/GPO/gpo58347> .
 
-<http://naomi.org/a11235362classification19> a bf:Classification;
+<http://example.org/a11235362classification19> a bf:Classification;
    bf:classificationNumber "I 19.91/3:3330";
    bf:classificationScheme "SUDOC" .
 
-<http://naomi.org/a11235362organization10> a bf:Organization;
+<http://example.org/a11235362organization10> a bf:Organization;
    bf:authorizedAccessPoint "Great Lakes Restoration Initiative (U.S.)";
    bf:hasAuthority [
      a mads:Authority;
@@ -76,7 +76,7 @@
    ];
    bf:label "Great Lakes Restoration Initiative (U.S.)" .
 
-<http://naomi.org/a11235362organization11> a bf:Organization;
+<http://example.org/a11235362organization11> a bf:Organization;
    bf:authorizedAccessPoint "Geological Survey (U.S.)";
    bf:hasAuthority [
      a mads:Authority;
@@ -84,7 +84,7 @@
    ];
    bf:label "Geological Survey (U.S.)" .
 
-<http://naomi.org/a11235362person7> a bf:Person;
+<http://example.org/a11235362person7> a bf:Person;
    bf:authorizedAccessPoint "Duncker, James J.";
    bf:hasAuthority [
      a mads:Authority;
@@ -92,7 +92,7 @@
    ];
    bf:label "Duncker, James J." .
 
-<http://naomi.org/a11235362person8> a bf:Person;
+<http://example.org/a11235362person8> a bf:Person;
    bf:authorizedAccessPoint "Johnson, Kevin K.";
    bf:hasAuthority [
      a mads:Authority;
@@ -100,7 +100,7 @@
    ];
    bf:label "Johnson, Kevin K." .
 
-<http://naomi.org/a11235362person9> a bf:Person;
+<http://example.org/a11235362person9> a bf:Person;
    bf:authorizedAccessPoint "Sharpe, Jennifer B.";
    bf:hasAuthority [
      a mads:Authority;
@@ -108,19 +108,19 @@
    ];
    bf:label "Sharpe, Jennifer B." .
 
-<http://naomi.org/a11235362title27> a bf:Title;
+<http://example.org/a11235362title27> a bf:Title;
    bf:label "Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.";
    bf:titleValue "Bathymetric survey of Lake Calumet, Cook County, Illinois" .
 
-<http://naomi.org/a11235362title6> a bf:Title;
+<http://example.org/a11235362title6> a bf:Title;
    bf:label "Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.";
    bf:titleValue "Bathymetric survey of Lake Calumet, Cook County, Illinois" .
 
-<http://naomi.org/a11235362work20> a bf:Work;
+<http://example.org/a11235362work20> a bf:Work;
    bf:authorizedAccessPoint "Scientific investigations map ; 3330";
    bf:title "Scientific investigations map ; 3330" .
 
-<http://naomi.org/a11235362> a bf:Work,
+<http://example.org/a11235362> a bf:Work,
      bf:Cartography,
      bf:StillImage;
    bf:authorizedAccessPoint "Duncker, James J. Bathymetric survey of Lake Calumet, Cook County, Illinois / by James J. Duncker, Kevin K. Johnson, and Jennifer B. Sharpe ; prepared in cooperation with the Great Lakes Restoration Inititiative.Bathymetric survey of Lake Calumet, Cook County, Illinois",
@@ -128,15 +128,15 @@
    bf:cartographicCoordinates "(W 87⁰36ʹ00ʺ--W 87⁰35ʹ00ʺ/N 41⁰41ʹ00ʺ--N 41⁰40ʹ00ʺ).";
    bf:cartographicProjection "transverse Mercator projection";
    bf:cartographicScale "Scale 1:6,680 ;";
-   bf:classification <http://naomi.org/a11235362classification19>;
+   bf:classification <http://example.org/a11235362classification19>;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/G4104.C6>;
    bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/cri>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:series <http://naomi.org/a11235362work20>;
+   bf:series <http://example.org/a11235362work20>;
    bf:subject <http://id.loc.gov/vocabulary/geographicAreas/n-us-il>;
-   bf:workTitle <http://naomi.org/a11235362title6>;
-   marc_rels:ctg <http://naomi.org/a11235362person7>,
-     <http://naomi.org/a11235362person8>,
-     <http://naomi.org/a11235362person9>;
-   marc_rels:isb <http://naomi.org/a11235362organization11>;
-   marc_rels:spn <http://naomi.org/a11235362organization10> .
+   bf:workTitle <http://example.org/a11235362title6>;
+   marc_rels:ctg <http://example.org/a11235362person7>,
+     <http://example.org/a11235362person8>,
+     <http://example.org/a11235362person9>;
+   marc_rels:isb <http://example.org/a11235362organization11>;
+   marc_rels:spn <http://example.org/a11235362organization10> .

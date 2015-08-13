@@ -4,21 +4,21 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a1591294annotation10> a bf:Annotation;
-   bf:annotates <http://naomi.org/a1591294>;
+<http://example.org/a1591294annotation10> a bf:Annotation;
+   bf:annotates <http://example.org/a1591294>;
    bf:changeDate "2015-07-21T00:30";
-   bf:derivedFrom <http://naomi.org/a1591294.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a1591294.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/orlob>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/rpb>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a1591294instance11> a bf:Instance,
+<http://example.org/a1591294instance11> a bf:Instance,
      bf:Monograph;
    bf:dimensions "21 cm.";
    bf:extent "253 p. ;";
-   bf:instanceOf <http://naomi.org/a1591294>;
-   bf:instanceTitle <http://naomi.org/a1591294title14>;
+   bf:instanceOf <http://example.org/a1591294>;
+   bf:instanceTitle <http://example.org/a1591294title14>;
    bf:isbn10 <http://isbn.example.org/0671526022>,
      <http://isbn.example.org/0671668781>,
      <http://isbn.example.org/0671019074>,
@@ -63,7 +63,7 @@
    bf:title "color purple"@x-bf-sort;
    bf:titleStatement "The color purple" .
 
-<http://naomi.org/a1591294person7> a bf:Person;
+<http://example.org/a1591294person7> a bf:Person;
    bf:authorizedAccessPoint "Walker, Alice, 1944-";
    bf:hasAuthority [
      a mads:Authority;
@@ -71,19 +71,19 @@
    ];
    bf:label "Walker, Alice, 1944-" .
 
-<http://naomi.org/a1591294title14> a bf:Title;
+<http://example.org/a1591294title14> a bf:Title;
    bf:label "The color purple / Alice Walker.";
    bf:titleValue "The color purple" .
 
-<http://naomi.org/a1591294title5> a bf:Title;
+<http://example.org/a1591294title5> a bf:Title;
    bf:label "The color purple / Alice Walker.";
    bf:titleValue "The color purple" .
 
-<http://naomi.org/a1591294> a bf:Work,
+<http://example.org/a1591294> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "Walker, Alice, 1944- The color purple / Alice Walker.The color purple",
      "walkeralice1944a128228colorpurpleengworktext"@x-bf-hash;
-   bf:creator <http://naomi.org/a1591294person7>;
+   bf:creator <http://example.org/a1591294person7>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
    bf:title "color purple"@x-bf-sort;
-   bf:workTitle <http://naomi.org/a1591294title5> .
+   bf:workTitle <http://example.org/a1591294title5> .

@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a10931161annotation33> a bf:Annotation;
-   bf:annotates <http://naomi.org/a10931161>;
+<http://example.org/a10931161annotation33> a bf:Annotation;
+   bf:annotates <http://example.org/a10931161>;
    bf:changeDate "2015-05-14T00:30";
-   bf:derivedFrom <http://naomi.org/a10931161.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a10931161.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
      <http://id.loc.gov/vocabulary/descriptionConventions/pn>,
      <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
@@ -16,15 +16,15 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/naxos>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a10931161instance34> a bf:Instance,
+<http://example.org/a10931161instance34> a bf:Instance,
      bf:Electronic,
      bf:Monograph;
    bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/cr>;
    bf:contentsNote "CD 1. Kräftig, Entschieden (Der Sommer marschiert ein) (34:19).",
      "CD 2. Tempo di Menuetto. Sehr mässig (Was mir die Blumen auf der Wiese erzählen) (9:54) -- Comodo. Scherzando. Ohne Hast (Was mir die Tiere im Walde erzählen) (17:37) -- Sehr Langsam. Misterioso. Durchaus ppp: \"O Mensch! Gib Acht!\" (Was mir die Nacht erzählt) (9:01) -- Listig im tempo und keck im Ausdruck: \"Es sungen drei Engel\" (Was mir die Morgenglocken erzählen) (4:20) -- Langsam. Ryhevoll. Empfunden (Was mir die Liebe erzählt) (22:57).";
    bf:extent "1 online resource (1 sound file)";
-   bf:instanceOf <http://naomi.org/a10931161>;
-   bf:instanceTitle <http://naomi.org/a10931161title38>;
+   bf:instanceOf <http://example.org/a10931161>;
+   bf:instanceTitle <http://example.org/a10931161title38>;
    bf:isrc [
      a bf:Identifier;
      bf:identifierScheme loc_ids:isrc;
@@ -62,7 +62,7 @@
    bf:note "For the latest highly anticipated release in the Royal Concertgebouw Orchestra's Mahler symphony cycle under the direction of its chief conductor Mariss Jansons, the orchestra now turns its attention to the Third Symphony. Like no other, Jansons possesses the ability to integrate all this beautiful detailing into the virtually infinite overarching climaxes that can make listening to Mahler's symphonies such an exciting experience.",
      "Hard copy version record.",
      "22";
-   bf:otherPhysicalFormat <http://naomi.org/a10931161instance44>;
+   bf:otherPhysicalFormat <http://example.org/a10931161instance44>;
    bf:performerNote "Bernarda Fink, mezzo-soprano; Netherlands Radio Choir; Boys of the Breda Sacrament Choir; Rijnmond Boys' Choir; Royal Concertgebouw Orchestra; Mariss Jansons, chief conductor.";
    bf:providerStatement "Netherlands : RCO Live, 2010";
    bf:publication [
@@ -84,37 +84,37 @@
      bf:identifierValue "(OCoLC-M)906565258"
    ];
    bf:titleStatement "Symphony no. 3";
-   bf:titleVariation <http://naomi.org/a10931161title39>,
-     <http://naomi.org/a10931161title40> .
+   bf:titleVariation <http://example.org/a10931161title39>,
+     <http://example.org/a10931161title40> .
 
-<http://naomi.org/a10931161instance35> a bf:Instance,
+<http://example.org/a10931161instance35> a bf:Instance,
      bf:Electronic;
-   bf:instanceOf <http://naomi.org/a10931161>;
+   bf:instanceOf <http://example.org/a10931161>;
    bf:label "Electronic Resource";
    bf:uri <http://ezproxy.stanford.edu/login?url=http://stanford.naxosmusiclibrary.com/catalogue/item.asp?cid=RCO10004> .
 
-<http://naomi.org/a10931161summary25> a bf:Summary;
+<http://example.org/a10931161summary25> a bf:Summary;
    bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:annotationBody "For the latest highly anticipated release in the Royal Concertgebouw Orchestra's Mahler symphony cycle under the direction of its chief conductor Mariss Jansons, the orchestra now turns its attention to the Third Symphony. Like no other, Jansons possesses the ability to integrate all this beautiful detailing into the virtually infinite overarching climaxes that can make listening to Mahler's symphonies such an exciting experience.";
    bf:label "Summary";
-   bf:summaryOf <http://naomi.org/a10931161> .
+   bf:summaryOf <http://example.org/a10931161> .
 
-<http://naomi.org/a10931161classification31> a bf:Classification;
+<http://example.org/a10931161classification31> a bf:Classification;
    bf:classificationEdition "full",
      "22";
    bf:classificationNumber "784.2";
    bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
    bf:label "784.2" .
 
-<http://naomi.org/a10931161instance44> a bf:Instance;
+<http://example.org/a10931161instance44> a bf:Instance;
    bf:systemNumber <http://www.worldcat.org/oclc/732786688>;
    bf:title "Symphony no. 3." .
 
-<http://naomi.org/a10931161language24> a bf:Language;
+<http://example.org/a10931161language24> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/ger>;
    bf:resourcePart "sung or spoken text" .
 
-<http://naomi.org/a10931161organization10> a bf:Organization;
+<http://example.org/a10931161organization10> a bf:Organization;
    bf:authorizedAccessPoint "Koninklijk Concertgebouworkest.";
    bf:hasAuthority [
      a mads:Authority;
@@ -122,7 +122,7 @@
    ];
    bf:label "Koninklijk Concertgebouworkest." .
 
-<http://naomi.org/a10931161organization11> a bf:Organization;
+<http://example.org/a10931161organization11> a bf:Organization;
    bf:authorizedAccessPoint "Groot Omroepkoor.";
    bf:hasAuthority [
      a mads:Authority;
@@ -130,7 +130,7 @@
    ];
    bf:label "Groot Omroepkoor." .
 
-<http://naomi.org/a10931161organization12> a bf:Organization;
+<http://example.org/a10931161organization12> a bf:Organization;
    bf:authorizedAccessPoint "Sacramentskoor Breda. Jongenskoor.";
    bf:hasAuthority [
      a mads:Authority;
@@ -138,7 +138,7 @@
    ];
    bf:label "Sacramentskoor Breda. Jongenskoor." .
 
-<http://naomi.org/a10931161organization13> a bf:Organization;
+<http://example.org/a10931161organization13> a bf:Organization;
    bf:authorizedAccessPoint "Rijnmond Boys' Choir.";
    bf:hasAuthority [
      a mads:Authority;
@@ -146,7 +146,7 @@
    ];
    bf:label "Rijnmond Boys' Choir." .
 
-<http://naomi.org/a10931161person7> a bf:Person;
+<http://example.org/a10931161person7> a bf:Person;
    bf:authorizedAccessPoint "Mahler, Gustav, 1860-1911.";
    bf:hasAuthority [
      a mads:Authority;
@@ -154,7 +154,7 @@
    ];
    bf:label "Mahler, Gustav, 1860-1911." .
 
-<http://naomi.org/a10931161person8> a bf:Person;
+<http://example.org/a10931161person8> a bf:Person;
    bf:authorizedAccessPoint "Fink, Bernarda.";
    bf:hasAuthority [
      a mads:Authority;
@@ -162,7 +162,7 @@
    ];
    bf:label "Fink, Bernarda." .
 
-<http://naomi.org/a10931161person9> a bf:Person;
+<http://example.org/a10931161person9> a bf:Person;
    bf:authorizedAccessPoint "Jansons, Mariss, 1943-";
    bf:hasAuthority [
      a mads:Authority;
@@ -170,24 +170,24 @@
    ];
    bf:label "Jansons, Mariss, 1943-" .
 
-<http://naomi.org/a10931161title38> a bf:Title;
+<http://example.org/a10931161title38> a bf:Title;
    bf:label "Symphony no. 3 / Mahler.";
    bf:titleValue "Symphony no. 3" .
 
-<http://naomi.org/a10931161title39> a bf:Title;
+<http://example.org/a10931161title39> a bf:Title;
    bf:label "Title on disc surface may be read as: RCO live";
    bf:titleType "Title on disc surface may be read as:";
    bf:titleValue "RCO live" .
 
-<http://naomi.org/a10931161title40> a bf:Title;
+<http://example.org/a10931161title40> a bf:Title;
    bf:label "Live";
    bf:titleValue "Live" .
 
-<http://naomi.org/a10931161title6> a bf:Title;
+<http://example.org/a10931161title6> a bf:Title;
    bf:partNumber "no. 3";
    bf:titleValue "Symphonies" .
 
-<http://naomi.org/a10931161topic26> a bf:Topic;
+<http://example.org/a10931161topic26> a bf:Topic;
    bf:authorizedAccessPoint "Symphonies.--^A1066579";
    bf:hasAuthority [
      a mads:Authority,
@@ -197,7 +197,7 @@
    ];
    bf:label "Symphonies.--^A1066579" .
 
-<http://naomi.org/a10931161topic27> a bf:Topic;
+<http://example.org/a10931161topic27> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/fast";
    bf:authorizedAccessPoint "Symphonies";
    bf:hasAuthority [
@@ -212,7 +212,7 @@
      bf:identifierValue "(OCoLC)fst01140873"
    ] .
 
-<http://naomi.org/a10931161topic28> a bf:Topic;
+<http://example.org/a10931161topic28> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Live sound recordings.--^A2950651";
    bf:hasAuthority [
@@ -223,7 +223,7 @@
    ];
    bf:label "Live sound recordings.--^A2950651" .
 
-<http://naomi.org/a10931161topic29> a bf:Topic;
+<http://example.org/a10931161topic29> a bf:Topic;
    bf:authorizedAccessPoint "Streaming audio";
    bf:hasAuthority [
      a mads:Authority,
@@ -233,20 +233,20 @@
    ];
    bf:label "Streaming audio" .
 
-<http://naomi.org/a10931161> a bf:Work,
+<http://example.org/a10931161> a bf:Work,
      bf:Audio;
    bf:authorizedAccessPoint "Mahler, Gustav, 1860-1911. Symphonies, no. 3, D minor ^A230732",
      "finkbernardaa769934jansonsmariss1943a354062koninklijkconcertgebouworkesta1401275grootomroepkoora1772340sacramentskoorbredajongenskoora3068776rijnmondboyschoira3306541mahlergustav18601911a230732symphoniesno3dminora230732gerworkaudio"@x-bf-hash;
-   bf:classification <http://naomi.org/a10931161classification31>;
+   bf:classification <http://example.org/a10931161classification31>;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/M1001>;
    bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/prm>;
-   bf:contributor <http://naomi.org/a10931161person8>,
-     <http://naomi.org/a10931161person9>,
-     <http://naomi.org/a10931161organization10>,
-     <http://naomi.org/a10931161organization11>,
-     <http://naomi.org/a10931161organization12>,
-     <http://naomi.org/a10931161organization13>;
-   bf:creator <http://naomi.org/a10931161person7>;
+   bf:contributor <http://example.org/a10931161person8>,
+     <http://example.org/a10931161person9>,
+     <http://example.org/a10931161organization10>,
+     <http://example.org/a10931161organization11>,
+     <http://example.org/a10931161organization12>,
+     <http://example.org/a10931161organization13>;
+   bf:creator <http://example.org/a10931161person7>;
    bf:duration "003419",
      "000954",
      "001737",
@@ -254,12 +254,12 @@
      "000420",
      "002257";
    bf:language <http://id.loc.gov/vocabulary/languages/ger>,
-     <http://naomi.org/a10931161language24>;
+     <http://example.org/a10931161language24>;
    bf:musicKey "D minor";
    bf:note "Recorded live at Concertgebouw Amsterdam on 3-5 Feb. 2010.";
-   bf:subject <http://naomi.org/a10931161topic26>,
-     <http://naomi.org/a10931161topic27>,
-     <http://naomi.org/a10931161topic28>,
-     <http://naomi.org/a10931161topic29>;
-   bf:workTitle <http://naomi.org/a10931161title6>;
+   bf:subject <http://example.org/a10931161topic26>,
+     <http://example.org/a10931161topic27>,
+     <http://example.org/a10931161topic28>,
+     <http://example.org/a10931161topic29>;
+   bf:workTitle <http://example.org/a10931161title6>;
    mads:authoritativeLabel "Symphonies, no. 3, D minor ^A230732" .

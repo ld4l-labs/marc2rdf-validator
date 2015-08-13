@@ -5,24 +5,24 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a310120annotation21> a bf:Annotation;
-   bf:annotates <http://naomi.org/a310120>;
+<http://example.org/a310120annotation21> a bf:Annotation;
+   bf:annotates <http://example.org/a310120>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a310120.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a310120.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>,
      <http://id.loc.gov/vocabulary/organizations/orlob>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/cu>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a310120instance22> a bf:Instance,
+<http://example.org/a310120instance22> a bf:Instance,
      bf:Monograph;
    bf:dimensions "4 3/4 in. +";
    bf:extent "2 sound discs (93 min.) : 1 booklet (16 p.).";
    bf:formDesignation "sound recording";
    bf:illustrationNote "digital, stereo. ;";
-   bf:instanceOf <http://naomi.org/a310120>;
-   bf:instanceTitle <http://naomi.org/a310120title25>;
+   bf:instanceOf <http://example.org/a310120>;
+   bf:instanceTitle <http://example.org/a310120title25>;
    bf:isrc [
      a bf:Identifier;
      bf:identifierScheme loc_ids:isrc;
@@ -81,14 +81,14 @@
    ];
    bf:titleStatement "Symphony no. 3" .
 
-<http://naomi.org/a310120event13> a bf:Event;
+<http://example.org/a310120event13> a bf:Event;
    bf:eventDate "198211--"^^<xsd:dateTime> .
 
-<http://naomi.org/a310120language18> a bf:Language;
+<http://example.org/a310120language18> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
    bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a310120organization10> a bf:Organization;
+<http://example.org/a310120organization10> a bf:Organization;
    bf:authorizedAccessPoint "Chicago Symphony Chorus. Women's Chorus";
    bf:hasAuthority [
      a mads:Authority;
@@ -96,7 +96,7 @@
    ];
    bf:label "Chicago Symphony Chorus. Women's Chorus" .
 
-<http://naomi.org/a310120organization11> a bf:Organization;
+<http://example.org/a310120organization11> a bf:Organization;
    bf:authorizedAccessPoint "Glen Ellyn Children's Chorus";
    bf:hasAuthority [
      a mads:Authority;
@@ -104,7 +104,7 @@
    ];
    bf:label "Glen Ellyn Children's Chorus" .
 
-<http://naomi.org/a310120organization12> a bf:Organization;
+<http://example.org/a310120organization12> a bf:Organization;
    bf:authorizedAccessPoint "Chicago Symphony Orchestra";
    bf:hasAuthority [
      a mads:Authority;
@@ -112,7 +112,7 @@
    ];
    bf:label "Chicago Symphony Orchestra" .
 
-<http://naomi.org/a310120person7> a bf:Person;
+<http://example.org/a310120person7> a bf:Person;
    bf:authorizedAccessPoint "Mahler, Gustav, 1860-1911.";
    bf:hasAuthority [
      a mads:Authority;
@@ -120,7 +120,7 @@
    ];
    bf:label "Mahler, Gustav, 1860-1911." .
 
-<http://naomi.org/a310120person8> a bf:Person;
+<http://example.org/a310120person8> a bf:Person;
    bf:authorizedAccessPoint "Dernesch, Helga";
    bf:hasAuthority [
      a mads:Authority;
@@ -128,7 +128,7 @@
    ];
    bf:label "Dernesch, Helga" .
 
-<http://naomi.org/a310120person9> a bf:Person;
+<http://example.org/a310120person9> a bf:Person;
    bf:authorizedAccessPoint "Solti, Georg, 1912-1997";
    bf:hasAuthority [
      a mads:Authority;
@@ -136,15 +136,15 @@
    ];
    bf:label "Solti, Georg, 1912-1997" .
 
-<http://naomi.org/a310120title25> a bf:Title;
+<http://example.org/a310120title25> a bf:Title;
    bf:label "Symphony no. 3 [sound recording] / Mahler.";
    bf:titleValue "Symphony no. 3" .
 
-<http://naomi.org/a310120title6> a bf:Title;
+<http://example.org/a310120title6> a bf:Title;
    bf:partNumber "no. 3";
    bf:titleValue "Symphonies" .
 
-<http://naomi.org/a310120topic19> a bf:Topic;
+<http://example.org/a310120topic19> a bf:Topic;
    bf:authorizedAccessPoint "Symphonies.--^A1066579";
    bf:hasAuthority [
      a mads:Authority,
@@ -154,22 +154,22 @@
    ];
    bf:label "Symphonies.--^A1066579" .
 
-<http://naomi.org/a310120> a bf:Work,
+<http://example.org/a310120> a bf:Work,
      bf:Audio;
    bf:authorizedAccessPoint "Mahler, Gustav, 1860-1911. Symphonies, no. 3, D minor ^A230732",
      "derneschhelgaa324779soltigeorg19121997a212357chicagosymphonychoruswomenschorusa369154glenellynchildrenschorusa369155chicagosymphonyorchestraa41201mahlergustav18601911a230732symphoniesno3dminora230732zxxworkaudio"@x-bf-hash;
-   bf:creator <http://naomi.org/a310120person7>;
+   bf:creator <http://example.org/a310120person7>;
    bf:duration "013300";
-   bf:event <http://naomi.org/a310120event13>;
+   bf:event <http://example.org/a310120event13>;
    bf:language <http://id.loc.gov/vocabulary/languages/zxx>,
-     <http://naomi.org/a310120language18>;
+     <http://example.org/a310120language18>;
    bf:musicKey "D minor";
    bf:note "Recorded November 1982, Orchestra Hall, Chicago.";
-   bf:subject <http://naomi.org/a310120topic19>;
-   bf:workTitle <http://naomi.org/a310120title6>;
-   marc_rels:cnd <http://naomi.org/a310120person9>;
-   marc_rels:prf <http://naomi.org/a310120person8>,
-     <http://naomi.org/a310120organization10>,
-     <http://naomi.org/a310120organization11>,
-     <http://naomi.org/a310120organization12>;
+   bf:subject <http://example.org/a310120topic19>;
+   bf:workTitle <http://example.org/a310120title6>;
+   marc_rels:cnd <http://example.org/a310120person9>;
+   marc_rels:prf <http://example.org/a310120person8>,
+     <http://example.org/a310120organization10>,
+     <http://example.org/a310120organization11>,
+     <http://example.org/a310120organization12>;
    mads:authoritativeLabel "Symphonies, no. 3, D minor ^A230732" .

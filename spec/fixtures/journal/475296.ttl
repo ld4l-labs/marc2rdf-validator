@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a475296annotation13> a bf:Annotation;
-   bf:annotates <http://naomi.org/a475296>;
+<http://example.org/a475296annotation13> a bf:Annotation;
+   bf:annotates <http://example.org/a475296>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a475296.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a475296.marcxml.xml>;
    bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/nsdp>,
      <http://id.loc.gov/vocabulary/descriptionAuthentication/lcd>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
@@ -16,34 +16,34 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/nsdp>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a475296helditem38> a bf:HeldItem;
+<http://example.org/a475296helditem38> a bf:HeldItem;
    bf:heldBy "CSt";
-   bf:holdingFor <http://naomi.org/a475296instance14>;
+   bf:holdingFor <http://example.org/a475296instance14>;
    bf:label "";
    bf:shelfMark "1";
    bf:subLocation "SAL3" .
 
-<http://naomi.org/a475296classification9> a bf:Classification;
+<http://example.org/a475296classification9> a bf:Classification;
    bf:classificationEdition "abridged",
      "11";
    bf:classificationNumber "418";
    bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
    bf:label "418" .
 
-<http://naomi.org/a475296instance14> a bf:Instance,
+<http://example.org/a475296instance14> a bf:Instance,
      bf:Serial;
-   bf:abbreviatedTitle <http://naomi.org/a475296title17>;
+   bf:abbreviatedTitle <http://example.org/a475296title17>;
    bf:dimensions "27 cm.";
    bf:extent "3 v. :";
    bf:illustrationNote "ill. ;";
-   bf:instanceOf <http://naomi.org/a475296>;
-   bf:instanceTitle <http://naomi.org/a475296title19>;
+   bf:instanceOf <http://example.org/a475296>;
+   bf:instanceTitle <http://example.org/a475296title19>;
    bf:issn [
      a bf:Identifier;
      bf:identifierScheme loc_ids:issn;
      bf:identifierValue "0884-0709"
    ];
-   bf:keyTitle <http://naomi.org/a475296title18>;
+   bf:keyTitle <http://example.org/a475296title18>;
    bf:lccn [
      a bf:Identifier;
      bf:identifierScheme loc_ids:lccn;
@@ -81,32 +81,32 @@
      bf:identifierValue "(OCoLC-I)271953902"
    ];
    bf:titleStatement "Computers and translation : CaT.";
-   bf:titleVariation <http://naomi.org/a475296title20> .
+   bf:titleVariation <http://example.org/a475296title20> .
 
-<http://naomi.org/a475296title17> a bf:Title;
+<http://example.org/a475296title17> a bf:Title;
    bf:label "Comput. transl.";
    bf:titleValue "Comput. transl." .
 
-<http://naomi.org/a475296title18> a bf:Title;
+<http://example.org/a475296title18> a bf:Title;
    bf:label "Computers and translation";
    bf:titleValue "Computers and translation" .
 
-<http://naomi.org/a475296title19> a bf:Title;
+<http://example.org/a475296title19> a bf:Title;
    bf:label "Computers and translation : CaT.";
    bf:subtitle "CaT.";
    bf:titleValue "Computers and translation :" .
 
-<http://naomi.org/a475296title20> a bf:Title;
+<http://example.org/a475296title20> a bf:Title;
    bf:label "CaT";
    bf:titleType "portion";
    bf:titleValue "CaT" .
 
-<http://naomi.org/a475296title5> a bf:Title;
+<http://example.org/a475296title5> a bf:Title;
    bf:label "Computers and translation : CaT.";
    bf:subtitle "CaT.";
    bf:titleValue "Computers and translation :" .
 
-<http://naomi.org/a475296topic7> a bf:Topic;
+<http://example.org/a475296topic7> a bf:Topic;
    bf:authorizedAccessPoint "Computational linguistics--Periodicals.--^A1034883";
    bf:hasAuthority [
      a mads:Authority,
@@ -133,7 +133,7 @@
    ];
    bf:label "Computational linguistics--Periodicals.--^A1034883" .
 
-<http://naomi.org/a475296topic8> a bf:Topic;
+<http://example.org/a475296topic8> a bf:Topic;
    bf:authorizedAccessPoint "Machine translating--Periodicals.--^A1036079";
    bf:hasAuthority [
      a mads:Authority,
@@ -160,23 +160,23 @@
    ];
    bf:label "Machine translating--Periodicals.--^A1036079" .
 
-<http://naomi.org/a475296work11> a bf:Work;
+<http://example.org/a475296work11> a bf:Work;
    bf:authorizedAccessPoint "Machine translation";
    bf:issn <urn:issn:0922-6567>;
    bf:title "Machine translation" .
 
-<http://naomi.org/a475296> a bf:Work,
+<http://example.org/a475296> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "Computers and translation : CaT.Computers and translation :CaT",
      "computersandtranslationcatengworktext"@x-bf-hash;
-   bf:classification <http://naomi.org/a475296classification9>;
-   bf:continuedBy <http://naomi.org/a475296work11>;
+   bf:classification <http://example.org/a475296classification9>;
+   bf:continuedBy <http://example.org/a475296work11>;
    bf:issnL [
      a bf:Identifier;
      bf:identifierScheme loc_ids:issnL;
      bf:identifierValue ""
    ];
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:subject <http://naomi.org/a475296topic7>,
-     <http://naomi.org/a475296topic8>;
-   bf:workTitle <http://naomi.org/a475296title5> .
+   bf:subject <http://example.org/a475296topic7>,
+     <http://example.org/a475296topic8>;
+   bf:workTitle <http://example.org/a475296title5> .

@@ -4,37 +4,37 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a10194652annotation15> a bf:Annotation;
-   bf:annotates <http://naomi.org/a10194652>;
+<http://example.org/a10194652annotation15> a bf:Annotation;
+   bf:annotates <http://example.org/a10194652>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a10194652.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a10194652.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/rcj>,
      <http://id.loc.gov/vocabulary/organizations/utorblw>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/ifk>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a10194652helditem35> a bf:HeldItem;
-   bf:holdingFor <http://naomi.org/a10194652instance16>;
+<http://example.org/a10194652helditem35> a bf:HeldItem;
+   bf:holdingFor <http://example.org/a10194652instance16>;
    bf:label "TX719 .C454 2012";
    bf:shelfMarkLcc "TX719 .C454 2012" .
 
-<http://naomi.org/a10194652classification13> a bf:Classification;
+<http://example.org/a10194652classification13> a bf:Classification;
    bf:classificationEdition "full",
      "22";
    bf:classificationNumber "641.5944";
    bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
    bf:label "641.5944" .
 
-<http://naomi.org/a10194652instance16> a bf:Instance,
+<http://example.org/a10194652instance16> a bf:Instance,
      bf:Monograph;
    bf:contentsNote "Soups -- Sauces -- Eggs -- Entreés and luncheon dishes -- Fish -- Poultry -- Meat -- Vegetables -- Cold buffet -- Desserts and cakes.";
    bf:dimensions "26 cm.";
    bf:edition "50th anniversary ed..";
    bf:extent "xxxi, 684, xxxii p. :";
    bf:illustrationNote "ill. ;";
-   bf:instanceOf <http://naomi.org/a10194652>;
-   bf:instanceTitle <http://naomi.org/a10194652title19>;
+   bf:instanceOf <http://example.org/a10194652>;
+   bf:instanceTitle <http://example.org/a10194652title19>;
    bf:modeOfIssuance "single unit";
    bf:note "\"The story of \"Mastering\" at Knopf / by Judith Jones\": p. xv-xxi.",
      "Includes index.",
@@ -63,7 +63,7 @@
    ];
    bf:titleStatement "Mastering the art of French cooking" .
 
-<http://naomi.org/a10194652person6> a bf:Person;
+<http://example.org/a10194652person6> a bf:Person;
    bf:authorizedAccessPoint "Child, Julia.";
    bf:hasAuthority [
      a mads:Authority;
@@ -71,7 +71,7 @@
    ];
    bf:label "Child, Julia." .
 
-<http://naomi.org/a10194652person7> a bf:Person;
+<http://example.org/a10194652person7> a bf:Person;
    bf:authorizedAccessPoint "Bertholle, Louisette.";
    bf:hasAuthority [
      a mads:Authority;
@@ -79,7 +79,7 @@
    ];
    bf:label "Bertholle, Louisette." .
 
-<http://naomi.org/a10194652person8> a bf:Person;
+<http://example.org/a10194652person8> a bf:Person;
    bf:authorizedAccessPoint "Beck, Simone, 1904-1991.";
    bf:hasAuthority [
      a mads:Authority;
@@ -87,15 +87,15 @@
    ];
    bf:label "Beck, Simone, 1904-1991." .
 
-<http://naomi.org/a10194652title19> a bf:Title;
+<http://example.org/a10194652title19> a bf:Title;
    bf:label "Mastering the art of French cooking / by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].";
    bf:titleValue "Mastering the art of French cooking" .
 
-<http://naomi.org/a10194652title5> a bf:Title;
+<http://example.org/a10194652title5> a bf:Title;
    bf:label "Mastering the art of French cooking / by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].";
    bf:titleValue "Mastering the art of French cooking" .
 
-<http://naomi.org/a10194652topic10> a bf:Topic;
+<http://example.org/a10194652topic10> a bf:Topic;
    bf:authorizedAccessPoint "Cooking, French.--^A1007979";
    bf:hasAuthority [
      a mads:Authority,
@@ -105,16 +105,16 @@
    ];
    bf:label "Cooking, French.--^A1007979" .
 
-<http://naomi.org/a10194652> a bf:Work,
+<http://example.org/a10194652> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "Child, Julia. Mastering the art of French cooking / by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].Mastering the art of French cooking",
      "berthollelouisettea110056becksimone19041991a109127childjuliaa123471masteringtheartoffrenchcookingengworktext"@x-bf-hash;
-   bf:classification <http://naomi.org/a10194652classification13>;
+   bf:classification <http://example.org/a10194652classification13>;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/TX719>;
-   bf:contributor <http://naomi.org/a10194652person7>,
-     <http://naomi.org/a10194652person8>;
-   bf:creator <http://naomi.org/a10194652person6>;
+   bf:contributor <http://example.org/a10194652person7>,
+     <http://example.org/a10194652person8>;
+   bf:creator <http://example.org/a10194652person6>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:subject <http://naomi.org/a10194652topic10>,
+   bf:subject <http://example.org/a10194652topic10>,
      <http://id.loc.gov/vocabulary/geographicAreas/e-fr>;
-   bf:workTitle <http://naomi.org/a10194652title5> .
+   bf:workTitle <http://example.org/a10194652title5> .

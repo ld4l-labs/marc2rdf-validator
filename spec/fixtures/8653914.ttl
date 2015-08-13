@@ -5,10 +5,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a8653914annotation27> a bf:Annotation;
-   bf:annotates <http://naomi.org/a8653914>;
+<http://example.org/a8653914annotation27> a bf:Annotation;
+   bf:annotates <http://example.org/a8653914>;
    bf:changeDate "2015-06-02T00:30";
-   bf:derivedFrom <http://naomi.org/a8653914.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a8653914.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/oru>,
      <http://id.loc.gov/vocabulary/organizations/oclcq>,
@@ -20,13 +20,13 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/oco>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a8653914instance28> a bf:Instance,
+<http://example.org/a8653914instance28> a bf:Instance,
      bf:Monograph;
    bf:dimensions "31 cm.";
    bf:extent "1 score (167 p.) :";
    bf:illustrationNote "ill. ;";
-   bf:instanceOf <http://naomi.org/a8653914>;
-   bf:instanceTitle <http://naomi.org/a8653914title31>;
+   bf:instanceOf <http://example.org/a8653914>;
+   bf:instanceTitle <http://example.org/a8653914title31>;
    bf:isbn10 <http://isbn.example.org/0634006827>;
    bf:isbn13 <http://isbn.example.org/9780634006821>;
    bf:modeOfIssuance "single unit";
@@ -41,7 +41,7 @@
      "Arr. by Jeff Sultanof.",
      "Introd. and biographical notes by the arranger on p. 1-4.",
      "18";
-   bf:otherPhysicalFormat <http://naomi.org/a8653914instance36>;
+   bf:otherPhysicalFormat <http://example.org/a8653914instance36>;
    bf:providerStatement "Milwaukee, WI : H. Leonard Corp., 2002?";
    bf:publication [
      a bf:Provider;
@@ -66,15 +66,15 @@
    ];
    bf:titleStatement "Birth of the cool" .
 
-<http://naomi.org/a8653914instance36> a bf:Instance;
+<http://example.org/a8653914instance36> a bf:Instance;
    bf:systemNumber <http://www.worldcat.org/oclc/639587885>;
    bf:title "Birth of the cool." .
 
-<http://naomi.org/a8653914language10> a bf:Language;
+<http://example.org/a8653914language10> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
    bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a8653914person7> a bf:Person;
+<http://example.org/a8653914person7> a bf:Person;
    bf:authorizedAccessPoint "Davis, Miles.";
    bf:hasAuthority [
      a mads:Authority;
@@ -82,7 +82,7 @@
    ];
    bf:label "Davis, Miles." .
 
-<http://naomi.org/a8653914person8> a bf:Person;
+<http://example.org/a8653914person8> a bf:Person;
    bf:authorizedAccessPoint "Sultanof, Jeff";
    bf:hasAuthority [
      a mads:Authority;
@@ -90,14 +90,14 @@
    ];
    bf:label "Sultanof, Jeff" .
 
-<http://naomi.org/a8653914title31> a bf:Title;
+<http://example.org/a8653914title31> a bf:Title;
    bf:label "Birth of the cool / Miles Davis.";
    bf:titleValue "Birth of the cool" .
 
-<http://naomi.org/a8653914title6> a bf:Title;
+<http://example.org/a8653914title6> a bf:Title;
    bf:titleValue "Birth of the cool" .
 
-<http://naomi.org/a8653914topic11> a bf:Topic;
+<http://example.org/a8653914topic11> a bf:Topic;
    bf:authorizedAccessPoint "Jazz--1941-1950.--^A1089336";
    bf:hasAuthority [
      a mads:Authority,
@@ -124,67 +124,67 @@
    ];
    bf:label "Jazz--1941-1950.--^A1089336" .
 
-<http://naomi.org/a8653914work12> a bf:Work;
+<http://example.org/a8653914work12> a bf:Work;
    bf:title "Birth of the cool theme --" .
 
-<http://naomi.org/a8653914work13> a bf:Work;
+<http://example.org/a8653914work13> a bf:Work;
    bf:title "Boplicity (Be bop lives) --" .
 
-<http://naomi.org/a8653914work14> a bf:Work;
+<http://example.org/a8653914work14> a bf:Work;
    bf:title "Budo --" .
 
-<http://naomi.org/a8653914work15> a bf:Work;
+<http://example.org/a8653914work15> a bf:Work;
    bf:title "Deception --" .
 
-<http://naomi.org/a8653914work16> a bf:Work;
+<http://example.org/a8653914work16> a bf:Work;
    bf:title "Godchild --" .
 
-<http://naomi.org/a8653914work17> a bf:Work;
+<http://example.org/a8653914work17> a bf:Work;
    bf:title "Israel --" .
 
-<http://naomi.org/a8653914work18> a bf:Work;
+<http://example.org/a8653914work18> a bf:Work;
    bf:title "Jeru --" .
 
-<http://naomi.org/a8653914work19> a bf:Work;
+<http://example.org/a8653914work19> a bf:Work;
    bf:title "Joost at the roost --" .
 
-<http://naomi.org/a8653914work20> a bf:Work;
+<http://example.org/a8653914work20> a bf:Work;
    bf:title "Moon dreams --" .
 
-<http://naomi.org/a8653914work21> a bf:Work;
+<http://example.org/a8653914work21> a bf:Work;
    bf:title "Move --" .
 
-<http://naomi.org/a8653914work22> a bf:Work;
+<http://example.org/a8653914work22> a bf:Work;
    bf:title "Rock salt a.k.a. rocker --" .
 
-<http://naomi.org/a8653914work23> a bf:Work;
+<http://example.org/a8653914work23> a bf:Work;
    bf:title "Rouge --" .
 
-<http://naomi.org/a8653914work24> a bf:Work;
+<http://example.org/a8653914work24> a bf:Work;
    bf:title "Venus de Milo." .
 
-<http://naomi.org/a8653914> a bf:Work,
+<http://example.org/a8653914> a bf:Work,
      bf:NotatedMusic;
    bf:authorizedAccessPoint "Davis, Miles. Birth of the cool UNAUTHORIZED",
      "davismilesunauthorizedsultanofjeffa597560birthofthecoolunauthorizedzxxworknotatedmusic"@x-bf-hash;
    bf:contentsNote "Birth of the cool theme -- Boplicity (Be bop lives) -- Budo -- Deception -- Godchild -- Israel -- Jeru -- Joost at the roost -- Moon dreams -- Move -- Rock salt a.k.a. rocker -- Rouge -- Venus de Milo.";
-   bf:creator <http://naomi.org/a8653914person7>;
-   bf:hasPart <http://naomi.org/a8653914work12>,
-     <http://naomi.org/a8653914work13>,
-     <http://naomi.org/a8653914work14>,
-     <http://naomi.org/a8653914work15>,
-     <http://naomi.org/a8653914work16>,
-     <http://naomi.org/a8653914work17>,
-     <http://naomi.org/a8653914work18>,
-     <http://naomi.org/a8653914work19>,
-     <http://naomi.org/a8653914work20>,
-     <http://naomi.org/a8653914work21>,
-     <http://naomi.org/a8653914work22>,
-     <http://naomi.org/a8653914work23>,
-     <http://naomi.org/a8653914work24>;
+   bf:creator <http://example.org/a8653914person7>;
+   bf:hasPart <http://example.org/a8653914work12>,
+     <http://example.org/a8653914work13>,
+     <http://example.org/a8653914work14>,
+     <http://example.org/a8653914work15>,
+     <http://example.org/a8653914work16>,
+     <http://example.org/a8653914work17>,
+     <http://example.org/a8653914work18>,
+     <http://example.org/a8653914work19>,
+     <http://example.org/a8653914work20>,
+     <http://example.org/a8653914work21>,
+     <http://example.org/a8653914work22>,
+     <http://example.org/a8653914work23>,
+     <http://example.org/a8653914work24>;
    bf:language <http://id.loc.gov/vocabulary/languages/zxx>,
-     <http://naomi.org/a8653914language10>;
-   bf:subject <http://naomi.org/a8653914topic11>;
-   bf:workTitle <http://naomi.org/a8653914title6>;
-   marc_rels:arr <http://naomi.org/a8653914person8>;
+     <http://example.org/a8653914language10>;
+   bf:subject <http://example.org/a8653914topic11>;
+   bf:workTitle <http://example.org/a8653914title6>;
+   marc_rels:arr <http://example.org/a8653914person8>;
    mads:authoritativeLabel "Birth of the cool UNAUTHORIZED" .

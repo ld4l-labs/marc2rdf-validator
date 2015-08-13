@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a10738698annotation31> a bf:Annotation;
-   bf:annotates <http://naomi.org/a10738698>;
+<http://example.org/a10738698annotation31> a bf:Annotation;
+   bf:annotates <http://example.org/a10738698>;
    bf:changeDate "2015-07-22T00:30";
-   bf:derivedFrom <http://naomi.org/a10738698.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a10738698.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/oclco>,
@@ -16,7 +16,7 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/jbl>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a10738698instance32> a bf:Instance,
+<http://example.org/a10738698instance32> a bf:Instance,
      bf:Electronic,
      bf:Monograph;
    bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/cd>;
@@ -39,8 +39,8 @@
      bf:identifierValue "WUP P BPCE USZ"
    ];
    bf:illustrationNote "sd., col. ;";
-   bf:instanceOf <http://naomi.org/a10738698>;
-   bf:instanceTitle <http://naomi.org/a10738698title36>;
+   bf:instanceOf <http://example.org/a10738698>;
+   bf:instanceTitle <http://example.org/a10738698title36>;
    bf:languageNote "Game and container text in English, French, and Spanish.";
    bf:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/c>;
    bf:modeOfIssuance "single unit";
@@ -85,39 +85,39 @@
      bf:identifierValue "045496903466"
    ] .
 
-<http://naomi.org/a10738698summary20> a bf:Summary;
+<http://example.org/a10738698summary20> a bf:Summary;
    bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:annotationBody "Angels and demons stand in her way ... punish enimies with elaborate summons; master new moves with Bayonetta's trademark style; utilize new weapons and skills in battle\"--Container.";
    bf:label "Summary";
-   bf:summaryOf <http://naomi.org/a10738698> .
+   bf:summaryOf <http://example.org/a10738698> .
 
-<http://naomi.org/a10738698classification29> a bf:Classification;
+<http://example.org/a10738698classification29> a bf:Classification;
    bf:classificationEdition "full",
      "23";
    bf:classificationNumber "793.932";
    bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
    bf:label "793.932" .
 
-<http://naomi.org/a10738698intendedaudience12> a bf:IntendedAudience;
+<http://example.org/a10738698intendedaudience12> a bf:IntendedAudience;
    bf:audience "ESRB content rating: M, Mature 17+ (blood and gore, intense violence, partial nudity, strong language, suggestive themes)." .
 
-<http://naomi.org/a10738698language16> a bf:Language;
+<http://example.org/a10738698language16> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
    bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a10738698language17> a bf:Language;
+<http://example.org/a10738698language17> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/fre>;
    bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a10738698language18> a bf:Language;
+<http://example.org/a10738698language18> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/spa>;
    bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a10738698language19> a bf:Language;
+<http://example.org/a10738698language19> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
    bf:resourcePart "original" .
 
-<http://naomi.org/a10738698organization8> a bf:Organization;
+<http://example.org/a10738698organization8> a bf:Organization;
    bf:authorizedAccessPoint "PlatinumGames Inc.";
    bf:hasAuthority [
      a mads:Authority;
@@ -125,7 +125,7 @@
    ];
    bf:label "PlatinumGames Inc." .
 
-<http://naomi.org/a10738698organization9> a bf:Organization;
+<http://example.org/a10738698organization9> a bf:Organization;
    bf:authorizedAccessPoint "Nintendo of America Inc.";
    bf:hasAuthority [
      a mads:Authority;
@@ -133,15 +133,15 @@
    ];
    bf:label "Nintendo of America Inc." .
 
-<http://naomi.org/a10738698title36> a bf:Title;
+<http://example.org/a10738698title36> a bf:Title;
    bf:label "Bayonetta 2 [electronic resource].";
    bf:titleValue "Bayonetta 2" .
 
-<http://naomi.org/a10738698title7> a bf:Title;
+<http://example.org/a10738698title7> a bf:Title;
    bf:label "Bayonetta 2 [electronic resource].";
    bf:titleValue "Bayonetta 2" .
 
-<http://naomi.org/a10738698topic22> a bf:Topic;
+<http://example.org/a10738698topic22> a bf:Topic;
    bf:authorizedAccessPoint "Hand-to-hand fighting--Computer games.--^A1024064";
    bf:hasAuthority [
      a mads:Authority,
@@ -168,7 +168,7 @@
    ];
    bf:label "Hand-to-hand fighting--Computer games.--^A1024064" .
 
-<http://naomi.org/a10738698topic23> a bf:Topic;
+<http://example.org/a10738698topic23> a bf:Topic;
    bf:authorizedAccessPoint "Shooting--Computer games.--^A1060792";
    bf:hasAuthority [
      a mads:Authority,
@@ -195,7 +195,7 @@
    ];
    bf:label "Shooting--Computer games.--^A1060792" .
 
-<http://naomi.org/a10738698topic24> a bf:Topic;
+<http://example.org/a10738698topic24> a bf:Topic;
    bf:authorizedAccessPoint "Demonology--Computer games.--^A1010607";
    bf:hasAuthority [
      a mads:Authority,
@@ -222,7 +222,7 @@
    ];
    bf:label "Demonology--Computer games.--^A1010607" .
 
-<http://naomi.org/a10738698topic25> a bf:Topic;
+<http://example.org/a10738698topic25> a bf:Topic;
    bf:authorizedAccessPoint "Angels--Computer games.--^A992367";
    bf:hasAuthority [
      a mads:Authority,
@@ -249,7 +249,7 @@
    ];
    bf:label "Angels--Computer games.--^A992367" .
 
-<http://naomi.org/a10738698topic26> a bf:Topic;
+<http://example.org/a10738698topic26> a bf:Topic;
    bf:authorizedAccessPoint "Fantasy games";
    bf:hasAuthority [
      a mads:Authority,
@@ -259,7 +259,7 @@
    ];
    bf:label "Fantasy games" .
 
-<http://naomi.org/a10738698topic27> a bf:Topic;
+<http://example.org/a10738698topic27> a bf:Topic;
    bf:authorizedAccessPoint "Video games";
    bf:hasAuthority [
      a mads:Authority,
@@ -269,7 +269,7 @@
    ];
    bf:label "Video games" .
 
-<http://naomi.org/a10738698topic28> a bf:Topic;
+<http://example.org/a10738698topic28> a bf:Topic;
    bf:authorizedAccessPoint "Nintendo Wii video games";
    bf:hasAuthority [
      a mads:Authority,
@@ -279,31 +279,31 @@
    ];
    bf:label "Nintendo Wii video games" .
 
-<http://naomi.org/a10738698> a bf:Work,
+<http://example.org/a10738698> a bf:Work,
      bf:MovingImage,
      bf:Multimedia,
      bf:Dataset;
    bf:authorizedAccessPoint "PlatinumGames Inc. Bayonetta 2 [electronic resource].Bayonetta 2",
      "platinumgamesinca3325199nintendoofamericainca1592866bayonetta2engworkmovingimage"@x-bf-hash;
-   bf:classification <http://naomi.org/a10738698classification29>;
+   bf:classification <http://example.org/a10738698classification29>;
    bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/tdi>,
      <http://id.loc.gov/vocabulary/contentTypes/cop>;
-   bf:contributor <http://naomi.org/a10738698organization8>,
-     <http://naomi.org/a10738698organization9>;
-   bf:intendedAudience <http://naomi.org/a10738698intendedaudience12>,
+   bf:contributor <http://example.org/a10738698organization8>,
+     <http://example.org/a10738698organization9>;
+   bf:intendedAudience <http://example.org/a10738698intendedaudience12>,
      <http://id.loc.gov/vocabulary/targetAudiences/adu>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>,
      <http://id.loc.gov/vocabulary/languages/fre>,
      <http://id.loc.gov/vocabulary/languages/spa>,
-     <http://naomi.org/a10738698language16>,
-     <http://naomi.org/a10738698language17>,
-     <http://naomi.org/a10738698language18>,
-     <http://naomi.org/a10738698language19>;
-   bf:subject <http://naomi.org/a10738698topic22>,
-     <http://naomi.org/a10738698topic23>,
-     <http://naomi.org/a10738698topic24>,
-     <http://naomi.org/a10738698topic25>,
-     <http://naomi.org/a10738698topic26>,
-     <http://naomi.org/a10738698topic27>,
-     <http://naomi.org/a10738698topic28>;
-   bf:workTitle <http://naomi.org/a10738698title7> .
+     <http://example.org/a10738698language16>,
+     <http://example.org/a10738698language17>,
+     <http://example.org/a10738698language18>,
+     <http://example.org/a10738698language19>;
+   bf:subject <http://example.org/a10738698topic22>,
+     <http://example.org/a10738698topic23>,
+     <http://example.org/a10738698topic24>,
+     <http://example.org/a10738698topic25>,
+     <http://example.org/a10738698topic26>,
+     <http://example.org/a10738698topic27>,
+     <http://example.org/a10738698topic28>;
+   bf:workTitle <http://example.org/a10738698title7> .

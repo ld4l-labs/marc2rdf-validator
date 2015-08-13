@@ -4,83 +4,83 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a5748820annotation56> a bf:Annotation;
-   bf:annotates <http://naomi.org/a5748820>;
+<http://example.org/a5748820annotation56> a bf:Annotation;
+   bf:annotates <http://example.org/a5748820>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a5748820.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a5748820.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/cst>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a5748820helditem79> a bf:HeldItem;
+<http://example.org/a5748820helditem79> a bf:HeldItem;
    bf:heldBy "CSt";
-   bf:holdingFor <http://naomi.org/a5748820instance57>;
+   bf:holdingFor <http://example.org/a5748820instance57>;
    bf:label "";
    bf:shelfMark "1";
    bf:subLocation "GREEN" .
 
-<http://naomi.org/a5748820summary11> a bf:Summary;
+<http://example.org/a5748820summary11> a bf:Summary;
    bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:annotationBody "A collection of documentaries on World War II.";
    bf:label "Summary";
-   bf:summaryOf <http://naomi.org/a5748820> .
+   bf:summaryOf <http://example.org/a5748820> .
 
-<http://naomi.org/a5748820agent17> a bf:Agent;
+<http://example.org/a5748820agent17> a bf:Agent;
    bf:label "Dwight D. Eisenhower" .
 
-<http://naomi.org/a5748820agent18> a bf:Agent;
+<http://example.org/a5748820agent18> a bf:Agent;
    bf:label "Frank Capra" .
 
-<http://naomi.org/a5748820agent19> a bf:Agent;
+<http://example.org/a5748820agent19> a bf:Agent;
    bf:label "writer/director, Harry Wyatt." .
 
-<http://naomi.org/a5748820agent21> a bf:Agent;
+<http://example.org/a5748820agent21> a bf:Agent;
    bf:label "John Ford" .
 
-<http://naomi.org/a5748820agent25> a bf:Agent;
+<http://example.org/a5748820agent25> a bf:Agent;
    bf:label "the U.S. Army." .
 
-<http://naomi.org/a5748820agent27> a bf:Agent;
+<http://example.org/a5748820agent27> a bf:Agent;
    bf:label "Frank Capra" .
 
-<http://naomi.org/a5748820agent30> a bf:Agent;
+<http://example.org/a5748820agent30> a bf:Agent;
    bf:label "John Ford" .
 
-<http://naomi.org/a5748820agent31> a bf:Agent;
+<http://example.org/a5748820agent31> a bf:Agent;
    bf:label "William Wyler" .
 
-<http://naomi.org/a5748820agent32> a bf:Agent;
+<http://example.org/a5748820agent32> a bf:Agent;
    bf:label "J.L. Hodson." .
 
-<http://naomi.org/a5748820agent34> a bf:Agent;
+<http://example.org/a5748820agent34> a bf:Agent;
    bf:label "C. Svilov" .
 
-<http://naomi.org/a5748820agent43> a bf:Agent;
+<http://example.org/a5748820agent43> a bf:Agent;
    bf:label "Perry Wolf." .
 
-<http://naomi.org/a5748820agent45> a bf:Agent;
+<http://example.org/a5748820agent45> a bf:Agent;
    bf:label "William Wyler" .
 
-<http://naomi.org/a5748820agent48> a bf:Agent;
+<http://example.org/a5748820agent48> a bf:Agent;
    bf:label "Clark Gable" .
 
-<http://naomi.org/a5748820agent49> a bf:Agent;
+<http://example.org/a5748820agent49> a bf:Agent;
    bf:label "Frank Capra" .
 
-<http://naomi.org/a5748820agent51> a bf:Agent;
+<http://example.org/a5748820agent51> a bf:Agent;
    bf:label "John Huston." .
 
-<http://naomi.org/a5748820agent55> a bf:Agent;
+<http://example.org/a5748820agent55> a bf:Agent;
    bf:label "John Ford." .
 
-<http://naomi.org/a5748820instance57> a bf:Instance,
+<http://example.org/a5748820instance57> a bf:Instance,
      bf:Monograph;
    bf:dimensions "4 3/4 in.";
    bf:extent "10 videodiscs :";
    bf:formDesignation "videorecording :";
    bf:illustrationNote "sd., b&w and col. ;";
-   bf:instanceOf <http://naomi.org/a5748820>;
-   bf:instanceTitle <http://naomi.org/a5748820title60>;
+   bf:instanceOf <http://example.org/a5748820>;
+   bf:instanceTitle <http://example.org/a5748820title60>;
    bf:modeOfIssuance "single unit";
    bf:note "A collection of documentaries on World War II.",
      "DVD, double sided.",
@@ -110,7 +110,7 @@
      bf:identifierValue "(OCoLC-I)275948578"
    ];
    bf:titleStatement "WWII, the ultimate collection 30 films.";
-   bf:titleVariation <http://naomi.org/a5748820title61>;
+   bf:titleVariation <http://example.org/a5748820title61>;
    bf:videorecordingNumber [
      a bf:Identifier;
      bf:identifierAssigner "Brentwood Home Video";
@@ -118,7 +118,7 @@
      bf:identifierValue "45563-9"
    ] .
 
-<http://naomi.org/a5748820person12> a bf:Person;
+<http://example.org/a5748820person12> a bf:Person;
    bf:authorizedAccessPoint "Hitler, Adolf, 1889-1945. ^A101087";
    bf:hasAuthority [
      a mads:Authority,
@@ -128,7 +128,7 @@
    ];
    bf:label "Hitler, Adolf, 1889-1945. ^A101087" .
 
-<http://naomi.org/a5748820person6> a bf:Person;
+<http://example.org/a5748820person6> a bf:Person;
    bf:authorizedAccessPoint "Capra, Frank, 1897-1991.";
    bf:hasAuthority [
      a mads:Authority;
@@ -136,7 +136,7 @@
    ];
    bf:label "Capra, Frank, 1897-1991." .
 
-<http://naomi.org/a5748820person7> a bf:Person;
+<http://example.org/a5748820person7> a bf:Person;
    bf:authorizedAccessPoint "Wyler, William, 1902-1981.";
    bf:hasAuthority [
      a mads:Authority;
@@ -144,7 +144,7 @@
    ];
    bf:label "Wyler, William, 1902-1981." .
 
-<http://naomi.org/a5748820person8> a bf:Person;
+<http://example.org/a5748820person8> a bf:Person;
    bf:authorizedAccessPoint "Huston, John, 1906-1987.";
    bf:hasAuthority [
      a mads:Authority;
@@ -152,7 +152,7 @@
    ];
    bf:label "Huston, John, 1906-1987." .
 
-<http://naomi.org/a5748820person9> a bf:Person;
+<http://example.org/a5748820person9> a bf:Person;
    bf:authorizedAccessPoint "Ford, John, 1894-1973.";
    bf:hasAuthority [
      a mads:Authority;
@@ -160,21 +160,21 @@
    ];
    bf:label "Ford, John, 1894-1973." .
 
-<http://naomi.org/a5748820title5> a bf:Title;
+<http://example.org/a5748820title5> a bf:Title;
    bf:label "WWII, the ultimate collection [videorecording] : 30 films.";
    bf:subtitle "30 films.";
    bf:titleValue "WWII, the ultimate collection" .
 
-<http://naomi.org/a5748820title60> a bf:Title;
+<http://example.org/a5748820title60> a bf:Title;
    bf:label "WWII, the ultimate collection [videorecording] : 30 films.";
    bf:subtitle "30 films.";
    bf:titleValue "WWII, the ultimate collection" .
 
-<http://naomi.org/a5748820title61> a bf:Title;
+<http://example.org/a5748820title61> a bf:Title;
    bf:label "World War II, the ultimate collection";
    bf:titleValue "World War II, the ultimate collection" .
 
-<http://naomi.org/a5748820topic13> a bf:Topic;
+<http://example.org/a5748820topic13> a bf:Topic;
    bf:authorizedAccessPoint "World War, 1939-1945.--^A1076183";
    bf:hasAuthority [
      a mads:Authority,
@@ -184,152 +184,152 @@
    ];
    bf:label "World War, 1939-1945.--^A1076183" .
 
-<http://naomi.org/a5748820work14> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent17>;
+<http://example.org/a5748820work14> a bf:Work;
+   bf:creator <http://example.org/a5748820agent17>;
    bf:note "Disc 1:";
    bf:title "The true glory" .
 
-<http://naomi.org/a5748820work15> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent18>;
+<http://example.org/a5748820work15> a bf:Work;
+   bf:creator <http://example.org/a5748820agent18>;
    bf:note "(1945, b&w, 84 min.) /";
    bf:title "Know your enemy: Japan" .
 
-<http://naomi.org/a5748820work16> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent19>;
+<http://example.org/a5748820work16> a bf:Work;
+   bf:creator <http://example.org/a5748820agent19>;
    bf:note "(1944, b&w, 63 min.) /";
    bf:title "Target for tonight" .
 
-<http://naomi.org/a5748820work18> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent21>;
+<http://example.org/a5748820work18> a bf:Work;
+   bf:creator <http://example.org/a5748820agent21>;
    bf:note "Disc 2:";
    bf:title "December 7th" .
 
-<http://naomi.org/a5748820work19> a bf:Work;
+<http://example.org/a5748820work19> a bf:Work;
    bf:note "(1944, b&w, 34 min.) /";
    bf:title "Campaign in Europe" .
 
-<http://naomi.org/a5748820work20> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent23>;
+<http://example.org/a5748820work20> a bf:Work;
+   bf:creator <http://example.org/a5748820agent23>;
    bf:note "(aka";
    bf:title "Feldzug in Polen)" .
 
-<http://naomi.org/a5748820work21> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent23>;
+<http://example.org/a5748820work21> a bf:Work;
+   bf:creator <http://example.org/a5748820agent23>;
    bf:title "DZ [i.e. Dropzone] Normandy : the employment of troop carrier forces" .
 
-<http://naomi.org/a5748820work22> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent25>;
+<http://example.org/a5748820work22> a bf:Work;
+   bf:creator <http://example.org/a5748820agent25>;
    bf:note "(1945, b&w, 75 min.) /";
    bf:title "D-Day" .
 
-<http://naomi.org/a5748820work24> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent27>;
+<http://example.org/a5748820work24> a bf:Work;
+   bf:creator <http://example.org/a5748820agent27>;
    bf:note "Disc 3:";
    bf:title "Prelude to war" .
 
-<http://naomi.org/a5748820work25> a bf:Work;
+<http://example.org/a5748820work25> a bf:Work;
    bf:note "(1942, b&w, 52 min.) /";
    bf:title "Adolf Hitler" .
 
-<http://naomi.org/a5748820work27> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent30>;
+<http://example.org/a5748820work27> a bf:Work;
+   bf:creator <http://example.org/a5748820agent30>;
    bf:note "Disc 4:";
    bf:title "The Battle of Midway" .
 
-<http://naomi.org/a5748820work28> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent31>;
+<http://example.org/a5748820work28> a bf:Work;
+   bf:creator <http://example.org/a5748820agent31>;
    bf:note "(1943, col., 20 min.) /";
    bf:title "The fighting Lady" .
 
-<http://naomi.org/a5748820work29> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent32>;
+<http://example.org/a5748820work29> a bf:Work;
+   bf:creator <http://example.org/a5748820agent32>;
    bf:note "(1945, col. 60 min.) /";
    bf:title "Desert Victory" .
 
-<http://naomi.org/a5748820work31> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent34>;
+<http://example.org/a5748820work31> a bf:Work;
+   bf:creator <http://example.org/a5748820agent34>;
    bf:note "Disc 5:";
    bf:title "Nuremberg" .
 
-<http://naomi.org/a5748820work32> a bf:Work;
+<http://example.org/a5748820work32> a bf:Work;
    bf:note "(1946, b&w, 75 min.) /";
    bf:title "The great generals: General Bradley" .
 
-<http://naomi.org/a5748820work33> a bf:Work;
+<http://example.org/a5748820work33> a bf:Work;
    bf:note "(1948, b&w, 28 min.)";
    bf:title "General Patton" .
 
-<http://naomi.org/a5748820work34> a bf:Work;
+<http://example.org/a5748820work34> a bf:Work;
    bf:note "(1947, b&w, 27 min.)";
    bf:title "General Eisenhower" .
 
-<http://naomi.org/a5748820work36> a bf:Work;
+<http://example.org/a5748820work36> a bf:Work;
    bf:note "Disc 6:";
    bf:title "Appointment in Tokyo" .
 
-<http://naomi.org/a5748820work37> a bf:Work;
+<http://example.org/a5748820work37> a bf:Work;
    bf:note "(1945, b&w, 55 min.)";
    bf:title "The Memphis Belle" .
 
-<http://naomi.org/a5748820work39> a bf:Work;
+<http://example.org/a5748820work39> a bf:Work;
    bf:note "Disc 7:";
    bf:title "Nazi concentration camps" .
 
-<http://naomi.org/a5748820work40> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent43>;
+<http://example.org/a5748820work40> a bf:Work;
+   bf:creator <http://example.org/a5748820agent43>;
    bf:note "(1945, b&w, 60 min.)";
    bf:title "Smashing the Reich" .
 
-<http://naomi.org/a5748820work42> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent45>;
+<http://example.org/a5748820work42> a bf:Work;
+   bf:creator <http://example.org/a5748820agent45>;
    bf:note "Disc 8:";
    bf:title "Thunderbolt" .
 
-<http://naomi.org/a5748820work43> a bf:Work;
+<http://example.org/a5748820work43> a bf:Work;
    bf:note "(1945, col. 45 min.) /";
    bf:title "Recognition of the Japanese zero" .
 
-<http://naomi.org/a5748820work45> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent48>;
+<http://example.org/a5748820work45> a bf:Work;
+   bf:creator <http://example.org/a5748820agent48>;
    bf:note "Disc 9:";
    bf:title "Combat America" .
 
-<http://naomi.org/a5748820work46> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent49>;
+<http://example.org/a5748820work46> a bf:Work;
+   bf:creator <http://example.org/a5748820agent49>;
    bf:note "(1944, col., 61 min.) /";
    bf:title "War comes to America" .
 
-<http://naomi.org/a5748820work47> a bf:Work;
+<http://example.org/a5748820work47> a bf:Work;
    bf:note "(1945, b&w, 67 min.) /";
    bf:title "Warsaw Ghetto" .
 
-<http://naomi.org/a5748820work48> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent51>;
+<http://example.org/a5748820work48> a bf:Work;
+   bf:creator <http://example.org/a5748820agent51>;
    bf:note "(1969, b&w, 51 min.)";
    bf:title "Let there be light" .
 
-<http://naomi.org/a5748820work50> a bf:Work;
+<http://example.org/a5748820work50> a bf:Work;
    bf:note "Disc 10:";
    bf:title "Kamikaze" .
 
-<http://naomi.org/a5748820work51> a bf:Work;
+<http://example.org/a5748820work51> a bf:Work;
    bf:note "(1945, b&w, 100 min.)";
    bf:title "Battle of San Pietro" .
 
-<http://naomi.org/a5748820work52> a bf:Work;
-   bf:creator <http://naomi.org/a5748820agent55>;
+<http://example.org/a5748820work52> a bf:Work;
+   bf:creator <http://example.org/a5748820agent55>;
    bf:note "(1945, b&w, 43 min.)";
    bf:title "Report from the Aleutians" .
 
-<http://naomi.org/a5748820work54> a bf:Work;
+<http://example.org/a5748820work54> a bf:Work;
    bf:authorizedAccessPoint "Frank Capra's Why we fight.";
    bf:title "Frank Capra's Why we fight." .
 
-<http://naomi.org/a5748820agent23> a bf:Agent;
+<http://example.org/a5748820agent23> a bf:Agent;
    bf:label "Fritz Hippler",
      "Army Air Forces" .
 
-<http://naomi.org/a5748820> a bf:Work,
+<http://example.org/a5748820> a bf:Work,
      bf:MovingImage;
    bf:authorizedAccessPoint "Capra, Frank, 1897-1991. WWII, the ultimate collection [videorecording] : 30 films.WWII, the ultimate collection30 films",
      "caprafrank18971991a143971wylerwilliam19021981a100536hustonjohn19061987a83776fordjohn18941973a109792wwiitheultimatecollection30filmsengworkmovingimage"@x-bf-hash;
@@ -343,42 +343,42 @@
      "Disc 8: Thunderbolt (1945, col. 45 min.) / William Wyler -- Recognition of the Japanese zero (1942, b&w, 24 min.).",
      "Disc 9: Combat America (1944, col., 61 min.) / narrated by Clark Gable -- War comes to America (1945, b&w, 67 min.) / Frank Capra -- Warsaw Ghetto (1969, b&w, 51 min.) -- Let there be light (1946, b&w, 60 min.) / John Huston.",
      "Disc 10: Kamikaze (1945, b&w, 100 min.) -- Battle of San Pietro (1945, b&w, 43 min.) -- Report from the Aleutians (1943, col., 47 min.) / John Ford.";
-   bf:contributor <http://naomi.org/a5748820person6>,
-     <http://naomi.org/a5748820person7>,
-     <http://naomi.org/a5748820person8>,
-     <http://naomi.org/a5748820person9>;
-   bf:hasPart <http://naomi.org/a5748820work14>,
-     <http://naomi.org/a5748820work15>,
-     <http://naomi.org/a5748820work16>,
-     <http://naomi.org/a5748820work18>,
-     <http://naomi.org/a5748820work19>,
-     <http://naomi.org/a5748820work20>,
-     <http://naomi.org/a5748820work21>,
-     <http://naomi.org/a5748820work22>,
-     <http://naomi.org/a5748820work24>,
-     <http://naomi.org/a5748820work25>,
-     <http://naomi.org/a5748820work27>,
-     <http://naomi.org/a5748820work28>,
-     <http://naomi.org/a5748820work29>,
-     <http://naomi.org/a5748820work31>,
-     <http://naomi.org/a5748820work32>,
-     <http://naomi.org/a5748820work33>,
-     <http://naomi.org/a5748820work34>,
-     <http://naomi.org/a5748820work36>,
-     <http://naomi.org/a5748820work37>,
-     <http://naomi.org/a5748820work39>,
-     <http://naomi.org/a5748820work40>,
-     <http://naomi.org/a5748820work42>,
-     <http://naomi.org/a5748820work43>,
-     <http://naomi.org/a5748820work45>,
-     <http://naomi.org/a5748820work46>,
-     <http://naomi.org/a5748820work47>,
-     <http://naomi.org/a5748820work48>,
-     <http://naomi.org/a5748820work50>,
-     <http://naomi.org/a5748820work51>,
-     <http://naomi.org/a5748820work52>,
-     <http://naomi.org/a5748820work54>;
+   bf:contributor <http://example.org/a5748820person6>,
+     <http://example.org/a5748820person7>,
+     <http://example.org/a5748820person8>,
+     <http://example.org/a5748820person9>;
+   bf:hasPart <http://example.org/a5748820work14>,
+     <http://example.org/a5748820work15>,
+     <http://example.org/a5748820work16>,
+     <http://example.org/a5748820work18>,
+     <http://example.org/a5748820work19>,
+     <http://example.org/a5748820work20>,
+     <http://example.org/a5748820work21>,
+     <http://example.org/a5748820work22>,
+     <http://example.org/a5748820work24>,
+     <http://example.org/a5748820work25>,
+     <http://example.org/a5748820work27>,
+     <http://example.org/a5748820work28>,
+     <http://example.org/a5748820work29>,
+     <http://example.org/a5748820work31>,
+     <http://example.org/a5748820work32>,
+     <http://example.org/a5748820work33>,
+     <http://example.org/a5748820work34>,
+     <http://example.org/a5748820work36>,
+     <http://example.org/a5748820work37>,
+     <http://example.org/a5748820work39>,
+     <http://example.org/a5748820work40>,
+     <http://example.org/a5748820work42>,
+     <http://example.org/a5748820work43>,
+     <http://example.org/a5748820work45>,
+     <http://example.org/a5748820work46>,
+     <http://example.org/a5748820work47>,
+     <http://example.org/a5748820work48>,
+     <http://example.org/a5748820work50>,
+     <http://example.org/a5748820work51>,
+     <http://example.org/a5748820work52>,
+     <http://example.org/a5748820work54>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:subject <http://naomi.org/a5748820person12>,
-     <http://naomi.org/a5748820topic13>;
-   bf:workTitle <http://naomi.org/a5748820title5> .
+   bf:subject <http://example.org/a5748820person12>,
+     <http://example.org/a5748820topic13>;
+   bf:workTitle <http://example.org/a5748820title5> .

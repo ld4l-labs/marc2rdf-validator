@@ -4,19 +4,19 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a9959569annotation11> a bf:Annotation;
-   bf:annotates <http://naomi.org/a9959569>;
+<http://example.org/a9959569annotation11> a bf:Annotation;
+   bf:annotates <http://example.org/a9959569>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a9959569.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a9959569.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/nonisbd>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a9959569instance12> a bf:Instance,
+<http://example.org/a9959569instance12> a bf:Instance,
      bf:Electronic,
      bf:Serial;
-   bf:abbreviatedTitle <http://naomi.org/a9959569title16>;
-   bf:instanceOf <http://naomi.org/a9959569>;
-   bf:instanceTitle <http://naomi.org/a9959569title17>;
+   bf:abbreviatedTitle <http://example.org/a9959569title16>;
+   bf:instanceOf <http://example.org/a9959569>;
+   bf:instanceTitle <http://example.org/a9959569title17>;
    bf:issn [
      a bf:Identifier;
      bf:identifierScheme loc_ids:issn
@@ -29,7 +29,7 @@
    bf:modeOfIssuance "serial";
    bf:note "MARCit brief record.",
      "22";
-   bf:otherPhysicalFormat <http://naomi.org/a9959569instance21>;
+   bf:otherPhysicalFormat <http://example.org/a9959569instance21>;
    bf:providerStatement "Bangalore Kartik Shanker";
    bf:publication [
      a bf:Provider;
@@ -50,7 +50,7 @@
    ];
    bf:titleStatement "Indian Ocean Turtle Newsletter" .
 
-<http://naomi.org/a9959569instance21> a bf:Instance;
+<http://example.org/a9959569instance21> a bf:Instance;
    bf:issn [
      a bf:Identifier;
      bf:identifierScheme loc_ids:issn;
@@ -58,18 +58,18 @@
    ];
    bf:title "Indian Ocean Turtle Newsletter" .
 
-<http://naomi.org/a9959569title16> a bf:Title;
+<http://example.org/a9959569title16> a bf:Title;
    bf:label "INDIAN OCEAN TURTLE NEWSL";
    bf:titleValue "INDIAN OCEAN TURTLE NEWSL" .
 
-<http://naomi.org/a9959569title17> a bf:Title;
+<http://example.org/a9959569title17> a bf:Title;
    bf:label "Indian Ocean Turtle Newsletter";
    bf:titleValue "Indian Ocean Turtle Newsletter" .
 
-<http://naomi.org/a9959569title6> a bf:Title;
+<http://example.org/a9959569title6> a bf:Title;
    bf:titleValue "Indian Ocean Turtle Newsletter (Online)" .
 
-<http://naomi.org/a9959569> a bf:Work,
+<http://example.org/a9959569> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "Indian Ocean Turtle Newsletter (Online) UNAUTHORIZED",
      "indianoceanturtlenewsletteronlineunauthorizedengworktext"@x-bf-hash;
@@ -83,5 +83,5 @@
      bf:identifierValue "0973-1695"
    ];
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:workTitle <http://naomi.org/a9959569title6>;
+   bf:workTitle <http://example.org/a9959569title6>;
    mads:authoritativeLabel "Indian Ocean Turtle Newsletter (Online) UNAUTHORIZED" .

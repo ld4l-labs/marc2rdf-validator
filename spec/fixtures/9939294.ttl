@@ -4,31 +4,31 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a9939294annotation31> a bf:Annotation;
-   bf:annotates <http://naomi.org/a9939294>;
+<http://example.org/a9939294annotation31> a bf:Annotation;
+   bf:annotates <http://example.org/a9939294>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a9939294.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a9939294.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/xca>,
      <http://id.loc.gov/vocabulary/organizations/oclco>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/xca>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a9939294helditem59> a bf:HeldItem;
+<http://example.org/a9939294helditem59> a bf:HeldItem;
    bf:heldBy "CSt";
-   bf:holdingFor <http://naomi.org/a9939294instance32>;
+   bf:holdingFor <http://example.org/a9939294instance32>;
    bf:label "PN1997.A1 A39 2005";
    bf:shelfMark "1";
    bf:shelfMarkLcc "PN1997.A1 A39 2005";
    bf:subLocation "GREEN" .
 
-<http://naomi.org/a9939294summary8> a bf:Summary;
+<http://example.org/a9939294summary8> a bf:Summary;
    bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:annotationBody "Contains 15 motion pictures directed by Alfred Hitchcock, originally released between 1942 and 1976.";
    bf:label "Summary";
-   bf:summaryOf <http://naomi.org/a9939294> .
+   bf:summaryOf <http://example.org/a9939294> .
 
-<http://naomi.org/a9939294instance32> a bf:Instance,
+<http://example.org/a9939294instance32> a bf:Instance,
      bf:Monograph;
    bf:contentsNote "1 Saboteur -- 2 Shadow of a doubt -- 3 Rope -- 4 Rear window -- 5 The trouble with Harry -- 6 The man who knew too much -- 7 Vertigo -- 8 North by Northwest -- 9 Psycho -- 10 The birds -- 11 Marnie -- 12 Torn curtain -- 13 Topaz -- 14 Frenzy -- 15 Family plot";
    bf:creditsNote "Credits: Directed by Alfred Hitchcock.";
@@ -37,8 +37,8 @@
    bf:extent "15 videodiscs : 1 booklet (58 p. : col. ill. ; 18 cm.)";
    bf:formDesignation "videorecording.";
    bf:illustrationNote "sd., col. & b&w ;";
-   bf:instanceOf <http://naomi.org/a9939294>;
-   bf:instanceTitle <http://naomi.org/a9939294title35>;
+   bf:instanceOf <http://example.org/a9939294>;
+   bf:instanceTitle <http://example.org/a9939294title35>;
    bf:languageNote "English and French language soundtracks with optional English subtitles for the hearing impaired and optional Spanish subtitles.";
    bf:modeOfIssuance "single unit";
    bf:note "Blu-ray; requires Blu-ray player.",
@@ -82,7 +82,7 @@
      bf:identifierValue "61120097"
    ] .
 
-<http://naomi.org/a9939294person6> a bf:Person;
+<http://example.org/a9939294person6> a bf:Person;
    bf:authorizedAccessPoint "Hitchcock, Alfred, 1899-1980.";
    bf:hasAuthority [
      a mads:Authority;
@@ -90,15 +90,15 @@
    ];
    bf:label "Hitchcock, Alfred, 1899-1980." .
 
-<http://naomi.org/a9939294title35> a bf:Title;
+<http://example.org/a9939294title35> a bf:Title;
    bf:label "Alfred Hitchcock, the masterpiece collection [videorecording].";
    bf:titleValue "Alfred Hitchcock, the masterpiece collection" .
 
-<http://naomi.org/a9939294title5> a bf:Title;
+<http://example.org/a9939294title5> a bf:Title;
    bf:label "Alfred Hitchcock, the masterpiece collection [videorecording].";
    bf:titleValue "Alfred Hitchcock, the masterpiece collection" .
 
-<http://naomi.org/a9939294topic10> a bf:Topic;
+<http://example.org/a9939294topic10> a bf:Topic;
    bf:authorizedAccessPoint "Thrillers (Motion pictures)--^A2007198";
    bf:hasAuthority [
      a mads:Authority,
@@ -108,7 +108,7 @@
    ];
    bf:label "Thrillers (Motion pictures)--^A2007198" .
 
-<http://naomi.org/a9939294topic11> a bf:Topic;
+<http://example.org/a9939294topic11> a bf:Topic;
    bf:authorizedAccessPoint "Motion pictures, American.--^A1079750";
    bf:hasAuthority [
      a mads:Authority,
@@ -118,7 +118,7 @@
    ];
    bf:label "Motion pictures, American.--^A1079750" .
 
-<http://naomi.org/a9939294topic12> a bf:Topic;
+<http://example.org/a9939294topic12> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Feature films.--^A2950595";
    bf:hasAuthority [
@@ -129,7 +129,7 @@
    ];
    bf:label "Feature films.--^A2950595" .
 
-<http://naomi.org/a9939294topic13> a bf:Topic;
+<http://example.org/a9939294topic13> a bf:Topic;
    bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
    bf:authorizedAccessPoint "Video recordings for the hearing impaired.--^A2950816";
    bf:hasAuthority [
@@ -140,7 +140,7 @@
    ];
    bf:label "Video recordings for the hearing impaired.--^A2950816" .
 
-<http://naomi.org/a9939294topic9> a bf:Topic;
+<http://example.org/a9939294topic9> a bf:Topic;
    bf:authorizedAccessPoint "Feature films.--^A1017258";
    bf:hasAuthority [
      a mads:Authority,
@@ -150,91 +150,91 @@
    ];
    bf:label "Feature films.--^A1017258" .
 
-<http://naomi.org/a9939294work15> a bf:Work;
+<http://example.org/a9939294work15> a bf:Work;
    bf:authorizedAccessPoint "Saboteur (Motion picture 1942)";
    bf:title "Saboteur (Motion picture 1942)" .
 
-<http://naomi.org/a9939294work16> a bf:Work;
+<http://example.org/a9939294work16> a bf:Work;
    bf:authorizedAccessPoint "Shadow of a doubt (Motion picture)";
    bf:title "Shadow of a doubt (Motion picture)" .
 
-<http://naomi.org/a9939294work17> a bf:Work;
+<http://example.org/a9939294work17> a bf:Work;
    bf:authorizedAccessPoint "Rope (Motion picture)";
    bf:title "Rope (Motion picture)" .
 
-<http://naomi.org/a9939294work18> a bf:Work;
+<http://example.org/a9939294work18> a bf:Work;
    bf:authorizedAccessPoint "Rear window (Motion picture)";
    bf:title "Rear window (Motion picture)" .
 
-<http://naomi.org/a9939294work19> a bf:Work;
+<http://example.org/a9939294work19> a bf:Work;
    bf:authorizedAccessPoint "Trouble with Harry (Motion picture)";
    bf:title "Trouble with Harry (Motion picture)" .
 
-<http://naomi.org/a9939294work20> a bf:Work;
+<http://example.org/a9939294work20> a bf:Work;
    bf:authorizedAccessPoint "North by northwest (Motion picture)";
    bf:title "North by northwest (Motion picture)" .
 
-<http://naomi.org/a9939294work21> a bf:Work;
+<http://example.org/a9939294work21> a bf:Work;
    bf:authorizedAccessPoint "Man who knew too much (Motion picture 1956)";
    bf:title "Man who knew too much (Motion picture 1956)" .
 
-<http://naomi.org/a9939294work22> a bf:Work;
+<http://example.org/a9939294work22> a bf:Work;
    bf:authorizedAccessPoint "Vertigo (Motion picture 1958)";
    bf:title "Vertigo (Motion picture 1958)" .
 
-<http://naomi.org/a9939294work23> a bf:Work;
+<http://example.org/a9939294work23> a bf:Work;
    bf:authorizedAccessPoint "Psycho (Motion picture 1960)";
    bf:title "Psycho (Motion picture 1960)" .
 
-<http://naomi.org/a9939294work24> a bf:Work;
+<http://example.org/a9939294work24> a bf:Work;
    bf:authorizedAccessPoint "Birds (Motion picture)";
    bf:title "Birds (Motion picture)" .
 
-<http://naomi.org/a9939294work25> a bf:Work;
+<http://example.org/a9939294work25> a bf:Work;
    bf:authorizedAccessPoint "Marnie (Motion picture)";
    bf:title "Marnie (Motion picture)" .
 
-<http://naomi.org/a9939294work26> a bf:Work;
+<http://example.org/a9939294work26> a bf:Work;
    bf:authorizedAccessPoint "Torn curtain (Motion picture)";
    bf:title "Torn curtain (Motion picture)" .
 
-<http://naomi.org/a9939294work27> a bf:Work;
+<http://example.org/a9939294work27> a bf:Work;
    bf:authorizedAccessPoint "Topaz (Motion picture 1969)";
    bf:title "Topaz (Motion picture 1969)" .
 
-<http://naomi.org/a9939294work28> a bf:Work;
+<http://example.org/a9939294work28> a bf:Work;
    bf:authorizedAccessPoint "Frenzy (Motion picture 1972)";
    bf:title "Frenzy (Motion picture 1972)" .
 
-<http://naomi.org/a9939294work29> a bf:Work;
+<http://example.org/a9939294work29> a bf:Work;
    bf:authorizedAccessPoint "Family plot (Motion picture)";
    bf:title "Family plot (Motion picture)" .
 
-<http://naomi.org/a9939294> a bf:Work,
+<http://example.org/a9939294> a bf:Work,
      bf:MovingImage;
    bf:authorizedAccessPoint "Hitchcock, Alfred, 1899-1980. Alfred Hitchcock, the masterpiece collection [videorecording].Alfred Hitchcock, the masterpiece collection",
      "hitchcockalfred18991980a93935alfredhitchcockthemasterpiececollectionengworkmovingimage"@x-bf-hash;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/PN1997.A1>;
-   bf:contributor <http://naomi.org/a9939294person6>;
+   bf:contributor <http://example.org/a9939294person6>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:relatedResource <http://naomi.org/a9939294work15>,
-     <http://naomi.org/a9939294work16>,
-     <http://naomi.org/a9939294work17>,
-     <http://naomi.org/a9939294work18>,
-     <http://naomi.org/a9939294work19>,
-     <http://naomi.org/a9939294work20>,
-     <http://naomi.org/a9939294work21>,
-     <http://naomi.org/a9939294work22>,
-     <http://naomi.org/a9939294work23>,
-     <http://naomi.org/a9939294work24>,
-     <http://naomi.org/a9939294work25>,
-     <http://naomi.org/a9939294work26>,
-     <http://naomi.org/a9939294work27>,
-     <http://naomi.org/a9939294work28>,
-     <http://naomi.org/a9939294work29>;
-   bf:subject <http://naomi.org/a9939294topic9>,
-     <http://naomi.org/a9939294topic10>,
-     <http://naomi.org/a9939294topic11>,
-     <http://naomi.org/a9939294topic12>,
-     <http://naomi.org/a9939294topic13>;
-   bf:workTitle <http://naomi.org/a9939294title5> .
+   bf:relatedResource <http://example.org/a9939294work15>,
+     <http://example.org/a9939294work16>,
+     <http://example.org/a9939294work17>,
+     <http://example.org/a9939294work18>,
+     <http://example.org/a9939294work19>,
+     <http://example.org/a9939294work20>,
+     <http://example.org/a9939294work21>,
+     <http://example.org/a9939294work22>,
+     <http://example.org/a9939294work23>,
+     <http://example.org/a9939294work24>,
+     <http://example.org/a9939294work25>,
+     <http://example.org/a9939294work26>,
+     <http://example.org/a9939294work27>,
+     <http://example.org/a9939294work28>,
+     <http://example.org/a9939294work29>;
+   bf:subject <http://example.org/a9939294topic9>,
+     <http://example.org/a9939294topic10>,
+     <http://example.org/a9939294topic11>,
+     <http://example.org/a9939294topic12>,
+     <http://example.org/a9939294topic13>;
+   bf:workTitle <http://example.org/a9939294title5> .

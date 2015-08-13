@@ -5,10 +5,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a5577046annotation14> a bf:Annotation;
-   bf:annotates <http://naomi.org/a5577046>;
+<http://example.org/a5577046annotation14> a bf:Annotation;
+   bf:annotates <http://example.org/a5577046>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a5577046.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a5577046.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>,
      <http://id.loc.gov/vocabulary/organizations/omp>,
@@ -18,15 +18,15 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/vru>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a5577046instance15> a bf:Instance,
+<http://example.org/a5577046instance15> a bf:Instance,
      bf:Monograph;
    bf:contentsNote "The studio sessions. Move (2:33) ; Jeru (3:13) ; Moon dreams (3:19) ; Venus de Milo (3; 13) ; Budo (2:34) ; Deception (2:49) ; Godchild (3:11) ; Boplicity (3:00) ; Rocker (3:06) ; Israel (2:18) ; Rouge (3:15) ; Darn that dream (3:25) -- The live sessions. Birth of the cool theme (0:19) ; Symphony Sid announces the band (1:02) ; Move (3:40) ; Why do I love you (3:41) ; Godchild (5:51) ; Symphony Sid introduction (0:27) ; S'il vous plait (4:22) ; Moon dreams (5:06) ; Budo (Hallucination) (1:25) ; Darn that dream (4:25) ; Move (4:48) ; Moon dreams (3:46) ; Budo (Hallucinations) (4:23).";
    bf:dimensions "4 3/4 in.";
    bf:extent "1 sound disc :";
    bf:formDesignation "sound recording.";
    bf:illustrationNote "digital ;";
-   bf:instanceOf <http://naomi.org/a5577046>;
-   bf:instanceTitle <http://naomi.org/a5577046title18>;
+   bf:instanceOf <http://example.org/a5577046>;
+   bf:instanceTitle <http://example.org/a5577046title18>;
    bf:issueNumber [
      a bf:Identifier;
      bf:identifierAssigner "Capitol Jazz";
@@ -73,11 +73,11 @@
      bf:identifierValue "724349455023"
    ] .
 
-<http://naomi.org/a5577046language10> a bf:Language;
+<http://example.org/a5577046language10> a bf:Language;
    bf:languageOfPartUri <http://id.loc.gov/vocabulary/languages/eng>;
    bf:resourcePart "accompanying material other than librettos" .
 
-<http://naomi.org/a5577046person7> a bf:Person;
+<http://example.org/a5577046person7> a bf:Person;
    bf:authorizedAccessPoint "Davis, Miles";
    bf:hasAuthority [
      a mads:Authority;
@@ -85,15 +85,15 @@
    ];
    bf:label "Davis, Miles" .
 
-<http://naomi.org/a5577046title18> a bf:Title;
+<http://example.org/a5577046title18> a bf:Title;
    bf:label "The complete birth of the cool [sound recording].";
    bf:titleValue "The complete birth of the cool" .
 
-<http://naomi.org/a5577046title5> a bf:Title;
+<http://example.org/a5577046title5> a bf:Title;
    bf:label "The complete birth of the cool [sound recording].";
    bf:titleValue "The complete birth of the cool" .
 
-<http://naomi.org/a5577046topic11> a bf:Topic;
+<http://example.org/a5577046topic11> a bf:Topic;
    bf:authorizedAccessPoint "Trumpet music (Jazz)--^A1070197";
    bf:hasAuthority [
      a mads:Authority,
@@ -103,7 +103,7 @@
    ];
    bf:label "Trumpet music (Jazz)--^A1070197" .
 
-<http://naomi.org/a5577046topic12> a bf:Topic;
+<http://example.org/a5577046topic12> a bf:Topic;
    bf:authorizedAccessPoint "Jazz--1941-1950.--^A1089336";
    bf:hasAuthority [
      a mads:Authority,
@@ -130,15 +130,15 @@
    ];
    bf:label "Jazz--1941-1950.--^A1089336" .
 
-<http://naomi.org/a5577046> a bf:Work,
+<http://example.org/a5577046> a bf:Work,
      bf:Audio;
    bf:authorizedAccessPoint "Davis, Miles The complete birth of the cool [sound recording].The complete birth of the cool",
      "davismilesa26026completebirthofthecoolengworkaudio"@x-bf-hash;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>,
-     <http://naomi.org/a5577046language10>;
+     <http://example.org/a5577046language10>;
    bf:note "Recorded between Sept. 4, 1948 and Mar. 9, 1950.";
-   bf:subject <http://naomi.org/a5577046topic11>,
-     <http://naomi.org/a5577046topic12>;
+   bf:subject <http://example.org/a5577046topic11>,
+     <http://example.org/a5577046topic12>;
    bf:title "complete birth of the cool"@x-bf-sort;
-   bf:workTitle <http://naomi.org/a5577046title5>;
-   marc_rels:prf <http://naomi.org/a5577046person7> .
+   bf:workTitle <http://example.org/a5577046title5>;
+   marc_rels:prf <http://example.org/a5577046person7> .

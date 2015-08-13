@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a410549annotation13> a bf:Annotation;
-   bf:annotates <http://naomi.org/a410549>;
+<http://example.org/a410549annotation13> a bf:Annotation;
+   bf:annotates <http://example.org/a410549>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a410549.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a410549.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/mul>,
      <http://id.loc.gov/vocabulary/organizations/ctymus>,
@@ -16,21 +16,21 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/gu>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a410549helditem36> a bf:HeldItem;
+<http://example.org/a410549helditem36> a bf:HeldItem;
    bf:copyNote "LATEST IN CURRENT PERIODICALS";
    bf:heldBy "CSt";
-   bf:holdingFor <http://naomi.org/a410549instance14>;
+   bf:holdingFor <http://example.org/a410549instance14>;
    bf:label "";
    bf:shelfMark "1";
    bf:subLocation "MUSIC" .
 
-<http://naomi.org/a410549instance14> a bf:Instance,
+<http://example.org/a410549instance14> a bf:Instance,
      bf:Serial;
    bf:dimensions "23 cm.";
    bf:extent "v. :";
    bf:illustrationNote "ill., music, ports. ;";
-   bf:instanceOf <http://naomi.org/a410549>;
-   bf:instanceTitle <http://naomi.org/a410549title17>;
+   bf:instanceOf <http://example.org/a410549>;
+   bf:instanceTitle <http://example.org/a410549title17>;
    bf:issn [
      a bf:Identifier;
      bf:identifierScheme loc_ids:issn;
@@ -77,7 +77,7 @@
    bf:title "Horn call"@x-bf-sort;
    bf:titleStatement "The Horn call." .
 
-<http://naomi.org/a410549organization7> a bf:Organization;
+<http://example.org/a410549organization7> a bf:Organization;
    bf:authorizedAccessPoint "International Horn Society.";
    bf:hasAuthority [
      a mads:Authority;
@@ -85,15 +85,15 @@
    ];
    bf:label "International Horn Society." .
 
-<http://naomi.org/a410549title17> a bf:Title;
+<http://example.org/a410549title17> a bf:Title;
    bf:label "The Horn call.";
    bf:titleValue "The Horn call" .
 
-<http://naomi.org/a410549title5> a bf:Title;
+<http://example.org/a410549title5> a bf:Title;
    bf:label "The Horn call.";
    bf:titleValue "The Horn call" .
 
-<http://naomi.org/a410549topic10> a bf:Topic;
+<http://example.org/a410549topic10> a bf:Topic;
    bf:authorizedAccessPoint "Horn (Musical instrument)--Periodicals.--^A1025790";
    bf:hasAuthority [
      a mads:Authority,
@@ -120,11 +120,11 @@
    ];
    bf:label "Horn (Musical instrument)--Periodicals.--^A1025790" .
 
-<http://naomi.org/a410549> a bf:Work,
+<http://example.org/a410549> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "International Horn Society. The Horn call.The Horn call",
      "internationalhornsocietya275720horncallengworktext"@x-bf-hash;
-   bf:contributor <http://naomi.org/a410549organization7>;
+   bf:contributor <http://example.org/a410549organization7>;
    bf:findingAidNote "Vols. 1-10, after v. 10.";
    bf:issnL [
      a bf:Identifier;
@@ -132,6 +132,6 @@
      bf:identifierValue ""
    ];
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:subject <http://naomi.org/a410549topic10>;
+   bf:subject <http://example.org/a410549topic10>;
    bf:title "Horn call"@x-bf-sort;
-   bf:workTitle <http://naomi.org/a410549title5> .
+   bf:workTitle <http://example.org/a410549title5> .

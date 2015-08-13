@@ -5,28 +5,28 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a4719997annotation15> a bf:Annotation;
-   bf:annotates <http://naomi.org/a4719997>;
+<http://example.org/a4719997annotation15> a bf:Annotation;
+   bf:annotates <http://example.org/a4719997>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a4719997.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a4719997.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/appm>,
      <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/cst>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a4719997annotation17> a bf:Annotation;
-   bf:annotates <http://naomi.org/a4719997>;
+<http://example.org/a4719997annotation17> a bf:Annotation;
+   bf:annotates <http://example.org/a4719997>;
    bf:annotationBody <http://www.oac.cdlib.org/findaid/ark:/13030/kt787007h3>;
    bf:label "Finding aid available online" .
 
-<http://naomi.org/a4719997instance16> a bf:Instance,
+<http://example.org/a4719997instance16> a bf:Instance,
      bf:Archival,
      bf:Monograph;
    bf:accessCondition "Open for research; material must be requested at least 24 hours in advance of intended use.";
    bf:extent "312 items.";
    bf:immediateAcquisition "Purchased in part with the support of the William R. & Yvonne E. Jacobson Africana Collections Program, 2002.";
-   bf:instanceOf <http://naomi.org/a4719997>;
-   bf:instanceTitle <http://naomi.org/a4719997title20>;
+   bf:instanceOf <http://example.org/a4719997>;
+   bf:instanceTitle <http://example.org/a4719997title20>;
    bf:modeOfIssuance "single unit";
    bf:note "Dr. Oscar I. Norwich of Johannesburg, South Africa, collected maps, both printed and manuscript, for more than thirty-five years.",
      "The collection contains 312 maps of Africa and its islands collected by Oscar I. Norwich, and includes sea charts and maps of Southern Africa; the Cape of Good Hope; North, East, and West Africa; islands, ports, and town plans. The majority of the maps are loose items, but a certain number are from rare, published atlases; a few were published in travel books.",
@@ -41,19 +41,19 @@
      bf:identifierValue "(OCoLC-I)755034767"
    ];
    bf:titleStatement "Dr. Oscar I. Norwich collection of maps of Africa and its islands";
-   bf:titleVariation <http://naomi.org/a4719997title21> .
+   bf:titleVariation <http://example.org/a4719997title21> .
 
-<http://naomi.org/a4719997summary10> a bf:Summary;
+<http://example.org/a4719997summary10> a bf:Summary;
    bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:annotationBody "The collection contains 312 maps of Africa and its islands collected by Oscar I. Norwich, and includes sea charts and maps of Southern Africa; the Cape of Good Hope; North, East, and West Africa; islands, ports, and town plans. The majority of the maps are loose items, but a certain number are from rare, published atlases; a few were published in travel books.";
    bf:label "Summary";
-   bf:summaryOf <http://naomi.org/a4719997> .
+   bf:summaryOf <http://example.org/a4719997> .
 
-<http://naomi.org/a4719997classification13> a bf:Classification;
+<http://example.org/a4719997classification13> a bf:Classification;
    bf:classificationNumber "Mss Prints 0274";
    bf:classificationScheme "" .
 
-<http://naomi.org/a4719997person11> a bf:Person;
+<http://example.org/a4719997person11> a bf:Person;
    bf:authorizedAccessPoint "Norwich, Oscar I. UNAUTHORIZED--Map collections.";
    bf:hasAuthority [
      a mads:Authority,
@@ -80,7 +80,7 @@
    ];
    bf:label "Norwich, Oscar I. UNAUTHORIZED--Map collections." .
 
-<http://naomi.org/a4719997person6> a bf:Person;
+<http://example.org/a4719997person6> a bf:Person;
    bf:authorizedAccessPoint "Norwich, Oscar I.";
    bf:hasAuthority [
      a mads:Authority;
@@ -88,7 +88,7 @@
    ];
    bf:label "Norwich, Oscar I." .
 
-<http://naomi.org/a4719997person7> a bf:Person;
+<http://example.org/a4719997person7> a bf:Person;
    bf:authorizedAccessPoint "Norwich, Rose.";
    bf:hasAuthority [
      a mads:Authority;
@@ -96,20 +96,20 @@
    ];
    bf:label "Norwich, Rose." .
 
-<http://naomi.org/a4719997title20> a bf:Title;
+<http://example.org/a4719997title20> a bf:Title;
    bf:label "Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865.";
    bf:titleValue "Dr. Oscar I. Norwich collection of maps of Africa and its islands," .
 
-<http://naomi.org/a4719997title21> a bf:Title;
+<http://example.org/a4719997title21> a bf:Title;
    bf:label "Norwich collection of maps of Africa and its islands";
    bf:titleType "portion";
    bf:titleValue "Norwich collection of maps of Africa and its islands" .
 
-<http://naomi.org/a4719997title5> a bf:Title;
+<http://example.org/a4719997title5> a bf:Title;
    bf:label "Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865.";
    bf:titleValue "Dr. Oscar I. Norwich collection of maps of Africa and its islands," .
 
-<http://naomi.org/a4719997topic12> a bf:Topic;
+<http://example.org/a4719997topic12> a bf:Topic;
    bf:authorizedAccessPoint "Cartography--Africa--History.--^A1001412";
    bf:hasAuthority [
      a mads:Authority,
@@ -144,15 +144,15 @@
    ];
    bf:label "Cartography--Africa--History.--^A1001412" .
 
-<http://naomi.org/a4719997> a bf:Work,
+<http://example.org/a4719997> a bf:Work,
      bf:Cartography;
    bf:authorizedAccessPoint "Norwich, Oscar I. Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865.Dr. Oscar I. Norwich collection of maps of Africa and its islands,",
      "norwichoscariunauthorizednorwichrosea2747594droscarinorwichcollectionofmapsofafricaanditsislandsengworkcartography"@x-bf-hash;
-   bf:classification <http://naomi.org/a4719997classification13>;
-   bf:contributor <http://naomi.org/a4719997person7>;
+   bf:classification <http://example.org/a4719997classification13>;
+   bf:contributor <http://example.org/a4719997person7>;
    bf:findingAidNote "Finding aid available online and in the Special Collections Reading Room.";
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:subject <http://naomi.org/a4719997person11>,
-     <http://naomi.org/a4719997topic12>;
-   bf:workTitle <http://naomi.org/a4719997title5>;
-   marc_rels:col <http://naomi.org/a4719997person6> .
+   bf:subject <http://example.org/a4719997person11>,
+     <http://example.org/a4719997topic12>;
+   bf:workTitle <http://example.org/a4719997title5>;
+   marc_rels:col <http://example.org/a4719997person6> .

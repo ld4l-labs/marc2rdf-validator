@@ -5,25 +5,25 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a297984annotation20> a bf:Annotation;
-   bf:annotates <http://naomi.org/a297984>;
+<http://example.org/a297984annotation20> a bf:Annotation;
+   bf:annotates <http://example.org/a297984>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a297984.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a297984.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/nonisbd>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cst>,
      <http://id.loc.gov/vocabulary/organizations/cstrlin>,
      <http://id.loc.gov/vocabulary/organizations/orlob>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a297984instance21> a bf:Instance,
+<http://example.org/a297984instance21> a bf:Instance,
      bf:Monograph;
    bf:contentsNote "Brahms. Horn trio in E flat, op. 40.--Mozart. Horn quintet in E flat, K. 407.--Marais, M. Le basque.";
    bf:dimensions "12 in.";
    bf:extent "1 disc.";
    bf:formDesignation "Sound recording";
    bf:illustrationNote "33 1/3 rpm.";
-   bf:instanceOf <http://naomi.org/a297984>;
-   bf:instanceTitle <http://naomi.org/a297984title24>;
+   bf:instanceOf <http://example.org/a297984>;
+   bf:instanceTitle <http://example.org/a297984title24>;
    bf:issueNumber [
      a bf:Identifier;
      bf:identifierAssigner "Everest";
@@ -71,7 +71,7 @@
    ];
    bf:titleStatement "Dennis Brain: The art of the French horn." .
 
-<http://naomi.org/a297984organization11> a bf:Organization;
+<http://example.org/a297984organization11> a bf:Organization;
    bf:authorizedAccessPoint "Carter String Trio.";
    bf:hasAuthority [
      a mads:Authority;
@@ -79,7 +79,7 @@
    ];
    bf:label "Carter String Trio." .
 
-<http://naomi.org/a297984person10> a bf:Person;
+<http://example.org/a297984person10> a bf:Person;
    bf:authorizedAccessPoint "Parry, Wilfrid";
    bf:hasAuthority [
      a mads:Authority;
@@ -87,7 +87,7 @@
    ];
    bf:label "Parry, Wilfrid" .
 
-<http://naomi.org/a297984person20> a bf:Person;
+<http://example.org/a297984person20> a bf:Person;
    bf:authorizedAccessPoint "Brahms, Johannes, 1833-1897. op. 40";
    bf:hasAuthority [
      a mads:Authority;
@@ -95,7 +95,7 @@
    ];
    bf:label "Brahms, Johannes, 1833-1897. op. 40" .
 
-<http://naomi.org/a297984person21> a bf:Person;
+<http://example.org/a297984person21> a bf:Person;
    bf:authorizedAccessPoint "Mozart, Wolfgang Amadeus, 1756-1791. K. 407";
    bf:hasAuthority [
      a mads:Authority;
@@ -103,7 +103,7 @@
    ];
    bf:label "Mozart, Wolfgang Amadeus, 1756-1791. K. 407" .
 
-<http://naomi.org/a297984person22> a bf:Person;
+<http://example.org/a297984person22> a bf:Person;
    bf:authorizedAccessPoint "Marais, Marin, 1656-1728";
    bf:hasAuthority [
      a mads:Authority;
@@ -111,7 +111,7 @@
    ];
    bf:label "Marais, Marin, 1656-1728" .
 
-<http://naomi.org/a297984person6> a bf:Person;
+<http://example.org/a297984person6> a bf:Person;
    bf:authorizedAccessPoint "Brain, Dennis, 1921-1957.";
    bf:hasAuthority [
      a mads:Authority;
@@ -119,7 +119,7 @@
    ];
    bf:label "Brain, Dennis, 1921-1957." .
 
-<http://naomi.org/a297984person7> a bf:Person;
+<http://example.org/a297984person7> a bf:Person;
    bf:authorizedAccessPoint "Salpeter, Max.";
    bf:hasAuthority [
      a mads:Authority;
@@ -127,7 +127,7 @@
    ];
    bf:label "Salpeter, Max." .
 
-<http://naomi.org/a297984person8> a bf:Person;
+<http://example.org/a297984person8> a bf:Person;
    bf:authorizedAccessPoint "Preedy, Cyril.";
    bf:hasAuthority [
      a mads:Authority;
@@ -135,7 +135,7 @@
    ];
    bf:label "Preedy, Cyril." .
 
-<http://naomi.org/a297984person9> a bf:Person;
+<http://example.org/a297984person9> a bf:Person;
    bf:authorizedAccessPoint "Grainger, Eileen.";
    bf:hasAuthority [
      a mads:Authority;
@@ -143,17 +143,17 @@
    ];
    bf:label "Grainger, Eileen." .
 
-<http://naomi.org/a297984title24> a bf:Title;
+<http://example.org/a297984title24> a bf:Title;
    bf:label "Dennis Brain: The art of the French horn. [Sound recording]";
    bf:subtitle "The art of the French horn.";
    bf:titleValue "Dennis Brain:" .
 
-<http://naomi.org/a297984title5> a bf:Title;
+<http://example.org/a297984title5> a bf:Title;
    bf:label "Dennis Brain: The art of the French horn. [Sound recording]";
    bf:subtitle "The art of the French horn.";
    bf:titleValue "Dennis Brain:" .
 
-<http://naomi.org/a297984topic12> a bf:Topic;
+<http://example.org/a297984topic12> a bf:Topic;
    bf:authorizedAccessPoint "Trios (Piano, horn, violin)--^A1070020";
    bf:hasAuthority [
      a mads:Authority,
@@ -163,7 +163,7 @@
    ];
    bf:label "Trios (Piano, horn, violin)--^A1070020" .
 
-<http://naomi.org/a297984topic13> a bf:Topic;
+<http://example.org/a297984topic13> a bf:Topic;
    bf:authorizedAccessPoint "Quintets (Horn, violin, violas (2), cello)--^A1054075";
    bf:hasAuthority [
      a mads:Authority,
@@ -173,7 +173,7 @@
    ];
    bf:label "Quintets (Horn, violin, violas (2), cello)--^A1054075" .
 
-<http://naomi.org/a297984topic14> a bf:Topic;
+<http://example.org/a297984topic14> a bf:Topic;
    bf:authorizedAccessPoint "Horn and piano music, Arranged.--^A1025796";
    bf:hasAuthority [
      a mads:Authority,
@@ -183,40 +183,40 @@
    ];
    bf:label "Horn and piano music, Arranged.--^A1025796" .
 
-<http://naomi.org/a297984work15> a bf:Work;
+<http://example.org/a297984work15> a bf:Work;
    bf:authorizedAccessPoint "The Art of the French horn.";
    bf:title "The Art of the French horn." .
 
-<http://naomi.org/a297984work16> a bf:Work;
+<http://example.org/a297984work16> a bf:Work;
    bf:authorizedAccessPoint "Brahms, Johannes, 1833-1897. op. 40 Trios, piano, violin, horn, op. 40";
-   bf:contributor <http://naomi.org/a297984person20>;
+   bf:contributor <http://example.org/a297984person20>;
    bf:title "Trios, piano, violin, horn, op. 40" .
 
-<http://naomi.org/a297984work17> a bf:Work;
+<http://example.org/a297984work17> a bf:Work;
    bf:authorizedAccessPoint "Mozart, Wolfgang Amadeus, 1756-1791. K. 407 Quintets, horn, violin, violas (2), cello, K. 407";
-   bf:contributor <http://naomi.org/a297984person21>;
+   bf:contributor <http://example.org/a297984person21>;
    bf:title "Quintets, horn, violin, violas (2), cello, K. 407" .
 
-<http://naomi.org/a297984work18> a bf:Work;
+<http://example.org/a297984work18> a bf:Work;
    bf:authorizedAccessPoint "Marais, Marin, 1656-1728 Pièces de violes, 4e livre. 1ère partie. 39-40; arranged.";
-   bf:contributor <http://naomi.org/a297984person22>;
+   bf:contributor <http://example.org/a297984person22>;
    bf:title "Pièces de violes, 4e livre. 1ère partie. 39-40; arranged." .
 
-<http://naomi.org/a297984> a bf:Work,
+<http://example.org/a297984> a bf:Work,
      bf:Audio;
    bf:authorizedAccessPoint "Brain, Dennis, 1921-1957. Dennis Brain: The art of the French horn. [Sound recording]Dennis Brain:The art of the French horn",
      "braindennis19211957a275479salpetermaxa2858456preedycyrila870127graingereileenunauthorizedparrywilfrida275480brahmsjohannes18331897a237843mozartwolfgangamadeus17561791a710672maraismarin16561728a238190carterstringtrioa2796093dennisbraintheartofthefrenchhornworkaudio"@x-bf-hash;
-   bf:hasPart <http://naomi.org/a297984work16>,
-     <http://naomi.org/a297984work17>,
-     <http://naomi.org/a297984work18>;
-   bf:relatedWork <http://naomi.org/a297984work15>;
-   bf:subject <http://naomi.org/a297984topic12>,
-     <http://naomi.org/a297984topic13>,
-     <http://naomi.org/a297984topic14>;
-   bf:workTitle <http://naomi.org/a297984title5>;
-   marc_rels:prf <http://naomi.org/a297984person6>,
-     <http://naomi.org/a297984person7>,
-     <http://naomi.org/a297984person8>,
-     <http://naomi.org/a297984person9>,
-     <http://naomi.org/a297984person10>,
-     <http://naomi.org/a297984organization11> .
+   bf:hasPart <http://example.org/a297984work16>,
+     <http://example.org/a297984work17>,
+     <http://example.org/a297984work18>;
+   bf:relatedWork <http://example.org/a297984work15>;
+   bf:subject <http://example.org/a297984topic12>,
+     <http://example.org/a297984topic13>,
+     <http://example.org/a297984topic14>;
+   bf:workTitle <http://example.org/a297984title5>;
+   marc_rels:prf <http://example.org/a297984person6>,
+     <http://example.org/a297984person7>,
+     <http://example.org/a297984person8>,
+     <http://example.org/a297984person9>,
+     <http://example.org/a297984person10>,
+     <http://example.org/a297984organization11> .

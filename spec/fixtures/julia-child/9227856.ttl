@@ -4,10 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a9227856annotation17> a bf:Annotation;
-   bf:annotates <http://naomi.org/a9227856>;
+<http://example.org/a9227856annotation17> a bf:Annotation;
+   bf:annotates <http://example.org/a9227856>;
    bf:changeDate "2015-06-14T00:30";
-   bf:derivedFrom <http://naomi.org/a9227856.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a9227856.marcxml.xml>;
    bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/ydx>,
@@ -18,19 +18,19 @@
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/ncd/dlc>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a9227856helditem41> a bf:HeldItem;
-   bf:holdingFor <http://naomi.org/a9227856instance18>;
+<http://example.org/a9227856helditem41> a bf:HeldItem;
+   bf:holdingFor <http://example.org/a9227856instance18>;
    bf:label "PN1992.8.C68 P653 2011";
    bf:shelfMarkLcc "PN1992.8.C68 P653 2011" .
 
-<http://naomi.org/a9227856instance18> a bf:Instance,
+<http://example.org/a9227856instance18> a bf:Instance,
      bf:Monograph;
    bf:contentsNote "The difference she made -- Television cookery B.C. (Before Child) -- French cuisine, American style -- The beginnings of The French chef -- Prepping The French chef -- The success of The French chef -- New beginnings and the ending to The French chef -- Kitchen drama.";
    bf:dimensions "21 cm.";
    bf:extent "xiii, 295 p. :";
    bf:illustrationNote "ill. ;";
-   bf:instanceOf <http://naomi.org/a9227856>;
-   bf:instanceTitle <http://naomi.org/a9227856title21>;
+   bf:instanceOf <http://example.org/a9227856>;
+   bf:instanceTitle <http://example.org/a9227856title21>;
    bf:isbn10 <http://isbn.example.org/0822348721>,
      <http://isbn.example.org/0822348594>;
    bf:isbn13 <http://isbn.example.org/9780822348726>,
@@ -66,9 +66,9 @@
      bf:identifierValue "(OCoLC-I)758949302"
    ];
    bf:titleStatement "Julia Child's The French chef";
-   bf:titleVariation <http://naomi.org/a9227856title22> .
+   bf:titleVariation <http://example.org/a9227856title22> .
 
-<http://naomi.org/a9227856person6> a bf:Person;
+<http://example.org/a9227856person6> a bf:Person;
    bf:authorizedAccessPoint "Polan, Dana B., 1953-";
    bf:hasAuthority [
      a mads:Authority;
@@ -76,7 +76,7 @@
    ];
    bf:label "Polan, Dana B., 1953-" .
 
-<http://naomi.org/a9227856person8> a bf:Person;
+<http://example.org/a9227856person8> a bf:Person;
    bf:authorizedAccessPoint "Child, Julia. ^A123471";
    bf:hasAuthority [
      a mads:Authority,
@@ -86,20 +86,20 @@
    ];
    bf:label "Child, Julia. ^A123471" .
 
-<http://naomi.org/a9227856title21> a bf:Title;
+<http://example.org/a9227856title21> a bf:Title;
    bf:label "Julia Child's The French chef / Dana Polan.";
    bf:titleValue "Julia Child's The French chef" .
 
-<http://naomi.org/a9227856title22> a bf:Title;
+<http://example.org/a9227856title22> a bf:Title;
    bf:label "French chef";
    bf:titleType "portion";
    bf:titleValue "French chef" .
 
-<http://naomi.org/a9227856title5> a bf:Title;
+<http://example.org/a9227856title5> a bf:Title;
    bf:label "Julia Child's The French chef / Dana Polan.";
    bf:titleValue "Julia Child's The French chef" .
 
-<http://naomi.org/a9227856topic10> a bf:Topic;
+<http://example.org/a9227856topic10> a bf:Topic;
    bf:authorizedAccessPoint "Television cooking shows--Social aspects--United States.--^A2342458";
    bf:hasAuthority [
      a mads:Authority,
@@ -134,7 +134,7 @@
    ];
    bf:label "Television cooking shows--Social aspects--United States.--^A2342458" .
 
-<http://naomi.org/a9227856topic11> a bf:Topic;
+<http://example.org/a9227856topic11> a bf:Topic;
    bf:authorizedAccessPoint "Cooking--Social aspects--United States.--^A2522473";
    bf:hasAuthority [
      a mads:Authority,
@@ -169,7 +169,7 @@
    ];
    bf:label "Cooking--Social aspects--United States.--^A2522473" .
 
-<http://naomi.org/a9227856topic12> a bf:Topic;
+<http://example.org/a9227856topic12> a bf:Topic;
    bf:authorizedAccessPoint "Sex role--United States--History--20th century.--^A2545677";
    bf:hasAuthority [
      a mads:Authority,
@@ -212,7 +212,7 @@
    ];
    bf:label "Sex role--United States--History--20th century.--^A2545677" .
 
-<http://naomi.org/a9227856topic9> a bf:Topic;
+<http://example.org/a9227856topic9> a bf:Topic;
    bf:authorizedAccessPoint "Cooking, French.--^A1007979";
    bf:hasAuthority [
      a mads:Authority,
@@ -222,22 +222,22 @@
    ];
    bf:label "Cooking, French.--^A1007979" .
 
-<http://naomi.org/a9227856work15> a bf:Work;
+<http://example.org/a9227856work15> a bf:Work;
    bf:authorizedAccessPoint "Spin offs";
    bf:title "Spin offs" .
 
-<http://naomi.org/a9227856> a bf:Work,
+<http://example.org/a9227856> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "Polan, Dana B., 1953- Julia Child's The French chef / Dana Polan.Julia Child's The French chef",
      "polandanab1953a440661juliachildsthefrenchchefengworktext"@x-bf-hash;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/PN1992.8.C68>;
-   bf:creator <http://naomi.org/a9227856person6>;
+   bf:creator <http://example.org/a9227856person6>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:series <http://naomi.org/a9227856work15>;
-   bf:subject <http://naomi.org/a9227856person8>,
-     <http://naomi.org/a9227856topic9>,
-     <http://naomi.org/a9227856topic10>,
-     <http://naomi.org/a9227856topic11>,
-     <http://naomi.org/a9227856topic12>,
+   bf:series <http://example.org/a9227856work15>;
+   bf:subject <http://example.org/a9227856person8>,
+     <http://example.org/a9227856topic9>,
+     <http://example.org/a9227856topic10>,
+     <http://example.org/a9227856topic11>,
+     <http://example.org/a9227856topic12>,
      <http://id.loc.gov/vocabulary/geographicAreas/n-us>;
-   bf:workTitle <http://naomi.org/a9227856title5> .
+   bf:workTitle <http://example.org/a9227856title5> .

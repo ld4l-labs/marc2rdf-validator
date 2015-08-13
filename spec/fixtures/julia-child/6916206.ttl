@@ -4,25 +4,25 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://naomi.org/a6916206annotation14> a bf:Annotation;
-   bf:annotates <http://naomi.org/a6916206>;
+<http://example.org/a6916206annotation14> a bf:Annotation;
+   bf:annotates <http://example.org/a6916206>;
    bf:changeDate "2015-03-21T05:00";
-   bf:derivedFrom <http://naomi.org/a6916206.marcxml.xml>;
+   bf:derivedFrom <http://example.org/a6916206.marcxml.xml>;
    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
    bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
    bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
 
-<http://naomi.org/a6916206helditem34> a bf:HeldItem;
-   bf:holdingFor <http://naomi.org/a6916206instance15>;
+<http://example.org/a6916206helditem34> a bf:HeldItem;
+   bf:holdingFor <http://example.org/a6916206instance15>;
    bf:label "TX649.C47 S53 2007";
    bf:shelfMarkLcc "TX649.C47 S53 2007" .
 
-<http://naomi.org/a6916206instance15> a bf:Instance,
+<http://example.org/a6916206instance15> a bf:Instance,
      bf:Monograph;
    bf:dimensions "20 cm.";
    bf:extent "xxi, 185 p. ;";
-   bf:instanceOf <http://naomi.org/a6916206>;
-   bf:instanceTitle <http://naomi.org/a6916206title18>;
+   bf:instanceOf <http://example.org/a6916206>;
+   bf:instanceTitle <http://example.org/a6916206title18>;
    bf:isbn10 <http://isbn.example.org/0670038393>;
    bf:isbn13 <http://isbn.example.org/9780670038398>;
    bf:lccn [
@@ -58,7 +58,7 @@
    ];
    bf:titleStatement "Julia Child" .
 
-<http://naomi.org/a6916206person6> a bf:Person;
+<http://example.org/a6916206person6> a bf:Person;
    bf:authorizedAccessPoint "Shapiro, Laura.";
    bf:hasAuthority [
      a mads:Authority;
@@ -66,7 +66,7 @@
    ];
    bf:label "Shapiro, Laura." .
 
-<http://naomi.org/a6916206person8> a bf:Person;
+<http://example.org/a6916206person8> a bf:Person;
    bf:authorizedAccessPoint "Child, Julia. ^A123471";
    bf:hasAuthority [
      a mads:Authority,
@@ -76,15 +76,15 @@
    ];
    bf:label "Child, Julia. ^A123471" .
 
-<http://naomi.org/a6916206title18> a bf:Title;
+<http://example.org/a6916206title18> a bf:Title;
    bf:label "Julia Child / Laura Shapiro.";
    bf:titleValue "Julia Child" .
 
-<http://naomi.org/a6916206title5> a bf:Title;
+<http://example.org/a6916206title5> a bf:Title;
    bf:label "Julia Child / Laura Shapiro.";
    bf:titleValue "Julia Child" .
 
-<http://naomi.org/a6916206topic9> a bf:Topic;
+<http://example.org/a6916206topic9> a bf:Topic;
    bf:authorizedAccessPoint "Cooks--United States--Biography.--^A2097406";
    bf:hasAuthority [
      a mads:Authority,
@@ -119,19 +119,19 @@
    ];
    bf:label "Cooks--United States--Biography.--^A2097406" .
 
-<http://naomi.org/a6916206work12> a bf:Work;
+<http://example.org/a6916206work12> a bf:Work;
    bf:authorizedAccessPoint "Penguin lives series";
    bf:title "Penguin lives series" .
 
-<http://naomi.org/a6916206> a bf:Work,
+<http://example.org/a6916206> a bf:Work,
      bf:Text;
    bf:authorizedAccessPoint "Shapiro, Laura. Julia Child / Laura Shapiro.Julia Child",
      "shapirolauraa511244juliachildengworktext"@x-bf-hash;
    bf:classificationLcc <http://id.loc.gov/authorities/classification/TX649.C47>;
-   bf:creator <http://naomi.org/a6916206person6>;
+   bf:creator <http://example.org/a6916206person6>;
    bf:language <http://id.loc.gov/vocabulary/languages/eng>;
-   bf:series <http://naomi.org/a6916206work12>;
-   bf:subject <http://naomi.org/a6916206person8>,
-     <http://naomi.org/a6916206topic9>,
+   bf:series <http://example.org/a6916206work12>;
+   bf:subject <http://example.org/a6916206person8>,
+     <http://example.org/a6916206topic9>,
      <http://id.loc.gov/vocabulary/geographicAreas/n-us>;
-   bf:workTitle <http://naomi.org/a6916206title5> .
+   bf:workTitle <http://example.org/a6916206title5> .
