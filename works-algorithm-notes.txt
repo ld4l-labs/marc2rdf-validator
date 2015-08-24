@@ -1,30 +1,48 @@
-Algorithm to Generate Works and Instances  from  LoC xquery implementation of Marc -> BibFrame
+Algorithm to Generate BibFrame *Works* from MaRC
 
-https://github.com/lcnetdev/marc2bibframe
+reversed engineered from LoC xquery implementation of Marc -> BibFrame
+  https://github.com/lcnetdev/marc2bibframe
 
-
-bf:Works  are created for bib records by:
-
-modules/module.MBIB-2-BIBFRAME-Shared.xqy
-
-one for every bib record
-  due to
-    function mbshared:generate-work
-      2607:    let $mainType := "Work"
-      2780:        element {fn:concat("bf:" , $mainType)} {
-
-600t
+  bf:Works  are created for bib records by:
+    modules/module.MBIB-2-BIBFRAME-Shared.xqy
 
 
+Each Bib Record creates a Work
+
+PLUS
+
+a Work is created when the Bib record has:
+
+600t  # subject
+533   # related reproduction
+555u  # finding aid
+
+# related works
+730|740|780|785
+787t
+700t|710t|711t
+490a
+400t|410t|411t|430t|440t|534t|774t|775t|800t|810t|811t|830t
+760|762|765|767|770|772|773|774
+
+505 ind2==0, has |t  # contents notes
+
+130|240  # uniform title
+880 for 130|240  vernacular uniform title
+
+================================================================================
+Naomi's notes below this line
 
 
+Looking for code that outputs bf:Work
 
+# Each Bib Record
 function mbshared:generate-work
   2607:    let $mainType := "Work"
   2780:        element {fn:concat("bf:" , $mainType)} {
 
 
-
+# 600t
 function mbshared:get-subject
   # It takes a specific 6xx as input.
   # It generates a bf:subject as output, which can have a bf:subject/bf:Work if 600t
@@ -36,6 +54,7 @@ function mbshared:get-subject
     from  function mbshared:generate-work
 
 
+# 533 related repro
 function mbshared:generate-related-reproduction
   # 533 to reproduction
 
@@ -53,7 +72,7 @@ function mbshared:generate-related-reproduction
       from  function mbshared:generate-work
 
 
-
+# 555u  finding aid
 function mbshared:generate-finding-aid-work
   # 555 finding aids note may be related work link or a simple property
 
@@ -64,7 +83,13 @@ function mbshared:generate-finding-aid-work
     from  function mbshared:generate-work
 
 
-
+# related work
+# 730|740|780|785
+# 787t
+# 700t|710t|711t
+# 490a
+# 400t|410t|411t|430t|440t|534t|774t|775t|800t|810t|811t|830t
+# 760|762|765|767|770|772|773|774
 function mbshared:generate-related-work
   #  For RDA:   040$e = rda
   #  For AACR2:  Leader/18 = a
@@ -75,12 +100,12 @@ function mbshared:generate-related-work
   2388:   element bf:Work {
 
   Called by:
-    2500:                        return mbshared:generate-related-work($d,$type, $workID)   )
-    2508:                     return      mbshared:generate-related-work($d,$type, $workID)
-    2512:                     return      mbshared:generate-related-work($d,$type, $workID)
-    2516:               return mbshared:generate-related-work($d,$type, $workID)
-    2520:                 return mbshared:generate-related-work($d,$type, $workID)
-    2526:                     mbshared:generate-related-work($d,$type, $workID)
+    2500:  return mbshared:generate-related-work($d,$type, $workID)   ) # 730|740|780|785
+    2508:  return      mbshared:generate-related-work($d,$type, $workID)  # 787t
+    2512:  return      mbshared:generate-related-work($d,$type, $workID)  # 700t|710t|711t
+    2516:  return mbshared:generate-related-work($d,$type, $workID)             # 490a
+    2520:  return mbshared:generate-related-work($d,$type, $workID) # 400t|410t|411t|430t|440t|534t|774t|775t|800t|810t|811t|830t
+    2526:  mbshared:generate-related-work($d,$type, $workID)  # 760|762|765|767|770|772|773|774
 
     all from  mbshared:related-works
 
@@ -92,7 +117,7 @@ function mbshared:generate-related-work
       from  function mbshared:generate-work
 
 
-
+# 505 ind2==0, has |t  contents notes
 function mbshared:generate-complex-notes
   # This function generates  constituent (hasPart) works from 505
   #   LC often uses only $a, but stanford has  $g$t, and dave reser says he's seen [$g]$t[$r][$u] and $u is always last.
@@ -105,7 +130,7 @@ function mbshared:generate-complex-notes
     from  function mbshared:generate-work
 
 
-
+# 880 for 130|240  vern uniform title
 function mbshared:generate-translationOf
   # This function generates a related work (rda expression?), as translation of from the 100, 240.
   # It takes a 130 or 240 element.
@@ -123,6 +148,7 @@ function mbshared:generate-translationOf
 
 
 
+# 130|240  uniform title
 function mbshared:get-uniformTitle
   # This function generates a Work based on the uniformTitle.
   # It takes a specific datafield (130 or 240) as input.
