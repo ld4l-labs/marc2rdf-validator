@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/a1737900">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/StillImage"/>
+      <bf:authorizedAccessPoint>Dedeban, Jean Marie, active 1770-1791. Music desk from harpsichord [technical drawing] : by Jean Mari de De Ban, Paris, 1770.Music desk from harpsichordby Jean Mari de De Ban, Paris, 1770</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/a1737900title5"/>
+      <bf:contributor rdf:resource="http://example.org/a1737900person6"/>
+      <bf:contributor rdf:resource="http://example.org/a1737900organization7"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:subject rdf:resource="http://example.org/a1737900person9"/>
+      <bf:subject rdf:resource="http://example.org/a1737900topic10"/>
+      <bf:subject rdf:resource="http://example.org/a1737900topic11"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">dedebanjeanmarieactive17701791unauthorizednationalmuseumofhistoryandtechnologydivisionofmusicalinstrumentsa42875musicdeskfromharpsichordbyjeanmaridedebanparis1770engworkstillimage</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/a1737900instance14">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/a1737900title17"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Smithsonian Institution, National Museum of History and Technology, Division of Musical Instruments</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Washington, D.C. </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>[1975?]</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>1 sheet of technical drawings :</bf:extent>
+      <bf:dimensions>93 x 107 cm., rolled.</bf:dimensions>
+      <bf:illustrationNote>blueprint ;</bf:illustrationNote>
+      <bf:titleStatement>Music desk from harpsichord by Jean Mari de De Ban, Paris, 1770.</bf:titleStatement>
+      <bf:formDesignation>technical drawing :</bf:formDesignation>
+      <bf:providerStatement>Washington, D.C. : Smithsonian Institution, National Museum of History and Technology, Division of Musical Instruments, 1975?</bf:providerStatement>
+      <bf:note>Drawing of music desk only.  Complete instrument in Washington, D.C., Smithsonian Institution, U.S. National Museum of History and Technology, Division of Musical Instruments, cat. no. 73.29.</bf:note>
+      <bf:note>Drawing by "G.K.S. &amp; T.W. [Thomas Wolf?] 6.5.75."</bf:note>
+      <bf:note>Scale 1:1.</bf:note>
+      <bf:note>Smithsonian Institution. Checklist of keyboard instruments. Washington, D.C., 1975,</bf:note>
+      <bf:note>31</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(CStRLIN)CSUG88-F206</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)78514187</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)274155475</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://example.org/a1737900"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/a1737900annotation13">
+      <bf:derivedFrom rdf:resource="http://example.org/a1737900.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/cst"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/orlob"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-03-21T05:00</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/a1737900"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://example.org/a1737900title5">
+      <bf:label>Music desk from harpsichord [technical drawing] : by Jean Mari de De Ban, Paris, 1770.</bf:label>
+      <bf:titleValue>Music desk from harpsichord</bf:titleValue>
+      <bf:subtitle>by Jean Mari de De Ban, Paris, 1770.</bf:subtitle>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/a1737900person6">
+      <bf:label>Dedeban, Jean Marie, active 1770-1791.</bf:label>
+      <bf:authorizedAccessPoint>Dedeban, Jean Marie, active 1770-1791.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Dedeban, Jean Marie, active 1770-1791.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Organization rdf:about="http://example.org/a1737900organization7">
+      <bf:label>National Museum of History and Technology. Division of Musical Instruments.</bf:label>
+      <bf:authorizedAccessPoint>National Museum of History and Technology. Division of Musical Instruments.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>National Museum of History and Technology. Division of Musical Instruments.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Person rdf:about="http://example.org/a1737900person9">
+      <bf:authorizedAccessPoint>Dedeban, Jean Marie, active 1770-1791. UNAUTHORIZED</bf:authorizedAccessPoint>
+      <bf:label>Dedeban, Jean Marie, active 1770-1791. UNAUTHORIZED</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#PersonalName"/>
+            <madsrdf:authoritativeLabel>Dedeban, Jean Marie, active 1770-1791. UNAUTHORIZED</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Topic rdf:about="http://example.org/a1737900topic10">
+      <bf:authorizedAccessPoint>Musical instruments--Construction.--^A1041847</bf:authorizedAccessPoint>
+      <bf:label>Musical instruments--Construction.--^A1041847</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Musical instruments--Construction.--^A1041847</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Musical instruments</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Musical instruments</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Construction</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Construction.</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/a1737900topic11">
+      <bf:authorizedAccessPoint>Harpsichord--Construction.--^A1024277</bf:authorizedAccessPoint>
+      <bf:label>Harpsichord--Construction.--^A1024277</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Harpsichord--Construction.--^A1024277</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Harpsichord</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Harpsichord</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Construction</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Construction.</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Title rdf:about="http://example.org/a1737900title17">
+      <bf:label>Music desk from harpsichord [technical drawing] : by Jean Mari de De Ban, Paris, 1770.</bf:label>
+      <bf:titleValue>Music desk from harpsichord</bf:titleValue>
+      <bf:subtitle>by Jean Mari de De Ban, Paris, 1770.</bf:subtitle>
+   </bf:Title>
+</rdf:RDF>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/a6420988">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Yŏsŏng Sinmusa. Yŏsŏng sinmun = The women's news.Yŏsŏng sinmun The women's news.여성　신문 = The women's news</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/a6420988title5"/>
+      <bf:workTitle rdf:resource="http://example.org/a6420988title6"/>
+      <bf:contributor rdf:resource="http://example.org/a6420988organization7"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/kor"/>
+      <bf:subject rdf:resource="http://example.org/a6420988topic9"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/a-ko"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">yŏsŏngsinmusaunauthorizedyŏsŏngsinmunthewomensnewskorworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/a6420988instance13">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Serial"/>
+      <bf:instanceTitle rdf:resource="http://example.org/a6420988title16"/>
+      <bf:instanceTitle rdf:resource="http://example.org/a6420988title17"/>
+      <bf:titleVariation rdf:resource="http://example.org/a6420988title18"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Yŏsŏng Sinmusa</bf:label>
+                  <bf:label xml:lang="ko">여성　신문사</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Sŏul</bf:label>
+                  <bf:label xml:lang="ko">서울:</bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>serial</bf:modeOfIssuance>
+      <bf:extent>no.</bf:extent>
+      <bf:titleStatement>Yŏsŏng sinmun = The women's news.</bf:titleStatement>
+      <bf:providerStatement>Sŏul: Yŏsŏng Sinmusa</bf:providerStatement>
+      <bf:frequencyNote>Weekly</bf:frequencyNote>
+      <bf:languageNote>In Korean.</bf:languageNote>
+      <bf:note>Description based on: che 860-ho (2005. 12. 31-2006. 1. 6)</bf:note>
+      <bf:note xml:lang="ko">Description based on: 제860호 (2005. 12. 31-2006. 1. 6)</bf:note>
+      <bf:note>31</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)49381464</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)164343618</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://example.org/a6420988"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/a6420988annotation12">
+      <bf:derivedFrom rdf:resource="http://example.org/a6420988.marcxml.xml"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-03-21T05:00</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/a6420988"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/a6420988helditem32">
+      <bf:label/>
+      <bf:heldBy>CSt</bf:heldBy>
+      <bf:subLocation>SAL3</bf:subLocation>
+      <bf:shelfMark>1</bf:shelfMark>
+      <bf:holdingFor rdf:resource="http://example.org/a6420988instance13"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://example.org/a6420988title5">
+      <bf:label>Yŏsŏng sinmun = The women's news.</bf:label>
+      <bf:titleValue>Yŏsŏng sinmun </bf:titleValue>
+      <bf:subtitle>The women's news.</bf:subtitle>
+      <bf:titleValue xml:lang="ko">여성　신문 = The women's news.</bf:titleValue>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/a6420988title6">
+      <bf:titleValue>The women's news.</bf:titleValue>
+      <bf:titleType>parallel</bf:titleType>
+   </bf:Title>
+   <bf:Organization rdf:about="http://example.org/a6420988organization7">
+      <bf:label>Yŏsŏng Sinmusa.</bf:label>
+      <bf:authorizedAccessPoint>Yŏsŏng Sinmusa.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="ko">여성　신문사.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Yŏsŏng Sinmusa.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Topic rdf:about="http://example.org/a6420988topic9">
+      <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic"/>
+      <bf:authorizedAccessPoint>Korea (South). Seoul.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Korea (South). Seoul.</madsrdf:authoritativeLabel>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Country>
+                  <madsrdf:authoritativeLabel>Korea (South)</madsrdf:authoritativeLabel>
+               </madsrdf:Country>
+               <madsrdf:City>
+                  <madsrdf:authoritativeLabel>Seoul.</madsrdf:authoritativeLabel>
+               </madsrdf:City>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Title rdf:about="http://example.org/a6420988title16">
+      <bf:label>Yŏsŏng sinmun = The women's news.</bf:label>
+      <bf:titleValue>Yŏsŏng sinmun </bf:titleValue>
+      <bf:subtitle>The women's news.</bf:subtitle>
+      <bf:titleValue xml:lang="ko">여성　신문 = The women's news.</bf:titleValue>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/a6420988title17">
+      <bf:titleValue>The women's news.</bf:titleValue>
+      <bf:titleType>parallel</bf:titleType>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/a6420988title18">
+      <bf:titleType>parallel</bf:titleType>
+      <bf:label>Women's news</bf:label>
+      <bf:titleValue>Women's news</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

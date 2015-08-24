@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/a5723794">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/StillImage"/>
+      <bf:authorizedAccessPoint>Thompson, Thomas Hinckley, 1841-1915. Fancher Creek ranch, property of James Karnes, Fresno Co. [electronic resource] ; Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.Fancher Creek ranch, property of James Karnes, Fresno CoHome ranch &amp; residence of James Karnes, 3 miles S. of Sanger</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/a5723794title5"/>
+      <bf:creator rdf:resource="http://example.org/a5723794person6"/>
+      <bf:contributor rdf:resource="http://example.org/a5723794organization7"/>
+      <bf:contributor rdf:resource="http://example.org/a5723794organization8"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:cartographicScale>Scale varies.</bf:cartographicScale>
+      <bf:subject rdf:resource="http://example.org/a5723794person11"/>
+      <bf:subject rdf:resource="http://example.org/a5723794topic12"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us-ca"/>
+      <bf:partOf rdf:resource="http://example.org/a5723794work14"/>
+      <bf:partOf rdf:resource="http://example.org/a5723794work15"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">davidrumseycollectiona2724060cartographyassociatesa1661484thompsonthomashinckley18411915unauthorizedfanchercreekranchpropertyofjameskarnesfresnocohomeranchresidenceofjameskarnes3milessofsangerengworkstillimage</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/a5723794work14">
+      <bf:title>Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:title>
+      <bf:authorizedAccessPoint>Thompson, Thomas Hinckley, 1841-1915. Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:authorizedAccessPoint>
+      <bf:creator rdf:resource="http://example.org/a5723794person18"/>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/a5723794work15">
+      <bf:title>Official historical atlas map of Fresno County.</bf:title>
+      <bf:authorizedAccessPoint>Thompson, Thos. H. (Thomas Hinckley), 1841-1915. Tulare, Calif. : Thos. H. Thompson, 1891. Official historical atlas map of Fresno County.</bf:authorizedAccessPoint>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/54910070"/>
+      <bf:contributor rdf:resource="http://example.org/a5723794agent20"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/a5723794instance18">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/a5723794title22"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:copyrightDate>[1891]</bf:copyrightDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:cartographicScale>Linear scale</bf:cartographicScale>
+      <bf:cartographicScale>Linear scale</bf:cartographicScale>
+      <bf:cartographicScale>Scale varies.</bf:cartographicScale>
+      <bf:cartographicCoordinates>W1192900° W1192900° N0365100° N0365100° W1193300° W1193300° N0363900° N0363900°</bf:cartographicCoordinates>
+      <bf:modeOfIssuance>monographic</bf:modeOfIssuance>
+      <bf:titleStatement>Fancher Creek ranch, property of James Karnes, Fresno Co. Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:titleStatement>
+      <bf:formDesignation>electronic resource ;</bf:formDesignation>
+      <bf:providerStatement>1891</bf:providerStatement>
+      <bf:note>Two lithographed low oblique views showing Gray Mountain, Rocky Peak, Wild Cat Peak, buildings, orchards, wagons, farm machinery, train, animals, etc.</bf:note>
+      <bf:note>Scanned raster image of original: 1 print : lithograph, b&amp;w ; 39 x 32 cm.</bf:note>
+      <bf:note>Original in the David Rumsey Collection; scanned by Cartography Associates.</bf:note>
+      <bf:note>22</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-M)55202257</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(OCoLC-I)275921613</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://example.org/a5723794"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://example.org/a5723794instance19">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <bf:label>Electronic Resource</bf:label>
+      <bf:uri rdf:resource="http://www.davidrumsey.com/insightredirector/insightredirector.asp?cid=8&amp;iia=0&amp;ig=David%20Rumsey%20Collection&amp;isl=0&amp;gwisp=0%7CList%5FNo%7CList%20No%7C1%7C2867.079%7C2&amp;gwia=3&amp;gc=0"/>
+      <bf:instanceOf rdf:resource="http://example.org/a5723794"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/a5723794annotation17">
+      <bf:derivedFrom rdf:resource="http://example.org/a5723794.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/cuy"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-03-21T05:00</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/a5723794"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://example.org/a5723794title5">
+      <bf:label>Fancher Creek ranch, property of James Karnes, Fresno Co. [electronic resource] ; Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:label>
+      <bf:titleValue>Fancher Creek ranch, property of James Karnes, Fresno Co</bf:titleValue>
+      <bf:subtitle>Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:subtitle>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/a5723794person6">
+      <bf:label>Thompson, Thomas Hinckley, 1841-1915.</bf:label>
+      <bf:authorizedAccessPoint>Thompson, Thomas Hinckley, 1841-1915.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Thompson, Thomas Hinckley, 1841-1915.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Organization rdf:about="http://example.org/a5723794organization7">
+      <bf:label>David Rumsey Collection.</bf:label>
+      <bf:authorizedAccessPoint>David Rumsey Collection.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>David Rumsey Collection.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://example.org/a5723794organization8">
+      <bf:label>Cartography Associates.</bf:label>
+      <bf:authorizedAccessPoint>Cartography Associates.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Cartography Associates.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Person rdf:about="http://example.org/a5723794person11">
+      <bf:authorizedAccessPoint>Karnes, James UNAUTHORIZED--Homes and haunts--California--Fresno County--Pictorial works.</bf:authorizedAccessPoint>
+      <bf:label>Karnes, James UNAUTHORIZED--Homes and haunts--California--Fresno County--Pictorial works.</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Karnes, James UNAUTHORIZED--Homes and haunts--California--Fresno County--Pictorial works.</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:PersonalName>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Karnes, James</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:FullNameElement>
+                        <madsrdf:elementValue>Karnes, James</madsrdf:elementValue>
+                     </madsrdf:FullNameElement>
+                  </madsrdf:elementList>
+               </madsrdf:PersonalName>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Homes and haunts</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Homes and haunts</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>California</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>California</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Fresno County</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Fresno County</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Pictorial works</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Pictorial works.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Topic rdf:about="http://example.org/a5723794topic12">
+      <bf:authorizedAccessPoint>Ranches--California--Fresno County--Pictorial works.--^A1054845</bf:authorizedAccessPoint>
+      <bf:label>Ranches--California--Fresno County--Pictorial works.--^A1054845</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Ranches--California--Fresno County--Pictorial works.--^A1054845</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Ranches</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Ranches</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>California</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>California</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Fresno County</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Fresno County</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Pictorial works</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Pictorial works.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Person rdf:about="http://example.org/a5723794person18">
+      <bf:label>Thompson, Thomas Hinckley, 1841-1915.</bf:label>
+      <bf:authorizedAccessPoint>Thompson, Thomas Hinckley, 1841-1915.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Thompson, Thomas Hinckley, 1841-1915.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Agent rdf:about="http://example.org/a5723794agent20">
+      <bf:label>Thompson, Thos. H. (Thomas Hinckley), 1841-1915. Tulare, Calif. : Thos. H. Thompson, 1891.</bf:label>
+      <bf:authorizedAccessPoint>Thompson, Thos. H. (Thomas Hinckley), 1841-1915. Tulare, Calif. : Thos. H. Thompson, 1891.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Thompson, Thos. H. (Thomas Hinckley), 1841-1915. Tulare, Calif. : Thos. H. Thompson, 1891.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Agent>
+   <bf:Title rdf:about="http://example.org/a5723794title22">
+      <bf:label>Fancher Creek ranch, property of James Karnes, Fresno Co. [electronic resource] ; Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:label>
+      <bf:titleValue>Fancher Creek ranch, property of James Karnes, Fresno Co</bf:titleValue>
+      <bf:subtitle>Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</bf:subtitle>
+   </bf:Title>
+</rdf:RDF>

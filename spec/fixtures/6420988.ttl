@@ -1,0 +1,117 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/a6420988annotation12> a bf:Annotation;
+   bf:annotates <http://example.org/a6420988>;
+   bf:changeDate "2015-03-21T05:00";
+   bf:derivedFrom <http://example.org/a6420988.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/a6420988helditem32> a bf:HeldItem;
+   bf:heldBy "CSt";
+   bf:holdingFor <http://example.org/a6420988instance13>;
+   bf:label "";
+   bf:shelfMark "1";
+   bf:subLocation "SAL3" .
+
+<http://example.org/a6420988instance13> a bf:Instance,
+     bf:Serial;
+   bf:extent "no.";
+   bf:frequencyNote "Weekly";
+   bf:instanceOf <http://example.org/a6420988>;
+   bf:instanceTitle <http://example.org/a6420988title16>,
+     <http://example.org/a6420988title17>;
+   bf:languageNote "In Korean.";
+   bf:modeOfIssuance "serial";
+   bf:note "Description based on: che 860-ho (2005. 12. 31-2006. 1. 6)",
+     "Description based on: 제860호 (2005. 12. 31-2006. 1. 6)"@ko,
+     "31";
+   bf:providerStatement "Sŏul: Yŏsŏng Sinmusa";
+   bf:publication [
+     a bf:Provider;
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Yŏsŏng Sinmusa",
+         "여성　신문사"@ko
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Sŏul",
+         "서울:"@ko
+     ]
+   ];
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-M)49381464"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(OCoLC-I)164343618"
+   ];
+   bf:titleStatement "Yŏsŏng sinmun = The women's news.";
+   bf:titleVariation <http://example.org/a6420988title18> .
+
+<http://example.org/a6420988organization7> a bf:Organization;
+   bf:authorizedAccessPoint "Yŏsŏng Sinmusa.",
+     "여성　신문사."@ko;
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Yŏsŏng Sinmusa."
+   ];
+   bf:label "Yŏsŏng Sinmusa." .
+
+<http://example.org/a6420988title16> a bf:Title;
+   bf:label "Yŏsŏng sinmun = The women's news.";
+   bf:subtitle "The women's news.";
+   bf:titleValue "Yŏsŏng sinmun ",
+     "여성　신문 = The women's news."@ko .
+
+<http://example.org/a6420988title17> a bf:Title;
+   bf:titleType "parallel";
+   bf:titleValue "The women's news." .
+
+<http://example.org/a6420988title18> a bf:Title;
+   bf:label "Women's news";
+   bf:titleType "parallel";
+   bf:titleValue "Women's news" .
+
+<http://example.org/a6420988title5> a bf:Title;
+   bf:label "Yŏsŏng sinmun = The women's news.";
+   bf:subtitle "The women's news.";
+   bf:titleValue "Yŏsŏng sinmun ",
+     "여성　신문 = The women's news."@ko .
+
+<http://example.org/a6420988title6> a bf:Title;
+   bf:titleType "parallel";
+   bf:titleValue "The women's news." .
+
+<http://example.org/a6420988topic9> a bf:Topic,
+     mads:HierarchicalGeographic;
+   bf:authorizedAccessPoint "Korea (South). Seoul.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Korea (South). Seoul.";
+     mads:componentList ([
+         a mads:Country;
+         mads:authoritativeLabel "Korea (South)"
+       ] [
+         a mads:City;
+         mads:authoritativeLabel "Seoul."
+       ])
+   ] .
+
+<http://example.org/a6420988> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Yŏsŏng Sinmusa. Yŏsŏng sinmun = The women's news.Yŏsŏng sinmun The women's news.여성　신문 = The women's news",
+     "yŏsŏngsinmusaunauthorizedyŏsŏngsinmunthewomensnewskorworktext"@x-bf-hash;
+   bf:contributor <http://example.org/a6420988organization7>;
+   bf:language <http://id.loc.gov/vocabulary/languages/kor>;
+   bf:subject <http://example.org/a6420988topic9>,
+     <http://id.loc.gov/vocabulary/geographicAreas/a-ko>;
+   bf:workTitle <http://example.org/a6420988title5>,
+     <http://example.org/a6420988title6> .
