@@ -1,0 +1,455 @@
+Algorithm to Generate BibFrame *Instances* from MaRC
+
+reversed engineered from LoC xquery implementation of Marc -> BibFrame
+  https://github.com/lcnetdev/marc2bibframe
+
+  bf:Instances  are created for bib records by:
+    modules/module.MBIB-2-BIBFRAME-Shared.xqy
+
+
+a bf:Instance is created when the Bib record has:
+
+case 1:
+  260 (except the first one) when leader6 == 'a'  &&  leader7 == 'b', 'i' or 's'
+case 2:
+  300 (except the first one) (?? only when NOT (leader6 == 'a'  &&  leader7 == 'b', 'i' or 's') ??)
+case 3:
+  first of 260|261|262|264|300
+case 4:
+  for each unique ISBN in 020a (10/13 digit versions are already dedupped) if switch says so
+case 5:
+  856|859  has at least one of:
+    |u containing 'hdl.' but no |3 matching 'finding aid'
+    |3 matches 'pdf' or 'page view'
+    ind1 is 4 and ind2 is 0
+    ind 1 is 4 and ind2 is 1 and no |3
+  AND
+    856|859 if ind2 = 0 and not first occurrence of field  or  no |3 matching 'contributor'
+      or
+    856|859 with |3 matching 'contributor'  AND
+      100|110|111
+      or 700|710|711|720 without |t
+      or 740 with ind2=2 and |a and there is a 100|110|111
+      or 430|534|774|775 with |a and |t
+      or 700|710|711 with |t and |a and ind2 = ( |0|1|2)
+      or 780 with ind2 = (0-7) and |a
+      or 785 with ind2 = (0-8) and |a
+      or 787 with |a and |t
+      or 760|762|765|767|770|772|773|774  with |a
+      or first 100|110|111 when 130|240 with |l
+
+
+================================================================================
+Naomi's notes below this line
+
+
+Looking for code that outputs bf:Instance
+  in modules/module.MBIB-2-BIBFRAME-Shared.xqy
+
+
+# 260 (except the first one) when leader6 == 'a'  &&  leader7 == 'b', 'i' or 's'
+function mbshared:generate-additional-instance
+  474:return element bf:Instance {element bf:instanceTitle{
+
+  Called by:
+    function mbshared:generate-instances
+      2075:      if ($typeOf008!="SE") then
+      2076:        for $i at $x in $marcxml/marcxml:datafield[@tag="260"][fn:position() != 1]
+      2077:                return  mbshared:generate-additional-instance($i, $workID , $x)
+
+    Called by:
+      function mbshared:generate-work(
+        2578: let $typeOf008:=
+        2579:   if ($leader6="a") then
+                  if ...
+        2582:     else if (fn:matches($leader7,"(b|i|s)")) then
+        2583:      "SE"
+          ...
+        2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
+# 300 (except the first one)
+function mbshared:generate-addl-physical
+  515:return element bf:Instance {element bf:instanceTitle{
+
+  Called by:
+    function mbshared:generate-instances
+      2079:          for $i at $x in $marcxml/marcxml:datafield[@tag="300"][fn:position() != 1]
+      2080:                return   mbshared:generate-addl-physical($i, $workID , $x)
+
+    Called by:
+      function mbshared:generate-work(
+        2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
+# red herring!  info never used!
+function mbshared:generate-instance-from260
+  # NOTE:  variable $edition-instances is NEVER used
+  558:  let $edition-instances:=
+  559:    for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
+  560:     return
+  561:       (mbshared:generate-instance-from250($e,$workID),
+  562:       element bf:relatedInstance {
+  563:         element bf:Instance {
+
+
+# for first of 260|261|262|264|300
+#  and for each unique ISBN in 020a (10/13 digit versions are already dedupped) if switch says so
+function mbshared:generate-instance-from260
+  756:        element bf:Instance {
+
+  Called by:
+    function mbshared:generate-instances
+      2058: if ( $isbn-sets//bf:set) then
+      2060:   let $instance:=
+      2061:     for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+      2062:       return mbshared:generate-instance-from260($i, $workID)
+      2063:   return
+      2064:     if (fn:string($mbshared:transform-rules//rule[@id="1"]/@status)="on" ) then
+      2065:       for $set in $isbn-sets/bf:set
+      2066:         return mbshared:generate-instance-fromISBN($marcxml,$set, $instance, $workID)
+      2067:     else (:just return the instance with multiple isbns on it is handled inside instance-from260:)
+      2068:       $instance
+      2069:
+      2070:
+      2071:    else          (: $isbn-sets//bf:set is false use the first edition, etc:)
+      2072:      for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+      2073:              return mbshared:generate-instance-from260($i, $workID)
+
+    Called by:
+      function mbshared:generate-work(
+        2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
+# for each unique ISBN in 020a (10/13 digit versions are already dedupped) if switch says so
+function mbshared:generate-instance-fromISBN
+  1622:        element bf:Instance {
+
+  Called by:
+    function mbshared:generate-instances
+      2051: let $isbn-sets:=
+      2052:   if ($marcxml/marcxml:datafield[@tag eq "020"]/marcxml:subfield[@code eq "a"]) then
+      2053:     mbshared:process-isbns($marcxml)
+      ...
+      2058: if ( $isbn-sets//bf:set) then
+      ...
+      2064:   if (fn:string($mbshared:transform-rules//rule[@id="1"]/@status)="on" ) then
+      2065:     for $set in $isbn-sets/bf:set
+      2066:       return mbshared:generate-instance-fromISBN($marcxml,$set, $instance, $workID)
+
+    Called by:
+      function mbshared:generate-work(
+        2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
+
+# red herring!  this code is executed but the result is NEVER USED
+function mbshared:generate-instance-from250
+  1678:        element bf:Instance {
+
+  Called by:
+    function mbshared:generate-instance-from260
+      # note:  $edition-instances var is NEVER USED
+      558: let $edition-instances:=
+      559:  for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
+      560:    return
+      561:      (mbshared:generate-instance-from250($e,$workID),
+
+
+
+# 856|859 if ind2 = 0 and not first occurrence of field  or  no |3 matching 'contributor'
+#
+# 856|859 with |3 matching 'contributor'  AND
+#    100|110|111
+#    or 700|710|711|720 without |t
+#    or 740 with ind2=2 and |a and there is a 100|110|111
+#    or 430|534|774|775 with |a and |t
+#    or 700|710|711 with |t and |a and ind2 = ( |0|1|2)
+#    or 780 with ind2 = (0-7) and |a
+#    or 785 with ind2 = (0-8) and |a
+#    or 787 with |a and |t
+#    or 760|762|765|767|770|772|773|774  with |a
+#
+#    or first 100|110|111 when 130|240 with |l
+#
+#
+#  and
+#   856|859  has at least one of:
+#     |u containing 'hdl.' but no |3 matching 'finding aid'
+#     |3 matches 'pdf' or 'page view'
+#     ind1 is 4 and ind2 is 0
+#     ind 1 is 4 and ind2 is 1 and no |3
+#------
+#
+# case 1:
+# 856|859 if ind2 = 0 and not first occurrence of field  or  no |3 matching 'contributor'
+#
+# case 2A:
+# function mbshared:generate-work  calls  mbshared:related-works
+#   2751:   let $work-relateds := mbshared:related-works($marcxml,$workID,"work")
+#   function mbshared:related-works  calls  mbshared:generate-related-work for
+#     400|410|411|430|440|534|774|775|800|810|811|830 with |t
+#     490 with |a
+#     700|710|711 with |t and ind2 = ( |0|1|2)
+#     730 with ind2 = ( |0|1|2)
+#     740 with ind2 = ( | 2)
+#     780 with ind2 = (0-7)
+#     785 with ind2 = (0-8)
+#     787 with |t
+#     760|762|765|767|770|772|773|774
+#
+#     function mbshared:generate-related-work  calls   mbshared:get-name
+#       for (first) 100|110|111  when there is 740 with ind2=2 and subfld a
+#       field NOT (400|410|411|440|490|800|810|811|630|730|740|830) and has sub a
+#
+#       function mbshared:get-name  calls  generate-instance-from856
+#         when 856|859 with |3 matching 'contributor'
+#
+# case 2B:
+# function mbshared:generate-work  calls  mbshared:get-name  for
+#   100|110|111
+#   700|710|711|720 without |t
+#
+#   function mbshared:get-name  calls  generate-instance-from856
+#     when 856|859 with |3 matching 'contributor'
+#
+# case 2C:
+# function mbshared:generate-work  calls  mbshared:get-uniformTitle  when
+#   first  130|240
+#
+#   function mbshared:get-uniformTitle  calls  mbshared:generate-translationOf  when
+#     (130|240) has subfield l
+#
+#     function mbshared:generate-translationOf   calls   mbshared:get-name  for
+#       first of 100|110|111
+#
+#       function mbshared:get-name  calls  generate-instance-from856
+#         when 856|859 with |3 matching 'contributor'
+#
+function mbshared:generate-instance-from856
+  1706: let $category:=
+  1707:   if (fn:contains(
+  1708:         fn:string-join($d/marcxml:subfield[@code="u"],""),"hdl.") and(:u is repeatable:)
+  1709:         fn:not(fn:matches(fn:string($d/marcxml:subfield[@code="3"]),"finding aid","i") )
+  1710:      ) then
+  1711:     "instance"
+  1712:   else if (fn:matches(fn:string($d/marcxml:subfield[@code="3"]) ,"(pdf|page view) ","i"))   then
+  1713:     "instance"
+  1714:   else if ($d/@ind1="4" and $d/@ind2="0" ) then
+  1715:      "instance"
+  1716:   else if ($d/@ind1="4" and $d/@ind2="1" and fn:not(fn:string($d/marcxml:subfield[@code="3"]) )  ) then
+  1717:      "instance"
+  ...
+  # instance when:
+  #   called with 'hdl.' in a |u but no |3 matching 'finding aid'
+  #   |3 matches 'pdf' or 'page view'
+  #   ind1 is 4 and ind2 is 0
+  #   ind 1 is 4 and ind2 is 1 and no |3
+  1738: if ( $category="instance" ) then
+  1739    element bf:hasInstance {
+  1740:     element bf:Instance {
+
+  Called by:
+    # generate-instance-from856 called when 856|859 if ind2 = 0 and not first occurrence of field  or  no |3 matching 'contributor'
+    function mbshared:generate-work
+      2596: let $instancesfrom856:=
+      2597:   (:set up instances/annotations for each non-contributor bio link:)
+      2598:   (:first 856 wi/ind2=0 is the existing Instance:)
+      2599:   for $d at $x in  $marcxml/marcxml:datafield[fn:matches(@tag,"(856|859)")]
+      2600:     return if ( ($d/@ind2 = "0" and $x ne 1 ) or
+      2601:                   fn:not(fn:matches(fn:string($d/marcxml:subfield[@code="3"]),"contributor","i"))) then
+      2602:         mbshared:generate-instance-from856($d, $workID)
+      2063:     else ()
+
+  Called by (also):
+    # generate-instance-from856 called when 856|859 with |3 matching 'contributor'
+    function mbshared:get-name
+      3326: let $bio-links:=
+      3327:   if ( $d/../marcxml:datafield[fn:matches(@tag,"(856|859)")][fn:matches(fn:string(marcxml:subfield[@code="3"]),"contributor","i")]) then
+      ...
+      3329:     for $link in $d/../marcxml:datafield[fn:matches(@tag,"(856|859)")][fn:matches(fn:string(marcxml:subfield[@code="3"]),"contributor","i")]
+      3330:       return     mbshared:generate-instance-from856($link, "person")
+      3331:   else
+      3332:      ()
+
+    Called by:
+      # get-name called
+      #   for (first) 100|110|111  when there is 740 with ind2=2 and subfld a
+      #   field NOT (400|410|411|440|490|800|810|811|630|730|740|830) and has sub a
+      function mbshared:generate-related-work
+        2338: let $name :=
+        2339:   if (
+        2340:       $d/marcxml:subfield[@code="a"] and
+        2341:       $d/@tag="740" and
+        2342:       $d/@ind2="2" and
+        2343:       $d/ancestor::marcxml:record/marcxml:datafield[fn:matches(@tag, "(100|110|111)")][1]
+        2344:      ) then
+        2345:     mbshared:get-name($d/ancestor::marcxml:record/marcxml:datafield[fn:matches(@tag, "(100|110|111)")][1])
+        2346:   else if (  $d/marcxml:subfield[@code="a"]  and fn:not(fn:matches($d/@tag,"(400|410|411|440|490|800|810|811|630|730|740|830)")) ) then
+        2347:     mbshared:get-name($d)
+        2348:   else ()
+
+      Called by:
+        # generate-related-work called for all (third param NOT 'instance')
+        #   400|410|411|430|440|534|774|775|800|810|811|830 with |t
+        #   490 with |a
+        #   700|710|711 with |t and ind2 = ( |0|1|2)
+        #   730 with ind2 = ( |0|1|2)
+        #   740 with ind2 = ( | 2)
+        #   780 with ind2 = (0-7)
+        #   785 with ind2 = (0-8)
+        #   787 with |t
+        #   760|762|765|767|770|772|773|774
+        function mbshared:related-works
+
+          # get to the code below when this function called NOT with third param 'instance'
+
+          # 730 with ind2 = ( |0|1|2)
+          # 740 with ind2 = ( | 2)
+          # 780 with ind2 = (0-7)
+          # 785 with ind2 = (0-8)
+          2497: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(730|740|780|785)")]
+          2498:   return (
+          2499:     for $type in $relateds/type[fn:matches($d/@tag,@tag)][fn:matches(@ind2,$d/@ind2)]
+          ...
+                      from 285-327:
+                      <work-relateds>
+                        <type tag="(700|710|711|730)" ind2="2" property="hasPart">isIncludedIn</type>
+                        <type tag="(700|710|711|730)" ind2="( |0|1)" property="relatedResource">relatedWork</type>
+                        <type tag="740" ind2=" " property="relatedWork">relatedWork</type>
+                        <type tag="740" property="partOf"  ind2="2">hasPart</type>
+                        <type tag="780" ind2="0" property="continues">continuationOf</type>
+                        <type tag="780" ind2="1" property="continuesInPart">partiallyContinuedBy</type>
+                        <type tag="780" ind2="2" property="supersedes">continuationOf</type>
+                        <type tag="780" ind2="3" property="supersedesInPartBy">partiallyContinuedBy</type>
+                        <type tag="780" ind2="4" property="unionOf">preceding</type>
+                        <type tag="780" ind2="5" property="absorbed">isAbsorbedBy</type>
+                        <type tag="780" ind2="6" property="absorbedInPartBy">isPartlyAbsorbedBy</type>
+                        <type tag="780" ind2="7" property="separatedFrom">formerlyIncluded</type>
+                        <type tag="785" ind2="0"  property="continuedBy">continues</type>
+                        <type tag="785" ind2="1" property="continuedInPartBy">partiallyContinues</type>
+                        <type tag="785" ind2="2"  property="supersededBy">continues</type>
+                        <type tag="785" ind2="3" property="supersededInPartBy">partiallyContinues</type>
+                        <type tag="785" ind2="4" property="absorbedBy">absorbs</type>
+                        <type tag="785" ind2="5"  property="absorbedInPartBy">partiallyAbsorbs</type>
+                        <type tag="785" ind2="6"  property="splitInto">splitFrom</type>
+                        <type tag="785" ind2="7"  property="mergedToForm">mergedFrom</type>
+                        <type tag="785" ind2="8"  property="succeededBy">formerlyNamed</type>
+                      </work-relateds>
+          ...
+          2500:       return mbshared:generate-related-work($d,$type, $workID)   )
+
+          # 787 with |t
+          2506: for $d in $marcxml/marcxml:datafield[@tag="787"][marcxml:subfield[@code="t"]]
+          2507:   for $type in $relateds/type[fn:matches($d/@tag,@tag)]
+          2508:     return mbshared:generate-related-work($d,$type, $workID)
+
+          # 700|710|711 with |t and ind2 = ( |0|1|2)
+          2510: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(700|710|711)")][marcxml:subfield[@code="t"]]
+          2511:   for $type in $relateds/type[fn:matches($d/@tag,@tag)][fn:matches($d/@ind2,@ind2)]
+          ...
+                      from 285-327:
+                      <work-relateds>
+                        <type tag="(700|710|711|730)" ind2="2" property="hasPart">isIncludedIn</type>
+                        <type tag="(700|710|711|730)" ind2="( |0|1)" property="relatedResource">relatedWork</type>
+          ...
+          2512:     return mbshared:generate-related-work($d,$type, $workID)
+
+          # 490 with |a
+          2514: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(490)")][marcxml:subfield[@code="a"]]
+          2515:   for $type in $relateds/type[fn:matches($d/@tag,@tag)]
+          2516:     return mbshared:generate-related-work($d,$type, $workID)
+
+          # 400|410|411|430|440|534|774|775|800|810|811|830 with |t
+          2518: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(400|410|411|430|440|534|774|775|800|810|811|830)")][marcxml:subfield[@code="t"]]
+          2519:   for $type in $relateds/type[fn:matches($d/@tag,@tag)]
+          2520:     return mbshared:generate-related-work($d,$type, $workID)
+
+          # 760|762|765|767|770|772|773|774
+          2523: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(760|762|765|767|770|772|773|774)")]
+          2524:   for $type in $relateds/type[fn:matches(@tag,$d/@tag)]
+          2525:     return
+          2526:       mbshared:generate-related-work($d,$type, $workID)
+
+        Called by
+          function mbshared:generate-work
+            2751:   let $work-relateds := mbshared:related-works($marcxml,$workID,"work")
+
+    Called by (also):
+      # get-name called when
+      #   100|110|111
+      #   700|710|711|720 and no |t
+      function mbshared:generate-work
+        2612: let $names :=
+        2613:   ( for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(100|110|111)")]
+        2614:       return mbshared:get-name($d),
+        ...
+        2617:     for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(700|710|711|720)")][fn:not(marcxml:subfield[@code="t"])]
+        2618:       return mbshared:get-name($d)
+        2619:   )
+
+    Called by (also):
+      # get-name called when
+      function mbshared:generate-translationOf
+        3677:  let $namenode:=  mbshared:get-name($d/ancestor::marcxml:record/marcxml:datafield[fn:matches(@tag, "(100|110|111)")][1])
+
+      Called by:
+        function mbshared:get-uniformTitle
+          3857: let $translationOf :=
+          3858:   if ($d/marcxml:subfield[@code="l"]) then
+          3859:     (for $s in  $d/marcxml:subfield[@code="l"]
+          3860:       return marc2bfutils:process-language($s),
+          ...
+          3870:         mbshared:generate-880-label($d,"title"),
+          3871:         mbshared:generate-translationOf($d)
+          3872:     )
+
+        Called by:
+          function mbshared:generate-work
+            2609: let $uniformTitle := (:work title can be from 245 if no 240/130:)
+            2610:   for $d in ($marcxml/marcxml:datafield[@tag eq "130"]|$marcxml/marcxml:datafield[@tag eq "240"])[1]
+            2611:     return mbshared:get-uniformTitle($d)
+
+
+
+function mbshared:generate-related-instance
+  2162:            element bf:Instance{
+
+2210:         element bf:Instance {
+
+2299:                                element bf:Instance {
+
+2403:                                element bf:Instance{
+
+4011:            $marc2bfutils:classes//property[@domain="Instance"]
+
+
+
+-------------------------------
+
+ack output for 'Instance':
+
+332:        <!-- Instance to Work relationships (none!) -->
+474:return element bf:Instance {element bf:instanceTitle{
+483::   This is the function generates Instance resources when there are multiple 300s
+515:return element bf:Instance {element bf:instanceTitle{
+562:           element bf:relatedInstance {
+563:                element bf:Instance {
+756:        element bf:Instance {
+1488::  @param  $instance   element bf:Instance is generated fromthe first 260
+1498:    $instance as element (bf:Instance)?,
+1622:        element bf:Instance {
+1678:        element bf:Instance {
+1739:                element bf:hasInstance {
+1740:                 element bf:Instance {
+2162:            element bf:Instance{
+2209:       element bf:hasInstance {
+2210:         element bf:Instance {
+2299:                                element bf:Instance {
+2402:                     (:   element bf:hasInstance{
+2403:                                element bf:Instance{
+2598:            (:first 856 wi/ind2=0 is the existing Instance:)
+2824:                return element  bf:hasInstance{$i},
+3442::   This is the function generates an Instance subclass.
+4011:            $marc2bfutils:classes//property[@domain="Instance"]
+
