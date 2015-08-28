@@ -44,6 +44,8 @@ case 6:
       if there are isbns in 020a and generate instances from isbns rule is NOT on
         OR
       if there are no isbns in 020a
+case 7:
+   each 533 with |b, |c, |d, |e, |m or |n
 
 
 ================================================================================
@@ -54,6 +56,7 @@ Looking for code that outputs bf:Instance
   in modules/module.MBIB-2-BIBFRAME-Shared.xqy
 
 
+# case 1
 # 260 (except the first one) when leader6 == 'a'  &&  leader7 == 'b', 'i' or 's'
 function mbshared:generate-additional-instance
   474:return element bf:Instance {element bf:instanceTitle{
@@ -75,6 +78,7 @@ function mbshared:generate-additional-instance
         2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
 
 
+# case 2
 # 300 (except the first one)
 function mbshared:generate-addl-physical
   515:return element bf:Instance {element bf:instanceTitle{
@@ -100,6 +104,7 @@ function mbshared:generate-instance-from260
   563:         element bf:Instance {
 
 
+# case 3
 # for first of 260|261|262|264|300
 #  and for each unique ISBN in 020a (10/13 digit versions are already dedupped) if switch says so
 function mbshared:generate-instance-from260
@@ -128,6 +133,7 @@ function mbshared:generate-instance-from260
         2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
 
 
+# case 4
 # for each unique ISBN in 020a (10/13 digit versions are already dedupped) if switch says so
 function mbshared:generate-instance-fromISBN
   1622:        element bf:Instance {
@@ -149,7 +155,6 @@ function mbshared:generate-instance-fromISBN
         2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
 
 
-
 # red herring!  this code is executed but the result is NEVER USED
 function mbshared:generate-instance-from250
   1678:        element bf:Instance {
@@ -163,7 +168,7 @@ function mbshared:generate-instance-from250
       561:      (mbshared:generate-instance-from250($e,$workID),
 
 
-
+# case 5
 # 856|859 if ind2 = 0 and not first occurrence of field  or  no |3 matching 'contributor'
 #
 # 856|859 with |3 matching 'contributor'  AND
@@ -418,7 +423,7 @@ function mbshared:generate-instance-from856
             2611:     return mbshared:get-uniformTitle($d)
 
 
-
+# case 6
 # mbshared:generate-work  calls  mbshared:generate-instances
 #
 #   mbshared:generate-instances
@@ -484,13 +489,52 @@ function mbshared:generate-related-instance
             2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
 
 
+# case 7
+# generate-work  calls  related-works
+#   related works  calls  generate-related-reproduction for  533
+#   generate-related-reproduction outputs an instance when:
+#     |d or |b or |c or |e or |m or |n
+function mbshared:generate-related-reproduction
+  2186: let $pubPlace:= for  $pl in $d/marcxml:subfield[@code="b"]
+  2187:   return element bf:providerPlace{
+  2188:     element bf:Place {
+  2189:       element bf:label {fn:string($pl)}
+  2190:     }}
+  2191: let $agent:= for  $aa in $d/marcxml:subfield[@code="c"]
+  2192:   return element bf:providerName {
+  2193:     element bf:Organization {
+  2194:       element bf:label {fn:string($aa)}
+  2195:     }
+  2196:   }
+  2197: let $pubDate:= if ($d/marcxml:subfield[@code="d"]) then element bf:providerDate{ marc2bfutils:chopPunctuation($d/marcxml:subfield[@code="d"],".")} else ()
+  2198: let $extent:= fn:string($d/marcxml:subfield[@code="e"])
+  2199: let $coverage:= fn:string($d/marcxml:subfield[@code="m"])
+  ...
+  2201: let $note:= for $n in $d/marcxml:subfield[@code="n"]
+  2202:   return element bf:note { fn:string($n)}
+  ...
+  2208: if ($pubDate or $pubPlace or $agent or $extent or $coverage or $note) then
+  2209:   element bf:hasInstance {
+  2210:     element bf:Instance {
 
-2210:         element bf:Instance {
+  Called by:
+    function mbshared:related-works  with  3rd arg NOT 'instance'
+      2502: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(533)")]
+      2503:   for $type in $relateds/type[@tag=$d/@tag]
+      2504:     return mbshared:generate-related-reproduction($d,$type)
 
+    Called by
+      function mbshared:generate-work
+        2751:   let $work-relateds := mbshared:related-works($marcxml,$workID,"work")
+
+
+# case 8
 2299:                                element bf:Instance {
 
+# case 9
 2403:                                element bf:Instance{
 
+# case 10
 4011:            $marc2bfutils:classes//property[@domain="Instance"]
 
 
