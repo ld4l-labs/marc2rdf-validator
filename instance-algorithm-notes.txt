@@ -22,7 +22,7 @@ case 5:
     |u containing 'hdl.' but no |3 matching 'finding aid'
     |3 matches 'pdf' or 'page view'
     ind1 is 4 and ind2 is 0
-    ind 1 is 4 and ind2 is 1 and no |3
+    ind1 is 4 and ind2 is 1 and no |3
   AND
     856|859 if ind2 = 0 and not first occurrence of field  or  no |3 matching 'contributor'
       or
@@ -45,7 +45,9 @@ case 6:
         OR
       if there are no isbns in 020a
 case 7:
-   each 533 with |b, |c, |d, |e, |m or |n
+  each 533 with |b, |c, |d, |e, |m or |n
+case 8:
+  each 555u
 
 
 ================================================================================
@@ -529,14 +531,17 @@ function mbshared:generate-related-reproduction
 
 
 # case 8
-2299:                                element bf:Instance {
+#   555u
+function mbshared:generate-finding-aid-work
+  2297: if ($d/marcxml:subfield[@code="u"]) then
+  2298    element bf:hasInstance {
+  2299:     element bf:Instance {
 
-# case 9
-2403:                                element bf:Instance{
-
-# case 10
-4011:            $marc2bfutils:classes//property[@domain="Instance"]
-
+  Called by:
+    function mbshared:generate-work
+      2746: let $findaids:= for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"555")]
+      2747:   return if ($d/marcxml:subfield[@code="u"]) then
+      2748:     mbshared:generate-finding-aid-work($d)
 
 
 -------------------------------
