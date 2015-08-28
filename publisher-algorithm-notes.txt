@@ -1,0 +1,319 @@
+Algorithm to Generate BibFrame *publications* from MaRC
+
+reversed engineered from LoC xquery implementation of Marc -> BibFrame
+  https://github.com/lcnetdev/marc2bibframe
+
+  bf:publication  are created for bib records by:
+    modules/module.MBIB-2-BIBFRAME-Shared.xqy
+
+
+a bf:publication is created when the Bib record has:
+
+case 1A:
+  260 or 264
+    if |b and NOT (264 ind2=(2|3) )  or  if |a or |c or |f
+    AND
+    if first of 260|261|262|264|300
+      when there are isbns in 020a and generate instances from isbns rule is NOT on
+      OR
+      when there are no isbns in 020a
+case 2:
+  260 (except the first one) when leader6 == 'a'  &&  leader7 == 'b', 'i' or 's'
+case 3:
+  261 or 262
+    if first of 260|261|262|264|300
+      when there are isbns in 020a and generate instances from isbns rule is NOT on
+      OR
+      when there are no isbns in 020a
+case 4:
+  533 when |b or |c or |d or |e or |m or |n  (b=pubPlace, c=publisher_name, d=pubDate)
+
+
+================================================================================
+Naomi's notes below this line
+
+
+Looking for code that outputs publication
+  in modules/module.MBIB-2-BIBFRAME-Shared.xqy
+
+# case 1:
+# when there are isbns in 020a and generate instances from isbns rule is NOT on
+# OR
+# when there are no isbns in 020a
+#   first 260|261|262|264|300  passed to  generate-instance-from260
+#
+#   generate-instance-from260
+#     for each 260|264  calls  generate-publication
+#
+#     generate-publication:
+#       if |b and NOT (264 ind2=(2|3) )
+#       else if |a or |c or |f
+#
+# case 2:
+#   260 (except the first one) when leader6 == 'a'  &&  leader7 == 'b', 'i' or 's'
+#
+function mbshared:generate-publication
+  # if |b and NOT (264 ind2=(2|3) )
+  1207: if ($d/marcxml:subfield[@code="b"]) then
+  ...
+  1209:   for $pub at $x in $d/marcxml:subfield[@code="b"]
+  1210:     let $propname :=
+  1211:       if ($d/@tag="264" and $d/@ind2="3" ) then
+  1212:         "bf:manufacture"
+  1213:       else if ($d/@tag="264" and $d/@ind2="2" ) then
+  1214:         "bf:distribution"
+  1215:       else
+  1216:         "bf:publication"
+  ...
+  # else if |a or |c
+  1265: else if ($d/marcxml:subfield[fn:matches(@code,"(a|c)")]) then
+  1266:             element bf:publication {
+  ...
+  1284: else
+  ...
+  1286:   if ($d/marcxml:subfield[@code="e"]) then
+  ...
+  # effectively, if |f
+  1319:   else if ($d/marcxml:subfield[fn:matches(@code,"(e|f)")]) then
+  1320:            element bf:publication {
+
+    Called by (case 1):  generate-publication called by generate-instance-from260
+      # call for each 260|264
+      function mbshared:generate-instance-from260
+        576: let $publication:=
+        577:   if (fn:matches($d/@tag, "(260|264)")) then
+        578:     for $pub in $d/../marcxml:datafield[fn:matches(@tag, "(260|264)")]
+        579:       return mbshared:generate-publication($pub)
+        580:   else if (fn:matches($d/@tag, "(261|262)")) then mbshared:generate-26x-pub($d)
+        581:   else ()
+        ...
+        755: return
+        756:   element bf:Instance {
+        ...
+        762:            $publication,
+
+      # NOTE:  this execution chain is used to assign data to a variable that is NEVER USED
+      Called by:   generate-instance-from260  is called by  generate-instance-from250
+        function mbshared:generate-instance-from250
+          1670: let $instance := mbshared:generate-instance-from260($d/../marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1], $workID)
+
+        Called by:    generate-instance-from250  is called by   generate-instance-from260
+          function mbshared:generate-instance-from260
+            # NOTE:  $edition-instances variable is NEVER used
+            558: let $edition-instances:=
+            559:   for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
+            560:     return
+            561:       (mbshared:generate-instance-from250($e,$workID),
+            562:       element bf:relatedInstance {
+            563:         element bf:Instance {
+
+      Called by (also):  generate-instance-from260  is called by  generate-instances
+        function mbshared:generate-instances
+          2058: if ( $isbn-sets//bf:set) then
+          ...
+          2060:   let $instance:=
+          2061:     for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+          2062:       return mbshared:generate-instance-from260($i, $workID)
+          2063:   return
+          2064:     if (fn:string($mbshared:transform-rules//rule[@id="1"]/@status)="on" ) then
+          ...
+          2067:     else (:just return the instance with multiple isbns on it is  handled inside instance-from260:)
+          2068:       $instance
+          ...
+          2071: else (: $isbn-sets//bf:set is false use the first edition, etc:)
+          2072:   for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+          2073:     return mbshared:generate-instance-from260($i, $workID)
+
+        Called by:
+          function mbshared:generate-work(
+            2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+    # case 2:  260 (except the first one) when leader6 == 'a'  &&  leader7 == 'b', 'i' or 's'
+    Called by (case 1B):   generate-publication called by  generate-additional-instance
+      function mbshared:generate-additional-instance
+      471: let $pub:=          mbshared:generate-publication($d)
+      ...
+      474: return element bf:Instance {element bf:instanceTitle{
+      ...
+      477:   $pub
+
+      Called by:
+        function mbshared:generate-instances
+          2075:      if ($typeOf008!="SE") then
+          2076:        for $i at $x in $marcxml/marcxml:datafield[@tag="260"][fn:position() != 1]
+          2077:                return  mbshared:generate-additional-instance($i, $workID , $x)
+
+        Called by:
+          function mbshared:generate-work(
+            2578: let $typeOf008:=
+            2579:   if ($leader6="a") then
+                      if ...
+            2582:     else if (fn:matches($leader7,"(b|i|s)")) then
+            2583:      "SE"
+              ...
+            2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
+# case 3:
+#  261 or 262
+#
+# when there are isbns in 020a and generate instances from isbns rule is NOT on
+# OR
+# when there are no isbns in 020a
+#   first 260|261|262|264|300  passed to  generate-instance-from260
+#
+#   generate-instance-from260
+#     for 261|262  calls  generate-26x-pub
+#
+function mbshared:generate-26x-pub
+  1166:  element bf:publication {
+
+  Called by:  generate-26x-pub called by generate-instance-from260
+    # call for each 260|264
+    function mbshared:generate-instance-from260
+      576: let $publication:=
+      577:   if (fn:matches($d/@tag, "(260|264)")) then
+      578:     for $pub in $d/../marcxml:datafield[fn:matches(@tag, "(260|264)")]
+      579:       return mbshared:generate-publication($pub)
+      580:   else if (fn:matches($d/@tag, "(261|262)")) then mbshared:generate-26x-pub($d)
+      581:   else ()
+      ...
+      755: return
+      756:   element bf:Instance {
+      ...
+      762:            $publication,
+
+    # NOTE:  this execution chain is used to assign data to a variable that is NEVER USED
+    Called by:   generate-instance-from260  is called by  generate-instance-from250
+      function mbshared:generate-instance-from250
+        1670: let $instance := mbshared:generate-instance-from260($d/../marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1], $workID)
+
+      Called by:    generate-instance-from250  is called by   generate-instance-from260
+        function mbshared:generate-instance-from260
+          # NOTE:  $edition-instances variable is NEVER used
+          558: let $edition-instances:=
+          559:   for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
+          560:     return
+          561:       (mbshared:generate-instance-from250($e,$workID),
+          562:       element bf:relatedInstance {
+          563:         element bf:Instance {
+
+    Called by (also):  generate-instance-from260  is called by  generate-instances
+      function mbshared:generate-instances
+        2058: if ( $isbn-sets//bf:set) then
+        ...
+        2060:   let $instance:=
+        2061:     for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+        2062:       return mbshared:generate-instance-from260($i, $workID)
+        2063:   return
+        2064:     if (fn:string($mbshared:transform-rules//rule[@id="1"]/@status)="on" ) then
+        ...
+        2067:     else (:just return the instance with multiple isbns on it is  handled inside instance-from260:)
+        2068:       $instance
+        ...
+        2071: else (: $isbn-sets//bf:set is false use the first edition, etc:)
+        2072:   for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+        2073:     return mbshared:generate-instance-from260($i, $workID)
+
+      Called by:
+        function mbshared:generate-work(
+          2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
+# case 4
+# 533 when |b or |c or |d or |e or |m or |n  (b=pubPlace, c=publisher_name, d=pubDate)
+function mbshared:generate-related-reproduction
+  2186: let $pubPlace:= for  $pl in $d/marcxml:subfield[@code="b"]
+  2187:   return element bf:providerPlace{
+  2188:     element bf:Place {
+  2189:       element bf:label {fn:string($pl)}
+  2190:     }}
+  2191: let $agent:= for  $aa in $d/marcxml:subfield[@code="c"]
+  2192:   return element bf:providerName {
+  2193:     element bf:Organization {
+  2194:       element bf:label {fn:string($aa)}
+  2195:     }
+  2196:   }
+  2197: let $pubDate:= if ($d/marcxml:subfield[@code="d"]) then element bf:providerDate{ marc2bfutils:chopPunctuation($d/marcxml:subfield[@code="d"],".")} else ()
+  2198: let $extent:= fn:string($d/marcxml:subfield[@code="e"])
+  2199: let $coverage:= fn:string($d/marcxml:subfield[@code="m"])
+  ...
+  2201: let $note:= for $n in $d/marcxml:subfield[@code="n"]
+  2202:   return element bf:note { fn:string($n)}
+  ...
+  2208: if ($pubDate or $pubPlace or $agent or $extent or $coverage or $note) then
+  2209:   element bf:hasInstance {
+  2210:     element bf:Instance {
+  ...
+  2212:       element bf:publication {
+
+  Called by:
+    function mbshared:related-works  with  3rd arg NOT 'instance'
+      2502: for $d in $marcxml/marcxml:datafield[fn:matches(@tag,"(533)")]
+      2503:   for $type in $relateds/type[@tag=$d/@tag]
+      2504:     return mbshared:generate-related-reproduction($d,$type)
+
+    Called by
+      function mbshared:generate-work
+        2751:   let $work-relateds := mbshared:related-works($marcxml,$workID,"work")
+
+
+--------------------------------------------------------------------------------
+ack output for 'publication'
+
+modules/module.MBIB-2-BIBFRAME-Shared.xqy
+97:         <node domain="instance" property="musicPlate"             tag="028" sfcodes="a" ind1="2"  group="identifiers" >music publication number assigned by publisher</node>
+471:    let $pub:=          mbshared:generate-publication($d)
+524::   This is the function generates instance resources from publication data
+576:    let $publication:=
+579:                    return mbshared:generate-publication($pub)
+762:            $publication,
+1153::   This is the function generates publication  data for 261, 262
+1166:  element bf:publication {
+1191::   This is the function generates publication  data for instance
+1193:: abc are repeatable!!! each repetition of b or c is another publication; should it be another instance????
+1194:abc and def are parallel, so a and d are treated the same, etc, except the starting property name publication vs manufacture
+1202:declare function mbshared:generate-publication
+1206:{ (:first handle abc, for each b, set up a publication with any associated A's and Cs:)
+1216:                 "bf:publication"
+1266:             element bf:publication {
+1320:            element bf:publication {
+2212:           element bf:publication {
+
+
+ack output for 'publisher'
+
+modules/module.MARCXMLBIB-BFUtils.xqy
+497:  <term roletext="publisher" rolecode="pbl" uri="http://id.loc.gov/vocabulary/relators/pbl"/>
+
+modules/module.MBIB-2-BIBFRAME-Shared.xqy
+95:         <node domain="instance" property="issueNumber"            tag="028" sfcodes="a" ind1="0"    group="identifiers">sound recording publisher issue number</node>
+96:         <node domain="instance" property="matrixNumber"           tag="028" sfcodes="a" ind1="1"    group="identifiers">sound recording publisher matrix master number</node>
+97:         <node domain="instance" property="musicPlate"             tag="028" sfcodes="a" ind1="2"  group="identifiers" >music publication number assigned by publisher</node>
+98:         <node domain="instance" property="musicPublisherNumber"   tag="028" sfcodes="a" ind1="3"    group="identifiers">other publisher number for music</node>
+99:         <node domain="instance"   property="videorecordingNumber"   tag="028" sfcodes="a" ind1="4" group="identifiers"    >publisher assigned videorecording number</node>
+100:         <node domain="instance"    property="publisherNumber"        tag="028" sfcodes="a" ind1="5"   group="identifiers"  >other publisher assigned number</node>
+1164:    262 is $a place, $b publisher $c date.:)
+1733:                else if (fn:matches(fn:string($d/marcxml:subfield[@code="3"]),"publisher","i")) then "publisher summary"
+1755:                                        else if ($type="publisher summary") then "bf:Summary"
+1773:                                        else if ($type="publisher summary") then "bf:review"
+
+
+ack output for 'publish':
+
+modules/module.MARCXMLBIB-BFUtils.xqy
+497:  <term roletext="publisher" rolecode="pbl" uri="http://id.loc.gov/vocabulary/relators/pbl"/>
+498:  <term roletext="publishing director" rolecode="pbd" uri="http://id.loc.gov/vocabulary/relators/pbd"/>
+
+modules/module.MBIB-2-BIBFRAME-Shared.xqy
+95:         <node domain="instance" property="issueNumber"            tag="028" sfcodes="a" ind1="0"    group="identifiers">sound recording publisher issue number</node>
+96:         <node domain="instance" property="matrixNumber"           tag="028" sfcodes="a" ind1="1"    group="identifiers">sound recording publisher matrix master number</node>
+97:         <node domain="instance" property="musicPlate"             tag="028" sfcodes="a" ind1="2"  group="identifiers" >music publication number assigned by publisher</node>
+98:         <node domain="instance" property="musicPublisherNumber"   tag="028" sfcodes="a" ind1="3"    group="identifiers">other publisher number for music</node>
+99:         <node domain="instance"   property="videorecordingNumber"   tag="028" sfcodes="a" ind1="4" group="identifiers"    >publisher assigned videorecording number</node>
+100:         <node domain="instance"    property="publisherNumber"        tag="028" sfcodes="a" ind1="5"   group="identifiers"  >other publisher assigned number</node>
+1164:    262 is $a place, $b publisher $c date.:)
+1733:                else if (fn:matches(fn:string($d/marcxml:subfield[@code="3"]),"publisher","i")) then "publisher summary"
+1755:                                        else if ($type="publisher summary") then "bf:Summary"
+1773:                                        else if ($type="publisher summary") then "bf:review"
+2312:Under AACR2, when two works were published together the first work in the compilation was given the 1XX/240, and the second work was given a 700 analytic
