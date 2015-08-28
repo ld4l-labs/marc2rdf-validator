@@ -37,6 +37,13 @@ case 5:
       or 787 with |a and |t
       or 760|762|765|767|770|772|773|774  with |a
       or first 100|110|111 when 130|240 with |l
+case 6:
+  for each (400|410|411|430|440|490|533|534|630|700|710|711|730|740|760|762|765|767|770|772|773|774|775|777|780|785|787|800|810|811|830)
+    if there is a 260|261|262|264|300
+    AND
+      if there are isbns in 020a and generate instances from isbns rule is NOT on
+        OR
+      if there are no isbns in 020a
 
 
 ================================================================================
@@ -84,7 +91,7 @@ function mbshared:generate-addl-physical
 
 # red herring!  info never used!
 function mbshared:generate-instance-from260
-  # NOTE:  variable $edition-instances is NEVER used
+  # NOTE:  $edition-instances variable is NEVER used
   558:  let $edition-instances:=
   559:    for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
   560:     return
@@ -149,7 +156,7 @@ function mbshared:generate-instance-from250
 
   Called by:
     function mbshared:generate-instance-from260
-      # note:  $edition-instances var is NEVER USED
+      # NOTE:  $edition-instances variable is NEVER used
       558: let $edition-instances:=
       559:  for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
       560:    return
@@ -412,8 +419,71 @@ function mbshared:generate-instance-from856
 
 
 
+# mbshared:generate-work  calls  mbshared:generate-instances
+#
+#   mbshared:generate-instances
+#     when there are isbns in 020a and generate instances from isbns rule is NOT on
+#       first of 260|261|262|264|300  passed to   generate-instance-from260
+#     OR
+#     when there are no isbns in 020a
+#       first of 260|261|262|264|300  passed to   generate-instance-from260
+#
+#     mbshared:generate-instance-from260   calls   mbshared:related-works
+#
+#       mbshared:related-works calls mbshared:generate-related-instance for any of
+#         (400|410|411|430|440|490|533|534|630|700|710|711|730|740|760|762|765|767|770|772|773|774|775|777|780|785|787|800|810|811|830)
 function mbshared:generate-related-instance
   2162:            element bf:Instance{
+
+  Called by:    generate-related-instance is called by related-works when 3rd arg is "instance"
+    function mbshared:related-works     # when 3rd arg is "instance"
+      2490: if ($resource="instance" ) then
+      2491:   for $d in $marcxml/marcxml:datafield[fn:matches(@tag,$relateds/@all-tags)]
+        from 285:    <work-relateds all-tags="(400|410|411|430|440|490|533|534|630|700|710|711|730|740|760|762|765|767|770|772|773|774|775|777|780|785|787|800|810|811|830)">
+      2492:     let $property:=$relateds/type[@tag=$d/@tag]/@property
+      2493:       return mbshared:generate-related-instance($d,$property)  # $property is predicate name, such as partOf
+
+    Called by:  related-works with 3rd arg of 'instance'  is called by  generate-instance-from260
+      function mbshared:generate-instance-from260
+        745:   let $instance-relateds := mbshared:related-works($d/ancestor::marcxml:record,$workID,"instance")
+
+      # NOTE:  this execution chain is used to assign data to a variable that is NEVER USED
+      Called by:   generate-instance-from260  is called by  generate-instance-from250
+        function mbshared:generate-instance-from250
+          1670: let $instance := mbshared:generate-instance-from260($d/../marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1], $workID)
+
+        Called by:    generate-instance-from250  is called by   generate-instance-from260
+          function mbshared:generate-instance-from260
+            # NOTE:  $edition-instances variable is NEVER used
+            558: let $edition-instances:=
+            559:   for $e in $d/../marcxml:datafield[@tag eq "250"][fn:not(1)]
+            560:     return
+            561:       (mbshared:generate-instance-from250($e,$workID),
+            562:       element bf:relatedInstance {
+            563:         element bf:Instance {
+
+      Called by (also):  generate-instance-from260  is called by  generate-instances
+        function mbshared:generate-instances
+          2058: if ( $isbn-sets//bf:set) then
+          ...
+          2060:   let $instance:=
+          2061:     for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+          2062:       return mbshared:generate-instance-from260($i, $workID)
+          2063:   return
+          2064:     if (fn:string($mbshared:transform-rules//rule[@id="1"]/@status)="on" ) then
+          ...
+          2067:     else (:just return the instance with multiple isbns on it is  handled inside instance-from260:)
+          2068:       $instance
+          ...
+          2071: else (: $isbn-sets//bf:set is false use the first edition, etc:)
+          2072:   for $i in $marcxml/marcxml:datafield[fn:matches(@tag, "(260|261|262|264|300)")][1]
+          2073:     return mbshared:generate-instance-from260($i, $workID)
+
+        Called by:
+          function mbshared:generate-work(
+            2595:    let $instances := mbshared:generate-instances($marcxml, $typeOf008, $workID)
+
+
 
 2210:         element bf:Instance {
 
