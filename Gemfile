@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'linkeddata'
+gem 'marc'
 gem 'rspec'
 
 group :development do
