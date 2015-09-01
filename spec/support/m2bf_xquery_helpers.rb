@@ -8,11 +8,11 @@
 #  4.  location of saxon.jar must be in SAXON_JAR_PATH
 module Helpers
 
-  MARC2BIBFRAME_PATH = "#{Dir.pwd}/../marc2bibframe"
-  SAXON_JAR_PATH = MARC2BIBFRAME_PATH + '/lib/saxon9he.jar'
+  MARC2BIBFRAME_PATH = CONFIG_SETTINGS['marc2bibframe_path']
+  SAXON_JAR_PATH = CONFIG_SETTINGS['saxon_jar_path']
+  BASE_URI = CONFIG_SETTINGS['base_uri']
 
   SCRIPT_PATH = 'bin/convert-saxon.sh'
-  BASE_URI = 'http://example.org/'
   URI_ARG = "-u #{BASE_URI}"
   SZN_ARG = "-s rdfxml"
   JAR_ARG = "-j #{SAXON_JAR_PATH}"

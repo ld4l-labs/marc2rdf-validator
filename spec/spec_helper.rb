@@ -1,4 +1,8 @@
+require 'yaml'
+CONFIG_SETTINGS = YAML.load_file('config.yml')
+MARC2BF_GRAPH_METHOD = CONFIG_SETTINGS['helper_method'].to_sym
 
+# this MUST go after CONFIG_SETTINGS and MARC2BF_GRAPH_METHOD constants
 require 'support/m2bf_xquery_helpers'
 
 RSpec.configure do |config|
