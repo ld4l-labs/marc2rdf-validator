@@ -1,1 +1,193 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>02525cmm a2200613Ia 4500</leader><controlfield tag='001'>a10738698</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150722003001.0</controlfield><controlfield tag='007'>co cga||||||||</controlfield><controlfield tag='008'>141028s2014    wau    eq  g        eng d</controlfield><datafield ind1='1' ind2='0' tag='024'><subfield code='a'>045496903466</subfield></datafield><datafield ind1='8' ind2=' ' tag='024'><subfield code='a'>WUP-P-AQUE-USA-0</subfield><subfield code='q'>(Bayonetta 2 disc)</subfield></datafield><datafield ind1='8' ind2=' ' tag='024'><subfield code='a'>WUP-P-AAFE-USA-0</subfield><subfield code='q'>(Bayonetta disc)</subfield></datafield><datafield ind1='8' ind2=' ' tag='024'><subfield code='a'>WUP P BPCE USZ</subfield><subfield code='q'>(container)</subfield></datafield><datafield ind1='5' ind2='2' tag='028'><subfield code='a'>83663A</subfield><subfield code='b'>Nintendo of America Inc.</subfield><subfield code='q'>(container)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>JBL</subfield><subfield code='b'>eng</subfield><subfield code='c'>JBL</subfield><subfield code='d'>OCLCO</subfield><subfield code='d'>GK8</subfield><subfield code='d'>STF</subfield></datafield><datafield ind1='1' ind2=' ' tag='041'><subfield code='a'>eng</subfield><subfield code='a'>fre</subfield><subfield code='a'>spa</subfield><subfield code='g'>eng</subfield><subfield code='g'>fre</subfield><subfield code='g'>spa</subfield><subfield code='h'>eng</subfield></datafield><datafield ind1=' ' ind2=' ' tag='049'><subfield code='a'>STFA</subfield></datafield><datafield ind1='0' ind2='4' tag='082'><subfield code='a'>793.932</subfield><subfield code='2'>23</subfield></datafield><datafield ind1='0' ind2='0' tag='245'><subfield code='a'>Bayonetta 2</subfield><subfield code='h'>[electronic resource].</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>Wii U.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Redmond, WA :</subfield><subfield code='b'>Nintendo of America Inc.,</subfield><subfield code='c'>c2014.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>2 computer optical discs :</subfield><subfield code='b'>sd., col. ;</subfield><subfield code='c'>4 3/4 in. +</subfield><subfield code='e'>1 folded sheet.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='336'><subfield code='a'>two-dimensional moving image</subfield><subfield code='2'>rdacontent</subfield></datafield><datafield ind1=' ' ind2=' ' tag='336'><subfield code='a'>computer program</subfield><subfield code='2'>rdacontent</subfield></datafield><datafield ind1=' ' ind2=' ' tag='337'><subfield code='a'>computer</subfield><subfield code='2'>rdamedia</subfield></datafield><datafield ind1=' ' ind2=' ' tag='338'><subfield code='a'>computer disc</subfield><subfield code='2'>rdacarrier</subfield></datafield><datafield ind1=' ' ind2=' ' tag='344'><subfield code='a'>digital $b optical $2 rda</subfield></datafield><datafield ind1=' ' ind2=' ' tag='346'><subfield code='b'>NTSC</subfield><subfield code='2'>rda</subfield></datafield><datafield ind1=' ' ind2=' ' tag='347'><subfield code='e'>U/C</subfield></datafield><datafield ind1=' ' ind2=' ' tag='538'><subfield code='a'>System requirements: Nintendo Wii U systems sold for the Americas only.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='508'><subfield code='a'>Developed by PlatinumGames Inc.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='546'><subfield code='a'>Game and container text in English, French, and Spanish.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Title from disc label.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>1 player.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;Nintendo Network&quot;--Container.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;Includes a disc of the original Bayonetta game, now on Wii U&quot;--Container.</subfield></datafield><datafield ind1='8' ind2=' ' tag='521'><subfield code='a'>ESRB content rating: M, Mature 17+ (blood and gore, intense violence, partial nudity, strong language, suggestive themes).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='520'><subfield code='a'>Angels and demons stand in her way ... punish enimies with elaborate summons; master new moves with Bayonetta&apos;s trademark style; utilize new weapons and skills in battle&quot;--Container.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Hand-to-hand fighting</subfield><subfield code='v'>Computer games.</subfield><subfield code=' '>^A1024064</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Shooting</subfield><subfield code='v'>Computer games.</subfield><subfield code=' '>^A1060792</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Demonology</subfield><subfield code='v'>Computer games.</subfield><subfield code=' '>^A1010607</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Angels</subfield><subfield code='v'>Computer games.</subfield><subfield code=' '>^A992367</subfield></datafield><datafield ind1=' ' ind2='0' tag='655'><subfield code='a'>Fantasy games.</subfield></datafield><datafield ind1=' ' ind2='0' tag='655'><subfield code='a'>Video games.</subfield></datafield><datafield ind1=' ' ind2='0' tag='655'><subfield code='a'>Nintendo Wii video games.</subfield></datafield><datafield ind1='2' ind2=' ' tag='710'><subfield code='a'>PlatinumGames Inc.</subfield><subfield code=' '>^A3325199</subfield></datafield><datafield ind1='2' ind2=' ' tag='710'><subfield code='a'>Nintendo of America Inc.</subfield><subfield code=' '>^A1592866</subfield></datafield><datafield ind1=' ' ind2=' ' tag='753'><subfield code='a'>Nintendo Wii U (NTSC-U/C)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='916'><subfield code='a'>DATE CATALOGED</subfield><subfield code='b'>20150428</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>C0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)893916897</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZMS 4204 DISCS 1-2</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105222468998</subfield><subfield code='d'>7/6/2015</subfield><subfield code='e'>7/2/2015</subfield><subfield code='j'>3</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>2</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-VIDGAMS</subfield><subfield code='u'>2/23/2015</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02525cmm a2200613Ia 4500</leader>
+  <controlfield tag="001">a10738698</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150722003001.0</controlfield>
+  <controlfield tag="007">co cga||||||||</controlfield>
+  <controlfield tag="008">141028s2014    wau    eq  g        eng d</controlfield>
+  <datafield ind1="1" ind2="0" tag="024">
+    <subfield code="a">045496903466</subfield>
+  </datafield>
+  <datafield ind1="8" ind2=" " tag="024">
+    <subfield code="a">WUP-P-AQUE-USA-0</subfield>
+    <subfield code="q">(Bayonetta 2 disc)</subfield>
+  </datafield>
+  <datafield ind1="8" ind2=" " tag="024">
+    <subfield code="a">WUP-P-AAFE-USA-0</subfield>
+    <subfield code="q">(Bayonetta disc)</subfield>
+  </datafield>
+  <datafield ind1="8" ind2=" " tag="024">
+    <subfield code="a">WUP P BPCE USZ</subfield>
+    <subfield code="q">(container)</subfield>
+  </datafield>
+  <datafield ind1="5" ind2="2" tag="028">
+    <subfield code="a">83663A</subfield>
+    <subfield code="b">Nintendo of America Inc.</subfield>
+    <subfield code="q">(container)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">JBL</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">JBL</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">GK8</subfield>
+    <subfield code="d">STF</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="041">
+    <subfield code="a">eng</subfield>
+    <subfield code="a">fre</subfield>
+    <subfield code="a">spa</subfield>
+    <subfield code="g">eng</subfield>
+    <subfield code="g">fre</subfield>
+    <subfield code="g">spa</subfield>
+    <subfield code="h">eng</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="049">
+    <subfield code="a">STFA</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="4" tag="082">
+    <subfield code="a">793.932</subfield>
+    <subfield code="2">23</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Bayonetta 2</subfield>
+    <subfield code="h">[electronic resource].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">Wii U.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Redmond, WA :</subfield>
+    <subfield code="b">Nintendo of America Inc.,</subfield>
+    <subfield code="c">c2014.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">2 computer optical discs :</subfield>
+    <subfield code="b">sd., col. ;</subfield>
+    <subfield code="c">4 3/4 in. +</subfield>
+    <subfield code="e">1 folded sheet.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="336">
+    <subfield code="a">two-dimensional moving image</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="336">
+    <subfield code="a">computer program</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="337">
+    <subfield code="a">computer</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="338">
+    <subfield code="a">computer disc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="344">
+    <subfield code="a">digital $b optical $2 rda</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="346">
+    <subfield code="b">NTSC</subfield>
+    <subfield code="2">rda</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="347">
+    <subfield code="e">U/C</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="538">
+    <subfield code="a">System requirements: Nintendo Wii U systems sold for the Americas only.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="508">
+    <subfield code="a">Developed by PlatinumGames Inc.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="546">
+    <subfield code="a">Game and container text in English, French, and Spanish.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Title from disc label.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">1 player.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;Nintendo Network&quot;--Container.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;Includes a disc of the original Bayonetta game, now on Wii U&quot;--Container.</subfield>
+  </datafield>
+  <datafield ind1="8" ind2=" " tag="521">
+    <subfield code="a">ESRB content rating: M, Mature 17+ (blood and gore, intense violence, partial nudity, strong language, suggestive themes).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="520">
+    <subfield code="a">Angels and demons stand in her way ... punish enimies with elaborate summons; master new moves with Bayonetta's trademark style; utilize new weapons and skills in battle&quot;--Container.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Hand-to-hand fighting</subfield>
+    <subfield code="v">Computer games.</subfield>
+    <subfield code=" ">^A1024064</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Shooting</subfield>
+    <subfield code="v">Computer games.</subfield>
+    <subfield code=" ">^A1060792</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Demonology</subfield>
+    <subfield code="v">Computer games.</subfield>
+    <subfield code=" ">^A1010607</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Angels</subfield>
+    <subfield code="v">Computer games.</subfield>
+    <subfield code=" ">^A992367</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="655">
+    <subfield code="a">Fantasy games.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="655">
+    <subfield code="a">Video games.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="655">
+    <subfield code="a">Nintendo Wii video games.</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">PlatinumGames Inc.</subfield>
+    <subfield code=" ">^A3325199</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">Nintendo of America Inc.</subfield>
+    <subfield code=" ">^A1592866</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="753">
+    <subfield code="a">Nintendo Wii U (NTSC-U/C)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="916">
+    <subfield code="a">DATE CATALOGED</subfield>
+    <subfield code="b">20150428</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">C0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)893916897</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZMS 4204 DISCS 1-2</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105222468998</subfield>
+    <subfield code="d">7/6/2015</subfield>
+    <subfield code="e">7/2/2015</subfield>
+    <subfield code="j">3</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">2</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-VIDGAMS</subfield>
+    <subfield code="u">2/23/2015</subfield>
+  </datafield>
+</record>

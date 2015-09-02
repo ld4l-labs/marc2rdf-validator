@@ -1,1 +1,73 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>00771cam a22002171  4500</leader><controlfield tag='001'>a3038566</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>770415s1917    enka          000 1 eng d</controlfield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)81869625</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)275063657</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>CSt-H</subfield><subfield code='c'>CSt-H</subfield><subfield code='d'>OrLoB</subfield></datafield><datafield ind1=' ' ind2=' ' tag='043'><subfield code='a'>e-fr---</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Ewart, Ernest Andrew,</subfield><subfield code='d'>1878-</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='1' ind2='0' tag='245'><subfield code='a'>Grapes of Wrath,</subfield><subfield code='c'>by Boyd Cable [pseud.]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>London,</subfield><subfield code='c'>[1917]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>285 p.</subfield><subfield code='b'>illus.,</subfield><subfield code='c'>20 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>25</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Somme, 1st Battle of the, France, 1916</subfield><subfield code='x'>Fiction.</subfield><subfield code=' '>^A1062613</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>D545 .S7 E94</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105073813110</subfield><subfield code='d'>8/7/1996</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>HOOVER</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>LIBUSEONLY</subfield><subfield code='u'>8/9/1995</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>D545 .S7 E94</subfield><subfield code='w'>LC</subfield><subfield code='c'>2</subfield><subfield code='i'>36105073814084</subfield><subfield code='d'>8/7/1996</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>HOOVER</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>LIBUSEONLY</subfield><subfield code='u'>8/9/1995</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00771cam a22002171  4500</leader>
+  <controlfield tag="001">a3038566</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">770415s1917    enka          000 1 eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)81869625</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)275063657</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">CSt-H</subfield>
+    <subfield code="c">CSt-H</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="043">
+    <subfield code="a">e-fr---</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Ewart, Ernest Andrew,</subfield>
+    <subfield code="d">1878-</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">Grapes of Wrath,</subfield>
+    <subfield code="c">by Boyd Cable [pseud.]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">London,</subfield>
+    <subfield code="c">[1917]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">285 p.</subfield>
+    <subfield code="b">illus.,</subfield>
+    <subfield code="c">20 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Somme, 1st Battle of the, France, 1916</subfield>
+    <subfield code="x">Fiction.</subfield>
+    <subfield code=" ">^A1062613</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">D545 .S7 E94</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105073813110</subfield>
+    <subfield code="d">8/7/1996</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">HOOVER</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">LIBUSEONLY</subfield>
+    <subfield code="u">8/9/1995</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">D545 .S7 E94</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">2</subfield>
+    <subfield code="i">36105073814084</subfield>
+    <subfield code="d">8/7/1996</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">HOOVER</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">LIBUSEONLY</subfield>
+    <subfield code="u">8/9/1995</subfield>
+  </datafield>
+</record>

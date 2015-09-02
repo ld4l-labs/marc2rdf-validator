@@ -1,1 +1,126 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01237cam a2200337ua 4500</leader><controlfield tag='001'>a1480627</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150811120001.0</controlfield><controlfield tag='008'>820716s1982    nyu           000 1 eng  </controlfield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>   81048242</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0151191530 :</subfield><subfield code='c'>$10.95 (est.)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780151191536</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(CStRLIN)CSUG82-B16273</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)8221433</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)273363307</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='d'>CSt</subfield><subfield code='d'>OrLoB</subfield></datafield><datafield ind1='0' ind2=' ' tag='050'><subfield code='a'>PS3573.A425</subfield><subfield code='b'>C6</subfield></datafield><datafield ind1='0' ind2=' ' tag='082'><subfield code='a'>813/.54</subfield><subfield code='2'>19</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Walker, Alice,</subfield><subfield code='d'>1944-</subfield><subfield code=' '>^A128228</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The color purple :</subfield><subfield code='b'>a novel /</subfield><subfield code='c'>by Alice Walker.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>New York :</subfield><subfield code='b'>Harcourt Brace Jovanovich,</subfield><subfield code='c'>1982.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>245 p. ;</subfield><subfield code='c'>23 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0156028352 (pbk.)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780156028356 (pbk.)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780156031820</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0156031825</subfield></datafield><datafield ind1=' ' ind2=' ' tag='916'><subfield code='a'>DATE CATALOGED</subfield><subfield code='b'>19910907</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3573 .A425 C6</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105039212498</subfield><subfield code='d'>6/9/2015</subfield><subfield code='e'>6/3/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>33</subfield><subfield code='q'>2</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/16/1982</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3573 .A425 C6</subfield><subfield code='w'>LC</subfield><subfield code='c'>2</subfield><subfield code='i'>36105003831281</subfield><subfield code='d'>8/8/2015</subfield><subfield code='e'>7/13/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>68</subfield><subfield code='q'>5</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/16/1982</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3573 .A425 C6</subfield><subfield code='w'>LC</subfield><subfield code='c'>3</subfield><subfield code='i'>36105003831307</subfield><subfield code='d'>3/29/2015</subfield><subfield code='e'>3/18/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>54</subfield><subfield code='q'>3</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/16/1982</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01237cam a2200337ua 4500</leader>
+  <controlfield tag="001">a1480627</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150811120001.0</controlfield>
+  <controlfield tag="008">820716s1982    nyu           000 1 eng  </controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">81048242</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0151191530 :</subfield>
+    <subfield code="c">$10.95 (est.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780151191536</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(CStRLIN)CSUG82-B16273</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)8221433</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)273363307</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="d">CSt</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="050">
+    <subfield code="a">PS3573.A425</subfield>
+    <subfield code="b">C6</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="082">
+    <subfield code="a">813/.54</subfield>
+    <subfield code="2">19</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Walker, Alice,</subfield>
+    <subfield code="d">1944-</subfield>
+    <subfield code=" ">^A128228</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The color purple :</subfield>
+    <subfield code="b">a novel /</subfield>
+    <subfield code="c">by Alice Walker.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Harcourt Brace Jovanovich,</subfield>
+    <subfield code="c">1982.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">245 p. ;</subfield>
+    <subfield code="c">23 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0156028352 (pbk.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780156028356 (pbk.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780156031820</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0156031825</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="916">
+    <subfield code="a">DATE CATALOGED</subfield>
+    <subfield code="b">19910907</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3573 .A425 C6</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105039212498</subfield>
+    <subfield code="d">6/9/2015</subfield>
+    <subfield code="e">6/3/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">33</subfield>
+    <subfield code="q">2</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/16/1982</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3573 .A425 C6</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">2</subfield>
+    <subfield code="i">36105003831281</subfield>
+    <subfield code="d">8/8/2015</subfield>
+    <subfield code="e">7/13/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">68</subfield>
+    <subfield code="q">5</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/16/1982</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3573 .A425 C6</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">3</subfield>
+    <subfield code="i">36105003831307</subfield>
+    <subfield code="d">3/29/2015</subfield>
+    <subfield code="e">3/18/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">54</subfield>
+    <subfield code="q">3</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/16/1982</subfield>
+  </datafield>
+</record>

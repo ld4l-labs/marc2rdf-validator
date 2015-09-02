@@ -1,1 +1,103 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>02087cmm a2200361 a 4500</leader><controlfield tag='001'>a3416573</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='007'>co ug ||||||||</controlfield><controlfield tag='007'>cj|ua|</controlfield><controlfield tag='008'>000000s1995    cau        m        eng d</controlfield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)82840386</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)275279792</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>CSt</subfield><subfield code='c'>CSt</subfield><subfield code='d'>OrLoB</subfield></datafield><datafield ind1='1' ind2=' ' tag='041'><subfield code='a'>eng</subfield><subfield code='h'>fre</subfield></datafield><datafield ind1='0' ind2='0' tag='245'><subfield code='a'>Macintosh Arabic language kit</subfield><subfield code='h'>[electronic resource].</subfield></datafield><datafield ind1='3' ind2='0' tag='246'><subfield code='a'>Arabic language kit</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>Version 1.01.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='256'><subfield code='a'>Computer programs.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Cupertino, Calif. :</subfield><subfield code='b'>Apple Computer,</subfield><subfield code='c'>c1995.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>1 CD-ROM ;</subfield><subfield code='b'>4 3/4 in. +</subfield><subfield code='e'>5 computer disks (3 1/2 in.) + 1 installation and user&apos;s manual + two sets of keycaps.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Title from CD-ROM disc label.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Program may be installed either from CD-ROM or from floppy diskettes; two versions of Install diskette 1, one in English and the other in French.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='520'><subfield code='a'>Contains software needed to work in Arabic or Persian on your computer.  Includes program that lets you specify which of your applications programs should be opened in Arabic, WorldScript I to enable right-to-left scripts, seven Arabic and six Persian fonts in a variety of formats, a choice of keyboard layouts, and SimpleText Arabic.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='538'><subfield code='a'>System requirements: Macintosh; system 7.1 or later; 4MB RAM (8MB if you are using system 7.5 with QuickDraw GX installed; Power Macintosh requires 8MB with 16MB for system 7.5 and QuickDraw GX); an internal or external hard disk drive; floppy disk drive capable of reading high-density (1.4 MB) floppy disks or a CD-ROM drive.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='546'><subfield code='a'>Installation and user&apos;s guide in English and French.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='590'><subfield code='a'>Licensed for two machines.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1 16</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Arabic language</subfield><subfield code='x'>Writing</subfield><subfield code='x'>Software.</subfield><subfield code=' '>^A1082302</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Persian language</subfield><subfield code='x'>Writing</subfield><subfield code='x'>Software.</subfield><subfield code=' '>^A1048058</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Computer fonts</subfield><subfield code='x'>Software.</subfield><subfield code=' '>^A1252811</subfield></datafield><datafield ind1='2' ind2=' ' tag='710'><subfield code='a'>Apple Computer, Inc.</subfield><subfield code=' '>^A416591</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZMS 553 INSTALL/USER&apos;S MANUAL</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105017826160</subfield><subfield code='d'>4/30/1997</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-VIDGAMS</subfield><subfield code='u'>4/29/1997</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02087cmm a2200361 a 4500</leader>
+  <controlfield tag="001">a3416573</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="007">co ug ||||||||</controlfield>
+  <controlfield tag="007">cj|ua|</controlfield>
+  <controlfield tag="008">000000s1995    cau        m        eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)82840386</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)275279792</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">CSt</subfield>
+    <subfield code="c">CSt</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="041">
+    <subfield code="a">eng</subfield>
+    <subfield code="h">fre</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Macintosh Arabic language kit</subfield>
+    <subfield code="h">[electronic resource].</subfield>
+  </datafield>
+  <datafield ind1="3" ind2="0" tag="246">
+    <subfield code="a">Arabic language kit</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">Version 1.01.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="256">
+    <subfield code="a">Computer programs.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Cupertino, Calif. :</subfield>
+    <subfield code="b">Apple Computer,</subfield>
+    <subfield code="c">c1995.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 CD-ROM ;</subfield>
+    <subfield code="b">4 3/4 in. +</subfield>
+    <subfield code="e">5 computer disks (3 1/2 in.) + 1 installation and user's manual + two sets of keycaps.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Title from CD-ROM disc label.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Program may be installed either from CD-ROM or from floppy diskettes; two versions of Install diskette 1, one in English and the other in French.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="520">
+    <subfield code="a">Contains software needed to work in Arabic or Persian on your computer.  Includes program that lets you specify which of your applications programs should be opened in Arabic, WorldScript I to enable right-to-left scripts, seven Arabic and six Persian fonts in a variety of formats, a choice of keyboard layouts, and SimpleText Arabic.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="538">
+    <subfield code="a">System requirements: Macintosh; system 7.1 or later; 4MB RAM (8MB if you are using system 7.5 with QuickDraw GX installed; Power Macintosh requires 8MB with 16MB for system 7.5 and QuickDraw GX); an internal or external hard disk drive; floppy disk drive capable of reading high-density (1.4 MB) floppy disks or a CD-ROM drive.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="546">
+    <subfield code="a">Installation and user's guide in English and French.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="590">
+    <subfield code="a">Licensed for two machines.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1 16</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Arabic language</subfield>
+    <subfield code="x">Writing</subfield>
+    <subfield code="x">Software.</subfield>
+    <subfield code=" ">^A1082302</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Persian language</subfield>
+    <subfield code="x">Writing</subfield>
+    <subfield code="x">Software.</subfield>
+    <subfield code=" ">^A1048058</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Computer fonts</subfield>
+    <subfield code="x">Software.</subfield>
+    <subfield code=" ">^A1252811</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">Apple Computer, Inc.</subfield>
+    <subfield code=" ">^A416591</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZMS 553 INSTALL/USER'S MANUAL</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105017826160</subfield>
+    <subfield code="d">4/30/1997</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-VIDGAMS</subfield>
+    <subfield code="u">4/29/1997</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

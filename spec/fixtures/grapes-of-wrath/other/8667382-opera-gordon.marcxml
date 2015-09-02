@@ -1,1 +1,105 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01213ccm a2200325 a 4500</leader><controlfield tag='001'>a8667382</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>081211s2009    nyuopc   z     n    eng d</controlfield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0825871328</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780825871320</subfield></datafield><datafield ind1='1' ind2=' ' tag='024'><subfield code='a'>798408071325</subfield></datafield><datafield ind1='2' ind2='2' tag='028'><subfield code='a'>VS5</subfield><subfield code='b'>C. Fischer</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>COO</subfield><subfield code='c'>COO</subfield><subfield code='d'>ORU</subfield><subfield code='d'>OHX</subfield><subfield code='d'>NUI</subfield><subfield code='d'>CSt</subfield></datafield><datafield ind1='0' ind2=' ' tag='041'><subfield code='a'>eng</subfield><subfield code='g'>eng</subfield></datafield><datafield ind1='0' ind2=' ' tag='045'><subfield code='b'>d20050925</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Gordon, Ricky Ian.</subfield><subfield code=' '>^A2431043</subfield></datafield><datafield ind1='1' ind2='0' tag='240'><subfield code='a'>Grapes of wrath.</subfield><subfield code='s'>Vocal score</subfield><subfield code=' '>^A2431043</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath :</subfield><subfield code='b'>an opera in three acts /</subfield><subfield code='c'>music by Ricky Ian Gordon ; libretto by Michael Korie ; based on the novel by John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>New York, NY :</subfield><subfield code='b'>C. Fischer,</subfield><subfield code='c'>c2009.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>1 vocal score (375 p.) ;</subfield><subfield code='c'>31 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='546'><subfield code='a'>English words.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>At end of score: &quot;September 25, 2005.&quot;</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Operas</subfield><subfield code='v'>Vocal scores with piano.</subfield><subfield code=' '>^A1045295</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Korie, Michael</subfield><subfield code='4'>lbt</subfield><subfield code=' '>^A1386252</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code='t'>Grapes of wrath.</subfield><subfield code=' '>^A2091926</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)489195382</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)668740868</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>18</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>M1503 .G664 G7 2009</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105123701059</subfield><subfield code='d'>2/24/2011</subfield><subfield code='e'>12/1/2010</subfield><subfield code='l'>SCORES</subfield><subfield code='m'>MUSIC</subfield><subfield code='n'>2</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>SCORE</subfield><subfield code='u'>9/27/2010</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01213ccm a2200325 a 4500</leader>
+  <controlfield tag="001">a8667382</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">081211s2009    nyuopc   z     n    eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0825871328</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780825871320</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="024">
+    <subfield code="a">798408071325</subfield>
+  </datafield>
+  <datafield ind1="2" ind2="2" tag="028">
+    <subfield code="a">VS5</subfield>
+    <subfield code="b">C. Fischer</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">COO</subfield>
+    <subfield code="c">COO</subfield>
+    <subfield code="d">ORU</subfield>
+    <subfield code="d">OHX</subfield>
+    <subfield code="d">NUI</subfield>
+    <subfield code="d">CSt</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="041">
+    <subfield code="a">eng</subfield>
+    <subfield code="g">eng</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="045">
+    <subfield code="b">d20050925</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Gordon, Ricky Ian.</subfield>
+    <subfield code=" ">^A2431043</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="240">
+    <subfield code="a">Grapes of wrath.</subfield>
+    <subfield code="s">Vocal score</subfield>
+    <subfield code=" ">^A2431043</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath :</subfield>
+    <subfield code="b">an opera in three acts /</subfield>
+    <subfield code="c">music by Ricky Ian Gordon ; libretto by Michael Korie ; based on the novel by John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">New York, NY :</subfield>
+    <subfield code="b">C. Fischer,</subfield>
+    <subfield code="c">c2009.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 vocal score (375 p.) ;</subfield>
+    <subfield code="c">31 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="546">
+    <subfield code="a">English words.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">At end of score: &quot;September 25, 2005.&quot;</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Operas</subfield>
+    <subfield code="v">Vocal scores with piano.</subfield>
+    <subfield code=" ">^A1045295</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Korie, Michael</subfield>
+    <subfield code="4">lbt</subfield>
+    <subfield code=" ">^A1386252</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code="t">Grapes of wrath.</subfield>
+    <subfield code=" ">^A2091926</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)489195382</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)668740868</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">M1503 .G664 G7 2009</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105123701059</subfield>
+    <subfield code="d">2/24/2011</subfield>
+    <subfield code="e">12/1/2010</subfield>
+    <subfield code="l">SCORES</subfield>
+    <subfield code="m">MUSIC</subfield>
+    <subfield code="n">2</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">SCORE</subfield>
+    <subfield code="u">9/27/2010</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

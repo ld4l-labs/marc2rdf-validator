@@ -1,1 +1,125 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01784ccm a2200397M  4500</leader><controlfield tag='001'>a8370619</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>990927s1899    au sya         n    ger d</controlfield><datafield ind1='3' ind2='2' tag='028'><subfield code='a'>238</subfield><subfield code='b'>J. Weinberger</subfield></datafield><datafield ind1='2' ind2='2' tag='028'><subfield code='a'>9</subfield><subfield code='b'>J. Weinberger</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>AN#</subfield><subfield code='c'>AN#</subfield></datafield><datafield ind1='2' ind2=' ' tag='045'><subfield code='b'>d1893</subfield><subfield code='b'>d1896</subfield></datafield><datafield ind1=' ' ind2=' ' tag='048'><subfield code='b'>vc01</subfield><subfield code='a'>cd</subfield><subfield code='a'>cb</subfield><subfield code='a'>oa</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Mahler, Gustav,</subfield><subfield code='d'>1860-1911.</subfield><subfield code=' '>^A230732</subfield></datafield><datafield ind1='1' ind2='0' tag='240'><subfield code='a'>Symphonies,</subfield><subfield code='n'>no. 3,</subfield><subfield code='r'>D minor</subfield><subfield code=' '>^A230732</subfield></datafield><datafield ind1='1' ind2='0' tag='245'><subfield code='a'>3. Symphonie /</subfield><subfield code='c'>von Gustav Mahler.</subfield></datafield><datafield ind1='1' ind2=' ' tag='246'><subfield code='a'>Dritte Symphonie</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>[First edition]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='254'><subfield code='a'>Partitur.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Wien :</subfield><subfield code='b'>J. Weinberger,</subfield><subfield code='c'>[1899?]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>1 score (231 p.) ;</subfield><subfield code='c'>34 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>For alto, children&apos;s chorus, women&apos;s chorus, and orchestra.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Words by Nietzsche and from Des Knaben Wunderhorn.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='590'><subfield code='a'>Special Collections &amp; University Archives copy 1: From dealer&apos;s description: Folio. With extensive manuscript corrections and alterations in a neat hand in red ink throughout, possibly in the hand of either a member of Mahler&apos;s circle or one of Universal&apos;s professional copyists. With occasional performance markings in pencil. May have been used in the preparation of the second edition of the symphony, published by Universal in 1906.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Symphonies</subfield><subfield code='v'>Scores.</subfield><subfield code=' '>^A1066583</subfield></datafield><datafield ind1=' ' ind2='4' tag='650'><subfield code='a'>1899.</subfield></datafield><datafield ind1='1' ind2='0' tag='600'><subfield code='a'>Nietzsche, Friedrich Wilhelm,</subfield><subfield code='d'>1844-1900</subfield><subfield code='v'>Musical settings.</subfield><subfield code=' '>^A91425</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Nietzsche, Friedrich Wilhelm,</subfield><subfield code='d'>1844-1900.</subfield><subfield code=' '>^A91425</subfield></datafield><datafield ind1='2' ind2=' ' tag='710'><subfield code='a'>Josef Weinberger (Firm),</subfield><subfield code='e'>publisher.</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1=' ' ind2=' ' tag='752'><subfield code='a'>Austria</subfield><subfield code='d'>Vienna.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>21</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)270560252</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)501021772</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>MLM 631A</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105125595913</subfield><subfield code='l'>MEMLIBMUS</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>10/21/2009</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01784ccm a2200397M  4500</leader>
+  <controlfield tag="001">a8370619</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">990927s1899    au sya         n    ger d</controlfield>
+  <datafield ind1="3" ind2="2" tag="028">
+    <subfield code="a">238</subfield>
+    <subfield code="b">J. Weinberger</subfield>
+  </datafield>
+  <datafield ind1="2" ind2="2" tag="028">
+    <subfield code="a">9</subfield>
+    <subfield code="b">J. Weinberger</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">AN#</subfield>
+    <subfield code="c">AN#</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="045">
+    <subfield code="b">d1893</subfield>
+    <subfield code="b">d1896</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="048">
+    <subfield code="b">vc01</subfield>
+    <subfield code="a">cd</subfield>
+    <subfield code="a">cb</subfield>
+    <subfield code="a">oa</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Mahler, Gustav,</subfield>
+    <subfield code="d">1860-1911.</subfield>
+    <subfield code=" ">^A230732</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="240">
+    <subfield code="a">Symphonies,</subfield>
+    <subfield code="n">no. 3,</subfield>
+    <subfield code="r">D minor</subfield>
+    <subfield code=" ">^A230732</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">3. Symphonie /</subfield>
+    <subfield code="c">von Gustav Mahler.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="246">
+    <subfield code="a">Dritte Symphonie</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">[First edition]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="254">
+    <subfield code="a">Partitur.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Wien :</subfield>
+    <subfield code="b">J. Weinberger,</subfield>
+    <subfield code="c">[1899?]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 score (231 p.) ;</subfield>
+    <subfield code="c">34 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">For alto, children's chorus, women's chorus, and orchestra.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Words by Nietzsche and from Des Knaben Wunderhorn.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="590">
+    <subfield code="a">Special Collections &amp; University Archives copy 1: From dealer's description: Folio. With extensive manuscript corrections and alterations in a neat hand in red ink throughout, possibly in the hand of either a member of Mahler's circle or one of Universal's professional copyists. With occasional performance markings in pencil. May have been used in the preparation of the second edition of the symphony, published by Universal in 1906.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Symphonies</subfield>
+    <subfield code="v">Scores.</subfield>
+    <subfield code=" ">^A1066583</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="650">
+    <subfield code="a">1899.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="600">
+    <subfield code="a">Nietzsche, Friedrich Wilhelm,</subfield>
+    <subfield code="d">1844-1900</subfield>
+    <subfield code="v">Musical settings.</subfield>
+    <subfield code=" ">^A91425</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Nietzsche, Friedrich Wilhelm,</subfield>
+    <subfield code="d">1844-1900.</subfield>
+    <subfield code=" ">^A91425</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">Josef Weinberger (Firm),</subfield>
+    <subfield code="e">publisher.</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="752">
+    <subfield code="a">Austria</subfield>
+    <subfield code="d">Vienna.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">21</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)270560252</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)501021772</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">MLM 631A</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105125595913</subfield>
+    <subfield code="l">MEMLIBMUS</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">10/21/2009</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

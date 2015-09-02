@@ -1,1 +1,105 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01832cjm a2200349 a 4500</leader><controlfield tag='001'>a5577046</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='007'>sd fmngnnmmned</controlfield><controlfield tag='008'>010125p19981948caujzn              eng d</controlfield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>  2001540306</subfield></datafield><datafield ind1='1' ind2=' ' tag='024'><subfield code='a'>724349455023</subfield></datafield><datafield ind1='0' ind2='2' tag='028'><subfield code='a'>CDP 7243 4 94550 2 3</subfield><subfield code='b'>Capitol Jazz</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)39551285</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)276149696</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>VRU</subfield><subfield code='c'>VRU</subfield><subfield code='d'>DLC</subfield><subfield code='d'>OMP</subfield><subfield code='d'>OCLCQ</subfield><subfield code='d'>LVB</subfield><subfield code='d'>CSt</subfield></datafield><datafield ind1='0' ind2=' ' tag='041'><subfield code='g'>eng</subfield></datafield><datafield ind1='0' ind2='0' tag='050'><subfield code='a'>SDA 22496</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Davis, Miles</subfield><subfield code='4'>prf</subfield><subfield code=' '>^A26026</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The complete birth of the cool</subfield><subfield code='h'>[sound recording].</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Hollywood, Calif :</subfield><subfield code='b'>Capitol Jazz,</subfield><subfield code='c'>p1998.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>1 sound disc :</subfield><subfield code='b'>digital ;</subfield><subfield code='c'>4 3/4 in.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Compact disc.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Notes, durations, and details of the recordings ([22] p. : ports.) inserted in container.</subfield></datafield><datafield ind1='0' ind2=' ' tag='505'><subfield code='a'>The studio sessions. Move (2:33) ; Jeru (3:13) ; Moon dreams (3:19) ; Venus de Milo (3; 13) ; Budo (2:34) ; Deception (2:49) ; Godchild (3:11) ; Boplicity (3:00) ; Rocker (3:06) ; Israel (2:18) ; Rouge (3:15) ; Darn that dream (3:25) -- The live sessions. Birth of the cool theme (0:19) ; Symphony Sid announces the band (1:02) ; Move (3:40) ; Why do I love you (3:41) ; Godchild (5:51) ; Symphony Sid introduction (0:27) ; S&apos;il vous plait (4:22) ; Moon dreams (5:06) ; Budo (Hallucination) (1:25) ; Darn that dream (4:25) ; Move (4:48) ; Moon dreams (3:46) ; Budo (Hallucinations) (4:23).</subfield></datafield><datafield ind1='0' ind2=' ' tag='511'><subfield code='a'>Jazz ensembles featuring Miles Davis, trumpet ; in part with vocals.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='518'><subfield code='a'>Recorded between Sept. 4, 1948 and Mar. 9, 1950.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>18</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Trumpet music (Jazz)</subfield><subfield code=' '>^A1070197</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Jazz</subfield><subfield code='y'>1941-1950.</subfield><subfield code=' '>^A1089336</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>MCD 8201</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105028247380</subfield><subfield code='d'>3/4/2015</subfield><subfield code='e'>3/3/2015</subfield><subfield code='l'>RECORDINGS</subfield><subfield code='m'>MUSIC</subfield><subfield code='n'>49</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-DVDCD</subfield><subfield code='u'>3/15/2004</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01832cjm a2200349 a 4500</leader>
+  <controlfield tag="001">a5577046</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="007">sd fmngnnmmned</controlfield>
+  <controlfield tag="008">010125p19981948caujzn              eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">2001540306</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="024">
+    <subfield code="a">724349455023</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="028">
+    <subfield code="a">CDP 7243 4 94550 2 3</subfield>
+    <subfield code="b">Capitol Jazz</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)39551285</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)276149696</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">VRU</subfield>
+    <subfield code="c">VRU</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">OMP</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">LVB</subfield>
+    <subfield code="d">CSt</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="041">
+    <subfield code="g">eng</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="050">
+    <subfield code="a">SDA 22496</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Davis, Miles</subfield>
+    <subfield code="4">prf</subfield>
+    <subfield code=" ">^A26026</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The complete birth of the cool</subfield>
+    <subfield code="h">[sound recording].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Hollywood, Calif :</subfield>
+    <subfield code="b">Capitol Jazz,</subfield>
+    <subfield code="c">p1998.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 sound disc :</subfield>
+    <subfield code="b">digital ;</subfield>
+    <subfield code="c">4 3/4 in.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Compact disc.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Notes, durations, and details of the recordings ([22] p. : ports.) inserted in container.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="505">
+    <subfield code="a">The studio sessions. Move (2:33) ; Jeru (3:13) ; Moon dreams (3:19) ; Venus de Milo (3; 13) ; Budo (2:34) ; Deception (2:49) ; Godchild (3:11) ; Boplicity (3:00) ; Rocker (3:06) ; Israel (2:18) ; Rouge (3:15) ; Darn that dream (3:25) -- The live sessions. Birth of the cool theme (0:19) ; Symphony Sid announces the band (1:02) ; Move (3:40) ; Why do I love you (3:41) ; Godchild (5:51) ; Symphony Sid introduction (0:27) ; S'il vous plait (4:22) ; Moon dreams (5:06) ; Budo (Hallucination) (1:25) ; Darn that dream (4:25) ; Move (4:48) ; Moon dreams (3:46) ; Budo (Hallucinations) (4:23).</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="511">
+    <subfield code="a">Jazz ensembles featuring Miles Davis, trumpet ; in part with vocals.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="518">
+    <subfield code="a">Recorded between Sept. 4, 1948 and Mar. 9, 1950.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Trumpet music (Jazz)</subfield>
+    <subfield code=" ">^A1070197</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Jazz</subfield>
+    <subfield code="y">1941-1950.</subfield>
+    <subfield code=" ">^A1089336</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">MCD 8201</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105028247380</subfield>
+    <subfield code="d">3/4/2015</subfield>
+    <subfield code="e">3/3/2015</subfield>
+    <subfield code="l">RECORDINGS</subfield>
+    <subfield code="m">MUSIC</subfield>
+    <subfield code="n">49</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-DVDCD</subfield>
+    <subfield code="u">3/15/2004</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

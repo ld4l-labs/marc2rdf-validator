@@ -1,1 +1,203 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>02034cas a2200541 a 4500</leader><controlfield tag='001'>a8536522</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150330003001.0</controlfield><controlfield tag='008'>930224c19929999maubr p       0   a0eng d</controlfield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>   95642730 </subfield><subfield code='z'>sn 93007181</subfield></datafield><datafield ind1='0' ind2=' ' tag='022'><subfield code='a'>1068-2821</subfield><subfield code='2'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='030'><subfield code='a'>CILLE2</subfield></datafield><datafield ind1=' ' ind2=' ' tag='037'><subfield code='b'>Boston Common Press Limited Partnership, 17 Station Street, Brookline, MA 02445</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>NSD</subfield><subfield code='c'>NSD</subfield><subfield code='d'>CAS</subfield><subfield code='d'>HUL</subfield><subfield code='d'>DLC</subfield><subfield code='d'>SYS</subfield><subfield code='d'>OCLCQ</subfield><subfield code='d'>ZYU</subfield></datafield><datafield ind1=' ' ind2=' ' tag='042'><subfield code='a'>nsdp</subfield><subfield code='a'>lc</subfield></datafield><datafield ind1=' ' ind2=' ' tag='043'><subfield code='a'>n-us---</subfield></datafield><datafield ind1='0' ind2='0' tag='050'><subfield code='a'>TX1</subfield><subfield code='b'>.C83</subfield></datafield><datafield ind1='0' ind2='0' tag='082'><subfield code='a'>641.5/05</subfield><subfield code='2'>20</subfield></datafield><datafield ind1='0' ind2=' ' tag='210'><subfield code='a'>Cook&apos;s illus.</subfield></datafield><datafield ind1=' ' ind2='0' tag='222'><subfield code='a'>Cook&apos;s illustrated</subfield></datafield><datafield ind1='0' ind2='0' tag='245'><subfield code='a'>Cook&apos;s illustrated.</subfield></datafield><datafield ind1='3' ind2='0' tag='246'><subfield code='a'>Cook&apos;s</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Brookline, MA :</subfield><subfield code='b'>Natural Health Ltd. Partners,</subfield><subfield code='c'>c1992-</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>v. :</subfield><subfield code='b'>ill. ;</subfield><subfield code='c'>28 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='310'><subfield code='a'>Bimonthly</subfield></datafield><datafield ind1='0' ind2=' ' tag='362'><subfield code='a'>Vol. 1, no. 1-</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Title from cover.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Issues for &lt;1993-2005&gt; published: Brookline, MA : Boston Common Press.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Latest issue consulted: No. 72 (Jan./Feb. 2005).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='515'><subfield code='a'>Vol. 1, no. 1 called also &quot;Charter issue.&quot;</subfield></datafield><datafield ind1=' ' ind2=' ' tag='515'><subfield code='a'>Issues for &lt;1994-2005&gt; numbered continuously as: no. &lt;8-72&gt;</subfield></datafield><datafield ind1=' ' ind2=' ' tag='555'><subfield code='a'>1993-2003. 1 v.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Cooking</subfield><subfield code='v'>Periodicals</subfield><subfield code=' '>^A2097404</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Cooking, American</subfield><subfield code='v'>Periodicals</subfield><subfield code=' '>^A2427618</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Gastronomy</subfield><subfield code='v'>Periodicals.</subfield><subfield code=' '>^A1020925</subfield></datafield><datafield ind1='1' ind2=' ' tag='775'><subfield code='t'>Cook&apos;s illustrated (Annual hardbound ed.)</subfield><subfield code='w'>(DLC)  2005249007</subfield><subfield code='w'>(OCoLC)31961528</subfield></datafield><datafield ind1='0' ind2='0' tag='780'><subfield code='t'>Cook&apos;s</subfield><subfield code='x'>0886-943X</subfield><subfield code='w'>(DLC)   86643195</subfield><subfield code='w'>(OCoLC)13077858</subfield></datafield><datafield ind1='0' ind2='0' tag='891'><subfield code='9'>853</subfield><subfield code='8'>1</subfield><subfield code='a'>v.</subfield><subfield code='b'>no.</subfield><subfield code='g'>no.</subfield><subfield code='i'>(year)</subfield></datafield><datafield ind1='4' ind2='1' tag='891'><subfield code='9'>863</subfield><subfield code='8'>1</subfield><subfield code='a'>&lt;1&gt;</subfield><subfield code='b'>&lt;1&gt;</subfield><subfield code='g'>&lt;1&gt;</subfield><subfield code='i'>&lt;1992&gt;</subfield><subfield code='x'>provisional</subfield></datafield><datafield ind1='0' ind2='0' tag='891'><subfield code='9'>853</subfield><subfield code='8'>2</subfield><subfield code='a'>v.</subfield><subfield code='b'>no.</subfield><subfield code='g'>no.</subfield><subfield code='i'>(year)</subfield><subfield code='j'>(month/month)</subfield></datafield><datafield ind1='4' ind2='0' tag='891'><subfield code='9'>863</subfield><subfield code='8'>2</subfield><subfield code='a'>&lt;1&gt;</subfield><subfield code='b'>&lt;2&gt;-</subfield><subfield code='g'>&lt;2&gt;-</subfield><subfield code='i'>&lt;1993&gt;</subfield><subfield code='j'>&lt;May/June&gt;-</subfield><subfield code='x'>provisional</subfield></datafield><datafield ind1='0' ind2='0' tag='891'><subfield code='9'>853</subfield><subfield code='8'>3</subfield><subfield code='a'>no.</subfield><subfield code='i'>(year)</subfield><subfield code='j'>(month/month)</subfield></datafield><datafield ind1='4' ind2='0' tag='891'><subfield code='9'>863</subfield><subfield code='8'>3</subfield><subfield code='a'>&lt;7&gt;-</subfield><subfield code='i'>&lt;1994&gt;-</subfield><subfield code='x'>provisional</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>RCJ</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>24</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)27552930</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)610438284</subfield></datafield><datafield ind1=' ' ind2=' ' tag='852'><subfield code='a'>CSt-Law</subfield><subfield code='b'>LAW</subfield><subfield code='c'>VROOMAN</subfield><subfield code='t'>1</subfield><subfield code='x'>lc:bp</subfield></datafield><datafield ind1='4' ind2='1' tag='866'><subfield code='z'>Library keeps recent issues only.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>VROOMAN MAGAZINES COOK&apos;S ILLUSTRATED</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>8536522-1001</subfield><subfield code='l'>VROOMAN</subfield><subfield code='m'>LAW</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>LAW-STKS</subfield><subfield code='u'>3/31/2010</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02034cas a2200541 a 4500</leader>
+  <controlfield tag="001">a8536522</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150330003001.0</controlfield>
+  <controlfield tag="008">930224c19929999maubr p       0   a0eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">95642730 </subfield>
+    <subfield code="z">sn 93007181</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="022">
+    <subfield code="a">1068-2821</subfield>
+    <subfield code="2">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="030">
+    <subfield code="a">CILLE2</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="037">
+    <subfield code="b">Boston Common Press Limited Partnership, 17 Station Street, Brookline, MA 02445</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">NSD</subfield>
+    <subfield code="c">NSD</subfield>
+    <subfield code="d">CAS</subfield>
+    <subfield code="d">HUL</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">SYS</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">ZYU</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="042">
+    <subfield code="a">nsdp</subfield>
+    <subfield code="a">lc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="043">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="050">
+    <subfield code="a">TX1</subfield>
+    <subfield code="b">.C83</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="082">
+    <subfield code="a">641.5/05</subfield>
+    <subfield code="2">20</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="210">
+    <subfield code="a">Cook's illus.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="222">
+    <subfield code="a">Cook's illustrated</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Cook's illustrated.</subfield>
+  </datafield>
+  <datafield ind1="3" ind2="0" tag="246">
+    <subfield code="a">Cook's</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Brookline, MA :</subfield>
+    <subfield code="b">Natural Health Ltd. Partners,</subfield>
+    <subfield code="c">c1992-</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">v. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="310">
+    <subfield code="a">Bimonthly</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="362">
+    <subfield code="a">Vol. 1, no. 1-</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Title from cover.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Issues for &lt;1993-2005&gt; published: Brookline, MA : Boston Common Press.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Latest issue consulted: No. 72 (Jan./Feb. 2005).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="515">
+    <subfield code="a">Vol. 1, no. 1 called also &quot;Charter issue.&quot;</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="515">
+    <subfield code="a">Issues for &lt;1994-2005&gt; numbered continuously as: no. &lt;8-72&gt;</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="555">
+    <subfield code="a">1993-2003. 1 v.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Cooking</subfield>
+    <subfield code="v">Periodicals</subfield>
+    <subfield code=" ">^A2097404</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Cooking, American</subfield>
+    <subfield code="v">Periodicals</subfield>
+    <subfield code=" ">^A2427618</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Gastronomy</subfield>
+    <subfield code="v">Periodicals.</subfield>
+    <subfield code=" ">^A1020925</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="775">
+    <subfield code="t">Cook's illustrated (Annual hardbound ed.)</subfield>
+    <subfield code="w">(DLC)  2005249007</subfield>
+    <subfield code="w">(OCoLC)31961528</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="780">
+    <subfield code="t">Cook's</subfield>
+    <subfield code="x">0886-943X</subfield>
+    <subfield code="w">(DLC)   86643195</subfield>
+    <subfield code="w">(OCoLC)13077858</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="891">
+    <subfield code="9">853</subfield>
+    <subfield code="8">1</subfield>
+    <subfield code="a">v.</subfield>
+    <subfield code="b">no.</subfield>
+    <subfield code="g">no.</subfield>
+    <subfield code="i">(year)</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="1" tag="891">
+    <subfield code="9">863</subfield>
+    <subfield code="8">1</subfield>
+    <subfield code="a">&lt;1&gt;</subfield>
+    <subfield code="b">&lt;1&gt;</subfield>
+    <subfield code="g">&lt;1&gt;</subfield>
+    <subfield code="i">&lt;1992&gt;</subfield>
+    <subfield code="x">provisional</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="891">
+    <subfield code="9">853</subfield>
+    <subfield code="8">2</subfield>
+    <subfield code="a">v.</subfield>
+    <subfield code="b">no.</subfield>
+    <subfield code="g">no.</subfield>
+    <subfield code="i">(year)</subfield>
+    <subfield code="j">(month/month)</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="0" tag="891">
+    <subfield code="9">863</subfield>
+    <subfield code="8">2</subfield>
+    <subfield code="a">&lt;1&gt;</subfield>
+    <subfield code="b">&lt;2&gt;-</subfield>
+    <subfield code="g">&lt;2&gt;-</subfield>
+    <subfield code="i">&lt;1993&gt;</subfield>
+    <subfield code="j">&lt;May/June&gt;-</subfield>
+    <subfield code="x">provisional</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="891">
+    <subfield code="9">853</subfield>
+    <subfield code="8">3</subfield>
+    <subfield code="a">no.</subfield>
+    <subfield code="i">(year)</subfield>
+    <subfield code="j">(month/month)</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="0" tag="891">
+    <subfield code="9">863</subfield>
+    <subfield code="8">3</subfield>
+    <subfield code="a">&lt;7&gt;-</subfield>
+    <subfield code="i">&lt;1994&gt;-</subfield>
+    <subfield code="x">provisional</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">RCJ</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)27552930</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)610438284</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="852">
+    <subfield code="a">CSt-Law</subfield>
+    <subfield code="b">LAW</subfield>
+    <subfield code="c">VROOMAN</subfield>
+    <subfield code="t">1</subfield>
+    <subfield code="x">lc:bp</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="1" tag="866">
+    <subfield code="z">Library keeps recent issues only.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">VROOMAN MAGAZINES COOK'S ILLUSTRATED</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">8536522-1001</subfield>
+    <subfield code="l">VROOMAN</subfield>
+    <subfield code="m">LAW</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">LAW-STKS</subfield>
+    <subfield code="u">3/31/2010</subfield>
+  </datafield>
+</record>

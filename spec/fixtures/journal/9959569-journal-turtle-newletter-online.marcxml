@@ -1,1 +1,58 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01031nas a2200229z  4500</leader><controlfield tag='001'>a9959569</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='006'>m        d        </controlfield><controlfield tag='007'>cr mnu</controlfield><controlfield tag='008'>130320uuuuuuuuuxx uu |      u|    |eng d</controlfield><datafield ind1=' ' ind2=' ' tag='022'><subfield code='y'>0973-1695</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(SFX)1000000000564301</subfield></datafield><datafield ind1='0' ind2=' ' tag='130'><subfield code='a'>Indian Ocean Turtle Newsletter (Online)</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1=' ' ind2=' ' tag='210'><subfield code='a'>INDIAN OCEAN TURTLE NEWSL</subfield></datafield><datafield ind1='1' ind2='0' tag='245'><subfield code='a'>Indian Ocean Turtle Newsletter</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Bangalore</subfield><subfield code='b'>Kartik Shanker</subfield></datafield><datafield ind1=' ' ind2=' ' tag='590'><subfield code='a'>MARCit brief record.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='776'><subfield code='t'>Indian Ocean Turtle Newsletter</subfield><subfield code='x'>0973-1695</subfield></datafield><datafield ind1='4' ind2='0' tag='956'><subfield code='u'>http://library.stanford.edu/sfx?url%5Fver=Z39.88-2004&amp;ctx%5Fver=Z39.88-2004&amp;ctx%5Fenc=info:ofi/enc:UTF-8&amp;rfr%5Fid=info:sid/sfxit.com:opac%5F856&amp;url%5Fctx%5Ffmt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignore%5Fdate%5Fthreshold=1&amp;rft.object%5Fid=1000000000564301&amp;svc%5Fval%5Ffmt=info:ofi/fmt:kev:mtx:sch%5Fsvc&amp;</subfield><subfield code='x'>eLoaderURL</subfield><subfield code='x'>mr4</subfield><subfield code='x'>mr1000000000564301</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>22</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>INTERNET RESOURCE</subfield><subfield code='w'>ASIS</subfield><subfield code='c'>1</subfield><subfield code='i'>9959569-1001</subfield><subfield code='l'>INTERNET</subfield><subfield code='m'>SUL</subfield><subfield code='r'>N</subfield><subfield code='s'>Y</subfield><subfield code='t'>SUL</subfield><subfield code='u'>3/21/2013</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01031nas a2200229z  4500</leader>
+  <controlfield tag="001">a9959569</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="006">m        d        </controlfield>
+  <controlfield tag="007">cr mnu</controlfield>
+  <controlfield tag="008">130320uuuuuuuuuxx uu |      u|    |eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="022">
+    <subfield code="y">0973-1695</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(SFX)1000000000564301</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="130">
+    <subfield code="a">Indian Ocean Turtle Newsletter (Online)</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">INDIAN OCEAN TURTLE NEWSL</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">Indian Ocean Turtle Newsletter</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Bangalore</subfield>
+    <subfield code="b">Kartik Shanker</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="590">
+    <subfield code="a">MARCit brief record.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="776">
+    <subfield code="t">Indian Ocean Turtle Newsletter</subfield>
+    <subfield code="x">0973-1695</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="0" tag="956">
+    <subfield code="u">http://library.stanford.edu/sfx?url%5Fver=Z39.88-2004&amp;ctx%5Fver=Z39.88-2004&amp;ctx%5Fenc=info:ofi/enc:UTF-8&amp;rfr%5Fid=info:sid/sfxit.com:opac%5F856&amp;url%5Fctx%5Ffmt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignore%5Fdate%5Fthreshold=1&amp;rft.object%5Fid=1000000000564301&amp;svc%5Fval%5Ffmt=info:ofi/fmt:kev:mtx:sch%5Fsvc&amp;</subfield>
+    <subfield code="x">eLoaderURL</subfield>
+    <subfield code="x">mr4</subfield>
+    <subfield code="x">mr1000000000564301</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">INTERNET RESOURCE</subfield>
+    <subfield code="w">ASIS</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">9959569-1001</subfield>
+    <subfield code="l">INTERNET</subfield>
+    <subfield code="m">SUL</subfield>
+    <subfield code="r">N</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">SUL</subfield>
+    <subfield code="u">3/21/2013</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

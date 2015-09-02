@@ -1,1 +1,104 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01052cam a2200313 i 4500</leader><controlfield tag='001'>a10689710</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150708003002.0</controlfield><controlfield tag='008'>140604t20152015enk      b    001 0 eng d</controlfield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9781909248373</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>1909248371</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>YDXCP</subfield><subfield code='e'>rda</subfield><subfield code='c'>YDXCP</subfield><subfield code='d'>OCLCO</subfield><subfield code='d'>SINLB</subfield><subfield code='d'>BDX</subfield><subfield code='d'>CaONFJC</subfield></datafield><datafield ind1=' ' ind2=' ' tag='043'><subfield code='a'>a-cc---</subfield></datafield><datafield ind1=' ' ind2='4' tag='050'><subfield code='a'>GT2853.C6</subfield><subfield code='b'>L547 2015</subfield></datafield><datafield ind1='0' ind2='4' tag='082'><subfield code='a'>641.3/00951</subfield><subfield code='2'>23</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Lin, Hsiang-ju,</subfield><subfield code='d'>1931-</subfield><subfield code='e'>author.</subfield><subfield code=' '>^A1797002</subfield></datafield><datafield ind1='1' ind2='0' tag='245'><subfield code='a'>Slippery noodles :</subfield><subfield code='b'>a culinary history of China /</subfield><subfield code='c'>Hsiang Ju Lin.</subfield></datafield><datafield ind1=' ' ind2='1' tag='264'><subfield code='a'>London :</subfield><subfield code='b'>Prospect Books,</subfield><subfield code='c'>2015.</subfield></datafield><datafield ind1=' ' ind2='4' tag='264'><subfield code='c'>©2015</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>344 pages ;</subfield><subfield code='c'>24 cm</subfield></datafield><datafield ind1=' ' ind2=' ' tag='336'><subfield code='a'>text</subfield><subfield code='b'>txt</subfield><subfield code='2'>rdacontent</subfield></datafield><datafield ind1=' ' ind2=' ' tag='337'><subfield code='a'>unmediated</subfield><subfield code='b'>n</subfield><subfield code='2'>rdamedia</subfield></datafield><datafield ind1=' ' ind2=' ' tag='338'><subfield code='a'>volume</subfield><subfield code='b'>nc</subfield><subfield code='2'>rdacarrier</subfield></datafield><datafield ind1=' ' ind2=' ' tag='504'><subfield code='a'>Includes bibliographical references and index.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Food habits</subfield><subfield code='z'>China</subfield><subfield code='x'>History.</subfield><subfield code=' '>^A2383609</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Cooking</subfield><subfield code='z'>China</subfield><subfield code='x'>History.</subfield><subfield code=' '>^A2522473</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)907964888</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>GT2853 .C6 L547 2015</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105212820091</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>6/18/2015</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01052cam a2200313 i 4500</leader>
+  <controlfield tag="001">a10689710</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150708003002.0</controlfield>
+  <controlfield tag="008">140604t20152015enk      b    001 0 eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9781909248373</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">1909248371</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">YDXCP</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">YDXCP</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">SINLB</subfield>
+    <subfield code="d">BDX</subfield>
+    <subfield code="d">CaONFJC</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="043">
+    <subfield code="a">a-cc---</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="050">
+    <subfield code="a">GT2853.C6</subfield>
+    <subfield code="b">L547 2015</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="4" tag="082">
+    <subfield code="a">641.3/00951</subfield>
+    <subfield code="2">23</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Lin, Hsiang-ju,</subfield>
+    <subfield code="d">1931-</subfield>
+    <subfield code="e">author.</subfield>
+    <subfield code=" ">^A1797002</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">Slippery noodles :</subfield>
+    <subfield code="b">a culinary history of China /</subfield>
+    <subfield code="c">Hsiang Ju Lin.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="264">
+    <subfield code="a">London :</subfield>
+    <subfield code="b">Prospect Books,</subfield>
+    <subfield code="c">2015.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="264">
+    <subfield code="c">©2015</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">344 pages ;</subfield>
+    <subfield code="c">24 cm</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="336">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="337">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="338">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="504">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Food habits</subfield>
+    <subfield code="z">China</subfield>
+    <subfield code="x">History.</subfield>
+    <subfield code=" ">^A2383609</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Cooking</subfield>
+    <subfield code="z">China</subfield>
+    <subfield code="x">History.</subfield>
+    <subfield code=" ">^A2522473</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)907964888</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">GT2853 .C6 L547 2015</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105212820091</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">6/18/2015</subfield>
+  </datafield>
+</record>

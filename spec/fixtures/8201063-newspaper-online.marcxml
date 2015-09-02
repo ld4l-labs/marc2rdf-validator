@@ -1,1 +1,207 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>02749cas a2200589 a 4500</leader><controlfield tag='001'>a8201063</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150717003001.0</controlfield><controlfield tag='008'>800827c197u9999gauwr ne      0   a0eng c</controlfield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>sn 86002223</subfield></datafield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>sn 86002223</subfield></datafield><datafield ind1='1' ind2=' ' tag='022'><subfield code='a'>0889-8685</subfield><subfield code='l'>0889-8685</subfield><subfield code='2'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC)6661238</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(SFX)110978978741503</subfield></datafield><datafield ind1=' ' ind2=' ' tag='037'><subfield code='b'>Creative Loafing, P.O. Box 54223, Atlanta, GA 30308</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>GASU</subfield><subfield code='b'>eng</subfield><subfield code='c'>GASU</subfield><subfield code='d'>MnMULS</subfield><subfield code='d'>NSDP</subfield><subfield code='d'>GU</subfield><subfield code='d'>DLC</subfield><subfield code='d'>OCoLC</subfield><subfield code='d'>GU</subfield><subfield code='d'>N</subfield><subfield code='d'>OCoLC</subfield><subfield code='d'>TNJ</subfield><subfield code='d'>OCoLC</subfield><subfield code='d'>OCLCO</subfield><subfield code='d'>OCLCF</subfield><subfield code='d'>InU</subfield></datafield><datafield ind1=' ' ind2=' ' tag='042'><subfield code='a'>pcc</subfield></datafield><datafield ind1=' ' ind2=' ' tag='043'><subfield code='a'>n-us-ga</subfield></datafield><datafield ind1=' ' ind2='0' tag='222'><subfield code='a'>Creative loafing</subfield><subfield code='b'>(1978)</subfield></datafield><datafield ind1='0' ind2='0' tag='245'><subfield code='a'>Creative loafing.</subfield></datafield><datafield ind1='3' ind2='0' tag='246'><subfield code='a'>Atlantan/creative loafing</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Atlanta, Ga. :</subfield><subfield code='b'>Eason Publications</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>v. ;</subfield><subfield code='c'>42 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='310'><subfield code='a'>Weekly</subfield></datafield><datafield ind1='1' ind2=' ' tag='362'><subfield code='a'>Began 1972?</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Publisher: Deborah Eason.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;Covers the do in Dixie.&quot;</subfield></datafield><datafield ind1=' ' ind2=' ' tag='515'><subfield code='a'>Volume and issue numbering began with vol. 3, no. 12 (Aug. 10, 1974).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='525'><subfield code='a'>Includes supplements: Vibes (1976- ); Femme (1983- ).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='580'><subfield code='a'>Published as: Creative loafing including the Atlantan, July 9-July 30, 1977; Atlantan/Creative loafing, Aug. 6, 1977-Apr. 6, 1978.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='588'><subfield code='a'>Description based on: June 1, 1974.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Underground press publications</subfield><subfield code='z'>Georgia</subfield><subfield code='z'>Atlanta.</subfield><subfield code=' '>^A1070987</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Women publishers.</subfield><subfield code=' '>^A1075809</subfield></datafield><datafield ind1=' ' ind2='0' tag='651'><subfield code='a'>Atlanta (Ga.)</subfield><subfield code='v'>Newspapers.</subfield><subfield code=' '>^A92544</subfield></datafield><datafield ind1=' ' ind2='0' tag='651'><subfield code='a'>Fulton County (Ga.)</subfield><subfield code='v'>Newspapers.</subfield><subfield code=' '>^A949782</subfield></datafield><datafield ind1=' ' ind2='7' tag='650'><subfield code='a'>Counter culture</subfield><subfield code='z'>Georgia</subfield><subfield code='z'>Atlanta</subfield><subfield code='v'>Newspapers.</subfield><subfield code='2'>poliscit</subfield></datafield><datafield ind1=' ' ind2='7' tag='650'><subfield code='a'>Underground press publications.</subfield><subfield code='2'>fast</subfield><subfield code='0'>(OCoLC)fst01160984</subfield></datafield><datafield ind1=' ' ind2='7' tag='650'><subfield code='a'>Women publishers.</subfield><subfield code='2'>fast</subfield><subfield code='0'>(OCoLC)fst01178443</subfield></datafield><datafield ind1=' ' ind2='7' tag='651'><subfield code='a'>Georgia</subfield><subfield code='z'>Atlanta.</subfield><subfield code='2'>fast</subfield><subfield code='0'>(OCoLC)fst01204627</subfield></datafield><datafield ind1=' ' ind2='7' tag='651'><subfield code='a'>Georgia</subfield><subfield code='z'>Fulton County.</subfield><subfield code='2'>fast</subfield><subfield code='0'>(OCoLC)fst01211153</subfield></datafield><datafield ind1=' ' ind2='7' tag='655'><subfield code='a'>Newspapers.</subfield><subfield code='2'>fast</subfield><subfield code='0'>(OCoLC)fst01423814</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2='2' tag='730'><subfield code='a'>Atlantan.</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2='2' tag='730'><subfield code='a'>Femme.</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2='2' tag='730'><subfield code='a'>Vibes.</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1=' ' ind2=' ' tag='752'><subfield code='a'>United States</subfield><subfield code='b'>Georgia</subfield><subfield code='c'>Fulton</subfield><subfield code='d'>Atlanta.</subfield></datafield><datafield ind1='0' ind2=' ' tag='776'><subfield code='c'>Microfilm</subfield><subfield code='d'>UMI.</subfield><subfield code='k'>Underground newspaper collection</subfield><subfield code='k'>Underground press collection</subfield><subfield code='w'>(OCoLC)42315818</subfield></datafield><datafield ind1='0' ind2='8' tag='776'><subfield code='i'>Online version:</subfield><subfield code='a'>Creative loafing (Online)</subfield><subfield code='w'>(OCoLC)244127865</subfield></datafield><datafield ind1='0' ind2='5' tag='780'><subfield code='t'>Atlantan</subfield></datafield><datafield ind1=' ' ind2=' ' tag='916'><subfield code='a'>DATE CATALOGED</subfield><subfield code='b'>20090801</subfield></datafield><datafield ind1='4' ind2='0' tag='956'><subfield code='u'>http://library.stanford.edu/sfx?url%5Fver=Z39.88-2004&amp;ctx%5Fver=Z39.88-2004&amp;ctx%5Fenc=info:ofi/enc:UTF-8&amp;rfr%5Fid=info:sid/sfxit.com:opac%5F856&amp;url%5Fctx%5Ffmt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignore%5Fdate%5Fthreshold=1&amp;rft.object%5Fid=110978978741503&amp;svc%5Fval%5Ffmt=info:ofi/fmt:kev:mtx:sch%5Fsvc&amp;</subfield><subfield code='x'>eLoaderURL</subfield><subfield code='x'>mr4</subfield><subfield code='x'>mr110978978741503</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>22</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>INTERNET RESOURCE</subfield><subfield code='w'>ASIS</subfield><subfield code='c'>1</subfield><subfield code='i'>8201063-1001</subfield><subfield code='l'>INTERNET</subfield><subfield code='m'>SUL</subfield><subfield code='r'>N</subfield><subfield code='s'>Y</subfield><subfield code='t'>SUL</subfield><subfield code='u'>8/1/2009</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02749cas a2200589 a 4500</leader>
+  <controlfield tag="001">a8201063</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150717003001.0</controlfield>
+  <controlfield tag="008">800827c197u9999gauwr ne      0   a0eng c</controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">sn 86002223</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">sn 86002223</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="022">
+    <subfield code="a">0889-8685</subfield>
+    <subfield code="l">0889-8685</subfield>
+    <subfield code="2">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC)6661238</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(SFX)110978978741503</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="037">
+    <subfield code="b">Creative Loafing, P.O. Box 54223, Atlanta, GA 30308</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">GASU</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">GASU</subfield>
+    <subfield code="d">MnMULS</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">GU</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">GU</subfield>
+    <subfield code="d">N</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">TNJ</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">OCLCF</subfield>
+    <subfield code="d">InU</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="042">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="043">
+    <subfield code="a">n-us-ga</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="222">
+    <subfield code="a">Creative loafing</subfield>
+    <subfield code="b">(1978)</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Creative loafing.</subfield>
+  </datafield>
+  <datafield ind1="3" ind2="0" tag="246">
+    <subfield code="a">Atlantan/creative loafing</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Atlanta, Ga. :</subfield>
+    <subfield code="b">Eason Publications</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">v. ;</subfield>
+    <subfield code="c">42 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="310">
+    <subfield code="a">Weekly</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="362">
+    <subfield code="a">Began 1972?</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Publisher: Deborah Eason.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;Covers the do in Dixie.&quot;</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="515">
+    <subfield code="a">Volume and issue numbering began with vol. 3, no. 12 (Aug. 10, 1974).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="525">
+    <subfield code="a">Includes supplements: Vibes (1976- ); Femme (1983- ).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="580">
+    <subfield code="a">Published as: Creative loafing including the Atlantan, July 9-July 30, 1977; Atlantan/Creative loafing, Aug. 6, 1977-Apr. 6, 1978.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="588">
+    <subfield code="a">Description based on: June 1, 1974.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Underground press publications</subfield>
+    <subfield code="z">Georgia</subfield>
+    <subfield code="z">Atlanta.</subfield>
+    <subfield code=" ">^A1070987</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Women publishers.</subfield>
+    <subfield code=" ">^A1075809</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="651">
+    <subfield code="a">Atlanta (Ga.)</subfield>
+    <subfield code="v">Newspapers.</subfield>
+    <subfield code=" ">^A92544</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="651">
+    <subfield code="a">Fulton County (Ga.)</subfield>
+    <subfield code="v">Newspapers.</subfield>
+    <subfield code=" ">^A949782</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Counter culture</subfield>
+    <subfield code="z">Georgia</subfield>
+    <subfield code="z">Atlanta</subfield>
+    <subfield code="v">Newspapers.</subfield>
+    <subfield code="2">poliscit</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Underground press publications.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01160984</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Women publishers.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01178443</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="651">
+    <subfield code="a">Georgia</subfield>
+    <subfield code="z">Atlanta.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01204627</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="651">
+    <subfield code="a">Georgia</subfield>
+    <subfield code="z">Fulton County.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01211153</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="655">
+    <subfield code="a">Newspapers.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01423814</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="730">
+    <subfield code="a">Atlantan.</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="730">
+    <subfield code="a">Femme.</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="730">
+    <subfield code="a">Vibes.</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="752">
+    <subfield code="a">United States</subfield>
+    <subfield code="b">Georgia</subfield>
+    <subfield code="c">Fulton</subfield>
+    <subfield code="d">Atlanta.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="776">
+    <subfield code="c">Microfilm</subfield>
+    <subfield code="d">UMI.</subfield>
+    <subfield code="k">Underground newspaper collection</subfield>
+    <subfield code="k">Underground press collection</subfield>
+    <subfield code="w">(OCoLC)42315818</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="8" tag="776">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="a">Creative loafing (Online)</subfield>
+    <subfield code="w">(OCoLC)244127865</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="5" tag="780">
+    <subfield code="t">Atlantan</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="916">
+    <subfield code="a">DATE CATALOGED</subfield>
+    <subfield code="b">20090801</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="0" tag="956">
+    <subfield code="u">http://library.stanford.edu/sfx?url%5Fver=Z39.88-2004&amp;ctx%5Fver=Z39.88-2004&amp;ctx%5Fenc=info:ofi/enc:UTF-8&amp;rfr%5Fid=info:sid/sfxit.com:opac%5F856&amp;url%5Fctx%5Ffmt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignore%5Fdate%5Fthreshold=1&amp;rft.object%5Fid=110978978741503&amp;svc%5Fval%5Ffmt=info:ofi/fmt:kev:mtx:sch%5Fsvc&amp;</subfield>
+    <subfield code="x">eLoaderURL</subfield>
+    <subfield code="x">mr4</subfield>
+    <subfield code="x">mr110978978741503</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">INTERNET RESOURCE</subfield>
+    <subfield code="w">ASIS</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">8201063-1001</subfield>
+    <subfield code="l">INTERNET</subfield>
+    <subfield code="m">SUL</subfield>
+    <subfield code="r">N</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">SUL</subfield>
+    <subfield code="u">8/1/2009</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

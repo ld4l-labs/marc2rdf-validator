@@ -1,1 +1,98 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01247cam a2200325M  4500</leader><controlfield tag='001'>a6745648</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>050421s1978    enkaj  j      000 f eng d</controlfield><datafield ind1=' ' ind2=' ' tag='015'><subfield code='a'>B7831392</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0435270559 (pbk.)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780435270551 (pbk.)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)59231440</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)275992398</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>UKV3G</subfield><subfield code='c'>UKV3G</subfield><subfield code='d'>UKM</subfield></datafield><datafield ind1=' ' ind2='4' tag='050'><subfield code='a'>PE1128</subfield></datafield><datafield ind1='0' ind2='4' tag='082'><subfield code='a'>428/.6/4</subfield><subfield code='2'>18</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Tarner, Margaret.</subfield><subfield code=' '>^A2695361</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath /</subfield><subfield code='c'>John Steinbeck ; retold by Margaret Tarner ; illustrated by Jenny Thorne.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>London :</subfield><subfield code='b'>Heinemann Educational,</subfield><subfield code='c'>1978.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>x, 131 p. :</subfield><subfield code='b'>ill., 1 geneal.table ;</subfield><subfield code='c'>18 cm.</subfield></datafield><datafield ind1='1' ind2=' ' tag='490'><subfield code='a'>Heinemann guided readers. upper level ;</subfield><subfield code='v'>11</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>31</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>English language</subfield><subfield code='v'>Textbooks for foreign speakers.</subfield><subfield code=' '>^A1014876</subfield></datafield><datafield ind1=' ' ind2=' ' tag='653'><subfield code='a'>English language - Readers - For non-English speaking students</subfield></datafield><datafield ind1=' ' ind2='4' tag='690'><subfield code='a'>Foreign editions of the works of John Steinbeck.</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code='t'>Grapes of wrath.</subfield><subfield code=' '>^A2091926</subfield></datafield><datafield ind1=' ' ind2='0' tag='830'><subfield code='a'>Heinemann guided readers.</subfield><subfield code='p'>Upper level ;</subfield><subfield code='v'>11.</subfield><subfield code=' '>^A1923566</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G8 1978</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105115298684</subfield><subfield code='l'>PAGE-SP</subfield><subfield code='m'>SAL3</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-INHOUSE</subfield><subfield code='u'>2/1/2007</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01247cam a2200325M  4500</leader>
+  <controlfield tag="001">a6745648</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">050421s1978    enkaj  j      000 f eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="015">
+    <subfield code="a">B7831392</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0435270559 (pbk.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780435270551 (pbk.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)59231440</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)275992398</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">UKV3G</subfield>
+    <subfield code="c">UKV3G</subfield>
+    <subfield code="d">UKM</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="050">
+    <subfield code="a">PE1128</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="4" tag="082">
+    <subfield code="a">428/.6/4</subfield>
+    <subfield code="2">18</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Tarner, Margaret.</subfield>
+    <subfield code=" ">^A2695361</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath /</subfield>
+    <subfield code="c">John Steinbeck ; retold by Margaret Tarner ; illustrated by Jenny Thorne.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">London :</subfield>
+    <subfield code="b">Heinemann Educational,</subfield>
+    <subfield code="c">1978.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">x, 131 p. :</subfield>
+    <subfield code="b">ill., 1 geneal.table ;</subfield>
+    <subfield code="c">18 cm.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="490">
+    <subfield code="a">Heinemann guided readers. upper level ;</subfield>
+    <subfield code="v">11</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">31</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">English language</subfield>
+    <subfield code="v">Textbooks for foreign speakers.</subfield>
+    <subfield code=" ">^A1014876</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">English language - Readers - For non-English speaking students</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="690">
+    <subfield code="a">Foreign editions of the works of John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code="t">Grapes of wrath.</subfield>
+    <subfield code=" ">^A2091926</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="830">
+    <subfield code="a">Heinemann guided readers.</subfield>
+    <subfield code="p">Upper level ;</subfield>
+    <subfield code="v">11.</subfield>
+    <subfield code=" ">^A1923566</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G8 1978</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105115298684</subfield>
+    <subfield code="l">PAGE-SP</subfield>
+    <subfield code="m">SAL3</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-INHOUSE</subfield>
+    <subfield code="u">2/1/2007</subfield>
+  </datafield>
+</record>

@@ -1,1 +1,78 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>00976cam a2200277 a 4500</leader><controlfield tag='001'>a6861072</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>070807s1940    mx            000 1 spa d</controlfield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)272551092</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)276015635</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>CSt</subfield><subfield code='c'>CSt</subfield></datafield><datafield ind1='1' ind2=' ' tag='041'><subfield code='a'>spa</subfield><subfield code='h'>eng</subfield></datafield><datafield ind1=' ' ind2='4' tag='050'><subfield code='a'>PS3537.T3234</subfield><subfield code='b'>G818 1940b</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code=' '>^A116705</subfield></datafield><datafield ind1='1' ind2='0' tag='240'><subfield code='a'>Grapes of wrath.</subfield><subfield code='l'>Spanish</subfield></datafield><datafield ind1='1' ind2='3' tag='245'><subfield code='a'>El germen del odio =</subfield><subfield code='b'>The grapes of wrath /</subfield><subfield code='c'>John Steinbeck ; traducción del inglés por Jesús Cárdenas Gavilán.</subfield></datafield><datafield ind1='3' ind2='1' tag='246'><subfield code='a'>Grapes of wrath</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>Ed. privada.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Perote [Mexico] :</subfield><subfield code='b'>Cardenal Editores,</subfield><subfield code='c'>[1940]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>527 p. ;</subfield><subfield code='c'>22 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;Volumen número 43.&quot;</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Translation of: The grapes of wrath.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>31</subfield></datafield><datafield ind1=' ' ind2='4' tag='690'><subfield code='a'>Foreign editions of the works of John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G818 1940B</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105123909553</subfield><subfield code='l'>PAGE-SP</subfield><subfield code='m'>SAL3</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-INHOUSE</subfield><subfield code='u'>8/7/2007</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00976cam a2200277 a 4500</leader>
+  <controlfield tag="001">a6861072</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">070807s1940    mx            000 1 spa d</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)272551092</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)276015635</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">CSt</subfield>
+    <subfield code="c">CSt</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="041">
+    <subfield code="a">spa</subfield>
+    <subfield code="h">eng</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="050">
+    <subfield code="a">PS3537.T3234</subfield>
+    <subfield code="b">G818 1940b</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code=" ">^A116705</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="240">
+    <subfield code="a">Grapes of wrath.</subfield>
+    <subfield code="l">Spanish</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="3" tag="245">
+    <subfield code="a">El germen del odio =</subfield>
+    <subfield code="b">The grapes of wrath /</subfield>
+    <subfield code="c">John Steinbeck ; traducción del inglés por Jesús Cárdenas Gavilán.</subfield>
+  </datafield>
+  <datafield ind1="3" ind2="1" tag="246">
+    <subfield code="a">Grapes of wrath</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">Ed. privada.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Perote [Mexico] :</subfield>
+    <subfield code="b">Cardenal Editores,</subfield>
+    <subfield code="c">[1940]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">527 p. ;</subfield>
+    <subfield code="c">22 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;Volumen número 43.&quot;</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Translation of: The grapes of wrath.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">31</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="690">
+    <subfield code="a">Foreign editions of the works of John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G818 1940B</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105123909553</subfield>
+    <subfield code="l">PAGE-SP</subfield>
+    <subfield code="m">SAL3</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-INHOUSE</subfield>
+    <subfield code="u">8/7/2007</subfield>
+  </datafield>
+</record>

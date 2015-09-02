@@ -1,1 +1,216 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>03177cgm a22004334a 4500</leader><controlfield tag='001'>a5748820</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='007'>vd mvaizu</controlfield><controlfield tag='008'>050112s2004    xxu000            vleng d</controlfield><datafield ind1='4' ind2='2' tag='028'><subfield code='a'>45563-9</subfield><subfield code='b'>Brentwood Home Video</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>CSt</subfield><subfield code='c'>CSt</subfield></datafield><datafield ind1='0' ind2='0' tag='245'><subfield code='a'>WWII, the ultimate collection</subfield><subfield code='h'>[videorecording] :</subfield><subfield code='b'>30 films.</subfield></datafield><datafield ind1='1' ind2=' ' tag='246'><subfield code='a'>World War II, the ultimate collection</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>[S.l.] :</subfield><subfield code='b'>Brentwood Home Video,</subfield><subfield code='c'>c2004.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>10 videodiscs :</subfield><subfield code='b'>sd., b&amp;w and col. ;</subfield><subfield code='c'>4 3/4 in.</subfield></datafield><datafield ind1='0' ind2='0' tag='505'><subfield code='g'>Disc 1:</subfield><subfield code='t'>The true glory</subfield><subfield code='g'>(1945, b&amp;w, 84 min.) /</subfield><subfield code='r'>narrated by Dwight D. Eisenhower --</subfield><subfield code='t'>Know your enemy: Japan</subfield><subfield code='g'>(1944, b&amp;w, 63 min.) /</subfield><subfield code='r'>directed by Frank Capra --</subfield><subfield code='t'>Target for tonight</subfield><subfield code='g'>(1941, b&amp;w, 50 min.) /</subfield><subfield code='r'>writer/director, Harry Wyatt.</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 2:</subfield><subfield code='t'>December 7th</subfield><subfield code='g'>(1944, b&amp;w, 34 min.) /</subfield><subfield code='r'>directed by John Ford --</subfield><subfield code='t'>Campaign in Europe</subfield><subfield code='g'>(aka</subfield><subfield code='t'>Feldzug in Polen) /</subfield><subfield code='r'>directed by Fritz Hippler --</subfield><subfield code='t'>DZ [i.e. Dropzone] Normandy : the employment of troop carrier forces</subfield><subfield code='g'>(1945, b&amp;w, 75 min.) /</subfield><subfield code='r'>Army Air Forces --</subfield><subfield code='t'>D-Day</subfield><subfield code='g'>(1944 [i.e. 1953?], b&amp;w, 28 min. episode of the television series The big picture) /</subfield><subfield code='r'>presented by the U.S. Army.</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 3:</subfield><subfield code='t'>Prelude to war</subfield><subfield code='g'>(1942, b&amp;w, 52 min.) /</subfield><subfield code='r'>Frank Capra --</subfield><subfield code='t'>Adolf Hitler</subfield><subfield code='g'>(1948, b&amp;w, 80 min.)</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 4:</subfield><subfield code='t'>The Battle of Midway</subfield><subfield code='g'>(1943, col., 20 min.) /</subfield><subfield code='r'>John Ford --</subfield><subfield code='t'>The fighting Lady</subfield><subfield code='g'>(1945, col. 60 min.) /</subfield><subfield code='r'>William Wyler --</subfield><subfield code='t'>Desert Victory</subfield><subfield code='g'>(1943, b&amp;w, 60 min.) /</subfield><subfield code='r'>J.L. Hodson.</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 5:</subfield><subfield code='t'>Nuremberg</subfield><subfield code='g'>(1946, b&amp;w, 75 min.) /</subfield><subfield code='r'>C. Svilov -- </subfield><subfield code='t'>The great generals: General Bradley</subfield><subfield code='g'>(1948, b&amp;w, 28 min.) --</subfield><subfield code='t'>General Patton</subfield><subfield code='g'>(1947, b&amp;w, 27 min.) --</subfield><subfield code='t'>General Eisenhower</subfield><subfield code='g'>(1953, col. 25 min.).</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 6:</subfield><subfield code='t'>Appointment in Tokyo</subfield><subfield code='g'>(1945, b&amp;w, 55 min.) --</subfield><subfield code='t'>The Memphis Belle</subfield><subfield code='g'>(1944, col., 42 min.).</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 7:</subfield><subfield code='t'>Nazi concentration camps</subfield><subfield code='g'>(1945, b&amp;w, 60 min.) --</subfield><subfield code='t'>Smashing the Reich</subfield><subfield code='g'>(1961, b&amp;w, 83 min.) /</subfield><subfield code='r'>Perry Wolf.</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 8:</subfield><subfield code='t'>Thunderbolt</subfield><subfield code='g'>(1945, col. 45 min.) /</subfield><subfield code='r'>William Wyler --</subfield><subfield code='t'>Recognition of the Japanese zero</subfield><subfield code='g'>(1942, b&amp;w, 24 min.).</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 9:</subfield><subfield code='t'>Combat America</subfield><subfield code='g'>(1944, col., 61 min.) /</subfield><subfield code='r'>narrated by Clark Gable --</subfield><subfield code='t'>War comes to America</subfield><subfield code='g'>(1945, b&amp;w, 67 min.) /</subfield><subfield code='r'>Frank Capra --</subfield><subfield code='t'>Warsaw Ghetto</subfield><subfield code='g'>(1969, b&amp;w, 51 min.) --</subfield><subfield code='t'>Let there be light</subfield><subfield code='g'>(1946, b&amp;w, 60 min.) /</subfield><subfield code='r'>John Huston.</subfield></datafield><datafield ind1='8' ind2='0' tag='505'><subfield code='g'>Disc 10:</subfield><subfield code='t'>Kamikaze</subfield><subfield code='g'>(1945, b&amp;w, 100 min.) --</subfield><subfield code='t'>Battle of San Pietro</subfield><subfield code='g'>(1945, b&amp;w, 43 min.) --</subfield><subfield code='t'>Report from the Aleutians</subfield><subfield code='g'>(1943, col., 47 min.) /</subfield><subfield code='r'>John Ford.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='520'><subfield code='a'>A collection of documentaries on World War II.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='538'><subfield code='a'>DVD, double sided.</subfield></datafield><datafield ind1='1' ind2='0' tag='600'><subfield code='a'>Hitler, Adolf,</subfield><subfield code='d'>1889-1945.</subfield><subfield code=' '>^A101087</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>World War, 1939-1945.</subfield><subfield code=' '>^A1076183</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Capra, Frank,</subfield><subfield code='d'>1897-1991.</subfield><subfield code=' '>^A143971</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Wyler, William,</subfield><subfield code='d'>1902-1981.</subfield><subfield code=' '>^A100536</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Huston, John,</subfield><subfield code='d'>1906-1987.</subfield><subfield code=' '>^A83776</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Ford, John,</subfield><subfield code='d'>1894-1973.</subfield><subfield code=' '>^A109792</subfield></datafield><datafield ind1='0' ind2='2' tag='730'><subfield code='a'>Frank Capra&apos;s Why we fight.</subfield><subfield code=' '>^A1785916</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)58720161</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)275948578</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='852'><subfield code='a'>CSt</subfield><subfield code='b'>GREEN</subfield><subfield code='c'>MEDIA-MTXT</subfield><subfield code='t'>1</subfield></datafield><datafield ind1='4' ind2='1' tag='866'><subfield code='8'>1</subfield><subfield code='a'>Disc 1-10</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZDVD 9203</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105211856070</subfield><subfield code='d'>10/2/2013</subfield><subfield code='e'>10/1/2013</subfield><subfield code='j'>10</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>56</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-DVDCD</subfield><subfield code='u'>1/21/2005</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03177cgm a22004334a 4500</leader>
+  <controlfield tag="001">a5748820</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="007">vd mvaizu</controlfield>
+  <controlfield tag="008">050112s2004    xxu000            vleng d</controlfield>
+  <datafield ind1="4" ind2="2" tag="028">
+    <subfield code="a">45563-9</subfield>
+    <subfield code="b">Brentwood Home Video</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">CSt</subfield>
+    <subfield code="c">CSt</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">WWII, the ultimate collection</subfield>
+    <subfield code="h">[videorecording] :</subfield>
+    <subfield code="b">30 films.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="246">
+    <subfield code="a">World War II, the ultimate collection</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">[S.l.] :</subfield>
+    <subfield code="b">Brentwood Home Video,</subfield>
+    <subfield code="c">c2004.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">10 videodiscs :</subfield>
+    <subfield code="b">sd., b&amp;w and col. ;</subfield>
+    <subfield code="c">4 3/4 in.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="505">
+    <subfield code="g">Disc 1:</subfield>
+    <subfield code="t">The true glory</subfield>
+    <subfield code="g">(1945, b&amp;w, 84 min.) /</subfield>
+    <subfield code="r">narrated by Dwight D. Eisenhower --</subfield>
+    <subfield code="t">Know your enemy: Japan</subfield>
+    <subfield code="g">(1944, b&amp;w, 63 min.) /</subfield>
+    <subfield code="r">directed by Frank Capra --</subfield>
+    <subfield code="t">Target for tonight</subfield>
+    <subfield code="g">(1941, b&amp;w, 50 min.) /</subfield>
+    <subfield code="r">writer/director, Harry Wyatt.</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 2:</subfield>
+    <subfield code="t">December 7th</subfield>
+    <subfield code="g">(1944, b&amp;w, 34 min.) /</subfield>
+    <subfield code="r">directed by John Ford --</subfield>
+    <subfield code="t">Campaign in Europe</subfield>
+    <subfield code="g">(aka</subfield>
+    <subfield code="t">Feldzug in Polen) /</subfield>
+    <subfield code="r">directed by Fritz Hippler --</subfield>
+    <subfield code="t">DZ [i.e. Dropzone] Normandy : the employment of troop carrier forces</subfield>
+    <subfield code="g">(1945, b&amp;w, 75 min.) /</subfield>
+    <subfield code="r">Army Air Forces --</subfield>
+    <subfield code="t">D-Day</subfield>
+    <subfield code="g">(1944 [i.e. 1953?], b&amp;w, 28 min. episode of the television series The big picture) /</subfield>
+    <subfield code="r">presented by the U.S. Army.</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 3:</subfield>
+    <subfield code="t">Prelude to war</subfield>
+    <subfield code="g">(1942, b&amp;w, 52 min.) /</subfield>
+    <subfield code="r">Frank Capra --</subfield>
+    <subfield code="t">Adolf Hitler</subfield>
+    <subfield code="g">(1948, b&amp;w, 80 min.)</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 4:</subfield>
+    <subfield code="t">The Battle of Midway</subfield>
+    <subfield code="g">(1943, col., 20 min.) /</subfield>
+    <subfield code="r">John Ford --</subfield>
+    <subfield code="t">The fighting Lady</subfield>
+    <subfield code="g">(1945, col. 60 min.) /</subfield>
+    <subfield code="r">William Wyler --</subfield>
+    <subfield code="t">Desert Victory</subfield>
+    <subfield code="g">(1943, b&amp;w, 60 min.) /</subfield>
+    <subfield code="r">J.L. Hodson.</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 5:</subfield>
+    <subfield code="t">Nuremberg</subfield>
+    <subfield code="g">(1946, b&amp;w, 75 min.) /</subfield>
+    <subfield code="r">C. Svilov -- </subfield>
+    <subfield code="t">The great generals: General Bradley</subfield>
+    <subfield code="g">(1948, b&amp;w, 28 min.) --</subfield>
+    <subfield code="t">General Patton</subfield>
+    <subfield code="g">(1947, b&amp;w, 27 min.) --</subfield>
+    <subfield code="t">General Eisenhower</subfield>
+    <subfield code="g">(1953, col. 25 min.).</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 6:</subfield>
+    <subfield code="t">Appointment in Tokyo</subfield>
+    <subfield code="g">(1945, b&amp;w, 55 min.) --</subfield>
+    <subfield code="t">The Memphis Belle</subfield>
+    <subfield code="g">(1944, col., 42 min.).</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 7:</subfield>
+    <subfield code="t">Nazi concentration camps</subfield>
+    <subfield code="g">(1945, b&amp;w, 60 min.) --</subfield>
+    <subfield code="t">Smashing the Reich</subfield>
+    <subfield code="g">(1961, b&amp;w, 83 min.) /</subfield>
+    <subfield code="r">Perry Wolf.</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 8:</subfield>
+    <subfield code="t">Thunderbolt</subfield>
+    <subfield code="g">(1945, col. 45 min.) /</subfield>
+    <subfield code="r">William Wyler --</subfield>
+    <subfield code="t">Recognition of the Japanese zero</subfield>
+    <subfield code="g">(1942, b&amp;w, 24 min.).</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 9:</subfield>
+    <subfield code="t">Combat America</subfield>
+    <subfield code="g">(1944, col., 61 min.) /</subfield>
+    <subfield code="r">narrated by Clark Gable --</subfield>
+    <subfield code="t">War comes to America</subfield>
+    <subfield code="g">(1945, b&amp;w, 67 min.) /</subfield>
+    <subfield code="r">Frank Capra --</subfield>
+    <subfield code="t">Warsaw Ghetto</subfield>
+    <subfield code="g">(1969, b&amp;w, 51 min.) --</subfield>
+    <subfield code="t">Let there be light</subfield>
+    <subfield code="g">(1946, b&amp;w, 60 min.) /</subfield>
+    <subfield code="r">John Huston.</subfield>
+  </datafield>
+  <datafield ind1="8" ind2="0" tag="505">
+    <subfield code="g">Disc 10:</subfield>
+    <subfield code="t">Kamikaze</subfield>
+    <subfield code="g">(1945, b&amp;w, 100 min.) --</subfield>
+    <subfield code="t">Battle of San Pietro</subfield>
+    <subfield code="g">(1945, b&amp;w, 43 min.) --</subfield>
+    <subfield code="t">Report from the Aleutians</subfield>
+    <subfield code="g">(1943, col., 47 min.) /</subfield>
+    <subfield code="r">John Ford.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="520">
+    <subfield code="a">A collection of documentaries on World War II.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="538">
+    <subfield code="a">DVD, double sided.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="600">
+    <subfield code="a">Hitler, Adolf,</subfield>
+    <subfield code="d">1889-1945.</subfield>
+    <subfield code=" ">^A101087</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">World War, 1939-1945.</subfield>
+    <subfield code=" ">^A1076183</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Capra, Frank,</subfield>
+    <subfield code="d">1897-1991.</subfield>
+    <subfield code=" ">^A143971</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Wyler, William,</subfield>
+    <subfield code="d">1902-1981.</subfield>
+    <subfield code=" ">^A100536</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Huston, John,</subfield>
+    <subfield code="d">1906-1987.</subfield>
+    <subfield code=" ">^A83776</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Ford, John,</subfield>
+    <subfield code="d">1894-1973.</subfield>
+    <subfield code=" ">^A109792</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="730">
+    <subfield code="a">Frank Capra's Why we fight.</subfield>
+    <subfield code=" ">^A1785916</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)58720161</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)275948578</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="852">
+    <subfield code="a">CSt</subfield>
+    <subfield code="b">GREEN</subfield>
+    <subfield code="c">MEDIA-MTXT</subfield>
+    <subfield code="t">1</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="1" tag="866">
+    <subfield code="8">1</subfield>
+    <subfield code="a">Disc 1-10</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZDVD 9203</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105211856070</subfield>
+    <subfield code="d">10/2/2013</subfield>
+    <subfield code="e">10/1/2013</subfield>
+    <subfield code="j">10</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">56</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-DVDCD</subfield>
+    <subfield code="u">1/21/2005</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>

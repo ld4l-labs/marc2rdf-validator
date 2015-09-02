@@ -1,1 +1,230 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>03518cgm a2200613Ia 4500</leader><controlfield tag='001'>a9939294</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='007'>vd msaizu</controlfield><controlfield tag='008'>121107s2012    xxu---            vleng d</controlfield><datafield ind1='1' ind2=' ' tag='024'><subfield code='a'>025192117305</subfield></datafield><datafield ind1='4' ind2='2' tag='028'><subfield code='a'>61120097</subfield><subfield code='b'>Universal</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>XCA</subfield><subfield code='c'>XCA</subfield><subfield code='d'>XCA</subfield><subfield code='d'>OCLCO</subfield></datafield><datafield ind1=' ' ind2='4' tag='050'><subfield code='a'>PN1997.A1</subfield><subfield code='b'>A39 2005</subfield></datafield><datafield ind1=' ' ind2=' ' tag='092'><subfield code='a'>791.437/5</subfield></datafield><datafield ind1='0' ind2='0' tag='245'><subfield code='a'>Alfred Hitchcock, the masterpiece collection</subfield><subfield code='h'>[videorecording].</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>Limited ed.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Universal City, CA :</subfield><subfield code='b'>Universal,</subfield><subfield code='c'>2012.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>15 videodiscs :</subfield><subfield code='b'>sd., col. &amp; b&amp;w ;</subfield><subfield code='c'>4 3/4 in +</subfield><subfield code='e'>1 booklet (58 p. : col. ill. ; 18 cm.)</subfield></datafield><datafield ind1=' ' ind2=' ' tag='538'><subfield code='a'>Blu-ray; requires Blu-ray player.</subfield></datafield><datafield ind1='0' ind2=' ' tag='505'><subfield code='a'>[1] Saboteur -- [2] Shadow of a doubt -- [3] Rope -- [4] Rear window -- [5] The trouble with Harry -- [6] The man who knew too much --  [7] Vertigo -- [8] North by Northwest -- [9] Psycho -- [10] The birds -- [11] Marnie -- [12] Torn curtain -- [13] Topaz -- [14] Frenzy -- [15] Family plot</subfield></datafield><datafield ind1=' ' ind2=' ' tag='520'><subfield code='a'>Contains 15 motion pictures directed by Alfred Hitchcock, originally released between 1942 and 1976.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='546'><subfield code='a'>English and French language soundtracks with optional English subtitles for the hearing impaired and optional Spanish subtitles.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='508'><subfield code='a'>Directed by Alfred Hitchcock.</subfield></datafield><datafield ind1='0' ind2=' ' tag='511'><subfield code='a'>Priscilla Lane, Robert Cummings, Teresa Wright, Joseph Cotton, James Stewart, Grace Kelly, Raymond Burr, Edmund Gwenn, John Forsythe, Shirley MacLaine, Doris Day, Kim Novak, Barbara Bel Geddes, Anthony Perkins, Janet Leigh, Rod Taylor, Jessica Tandy, Suzanne Pleshette, &apos;Tippi&quot; Hedren, Sean Connery, Paul Newman, Julie Andrews, Frederick Stafford, Jon Finch, Karen Black, Bruce Dern... [et al].</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Feature films.</subfield><subfield code=' '>^A1017258</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Thrillers (Motion pictures)</subfield><subfield code=' '>^A2007198</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Motion pictures, American.</subfield><subfield code=' '>^A1079750</subfield></datafield><datafield ind1=' ' ind2='7' tag='655'><subfield code='a'>Feature films.</subfield><subfield code='2'>lcgft</subfield><subfield code=' '>^A2950595</subfield></datafield><datafield ind1=' ' ind2='7' tag='655'><subfield code='a'>Video recordings for the hearing impaired.</subfield><subfield code='2'>lcgft</subfield><subfield code=' '>^A2950816</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Hitchcock, Alfred,</subfield><subfield code='d'>1899-1980.</subfield><subfield code=' '>^A93935</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Saboteur (Motion picture : 1942)</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Shadow of a doubt (Motion picture)</subfield><subfield code=' '>^A1486587</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Rope (Motion picture)</subfield><subfield code=' '>^A3046122</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Rear window (Motion picture)</subfield><subfield code=' '>^A1268811</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Trouble with Harry (Motion picture)</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>North by northwest (Motion picture)</subfield><subfield code=' '>^A1173064</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Man who knew too much (Motion picture : 1956)</subfield><subfield code=' '>^A3046042</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Vertigo (Motion picture : 1958)</subfield><subfield code=' '>^A1344817</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Psycho (Motion picture : 1960)</subfield><subfield code=' '>^A974937</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Birds (Motion picture)</subfield><subfield code=' '>^A1341674</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Marnie (Motion picture)</subfield><subfield code=' '>^A1507589</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Torn curtain (Motion picture)</subfield><subfield code=' '>^A2844044</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Topaz (Motion picture : 1969)</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Frenzy (Motion picture : 1972)</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='0' ind2=' ' tag='730'><subfield code='a'>Family plot (Motion picture)</subfield><subfield code=' '>^A3046400</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)816351454</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)829232479</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='852'><subfield code='a'>CSt</subfield><subfield code='b'>GREEN</subfield><subfield code='c'>STACKS</subfield><subfield code='t'>1</subfield></datafield><datafield ind1='4' ind2='1' tag='866'><subfield code='8'>1</subfield><subfield code='a'>15 videodiscs + 1 booklet</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZDVD 29533 BLU-RAY DISCS 1-8</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105222449535</subfield><subfield code='d'>1/21/2015</subfield><subfield code='e'>1/21/2015</subfield><subfield code='j'>8</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>15</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-DVDCD</subfield><subfield code='u'>3/5/2013</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZDVD 29533 BLU-RAY DISCS 9-15</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105222449543</subfield><subfield code='d'>1/21/2015</subfield><subfield code='e'>1/21/2015</subfield><subfield code='j'>7</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>1</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-DVDCD</subfield><subfield code='u'>11/1/2014</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZDVD 29533 BOOKLET</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105222449550</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-DVDCD</subfield><subfield code='u'>11/1/2014</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>ZDVD 29533 BOOK</subfield><subfield code='w'>ALPHANUM</subfield><subfield code='c'>1</subfield><subfield code='i'>36105222456266</subfield><subfield code='l'>MEDIA-MTXT</subfield><subfield code='m'>GREEN</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-DVDCD</subfield><subfield code='u'>1/23/2015</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03518cgm a2200613Ia 4500</leader>
+  <controlfield tag="001">a9939294</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="007">vd msaizu</controlfield>
+  <controlfield tag="008">121107s2012    xxu---            vleng d</controlfield>
+  <datafield ind1="1" ind2=" " tag="024">
+    <subfield code="a">025192117305</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="2" tag="028">
+    <subfield code="a">61120097</subfield>
+    <subfield code="b">Universal</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">XCA</subfield>
+    <subfield code="c">XCA</subfield>
+    <subfield code="d">XCA</subfield>
+    <subfield code="d">OCLCO</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="050">
+    <subfield code="a">PN1997.A1</subfield>
+    <subfield code="b">A39 2005</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="092">
+    <subfield code="a">791.437/5</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Alfred Hitchcock, the masterpiece collection</subfield>
+    <subfield code="h">[videorecording].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">Limited ed.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Universal City, CA :</subfield>
+    <subfield code="b">Universal,</subfield>
+    <subfield code="c">2012.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">15 videodiscs :</subfield>
+    <subfield code="b">sd., col. &amp; b&amp;w ;</subfield>
+    <subfield code="c">4 3/4 in +</subfield>
+    <subfield code="e">1 booklet (58 p. : col. ill. ; 18 cm.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="538">
+    <subfield code="a">Blu-ray; requires Blu-ray player.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="505">
+    <subfield code="a">[1] Saboteur -- [2] Shadow of a doubt -- [3] Rope -- [4] Rear window -- [5] The trouble with Harry -- [6] The man who knew too much --  [7] Vertigo -- [8] North by Northwest -- [9] Psycho -- [10] The birds -- [11] Marnie -- [12] Torn curtain -- [13] Topaz -- [14] Frenzy -- [15] Family plot</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="520">
+    <subfield code="a">Contains 15 motion pictures directed by Alfred Hitchcock, originally released between 1942 and 1976.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="546">
+    <subfield code="a">English and French language soundtracks with optional English subtitles for the hearing impaired and optional Spanish subtitles.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="508">
+    <subfield code="a">Directed by Alfred Hitchcock.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="511">
+    <subfield code="a">Priscilla Lane, Robert Cummings, Teresa Wright, Joseph Cotton, James Stewart, Grace Kelly, Raymond Burr, Edmund Gwenn, John Forsythe, Shirley MacLaine, Doris Day, Kim Novak, Barbara Bel Geddes, Anthony Perkins, Janet Leigh, Rod Taylor, Jessica Tandy, Suzanne Pleshette, 'Tippi&quot; Hedren, Sean Connery, Paul Newman, Julie Andrews, Frederick Stafford, Jon Finch, Karen Black, Bruce Dern... [et al].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Feature films.</subfield>
+    <subfield code=" ">^A1017258</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Thrillers (Motion pictures)</subfield>
+    <subfield code=" ">^A2007198</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Motion pictures, American.</subfield>
+    <subfield code=" ">^A1079750</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="655">
+    <subfield code="a">Feature films.</subfield>
+    <subfield code="2">lcgft</subfield>
+    <subfield code=" ">^A2950595</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="655">
+    <subfield code="a">Video recordings for the hearing impaired.</subfield>
+    <subfield code="2">lcgft</subfield>
+    <subfield code=" ">^A2950816</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Hitchcock, Alfred,</subfield>
+    <subfield code="d">1899-1980.</subfield>
+    <subfield code=" ">^A93935</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Saboteur (Motion picture : 1942)</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Shadow of a doubt (Motion picture)</subfield>
+    <subfield code=" ">^A1486587</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Rope (Motion picture)</subfield>
+    <subfield code=" ">^A3046122</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Rear window (Motion picture)</subfield>
+    <subfield code=" ">^A1268811</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Trouble with Harry (Motion picture)</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">North by northwest (Motion picture)</subfield>
+    <subfield code=" ">^A1173064</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Man who knew too much (Motion picture : 1956)</subfield>
+    <subfield code=" ">^A3046042</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Vertigo (Motion picture : 1958)</subfield>
+    <subfield code=" ">^A1344817</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Psycho (Motion picture : 1960)</subfield>
+    <subfield code=" ">^A974937</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Birds (Motion picture)</subfield>
+    <subfield code=" ">^A1341674</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Marnie (Motion picture)</subfield>
+    <subfield code=" ">^A1507589</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Torn curtain (Motion picture)</subfield>
+    <subfield code=" ">^A2844044</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Topaz (Motion picture : 1969)</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Frenzy (Motion picture : 1972)</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="730">
+    <subfield code="a">Family plot (Motion picture)</subfield>
+    <subfield code=" ">^A3046400</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)816351454</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)829232479</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="852">
+    <subfield code="a">CSt</subfield>
+    <subfield code="b">GREEN</subfield>
+    <subfield code="c">STACKS</subfield>
+    <subfield code="t">1</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="1" tag="866">
+    <subfield code="8">1</subfield>
+    <subfield code="a">15 videodiscs + 1 booklet</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZDVD 29533 BLU-RAY DISCS 1-8</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105222449535</subfield>
+    <subfield code="d">1/21/2015</subfield>
+    <subfield code="e">1/21/2015</subfield>
+    <subfield code="j">8</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">15</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-DVDCD</subfield>
+    <subfield code="u">3/5/2013</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZDVD 29533 BLU-RAY DISCS 9-15</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105222449543</subfield>
+    <subfield code="d">1/21/2015</subfield>
+    <subfield code="e">1/21/2015</subfield>
+    <subfield code="j">7</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">1</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-DVDCD</subfield>
+    <subfield code="u">11/1/2014</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZDVD 29533 BOOKLET</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105222449550</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-DVDCD</subfield>
+    <subfield code="u">11/1/2014</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">ZDVD 29533 BOOK</subfield>
+    <subfield code="w">ALPHANUM</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105222456266</subfield>
+    <subfield code="l">MEDIA-MTXT</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-DVDCD</subfield>
+    <subfield code="u">1/23/2015</subfield>
+  </datafield>
+</record>

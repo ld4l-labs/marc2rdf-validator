@@ -1,1 +1,105 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01361cam a2200349Ia 4500</leader><controlfield tag='001'>a10194652</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>120208r20122001nyua          001 0 eng d</controlfield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='z'>9780375413407</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='z'>0375413405</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>IFK</subfield><subfield code='c'>IFK</subfield><subfield code='d'>RCJ</subfield><subfield code='d'>UtOrBLW</subfield></datafield><datafield ind1=' ' ind2=' ' tag='043'><subfield code='a'>e-fr---</subfield></datafield><datafield ind1=' ' ind2=' ' tag='049'><subfield code='a'>RCJL</subfield></datafield><datafield ind1=' ' ind2='4' tag='050'><subfield code='a'>TX719</subfield><subfield code='b'>.C454 2012</subfield></datafield><datafield ind1='0' ind2='4' tag='082'><subfield code='a'>641.5944</subfield><subfield code='2'>22</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Child, Julia.</subfield><subfield code=' '>^A123471</subfield></datafield><datafield ind1='1' ind2='0' tag='245'><subfield code='a'>Mastering the art of French cooking /</subfield><subfield code='c'>by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>50th anniversary [ed.].</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>New York :</subfield><subfield code='b'>Alfred A. Knopf,</subfield><subfield code='c'>2012, c2001.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>xxxi, 684, xxxii p. :</subfield><subfield code='b'>ill. ;</subfield><subfield code='c'>26 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;The story of &quot;Mastering&quot; at Knopf / by Judith Jones&quot;: p. xv-xxi.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Includes index.</subfield></datafield><datafield ind1='0' ind2=' ' tag='505'><subfield code='a'>Soups -- Sauces -- Eggs -- Entreés and luncheon dishes -- Fish -- Poultry -- Meat -- Vegetables -- Cold buffet -- Desserts and cakes.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Cooking, French.</subfield><subfield code=' '>^A1007979</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Bertholle, Louisette.</subfield><subfield code=' '>^A110056</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Beck, Simone,</subfield><subfield code='d'>1904-1991.</subfield><subfield code=' '>^A109127</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>C0</subfield><subfield code='b'>RCJ</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)775593238</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)854216011</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>24</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>TX719 .C454 2012</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105064406213</subfield><subfield code='d'>1/5/2015</subfield><subfield code='e'>12/2/2014</subfield><subfield code='l'>NEWBOOKS</subfield><subfield code='m'>LAW</subfield><subfield code='n'>2</subfield><subfield code='q'>1</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>LAW-NEW</subfield><subfield code='u'>7/24/2013</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01361cam a2200349Ia 4500</leader>
+  <controlfield tag="001">a10194652</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">120208r20122001nyua          001 0 eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="z">9780375413407</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="z">0375413405</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">IFK</subfield>
+    <subfield code="c">IFK</subfield>
+    <subfield code="d">RCJ</subfield>
+    <subfield code="d">UtOrBLW</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="043">
+    <subfield code="a">e-fr---</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="049">
+    <subfield code="a">RCJL</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="050">
+    <subfield code="a">TX719</subfield>
+    <subfield code="b">.C454 2012</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="4" tag="082">
+    <subfield code="a">641.5944</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Child, Julia.</subfield>
+    <subfield code=" ">^A123471</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">Mastering the art of French cooking /</subfield>
+    <subfield code="c">by Julia Child, Louisette Bertholle, Simone Beck ; illustrations by Sidonie Coryn ; [introduction by Julia Child].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">50th anniversary [ed.].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Alfred A. Knopf,</subfield>
+    <subfield code="c">2012, c2001.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">xxxi, 684, xxxii p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">26 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;The story of &quot;Mastering&quot; at Knopf / by Judith Jones&quot;: p. xv-xxi.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Includes index.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="505">
+    <subfield code="a">Soups -- Sauces -- Eggs -- Entreés and luncheon dishes -- Fish -- Poultry -- Meat -- Vegetables -- Cold buffet -- Desserts and cakes.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Cooking, French.</subfield>
+    <subfield code=" ">^A1007979</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Bertholle, Louisette.</subfield>
+    <subfield code=" ">^A110056</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Beck, Simone,</subfield>
+    <subfield code="d">1904-1991.</subfield>
+    <subfield code=" ">^A109127</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">C0</subfield>
+    <subfield code="b">RCJ</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)775593238</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)854216011</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">TX719 .C454 2012</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105064406213</subfield>
+    <subfield code="d">1/5/2015</subfield>
+    <subfield code="e">12/2/2014</subfield>
+    <subfield code="l">NEWBOOKS</subfield>
+    <subfield code="m">LAW</subfield>
+    <subfield code="n">2</subfield>
+    <subfield code="q">1</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">LAW-NEW</subfield>
+    <subfield code="u">7/24/2013</subfield>
+  </datafield>
+</record>

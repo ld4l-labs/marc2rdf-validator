@@ -1,1 +1,127 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01656ccm a2200349 a 4500</leader><controlfield tag='001'>a8653914</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150602003002.0</controlfield><controlfield tag='008'>020925s2002    wiujza   fi    n    zxx d</controlfield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0634006827</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780634006821</subfield></datafield><datafield ind1='3' ind2='2' tag='028'><subfield code='a'>HL00672452</subfield><subfield code='b'>H. Leonard Corp.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>OCO</subfield><subfield code='c'>OCO</subfield><subfield code='d'>ORU</subfield><subfield code='d'>OCLCQ</subfield><subfield code='d'>RLS</subfield><subfield code='d'>CPL</subfield><subfield code='d'>BAKER</subfield><subfield code='d'>TEX</subfield><subfield code='d'>CSt</subfield></datafield><datafield ind1='0' ind2=' ' tag='041'><subfield code='g'>eng</subfield></datafield><datafield ind1=' ' ind2=' ' tag='048'><subfield code='a'>oe</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Davis, Miles.</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='1' ind2='0' tag='240'><subfield code='a'>Birth of the cool</subfield><subfield code=' '>UNAUTHORIZED</subfield></datafield><datafield ind1='1' ind2='0' tag='245'><subfield code='a'>Birth of the cool /</subfield><subfield code='c'>Miles Davis.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Milwaukee, WI :</subfield><subfield code='b'>H. Leonard Corp.,</subfield><subfield code='c'>[2002?]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>1 score (167 p.) :</subfield><subfield code='b'>ill. ;</subfield><subfield code='c'>31 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Jazz, as recorded 1948-1950 for the album of same title; for alto and baritone saxophones, trumpet, horn, trombone, tuba, piano, bass, and drums; with chord symbols.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;Scores from the original parts; original scores&quot;--Cover.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Arr. by Jeff Sultanof.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Introd. and biographical notes by the arranger on p. 1-4.</subfield></datafield><datafield ind1='0' ind2='0' tag='505'><subfield code='t'>Birth of the cool theme --</subfield><subfield code='t'>Boplicity (Be bop lives) --</subfield><subfield code='t'>Budo --</subfield><subfield code='t'>Deception --</subfield><subfield code='t'>Godchild --</subfield><subfield code='t'>Israel --</subfield><subfield code='t'>Jeru --</subfield><subfield code='t'>Joost at the roost --</subfield><subfield code='t'>Moon dreams --</subfield><subfield code='t'>Move --</subfield><subfield code='t'>Rock salt a.k.a. rocker --</subfield><subfield code='t'>Rouge --</subfield><subfield code='t'>Venus de Milo.</subfield></datafield><datafield ind1=' ' ind2='0' tag='650'><subfield code='a'>Jazz</subfield><subfield code='y'>1941-1950.</subfield><subfield code=' '>^A1089336</subfield></datafield><datafield ind1='1' ind2=' ' tag='700'><subfield code='a'>Sultanof, Jeff</subfield><subfield code='4'>arr</subfield><subfield code=' '>^A597560</subfield></datafield><datafield ind1='0' ind2='8' tag='776'><subfield code='i'>Online version:</subfield><subfield code='a'>Davis, Miles.</subfield><subfield code='t'>Birth of the cool.</subfield><subfield code='d'>Milwaukee, WI : H. Leonard Corp., [2002?]</subfield><subfield code='w'>(OCoLC)639587885</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>18</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)50672283</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)664348414</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>M1366 .D263 B6 2002</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105123699873</subfield><subfield code='d'>6/1/2015</subfield><subfield code='e'>6/1/2015</subfield><subfield code='k'>CHECKEDOUT</subfield><subfield code='l'>SCORES</subfield><subfield code='m'>MUSIC</subfield><subfield code='n'>7</subfield><subfield code='q'>1</subfield><subfield code='r'>M</subfield><subfield code='s'>Y</subfield><subfield code='t'>SCORE</subfield><subfield code='u'>8/20/2010</subfield><subfield code='z'>TAX=8.25</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01656ccm a2200349 a 4500</leader>
+  <controlfield tag="001">a8653914</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150602003002.0</controlfield>
+  <controlfield tag="008">020925s2002    wiujza   fi    n    zxx d</controlfield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0634006827</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780634006821</subfield>
+  </datafield>
+  <datafield ind1="3" ind2="2" tag="028">
+    <subfield code="a">HL00672452</subfield>
+    <subfield code="b">H. Leonard Corp.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">OCO</subfield>
+    <subfield code="c">OCO</subfield>
+    <subfield code="d">ORU</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">RLS</subfield>
+    <subfield code="d">CPL</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">TEX</subfield>
+    <subfield code="d">CSt</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="041">
+    <subfield code="g">eng</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="048">
+    <subfield code="a">oe</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Davis, Miles.</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="240">
+    <subfield code="a">Birth of the cool</subfield>
+    <subfield code=" ">UNAUTHORIZED</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">Birth of the cool /</subfield>
+    <subfield code="c">Miles Davis.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Milwaukee, WI :</subfield>
+    <subfield code="b">H. Leonard Corp.,</subfield>
+    <subfield code="c">[2002?]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 score (167 p.) :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">31 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Jazz, as recorded 1948-1950 for the album of same title; for alto and baritone saxophones, trumpet, horn, trombone, tuba, piano, bass, and drums; with chord symbols.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;Scores from the original parts; original scores&quot;--Cover.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Arr. by Jeff Sultanof.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Introd. and biographical notes by the arranger on p. 1-4.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="505">
+    <subfield code="t">Birth of the cool theme --</subfield>
+    <subfield code="t">Boplicity (Be bop lives) --</subfield>
+    <subfield code="t">Budo --</subfield>
+    <subfield code="t">Deception --</subfield>
+    <subfield code="t">Godchild --</subfield>
+    <subfield code="t">Israel --</subfield>
+    <subfield code="t">Jeru --</subfield>
+    <subfield code="t">Joost at the roost --</subfield>
+    <subfield code="t">Moon dreams --</subfield>
+    <subfield code="t">Move --</subfield>
+    <subfield code="t">Rock salt a.k.a. rocker --</subfield>
+    <subfield code="t">Rouge --</subfield>
+    <subfield code="t">Venus de Milo.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Jazz</subfield>
+    <subfield code="y">1941-1950.</subfield>
+    <subfield code=" ">^A1089336</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Sultanof, Jeff</subfield>
+    <subfield code="4">arr</subfield>
+    <subfield code=" ">^A597560</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="8" tag="776">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="a">Davis, Miles.</subfield>
+    <subfield code="t">Birth of the cool.</subfield>
+    <subfield code="d">Milwaukee, WI : H. Leonard Corp., [2002?]</subfield>
+    <subfield code="w">(OCoLC)639587885</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)50672283</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)664348414</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">M1366 .D263 B6 2002</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105123699873</subfield>
+    <subfield code="d">6/1/2015</subfield>
+    <subfield code="e">6/1/2015</subfield>
+    <subfield code="k">CHECKEDOUT</subfield>
+    <subfield code="l">SCORES</subfield>
+    <subfield code="m">MUSIC</subfield>
+    <subfield code="n">7</subfield>
+    <subfield code="q">1</subfield>
+    <subfield code="r">M</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">SCORE</subfield>
+    <subfield code="u">8/20/2010</subfield>
+    <subfield code="z">TAX=8.25</subfield>
+  </datafield>
+</record>
