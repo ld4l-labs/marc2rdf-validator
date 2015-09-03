@@ -66,7 +66,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">^A116705</subfield>
+    <subfield code="=">^A116705</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath /</subfield>
@@ -99,32 +99,32 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Migrant agricultural laborers</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2102802</subfield>
+    <subfield code="=">^A2102802</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Rural families</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2105115</subfield>
+    <subfield code="=">^A2105115</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Depressions</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2097806</subfield>
+    <subfield code="=">^A2097806</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Labor camps</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2443557</subfield>
+    <subfield code="=">^A2443557</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">California</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2095983</subfield>
+    <subfield code="=">^A2095983</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">Oklahoma</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2103574</subfield>
+    <subfield code="=">^A2103574</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="650">
     <subfield code="a">Migrant labor</subfield>
@@ -165,16 +165,16 @@
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Domestic fiction.</subfield>
     <subfield code="2">gsafd</subfield>
-    <subfield code=" ">^A3314273</subfield>
+    <subfield code="=">^A3314273</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">DeMott, Robert J.,</subfield>
     <subfield code="d">1943-</subfield>
-    <subfield code=" ">^A375188</subfield>
+    <subfield code="=">^A375188</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Penguin classics.</subfield>
-    <subfield code=" ">^A1117737</subfield>
+    <subfield code="=">^A1117737</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">C0</subfield>

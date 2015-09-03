@@ -59,7 +59,7 @@
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Beachware (Firm)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">ZMS 545</subfield>

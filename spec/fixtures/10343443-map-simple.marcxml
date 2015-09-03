@@ -38,7 +38,7 @@
   <datafield ind1="1" ind2=" " tag="110">
     <subfield code="a">Ithaca (N.Y.).</subfield>
     <subfield code="b">City Planning Board.</subfield>
-    <subfield code=" ">^A3157227</subfield>
+    <subfield code="=">^A3157227</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">City of Ithaca, New York</subfield>
@@ -68,7 +68,7 @@
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">Ithaca (N.Y.)</subfield>
     <subfield code="v">Maps.</subfield>
-    <subfield code=" ">^A2535289</subfield>
+    <subfield code="=">^A2535289</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="651">
     <subfield code="a">New York (State)</subfield>
@@ -79,13 +79,13 @@
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Maps.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950662</subfield>
+    <subfield code="=">^A2950662</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Maps.</subfield>
     <subfield code="2">fast</subfield>
     <subfield code="0">(OCoLC)fst01423704</subfield>
-    <subfield code=" ">^A2950662</subfield>
+    <subfield code="=">^A2950662</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">Z0</subfield>

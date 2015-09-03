@@ -181,101 +181,101 @@
     <subfield code="x">Violence against</subfield>
     <subfield code="z">Colombia</subfield>
     <subfield code="x">Prevention.</subfield>
-    <subfield code=" ">^A1075472</subfield>
+    <subfield code="=">^A1075472</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Family violence</subfield>
     <subfield code="z">Colombia</subfield>
     <subfield code="x">Prevention.</subfield>
-    <subfield code=" ">^A1016977</subfield>
+    <subfield code="=">^A1016977</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Spousal abuse</subfield>
     <subfield code="z">Colombia</subfield>
     <subfield code="x">Prevention.</subfield>
-    <subfield code=" ">^A1865482</subfield>
+    <subfield code="=">^A1865482</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Family violence</subfield>
     <subfield code="v">Drama.</subfield>
-    <subfield code=" ">^A1016977</subfield>
+    <subfield code="=">^A1016977</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Spousal abuse</subfield>
     <subfield code="v">Drama.</subfield>
-    <subfield code=" ">^A1865482</subfield>
+    <subfield code="=">^A1865482</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women</subfield>
     <subfield code="x">Violence against</subfield>
     <subfield code="z">Dominican Republic</subfield>
     <subfield code="v">Drama.</subfield>
-    <subfield code=" ">^A1075472</subfield>
+    <subfield code="=">^A1075472</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women revolutionaries</subfield>
     <subfield code="z">Dominican Republic</subfield>
     <subfield code="v">Drama.</subfield>
-    <subfield code=" ">^A1075812</subfield>
+    <subfield code="=">^A1075812</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Social problem films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950746</subfield>
+    <subfield code="=">^A2950746</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Fiction films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950597</subfield>
+    <subfield code="=">^A2950597</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Feature films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950595</subfield>
+    <subfield code="=">^A2950595</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Bollain, Icíar,</subfield>
     <subfield code="d">1967-</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1319643</subfield>
+    <subfield code="=">^A1319643</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Barroso, Mariano,</subfield>
     <subfield code="d">1959-</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1775520</subfield>
+    <subfield code="=">^A1775520</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Hayek, Salma,</subfield>
     <subfield code="d">1968-</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A1361437</subfield>
+    <subfield code="=">^A1361437</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Olmos, Edward James</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A380441</subfield>
+    <subfield code="=">^A380441</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">United Nations Development Fund for Women</subfield>
     <subfield code="e">issuing body.</subfield>
-    <subfield code=" ">^A665132</subfield>
+    <subfield code="=">^A665132</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">United Nations.</subfield>
     <subfield code="b">Secretary-General,</subfield>
     <subfield code="e">issuing body.</subfield>
-    <subfield code=" ">^A108717</subfield>
+    <subfield code="=">^A108717</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Te doy mis ojos.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">In the time of the butterflies.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="740">
     <subfield code="a">En el tiempo de las mariposas</subfield>

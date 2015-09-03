@@ -15,7 +15,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Norwich, Oscar I.,</subfield>
     <subfield code="e">collector.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Dr. Oscar I. Norwich collection of maps of Africa and its islands,</subfield>
@@ -47,22 +47,22 @@
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Norwich, Oscar I.</subfield>
     <subfield code="x">Map collections.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cartography</subfield>
     <subfield code="z">Africa</subfield>
     <subfield code="x">History.</subfield>
-    <subfield code=" ">^A1001412</subfield>
+    <subfield code="=">^A1001412</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">Africa</subfield>
     <subfield code="v">Maps.</subfield>
-    <subfield code=" ">^A990182</subfield>
+    <subfield code="=">^A990182</subfield>
   </datafield>
   <datafield ind1="1" ind2="2" tag="700">
     <subfield code="a">Norwich, Rose.</subfield>
-    <subfield code=" ">^A2747594</subfield>
+    <subfield code="=">^A2747594</subfield>
   </datafield>
   <datafield ind1="4" ind2="2" tag="856">
     <subfield code="3">Finding aid available online</subfield>

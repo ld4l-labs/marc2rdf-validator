@@ -32,7 +32,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Child, Julia.</subfield>
-    <subfield code=" ">^A123471</subfield>
+    <subfield code="=">^A123471</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Mastering the art of French cooking /</subfield>
@@ -62,16 +62,16 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking, French.</subfield>
-    <subfield code=" ">^A1007979</subfield>
+    <subfield code="=">^A1007979</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Bertholle, Louisette.</subfield>
-    <subfield code=" ">^A110056</subfield>
+    <subfield code="=">^A110056</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Beck, Simone,</subfield>
     <subfield code="d">1904-1991.</subfield>
-    <subfield code=" ">^A109127</subfield>
+    <subfield code="=">^A109127</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">C0</subfield>

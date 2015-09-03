@@ -47,27 +47,27 @@
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Dedeban, Jean Marie,</subfield>
     <subfield code="d">active 1770-1791.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Musical instruments</subfield>
     <subfield code="x">Construction.</subfield>
-    <subfield code=" ">^A1041847</subfield>
+    <subfield code="=">^A1041847</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Harpsichord</subfield>
     <subfield code="x">Construction.</subfield>
-    <subfield code=" ">^A1024277</subfield>
+    <subfield code="=">^A1024277</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Dedeban, Jean Marie,</subfield>
     <subfield code="d">active 1770-1791.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">National Museum of History and Technology.</subfield>
     <subfield code="b">Division of Musical Instruments.</subfield>
-    <subfield code=" ">^A42875</subfield>
+    <subfield code="=">^A42875</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="035">
     <subfield code="a">(CStRLIN)CSUG88-F206</subfield>

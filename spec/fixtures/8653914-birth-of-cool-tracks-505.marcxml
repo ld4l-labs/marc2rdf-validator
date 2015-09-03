@@ -33,11 +33,11 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Davis, Miles.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="240">
     <subfield code="a">Birth of the cool</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Birth of the cool /</subfield>
@@ -83,12 +83,12 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Jazz</subfield>
     <subfield code="y">1941-1950.</subfield>
-    <subfield code=" ">^A1089336</subfield>
+    <subfield code="=">^A1089336</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Sultanof, Jeff</subfield>
     <subfield code="4">arr</subfield>
-    <subfield code=" ">^A597560</subfield>
+    <subfield code="=">^A597560</subfield>
   </datafield>
   <datafield ind1="0" ind2="8" tag="776">
     <subfield code="i">Online version:</subfield>

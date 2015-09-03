@@ -67,12 +67,12 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Computational linguistics</subfield>
     <subfield code="x">Periodicals.</subfield>
-    <subfield code=" ">^A1034883</subfield>
+    <subfield code="=">^A1034883</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Machine translating</subfield>
     <subfield code="x">Periodicals.</subfield>
-    <subfield code=" ">^A1036079</subfield>
+    <subfield code="=">^A1036079</subfield>
   </datafield>
   <datafield ind1="0" ind2="0" tag="785">
     <subfield code="t">Machine translation</subfield>

@@ -14,7 +14,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Green, Ricki.</subfield>
-    <subfield code=" ">^A734427</subfield>
+    <subfield code="=">^A734427</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The Grapes of Wrath :</subfield>
@@ -43,25 +43,25 @@
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
     <subfield code="t">Grapes of wrath.</subfield>
-    <subfield code=" ">^A2091926</subfield>
+    <subfield code="=">^A2091926</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Depressions</subfield>
     <subfield code="y">1929.</subfield>
-    <subfield code=" ">^A1010815</subfield>
+    <subfield code="=">^A1010815</subfield>
   </datafield>
   <datafield ind1="1" ind2="2" tag="700">
     <subfield code="a">Sutherland, Donald,</subfield>
     <subfield code="d">1935-</subfield>
-    <subfield code=" ">^A515747</subfield>
+    <subfield code="=">^A515747</subfield>
   </datafield>
   <datafield ind1="1" ind2="2" tag="700">
     <subfield code="a">Shillinglaw, Susan.</subfield>
-    <subfield code=" ">^A1209934</subfield>
+    <subfield code="=">^A1209934</subfield>
   </datafield>
   <datafield ind1="2" ind2="2" tag="710">
     <subfield code="a">Cronkite Ward Company.</subfield>
-    <subfield code=" ">^A1623972</subfield>
+    <subfield code="=">^A1623972</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="035">
     <subfield code="a">(OCoLC-M)754864264</subfield>

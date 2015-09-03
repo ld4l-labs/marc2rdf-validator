@@ -37,7 +37,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Steinbeck John E.,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="240">
     <subfield code="a">Grapes of wrath.</subfield>
@@ -70,19 +70,19 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Readers</subfield>
     <subfield code="x">Literature.</subfield>
-    <subfield code=" ">^A1054995</subfield>
+    <subfield code="=">^A1054995</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">English language</subfield>
     <subfield code="v">Textbooks for foreign speakers</subfield>
     <subfield code="x">Korean.</subfield>
-    <subfield code=" ">^A3091727</subfield>
+    <subfield code="=">^A3091727</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="6">880-04</subfield>
     <subfield code="a">Sisa Yŏngŏsa.</subfield>
     <subfield code="b">Pʻyŏnjipkuk.</subfield>
-    <subfield code=" ">^A333980</subfield>
+    <subfield code="=">^A333980</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="740">
     <subfield code="a">Grapes of wrath.</subfield>
@@ -91,7 +91,7 @@
     <subfield code="6">880-05</subfield>
     <subfield code="a">Yŏng-Han taeyŏk mun'go ;</subfield>
     <subfield code="v">84.</subfield>
-    <subfield code=" ">^A3298002</subfield>
+    <subfield code="=">^A3298002</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="880">
     <subfield code="6">245-01</subfield>

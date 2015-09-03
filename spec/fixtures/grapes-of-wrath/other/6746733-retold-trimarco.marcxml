@@ -41,7 +41,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Trimarco, Paola.</subfield>
-    <subfield code=" ">^A1924043</subfield>
+    <subfield code="=">^A1924043</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath /</subfield>
@@ -73,17 +73,17 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Migrant agricultural laborers</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2102802</subfield>
+    <subfield code="=">^A2102802</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Depressions</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2097806</subfield>
+    <subfield code="=">^A2097806</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Rural families</subfield>
     <subfield code="v">Fiction.</subfield>
-    <subfield code=" ">^A2105115</subfield>
+    <subfield code="=">^A2105115</subfield>
   </datafield>
   <datafield ind1=" " ind2="4" tag="690">
     <subfield code="a">Foreign editions of the works of John Steinbeck.</subfield>
@@ -92,12 +92,12 @@
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
     <subfield code="t">Grapes of wrath.</subfield>
-    <subfield code=" ">^A2091926</subfield>
+    <subfield code="=">^A2091926</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Penguin readers.</subfield>
     <subfield code="n">Level 5.</subfield>
-    <subfield code=" ">^A1923559</subfield>
+    <subfield code="=">^A1923559</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">Z0</subfield>

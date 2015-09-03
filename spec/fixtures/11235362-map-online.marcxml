@@ -42,7 +42,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Duncker, James J.,</subfield>
     <subfield code="e">cartographer.</subfield>
-    <subfield code=" ">^A1740404</subfield>
+    <subfield code="=">^A1740404</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Bathymetric survey of Lake Calumet, Cook County, Illinois /</subfield>
@@ -94,27 +94,27 @@
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Johnson, Kevin K.,</subfield>
     <subfield code="e">cartographer.</subfield>
-    <subfield code=" ">^A2959098</subfield>
+    <subfield code="=">^A2959098</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Sharpe, Jennifer B.,</subfield>
     <subfield code="e">cartographer.</subfield>
-    <subfield code=" ">^A1434053</subfield>
+    <subfield code="=">^A1434053</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Great Lakes Restoration Initiative (U.S.),</subfield>
     <subfield code="e">sponsoring body.</subfield>
-    <subfield code=" ">^A3180919</subfield>
+    <subfield code="=">^A3180919</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Geological Survey (U.S.),</subfield>
     <subfield code="e">issuing body.</subfield>
-    <subfield code=" ">^A179855</subfield>
+    <subfield code="=">^A179855</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Scientific investigations map ;</subfield>
     <subfield code="v">3330.</subfield>
-    <subfield code=" ">^A1749013</subfield>
+    <subfield code="=">^A1749013</subfield>
   </datafield>
   <datafield ind1="4" ind2="0" tag="856">
     <subfield code="u">http://purl.fdlp.gov/GPO/gpo58347</subfield>

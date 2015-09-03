@@ -38,7 +38,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Marin, Cécile.</subfield>
-    <subfield code=" ">^A1658232</subfield>
+    <subfield code="=">^A1658232</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Atlas mondial des femmes :</subfield>
@@ -84,28 +84,28 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women</subfield>
     <subfield code="v">Maps.</subfield>
-    <subfield code=" ">^A1075472</subfield>
+    <subfield code="=">^A1075472</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">World atlases.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950826</subfield>
+    <subfield code="=">^A2950826</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Attané, Isabelle.</subfield>
-    <subfield code=" ">^A2510855</subfield>
+    <subfield code="=">^A2510855</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Brugeilles, Carole.</subfield>
-    <subfield code=" ">^A2588720</subfield>
+    <subfield code="=">^A2588720</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Rault, Wilfried.</subfield>
-    <subfield code=" ">^A2421119</subfield>
+    <subfield code="=">^A2421119</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Collection Atlas/monde.</subfield>
-    <subfield code=" ">^A1584008</subfield>
+    <subfield code="=">^A1584008</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">Z0</subfield>

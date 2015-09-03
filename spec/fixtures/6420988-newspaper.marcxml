@@ -36,12 +36,12 @@
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">Korea (South)</subfield>
     <subfield code="v">Newspapers.</subfield>
-    <subfield code=" ">^A135265</subfield>
+    <subfield code="=">^A135265</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="6">880-04</subfield>
     <subfield code="a">Yŏsŏng Sinmusa.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="752">
     <subfield code="a">Korea (South)</subfield>

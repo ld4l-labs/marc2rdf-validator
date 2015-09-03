@@ -58,41 +58,41 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Trios (Piano, horn, violin)</subfield>
-    <subfield code=" ">^A1070020</subfield>
+    <subfield code="=">^A1070020</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Quintets (Horn, violin, violas (2), cello)</subfield>
-    <subfield code=" ">^A1054075</subfield>
+    <subfield code="=">^A1054075</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Horn and piano music, Arranged.</subfield>
-    <subfield code=" ">^A1025796</subfield>
+    <subfield code="=">^A1025796</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Brain, Dennis,</subfield>
     <subfield code="d">1921-1957.</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">^A275479</subfield>
+    <subfield code="=">^A275479</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Salpeter, Max.</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">^A2858456</subfield>
+    <subfield code="=">^A2858456</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Preedy, Cyril.</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">^A870127</subfield>
+    <subfield code="=">^A870127</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Grainger, Eileen.</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Parry, Wilfrid</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">^A275480</subfield>
+    <subfield code="=">^A275480</subfield>
   </datafield>
   <datafield ind1="1" ind2="2" tag="700">
     <subfield code="a">Brahms, Johannes,</subfield>
@@ -101,7 +101,7 @@
     <subfield code="m">piano, violin, horn,</subfield>
     <subfield code="n">op. 40,</subfield>
     <subfield code="r">E♭ major.</subfield>
-    <subfield code=" ">^A237843</subfield>
+    <subfield code="=">^A237843</subfield>
   </datafield>
   <datafield ind1="1" ind2="2" tag="700">
     <subfield code="a">Mozart, Wolfgang Amadeus,</subfield>
@@ -110,19 +110,19 @@
     <subfield code="m">horn, violin, violas (2), cello,</subfield>
     <subfield code="n">K. 407,</subfield>
     <subfield code="r">E♭ major</subfield>
-    <subfield code=" ">^A710672</subfield>
+    <subfield code="=">^A710672</subfield>
   </datafield>
   <datafield ind1="1" ind2="2" tag="700">
     <subfield code="a">Marais, Marin,</subfield>
     <subfield code="d">1656-1728</subfield>
     <subfield code="t">Pièces de violes, 4e livre. 1ère partie. 39-40;</subfield>
     <subfield code="o">arranged.</subfield>
-    <subfield code=" ">^A238190</subfield>
+    <subfield code="=">^A238190</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Carter String Trio.</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">^A2796093</subfield>
+    <subfield code="=">^A2796093</subfield>
   </datafield>
   <datafield ind1="4" ind2=" " tag="740">
     <subfield code="a">The Art of the French horn.</subfield>

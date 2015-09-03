@@ -92,17 +92,17 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking</subfield>
     <subfield code="v">Periodicals</subfield>
-    <subfield code=" ">^A2097404</subfield>
+    <subfield code="=">^A2097404</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking, American</subfield>
     <subfield code="v">Periodicals</subfield>
-    <subfield code=" ">^A2427618</subfield>
+    <subfield code="=">^A2427618</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Gastronomy</subfield>
     <subfield code="v">Periodicals.</subfield>
-    <subfield code=" ">^A1020925</subfield>
+    <subfield code="=">^A1020925</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="775">
     <subfield code="t">Cook's illustrated (Annual hardbound ed.)</subfield>

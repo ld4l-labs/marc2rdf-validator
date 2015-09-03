@@ -147,35 +147,35 @@
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Hitler, Adolf,</subfield>
     <subfield code="d">1889-1945.</subfield>
-    <subfield code=" ">^A101087</subfield>
+    <subfield code="=">^A101087</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">World War, 1939-1945.</subfield>
-    <subfield code=" ">^A1076183</subfield>
+    <subfield code="=">^A1076183</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Capra, Frank,</subfield>
     <subfield code="d">1897-1991.</subfield>
-    <subfield code=" ">^A143971</subfield>
+    <subfield code="=">^A143971</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Wyler, William,</subfield>
     <subfield code="d">1902-1981.</subfield>
-    <subfield code=" ">^A100536</subfield>
+    <subfield code="=">^A100536</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Huston, John,</subfield>
     <subfield code="d">1906-1987.</subfield>
-    <subfield code=" ">^A83776</subfield>
+    <subfield code="=">^A83776</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Ford, John,</subfield>
     <subfield code="d">1894-1973.</subfield>
-    <subfield code=" ">^A109792</subfield>
+    <subfield code="=">^A109792</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="a">Frank Capra's Why we fight.</subfield>
-    <subfield code=" ">^A1785916</subfield>
+    <subfield code="=">^A1785916</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="035">
     <subfield code="a">(OCoLC-M)58720161</subfield>

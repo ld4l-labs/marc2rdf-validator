@@ -29,13 +29,13 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Mahler, Gustav,</subfield>
     <subfield code="d">1860-1911.</subfield>
-    <subfield code=" ">^A230732</subfield>
+    <subfield code="=">^A230732</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="240">
     <subfield code="a">Symphonies,</subfield>
     <subfield code="n">no. 3,</subfield>
     <subfield code="r">D minor</subfield>
-    <subfield code=" ">^A230732</subfield>
+    <subfield code="=">^A230732</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">3. Symphonie /</subfield>
@@ -71,7 +71,7 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Symphonies</subfield>
     <subfield code="v">Scores.</subfield>
-    <subfield code=" ">^A1066583</subfield>
+    <subfield code="=">^A1066583</subfield>
   </datafield>
   <datafield ind1=" " ind2="4" tag="650">
     <subfield code="a">1899.</subfield>
@@ -80,17 +80,17 @@
     <subfield code="a">Nietzsche, Friedrich Wilhelm,</subfield>
     <subfield code="d">1844-1900</subfield>
     <subfield code="v">Musical settings.</subfield>
-    <subfield code=" ">^A91425</subfield>
+    <subfield code="=">^A91425</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Nietzsche, Friedrich Wilhelm,</subfield>
     <subfield code="d">1844-1900.</subfield>
-    <subfield code=" ">^A91425</subfield>
+    <subfield code="=">^A91425</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Josef Weinberger (Firm),</subfield>
     <subfield code="e">publisher.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="752">
     <subfield code="a">Austria</subfield>

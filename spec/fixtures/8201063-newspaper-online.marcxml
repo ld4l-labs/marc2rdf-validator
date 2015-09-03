@@ -94,21 +94,21 @@
     <subfield code="a">Underground press publications</subfield>
     <subfield code="z">Georgia</subfield>
     <subfield code="z">Atlanta.</subfield>
-    <subfield code=" ">^A1070987</subfield>
+    <subfield code="=">^A1070987</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women publishers.</subfield>
-    <subfield code=" ">^A1075809</subfield>
+    <subfield code="=">^A1075809</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">Atlanta (Ga.)</subfield>
     <subfield code="v">Newspapers.</subfield>
-    <subfield code=" ">^A92544</subfield>
+    <subfield code="=">^A92544</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="651">
     <subfield code="a">Fulton County (Ga.)</subfield>
     <subfield code="v">Newspapers.</subfield>
-    <subfield code=" ">^A949782</subfield>
+    <subfield code="=">^A949782</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="650">
     <subfield code="a">Counter culture</subfield>
@@ -143,19 +143,19 @@
     <subfield code="a">Newspapers.</subfield>
     <subfield code="2">fast</subfield>
     <subfield code="0">(OCoLC)fst01423814</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="a">Atlantan.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="a">Femme.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="a">Vibes.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="752">
     <subfield code="a">United States</subfield>

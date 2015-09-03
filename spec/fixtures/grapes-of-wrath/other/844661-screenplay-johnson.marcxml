@@ -18,7 +18,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Johnson, Nunnally.</subfield>
-    <subfield code=" ">^A138307</subfield>
+    <subfield code="=">^A138307</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath;</subfield>
@@ -46,7 +46,7 @@
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
     <subfield code="t">Grapes of wrath.</subfield>
-    <subfield code=" ">^A2091926</subfield>
+    <subfield code="=">^A2091926</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">PS3537.T27 G761 1939 F</subfield>

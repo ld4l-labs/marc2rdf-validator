@@ -123,22 +123,22 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Hand-to-hand fighting</subfield>
     <subfield code="v">Computer games.</subfield>
-    <subfield code=" ">^A1024064</subfield>
+    <subfield code="=">^A1024064</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Shooting</subfield>
     <subfield code="v">Computer games.</subfield>
-    <subfield code=" ">^A1060792</subfield>
+    <subfield code="=">^A1060792</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Demonology</subfield>
     <subfield code="v">Computer games.</subfield>
-    <subfield code=" ">^A1010607</subfield>
+    <subfield code="=">^A1010607</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Angels</subfield>
     <subfield code="v">Computer games.</subfield>
-    <subfield code=" ">^A992367</subfield>
+    <subfield code="=">^A992367</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="655">
     <subfield code="a">Fantasy games.</subfield>
@@ -151,11 +151,11 @@
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">PlatinumGames Inc.</subfield>
-    <subfield code=" ">^A3325199</subfield>
+    <subfield code="=">^A3325199</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Nintendo of America Inc.</subfield>
-    <subfield code=" ">^A1592866</subfield>
+    <subfield code="=">^A1592866</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="753">
     <subfield code="a">Nintendo Wii U (NTSC-U/C)</subfield>

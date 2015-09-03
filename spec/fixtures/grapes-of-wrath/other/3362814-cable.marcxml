@@ -23,7 +23,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Cable, Boyd.</subfield>
-    <subfield code=" ">^A728765</subfield>
+    <subfield code="=">^A728765</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Grapes of wrath /</subfield>
@@ -44,7 +44,7 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Somme, 1st Battle of the, France, 1916</subfield>
     <subfield code="x">Fiction.</subfield>
-    <subfield code=" ">^A1062613</subfield>
+    <subfield code="=">^A1062613</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">PR6055 .W29 G7 1917</subfield>

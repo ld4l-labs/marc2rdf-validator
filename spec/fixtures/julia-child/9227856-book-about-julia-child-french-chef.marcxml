@@ -41,7 +41,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Polan, Dana B.,</subfield>
     <subfield code="d">1953-</subfield>
-    <subfield code=" ">^A440661</subfield>
+    <subfield code="=">^A440661</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Julia Child's The French chef /</subfield>
@@ -71,39 +71,39 @@
   </datafield>
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Child, Julia.</subfield>
-    <subfield code=" ">^A123471</subfield>
+    <subfield code="=">^A123471</subfield>
   </datafield>
   <datafield ind1="0" ind2="0" tag="630">
     <subfield code="a">French chef (Television program)</subfield>
-    <subfield code=" ">^A2620873</subfield>
+    <subfield code="=">^A2620873</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking, French.</subfield>
-    <subfield code=" ">^A1007979</subfield>
+    <subfield code="=">^A1007979</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Television cooking shows</subfield>
     <subfield code="x">Social aspects</subfield>
     <subfield code="z">United States.</subfield>
-    <subfield code=" ">^A2342458</subfield>
+    <subfield code="=">^A2342458</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking</subfield>
     <subfield code="x">Social aspects</subfield>
     <subfield code="z">United States.</subfield>
-    <subfield code=" ">^A2522473</subfield>
+    <subfield code="=">^A2522473</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Sex role</subfield>
     <subfield code="z">United States</subfield>
     <subfield code="x">History</subfield>
     <subfield code="y">20th century.</subfield>
-    <subfield code=" ">^A2545677</subfield>
+    <subfield code="=">^A2545677</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Console-ing passions book series.</subfield>
     <subfield code="p">Spin offs.</subfield>
-    <subfield code=" ">^A2248341</subfield>
+    <subfield code="=">^A2248341</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="035">
     <subfield code="a">(OCoLC-M)700406666</subfield>

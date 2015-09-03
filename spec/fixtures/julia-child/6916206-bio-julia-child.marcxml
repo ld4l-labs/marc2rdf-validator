@@ -32,7 +32,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Shapiro, Laura.</subfield>
-    <subfield code=" ">^A511244</subfield>
+    <subfield code="=">^A511244</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Julia Child /</subfield>
@@ -61,17 +61,17 @@
   </datafield>
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Child, Julia.</subfield>
-    <subfield code=" ">^A123471</subfield>
+    <subfield code="=">^A123471</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooks</subfield>
     <subfield code="z">United States</subfield>
     <subfield code="v">Biography.</subfield>
-    <subfield code=" ">^A2097406</subfield>
+    <subfield code="=">^A2097406</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Penguin lives series.</subfield>
-    <subfield code=" ">^A1357860</subfield>
+    <subfield code="=">^A1357860</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="920">
     <subfield code="b">A biography of Julia Child from the award-winning author of &quot;Perfection Salad&quot;  One of the most beloved figures in 20th century American culture was Julia Child, the bouyant aFrench Chefa who taught millions of Americans to cook with confidence and eat with pleasure. With an irrepressible sense of humor and a passion for good food, Child ushered in the nationas culinary renaissance and became its chief icon. Unlike the great cooking teachers who preceded her, she won her audience through the revolutionary medium of television. Millions watched as she spun threads of caramel, befriended a giant monkfish, wielded live lobsters, flipped omelets and unmolded spectacular desserts. Her occasional disasters, and brilliant recoveries, were legendary. Yet every step of the way she was teaching carefully crafted lessons about ingredients, culinary technique, and why good home cooking still matters.  Award-winning food writer Laura Shapiro describes Childas unlikely career path, from California party girl to cool-headed chief clerk in a World War II spy station to bumbling amateur cook and finally to the classes at the Cordon Bleu in Paris that changed her life. Her marriage to Paul Child was at the center of all her work. Unlike much of what has been written about Child, Shapiro portrays a woman who was quintessentially American, and whose open-hearted approach to the kitchen was a lesson in how to live.</subfield>

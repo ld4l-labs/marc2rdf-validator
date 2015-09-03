@@ -23,7 +23,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Morris, Tee.</subfield>
-    <subfield code=" ">^A2128957</subfield>
+    <subfield code="=">^A2128957</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Expert podcasting practices for dummies</subfield>
@@ -61,31 +61,31 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Webcasting.</subfield>
-    <subfield code=" ">^A1434283</subfield>
+    <subfield code="=">^A1434283</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Podcasting.</subfield>
-    <subfield code=" ">^A1991097</subfield>
+    <subfield code="=">^A1991097</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Marketing.</subfield>
-    <subfield code=" ">^A1037238</subfield>
+    <subfield code="=">^A1037238</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Terra, Evo.</subfield>
-    <subfield code=" ">^A2128958</subfield>
+    <subfield code="=">^A2128958</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Williams, Ryan C.</subfield>
-    <subfield code=" ">^A3267425</subfield>
+    <subfield code="=">^A3267425</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Safari Books Online.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">--For dummies.</subfield>
-    <subfield code=" ">^A1160632</subfield>
+    <subfield code="=">^A1160632</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">02</subfield>

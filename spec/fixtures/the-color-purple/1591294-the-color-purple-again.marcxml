@@ -37,7 +37,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Walker, Alice,</subfield>
     <subfield code="d">1944-</subfield>
-    <subfield code=" ">^A128228</subfield>
+    <subfield code="=">^A128228</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The color purple /</subfield>

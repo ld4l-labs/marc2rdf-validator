@@ -57,11 +57,11 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Horn (Musical instrument)</subfield>
     <subfield code="x">Periodicals.</subfield>
-    <subfield code=" ">^A1025790</subfield>
+    <subfield code="=">^A1025790</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">International Horn Society.</subfield>
-    <subfield code=" ">^A275720</subfield>
+    <subfield code="=">^A275720</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="936">
     <subfield code="a">Apr. 1981</subfield>

@@ -16,7 +16,7 @@
   <datafield ind1="2" ind2=" " tag="110">
     <subfield code="a">Stanford University.</subfield>
     <subfield code="b">Women's Community Center.</subfield>
-    <subfield code=" ">^A104006</subfield>
+    <subfield code="=">^A104006</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Stanford University, Women's Community Center, records,</subfield>
@@ -42,32 +42,32 @@
     <subfield code="a">Feminism</subfield>
     <subfield code="z">California</subfield>
     <subfield code="z">Stanford.</subfield>
-    <subfield code=" ">^A1017390</subfield>
+    <subfield code="=">^A1017390</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Feminist theory</subfield>
     <subfield code="x">Study and teaching.</subfield>
-    <subfield code=" ">^A1089196</subfield>
+    <subfield code="=">^A1089196</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women</subfield>
     <subfield code="x">Social networks.</subfield>
-    <subfield code=" ">^A1075848</subfield>
+    <subfield code="=">^A1075848</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women</subfield>
     <subfield code="x">Societies and clubs.</subfield>
-    <subfield code=" ">^A1075531</subfield>
+    <subfield code="=">^A1075531</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women's studies.</subfield>
-    <subfield code=" ">^A1075863</subfield>
+    <subfield code="=">^A1075863</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Women</subfield>
     <subfield code="z">California</subfield>
     <subfield code="z">Societies and clubs.</subfield>
-    <subfield code=" ">^A1934194</subfield>
+    <subfield code="=">^A1934194</subfield>
   </datafield>
   <datafield ind1="4" ind2="2" tag="856">
     <subfield code="3">Finding aid</subfield>

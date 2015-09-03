@@ -51,7 +51,7 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="440">
     <subfield code="a">Animation for grown-ups</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="500">
     <subfield code="a">Title from cassette label.</subfield>
@@ -70,15 +70,15 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Animated films.</subfield>
-    <subfield code=" ">^A1041239</subfield>
+    <subfield code="=">^A1041239</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Thoren, Terry.</subfield>
-    <subfield code=" ">^A2837168</subfield>
+    <subfield code="=">^A2837168</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Expanded Entertainment (Firm)</subfield>
-    <subfield code=" ">^A777438</subfield>
+    <subfield code="=">^A777438</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">ZVC 7640</subfield>

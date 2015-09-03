@@ -176,47 +176,47 @@
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Sennett, Mack,</subfield>
     <subfield code="d">1880-1960.</subfield>
-    <subfield code=" ">^A507605</subfield>
+    <subfield code="=">^A507605</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Comedy films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950551</subfield>
+    <subfield code="=">^A2950551</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Slapstick comedy films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950744</subfield>
+    <subfield code="=">^A2950744</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Silent films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950740</subfield>
+    <subfield code="=">^A2950740</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Nonfiction television programs.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950684</subfield>
+    <subfield code="=">^A2950684</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Biographical television programs.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950532</subfield>
+    <subfield code="=">^A2950532</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Fiction films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950597</subfield>
+    <subfield code="=">^A2950597</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Short films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950739</subfield>
+    <subfield code="=">^A2950739</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Feature films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950595</subfield>
+    <subfield code="=">^A2950595</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Sennett, Mack,</subfield>
@@ -225,436 +225,436 @@
     <subfield code="e">film producer,</subfield>
     <subfield code="e">actor,</subfield>
     <subfield code="e">screenwriter.</subfield>
-    <subfield code=" ">^A507605</subfield>
+    <subfield code="=">^A507605</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Normand, Mabel,</subfield>
     <subfield code="d">1894-1930</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A276453</subfield>
+    <subfield code="=">^A276453</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Sterling, Ford,</subfield>
     <subfield code="d">1882-1939</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A1274040</subfield>
+    <subfield code="=">^A1274040</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Arbuckle, Roscoe,</subfield>
     <subfield code="d">1887-1933</subfield>
     <subfield code="e">actor,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A501120</subfield>
+    <subfield code="=">^A501120</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Chaplin, Charlie,</subfield>
     <subfield code="d">1889-1977</subfield>
     <subfield code="e">actor,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A135329</subfield>
+    <subfield code="=">^A135329</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Chaplin, Syd,</subfield>
     <subfield code="d">1885-1965</subfield>
     <subfield code="e">actor,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1488424</subfield>
+    <subfield code="=">^A1488424</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Swain, Mack,</subfield>
     <subfield code="d">1876-1935</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A501145</subfield>
+    <subfield code="=">^A501145</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Conklin, Chester,</subfield>
     <subfield code="d">1888-1971,</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A548184</subfield>
+    <subfield code="=">^A548184</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Fazenda, Louise,</subfield>
     <subfield code="d">1895-1962</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A1332361</subfield>
+    <subfield code="=">^A1332361</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Turpin, Ben,</subfield>
     <subfield code="d">1874-1940</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A548185</subfield>
+    <subfield code="=">^A548185</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Kennedy, Edgar,</subfield>
     <subfield code="d">1890-1948,</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A556421</subfield>
+    <subfield code="=">^A556421</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Fishback, Fred</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1961661</subfield>
+    <subfield code="=">^A1961661</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Beery, Wallace,</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A151804</subfield>
+    <subfield code="=">^A151804</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Kenton, Erle C.,</subfield>
     <subfield code="d">1896-1980,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A649346</subfield>
+    <subfield code="=">^A649346</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Finlayson, James,</subfield>
     <subfield code="d">1887-1953,</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A636157</subfield>
+    <subfield code="=">^A636157</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Gribbon, Harry,</subfield>
     <subfield code="d">1885-1961</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A3242281</subfield>
+    <subfield code="=">^A3242281</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">St. Clair, Malcolm,</subfield>
     <subfield code="d">1897-1952,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A645588</subfield>
+    <subfield code="=">^A645588</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Lord, Del,</subfield>
     <subfield code="d">1894-1970,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1368155</subfield>
+    <subfield code="=">^A1368155</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Edwards, Harry,</subfield>
     <subfield code="d">1888-1952</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1274507</subfield>
+    <subfield code="=">^A1274507</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Langdon, Harry,</subfield>
     <subfield code="d">1884-1944,</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A266358</subfield>
+    <subfield code="=">^A266358</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Dent, Vernon,</subfield>
     <subfield code="d">1895-1963</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A853806</subfield>
+    <subfield code="=">^A853806</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Bevan, Billy,</subfield>
     <subfield code="d">1887-1957</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A650301</subfield>
+    <subfield code="=">^A650301</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Jones, Richard,</subfield>
     <subfield code="d">1893-1930</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A1200609</subfield>
+    <subfield code="=">^A1200609</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Cline, Edward,</subfield>
     <subfield code="d">1892-1961</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A645565</subfield>
+    <subfield code="=">^A645565</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Goulding, Alfred,</subfield>
     <subfield code="e">film director.</subfield>
-    <subfield code=" ">^A867888</subfield>
+    <subfield code="=">^A867888</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Hurlock, Madeline,</subfield>
     <subfield code="d">1899-1989</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A1370625</subfield>
+    <subfield code="=">^A1370625</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Lombard, Carole,</subfield>
     <subfield code="d">1908-1942,</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A28821</subfield>
+    <subfield code="=">^A28821</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Fields, W. C.</subfield>
     <subfield code="q">(William Claude),</subfield>
     <subfield code="d">1880-1946</subfield>
     <subfield code="e">actor.</subfield>
-    <subfield code=" ">^A121678</subfield>
+    <subfield code="=">^A121678</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Keystone Film Company,</subfield>
     <subfield code="e">production company.</subfield>
-    <subfield code=" ">^A45433</subfield>
+    <subfield code="=">^A45433</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Mack Sennett Comedies (Firm)</subfield>
     <subfield code="e">production company.</subfield>
-    <subfield code=" ">^A1937873</subfield>
+    <subfield code="=">^A1937873</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Curtain pole.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Manicure lady.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Dash through the clouds.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Water nymph (Motion picture)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Grocery clerk's romance.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">On his wedding day.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Bangville Police.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Fishy affair.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Speed kings (Motion picture : 1913)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Thief catcher.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Great toe mystery.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Recreation (Motion picture : 1914)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Shot in the excitement.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Noise of bombs.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Ambrose's first falsehood.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Bird's a bird.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Gussle's day of rest.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Do-re-mi-boom!</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Lover's lost control.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Submarine pirate.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Fatty and Mabel adrift.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">His bitter pill.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Madcap Ambrose.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Teddy at the throttle.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Her torpedoed love.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Clever dummy.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Hearts and flowers (Motion picture : 1919)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Down on the farm (Motion picture : 1920 : Kenton and Grey)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Don't weaken (Motion picture : 1920 : St. Clair)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Gymnasium Jim.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Extra girl.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Dare-devil (Motion picture : 1923)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Black Oxfords.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Galloping Bungalows.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">His marriage wow.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Super-hooper-dyne lizzies.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Rainy knight.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Saturday afternoon (Motion picture : 1926)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Sea dog's tale.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Hoboken to Hollywood.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Ice cold cocos.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Broke in China.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Pride of Pikeville.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Fiddlesticks (Motion picture : 1927)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Run, girl, run (Motion picture : 1928)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Taxi for two (Motion picture : 1928)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Bluffer (Motion picture : 1930)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Dentist (Motion picture : 1932)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Don't play bridge with your wife.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">Fatal glass of beer.</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="730">
     <subfield code="i">Contains (work):</subfield>
     <subfield code="a">This is your life (Television program)</subfield>
     <subfield code="p">Mack Sennett.</subfield>
-    <subfield code=" ">^A3242535</subfield>
+    <subfield code="=">^A3242535</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">C0</subfield>

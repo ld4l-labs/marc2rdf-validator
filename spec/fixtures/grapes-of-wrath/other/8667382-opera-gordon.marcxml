@@ -34,12 +34,12 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Gordon, Ricky Ian.</subfield>
-    <subfield code=" ">^A2431043</subfield>
+    <subfield code="=">^A2431043</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="240">
     <subfield code="a">Grapes of wrath.</subfield>
     <subfield code="s">Vocal score</subfield>
-    <subfield code=" ">^A2431043</subfield>
+    <subfield code="=">^A2431043</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath :</subfield>
@@ -64,18 +64,18 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Operas</subfield>
     <subfield code="v">Vocal scores with piano.</subfield>
-    <subfield code=" ">^A1045295</subfield>
+    <subfield code="=">^A1045295</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Korie, Michael</subfield>
     <subfield code="4">lbt</subfield>
-    <subfield code=" ">^A1386252</subfield>
+    <subfield code="=">^A1386252</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
     <subfield code="t">Grapes of wrath.</subfield>
-    <subfield code=" ">^A2091926</subfield>
+    <subfield code="=">^A2091926</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="035">
     <subfield code="a">(OCoLC-M)489195382</subfield>

@@ -69,22 +69,22 @@
     <subfield code="a">Arabic language</subfield>
     <subfield code="x">Writing</subfield>
     <subfield code="x">Software.</subfield>
-    <subfield code=" ">^A1082302</subfield>
+    <subfield code="=">^A1082302</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Persian language</subfield>
     <subfield code="x">Writing</subfield>
     <subfield code="x">Software.</subfield>
-    <subfield code=" ">^A1048058</subfield>
+    <subfield code="=">^A1048058</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Computer fonts</subfield>
     <subfield code="x">Software.</subfield>
-    <subfield code=" ">^A1252811</subfield>
+    <subfield code="=">^A1252811</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Apple Computer, Inc.</subfield>
-    <subfield code=" ">^A416591</subfield>
+    <subfield code="=">^A416591</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">ZMS 553 INSTALL/USER'S MANUAL</subfield>

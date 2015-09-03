@@ -34,7 +34,7 @@
     <subfield code="a">Lin, Hsiang-ju,</subfield>
     <subfield code="d">1931-</subfield>
     <subfield code="e">author.</subfield>
-    <subfield code=" ">^A1797002</subfield>
+    <subfield code="=">^A1797002</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Slippery noodles :</subfield>
@@ -75,13 +75,13 @@
     <subfield code="a">Food habits</subfield>
     <subfield code="z">China</subfield>
     <subfield code="x">History.</subfield>
-    <subfield code=" ">^A2383609</subfield>
+    <subfield code="=">^A2383609</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking</subfield>
     <subfield code="z">China</subfield>
     <subfield code="x">History.</subfield>
-    <subfield code=" ">^A2522473</subfield>
+    <subfield code="=">^A2522473</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="035">
     <subfield code="a">(OCoLC-M)907964888</subfield>

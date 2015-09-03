@@ -42,7 +42,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Montelaro, Janet J.</subfield>
-    <subfield code=" ">^A1235101</subfield>
+    <subfield code="=">^A1235101</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Producing a womanist text :</subfield>
@@ -61,7 +61,7 @@
   <datafield ind1=" " ind2="0" tag="440">
     <subfield code="a">ELS monograph series</subfield>
     <subfield code="v">no. 70</subfield>
-    <subfield code=" ">^A1125468</subfield>
+    <subfield code="=">^A1125468</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="504">
     <subfield code="a">Includes bibliographical references.</subfield>
@@ -73,15 +73,15 @@
     <subfield code="a">Walker, Alice,</subfield>
     <subfield code="d">1944-</subfield>
     <subfield code="t">Color purple.</subfield>
-    <subfield code=" ">^A1323922</subfield>
+    <subfield code="=">^A1323922</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">African American women in literature</subfield>
-    <subfield code=" ">^A1095933</subfield>
+    <subfield code="=">^A1095933</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Mothers in literature.</subfield>
-    <subfield code=" ">^A1040990</subfield>
+    <subfield code="=">^A1040990</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">PS3573 .A425 C636 1996</subfield>

@@ -39,7 +39,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Davis, Miles</subfield>
     <subfield code="4">prf</subfield>
-    <subfield code=" ">^A26026</subfield>
+    <subfield code="=">^A26026</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The complete birth of the cool</subfield>
@@ -75,12 +75,12 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Trumpet music (Jazz)</subfield>
-    <subfield code=" ">^A1070197</subfield>
+    <subfield code="=">^A1070197</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Jazz</subfield>
     <subfield code="y">1941-1950.</subfield>
-    <subfield code=" ">^A1089336</subfield>
+    <subfield code="=">^A1089336</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">Z0</subfield>

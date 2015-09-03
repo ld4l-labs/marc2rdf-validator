@@ -33,7 +33,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Franklin, Peter.</subfield>
-    <subfield code=" ">^A310496</subfield>
+    <subfield code="=">^A310496</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Mahler :</subfield>
@@ -53,7 +53,7 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="440">
     <subfield code="a">Cambridge music handbooks</subfield>
-    <subfield code=" ">^A1152511</subfield>
+    <subfield code="=">^A1152511</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="504">
     <subfield code="a">Includes bibliographical references (p. 119-121) and index.</subfield>
@@ -67,7 +67,7 @@
     <subfield code="t">Symphonies,</subfield>
     <subfield code="n">no. 3,</subfield>
     <subfield code="r">D minor.</subfield>
-    <subfield code=" ">^A230732</subfield>
+    <subfield code="=">^A230732</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="905">
     <subfield code="a">List of plates-- Preface-- Part I. The Symphony in its World: 1. Background: progress, tradition and ideas-- 2. Reception: the early performances-- Part II. The World in the Symphony: 3. Genesis and design-- 4. The music-- Appendices-- Notes-- Select bibliography-- Index.</subfield>

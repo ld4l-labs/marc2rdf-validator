@@ -63,90 +63,90 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Feature films.</subfield>
-    <subfield code=" ">^A1017258</subfield>
+    <subfield code="=">^A1017258</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Thrillers (Motion pictures)</subfield>
-    <subfield code=" ">^A2007198</subfield>
+    <subfield code="=">^A2007198</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Motion pictures, American.</subfield>
-    <subfield code=" ">^A1079750</subfield>
+    <subfield code="=">^A1079750</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Feature films.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950595</subfield>
+    <subfield code="=">^A2950595</subfield>
   </datafield>
   <datafield ind1=" " ind2="7" tag="655">
     <subfield code="a">Video recordings for the hearing impaired.</subfield>
     <subfield code="2">lcgft</subfield>
-    <subfield code=" ">^A2950816</subfield>
+    <subfield code="=">^A2950816</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Hitchcock, Alfred,</subfield>
     <subfield code="d">1899-1980.</subfield>
-    <subfield code=" ">^A93935</subfield>
+    <subfield code="=">^A93935</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Saboteur (Motion picture : 1942)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Shadow of a doubt (Motion picture)</subfield>
-    <subfield code=" ">^A1486587</subfield>
+    <subfield code="=">^A1486587</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Rope (Motion picture)</subfield>
-    <subfield code=" ">^A3046122</subfield>
+    <subfield code="=">^A3046122</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Rear window (Motion picture)</subfield>
-    <subfield code=" ">^A1268811</subfield>
+    <subfield code="=">^A1268811</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Trouble with Harry (Motion picture)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">North by northwest (Motion picture)</subfield>
-    <subfield code=" ">^A1173064</subfield>
+    <subfield code="=">^A1173064</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Man who knew too much (Motion picture : 1956)</subfield>
-    <subfield code=" ">^A3046042</subfield>
+    <subfield code="=">^A3046042</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Vertigo (Motion picture : 1958)</subfield>
-    <subfield code=" ">^A1344817</subfield>
+    <subfield code="=">^A1344817</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Psycho (Motion picture : 1960)</subfield>
-    <subfield code=" ">^A974937</subfield>
+    <subfield code="=">^A974937</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Birds (Motion picture)</subfield>
-    <subfield code=" ">^A1341674</subfield>
+    <subfield code="=">^A1341674</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Marnie (Motion picture)</subfield>
-    <subfield code=" ">^A1507589</subfield>
+    <subfield code="=">^A1507589</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Torn curtain (Motion picture)</subfield>
-    <subfield code=" ">^A2844044</subfield>
+    <subfield code="=">^A2844044</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Topaz (Motion picture : 1969)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Frenzy (Motion picture : 1972)</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">Family plot (Motion picture)</subfield>
-    <subfield code=" ">^A3046400</subfield>
+    <subfield code="=">^A3046400</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="994">
     <subfield code="a">Z0</subfield>

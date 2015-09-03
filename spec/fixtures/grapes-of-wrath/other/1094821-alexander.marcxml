@@ -32,7 +32,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Alexander, Charlotte A.</subfield>
-    <subfield code=" ">^A2892946</subfield>
+    <subfield code="=">^A2892946</subfield>
   </datafield>
   <datafield ind1="0" ind2="0" tag="245">
     <subfield code="a">John Steinbeck's The grapes of wrath /</subfield>
@@ -60,7 +60,7 @@
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
     <subfield code="t">Grapes of wrath.</subfield>
-    <subfield code=" ">^A2091926</subfield>
+    <subfield code="=">^A2091926</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="986">
     <subfield code="a">Winner of Pulitzer Prize Novel Category 1940.</subfield>

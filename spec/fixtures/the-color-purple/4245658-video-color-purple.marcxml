@@ -73,40 +73,40 @@
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Feature films.</subfield>
-    <subfield code=" ">^A1017258</subfield>
+    <subfield code="=">^A1017258</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Spielberg, Steven,</subfield>
     <subfield code="d">1947-</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Walker, Alice,</subfield>
     <subfield code="d">1944-</subfield>
     <subfield code="t">Color purple.</subfield>
     <subfield code="h">[Videorecording].</subfield>
-    <subfield code=" ">^A1323922</subfield>
+    <subfield code="=">^A1323922</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Goldberg, Whoopi,</subfield>
     <subfield code="d">1955-</subfield>
-    <subfield code=" ">^A509871</subfield>
+    <subfield code="=">^A509871</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Glover, Danny.</subfield>
-    <subfield code=" ">^A504588</subfield>
+    <subfield code="=">^A504588</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Winfrey, Oprah.</subfield>
-    <subfield code=" ">^A581569</subfield>
+    <subfield code="=">^A581569</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Warner Bros.</subfield>
-    <subfield code=" ">^A164952</subfield>
+    <subfield code="=">^A164952</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">Warner Home Video (Firm)</subfield>
-    <subfield code=" ">^A885612</subfield>
+    <subfield code="=">^A885612</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">ZDVD 53</subfield>

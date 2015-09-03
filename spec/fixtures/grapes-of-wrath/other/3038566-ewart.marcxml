@@ -21,7 +21,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Ewart, Ernest Andrew,</subfield>
     <subfield code="d">1878-</subfield>
-    <subfield code=" ">UNAUTHORIZED</subfield>
+    <subfield code="?">UNAUTHORIZED</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Grapes of Wrath,</subfield>
@@ -42,7 +42,7 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Somme, 1st Battle of the, France, 1916</subfield>
     <subfield code="x">Fiction.</subfield>
-    <subfield code=" ">^A1062613</subfield>
+    <subfield code="=">^A1062613</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">D545 .S7 E94</subfield>

@@ -72,12 +72,12 @@
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Waitresses</subfield>
     <subfield code="v">Computer games.</subfield>
-    <subfield code=" ">^A1074124</subfield>
+    <subfield code="=">^A1074124</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Restaurants</subfield>
     <subfield code="v">Computer games.</subfield>
-    <subfield code=" ">^A1056003</subfield>
+    <subfield code="=">^A1056003</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="655">
     <subfield code="a">Puzzles</subfield>

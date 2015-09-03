@@ -90,60 +90,60 @@
   </datafield>
   <datafield ind1="1" ind2="0" tag="600">
     <subfield code="a">Child, Julia.</subfield>
-    <subfield code=" ">^A123471</subfield>
+    <subfield code="=">^A123471</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Cooking, French</subfield>
-    <subfield code=" ">^A1007979</subfield>
+    <subfield code="=">^A1007979</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Television programs</subfield>
     <subfield code="z">United States.</subfield>
-    <subfield code=" ">^A2561927</subfield>
+    <subfield code="=">^A2561927</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="655">
     <subfield code="a">Instructional videos.</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Child, Julia.</subfield>
-    <subfield code=" ">^A123471</subfield>
+    <subfield code="=">^A123471</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Morash, Russell.</subfield>
-    <subfield code=" ">^A2619859</subfield>
+    <subfield code="=">^A2619859</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Lockwood, Ruth.</subfield>
-    <subfield code=" ">^A1935497</subfield>
+    <subfield code="=">^A1935497</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Mellowes, Marilyn H.</subfield>
-    <subfield code=" ">^A1455094</subfield>
+    <subfield code="=">^A1455094</subfield>
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Murphy, Michael,</subfield>
     <subfield code="d">1938-</subfield>
-    <subfield code=" ">^A556412</subfield>
+    <subfield code="=">^A556412</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">WGBH (Television station : Boston, Mass.)</subfield>
-    <subfield code=" ">^A179033</subfield>
+    <subfield code="=">^A179033</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">WNET (Television station : New York, N.Y.)</subfield>
-    <subfield code=" ">^A150798</subfield>
+    <subfield code="=">^A150798</subfield>
   </datafield>
   <datafield ind1="2" ind2=" " tag="710">
     <subfield code="a">WGBH Video (Firm)</subfield>
-    <subfield code=" ">^A1382270</subfield>
+    <subfield code="=">^A1382270</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">French chef (Television program)</subfield>
-    <subfield code=" ">^A2620873</subfield>
+    <subfield code="=">^A2620873</subfield>
   </datafield>
   <datafield ind1="0" ind2=" " tag="730">
     <subfield code="a">American masters (Television program)</subfield>
-    <subfield code=" ">^A1172106</subfield>
+    <subfield code="=">^A1172106</subfield>
   </datafield>
   <datafield ind1="0" ind2="2" tag="740">
     <subfield code="a">Julia Child!, America's favorite chef.</subfield>
