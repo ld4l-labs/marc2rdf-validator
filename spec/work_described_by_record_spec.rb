@@ -28,19 +28,26 @@ describe 'the work described by the MARC record' do
                   WHERE {
                     ?work a bf:Work .
                   }") }
-  # TODO:  rework title query for workTitle (?)
-  # TODO:  title shouldn't have certain subfields (e.g. ‡=, ‡?)
-  let(:work_title_sparql) {"PREFIX bf: <http://bibframe.org/vocab/>
-                            SELECT DISTINCT ?work
-                            WHERE {
-                              ?work a bf:Work .
-                              ?work bf:authorizedAccessPoint ?aap .
-                              FILTER regex(?aap, 'TITLE_REGEX', 'i')
-                            }" }
+  let(:work_title_value_squery) {
+    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
+                  SELECT DISTINCT ?titleValue
+                  WHERE {
+                    ?work a bf:Work .
+                    ?work bf:workTitle ?title .
+                    ?title a bf:Title .
+                    ?title bf:titleValue ?titleValue .
+                  }") }
+  let(:work_subtitle_squery) {
+    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
+                  SELECT DISTINCT ?subtitle
+                  WHERE {
+                    ?work a bf:Work .
+                    ?work bf:workTitle ?title .
+                    ?title a bf:Title .
+                    ?title bf:subtitle ?subtitle .
+                  }") }
 
   context "130" do
-    let(:beowulf_work_title_squery) { SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'Beowulf'))}
-
     context "‡a (+ 245) only" do
       let(:g) {
         rec_id = '130a_only'
@@ -58,9 +65,11 @@ describe 'the work described by the MARC record' do
         expect(g.query(work_squery).size).to eq 1
       end
       it 'work title from 130' do
-        expect(g.query(beowulf_work_title_squery).size).to eq 1
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'ignore'))
-        expect(g.query(work_title_squery).size).to eq 0
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Beowulf/)
+        expect(title_value).not_to match(/ignore/)
       end
     end
 
@@ -82,9 +91,11 @@ describe 'the work described by the MARC record' do
         expect(g.query(work_squery).size).to eq 1
       end
       it 'work title from 130' do
-        expect(g.query(beowulf_work_title_squery).size).to eq 1
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'ignore'))
-        expect(g.query(work_title_squery).size).to eq 0
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Beowulf/)
+        expect(title_value).not_to match(/ignore/)
       end
     end
 
@@ -109,10 +120,11 @@ describe 'the work described by the MARC record' do
         expect(g.query(work_squery).size).to eq 1
       end
       it 'work title from 130' do
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'Annale'))
-        expect(g.query(work_title_squery).size).to eq 1
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'van'))
-        expect(g.query(work_title_squery).size).to eq 0
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Annale/)
+        expect(title_value).not_to match(/van/)
       end
     end
 
@@ -130,8 +142,10 @@ describe 'the work described by the MARC record' do
         </datafield>
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'The annual register'))
-      expect(g.query(work_title_squery).size).to eq 1
+      solns = g.query(work_title_value_squery)
+      expect(solns.size).to eq 1
+      title_value = solns.first.titleValue.to_s
+      expect(title_value).to match(/The annual register/)
     end
   end # context 130
 
@@ -158,18 +172,13 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 100 + 240' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'Davis, Miles', 'i')
-                                        FILTER regex(?aap, 'Birth of the cool', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'ignore'))
-        expect(g.query(work_title_squery).size).to eq 0
+      it 'work title from 240' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Birth of the cool/)
+        expect(title_value).not_to match(/ignore/) # 245a
+        expect(title_value).not_to match(/Davis, Miles/) # 100a
       end
     end
     context '110 ‡a, ‡b, ‡= and 240 ‡a has single work' do
@@ -195,21 +204,13 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 110 + 240' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'South Africa', 'i')
-                                        FILTER regex(?aap, 'Department of Education', 'i')
-                                        FILTER regex(?aap, 'Annual report', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'ignore'))
-        expect(g.query(work_title_squery).size).to eq 0
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'electronic resource'))
-        expect(g.query(work_title_squery).size).to eq 0
+      it 'work title from 240' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Annual report \(Online\)/)
+        expect(title_value).not_to match(/ignore/) #245a
+        expect(title_value).not_to match(/South Africa/) # 110a
       end
     end
     context '111 ‡a, ‡? and 240 ‡a has single work' do
@@ -234,18 +235,13 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 111 + 245' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'International Workshop on Faces', 'i')
-                                        FILTER regex(?aap, 'Proceedings', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
-        work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'ignore'))
-        expect(g.query(work_title_squery).size).to eq 0
+      it 'work title from 240' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Proceedings \(Online\)/)
+        expect(title_value).not_to match(/ignore/) # 245a
+        expect(title_value).not_to match(/International Workshop on Faces/) # 111a
       end
     end
 
@@ -268,8 +264,10 @@ describe 'the work described by the MARC record' do
         </datafield>
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'The art'))
-      expect(g.query(work_title_squery).size).to eq 1
+      solns = g.query(work_title_value_squery)
+      expect(solns.size).to eq 1
+      title_value = solns.first.titleValue.to_s
+      expect(title_value).to match(/The art/)
     end
 
     it '240 ind1 = 0  (not printed or displayed)' do
@@ -283,8 +281,8 @@ describe 'the work described by the MARC record' do
         </datafield>
         <datafield ind1="0" ind2="0" tag="240">
           <subfield code="a">Works.</subfield>
-          <subfield code="a">Selections.</subfield>
-          <subfield code="a">1989.</subfield>
+          <subfield code="k">Selections.</subfield>
+          <subfield code="f">1989.</subfield>
         </datafield>
         <datafield ind1="1" ind2="0" tag="245">
           <subfield code="a">Tomás Carrasquilla /</subfield>
@@ -292,10 +290,10 @@ describe 'the work described by the MARC record' do
         </datafield>
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'Works'))
-      expect(g.query(work_title_squery).size).to eq 1
-      work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'Selections'))
-      expect(g.query(work_title_squery).size).to eq 1
+      solns = g.query(work_title_value_squery)
+      expect(solns.size).to eq 1
+      title_value = solns.first.titleValue.to_s
+      expect(title_value).to match(/Works/)
       skip "don't know what to do with these.  Currently ignore 240 ind1"
     end
   end # context 1xx and 240
@@ -324,21 +322,18 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 100 + 245' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'Lin, Hsiang-ju', 'i')
-                                        FILTER regex(?aap, '1931', 'i')
-                                        FILTER regex(?aap, 'Slippery noodles', 'i')
-                                        FILTER regex(?aap, 'a culinary history of China', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
-        # TODO:  should we ignore 245c (b/c we have 100?)
-        #work_title_squery = SPARQL.parse(work_title_sparql.sub('TITLE_REGEX', 'Hsiang Ju Lin'))
-        #expect(g.query(work_title_squery).size).to eq 0
+      it 'work title from 245' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Slippery noodles/)
+        expect(title_value).not_to match(/Lin, Hsiang-ju/) # 100a
+        solns = g.query(work_subtitle_squery)
+        expect(solns.size).to eq 1
+        subtitle = solns.first.subtitle.to_s
+        expect(subtitle).to match(/a culinary history of China/)
+        expect(subtitle).not_to match(/Hsiang Ju Lin/) # 245c
+        expect(subtitle).not_to match(/Lin, Hsiang-ju/) # 100a
       end
     end
     context '110 ‡a, ‡b, ‡= and 245 ‡a, ‡f' do
@@ -360,17 +355,11 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 110 + 245' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'Stanford University', 'i')
-                                        FILTER regex(?aap, 'Women\\'s Community Center', 'i')
-                                        FILTER regex(?aap, 'records', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
+      it 'work title from 245' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Stanford University, Women's Community Center, records/)
       end
     end
     context '111 ‡a ‡n ‡d ‡c ‡= and 245 ‡a ‡b ‡c' do
@@ -395,19 +384,17 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 111 + 245' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'International Jean Sibelius Conference', 'i')
-                                        FILTER regex(?aap, '2000', 'i')
-                                        FILTER regex(?aap, 'Helsinki, Finland', 'i')
-                                        FILTER regex(?aap, 'Sibelius forum II', 'i')
-                                        FILTER regex(?aap, 'proceedings from the third', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
+      it 'work title from 245' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Sibelius forum II/)
+        expect(title_value).not_to match(/International Jean Sibelius Conference/)  # 245b, 111a
+        solns = g.query(work_subtitle_squery)
+        expect(solns.size).to eq 1
+        subtitle = solns.first.subtitle.to_s
+        expect(subtitle).to match(/proceedings from the third International Jean Sibelius Conference/)
+        expect(subtitle).not_to match(/Finland/) #111c
       end
     end
     it '245 non-filing chars (ind2)' do
@@ -426,17 +413,17 @@ describe 'the work described by the MARC record' do
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       expect(g.query(work_squery).size).to eq 1
-      title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                    SELECT DISTINCT ?work
-                                    WHERE {
-                                      ?work a bf:Work .
-                                      ?work bf:authorizedAccessPoint ?aap .
-                                      FILTER regex(?aap, 'Walker, Alice', 'i')
-                                      FILTER regex(?aap, 'The color purple', 'i')
-                                      FILTER regex(?aap, 'a novel', 'i')
-                                    }")
-      expect(g.query(title_squery).size).to eq 1
-      skip 'non-filing chars in title bf:title property on bf:Work'
+      solns = g.query(work_title_value_squery)
+      expect(solns.size).to eq 1
+      title_value = solns.first.titleValue.to_s
+      expect(title_value).to match(/The color purple/)
+      expect(title_value).not_to match(/Walker/) # 100a, 245c
+      solns = g.query(work_subtitle_squery)
+      expect(solns.size).to eq 1
+      subtitle = solns.first.subtitle.to_s
+      expect(subtitle).to match(/a novel/)
+      expect(subtitle).not_to match(/Walker/) # 100a, 245c
+      skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
     end
   end # context 1xx and 245
 
@@ -456,17 +443,19 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title includes ‡a ‡b ‡c' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'Primary colors', 'i')
-                                        FILTER regex(?aap, 'a novel of politics', 'i')
-                                        FILTER regex(?aap, 'Anonymous', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
+      it 'work title includes ‡a' do
+        expect(g.query(work_squery).size).to eq 1
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/Primary colors/)
+        expect(title_value).not_to match(/a novel of politics/) # 245b
+        expect(title_value).not_to match(/Anonymous/) # 245c
+        solns = g.query(work_subtitle_squery)
+        expect(solns.size).to eq 1
+        subtitle = solns.first.subtitle.to_s
+        expect(subtitle).to match(/a novel of politics/)
+        expect(subtitle).not_to match(/Anonymous/) # 245c
       end
     end
     context '245 non-filing chars (ind2)' do
@@ -483,20 +472,18 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title includes ‡a ‡c' do
-        title_squery = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
-                                      SELECT DISTINCT ?work
-                                      WHERE {
-                                        ?work a bf:Work .
-                                        ?work bf:authorizedAccessPoint ?aap .
-                                        FILTER regex(?aap, 'A Memoir of Mary Ann', 'i')
-                                        FILTER regex(?aap, 'by the Dominican nuns of Our Lady of Perpetual Help Home', 'i')
-                                      }")
-        expect(g.query(title_squery).size).to eq 1
-        skip 'non-filing chars in title bf:title property on bf:Work'
+      it 'work title includes ‡a' do
+        expect(g.query(work_squery).size).to eq 1
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/A Memoir of Mary Ann/)
+        expect(title_value).not_to match(/by the Dominican nuns of Our Lady of Perpetual Help Home/)
+        solns = g.query(work_subtitle_squery)
+        expect(solns.size).to eq 0 # no 245b
+        skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
       end
     end
-
   end # context 245 no 1xx
 
 end
