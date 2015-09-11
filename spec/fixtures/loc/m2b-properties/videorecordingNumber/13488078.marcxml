@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01055cgm a22002655a 4500</leader>
+  <controlfield tag="001">13488078</controlfield>
+  <controlfield tag="005">20040211160725.0</controlfield>
+  <controlfield tag="008">040211s2003    xxu040            vleng d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">ibc</subfield>
+    <subfield code="c">copycat</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">CAD uf12 2004-02-11 Preprocessor</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a"/>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm53888051</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">TEFMT</subfield>
+    <subfield code="c">TEFMT</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1560862505</subfield>
+  </datafield>
+  <datafield tag="024" ind1="1" ind2=" ">
+    <subfield code="a">737138054239</subfield>
+  </datafield>
+  <datafield tag="028" ind1="4" ind2="2">
+    <subfield code="a">542</subfield>
+    <subfield code="b">Sisu</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="b">Midwest Tapes</subfield>
+    <subfield code="n">http://www.midwesttapes.com</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Chanukah on planet matzah ball</subfield>
+    <subfield code="h">[videorecording].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[United States] :</subfield>
+    <subfield code="b">Sisu,</subfield>
+    <subfield code="c">2003.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 videocassette (40 min.) :</subfield>
+    <subfield code="b">sd., col. ;</subfield>
+    <subfield code="c">1/2 in.</subfield>
+  </datafield>
+  <datafield tag="538" ind1=" " ind2=" ">
+    <subfield code="a">VHS.</subfield>
+  </datafield>
+  <datafield tag="521" ind1="8" ind2=" ">
+    <subfield code="a">MPAA rating: Not rated.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">On a giant Matzah Ball in outer space lives a family of funny, furry, Jewish aliens. When a menorah crash lands the 9-year-old is puzzled as to what it is because they have not kept up with traditions. He looks to Earth to see kids celebrating Chanukah.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13488078</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

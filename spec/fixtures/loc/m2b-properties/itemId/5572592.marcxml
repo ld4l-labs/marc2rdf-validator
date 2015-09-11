@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01733cem a2200373 a 4500</leader>
+  <controlfield tag="001">5572592</controlfield>
+  <controlfield tag="005">19980922153159.4</controlfield>
+  <controlfield tag="007">aj|aanzn</controlfield>
+  <controlfield tag="008">980721s1998    deu       a     0   eng  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   98689312</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">origcop</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-geogmaps</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">ga05</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   98689312 </subfield>
+  </datafield>
+  <datafield tag="034" ind1="0" ind2=" ">
+    <subfield code="a">a</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">G3834.R4 1998 </subfield>
+    <subfield code="b">.R4</subfield>
+  </datafield>
+  <datafield tag="052" ind1=" " ind2=" ">
+    <subfield code="a">3834</subfield>
+    <subfield code="b">R4</subfield>
+    <subfield code="b">D5</subfield>
+  </datafield>
+  <datafield tag="110" ind1="2" ind2=" ">
+    <subfield code="a">Rehoboth Beach-Dewey Beach Chamber of Commerce.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">'98-'99 visitors directory, Rehoboth Beach-Dewey Beach Chamber of Commerce :</subfield>
+    <subfield code="b">fold-out map inside.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2=" ">
+    <subfield code="a">'Ninety-eight-'ninety-nine visitors directory, Rehoboth Beach Dewey Beach Chamber of Commerce</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="0">
+    <subfield code="a">Visitors directory, Rehoboth Beach-Dewey Beach Chamber of Commerce</subfield>
+  </datafield>
+  <datafield tag="255" ind1=" " ind2=" ">
+    <subfield code="a">Scale not given.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Rehoboth Beach, Del. :</subfield>
+    <subfield code="b">Rehoboth Beach-Dewey Beach Chamber of Commerce,</subfield>
+    <subfield code="c">[1998]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">2 maps on 1 sheet :</subfield>
+    <subfield code="b">both sides ;</subfield>
+    <subfield code="c">35 x 20 cm. and 36 x 18 cm., sheet 57 x 21 cm., folded in cover 21 x 11 cm. +</subfield>
+    <subfield code="e">text (87 p. : directories, ill., map ; 21 cm.)</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Cover title.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The map sheet constitutes pp. 39-40 and 49-50 of the accompanying directory booklet.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes directories, ill., and "Visitors survey" form.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">[Street map of Rehoboth Beach, Dewey Beach, and vicinity] -- [Map of recreation areas in the Rehoboth Beach region].</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Rehoboth Beach (Del.)</subfield>
+    <subfield code="x">Maps.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Rehoboth Beach (Del.)</subfield>
+    <subfield code="x">Directories.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Dewey Beach (Del.)</subfield>
+    <subfield code="x">Maps.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Dewey Beach (Del.)</subfield>
+    <subfield code="x">Directories.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Recreation areas</subfield>
+    <subfield code="z">Delaware</subfield>
+    <subfield code="z">Rehoboth Beach Region</subfield>
+    <subfield code="x">Maps.</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-G&amp;M</subfield>
+    <subfield code="h">G3834.R4 1998 </subfield>
+    <subfield code="i">.R4</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">MAPS</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5572592</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>07792ckc a2201081 a 4500</leader>
+  <controlfield tag="001">11628622</controlfield>
+  <controlfield tag="005">20150626082430.0</controlfield>
+  <controlfield tag="007">gt|cjuuuu</controlfield>
+  <controlfield tag="007">cr |||</controlfield>
+  <controlfield tag="007">gs|cuuuuu</controlfield>
+  <controlfield tag="007">cr |||</controlfield>
+  <controlfield tag="008">940527i19391943xxunnn            kneng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-printpho</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">qw01</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   93845501</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DLC)11628622</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   93845501 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="e">gihc</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Guide Record</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)</subfield>
+    <subfield code="h">[graphic].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1939-1944.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1,616 transparencies (film and slides) :</subfield>
+    <subfield code="b">color ;</subfield>
+    <subfield code="c">4 x 5 in. or smaller.</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="a">Organized into two series (FSA and OWI): FSA has a series code beginning with the prefix LC-USF35; OWI has a series code beginning with prefix LC-USW36;</subfield>
+    <subfield code="b">Each series is arranged by name of photographer, and subarranged by shooting assignment.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="0" ind2=" ">
+    <subfield code="a">Documentary images of life and culture in the United States, Puerto Rico, and the U.S. Virgin Islands. Farm Security Administration images focus on rural areas, depicting farming, mining, forestry, migrant labor, children, and fairs. Includes particularly extensive coverage of Afro-Americans, but also includes whites, Hispanic Americans, and islanders. Office of War Information images cover civilian training during World War II, civil engineering (especially dam construction and operation of the Tennessee Valley Authority), factories and industrial labor, women working in the defense industry, transportation (particularly by railroad and by air), World War II mobilization, military facilities (with an emphasis on air bases), scenes related to national security and civil service, and war industries. Includes scenes of mountains, rivers, forests, other natural features, and towns. Also includes some historic sites and monuments.</subfield>
+  </datafield>
+  <datafield tag="545" ind1=" " ind2=" ">
+    <subfield code="a">The U.S. Farm Security Administration (FSA) was created in the Department of Agriculture in 1937. The FSA and its predecessor, the Resettlement Administration (RA), were New Deal programs designed to assist poor farmers working in the Dust Bowl and during the Great Depression. The U.S. Office of War Information (OWI) was created in 1942 to be a U.S. government propaganda agency during World War II. The images created by these agencies during this period are among the earliest color film photographs used for documentary purpose. Many of the assignments covered in color were also covered in black and white.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Digitized images of all items in the collection and their associated identifying information are available through the Prints &amp; Photographs Online Catalog,</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.fsac</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Digitized images were also available through the Library of Congress American Memory Web site published in 1996 and closed in 2013; called: America from the Great Depression to World War II: color photographs from the FSA-OWI, 1939-1945.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">B&amp;w reference copy prints are LOT 11671 and LOT 12002.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Collection title devised by Library staff.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Photographers are: David Bransby (1942), John Collier (1942-1943), Marjory Collins (1943), Jack Delano (1940-1943), Royden Dixon (1941-1942), Jack Downey (1944), Andreas Feininger (1942), Howard R. Hollem (ca. 1941-1945), Fenno Jacobs (1942), Russell Lee (1940-1942), Howard Liberman (1942), Alfred T. Palmer (1941-1943), William M. Rittase (1942), Louise Rosskam (1941-1942), Arthur Rothstein (1942), John Rous (1941), Mark Sherwood (1942), Arthur S. Siegel (1942), John Vachon (1939-1942), and Marion Post Wolcott (1939-1941).</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes 550 35mm slides; the other transparencies are larger format: 2 1/2 x 2 1/2, 3x4, and 4x5 inches. The type of film is Kodachrome.</subfield>
+  </datafield>
+  <datafield tag="506" ind1=" " ind2=" ">
+    <subfield code="a">Please use online digital copies instead of original material, following Division's preservation policy.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="c">Transfer;</subfield>
+    <subfield code="a">U.S. Office of War Information;</subfield>
+    <subfield code="d">1944.</subfield>
+  </datafield>
+  <datafield tag="555" ind1="8" ind2=" ">
+    <subfield code="a">A set of catalog records describing each item is available through the Open Archives Initiative Protocol for Metadata Harvesting. See</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.gdc/lcoa1.about</subfield>
+  </datafield>
+  <datafield tag="581" ind1="8" ind2=" ">
+    <subfield code="a">Published in: Bound for glory: America in color, 1939-43 / Essay by Paul Hendrickson. New York : H.N. Abrams, 2004.</subfield>
+  </datafield>
+  <datafield tag="610" ind1="2" ind2="4">
+    <subfield code="a">Tennessee Valley Authority</subfield>
+    <subfield code="y">1930-1940.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Aeronautics</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="4">
+    <subfield code="a">African Americans</subfield>
+    <subfield code="y">1930-1950.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Agriculture</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Assembly-line methods</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Children</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Civil engineering</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Civil service</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Country life</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Depressions</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Dwellings</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Fairs</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Farm relief</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Farms</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Forestry</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Historic sites</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Industrial facilities</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Mining</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Mountains</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">National security</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Railroads</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Shipping</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Transportation</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="4">
+    <subfield code="a">Women</subfield>
+    <subfield code="x">Employment</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="y">1930-1950.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">World War, 1939-1945.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Dust Bowl Era, 1931-1939.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Landscape photographs</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Film transparencies</subfield>
+    <subfield code="x">Color</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Slides</subfield>
+    <subfield code="x">Color</subfield>
+    <subfield code="y">1930-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Bransby, David,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Collins, Marjory,</subfield>
+    <subfield code="d">1912-1985,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Collier, John,</subfield>
+    <subfield code="c">Jr.,</subfield>
+    <subfield code="d">1913-1992,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Delano, Jack,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Dixon, Royden,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Downey, Jack,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Feininger, Andreas,</subfield>
+    <subfield code="d">1906-1999,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Hollem, Howard R.,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Jacobs, Fenno,</subfield>
+    <subfield code="d">1904-1975,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Lee, Russell,</subfield>
+    <subfield code="d">1903-1986,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Liberman, Howard,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Palmer, Alfred T.,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Rittase, William M.,</subfield>
+    <subfield code="d">1894-1968,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Rosskam, Louise,</subfield>
+    <subfield code="d">1910-2003,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Rothstein, Arthur,</subfield>
+    <subfield code="d">1915-1985,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Rous, John,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Sherwood, Mark,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Siegel, Arthur S.,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Vachon, John,</subfield>
+    <subfield code="d">1914-1975,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Wolcott, Marion Post,</subfield>
+    <subfield code="d">1910-1990,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2=" ">
+    <subfield code="a">United States.</subfield>
+    <subfield code="b">Farm Security Administration.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2=" ">
+    <subfield code="a">United States.</subfield>
+    <subfield code="b">Office of War Information.</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2=" ">
+    <subfield code="a">America from the great depression to World War II: color  photographs from the FSA-OWI, 1939-1945.</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Library of Congress</subfield>
+    <subfield code="b">Prints and Photographs Division</subfield>
+    <subfield code="e">Washington, D.C. 20540-4840 USA</subfield>
+    <subfield code="n">dcu</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.print</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="z">Search for FSA-OWI items in Prints &amp; Photographs Online Catalog</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.fsac</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">pp/guide</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">collpull</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-P&amp;P</subfield>
+    <subfield code="h">Guide Record</subfield>
+    <subfield code="v">obj.</subfield>
+    <subfield code="w">MUMS VM File</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11628622</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00729cam a2200217u  4500</leader>
+  <controlfield tag="001">8661169</controlfield>
+  <controlfield tag="005">20040116132346.0</controlfield>
+  <controlfield tag="008">820416s1882    ho            000 0 spa  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   01022246</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">premunv</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   01022246 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">CarP</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">E112</subfield>
+    <subfield code="b">.S71</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Soto, Marco Aurelio,</subfield>
+    <subfield code="d">1846-1908.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a"> &#x31C;Desembarco Cristobal Colon en tierra firme del continente americano?</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Tegucigalpa,</subfield>
+    <subfield code="b">Tipografi&#x301;a nacional,</subfield>
+    <subfield code="c">1882.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">34 p.</subfield>
+    <subfield code="c">29 x 17 cm.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Columbus, Christopher</subfield>
+    <subfield code="x">Landfall.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Milla, Jose&#x301;,</subfield>
+    <subfield code="d">1822-1882.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Rosa, Ramo&#x301;n,</subfield>
+    <subfield code="d">1848-1893,</subfield>
+    <subfield code="e">ed.</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">E112</subfield>
+    <subfield code="i">.S71</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">PREM</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=8661169</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

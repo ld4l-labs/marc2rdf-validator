@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02301cas a22004575a 4500</leader>
+  <controlfield tag="001">11402156</controlfield>
+  <controlfield tag="005">20130113161355.0</controlfield>
+  <controlfield tag="008">920615d1991199udcuar        f0    0eng c</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   92642101 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1301126194-p-----    </subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm26018750 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DEEI</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DEEI</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NIC</subfield>
+    <subfield code="d">DGPO</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">OCoLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">IN PROCESS</subfield>
+  </datafield>
+  <datafield tag="086" ind1="0" ind2=" ">
+    <subfield code="a">A 68.1</subfield>
+  </datafield>
+  <datafield tag="110" ind1="1" ind2=" ">
+    <subfield code="a">United States.</subfield>
+    <subfield code="b">Rural Electrification Administration.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="2">
+    <subfield code="a">A brief history of the rural electric and telephone programs and report of the administrator.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[Washington, DC] :</subfield>
+    <subfield code="b">U.S. Dept. of Agriculture, Rural Electrification Administration,</subfield>
+    <subfield code="c">1992-</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">v. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Annual</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">Fiscal year 1991-</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Informational publication</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title from cover.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Distributed to depository libraries on microfiche.</subfield>
+  </datafield>
+  <datafield tag="580" ind1=" " ind2=" ">
+    <subfield code="a">Merger of: United States. Rural Electrification Administration. Report of the administrator; and: United States. Rural Electrification Administration. Brief history of the rural electric and telephone programs.</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">SERBIB/SERLOC merged record</subfield>
+  </datafield>
+  <datafield tag="610" ind1="1" ind2="0">
+    <subfield code="a">United States.</subfield>
+    <subfield code="b">Rural Electrification Administration</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Rural electrification</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Rural telephone</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="1" ind2=" ">
+    <subfield code="c">Microfiche</subfield>
+    <subfield code="d">Supt. of Docs., U.S.G.P.O.</subfield>
+    <subfield code="w">(OCoLC)26940710</subfield>
+  </datafield>
+  <datafield tag="780" ind1="1" ind2="4">
+    <subfield code="a">United States. Rural Electrification Administration.</subfield>
+    <subfield code="t">Report of the administrator</subfield>
+    <subfield code="w">(DLC)sc 79002881</subfield>
+    <subfield code="w">(OCoLC)1780531</subfield>
+  </datafield>
+  <datafield tag="785" ind1="0" ind2="0">
+    <subfield code="a">United States. Rural Electrification Administration.</subfield>
+    <subfield code="t">Brief history of the rural electric and telephone programs</subfield>
+  </datafield>
+  <datafield tag="785" ind1="0" ind2="0">
+    <subfield code="a">United States. Rural Electrification Administration.</subfield>
+    <subfield code="t">Report of the administrator (1994)</subfield>
+    <subfield code="w">(DLC)   95644644</subfield>
+    <subfield code="w">(OCoLC)32521660</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Informational publication.</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="a">NIC</subfield>
+  </datafield>
+  <datafield tag="890" ind1=" " ind2=" ">
+    <subfield code="a">United States.  Brief history of the rural electric and telephone programs and report of the administrator (United States.  Rural Electrification Administration)</subfield>
+    <subfield code="i">92-642101</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">par</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">Keep 2</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">m-Problem</subfield>
+    <subfield code="h">IN PROCESS</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">B/L</subfield>
+    <subfield code="w">SERLOC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11402156</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

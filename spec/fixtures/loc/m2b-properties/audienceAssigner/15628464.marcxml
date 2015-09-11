@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02363cam a22004214a 4500</leader>
+  <controlfield tag="001">15628464</controlfield>
+  <controlfield tag="005">20101124161102.0</controlfield>
+  <controlfield tag="008">090218s2010    njua   j b    001 0 eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">1</subfield>
+    <subfield code="e">ecip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">xh00 2009-02-18</subfield>
+    <subfield code="i">xh07 2009-02-18 to shelflisting</subfield>
+    <subfield code="e">xh08 2009-02-19 to Dewey</subfield>
+    <subfield code="a">xh06 2009-02-19 reviewed</subfield>
+    <subfield code="a">rd11 2009-02-20</subfield>
+    <subfield code="a">xe07 2010-04-23 1 copy rec'd., to CIP ver.</subfield>
+    <subfield code="a">xh00 2010-04-28 to USPL/STM</subfield>
+    <subfield code="f">xh15 2010-07-01 Z-CipVer to BCCD</subfield>
+    <subfield code="a">xh08 (rev.) 2010-07-08</subfield>
+    <subfield code="t">xg20 2010-11-24 copy 2 added</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2009006493</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780766034167</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn310224890</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">IG#</subfield>
+    <subfield code="d">GO3</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lcac</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">QC225.5</subfield>
+    <subfield code="b">.G375 2010</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">507.8</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Gardner, Robert,</subfield>
+    <subfield code="d">1929-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Light, sound, and waves science fair projects, revised and expanded using the scientific method /</subfield>
+    <subfield code="c">Robert Gardner.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Berkeley Heights, NJ :</subfield>
+    <subfield code="b">Enslow Publishers,</subfield>
+    <subfield code="c">c2010.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">160 p. :</subfield>
+    <subfield code="b">col. ill. ;</subfield>
+    <subfield code="c">25 cm.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Physics science projects using the scientific method</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">"Explains how to use the scientific method to conduct several science experiments about light, sound, and waves. Includes ideas for science fair projects"--Provided by publisher.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Rev. ed. of: Light, sound, and waves science fair projects using sunglasses, CDs, and other stuff, c2004.</subfield>
+  </datafield>
+  <datafield tag="521" ind1="1" ind2=" ">
+    <subfield code="a">008-012</subfield>
+    <subfield code="b">Ingram.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 157) and index.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Some properties of sound and waves -- Some properties of light -- Light, sound, and reflection -- Light, sound, and refraction -- Dispersion, light, and color -- Sound, light, and waves -- Transverse waves and polarized light.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Sound</subfield>
+    <subfield code="x">Experiments</subfield>
+    <subfield code="v">Juvenile literature.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Light</subfield>
+    <subfield code="x">Experiments</subfield>
+    <subfield code="v">Juvenile literature.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Waves</subfield>
+    <subfield code="x">Experiments</subfield>
+    <subfield code="v">Juvenile literature.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Science projects</subfield>
+    <subfield code="v">Juvenile literature.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="1">
+    <subfield code="a">Sound</subfield>
+    <subfield code="x">Experiments.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="1">
+    <subfield code="a">Light</subfield>
+    <subfield code="x">Experiments.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="1">
+    <subfield code="a">Waves</subfield>
+    <subfield code="x">Experiments.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="1">
+    <subfield code="a">Science projects.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Gardner, Robert,</subfield>
+    <subfield code="d">1929-</subfield>
+    <subfield code="t">Light, sound, and waves science fair projects using sunglasses, CDs, and other stuff.</subfield>
+  </datafield>
+  <datafield tag="800" ind1="1" ind2=" ">
+    <subfield code="a">Gardner, Robert,</subfield>
+    <subfield code="d">1929-</subfield>
+    <subfield code="t">Physics science projects using the scientific method.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=15628464</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

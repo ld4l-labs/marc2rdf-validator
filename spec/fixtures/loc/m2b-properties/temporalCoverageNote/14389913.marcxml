@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02051cam a22004217a 4500</leader>
+  <controlfield tag="001">14389913</controlfield>
+  <controlfield tag="005">20130531103624.0</controlfield>
+  <controlfield tag="008">060525e200509  wiua     bt   000 0 eng d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">copycat</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">ng03 2006-05-25 z-processor to ASCD</subfield>
+    <subfield code="a">jx00 2006-06-06</subfield>
+    <subfield code="i">jx03 2006-06-20</subfield>
+    <subfield code="e">jx03 2006-06-20 to Dewey</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2006415007</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm62082221</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">TRL</subfield>
+    <subfield code="c">TRL</subfield>
+    <subfield code="d">WIH</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us-wi</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">TE270</subfield>
+    <subfield code="b">.C755 2005</subfield>
+  </datafield>
+  <datafield tag="086" ind1=" " ind2=" ">
+    <subfield code="a">HIG.2:A 86/11/2005</subfield>
+    <subfield code="2">widocs</subfield>
+  </datafield>
+  <datafield tag="088" ind1=" " ind2=" ">
+    <subfield code="a">WHRP 05-11</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Crovetti, James A.,</subfield>
+    <subfield code="d">1953-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Development of modulus-to-temperature relations for HMA mixtures used in Wisconsin  /</subfield>
+    <subfield code="c">by James Crovetti, Kathleen T. Hall, Christopher Williams.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[Madison, WI] :</subfield>
+    <subfield code="b">Wisconsin Highway Research Program ;</subfield>
+    <subfield code="a">[Springfield, Va. :</subfield>
+    <subfield code="b">Available through the National Technical Information Service,</subfield>
+    <subfield code="c">2005]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xi, 72 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="513" ind1=" " ind2=" ">
+    <subfield code="a">Final report;</subfield>
+    <subfield code="b">Feb. 2003-Sept. 2005.</subfield>
+  </datafield>
+  <datafield tag="536" ind1=" " ind2=" ">
+    <subfield code="a">Performed by Marquette University, sponsored by Wisconsin Dept. of Transportation, Division of Transportation Infrastructure Development, Research Coordination Section under WHRP project no.</subfield>
+    <subfield code="f">0092-03-14</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"September 2005."</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 69-72).</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also available on the Internet.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Wis. depository item.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Pavements, Asphalt</subfield>
+    <subfield code="z">Wisconsin</subfield>
+    <subfield code="x">Design and construction.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Pavements, Asphalt</subfield>
+    <subfield code="z">Wisconsin</subfield>
+    <subfield code="x">Testing.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">hot mix paving mixtures.</subfield>
+    <subfield code="2">trt</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Hall, Kathleen T.</subfield>
+    <subfield code="q">(Kathleen Theresa),</subfield>
+    <subfield code="d">1964-</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Williams, Christopher.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2=" ">
+    <subfield code="a">Wisconsin.</subfield>
+    <subfield code="b">Department of Transportation.</subfield>
+    <subfield code="b">Research Coordination Section.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Wisconsin Highway Research Program.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Marquette University.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="u">http://www.whrp.org/Research/publications/Final%20Reports/WHRP%5F05-11%5FModulus%5Fto%5FTemp%5FRelations.pdf</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=14389913</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

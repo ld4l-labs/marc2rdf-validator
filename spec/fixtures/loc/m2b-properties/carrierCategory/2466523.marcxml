@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01458nam a2200349 a 4500</leader>
+  <controlfield tag="001">2466523</controlfield>
+  <controlfield tag="005">19900921105732.7</controlfield>
+  <controlfield tag="007">heuamb---baca</controlfield>
+  <controlfield tag="007">heubmb---baaa</controlfield>
+  <controlfield tag="008">890623r19891987ii      b     000 0 eng  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   89910731</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-genmicro</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">wd00 to SCD 08-08-89; fb13 09-18-90</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   89910731 </subfield>
+  </datafield>
+  <datafield tag="025" ind1=" " ind2=" ">
+    <subfield code="a">I E 59127</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">a-ii---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="1" ind2="0">
+    <subfield code="a">HD4875</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Microfiche 89/60025</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Bonded labour and its abolition</subfield>
+    <subfield code="h">[microform].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">New Delhi :</subfield>
+    <subfield code="b">National Centre for Human Settlement and Environment,</subfield>
+    <subfield code="c">[1987]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">2 v. in 3 ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Study, chiefly with reference to the Bonded Labour System (Abolition) Act, 1976, India; includes text of the act, and case-law.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">v. 1. Report -- v. 2, pt. 1. Statistics, reports, and circulars; pt. 2. Case material.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Master microform held by: DLC.</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Microfiche.</subfield>
+    <subfield code="b">New Delhi :</subfield>
+    <subfield code="c">Library of Congress Office ;</subfield>
+    <subfield code="b">Washington, D.C. :</subfield>
+    <subfield code="c">Library of Congress Photoduplication Service,</subfield>
+    <subfield code="d">1989.</subfield>
+    <subfield code="e">10 microfiches ; 11 x 15 cm.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Peonage</subfield>
+    <subfield code="z">India.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">National Centre for Human Settlement and Environment (India)</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2="2">
+    <subfield code="a">India.</subfield>
+    <subfield code="t">Bonded Labour System (Abolition) Act, 1976</subfield>
+    <subfield code="h">[microform].</subfield>
+    <subfield code="f">1987.</subfield>
+  </datafield>
+  <datafield tag="922" ind1=" " ind2=" ">
+    <subfield code="a">ap</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">APIF/ODE</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Asian</subfield>
+    <subfield code="h">Microfiche 89/60025</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="m">So Asia</subfield>
+    <subfield code="w">BOOKS</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=2466523</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

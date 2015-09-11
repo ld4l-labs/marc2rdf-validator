@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01514cam a2200337 a 4500</leader>
+  <controlfield tag="001">14507819</controlfield>
+  <controlfield tag="005">20130531115630.0</controlfield>
+  <controlfield tag="008">060818s2006    is a          000|0 heb  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">n-rlinjack</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">mb19 2006-08-18 to RCCD;</subfield>
+    <subfield code="c">ye05 2006-09-01 telework to subject</subfield>
+    <subfield code="d">ye21 2006-09-28 to ye00 for SL</subfield>
+    <subfield code="e">ye04 2006-10-04  to Hebraic Section</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2006473232</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9659048653</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CStRLIN)DCLH06-B2388</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC-R</subfield>
+    <subfield code="c">DLC-R</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">BS1372</subfield>
+    <subfield code="b">.K68 2006</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">(2</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">Bible.</subfield>
+    <subfield code="p">Esther.</subfield>
+    <subfield code="l">Hebew.</subfield>
+    <subfield code="f">2006.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Megilat Ester :</subfield>
+    <subfield code="b">&#x2BB;i. p. tekhelet  Avraham /</subfield>
+    <subfield code="c">me-et Avraham K&#x323;orman.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-01/(2/r</subfield>
+    <subfield code="a">&#x5DE;&#x5D2;&#x5D9;&#x5DC;&#x5EA; &#x5D0;&#x5E1;&#x5EA;&#x5E8; :</subfield>
+    <subfield code="b">&#x5E2;&#x5F4;&#x5E4; &#x5EA;&#x5DB;&#x5DC;&#x5EA; &#x5D0;&#x5D1;&#x5E8;&#x5D4;&#x5DD; /</subfield>
+    <subfield code="c">&#x5DE;&#x5D0;&#x5EA; &#x5E7;&#x5D5;&#x5E8;&#x5DE;&#x5DF; &#x5D0;&#x5D1;&#x5E8;&#x5D4;&#x5DD;.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2=" ">
+    <subfield code="i">Title on prelim. p.:</subfield>
+    <subfield code="a">Commentary on the Book of Esther</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">Mahad. metuk&#x323;enet u-murh&#x323;evet.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">250-02/(2/r</subfield>
+    <subfield code="a">&#x5DE;&#x5D4;&#x5D3;&#x5D5;&#x5E8;&#x5D4; &#x5DE;&#x5EA;&#x5D5;&#x5E7;&#x5E0;&#x5EA; &#x5D5;&#x5DE;&#x5D5;&#x5E8;&#x5D7;&#x5D1;&#x5EA;.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">Tel Aviv :</subfield>
+    <subfield code="b">Yorshe K&#x323;orman Avraham,</subfield>
+    <subfield code="c">[766 i.e. 2006]</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-03/(2/r</subfield>
+    <subfield code="a">&#x5EA;&#x5DC; &#x5D0;&#x5D1;&#x5D9;&#x5D1; :</subfield>
+    <subfield code="b">&#x5D9;&#x5D5;&#x5E8;&#x5E9;&#x5D9; &#x5E7;&#x5D5;&#x5E8;&#x5DE;&#x5DF; &#x5D0;&#x5D1;&#x5E8;&#x5D4;&#x5DD;,</subfield>
+    <subfield code="c">[766 i.e. 2006]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">58 p. :</subfield>
+    <subfield code="b">ill.;</subfield>
+    <subfield code="c">23 cm.</subfield>
+  </datafield>
+  <datafield tag="630" ind1="0" ind2="0">
+    <subfield code="a">Bible.</subfield>
+    <subfield code="p">Esther</subfield>
+    <subfield code="v">Commentaries.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">Korman, Abraham,</subfield>
+    <subfield code="d">1917-2001.</subfield>
+    <subfield code="t">Tekhelet Avraham.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="2">
+    <subfield code="6">700-04/(2/r</subfield>
+    <subfield code="a">&#x5E7;&#x5D5;&#x5E8;&#x5DE;&#x5DF;, &#x5D0;&#x5D1;&#x5E8;&#x5D4;&#x5DD;.</subfield>
+    <subfield code="t">&#x5EA;&#x5DB;&#x5DC;&#x5EA; &#x5D0;&#x5D1;&#x5E8;&#x5D4;&#x5DD;.</subfield>
+  </datafield>
+  <datafield tag="730" ind1="0" ind2="2">
+    <subfield code="6">880-05</subfield>
+    <subfield code="a">Tekhelet Avraham.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2="2">
+    <subfield code="6">730-05/(2/r</subfield>
+    <subfield code="a">&#x5EA;&#x5DB;&#x5DC;&#x5EA; &#x5D0;&#x5D1;&#x5E8;&#x5D4;&#x5DD;.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=14507819</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

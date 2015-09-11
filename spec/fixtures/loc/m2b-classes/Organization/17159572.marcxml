@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02494cam a2200433 a 4500</leader>
+  <controlfield tag="001">17159572</controlfield>
+  <controlfield tag="005">20120922113043.0</controlfield>
+  <controlfield tag="008">120210s2011    cc a     b    000 0 chi d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">copycat</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-nonroman</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+    <subfield code="z">keep Copy 2 for replacement since Copy 1 was not located at the time of reader's request--MP, AD 2012-09-20</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="i">cc01 2012-02-10 z-processor JACKPHY to BCCD</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2011510692</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9789620755910</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">962075591X</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn753470817</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">HNK</subfield>
+    <subfield code="c">HNK</subfield>
+    <subfield code="d">TEF</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">E183.8.C6</subfield>
+    <subfield code="b">L85 2011</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">$1</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Lu, Judy S.,</subfield>
+    <subfield code="d">1941-</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">100-01/$1</subfield>
+    <subfield code="a">&#x76E7;&#x96EA;&#x9109;,</subfield>
+    <subfield code="d">1941-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">Cong Meiguo wai jiao wen jian kan Minguo dan sheng =</subfield>
+    <subfield code="b">The birth of the first republic in Asia as seen from the diplomatic documents /</subfield>
+    <subfield code="c">Lu Xuexiang bian zhu.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/$1</subfield>
+    <subfield code="a">&#x5F9E;&#x7F8E;&#x570B;&#x5916;&#x4EA4;&#x6587;&#x4EF6;&#x770B;&#x6C11;&#x570B;&#x8A95;&#x751F; =</subfield>
+    <subfield code="b">The birth of the first republic in Asia as seen from the diplomatic documents /</subfield>
+    <subfield code="c">&#x76E7;&#x96EA;&#x9109;&#x7DE8;&#x8457;.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="1">
+    <subfield code="a">Birth of the first republic in Asia as seen from the diplomatic documents</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">Di 1 ban.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">250-03/$1</subfield>
+    <subfield code="a">&#x7B2C;1&#x7248;.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">Xianggang :</subfield>
+    <subfield code="b">Shang wu yin shu guan,</subfield>
+    <subfield code="c">2011.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-04/$1</subfield>
+    <subfield code="a">&#x9999;&#x6E2F; :</subfield>
+    <subfield code="b">&#x5546;&#x52D9;&#x5370;&#x66F8;&#x9928;,</subfield>
+    <subfield code="c">2011.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">297 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">23 cm.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">520-00/$1</subfield>
+    <subfield code="a">&#x672C;&#x66F8;&#x5F9E;"&#x7F8E;&#x570B;&#x7E3D;&#x7D71;&#x6587;&#x5EAB;"&#x3001;"&#x7F8E;&#x570B;&#x570B;&#x6703;&#x5716;&#x66F8;&#x9928;&#x4E2D;&#x6587;&#x9928;&#x85CF;&#x6587;&#x737B;"&#x7B49;&#x7CBE;&#x5FC3;&#x6311;&#x9078;&#x3001;&#x6536;&#x9304;&#x4E86;&#x95DC;&#x65BC;&#x8F9B;&#x4EA5;&#x9769;&#x547D;&#x548C;&#x6C11;&#x570B;&#x521D;&#x5275;&#x7684;&#x82E5;&#x5E72;&#x6A94;&#x6848;&#x6587;&#x737B;&#xFF0C;&#x901A;&#x904E;&#x89E3;&#x8B80;&#x6587;&#x737B;&#x8CC7;&#x6599;&#xFF0C;&#x8A6E;&#x91CB;&#x5B6B;&#x4E2D;&#x5C71;&#x53CA;&#x5176;&#x540C;&#x4EC1;&#x7576;&#x5E74;&#x8271;&#x8F9B;&#x7684;&#x9769;&#x547D;&#x904E;&#x7A0B;&#xFF0C;&#x7528;&#x591A;&#x7A2E;&#x8CC7;&#x6599;&#x53BB;&#x89E3;&#x6790;&#x7F8E;&#x570B;&#x4E09;&#x4F4D;&#x7E3D;&#x7D71;&#xFF1A;&#x8001;&#x7F85;&#x65AF;&#x798F;&#xFF08;Theodore&#x30FB;Roosevelt&#xFF09;&#x3001;&#x5854;&#x592B;&#x812B;&#xFF08;William&#x30FB;Taft&#xFF09;&#x3001;&#x5A01;&#x723E;&#x905C;&#xFF08;Woodrow&#x30FB;Wilson&#xFF09;&#x7684;&#x5C0D;&#x83EF;&#x653F;&#x7B56;&#xFF1B;&#x4EE5;&#x53CA;1913&#x5E74;&#x7F8E;&#x570B;&#x5E36;&#x52D5;&#x4E16;&#x754C;&#x5404;&#x570B;&#x6B63;&#x5F0F;&#x627F;&#x8A8D;&#x4E2D;&#x83EF;&#x6C11;&#x570B;&#x7684;&#x904E;&#x7A0B;--Cover p. [4].</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Foreign relations</subfield>
+    <subfield code="z">China</subfield>
+    <subfield code="v">Sources.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">China</subfield>
+    <subfield code="x">Foreign relations</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="v">Sources.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Foreign relations</subfield>
+    <subfield code="y">1909-1913</subfield>
+    <subfield code="v">Sources.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">China</subfield>
+    <subfield code="x">Foreign relations</subfield>
+    <subfield code="y">20th century</subfield>
+    <subfield code="v">Sources.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">China</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Revolution, 1911-1912</subfield>
+    <subfield code="v">Sources.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">China</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Republic, 1912-1949</subfield>
+    <subfield code="v">Sources.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="3">Table of contents only</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/toc/fy12pdf02/2011510692.html</subfield>
+  </datafield>
+  <datafield tag="923" ind1=" " ind2=" ">
+    <subfield code="s">CCG</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=17159572</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

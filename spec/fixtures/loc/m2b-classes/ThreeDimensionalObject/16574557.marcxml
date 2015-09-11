@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03022cam a2200481 i 4500</leader>
+  <controlfield tag="001">16574557</controlfield>
+  <controlfield tag="005">20110725131618.0</controlfield>
+  <controlfield tag="008">101210t20112011inua          001 0 eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">1</subfield>
+    <subfield code="e">ecip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="b">re10 2010-12-10</subfield>
+    <subfield code="c">re10 2010-12-10 ONIX to STM</subfield>
+    <subfield code="d">xh12 2010-12-30</subfield>
+    <subfield code="w">rd11 2010-12-30</subfield>
+    <subfield code="a">bd04 2011-06-13 1 copy rec'd., to CIP ver.</subfield>
+    <subfield code="f">rc15 2011-07-22 to BCCD</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2010052271</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780470527641 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781118065495 (ebk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781118065518 (ebk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781118065501 (ebk.)</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">T385</subfield>
+    <subfield code="b">.K397828 2011</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">006.6/93</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+    <subfield code="a">COM012050</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Keller, Eric,</subfield>
+    <subfield code="d">1969-</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Introducing ZBrush 4 /</subfield>
+    <subfield code="c">Eric Keller.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">1st Edition.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Indianapolis, Indiana :</subfield>
+    <subfield code="b">Wiley Publishing, Inc.,</subfield>
+    <subfield code="c">[2011], &#xA9;2011.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xxi, 489 pages :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">24 cm +</subfield>
+    <subfield code="e">1 computer disc (DVD-ROM ; 4 3/4 in.)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">computer disc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">three-dimensional moving image</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">video</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">videodisc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="538" ind1=" " ind2=" ">
+    <subfield code="a">System requirements for accompanying DVD-ROM: PC or Mac running  ZBrush with a gigabyte or more of RAM; Windows XP, Windows Vista, or Windows 7 or an Intel-based Macintosh running OS X 10.5 or higher; Pentium 3 processor or higher; monitor with a resolution of 1280x1024 or higher (32 bits); Internet connection; DVD-ROM drive; Apple QuickTime 7.0 or later; to complete the core exercises of this book, you need ZBrush version 4 or higher.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">"Introducing ZBrush 4 launches readers head-on into fulfilling their artistic potential for sculpting realistic creature, cartoon, and hard surface models in ZBrush.  ZBrush's innovative technology and interface can be intimidating to both digital-art beginners as well as veterans who are used to a more conventional modeling environment. This book dispels myths about the difficulty of ZBrush with a thorough tour and exploration of the program's interface. Engaging projects also allow the reader to become comfortable with digital sculpting in with a relaxed and fun book atmosphere.  Introducing ZBrush 4assuages the apprehension and gets artists quickly involved in creating their own work, as they complete tutorials on digital sculpting, painting, detailing, textures, lighting, rendering, and working with other 3D applications"--</subfield>
+    <subfield code="c">Provided by publisher.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes index.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Computer graphics.</subfield>
+  </datafield>
+  <datafield tag="630" ind1="0" ind2="0">
+    <subfield code="a">ZBrush.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Computer art</subfield>
+    <subfield code="x">Computer programs.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">COMPUTERS / Image Processing</subfield>
+    <subfield code="2">bisacsh.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Cover image</subfield>
+    <subfield code="u">http://catalogimages.wiley.com/images/db/jimages/9780470527641.jpg</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=16574557</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

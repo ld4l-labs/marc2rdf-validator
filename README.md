@@ -19,7 +19,7 @@ For example, a config.yml to use the marc_to_graph_m2bf_xquery method is:
 
     # configuration settings for bibframe validation
     helper_method: marc_to_graph_m2bf_xquery
-    
+
     # Settings for marc2bibframe LoC xquery converter
     #   see spec/support/m2bf_xquery_helpers.rb
     # location of clone repo from git@github.com:lcnetdev/marc2bibframe.git
@@ -55,6 +55,16 @@ xxx.rdfxml is the output from https://github.com/lcnetdev/marc2bibframe run agai
 xxx.ttl is a turtle representation of the same data as the .rdfxml file -- provided for human readability.
 
 The specific marc records were chosen to try to exercise different wrinkles in work/instance information present in a single marc record.  As new work-instance wrinkles are surfaced, marc records and specs should be added to the project.
+
+# Importing Records
+
+1. Create a csv documents in the /docs folder:
+    /doc/m2b-classes.csv
+        With header columns 'className' and 'bibid'
+    /doc/m2b-properties.csv with head
+        With header columns 'propertyName' and 'bibid'
+
+2. In the /lib folder 'ruby m2b_csv.rb' and records from your favorite SRU service will automatically be populated within directories in the fixtures folder.
 
 # Working with other converters
 

@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>04806cas a2200913 a 4500</leader>
+  <controlfield tag="001">11176633</controlfield>
+  <controlfield tag="005">20140405155747.0</controlfield>
+  <controlfield tag="007">cr un|</controlfield>
+  <controlfield tag="008">750821d19691980nyuar         0   a0eng  </controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   74630766 </subfield>
+    <subfield code="z">cn 75031542 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1404040139-p-----    </subfield>
+  </datafield>
+  <datafield tag="016" ind1=" " ind2=" ">
+    <subfield code="a">750315423</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">001807801</subfield>
+    <subfield code="2">Uk</subfield>
+  </datafield>
+  <datafield tag="022" ind1="0" ind2=" ">
+    <subfield code="a">0316-6082</subfield>
+    <subfield code="l">0316-6082</subfield>
+    <subfield code="2">4</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm02247668 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaOONL</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">CaOONL</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">CaOONL</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">CaOONL</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">MH</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">CU-S</subfield>
+    <subfield code="d">MH</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">MCM</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">UKMGB</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">OCLCF</subfield>
+    <subfield code="d">ICharE</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">nlc</subfield>
+    <subfield code="a">isds/c</subfield>
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">ML1</subfield>
+    <subfield code="b">.I719</subfield>
+  </datafield>
+  <datafield tag="055" ind1="0" ind2="1">
+    <subfield code="a">ML26</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">781.7/05</subfield>
+  </datafield>
+  <datafield tag="210" ind1="0" ind2=" ">
+    <subfield code="a">Yearbook Int. Folk Music Counc.</subfield>
+  </datafield>
+  <datafield tag="222" ind1=" " ind2="0">
+    <subfield code="a">Yearbook of the International Folk Music Council</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Yearbook of the International Folk Music Council.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Urbana :</subfield>
+    <subfield code="b">Published for the International Folk Music Council by the University of Illinois Press,</subfield>
+    <subfield code="c">&#xA9;1971-c1980.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">12 volumes :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">23 cm</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Annual</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">1969-v. 12 (1980).</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Published: Kingston, Ont. : International Folk Music Council, Dept. of Music, Queen's University, 1971-1979; New York : International Folk Music Council, Dept. of Music, Columbia University, 1980.</subfield>
+  </datafield>
+  <datafield tag="515" ind1=" " ind2=" ">
+    <subfield code="a">Issues for 1971-1980 called also: v. 3-12.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also issued to subscribers via the World Wide Web.</subfield>
+  </datafield>
+  <datafield tag="550" ind1=" " ind2=" ">
+    <subfield code="a">Published with the assistance of the International Music Council, under the auspices of UNESCO, 1971-1980.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on surrogate.</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">SERBIB/SERLOC merged record</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Folk music</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="6">
+    <subfield code="a">Musique folklorique</subfield>
+    <subfield code="v">Pe&#x301;riodiques.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Folk music.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00929383</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Periodicals.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01411641</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">International Folk Music Council.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">International Music Council.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Queen's University (Kingston, Ont.).</subfield>
+    <subfield code="b">Department of Music.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Columbia University.</subfield>
+    <subfield code="b">Department of Music.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="1" ind2=" ">
+    <subfield code="t">Yearbook of the International Folk Music Council (Online)</subfield>
+    <subfield code="w">(DLC)  2004235608</subfield>
+    <subfield code="w">(OCoLC)53166050</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="t">Yearbook of the International Folk Music Council</subfield>
+    <subfield code="w">(OCoLC)616079230</subfield>
+  </datafield>
+  <datafield tag="780" ind1="0" ind2="0">
+    <subfield code="t">Journal of the International Folk Music Council</subfield>
+    <subfield code="w">(DLC)   51030947</subfield>
+    <subfield code="w">(OCoLC)1753527</subfield>
+  </datafield>
+  <datafield tag="785" ind1="0" ind2="0">
+    <subfield code="t">Yearbook for traditional music</subfield>
+    <subfield code="x">0740-1558</subfield>
+    <subfield code="w">(DLC)   82647116</subfield>
+    <subfield code="w">(OCoLC)8717450</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">AzU</subfield>
+    <subfield code="a">CaOONM</subfield>
+    <subfield code="a">CoU</subfield>
+    <subfield code="a">DLC</subfield>
+    <subfield code="a">FU</subfield>
+    <subfield code="a">IaU</subfield>
+    <subfield code="a">MH-Hi</subfield>
+    <subfield code="a">MiD</subfield>
+    <subfield code="a">NN</subfield>
+    <subfield code="a">NSyU</subfield>
+    <subfield code="a">NjR</subfield>
+    <subfield code="a">OU</subfield>
+    <subfield code="a">OrU</subfield>
+    <subfield code="a">PPiU</subfield>
+    <subfield code="a">TxLT</subfield>
+    <subfield code="a">ViBlbV</subfield>
+    <subfield code="a">ViU</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://www.jstor.org/journals/03166082.html</subfield>
+  </datafield>
+  <datafield tag="890" ind1=" " ind2=" ">
+    <subfield code="a">International Folk Music Council.  Yearbook.  Urbana.</subfield>
+    <subfield code="i">sv88-25229</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">Keep 2</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">eserial 200406</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00034593000</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">28 * 1996</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">0001698534A</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">1 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985351</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">1970 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985363</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">3:1971 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985375</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">4:1972 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985387</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">5:1973 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985399</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">6:1974 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985405</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">7:1975 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985417</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">8:1976 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985429</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">10-11:1978-79 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985430</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">11:1979 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985442</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">12:1980 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985454</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">14:1982 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985466</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">15:1983 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985478</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">16:1984 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">0001698548A</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">17:1985 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985508</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">18:1986 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985491</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">19:1987 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00006159631</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">20.1 1988 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">0001698551A</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">21:1989 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985521</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">22:1990 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985533</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">23:1991 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">ML1</subfield>
+    <subfield code="i">.I719</subfield>
+    <subfield code="p">00016985545</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">24:1992 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">call x7-5305</subfield>
+    <subfield code="w">SERLOC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11176633</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

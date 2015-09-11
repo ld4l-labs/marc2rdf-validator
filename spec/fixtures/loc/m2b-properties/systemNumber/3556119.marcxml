@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01568nam a2200397 a 4500</leader>
+  <controlfield tag="001">3556119</controlfield>
+  <controlfield tag="005">19980212092839.1</controlfield>
+  <controlfield tag="008">971210s1996    it a     b    001 0dita d</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   97224006</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">rb08 07-10-97 to cat.; jk00 07-22-97; jk34/jk09 12-10-97 to HLCD; jk34 02-11-98</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   97224006 </subfield>
+    <subfield code="z">   97171003 </subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">8876867201</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(NjP)notisCCR6384</subfield>
+  </datafield>
+  <datafield tag="036" ind1=" " ind2=" ">
+    <subfield code="a">(CStRLIN)NJPG97-B45351</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">NjP</subfield>
+    <subfield code="c">NjP</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">e-it---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">N5273.2.M43</subfield>
+    <subfield code="b">F55 1996</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Fileti, M.</subfield>
+    <subfield code="q">(Miriam)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Antonio Cocchi :</subfield>
+    <subfield code="b">primo antiquario della Galleria fiorentina, 1738-1758 /</subfield>
+    <subfield code="c">Miriam Fileti Mazza, Bruna Tomasello.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Modena :</subfield>
+    <subfield code="b">F.C. Panini, </subfield>
+    <subfield code="c">c1996.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">lvi, 198 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">24 cm.</subfield>
+  </datafield>
+  <datafield tag="440" ind1=" " ind2="0">
+    <subfield code="a">Collezionismo e storia dell'arte.</subfield>
+    <subfield code="p">Studi e fonti ;</subfield>
+    <subfield code="v">4</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"Scuola normale superiore di Pisa"--Cover.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 157-163) and indexes.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="3" ind2="0">
+    <subfield code="a">Medici, House of</subfield>
+    <subfield code="x">Art collections</subfield>
+    <subfield code="x">Administration.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Cocchi, Antonio,</subfield>
+    <subfield code="d">1695-1758</subfield>
+    <subfield code="x">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Antiquarians</subfield>
+    <subfield code="z">Italy</subfield>
+    <subfield code="z">Florence</subfield>
+    <subfield code="x">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Art</subfield>
+    <subfield code="x">Private collections</subfield>
+    <subfield code="z">Italy</subfield>
+    <subfield code="z">Florence.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Art</subfield>
+    <subfield code="x">Collectors and collecting</subfield>
+    <subfield code="z">Italy</subfield>
+    <subfield code="z">Florence.</subfield>
+  </datafield>
+  <datafield tag="610" ind1="2" ind2="0">
+    <subfield code="a">Galleria degli Uffizi</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Tomasello, Bruna.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Scuola normale superiore (Italy)</subfield>
+  </datafield>
+  <datafield tag="922" ind1=" " ind2=" ">
+    <subfield code="a">ap</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">MERGED</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">N5273.2.M43</subfield>
+    <subfield code="i">F55 1996</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">BOOKS</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=3556119</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

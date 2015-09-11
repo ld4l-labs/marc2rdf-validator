@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>06510ckc a22006857a 4500</leader>
+  <controlfield tag="001">14978856</controlfield>
+  <controlfield tag="005">20130603103814.0</controlfield>
+  <controlfield tag="006">t           000 0d</controlfield>
+  <controlfield tag="007">kh bo|</controlfield>
+  <controlfield tag="007">ta</controlfield>
+  <controlfield tag="008">070824i18811945xx nnn            kneng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-genrareb</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">vj23 2007-08-24</subfield>
+    <subfield code="e">vj23 2007-09-17</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2007581632</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="e">gihc</subfield>
+    <subfield code="c">DLC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+    <subfield code="a">e-uk-en</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Z8465</subfield>
+    <subfield code="b">.C373 1881</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Carpenter, W. M.</subfield>
+    <subfield code="q">(William Montelle),</subfield>
+    <subfield code="d">1866-1931.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">[Carpenter Kipling scrapbooks]</subfield>
+    <subfield code="h">[graphic].</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2=" ">
+    <subfield code="i">Cited title:</subfield>
+    <subfield code="a">Carpenter Kipling Collection scrapbooks</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">[1881-1945]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">7 scrapbooks (ca. 520 items) ;</subfield>
+    <subfield code="c">30 x 26 cm. and 31 x 27 cm.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="0" ind2=" ">
+    <subfield code="a">Scrapbooks include various typescript drafts written by William M. Carpenter about Rudyard Kipling's life and document the collection of Rudyard Kipling materials acquired by Carpenter. Also includes numerous ephemeral items relating to the life of Kipling.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes four scrapbooks of manuscripts, typescripts, correspondence, transcripts of correspondence, photostat copies of manuscripts, notes, clippings, photographs and other ephemera removed from original binders. Also includes three original scrapbook volumes containing newspaper and magazine clippings from various sources. Two additional volumes containing original correspondence of Rudyard Kipling had been rehoused into one container and are now cataloged under [Carpenter Kipling Collection miscellaneous letters] on lccn 2007581629.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title devised by Library staff.</subfield>
+  </datafield>
+  <datafield tag="555" ind1="8" ind2=" ">
+    <subfield code="a">Finding aid consists of detailed list of contents of each volume compiled by Library staff laid in each box.</subfield>
+  </datafield>
+  <datafield tag="506" ind1=" " ind2=" ">
+    <subfield code="a">Restrictions: Poor condition of many of the original clippings within the scrapbooks.</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">Compiled by Mr. and Mrs. William M. Carpenter. Gift of Mrs. William Montelle Carpenter, 1955.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">LC collection rehoused in 4 boxes: 27 x 40 x 13 cm. and 3 boxes: 37 x 29 x 8 cm. Original scrapbook binders are included at the back of each box.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="505" ind1="2" ind2=" ">
+    <subfield code="a">[Vol. 1]. Proof copy of Kipling's poem "To the address of W.W.H." ; Carbon manuscript copy of fragment of essay by Rudyard Kipling written during the "From Sea to Sea" trip, 1889 ; Photostat copies of "Manuscript from Sea to Sea letters India through Japan, 19 Turnovers", 1889 (originals in Henry E. Huntington Library). Photographs and negatives. Typewritten transcripts of Kipling correspondence to James Conland, Charles Warren Stoddard and others transcribed by Carpenter. ALS from Sydney Lowe to W.M. Carpenter dated May 17, 1916 -- [v. 2]. Kipling's writings during the "American Period" / W.M. Carpenter. Kipling Society correspondence with Mr. Carpenter. ALS from L.C. Dunsterville to W.M. Carpenter,  August 28, 1931. TLS to W.M. Carpenter from Henry H. Conland, February 20, 1928 -- [v. 3]. Kipling and his college / W.M. Carpenter. Group photograph of Kipling and his schoolmates, ca. 1881. TLS to W.M. Carpenter from Thomas McLean, schoolmate of Kipling from United Services College. On Balfour, Guthrie &amp; Co. letterhead, Tacoma, Washington, dated June 10, 1931. Newspaper clippings from the Civil and Military Gazette, 1888 containing articles by Kipling. Handwritten notes from Mrs. Edmonia Taylor Hill. R.K.'s Allahabad home ; Kipling in San Francisco ; Oregon ; The Kipling creed ; Kipling items copied from newspapers-by W.M.C. ; [various comments on individual Kipling titles] / W.M. Carpenter. Putnam / Rudyard Kipling. "Jungle Dinner Feb. 21, 1899" / Mrs. Hill. TLS to W.M. Carpenter from F.W. Childs, August 9, 1928 and October 11, 1928. Transcripts of letters from W.D. Howells to Aurelia Howells and from Kipling to W.D. Howells. Transcripts of typewritten copies of Last will and testament of ... Rudyard Kipling and Last will and testament of ... Caroline Kipling, widow -- [v. 4]. William M. Carpenter typescripts relating to "The Friend" period in South Africa. Typescript: "Copy of letter from Mrs. Flora V. Livingston to W.M. Carpenter about Kipling's contributions to 'The Friend'". Typescript: "A Burgher of the Free State" / W.M. Carpenter with handwritten note initialed on first page by L.H. Chandler -- [v. 5]. Clippings: India, South Africa, America -- [v. 6]. Clippings: Reviews, Criticisms, Interviews, Addresses, Tributes, Miscellaneous items -- [v. 7]. Clippings: Kipling's life, homes, family. Vermont, World War I. School days. Honors. Religion-Rosicrucians. Illness. Death. Reviews &amp; criticisms of his writings. Mrs. Kipling's death. Disposal of estate. Lord Birkenhead's biography of R.K. banned by Elsie Kipling Bambridge.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Carpenter, W. M.</subfield>
+    <subfield code="q">(William Montelle),</subfield>
+    <subfield code="d">1866-1931</subfield>
+    <subfield code="v">Manuscripts.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936</subfield>
+    <subfield code="v">Manuscripts.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936</subfield>
+    <subfield code="v">Manuscripts</subfield>
+    <subfield code="v">Facsimiles.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936</subfield>
+    <subfield code="v">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Carpenter, W. M.</subfield>
+    <subfield code="q">(William Montelle),</subfield>
+    <subfield code="d">1866-1931</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Carpenter, Lucile Russell</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Childs, F. W.</subfield>
+    <subfield code="q">(Frederick W.),</subfield>
+    <subfield code="d">1849-1946</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Conland, Henry H.,</subfield>
+    <subfield code="d">1882-</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Dunsterville, L. C.</subfield>
+    <subfield code="q">(Lionel Charles),</subfield>
+    <subfield code="d">1865-1946</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Hill, Edmonia Taylor,</subfield>
+    <subfield code="d">-1952</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Lowe, Sidney</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">McLean, Thomas</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="610" ind1="2" ind2="0">
+    <subfield code="a">Kipling Society</subfield>
+    <subfield code="v">Records and correspondence.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Authors, English</subfield>
+    <subfield code="y">19th century</subfield>
+    <subfield code="v">Biography.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Authors, English</subfield>
+    <subfield code="y">20th century</subfield>
+    <subfield code="v">Biography.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Book collectors</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Scrapbooks</subfield>
+    <subfield code="y">1920-1960.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Photographic prints</subfield>
+    <subfield code="y">1880-1890.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Photographic prints</subfield>
+    <subfield code="y">1920-1930.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Portrait photographs</subfield>
+    <subfield code="y">1920-1930.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Clippings</subfield>
+    <subfield code="y">1920-1960.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Stats</subfield>
+    <subfield code="y">1920-1930.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Carpenter, Lucile Russell.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936.</subfield>
+    <subfield code="t">From sea to sea.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936.</subfield>
+    <subfield code="t">Putnam.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936.</subfield>
+    <subfield code="t">To the address of W.W.H.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Carpenter Kipling Collection (Library of Congress)</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="730" ind1="0" ind2=" ">
+    <subfield code="a">Civil &amp; military gazette (Lahore, Pakistan)</subfield>
+  </datafield>
+  <datafield tag="774" ind1="0" ind2=" ">
+    <subfield code="a">Kipling, Rudyard,</subfield>
+    <subfield code="d">1865-1936.</subfield>
+    <subfield code="t">Putnam</subfield>
+    <subfield code="w">(DLC)    2007567098</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=14978856</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01300nam a22003257a 4500</leader>
+  <controlfield tag="001">1683575</controlfield>
+  <controlfield tag="005">19990715053326.6</controlfield>
+  <controlfield tag="007">hduafb---bacp</controlfield>
+  <controlfield tag="007">hdubfb---baap</controlfield>
+  <controlfield tag="008">990715s19uu    ii      a     000 1 pan  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   98914664</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">origode</subfield>
+    <subfield code="d">5</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-genmicro</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">wd33;12/16/98</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   98914664 </subfield>
+  </datafield>
+  <datafield tag="025" ind1=" " ind2=" ">
+    <subfield code="a">NBIL-36348</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lcode</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Microfilm PUL-PAN-114 (P)</subfield>
+  </datafield>
+  <datafield tag="100" ind1="0" ind2=" ">
+    <subfield code="a">Ta&#x304;ra&#x304; Sin&#x307;gha,</subfield>
+    <subfield code="c">Master,</subfield>
+    <subfield code="d">1885-1967.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Ba&#x304;ba&#x304; Tega&#x304; Sin&#x307;gha</subfield>
+    <subfield code="h">[microform] /</subfield>
+    <subfield code="c">Ma&#x304;sat&#x323;ara Ta&#x304;ra&#x304; Sin&#x307;gha.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Ammritasara :</subfield>
+    <subfield code="b">Gi. Bhajana Sin&#x307;gha,</subfield>
+    <subfield code="c">[19--]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">iv, 220 p. ;</subfield>
+    <subfield code="c">19 cm.</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">In Panjabi.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Novel based on the life of Tega&#x304; Sin&#x307;gha, Sikh leader.</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Microfilm.</subfield>
+    <subfield code="b">New Delhi :</subfield>
+    <subfield code="c">Library of Congress Office ;</subfield>
+    <subfield code="b">Chicago :</subfield>
+    <subfield code="c">Available from Center for Research Libraries,</subfield>
+    <subfield code="d">1998.</subfield>
+    <subfield code="e">On 1 microfilm reel with other items ; 35 mm.</subfield>
+    <subfield code="f">(SAMP early 20th-century Indian books project ; item 36348)</subfield>
+    <subfield code="n">Master microform held by: ICRL.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="0">
+    <subfield code="a">Tega&#x304; Sin&#x307;gha</subfield>
+    <subfield code="x">Fiction.</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">SAMP early 20th-century Indian books project ;</subfield>
+    <subfield code="v">item 36348.</subfield>
+  </datafield>
+  <datafield tag="922" ind1=" " ind2=" ">
+    <subfield code="a">ap</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">ODE-nd</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Asian</subfield>
+    <subfield code="h">Microfilm PUL-PAN-114 (P)</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="m">So Asia</subfield>
+    <subfield code="w">BOOKS</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=1683575</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

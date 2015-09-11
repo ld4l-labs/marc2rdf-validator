@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01597cas a2200409 a 4500</leader>
+  <controlfield tag="001">11737193</controlfield>
+  <controlfield tag="005">20130424075220.0</controlfield>
+  <controlfield tag="008">931106c19229999gr wr ne      0    0greoc</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">sn 96058037 </subfield>
+    <subfield code="z">sn 92020268 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1304230243-p-----    </subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm01773184 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">ICRL</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">MnMULS</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">ICRL</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">CLU</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">MoU-St</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">e-gr---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Newspaper 2069</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">Ve&#x304;ma (Athens, Greece)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="3">
+    <subfield code="a">To ve&#x304;ma.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2=" ">
+    <subfield code="i">Sunday issues for &lt;Jan. 3-Dec. 11, 1988&gt; have title:</subfield>
+    <subfield code="a">To ve&#x304;ma te&#x304;s Kyriake&#x304;s</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Athe&#x304;nai [Athens, Greece :</subfield>
+    <subfield code="b">S.n.]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">v.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Weekly,</subfield>
+    <subfield code="b">&lt;Dec. 6, 1987-&gt;</subfield>
+  </datafield>
+  <datafield tag="321" ind1=" " ind2=" ">
+    <subfield code="a">Daily (except Monday),</subfield>
+    <subfield code="b">&lt;May 13, 1945&gt;-&lt;Sept. 2, 1975&gt;</subfield>
+  </datafield>
+  <datafield tag="362" ind1="1" ind2=" ">
+    <subfield code="a">Began 1922.</subfield>
+  </datafield>
+  <datafield tag="525" ind1=" " ind2=" ">
+    <subfield code="a">Has supplements.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Latest issue also available online via the World Wide Web; Greek fonts required to view articles.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on: Etos 1., ar. 2 (13 Maio&#x308;u 1945).</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Latest issue consulted: Etos 73., ar. 12,304 (25 Dek. 1994).</subfield>
+  </datafield>
+  <datafield tag="592" ind1=" " ind2=" ">
+    <subfield code="a">ACQN: aq 94001149</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Athens (Greece)</subfield>
+    <subfield code="v">Newspapers.</subfield>
+  </datafield>
+  <datafield tag="752" ind1=" " ind2=" ">
+    <subfield code="a">Greece</subfield>
+    <subfield code="d">Athens.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="1" ind2=" ">
+    <subfield code="c">Microfilm</subfield>
+    <subfield code="d">Library of Congress, Photoduplication Service</subfield>
+    <subfield code="w">(DLC)sn 92020628</subfield>
+    <subfield code="w">(OCoLC)33089503</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://bibpurl.oclc.org/web/520</subfield>
+    <subfield code="u">http://tovima.dolnet.gr/</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">ibc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">Acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default 2008-07-11</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">db39 2008-07-11</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Ser</subfield>
+    <subfield code="w">ACQUIRE</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">93000520</subfield>
+    <subfield code="w">ACQUIRE</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11737193</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

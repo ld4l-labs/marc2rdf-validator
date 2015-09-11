@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'linkeddata'
 gem 'marc'
 gem 'rspec'
+# Use faraday for making HTTP requests
+gem 'faraday'
 
 group :development do
   gem 'yard' # for documentation

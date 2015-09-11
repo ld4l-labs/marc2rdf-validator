@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00923cem a2200265 a 4500</leader>
+  <controlfield tag="001">5456313</controlfield>
+  <controlfield tag="005">20020524171250.0</controlfield>
+  <controlfield tag="008">820406s1980    iau       a     0 b eng  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   81690575</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-geogmaps</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">ga07</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   81690575 </subfield>
+  </datafield>
+  <datafield tag="017" ind1=" " ind2=" ">
+    <subfield code="a">VA 48-913</subfield>
+    <subfield code="b">U.S. Copyright Office</subfield>
+  </datafield>
+  <datafield tag="034" ind1="0" ind2=" ">
+    <subfield code="a">b</subfield>
+    <subfield code="p">1980</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">G3190 1980</subfield>
+    <subfield code="b">.T41</subfield>
+  </datafield>
+  <datafield tag="052" ind1=" " ind2=" ">
+    <subfield code="a">3190</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Teske, David W.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Star sky :</subfield>
+    <subfield code="b">celestial map epoch 1980.00 computer generated drawing of 6796 stars including +6.25 sky sphere projection shape.</subfield>
+  </datafield>
+  <datafield tag="255" ind1=" " ind2=" ">
+    <subfield code="a">Scale not given.</subfield>
+    <subfield code="d">(RA 0 hr. to 24 hr./Decl. +90&#x2070; to -90&#x2070; ;</subfield>
+    <subfield code="e">eq. 1980).</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[Manchester, Iowa] :</subfield>
+    <subfield code="b">D.W. Teske,</subfield>
+    <subfield code="c">c1980.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 map :</subfield>
+    <subfield code="b">photocopy ;</subfield>
+    <subfield code="c">82 x 165 cm.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Astronomy</subfield>
+    <subfield code="v">Charts, diagrams, etc.</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">DRM</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-G&amp;M</subfield>
+    <subfield code="h">G3190 1980</subfield>
+    <subfield code="i">.T41</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">MAPS</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5456313</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

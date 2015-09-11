@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02684cas a2200565 a 4500</leader>
+  <controlfield tag="001">11374173</controlfield>
+  <controlfield tag="005">20130327080106.0</controlfield>
+  <controlfield tag="007">t|</controlfield>
+  <controlfield tag="008">900227d19862006wau x         1   a0eng c</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   90649125 </subfield>
+    <subfield code="z">sn 90030029 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1303262028-p-----    </subfield>
+  </datafield>
+  <datafield tag="022" ind1="0" ind2=" ">
+    <subfield code="a">1050-5784</subfield>
+    <subfield code="l">1050-5784</subfield>
+    <subfield code="2">0</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm21130732 </subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="b">SPIE, P.O. Box 10, Bellingham, WA 98227-0010</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">MCM</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">MCM</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">NIC</subfield>
+    <subfield code="d">MiU</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">WaU</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">MCM</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">MCM</subfield>
+    <subfield code="d">OCoLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+    <subfield code="a">nsdp</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">TK6592.O6</subfield>
+    <subfield code="b">A288a</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">621.3848</subfield>
+    <subfield code="2">20</subfield>
+  </datafield>
+  <datafield tag="111" ind1="2" ind2=" ">
+    <subfield code="a">Acquisition, Tracking, and Pointing.</subfield>
+  </datafield>
+  <datafield tag="210" ind1="0" ind2=" ">
+    <subfield code="a">Acquis. Track. Pointing</subfield>
+  </datafield>
+  <datafield tag="222" ind1=" " ind2="0">
+    <subfield code="a">Acquisition, Tracking, and Pointing</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Acquisition, Tracking, and Pointing :</subfield>
+    <subfield code="b">[papers] /</subfield>
+    <subfield code="c">sponsored by SPIE--the International Society for Optical Engineering.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="0">
+    <subfield code="a">Acquisitions, Tracking, and Pointing</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Bellingham, Wash., USA :</subfield>
+    <subfield code="b">International Society for Optical Engineering,</subfield>
+    <subfield code="c">[1986]-c2006.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18 v. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Irregular</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">3/4 Apr. 1986-20 (2006).</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Proceedings of SPIE--the International Society for Optical Engineering</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Sponsored in cooperation with various organizations.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title varies slightly.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Beginning with the 2007 conference, issues are cataloged separately.</subfield>
+  </datafield>
+  <datafield tag="515" ind1=" " ind2=" ">
+    <subfield code="a">Vol. for 1986 lacks numeric designation, but constitutes v. 1.</subfield>
+  </datafield>
+  <datafield tag="515" ind1=" " ind2=" ">
+    <subfield code="a">First issue lacks numeric designation.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Beginning with &lt;1998&gt; issued also online via the World Wide Web; earlier vols. may have tables of contents and abstracts freely available.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Latest issue consulted: 7 (15/16 Apr. 1993).</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">SERBIB/SERLOC merged record</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Optical radar</subfield>
+    <subfield code="v">Congresses.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Optical detectors</subfield>
+    <subfield code="v">Congresses.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Society of Photo-optical Instrumentation Engineers.</subfield>
+  </datafield>
+  <datafield tag="760" ind1="0" ind2=" ">
+    <subfield code="t">Proceedings of SPIE--the International Society for Optical Engineering</subfield>
+    <subfield code="x">0277-786X</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="a">Acquisition, Tracking, and Pointing.</subfield>
+    <subfield code="t">Acquisition, Tracking, and Pointing</subfield>
+    <subfield code="w">(OCoLC)763098336</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Proceedings of SPIE--the International Society for Optical Engineering.</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">AzTeS</subfield>
+    <subfield code="a">CSt</subfield>
+    <subfield code="a">CoU</subfield>
+    <subfield code="a">DLC</subfield>
+    <subfield code="a">MCM</subfield>
+    <subfield code="a">MiU</subfield>
+    <subfield code="a">NIC</subfield>
+    <subfield code="a">WaU</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://spiedl.aip.org/browse/vol_title.jsp?scode=A</subfield>
+    <subfield code="z">Page down to title</subfield>
+  </datafield>
+  <datafield tag="890" ind1=" " ind2=" ">
+    <subfield code="a">Acquisition, Tracking, and Pointing: [papers] (Acquisition, Tracking, and Pointing)</subfield>
+    <subfield code="i">90-649125</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">Keep 1</subfield>
+  </datafield>
+  <datafield tag="984" ind1=" " ind2=" ">
+    <subfield code="a">srvf</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">TK6592.O6</subfield>
+    <subfield code="i">A288a</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">B/L</subfield>
+    <subfield code="w">SERLOC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11374173</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02105ctm a22004695a 4500</leader>
+  <controlfield tag="001">13294949</controlfield>
+  <controlfield tag="005">20070826133326.0</controlfield>
+  <controlfield tag="008">030728s1854    ja            000 0 jpn  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-rlinjack</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="c">yg04 2003-07-28</subfield>
+    <subfield code="d">yf06 2004-09-29</subfield>
+    <subfield code="e">yf08 2004-09-30 to Cage</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   00504696 </subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CStRLIN)DCLP03-B10728</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC-R</subfield>
+    <subfield code="c">DLC-R</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="041" ind1="1" ind2=" ">
+    <subfield code="a">jpnchi</subfield>
+    <subfield code="h">san</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">BQ4860.Y33</subfield>
+    <subfield code="b">S54 1854</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">$1</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Sheng Yanmandejia Wei nu wang li cheng da shen yan nian song fa.</subfield>
+    <subfield code="l">Japanese &amp; Chinese.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">Sho&#x304; Enmantokka Inuo&#x304; ryu&#x304;jo&#x304; daijingen nenjuho&#x304;.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2="4">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">Daiitoku saigoku jinpiho&#x304;</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">[Hieizan?],</subfield>
+    <subfield code="c">Kaei 7 [1854]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">[22] p. ;</subfield>
+    <subfield code="c">24 cm.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Ms. (shahon).</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">In Chinese, with Japanese reading marks.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Caption title.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">With no borders, text chiefly in 15 vertical lines.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">On double leaves, oriental style (fukurotoji).</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">LC copy wormed, with loss of text.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Asakawa collection (SEP 6 1907)</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Yama&#x304;ntaka (Buddhist deity)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Amoghavajra,</subfield>
+    <subfield code="d">705-774.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Japanese Rare Book Collection (Library of Congress)</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">130-01/$1</subfield>
+    <subfield code="a">&#x8056;&#x95BB;&#x66FC;&#x5FB7;&#x8FE6;&#x5A01;&#x6012;&#x738B;&#x7ACB;&#x6210;&#x5927;&#x795E;&#x9A57;&#x5FF5;&#x8AA6;&#x6CD5;.</subfield>
+    <subfield code="l">Japanese &amp; Chinese.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/$1</subfield>
+    <subfield code="a">&#x8056;&#x95BB;&#x66FC;&#x5FB7;&#x8FE6;&#x5A01;&#x6012;&#x738B;&#x7ACB;&#x6210;&#x5927;&#x795E;&#x9A57;&#x5FF5;&#x8AA6;&#x6CD5;.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="4">
+    <subfield code="6">246-03/$1</subfield>
+    <subfield code="a">&#x5927;&#x5A01;&#x5FB3;&#x6700;&#x6975;&#x6DF1;&#x7955;&#x6CD5;</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-04/$1</subfield>
+    <subfield code="a">[&#x6BD4;&#x53E1;&#x5C71;?],</subfield>
+    <subfield code="c">&#x5609;&#x6C38; 7 [1854]</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">500-00/$1</subfield>
+    <subfield code="a">First postscript, "&#x5929;&#x660E;&#x4E94; [1785] ... &#x83EF;&#x5C71;&#x5143;&#x6176;&#x6C99;&#x9580;&#x4EAE;&#x96C4;&#x8B39;&#x8A18;"; 2nd "&#x5609;&#x6C38;&#x4E03; [1854] ... &#x65BC;&#x6771;&#x53F0;&#x6DE8;&#x571F;&#x5F8B;&#x9662; ... &#x6C99;&#x9580;&#x771F;&#x7A7A;".</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">501-00/$1</subfield>
+    <subfield code="a">With: &#x91CB;&#x5C0A;&#x5FA1;&#x820E;&#x5229;&#x5100;&#x8A18;. [Japan], &#x5609;&#x6C38; 5 [1852] Bound together.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="4" ind2=" ">
+    <subfield code="6">510-00/$1</subfield>
+    <subfield code="a">Bussho kaisetsu daijiten,</subfield>
+    <subfield code="c">v. 5, p. 368 (Sho&#x304; Enman Tokka Inuo&#x304; ryu&#x304;jo&#x304; daijingen nenjuho&#x304;, 1-kan, &#x4E0D;&#x7A7A;&#x8B6F;).</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">3374a</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">JARB</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">spacingreload</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13294949</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

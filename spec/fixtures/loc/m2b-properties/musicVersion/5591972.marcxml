@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01087ccm a2200301 a 4500</leader>
+  <controlfield tag="001">5591972</controlfield>
+  <controlfield tag="005">20130501140338.0</controlfield>
+  <controlfield tag="008">850410s1984    nyucaa         n         </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-genmusic</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   85751372 </subfield>
+  </datafield>
+  <datafield tag="028" ind1="2" ind2="2">
+    <subfield code="a">778</subfield>
+    <subfield code="b">International Music Co.</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   85751372</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">sb01</subfield>
+    <subfield code="a">ka01</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">M228</subfield>
+    <subfield code="b">.C</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">Chaconne von Vitali;</subfield>
+    <subfield code="o">arranged.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Ciaccona in G minor for viola and piano /</subfield>
+    <subfield code="c">Vitali ; [transcribed and edited by] Leonard Davis.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">New York City :</subfield>
+    <subfield code="b">International Music Co.,</subfield>
+    <subfield code="c">c1984.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 score (18 p.) + 1 part (8 p.) ;</subfield>
+    <subfield code="c">31 cm.</subfield>
+  </datafield>
+  <datafield tag="306" ind1=" " ind2=" ">
+    <subfield code="a">001215</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Originally for violin and continuo.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Attributed to Tomaso Antonio Vitali, but probably not by him.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Duration: 12:15.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Chaconnes (Viola and piano), Arranged</subfield>
+    <subfield code="x">Scores and parts.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Vitali, Tomaso Antonio,</subfield>
+    <subfield code="d">1663-1745.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Davis, Leonard,</subfield>
+    <subfield code="d">1915-2009.</subfield>
+    <subfield code="4">arr</subfield>
+  </datafield>
+  <datafield tag="953" ind1=" " ind2=" ">
+    <subfield code="a">TA28</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Music</subfield>
+    <subfield code="h">M228</subfield>
+    <subfield code="i">.C</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">MUSIC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5591972</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

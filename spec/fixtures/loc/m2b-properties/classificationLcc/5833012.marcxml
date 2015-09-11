@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01995cem a2200397 a 4500</leader>
+  <controlfield tag="001">5833012</controlfield>
+  <controlfield tag="005">20090929114443.0</controlfield>
+  <controlfield tag="007">ad canzn</controlfield>
+  <controlfield tag="008">830106s1884    nyud      e     1   eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-geogmaps</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">Policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">ga35 2009-09-11 sent to CMT</subfield>
+    <subfield code="a">Item 00207590289 received in CCS 2009-09-23</subfield>
+    <subfield code="a">Item 00207590289 left CCS 2009-09-23</subfield>
+    <subfield code="a">Item 00207590289 received in CCS 2009-09-23</subfield>
+    <subfield code="a">Item 00207590289 left CCS 2009-09-24</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2009582565</subfield>
+  </datafield>
+  <datafield tag="034" ind1="0" ind2=" ">
+    <subfield code="a">a</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">G1019</subfield>
+    <subfield code="b">.J5 1884</subfield>
+  </datafield>
+  <datafield tag="052" ind1=" " ind2=" ">
+    <subfield code="a">3200</subfield>
+  </datafield>
+  <datafield tag="052" ind1=" " ind2=" ">
+    <subfield code="a">3701</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Johnson, A. J.</subfield>
+    <subfield code="q">(Alvin Jewett),</subfield>
+    <subfield code="d">1827-1884.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Johnson's new illustrated family atlas of the world ... with a treatise on physical geography /</subfield>
+    <subfield code="c">by A. Guyot ; with descriptions, geographical, statistical, and historical, revised by A.R. Spofford ; also includes a dictionary of religious denominations, sects, parties, and associations compiled by Roswell D. Hitchcock.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2=" ">
+    <subfield code="a">New Illustrated family atlas of the world</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2="4">
+    <subfield code="a">Johnson's new illustrated family atlas of the world with a treatise on physical geography</subfield>
+  </datafield>
+  <datafield tag="255" ind1=" " ind2=" ">
+    <subfield code="a">Scales differ.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">A.J. Johnson &amp; Co.,</subfield>
+    <subfield code="c">1884.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 atlas (1 v. (various pagings)) :</subfield>
+    <subfield code="b">ill. (some col., some hand col.), hand col. maps ;</subfield>
+    <subfield code="c">47 cm.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Relief shown by hachures.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Copyright 1882 by A.J. Johnson.</subfield>
+  </datafield>
+  <datafield tag="510" ind1="4" ind2=" ">
+    <subfield code="a">Phillips,</subfield>
+    <subfield code="c">918</subfield>
+  </datafield>
+  <datafield tag="510" ind1="4" ind2=" ">
+    <subfield code="3">Johnson's map of the vicinity of Richmond, and Peninsular Campaign in Virginia (p. 49-50)</subfield>
+    <subfield code="a">LC Civil War maps (2nd ed.),</subfield>
+    <subfield code="c">602.8</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes indexes.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Atlases.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Civil War, 1861-1865</subfield>
+    <subfield code="v">Maps.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Guyot, A.</subfield>
+    <subfield code="q">(Arnold),</subfield>
+    <subfield code="d">1807-1884.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Spofford, Ainsworth Rand,</subfield>
+    <subfield code="d">1825-1908.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Hitchcock, Roswell D.</subfield>
+    <subfield code="q">(Roswell Dwight),</subfield>
+    <subfield code="d">1817-1887.</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">G1019</subfield>
+    <subfield code="i">.J5 1884</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">PREM</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5833012</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>
