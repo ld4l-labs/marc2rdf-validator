@@ -257,15 +257,200 @@ describe 'work within the work described by the MARC record' do
     end # ind1 = 1
 
     context "ind1 = 2" do
-      it '' do
+      it 'need example data 505 ind1 =2' do
         fail 'need example data 505 ind1 =2'
       end
     end # ind1 = 2
-
   end # 505
 
   context "700-711 with ind2 = 2 and ‡t" do
-
+    context "700" do
+      context "ind2 = 2" do
+        context "with ‡t" do
+          let(:g) {
+            rec_id = '700_t'
+            marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+              '<datafield ind1="0" ind2="0" tag="245">
+                <subfield code="a">Symphonies nos. 3 and 4 /</subfield>
+                <subfield code="c">Gustav Mahler.</subfield>
+              </datafield>
+              <datafield ind1="1" ind2="2" tag="700">
+                <subfield code="a">Mahler, Gustav,</subfield>
+                <subfield code="d">1860-1911.</subfield>
+                <subfield code="t">Symphonies,</subfield>
+                <subfield code="n">no. 4,</subfield>
+                <subfield code="r">G major.</subfield>2 work
+                <subfield code="=">^A893495</subfield>
+              </datafield>
+            </record>'
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+          }
+          it '2 works' do
+            expect(g.query(work_squery).size).to eq 2
+          end
+          it 'main work hasPart for 700 work' do
+            expect(g.query(main_part_work_sqy).size).to eq 1
+          end
+        end # with ‡t
+        context "without ‡t" do
+          let(:g) {
+            rec_id = '700_no_t'
+            marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+              '<datafield ind1="1" ind2="4" tag="245">
+                <subfield code="a">The Grapes of Wrath :</subfield>
+                <subfield code="k">videorecording / narrated by Donald Sutherland ; produced and written by Ricki Green ; produced by Cronkite-Ward Co.,</subfield>
+                <subfield code="f">2000.</subfield>
+              </datafield>
+              <datafield ind1="1" ind2="2" tag="700">
+                <subfield code="a">Sutherland, Donald,</subfield>
+                <subfield code="d">1935-</subfield>
+                <subfield code="=">^A515747</subfield>
+              </datafield>
+            </record>'
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+          }
+          it '1 work' do
+            expect(g.query(work_squery).size).to eq 1
+          end
+          it '0 main work hasPart' do
+            expect(g.query(main_part_work_sqy).size).to eq 0
+          end
+        end # without ‡t
+        context "mult with ‡t" do
+          let(:g) {
+            rec_id = 'mult_700_t'
+            marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+              '<datafield ind1="0" ind2="0" tag="245">
+                <subfield code="a">Dennis Brain:</subfield>
+                <subfield code="b">The art of the French horn.</subfield>
+                <subfield code="h">[Sound recording]</subfield>
+              </datafield>
+              <datafield ind1="1" ind2="2" tag="700">
+                <subfield code="a">Brahms, Johannes,</subfield>
+                <subfield code="d">1833-1897.</subfield>
+                <subfield code="t">Trios,</subfield>
+                <subfield code="m">piano, violin, horn,</subfield>
+                <subfield code="n">op. 40,</subfield>
+                <subfield code="r">E♭ major.</subfield>
+                <subfield code="=">^A237843</subfield>
+              </datafield>
+              <datafield ind1="1" ind2="2" tag="700">
+                <subfield code="a">Mozart, Wolfgang Amadeus,</subfield>
+                <subfield code="d">1756-1791.</subfield>
+                <subfield code="t">Quintets,</subfield>
+                <subfield code="m">horn, violin, violas (2), cello,</subfield>
+                <subfield code="n">K. 407,</subfield>
+                <subfield code="r">E♭ major</subfield>
+                <subfield code="=">^A710672</subfield>
+              </datafield>
+              <datafield ind1="1" ind2="2" tag="700">
+                <subfield code="a">Marais, Marin,</subfield>
+                <subfield code="d">1656-1728</subfield>
+                <subfield code="t">Pièces de violes, 4e livre. 1ère partie. 39-40;</subfield>
+                <subfield code="o">arranged.</subfield>
+                <subfield code="=">^A238190</subfield>
+              </datafield>
+            </record>'
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+          }
+          it '4 works' do
+            expect(g.query(work_squery).size).to eq 4
+          end
+          it 'main work hasPart to 700 work' do
+            expect(g.query(main_part_work_sqy).size).to eq 3
+          end
+        end # mult with ‡t
+      end # ind2 = 2
+      context "ind2 blank w ‡t" do
+        let(:g) {
+          rec_id = '700_ind2_blank_t'
+          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+            '<datafield ind1="0" ind2="4" tag="245">
+              <subfield code="a">The grapes of wrath</subfield>
+              <subfield code="h">[videorecording] /</subfield>
+              <subfield code="c">Twentieth Century-Fox presents Darryl F. Zanuck\'s production ; directed by John Ford ; screenplay by Nunnally Johnson.</subfield>
+            </datafield>
+            <datafield ind1="1" ind2=" " tag="700">
+              <subfield code="a">Steinbeck, John,</subfield>
+              <subfield code="d">1902-1968.</subfield>
+              <subfield code="t">Grapes of wrath.</subfield>
+              <subfield code="=">^A2091926</subfield>
+            </datafield>
+          </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+        }
+        it '1 work' do
+          expect(g.query(work_squery).size).to eq 1
+        end
+        it '0 main work hasPart' do
+          expect(g.query(main_part_work_sqy).size).to eq 0
+        end
+      end
+    end # 700
+    context "710" do
+      context "ind 2 = 2" do
+        context "with ‡t" do
+          it 'need example 710 ind2 2 with ‡t' do
+            fail 'need example 710 ind2 2 with ‡t'
+          end
+        end # with ‡t
+        context "without ‡t" do
+          let(:g) {
+            rec_id = '710_no_t'
+            marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+              '<datafield ind1="1" ind2="4" tag="245">
+                <subfield code="a">The Grapes of Wrath :</subfield>
+                <subfield code="k">videorecording / narrated by Donald Sutherland ; produced and written by Ricki Green ; produced by Cronkite-Ward Co.,</subfield>
+                <subfield code="f">2000.</subfield>
+              </datafield>
+              <datafield ind1="2" ind2="2" tag="710">
+                <subfield code="a">Cronkite Ward Company.</subfield>
+                <subfield code="=">^A1623972</subfield>
+              </datafield>
+            </record>'
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+          }
+          it '1 work' do
+            expect(g.query(work_squery).size).to eq 1
+          end
+          it '0 main work hasPart' do
+            expect(g.query(main_part_work_sqy).size).to eq 0
+          end
+        end # without ‡t
+        context "mult with ‡t" do
+          it 'need example mult 710 ind2 2 with ‡t' do
+            fail 'need example mult 710 ind2 2 with ‡t'
+          end
+        end # mult with ‡t
+      end # ind2 = 2
+      # ind2 not 2 with ‡t?
+      it 'need example 710 ind2 not 2 with ‡t' do
+        fail 'need example 710 ind2 not 2 with ‡t'
+      end
+    end # 710
+    context "711" do
+      context "ind 2 = 2" do
+        context "with ‡t" do
+          it 'need example 711 ind2 = 2 with ‡t' do
+            fail 'need example 711 ind2 = 2 with ‡t'
+          end
+        end # with ‡t
+        context "without ‡t" do
+          it 'need example 711 ind2 = 2 without ‡t' do
+            fail 'need example 711 ind2 = 2 without ‡t'
+          end
+        end # without ‡t
+        context "mult with ‡t" do
+          it 'need example mult 711 ind2 = 2 with ‡t' do
+            fail 'need example mult 711 ind2 = 2 with ‡t'
+          end
+        end # mult with ‡t
+      end # ind2 = 2
+      # ind2 not 2 with ‡t?
+      it 'need example 711 ind2 not 2 with ‡t' do
+        fail 'need example 711 ind2 not 2 with ‡t'
+      end
+    end # 711
   end  # 700-711 with ind2 = 2 and ‡t
 
   context "730" do
@@ -342,11 +527,11 @@ describe 'work within the work described by the MARC record' do
         </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
-      it '3 works' do
-        expect(g.query(work_squery).size).to eq 3
+      it '1 work' do
+        expect(g.query(work_squery).size).to eq 1
       end
-      it 'main work hasPart to each 730 work' do
-        expect(g.query(main_part_work_sqy).size).to eq 3
+      it '0 main work hasPart' do
+        expect(g.query(main_part_work_sqy).size).to eq 0
       end
     end # ind2 blank
   end # 730
@@ -416,11 +601,11 @@ describe 'work within the work described by the MARC record' do
         </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
-      it '2 works' do
-        expect(g.query(work_squery).size).to eq 2
+      it '1 work' do
+        expect(g.query(work_squery).size).to eq 1
       end
-      it 'main work hasPart to 740 work' do
-        expect(g.query(main_part_work_sqy).size).to eq 1
+      it '0 main work hasPart' do
+        expect(g.query(main_part_work_sqy).size).to eq 0
       end
     end # ind2 = 1
 
@@ -440,11 +625,11 @@ describe 'work within the work described by the MARC record' do
        </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
-      it '2 works' do
-        expect(g.query(work_squery).size).to eq 2
+      it '1 work' do
+        expect(g.query(work_squery).size).to eq 1
       end
-      it 'main work hasPart to 740 work' do
-        expect(g.query(main_part_work_sqy).size).to eq 1
+      it '0 main work hasPart' do
+        expect(g.query(main_part_work_sqy).size).to eq 0
       end
     end # ind2 blank
   end # 740
