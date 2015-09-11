@@ -24,7 +24,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">^A116705</subfield>
+    <subfield code="=">^A116705</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath /</subfield>
@@ -43,7 +43,7 @@
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Benton, Thomas Hart,</subfield>
     <subfield code="d">1889-1975.</subfield>
-    <subfield code=" ">^A104377</subfield>
+    <subfield code="=">^A104377</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">PS3537 .T3234 G7 1940</subfield>

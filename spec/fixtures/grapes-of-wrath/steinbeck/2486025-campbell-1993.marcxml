@@ -38,7 +38,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">^A116705</subfield>
+    <subfield code="=">^A116705</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath /</subfield>
@@ -70,18 +70,18 @@
     <subfield code="a">Migrant agricultural laborers</subfield>
     <subfield code="z">California</subfield>
     <subfield code="x">Fiction.</subfield>
-    <subfield code=" ">^A2467687</subfield>
+    <subfield code="=">^A2467687</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="650">
     <subfield code="a">Labor camps</subfield>
     <subfield code="z">California</subfield>
     <subfield code="x">Fiction.</subfield>
-    <subfield code=" ">^A1032779</subfield>
+    <subfield code="=">^A1032779</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Everyman's library ;</subfield>
     <subfield code="v">no. 154</subfield>
-    <subfield code=" ">^A1126079</subfield>
+    <subfield code="=">^A1126079</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="920">
     <subfield code="a">Set in the depression of the 1930s, this is the story of one of the thousands of destitute families which fled the Dust Bowl for the promise of California. The novel was awarded the Pulitzer Prize when it was first published in 1939.</subfield>

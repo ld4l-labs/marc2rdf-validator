@@ -41,7 +41,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">^A116705</subfield>
+    <subfield code="=">^A116705</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath.</subfield>
@@ -70,11 +70,11 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Lisca, Peter.</subfield>
-    <subfield code=" ">^A210203</subfield>
+    <subfield code="=">^A210203</subfield>
   </datafield>
   <datafield ind1=" " ind2="0" tag="830">
     <subfield code="a">Viking critical library.</subfield>
-    <subfield code=" ">^A1165657</subfield>
+    <subfield code="=">^A1165657</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="920">
     <subfield code="b">Although it follows the movement of thousands of men and women and the transformation of an entire nation, &quot;The Grapes of Wrath&quot; is also the story of one Oklahoma farm family, the Joads, who are driven off their homestead and forced to travel west to the promised land of California. Out of their trials and their repeated collisons against the hard realities of an America divided into Haves and Have-Nots, Steinbeck created a drama that is intensely human yet majestic in its scale and moral vision, elemental yet plainspoken, tragic but ultimately stirring in its insistence on human dignity.</subfield>
