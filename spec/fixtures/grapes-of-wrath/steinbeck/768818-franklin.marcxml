@@ -1,1 +1,75 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>00907cam a2200265 i 4500</leader><controlfield tag='001'>a768818</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>800110s1975    paua          000 1 eng  </controlfield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>   76357029</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(CStRLIN)CSUG13549588-B</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)2983674</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)272511470</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='d'>CSt</subfield><subfield code='d'>OrLoB</subfield></datafield><datafield ind1='0' ind2=' ' tag='050'><subfield code='a'>PZ3.S8195</subfield><subfield code='b'>Gr33</subfield><subfield code='a'>PS3537.T3234;</subfield></datafield><datafield ind1=' ' ind2=' ' tag='082'><subfield code='a'>813/.5/2</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code=' '>^A116705</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath /</subfield><subfield code='c'>John Steinbeck ; illustrated by Robert Heindel.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='250'><subfield code='a'>A limited ed.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Franklin Center, Pa. :</subfield><subfield code='b'>Franklin Library,</subfield><subfield code='c'>1975.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>589 p. :</subfield><subfield code='b'>ill. ;</subfield><subfield code='c'>23 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>At head of title: Pulitzer prize 1940.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Scarlett morocco, stamped in gold; all edges gilt.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>21</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537.T27 G76 1975</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>001ADU9176</subfield><subfield code='d'>8/6/1996</subfield><subfield code='l'>FELTON</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>1/10/1980</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00907cam a2200265 i 4500</leader>
+  <controlfield tag="001">a768818</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">800110s1975    paua          000 1 eng  </controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">76357029</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(CStRLIN)CSUG13549588-B</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)2983674</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)272511470</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="d">CSt</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="050">
+    <subfield code="a">PZ3.S8195</subfield>
+    <subfield code="b">Gr33</subfield>
+    <subfield code="a">PS3537.T3234;</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="082">
+    <subfield code="a">813/.5/2</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code=" ">^A116705</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath /</subfield>
+    <subfield code="c">John Steinbeck ; illustrated by Robert Heindel.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">A limited ed.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Franklin Center, Pa. :</subfield>
+    <subfield code="b">Franklin Library,</subfield>
+    <subfield code="c">1975.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">589 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">23 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">At head of title: Pulitzer prize 1940.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Scarlett morocco, stamped in gold; all edges gilt.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">21</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537.T27 G76 1975</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">001ADU9176</subfield>
+    <subfield code="d">8/6/1996</subfield>
+    <subfield code="l">FELTON</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">1/10/1980</subfield>
+  </datafield>
+</record>

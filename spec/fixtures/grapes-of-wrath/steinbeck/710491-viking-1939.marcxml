@@ -1,1 +1,313 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>03568cam a2200541   4500</leader><controlfield tag='001'>a710491</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150628003001.0</controlfield><controlfield tag='008'>850211s1939    nyu           000 1 eng  </controlfield><datafield ind1=' ' ind2=' ' tag='010'><subfield code='a'>   39027282</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0670347914</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780670347919</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(CStRLIN)CSUG85-B11819</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)289946</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)272440737</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>DLC</subfield><subfield code='d'>CoFS</subfield><subfield code='d'>CSt</subfield><subfield code='d'>OrLoB</subfield></datafield><datafield ind1='0' ind2=' ' tag='050'><subfield code='a'>PZ3.S8195</subfield><subfield code='b'>Gr</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code=' '>^A116705</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath</subfield><subfield code='c'>[by] John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>New York,</subfield><subfield code='b'>The Viking Press</subfield><subfield code='c'>[c1939]</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>4 p. l., 3-619 p.</subfield><subfield code='c'>21 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Songs with music on lining-papers.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;First published in April 1939&quot;--t.p. verso.</subfield></datafield><datafield ind1='4' ind2=' ' tag='510'><subfield code='a'>Goldstone, A.H. Steinbeck,</subfield><subfield code='c'>A12a.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='583'><subfield code='a'>Cons. Trans. #1853 (CB, c.2, SPEC).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='583'><subfield code='a'>Cons. Trans. #1918 (CB. c.1, SPEC).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='590'><subfield code='a'>Stanford copy 2 (PS3537 .T27 G76 1939A, FELT): Wells Fargo Steinbeck Collection. Binding: illustrated gray cloth, with dust jacket. Provenance: author&apos;s signature; Esther Rodgers (signature); Library of the Steinbeck Family (booklabel).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='590'><subfield code='a'>Stanford copy 3 (PS3537 .T27 G76 1939A, FELT): Wells Fargo Steinbeck Collection. Binding: illustrated gray cloth, with dust jacket. Provenance: Esther Rodgers (signature).</subfield></datafield><datafield ind1=' ' ind2=' ' tag='590'><subfield code='a'>Stanford copy 2 (PS3537.T27 G76 1939A CB, FELT): Wells Fargo Steinbeck Collection. Binding: illustrated gray cloth, with dust jacket. Provenance: author&apos;s presentation inscription to Esther.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1 21</subfield></datafield><datafield ind1=' ' ind2='4' tag='690'><subfield code='a'>Wells Fargo Steinbeck Collection.</subfield></datafield><datafield ind1=' ' ind2='4' tag='690'><subfield code='a'>%PRO796</subfield><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield></datafield><datafield ind1=' ' ind2='4' tag='690'><subfield code='a'>%PRO796</subfield><subfield code='a'>Rodgers, Esther.</subfield></datafield><datafield ind1=' ' ind2='4' tag='690'><subfield code='a'>%PRO797</subfield><subfield code='a'>Steinbeck Family.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105035326334</subfield><subfield code='d'>2/3/2015</subfield><subfield code='e'>2/1/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>62</subfield><subfield code='q'>5</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>2</subfield><subfield code='i'>36105035326342</subfield><subfield code='d'>6/5/2015</subfield><subfield code='e'>3/21/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>60</subfield><subfield code='q'>1</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>5</subfield><subfield code='i'>36105005128918</subfield><subfield code='d'>10/28/2014</subfield><subfield code='e'>9/29/2014</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>42</subfield><subfield code='q'>3</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>6</subfield><subfield code='i'>36105035326367</subfield><subfield code='d'>4/11/2014</subfield><subfield code='e'>3/20/2014</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>42</subfield><subfield code='q'>6</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>7</subfield><subfield code='i'>36105035326375</subfield><subfield code='d'>3/30/2015</subfield><subfield code='e'>3/2/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>42</subfield><subfield code='q'>7</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>8</subfield><subfield code='i'>36105035326383</subfield><subfield code='d'>6/23/2015</subfield><subfield code='e'>6/17/2015</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>29</subfield><subfield code='q'>6</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>9</subfield><subfield code='i'>36105003811846</subfield><subfield code='d'>6/3/2015</subfield><subfield code='e'>6/3/2015</subfield><subfield code='k'>CHECKEDOUT</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>36</subfield><subfield code='q'>4</subfield><subfield code='r'>M</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>10</subfield><subfield code='i'>36105003811853</subfield><subfield code='d'>6/12/2014</subfield><subfield code='e'>6/9/2014</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>53</subfield><subfield code='q'>5</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G7 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>11</subfield><subfield code='i'>36105003811861</subfield><subfield code='d'>9/8/2014</subfield><subfield code='e'>5/11/2014</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>50</subfield><subfield code='q'>6</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>7/12/1991</subfield><subfield code='z'>DIGI-SENT</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T27 G76 1939A</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>012ADM9846</subfield><subfield code='d'>8/6/1996</subfield><subfield code='l'>FELTON</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>7/12/1991</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T27 G76 1939A</subfield><subfield code='w'>LC</subfield><subfield code='c'>2</subfield><subfield code='i'>710491-3002</subfield><subfield code='d'>7/20/1999</subfield><subfield code='l'>FELTON</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>7/20/1999</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T27 G76 1939A</subfield><subfield code='w'>LC</subfield><subfield code='c'>3</subfield><subfield code='i'>710491-3003</subfield><subfield code='d'>7/20/1999</subfield><subfield code='l'>FELTON</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>7/20/1999</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T27 G76 1939A CB</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>710491-6001</subfield><subfield code='l'>FELTON</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>10/11/2002</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T27 G76 1939A CB</subfield><subfield code='w'>LC</subfield><subfield code='c'>2</subfield><subfield code='i'>710491-6002</subfield><subfield code='l'>FELTON</subfield><subfield code='m'>SPEC-COLL</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS</subfield><subfield code='u'>10/11/2002</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03568cam a2200541   4500</leader>
+  <controlfield tag="001">a710491</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150628003001.0</controlfield>
+  <controlfield tag="008">850211s1939    nyu           000 1 eng  </controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">39027282</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0670347914</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780670347919</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(CStRLIN)CSUG85-B11819</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)289946</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)272440737</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">DLC</subfield>
+    <subfield code="d">CoFS</subfield>
+    <subfield code="d">CSt</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="050">
+    <subfield code="a">PZ3.S8195</subfield>
+    <subfield code="b">Gr</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code=" ">^A116705</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath</subfield>
+    <subfield code="c">[by] John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">New York,</subfield>
+    <subfield code="b">The Viking Press</subfield>
+    <subfield code="c">[c1939]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">4 p. l., 3-619 p.</subfield>
+    <subfield code="c">21 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Songs with music on lining-papers.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;First published in April 1939&quot;--t.p. verso.</subfield>
+  </datafield>
+  <datafield ind1="4" ind2=" " tag="510">
+    <subfield code="a">Goldstone, A.H. Steinbeck,</subfield>
+    <subfield code="c">A12a.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="583">
+    <subfield code="a">Cons. Trans. #1853 (CB, c.2, SPEC).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="583">
+    <subfield code="a">Cons. Trans. #1918 (CB. c.1, SPEC).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="590">
+    <subfield code="a">Stanford copy 2 (PS3537 .T27 G76 1939A, FELT): Wells Fargo Steinbeck Collection. Binding: illustrated gray cloth, with dust jacket. Provenance: author's signature; Esther Rodgers (signature); Library of the Steinbeck Family (booklabel).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="590">
+    <subfield code="a">Stanford copy 3 (PS3537 .T27 G76 1939A, FELT): Wells Fargo Steinbeck Collection. Binding: illustrated gray cloth, with dust jacket. Provenance: Esther Rodgers (signature).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="590">
+    <subfield code="a">Stanford copy 2 (PS3537.T27 G76 1939A CB, FELT): Wells Fargo Steinbeck Collection. Binding: illustrated gray cloth, with dust jacket. Provenance: author's presentation inscription to Esther.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1 21</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="690">
+    <subfield code="a">Wells Fargo Steinbeck Collection.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="690">
+    <subfield code="a">%PRO796</subfield>
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="690">
+    <subfield code="a">%PRO796</subfield>
+    <subfield code="a">Rodgers, Esther.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="690">
+    <subfield code="a">%PRO797</subfield>
+    <subfield code="a">Steinbeck Family.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105035326334</subfield>
+    <subfield code="d">2/3/2015</subfield>
+    <subfield code="e">2/1/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">62</subfield>
+    <subfield code="q">5</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">2</subfield>
+    <subfield code="i">36105035326342</subfield>
+    <subfield code="d">6/5/2015</subfield>
+    <subfield code="e">3/21/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">60</subfield>
+    <subfield code="q">1</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">5</subfield>
+    <subfield code="i">36105005128918</subfield>
+    <subfield code="d">10/28/2014</subfield>
+    <subfield code="e">9/29/2014</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">42</subfield>
+    <subfield code="q">3</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">6</subfield>
+    <subfield code="i">36105035326367</subfield>
+    <subfield code="d">4/11/2014</subfield>
+    <subfield code="e">3/20/2014</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">42</subfield>
+    <subfield code="q">6</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">7</subfield>
+    <subfield code="i">36105035326375</subfield>
+    <subfield code="d">3/30/2015</subfield>
+    <subfield code="e">3/2/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">42</subfield>
+    <subfield code="q">7</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">8</subfield>
+    <subfield code="i">36105035326383</subfield>
+    <subfield code="d">6/23/2015</subfield>
+    <subfield code="e">6/17/2015</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">29</subfield>
+    <subfield code="q">6</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">9</subfield>
+    <subfield code="i">36105003811846</subfield>
+    <subfield code="d">6/3/2015</subfield>
+    <subfield code="e">6/3/2015</subfield>
+    <subfield code="k">CHECKEDOUT</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">36</subfield>
+    <subfield code="q">4</subfield>
+    <subfield code="r">M</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">10</subfield>
+    <subfield code="i">36105003811853</subfield>
+    <subfield code="d">6/12/2014</subfield>
+    <subfield code="e">6/9/2014</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">53</subfield>
+    <subfield code="q">5</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G7 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">11</subfield>
+    <subfield code="i">36105003811861</subfield>
+    <subfield code="d">9/8/2014</subfield>
+    <subfield code="e">5/11/2014</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">50</subfield>
+    <subfield code="q">6</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">7/12/1991</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T27 G76 1939A</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">012ADM9846</subfield>
+    <subfield code="d">8/6/1996</subfield>
+    <subfield code="l">FELTON</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">7/12/1991</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T27 G76 1939A</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">2</subfield>
+    <subfield code="i">710491-3002</subfield>
+    <subfield code="d">7/20/1999</subfield>
+    <subfield code="l">FELTON</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">7/20/1999</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T27 G76 1939A</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">3</subfield>
+    <subfield code="i">710491-3003</subfield>
+    <subfield code="d">7/20/1999</subfield>
+    <subfield code="l">FELTON</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">7/20/1999</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T27 G76 1939A CB</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">710491-6001</subfield>
+    <subfield code="l">FELTON</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">10/11/2002</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T27 G76 1939A CB</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">2</subfield>
+    <subfield code="i">710491-6002</subfield>
+    <subfield code="l">FELTON</subfield>
+    <subfield code="m">SPEC-COLL</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS</subfield>
+    <subfield code="u">10/11/2002</subfield>
+  </datafield>
+</record>

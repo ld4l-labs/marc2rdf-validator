@@ -1,1 +1,63 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>00642cam a2200193 a 4500</leader><controlfield tag='001'>a2431417</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150602003002.0</controlfield><controlfield tag='008'>800327s1967    nyu           000 1 eng d</controlfield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)6131842</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)274335646</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>LSM</subfield><subfield code='c'>LSM</subfield><subfield code='d'>m.c.</subfield><subfield code='d'>NOC</subfield><subfield code='d'>STF</subfield><subfield code='d'>OrLoB</subfield></datafield><datafield ind1=' ' ind2=' ' tag='049'><subfield code='a'>STFA</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code=' '>^A116705</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath /</subfield><subfield code='c'>John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>New York :</subfield><subfield code='b'>Viking,</subfield><subfield code='c'>c1967.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>619 p. ;</subfield><subfield code='c'>20 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>1</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537.T3234 G7 1967</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105011893737</subfield><subfield code='d'>6/1/2015</subfield><subfield code='e'>6/1/2015</subfield><subfield code='k'>CHECKEDOUT</subfield><subfield code='l'>STACKS</subfield><subfield code='m'>GREEN</subfield><subfield code='n'>53</subfield><subfield code='q'>6</subfield><subfield code='r'>M</subfield><subfield code='s'>Y</subfield><subfield code='t'>STKS-MONO</subfield><subfield code='u'>3/27/1980</subfield><subfield code='z'>DIGI-SENT</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00642cam a2200193 a 4500</leader>
+  <controlfield tag="001">a2431417</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150602003002.0</controlfield>
+  <controlfield tag="008">800327s1967    nyu           000 1 eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)6131842</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)274335646</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">LSM</subfield>
+    <subfield code="c">LSM</subfield>
+    <subfield code="d">m.c.</subfield>
+    <subfield code="d">NOC</subfield>
+    <subfield code="d">STF</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="049">
+    <subfield code="a">STFA</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code=" ">^A116705</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath /</subfield>
+    <subfield code="c">John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Viking,</subfield>
+    <subfield code="c">c1967.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">619 p. ;</subfield>
+    <subfield code="c">20 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">1</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537.T3234 G7 1967</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105011893737</subfield>
+    <subfield code="d">6/1/2015</subfield>
+    <subfield code="e">6/1/2015</subfield>
+    <subfield code="k">CHECKEDOUT</subfield>
+    <subfield code="l">STACKS</subfield>
+    <subfield code="m">GREEN</subfield>
+    <subfield code="n">53</subfield>
+    <subfield code="q">6</subfield>
+    <subfield code="r">M</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">STKS-MONO</subfield>
+    <subfield code="u">3/27/1980</subfield>
+    <subfield code="z">DIGI-SENT</subfield>
+  </datafield>
+</record>

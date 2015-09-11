@@ -1,1 +1,80 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>01133cam a2200277M  4500</leader><controlfield tag='001'>a6745649</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>050505r19951939enk           000 f eng d</controlfield><datafield ind1=' ' ind2=' ' tag='015'><subfield code='a'>GB95-43734</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>0749317809</subfield></datafield><datafield ind1=' ' ind2=' ' tag='020'><subfield code='a'>9780749317805</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)60225187</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)275992402</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>UKV3G</subfield><subfield code='c'>UKV3G</subfield><subfield code='d'>UKM</subfield></datafield><datafield ind1='0' ind2='4' tag='082'><subfield code='a'>813.52</subfield><subfield code='2'>20</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code=' '>^A116705</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath /</subfield><subfield code='c'>John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>London :</subfield><subfield code='b'>Mandarin,</subfield><subfield code='c'>1995, c1939.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>534 p. ;</subfield><subfield code='c'>18 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>31</subfield></datafield><datafield ind1=' ' ind2=' ' tag='690'><subfield code='a'>Foreign editions of the works of John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='920'><subfield code='a'>Steinbeck&apos;s Pulitzer Prize-winning novel concerning the plight of the &quot;Okies&quot; - the refugee farmers and sharecroppers fleeing the dustbowl of Oklahoma. Attracted by the golden promise of California, they meet only with abject hostility, shame and destitution.</subfield><subfield code='1'>Nielsen</subfield></datafield><datafield ind1=' ' ind2=' ' tag='986'><subfield code='a'>Winner of Pulitzer Prize Novel Category 1940.</subfield><subfield code='1'>Nielsen</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G8 1995</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105115298692</subfield><subfield code='d'>9/17/2007</subfield><subfield code='l'>PAGE-SP</subfield><subfield code='m'>SAL3</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-INHOUSE</subfield><subfield code='u'>2/1/2007</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01133cam a2200277M  4500</leader>
+  <controlfield tag="001">a6745649</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">050505r19951939enk           000 f eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="015">
+    <subfield code="a">GB95-43734</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">0749317809</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9780749317805</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)60225187</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)275992402</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">UKV3G</subfield>
+    <subfield code="c">UKV3G</subfield>
+    <subfield code="d">UKM</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="4" tag="082">
+    <subfield code="a">813.52</subfield>
+    <subfield code="2">20</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code=" ">^A116705</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath /</subfield>
+    <subfield code="c">John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">London :</subfield>
+    <subfield code="b">Mandarin,</subfield>
+    <subfield code="c">1995, c1939.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">534 p. ;</subfield>
+    <subfield code="c">18 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">31</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="690">
+    <subfield code="a">Foreign editions of the works of John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="920">
+    <subfield code="a">Steinbeck's Pulitzer Prize-winning novel concerning the plight of the &quot;Okies&quot; - the refugee farmers and sharecroppers fleeing the dustbowl of Oklahoma. Attracted by the golden promise of California, they meet only with abject hostility, shame and destitution.</subfield>
+    <subfield code="1">Nielsen</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="986">
+    <subfield code="a">Winner of Pulitzer Prize Novel Category 1940.</subfield>
+    <subfield code="1">Nielsen</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G8 1995</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105115298692</subfield>
+    <subfield code="d">9/17/2007</subfield>
+    <subfield code="l">PAGE-SP</subfield>
+    <subfield code="m">SAL3</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-INHOUSE</subfield>
+    <subfield code="u">2/1/2007</subfield>
+  </datafield>
+</record>

@@ -1,1 +1,68 @@
-<record xmlns='http://www.loc.gov/MARC21/slim'><leader>00787cam a2200241Ia 4500</leader><controlfield tag='001'>a6788842</controlfield><controlfield tag='003'>SIRSI</controlfield><controlfield tag='005'>20150321050002.0</controlfield><controlfield tag='008'>870908s1939    onca          000 1 eng d</controlfield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-M)16652026</subfield></datafield><datafield ind1=' ' ind2=' ' tag='035'><subfield code='a'>(OCoLC-I)275895551</subfield></datafield><datafield ind1=' ' ind2=' ' tag='040'><subfield code='a'>IXA</subfield><subfield code='c'>IXA</subfield></datafield><datafield ind1=' ' ind2=' ' tag='090'><subfield code='a'>PS3537.T3234</subfield><subfield code='b'>G8 1939d</subfield></datafield><datafield ind1='1' ind2=' ' tag='100'><subfield code='a'>Steinbeck, John,</subfield><subfield code='d'>1902-1968.</subfield><subfield code=' '>^A116705</subfield></datafield><datafield ind1='1' ind2='4' tag='245'><subfield code='a'>The grapes of wrath /</subfield><subfield code='c'>John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='260'><subfield code='a'>Toronto :</subfield><subfield code='b'>Macmillan,</subfield><subfield code='c'>1939.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='300'><subfield code='a'>619 p. :</subfield><subfield code='b'>ill. ;</subfield><subfield code='c'>21 cm.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>&quot;First published in 1939&quot;--T.p. verso.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='500'><subfield code='a'>Illustrated lining papers.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='596'><subfield code='a'>31</subfield></datafield><datafield ind1='4' ind2=' ' tag='690'><subfield code='a'>Foreign editions of the works of John Steinbeck.</subfield></datafield><datafield ind1=' ' ind2=' ' tag='994'><subfield code='a'>Z0</subfield><subfield code='b'>STF</subfield></datafield><datafield ind1=' ' ind2=' ' tag='999'><subfield code='a'>PS3537 .T3234 G8 1939</subfield><subfield code='w'>LC</subfield><subfield code='c'>1</subfield><subfield code='i'>36105122682904</subfield><subfield code='l'>PAGE-SP</subfield><subfield code='m'>SAL3</subfield><subfield code='r'>Y</subfield><subfield code='s'>Y</subfield><subfield code='t'>NH-INHOUSE</subfield><subfield code='u'>4/17/2007</subfield></datafield></record>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>00787cam a2200241Ia 4500</leader>
+  <controlfield tag="001">a6788842</controlfield>
+  <controlfield tag="003">SIRSI</controlfield>
+  <controlfield tag="005">20150321050002.0</controlfield>
+  <controlfield tag="008">870908s1939    onca          000 1 eng d</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-M)16652026</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC-I)275895551</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">IXA</subfield>
+    <subfield code="c">IXA</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="090">
+    <subfield code="a">PS3537.T3234</subfield>
+    <subfield code="b">G8 1939d</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Steinbeck, John,</subfield>
+    <subfield code="d">1902-1968.</subfield>
+    <subfield code=" ">^A116705</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The grapes of wrath /</subfield>
+    <subfield code="c">John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Toronto :</subfield>
+    <subfield code="b">Macmillan,</subfield>
+    <subfield code="c">1939.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">619 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">21 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">&quot;First published in 1939&quot;--T.p. verso.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Illustrated lining papers.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="596">
+    <subfield code="a">31</subfield>
+  </datafield>
+  <datafield ind1="4" ind2=" " tag="690">
+    <subfield code="a">Foreign editions of the works of John Steinbeck.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="994">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">STF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="999">
+    <subfield code="a">PS3537 .T3234 G8 1939</subfield>
+    <subfield code="w">LC</subfield>
+    <subfield code="c">1</subfield>
+    <subfield code="i">36105122682904</subfield>
+    <subfield code="l">PAGE-SP</subfield>
+    <subfield code="m">SAL3</subfield>
+    <subfield code="r">Y</subfield>
+    <subfield code="s">Y</subfield>
+    <subfield code="t">NH-INHOUSE</subfield>
+    <subfield code="u">4/17/2007</subfield>
+  </datafield>
+</record>
