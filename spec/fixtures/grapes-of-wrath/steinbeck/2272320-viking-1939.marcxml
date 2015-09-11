@@ -30,7 +30,7 @@
   <datafield ind1="1" ind2="0" tag="100">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">^A116705</subfield>
+    <subfield code="=">^A116705</subfield>
   </datafield>
   <datafield ind1="1" ind2="4" tag="245">
     <subfield code="a">The grapes of wrath</subfield>

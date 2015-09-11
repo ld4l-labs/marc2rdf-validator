@@ -22,7 +22,7 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Steinbeck, John,</subfield>
     <subfield code="d">1902-1968.</subfield>
-    <subfield code=" ">^A116705</subfield>
+    <subfield code="=">^A116705</subfield>
   </datafield>
   <datafield ind1="1" ind2="0" tag="245">
     <subfield code="a">Grapes of wrath.</subfield>
@@ -50,7 +50,7 @@
   </datafield>
   <datafield ind1="1" ind2=" " tag="700">
     <subfield code="a">Millgate, Michael.</subfield>
-    <subfield code=" ">^A170296</subfield>
+    <subfield code="=">^A170296</subfield>
   </datafield>
   <datafield ind1=" " ind2=" " tag="999">
     <subfield code="a">PS3537.T27.G76 1971E</subfield>
