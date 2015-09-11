@@ -79,7 +79,7 @@ describe 'work within the work described by the MARC record' do
     context "730" do
       context "single 730 ind2 = 2" do
         let(:g) {
-          rec_id = '245only'
+          rec_id = '730'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="0" ind2="2" tag="245">
               <subfield code="a">L\'homme de Rio /</subfield>
@@ -102,14 +102,86 @@ describe 'work within the work described by the MARC record' do
       end # single 730
 
       context "multiple 730 ind2 = 2" do
-
+        let(:g) {
+          rec_id = '730_3_of_em'
+          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+            '<datafield ind1="0" ind2="0" tag="245">
+              <subfield code="a">Creative loafing.</subfield>
+            </datafield>
+            <datafield ind1="0" ind2="2" tag="730">
+              <subfield code="a">Atlantan.</subfield>
+              <subfield code="?">UNAUTHORIZED</subfield>
+            </datafield>
+            <datafield ind1="0" ind2="2" tag="730">
+              <subfield code="a">Femme.</subfield>
+              <subfield code="?">UNAUTHORIZED</subfield>
+            </datafield>
+            <datafield ind1="0" ind2="2" tag="730">
+              <subfield code="a">Vibes.</subfield>
+              <subfield code="?">UNAUTHORIZED</subfield>
+            </datafield>
+          </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+        }
+        it '4 works' do
+          expect(g.query(work_squery).size).to eq 4
+        end
+        it 'main work hasPart to each 730 works' do
+          expect(g.query(main_part_work_sqy).size).to eq 3
+        end
       end # mult 730
-      context "ind2 = other" do
-
-      end
+      context "ind2 blank" do
+        let(:g) {
+          rec_id = '730_ind2blank'
+          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+            '<datafield ind1="0" ind2="0" tag="245">
+              <subfield code="a">Alfred Hitchcock, the masterpiece collection</subfield>
+              <subfield code="h">[videorecording].</subfield>
+            </datafield>
+            <datafield ind1="0" ind2=" " tag="730">
+              <subfield code="a">Rope (Motion picture)</subfield>
+              <subfield code="=">^A3046122</subfield>
+            </datafield>
+            <datafield ind1="0" ind2=" " tag="730">
+              <subfield code="a">Rear window (Motion picture)</subfield>
+              <subfield code="=">^A1268811</subfield>
+            </datafield>
+          </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+        }
+        it '3 works' do
+          expect(g.query(work_squery).size).to eq 3
+        end
+        it 'main work hasPart to both 730 works' do
+puts g.to_ttl
+          expect(g.query(main_part_work_sqy).size).to eq 3
+        end
+      end # ind2 not 2
     end
     context "740" do
 
+      context "ind2 is 1" do
+        let(:g) {
+          rec_id = '740ind2_1'
+          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+            '<datafield ind1="1" ind2="4" tag="245">
+              <subfield code="a">The grapes of wrath.</subfield>
+            </datafield>
+            <datafield ind1="0" ind2="1" tag="740">
+              <subfield code="a">Screenplay collection.</subfield>
+            </datafield>
+          </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+        }
+        it '3 works' do
+          expect(g.query(work_squery).size).to eq 2
+        end
+        it 'main work hasPart to both 730 works' do
+puts g.to_ttl
+          expect(g.query(main_part_work_sqy).size).to eq 1
+        end
+
+      end
     end
 
   end # 730|740 with ind2 = 2
