@@ -390,8 +390,26 @@ describe 'work within the work described by the MARC record' do
     context "710" do
       context "ind 2 = 2" do
         context "with ‡t" do
-          it 'need example 710 ind2 2 with ‡t' do
-            fail 'need example 710 ind2 2 with ‡t'
+          let(:g) {
+            rec_id = '710_t'
+            marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+              '<datafield tag="025" ind1=" " ind2=" ">
+                <subfield code="a">I E 59127 (LoC 2466523)</subfield>
+              </datafield>
+              <datafield tag="710" ind1="1" ind2="2">
+                <subfield code="a">India.</subfield>
+                <subfield code="t">Bonded Labour System (Abolition) Act, 1976</subfield>
+                <subfield code="h">[microform].</subfield>
+                <subfield code="f">1987.</subfield>
+              </datafield>
+            </record>'
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+          }
+          it '2 works' do
+            expect(g.query(work_squery).size).to eq 2
+          end
+          it '1 main work hasPart' do
+            expect(g.query(main_part_work_sqy).size).to eq 1
           end
         end # with ‡t
         context "without ‡t" do
