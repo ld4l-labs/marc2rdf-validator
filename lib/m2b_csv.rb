@@ -5,7 +5,10 @@ require 'fileutils'
 ##
 # Run this in the lib folder to get classes, properties and their bibids from a csv file
 #   with headers: className, bibid or propertyName, bibid
-# #
+#
+# TODO:  SRU url should be in config file
+# TODO:  should only expect a single csv file as input, not two
+# TODO:  name of input csv file should be in config file??
 class M2bCSV
   def m2b_classes_dir
     "../import/m2b-classes.csv".to_s
@@ -32,6 +35,7 @@ class M2bCSV
   end
 
   def loc_sru_url
+    # TODO:  hardcoded SRU url should be in config file
     'http://lx2.loc.gov:210/LCDB?operation=searchRetrieve&recordSchema=marcxml&maximumRecords=1&query=rec.id'
   end
 
