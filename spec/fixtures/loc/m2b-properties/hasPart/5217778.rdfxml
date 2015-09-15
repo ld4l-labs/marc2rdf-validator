@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/5217778">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Zhu, Weigao, active 17th century-18th century. Ruijin xian zhi</bf:authorizedAccessPoint>
+      <madsrdf:authoritativeLabel>Ruijin xian zhi.</madsrdf:authoritativeLabel>
+      <bf:workTitle rdf:resource="http://example.org/5217778title6"/>
+      <bf:contributor rdf:resource="http://example.org/5217778person7"/>
+      <bf:contributor rdf:resource="http://example.org/5217778person8"/>
+      <bf:contributor rdf:resource="http://example.org/5217778person9"/>
+      <bf:contributor rdf:resource="http://example.org/5217778person10"/>
+      <bf:contributor rdf:resource="http://example.org/5217778person11"/>
+      <bf:contributor rdf:resource="http://example.org/5217778person12"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/chi"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/DS793.J785"/>
+      <bf:classification rdf:resource="http://example.org/5217778classification15"/>
+      <bf:hasPart rdf:resource="http://example.org/5217778work16"/>
+      <bf:hasPart rdf:resource="http://example.org/5217778work17"/>
+      <bf:relatedWork rdf:resource="http://example.org/5217778work18"/>
+      <bf:relatedWork rdf:resource="http://example.org/5217778work19"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">zhuweigaoactive17thcentury18thcenturyyangchangshiactive17thcenturyguoyihaoactive17thcentury18thcenturyzhuyunyingactive17thcentury18thcenturyxiechongbaactive17thcentury18thcenturyzhangzhenejinshi168588001ruijinxianzhichiworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/5217778work16">
+      <bf:title>Xu xiu Ruijin xian zhi.</bf:title>
+      <bf:authorizedAccessPoint>Xu xiu Ruijin xian zhi.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">續修瑞金縣志. 1992.</bf:authorizedAccessPoint>
+      <bf:originDate>1992.</bf:originDate>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/5217778work17">
+      <bf:title>Shangyou xian zhi.</bf:title>
+      <bf:authorizedAccessPoint>Shangyou xian zhi.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">上猶縣志. 1992.</bf:authorizedAccessPoint>
+      <bf:originDate>1992.</bf:originDate>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/5217778work18">
+      <bf:title>(Kangxi) Xu xiu Ruijin xian zhi.</bf:title>
+      <bf:authorizedAccessPoint>(Kangxi) Xu xiu Ruijin xian zhi.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">(康熙)　續修瑞金縣志.</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/5217778work19">
+      <bf:title>(Kangxi) Shangyou xian zhi.</bf:title>
+      <bf:authorizedAccessPoint>(Kangxi) Shangyou xian zhi.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">(康熙)　上猶縣志.</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/5217778instance22">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/5217778title25"/>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/7501309140"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9787501309146"/>
+      <bf:responsibilityStatement xml:lang="zh-hani">[朱維高修 ; 楊長世纂].  (康熙) 續修瑞金縣志 / [郭一豪修 ; 朱雲映, 謝重拔纂]. (康熙) 上猶縣志 / [章振萼纂修].</bf:responsibilityStatement>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Shu mu wen xian chu ban she </bf:label>
+                  <bf:label xml:lang="zh-hani">書目文獻出版社 :</bf:label>
+                  <bf:label xml:lang="zh-hani">新華書店北京发行所发行</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Beijing </bf:label>
+                  <bf:label xml:lang="zh-hani">北京 :</bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1992</bf:providerDate>
+            <bf:providerDate xml:lang="zh-hani">1992.</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Xin hua shu dian Beijing fa xing suo fa xing</bf:label>
+                  <bf:label xml:lang="zh-hani">書目文獻出版社 :</bf:label>
+                  <bf:label xml:lang="zh-hani">新華書店北京发行所发行</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerDate>1992</bf:providerDate>
+            <bf:providerDate xml:lang="zh-hani">1992.</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:edition xml:lang="zh-hani">北京第1版.</bf:edition>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>374 p. :</bf:extent>
+      <bf:dimensions>27 cm.</bf:dimensions>
+      <bf:illustrationNote>ill., maps ;</bf:illustrationNote>
+      <bf:titleStatement>(Kangxi) Ruijin xian zhi</bf:titleStatement>
+      <bf:edition>Beijing di 1 ban.</bf:edition>
+      <bf:providerStatement>Beijing : Shu mu wen xian chu ban she : Xin hua shu dian Beijing fa xing suo fa xing, 1992.</bf:providerStatement>
+      <bf:note>First work originally published: 1683. 2nd work originally published: 1710. 3rd work originally published: 1697.</bf:note>
+      <bf:note>Each page represents 2 leaves of the original.</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>93120144</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(CStRLIN)DCLP93-B14905</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://example.org/5217778"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/5217778annotation21">
+      <bf:derivedFrom rdf:resource="http://example.org/5217778.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/hnk"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/cstrlin"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/miua"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlcr"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2013-04-30T13:34</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/5217778"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/5217778helditem44">
+      <bf:label>DS793.J785 J85 1992</bf:label>
+      <bf:shelfMarkLcc>DS793.J785 J85 1992</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://example.org/5217778instance22"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://example.org/5217778title6">
+      <bf:titleValue>Ruijin xian zhi.</bf:titleValue>
+      <bf:titleValue xml:lang="zh-hani">瑞金縣志.</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/5217778person7">
+      <bf:label>Zhu, Weigao, active 17th century-18th century.</bf:label>
+      <bf:authorizedAccessPoint>Zhu, Weigao, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">朱維高, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Zhu, Weigao, active 17th century-18th century.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/5217778person8">
+      <bf:label>Yang, Changshi, active 17th century.</bf:label>
+      <bf:authorizedAccessPoint>Yang, Changshi, active 17th century.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">楊長世, active 17th century.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Yang, Changshi, active 17th century.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/5217778person9">
+      <bf:label>Guo, Yihao, active 17th century-18th century.</bf:label>
+      <bf:authorizedAccessPoint>Guo, Yihao, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">郭一豪, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Guo, Yihao, active 17th century-18th century.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/5217778person10">
+      <bf:label>Zhu, Yunying, active 17th century-18th century.</bf:label>
+      <bf:authorizedAccessPoint>Zhu, Yunying, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">朱雲映, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Zhu, Yunying, active 17th century-18th century.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/5217778person11">
+      <bf:label>Xie, Chongba, active 17th century-18th century.</bf:label>
+      <bf:authorizedAccessPoint>Xie, Chongba, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">謝重拔, active 17th century-18th century.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Xie, Chongba, active 17th century-18th century.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/5217778person12">
+      <bf:label>Zhang, Zhen'e, jin shi 1685.</bf:label>
+      <bf:authorizedAccessPoint>Zhang, Zhen'e, jin shi 1685.</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="zh-hani">章振萼, jin shi 1685.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Zhang, Zhen'e, jin shi 1685.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Classification rdf:about="http://example.org/5217778classification15">
+      <bf:classificationScheme rdf:resource="http://id.loc.gov/authorities/classSchemes/ddc"/>
+      <bf:classificationNumber>951/.222</bf:classificationNumber>
+      <bf:label>951/.222</bf:label>
+      <bf:classificationEdition>full</bf:classificationEdition>
+      <bf:classificationEdition>20</bf:classificationEdition>
+   </bf:Classification>
+   <bf:Title rdf:about="http://example.org/5217778title25">
+      <bf:label>(Kangxi) Ruijin xian zhi / [Zhu Weigao xiu ; Yang Changshi zuan].  (Kangxi) Xu xiu Ruijin xian zhi / [Guo Yihao xiu ; Zhu Yunying, Xie Chongba zuan].  (Kangxi) Shangyou xian zhi / [Zhang Zhen'e zuan xiu].</bf:label>
+      <bf:titleValue>(Kangxi) Ruijin xian zhi</bf:titleValue>
+      <bf:titleValue xml:lang="zh-hani">(康熙) 瑞金縣志</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

@@ -56,15 +56,20 @@ xxx.ttl is a turtle representation of the same data as the .rdfxml file -- provi
 
 The specific marc records were chosen to try to exercise different wrinkles in work/instance information present in a single marc record.  As new work-instance wrinkles are surfaced, marc records and specs should be added to the project.
 
-# Importing LOC Records via SRU
+# Importing LoC Bib marcxml Records via SRU
 
 1. Create a csv documents in the /docs folder:
     /import/m2b-classes.csv
         With header columns 'className' and 'bibid'
-    /import/m2b-properties.csv with head
+    /import/m2b-properties.csv
         With header columns 'propertyName' and 'bibid'
 
-2. In the /lib folder 'ruby m2b_csv.rb' and records from your favorite SRU service will automatically be populated within directories in the fixtures folder.
+2. From within the /lib folder:
+
+```bash
+ 'ruby m2b_csv.rb'
+```
+  and marcxml records from the LoC SRU service will be written to spec/fixtures/loc/(className|propertyName)/(bibid).marcxml.
 
 # Working with other converters
 

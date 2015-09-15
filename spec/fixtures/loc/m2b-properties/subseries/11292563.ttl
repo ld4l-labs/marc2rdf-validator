@@ -1,0 +1,165 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/11292563annotation16> a bf:Annotation;
+   bf:annotates <http://example.org/11292563>;
+   bf:changeDate "2012-12-13T08:45";
+   bf:derivedFrom <http://example.org/11292563.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>,
+     <http://id.loc.gov/vocabulary/organizations/wau>,
+     <http://id.loc.gov/vocabulary/organizations/ocolc>,
+     <http://id.loc.gov/vocabulary/organizations/hebis>,
+     <http://id.loc.gov/vocabulary/organizations/gbvcp>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/mh>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/11292563helditem41> a bf:HeldItem;
+   bf:holdingFor <http://example.org/11292563instance17>;
+   bf:label "QH7 .N2842";
+   bf:shelfMarkLcc "QH7 .N2842" .
+
+<http://example.org/11292563agent18> a bf:Agent;
+   bf:authorizedAccessPoint "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao."
+   ];
+   bf:label "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao." .
+
+<http://example.org/11292563instance17> a bf:Instance,
+     bf:Serial;
+   bf:dimensions "25 cm.";
+   bf:extent "5 v. :";
+   bf:frequencyNote "Irregular";
+   bf:illustrationNote "ill. ;";
+   bf:instanceOf <http://example.org/11292563>;
+   bf:instanceTitle <http://example.org/11292563title20>;
+   bf:languageNote "Dutch and English.";
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "sf 85004161"
+   ];
+   bf:modeOfIssuance "serial";
+   bf:nban [
+     a bf:Identifier;
+     bf:identifierAssigner "DE-600";
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "990791--9"
+   ],  [
+     a bf:Identifier;
+     bf:identifierAssigner "DE-101";
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "015286398"
+   ],  [
+     a bf:Identifier;
+     bf:identifierAssigner "DE-600";
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "9907919"
+   ];
+   bf:nbn [
+     a bf:Identifier;
+     bf:identifierAssigner "dnb";
+     bf:identifierScheme loc_ids:nbn;
+     bf:identifierValue "015286398"
+   ];
+   bf:note "Title varies slightly.";
+   bf:providerStatement "Utrecht : De Studiekring, 1946-1948.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "1946-1948";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "De Studiekring"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Utrecht "
+     ]
+   ];
+   bf:serialFirstIssue "No. 1";
+   bf:serialLastIssue "no. 5.";
+   bf:systemNumber <http://www.worldcat.org/oclc/05909923>;
+   bf:titleStatement "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"";
+   bf:titleVariation <http://example.org/11292563title21> .
+
+<http://example.org/11292563organization6> a bf:Organization;
+   bf:authorizedAccessPoint "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao."
+   ];
+   bf:label "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao." .
+
+<http://example.org/11292563title20> a bf:Title;
+   bf:label "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"";
+   bf:titleValue "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"" .
+
+<http://example.org/11292563title21> a bf:Title;
+   bf:label "Uitgaven \"Natuurwetenschappelijke Studiedkring voor Suriname en Curaçao\"";
+   bf:titleType "cover";
+   bf:titleValue "Uitgaven \"Natuurwetenschappelijke Studiedkring voor Suriname en Curaçao\"" .
+
+<http://example.org/11292563title5> a bf:Title;
+   bf:label "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"";
+   bf:titleValue "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"" .
+
+<http://example.org/11292563topic10> a bf:Topic;
+   bf:authorizedAccessPoint "Agriculture";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Agriculture";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Agriculture" .
+
+<http://example.org/11292563topic9> a bf:Topic;
+   bf:authorizedAccessPoint "Natural history";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Natural history";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Natural history" .
+
+<http://example.org/11292563work12> a bf:Work;
+   bf:authorizedAccessPoint "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en de Nederlandse Antillen\"";
+   bf:issn <urn:issn:0300-5534>;
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/54027432>;
+   bf:systemNumber <http://www.worldcat.org/oclc/1388681>;
+   bf:title "Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en de Nederlandse Antillen\"" .
+
+<http://example.org/11292563work13> a bf:Work;
+   bf:authorizedAccessPoint "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao. Jaarboek - Natuurwetenschappelijke Studiekring voor Suriname en Curaçao";
+   bf:contributor <http://example.org/11292563agent18>;
+   bf:systemNumber <http://www.worldcat.org/oclc/5981961>;
+   bf:title "Jaarboek - Natuurwetenschappelijke Studiekring voor Suriname en Curaçao" .
+
+<http://example.org/11292563work14> a bf:Work;
+   bf:authorizedAccessPoint "Studies on the fauna of Curaçao, Aruba, Bonaire and the Venezuelan Islands";
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/73615350>;
+   bf:systemNumber <http://www.worldcat.org/oclc/2607544>;
+   bf:title "Studies on the fauna of Curaçao, Aruba, Bonaire and the Venezuelan Islands" .
+
+<http://example.org/11292563> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Natuurwetenschappelijke Studiekring voor Suriname en Curaçao. Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"Uitgaven van de Stichting \"Natuurwetenschappelijke Studiekring voor Suriname en Curaçao.\"",
+     "natuurwetenschappelijkestudiekringvoorsurinameencuraçaouitgavenvandestichtingnatuurwetenschappelijkestudiekringvoorsurinameencuraçaodutworktext"@x-bf-hash;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/QH7>;
+   bf:continuedBy <http://example.org/11292563work12>;
+   bf:contributor <http://example.org/11292563organization6>;
+   bf:language <http://id.loc.gov/vocabulary/languages/dut>,
+     <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:subject <http://example.org/11292563topic9>,
+     <http://example.org/11292563topic10>;
+   bf:subseries <http://example.org/11292563work13>,
+     <http://example.org/11292563work14>;
+   bf:workTitle <http://example.org/11292563title5> .

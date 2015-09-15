@@ -1,0 +1,121 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/14507819annotation15> a bf:Annotation;
+   bf:annotates <http://example.org/14507819>;
+   bf:changeDate "2013-05-31T11:56";
+   bf:derivedFrom <http://example.org/14507819.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlcr>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/14507819helditem36> a bf:HeldItem;
+   bf:holdingFor <http://example.org/14507819instance16>;
+   bf:label "BS1372 .K68 2006";
+   bf:shelfMarkLcc "BS1372 .K68 2006" .
+
+<http://example.org/14507819agent13> a bf:Agent;
+   bf:label "" .
+
+<http://example.org/14507819instance16> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "23 cm.";
+   bf:edition "מהדורה מתוקנת ומורחבת."@he-hebr,
+     "Mahad. metuḳenet u-murḥevet.";
+   bf:extent "58 p. :";
+   bf:illustrationNote "ill.;";
+   bf:instanceOf <http://example.org/14507819>;
+   bf:instanceTitle <http://example.org/14507819title19>;
+   bf:isbn10 <http://isbn.example.org/9659048653>;
+   bf:isbn13 <http://isbn.example.org/9789659048656>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2006473232"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:providerStatement "Tel Aviv : Yorshe Ḳorman Avraham, 766 i.e. 2006";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "[766 i.e. 2006]",
+       "766 i.e. 2006"@he-hebr;
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Yorshe Ḳorman Avraham",
+         "יורשי קורמן אברהם"@he-hebr
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Tel Aviv ",
+         "תל אביב :"@he-hebr
+     ]
+   ];
+   bf:responsibilityStatement "מאת קורמן אברהם."@he-hebr;
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(CStRLIN)DCLH06-B2388"
+   ];
+   bf:titleStatement "Megilat Ester : ʻi. p. tekhelet Avraham";
+   bf:titleVariation <http://example.org/14507819title20> .
+
+<http://example.org/14507819language7> a bf:Language;
+   bf:languageOfPart "Hebew." .
+
+<http://example.org/14507819person18> a bf:Person;
+   bf:authorizedAccessPoint "Korman, Abraham, 1917-2001.",
+     "קורמן, אברהם."@he-hebr;
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Korman, Abraham, 1917-2001."
+   ];
+   bf:label "Korman, Abraham, 1917-2001." .
+
+<http://example.org/14507819title19> a bf:Title;
+   bf:label "Megilat Ester : ʻi. p. tekhelet  Avraham / me-et Avraham Ḳorman.";
+   bf:subtitle "ʻi. p. tekhelet Avraham ";
+   bf:titleValue "Megilat Ester :",
+     "מגילת אסתר ע״פ תכלת אברהם"@he-hebr .
+
+<http://example.org/14507819title20> a bf:Title;
+   bf:label "Title on prelim. p.: Commentary on the Book of Esther";
+   bf:titleType "Title on prelim. p.:";
+   bf:titleValue "Commentary on the Book of Esther" .
+
+<http://example.org/14507819title6> a bf:Title;
+   bf:partTitle "Esther.";
+   bf:titleValue "Bible." .
+
+<http://example.org/14507819work12> a bf:Work;
+   bf:authorizedAccessPoint "Tekhelet Avraham.",
+     "תכלת אברהם."@he-hebr;
+   bf:title "Tekhelet Avraham." .
+
+<http://example.org/14507819work13> a bf:Work;
+   bf:authorizedAccessPoint "Korman, Abraham, 1917-2001. Tekhelet Avraham.",
+     "קורמן, אברהם. תכלת אברהם."@he-hebr;
+   bf:contributor <http://example.org/14507819person18>;
+   bf:title "Tekhelet Avraham." .
+
+<http://example.org/14507819work8> a bf:Work;
+   bf:authorizedAccessPoint "Bible. 2006.";
+   bf:contributor <http://example.org/14507819agent13>;
+   bf:title "Bible. 2006.";
+   mads:authoritativeLabel "Bible. 2006." .
+
+<http://example.org/14507819> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Bible. Esther. Hebew. 2006",
+     "kormanabraham19172001bibleestherhebew2006hebworktext"@x-bf-hash;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/BS1372>;
+   bf:hasPart <http://example.org/14507819work12>,
+     <http://example.org/14507819work13>;
+   bf:language <http://example.org/14507819language7>,
+     <http://id.loc.gov/vocabulary/languages/heb>;
+   bf:originDate "2006.";
+   bf:translationOf <http://example.org/14507819work8>;
+   bf:workTitle <http://example.org/14507819title6>;
+   mads:authoritativeLabel "Bible. Esther. Hebew. 2006." .

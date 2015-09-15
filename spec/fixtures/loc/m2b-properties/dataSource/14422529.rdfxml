@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/14422529">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā. Annual report of the Earth Simulator Center.Annual report of the Earth Simulator Center</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/14422529title5"/>
+      <bf:creator rdf:resource="http://example.org/14422529organization6"/>
+      <bf:issnL>
+         <bf:Identifier>
+            <bf:identifierValue>1348-5822</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issnL"/>
+         </bf:Identifier>
+      </bf:issnL>
+      <bf:contentCategory rdf:resource="http://id.loc.gov/vocabulary/contentTypes/txt"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:language rdf:resource="http://example.org/14422529language10"/>
+      <bf:language rdf:resource="http://example.org/14422529language11"/>
+      <bf:subject rdf:resource="http://example.org/14422529topic12"/>
+      <bf:subject rdf:resource="http://example.org/14422529topic13"/>
+      <bf:subject rdf:resource="http://example.org/14422529topic14"/>
+      <bf:subject rdf:resource="http://example.org/14422529organization15"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/QC981.8.C5"/>
+      <bf:classification rdf:resource="http://example.org/14422529classification17"/>
+      <bf:issnL>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issnL"/>
+            <bf:identifierValue>1348-5822</bf:identifierValue>
+         </bf:Identifier>
+      </bf:issnL>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">kaiyōkenkyūkaihatsukikōjapanchikyūshimurētasentāannualreportoftheearthsimulatorcenterengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/14422529instance21">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Serial"/>
+      <bf:instanceTitle rdf:resource="http://example.org/14422529title25"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Japan Agency for Marine-Earth Science and Technology, the Earth Simulator Center</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Yokohama? </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+         </bf:Provider>
+      </bf:publication>
+      <bf:soundContent>Unknown</bf:soundContent>
+      <bf:modeOfIssuance>serial</bf:modeOfIssuance>
+      <bf:otherPhysicalFormat rdf:resource="http://example.org/14422529instance29"/>
+      <bf:extent>volumes :</bf:extent>
+      <bf:dimensions>30 cm</bf:dimensions>
+      <bf:illustrationNote>illustrations ;</bf:illustrationNote>
+      <bf:titleStatement>Annual report of the Earth Simulator Center.</bf:titleStatement>
+      <bf:providerStatement>Yokohama? : Japan Agency for Marine-Earth Science and Technology, the Earth Simulator Center</bf:providerStatement>
+      <bf:frequencyNote>Annual</bf:frequencyNote>
+      <bf:languageNote>Text in English; summaries and tables of contents also in Japanese &lt;Apr. 2004/Mar. 2005-&gt;.</bf:languageNote>
+      <bf:note>Latest issue consulted: Apr. 2004/Mar. 2005.</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>2007209546</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:nban>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/nban"/>
+            <bf:identifierValue>981803393</bf:identifierValue>
+            <bf:identifierAssigner>DE-101</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:nban>
+      <bf:nban>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/nban"/>
+            <bf:identifierValue>2257447-5</bf:identifierValue>
+            <bf:identifierAssigner>DE-600</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:nban>
+      <bf:issn>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issn"/>
+            <bf:identifierValue>1348-5822</bf:identifierValue>
+         </bf:Identifier>
+      </bf:issn>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/68135417"/>
+      <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+      <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/nc"/>
+      <bf:serialFirstIssue>Apr. 2003/Mar. 2004</bf:serialFirstIssue>
+      <bf:instanceOf rdf:resource="http://example.org/14422529"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://example.org/14422529instance29">
+      <bf:title>Annual report of the Earth Simulator Center</bf:title>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/655499790"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://example.org/14422529instance22">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <bf:label>Electronic Resource</bf:label>
+      <bf:uri rdf:resource="http://bibpurl.oclc.org/web/13129"/>
+      <bf:uri rdf:resource="http://www.es.jamstec.go.jp/esc/eng/publications/index.html"/>
+      <bf:instanceOf rdf:resource="http://example.org/14422529"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/14422529annotation20">
+      <bf:derivedFrom rdf:resource="http://example.org/14422529.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/cus"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/cus"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/ocolc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/gbvcp"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/ocolc"/>
+      <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2013-05-08T07:59</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/14422529"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/14422529helditem47">
+      <bf:label>QC981.8.C5 K35a</bf:label>
+      <bf:shelfMarkLcc>QC981.8.C5 K35a</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://example.org/14422529instance21"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://example.org/14422529title5">
+      <bf:label>Annual report of the Earth Simulator Center.</bf:label>
+      <bf:titleValue>Annual report of the Earth Simulator Center</bf:titleValue>
+   </bf:Title>
+   <bf:Organization rdf:about="http://example.org/14422529organization6">
+      <bf:label>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā.</bf:label>
+      <bf:authorizedAccessPoint>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Language rdf:about="http://example.org/14422529language10">
+      <bf:resourcePart>summary or abstract</bf:resourcePart>
+      <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/jpn"/>
+   </bf:Language>
+   <bf:Language rdf:about="http://example.org/14422529language11">
+      <bf:resourcePart>table of contents</bf:resourcePart>
+      <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/jpn"/>
+   </bf:Language>
+   <bf:Topic rdf:about="http://example.org/14422529topic12">
+      <bf:authorizedAccessPoint>Climatic changes--Computer simulation--Periodicals</bf:authorizedAccessPoint>
+      <bf:label>Climatic changes--Computer simulation--Periodicals</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Climatic changes--Computer simulation--Periodicals</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Climatic changes</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Climatic changes</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Computer simulation</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Computer simulation</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Periodicals</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Periodicals.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/14422529topic13">
+      <bf:authorizedAccessPoint>Earth sciences--Computer simulation--Periodicals</bf:authorizedAccessPoint>
+      <bf:label>Earth sciences--Computer simulation--Periodicals</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Earth sciences--Computer simulation--Periodicals</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Earth sciences</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Earth sciences</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Computer simulation</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Computer simulation</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Periodicals</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Periodicals.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/14422529topic14">
+      <bf:authorizedAccessPoint>Ocean-atmosphere interaction--Computer simulation--Periodicals</bf:authorizedAccessPoint>
+      <bf:label>Ocean-atmosphere interaction--Computer simulation--Periodicals</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Ocean-atmosphere interaction--Computer simulation--Periodicals</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Ocean-atmosphere interaction</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Ocean-atmosphere interaction</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Computer simulation</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Computer simulation</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Periodicals</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Periodicals.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Organization rdf:about="http://example.org/14422529organization15">
+      <bf:authorizedAccessPoint>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā--Periodicals.</bf:authorizedAccessPoint>
+      <bf:label>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā--Periodicals.</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā--Periodicals.</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:CorporateName>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Kaiyō Kenkyū Kaihatsu Kikō (Japan). Chikyū Shimurēta Sentā</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:NameElement>
+                        <madsrdf:elementValue>Kaiyō Kenkyū Kaihatsu Kikō (Japan).</madsrdf:elementValue>
+                     </madsrdf:NameElement>
+                     <madsrdf:NameElement>
+                        <madsrdf:elementValue>Chikyū Shimurēta Sentā</madsrdf:elementValue>
+                     </madsrdf:NameElement>
+                  </madsrdf:elementList>
+               </madsrdf:CorporateName>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Periodicals</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Periodicals.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Classification rdf:about="http://example.org/14422529classification17">
+      <bf:classificationScheme>bcl</bf:classificationScheme>
+      <bf:classificationNumber>38.59</bf:classificationNumber>
+      <bf:label>38.59</bf:label>
+   </bf:Classification>
+   <bf:Title rdf:about="http://example.org/14422529title25">
+      <bf:label>Annual report of the Earth Simulator Center.</bf:label>
+      <bf:titleValue>Annual report of the Earth Simulator Center</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

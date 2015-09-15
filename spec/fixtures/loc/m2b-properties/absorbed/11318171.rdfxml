@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/11318171">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>"Criss-cross", l'annuaire rue-adresse, Montréal métropolitain = "Criss-cross", street-address directory, metropolitan Montreal."Criss-cross", l'annuaire rue-adresse, Montréal métropolitain "Criss-cross", street-address directory, metropolitan Montreal</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/11318171title5"/>
+      <bf:workTitle rdf:resource="http://example.org/11318171title6"/>
+      <bf:issnL>
+         <bf:Identifier>
+            <bf:identifierValue>0708-7152</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issnL"/>
+         </bf:Identifier>
+      </bf:issnL>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/fre"/>
+      <bf:subject rdf:resource="http://example.org/11318171topic10"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-cn-qu"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/F1054.5.M83"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/F5449%20M6"/>
+      <bf:classification rdf:resource="http://example.org/11318171classification14"/>
+      <bf:issnL>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issnL"/>
+            <bf:identifierValue>0708-7152</bf:identifierValue>
+            <bf:identifierAssigner>4</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:issnL>
+      <bf:continues rdf:resource="http://example.org/11318171work16"/>
+      <bf:absorbed rdf:resource="http://example.org/11318171work17"/>
+      <bf:continuedBy rdf:resource="http://example.org/11318171work18"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">crisscrosslannuairerueadressemontréalmétropolitaincrisscrossstreetaddressdirectorymetropolitanmontrealengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11318171work16">
+      <bf:title>"Criss-cross", street address directory, Metropolitan Montreal</bf:title>
+      <bf:authorizedAccessPoint>"Criss-cross", street address directory, Metropolitan Montreal</bf:authorizedAccessPoint>
+      <bf:issn rdf:resource="urn:issn:0317-686X"/>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/2441787"/>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11318171work17">
+      <bf:title>"Criss-cross" suburban Montreal street-address directory</bf:title>
+      <bf:authorizedAccessPoint>"Criss-cross" suburban Montreal street-address directory</bf:authorizedAccessPoint>
+      <bf:issn rdf:resource="urn:issn:0703-4652"/>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/3979791"/>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11318171work18">
+      <bf:title>"Criss-cross" Montréal métropolitain</bf:title>
+      <bf:authorizedAccessPoint>"Criss-cross" Montréal métropolitain</bf:authorizedAccessPoint>
+      <bf:issn rdf:resource="urn:issn:1187-2608"/>
+      <bf:lccn rdf:resource="http://id.loc.gov/authorities/test/identifiers/lccn/93641256"/>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/25423761"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/11318171instance21">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Serial"/>
+      <bf:abbreviatedTitle rdf:resource="http://example.org/11318171title24"/>
+      <bf:keyTitle rdf:resource="http://example.org/11318171title25"/>
+      <bf:instanceTitle rdf:resource="http://example.org/11318171title26"/>
+      <bf:instanceTitle rdf:resource="http://example.org/11318171title27"/>
+      <bf:titleVariation rdf:resource="http://example.org/11318171title28"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>J. Lovell</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Montreal </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1977-1990</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>serial</bf:modeOfIssuance>
+      <bf:extent>v. ;</bf:extent>
+      <bf:dimensions>30 cm.</bf:dimensions>
+      <bf:titleStatement>"Criss-cross", l'annuaire rue-adresse, Montréal métropolitain = "Criss-cross", street-address directory, metropolitan Montreal.</bf:titleStatement>
+      <bf:providerStatement>Montreal : J. Lovell, 1977-1990.</bf:providerStatement>
+      <bf:frequencyNote>Annual</bf:frequencyNote>
+      <bf:languageNote>Text in English and French.</bf:languageNote>
+      <bf:note>Published: Lovell Litho &amp; Publications, 198-?-1990.</bf:note>
+      <bf:note>SERBIB/SERLOC merged record</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>86649486</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+            <bf:identifierValue>ce 79031611</bf:identifierValue>
+            <bf:identifierStatus>canceled/invalid</bf:identifierStatus>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:nban>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/nban"/>
+            <bf:identifierValue>790316110E</bf:identifierValue>
+         </bf:Identifier>
+      </bf:nban>
+      <bf:issn>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/issn"/>
+            <bf:identifierValue>0708-7152</bf:identifierValue>
+            <bf:identifierAssigner>4</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:issn>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/05528235"/>
+      <bf:serialFirstIssue>1977</bf:serialFirstIssue>
+      <bf:serialLastIssue>1989/90.</bf:serialLastIssue>
+      <bf:instanceOf rdf:resource="http://example.org/11318171"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/11318171annotation20">
+      <bf:derivedFrom rdf:resource="http://example.org/11318171.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/caoonl"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/nst"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/caoonl"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/caoonl"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/b2q"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/ocolc"/>
+      <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/nlc"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/isds/c"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/pcc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2010-03-14T14:41</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/11318171"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/11318171helditem47">
+      <bf:label>F1054.5.M83 C74</bf:label>
+      <bf:shelfMarkLcc>F1054.5.M83 C74</bf:shelfMarkLcc>
+      <bf:shelfMarkLcc>F5449 M6 A27214 fol.</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://example.org/11318171instance21"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://example.org/11318171title5">
+      <bf:label>"Criss-cross", l'annuaire rue-adresse, Montréal métropolitain = "Criss-cross", street-address directory, metropolitan Montreal.</bf:label>
+      <bf:titleValue>"Criss-cross", l'annuaire rue-adresse, Montréal métropolitain </bf:titleValue>
+      <bf:subtitle>"Criss-cross", street-address directory, metropolitan Montreal.</bf:subtitle>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/11318171title6">
+      <bf:titleValue>"Criss-cross", street-address directory, metropolitan Montreal.</bf:titleValue>
+      <bf:titleType>parallel</bf:titleType>
+   </bf:Title>
+   <bf:Topic rdf:about="http://example.org/11318171topic10">
+      <bf:authorizedAccessPoint>Rues--Québec (Province)--Montréal, Région de--Répertoires</bf:authorizedAccessPoint>
+      <bf:label>Rues--Québec (Province)--Montréal, Région de--Répertoires</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Rues--Québec (Province)--Montréal, Région de--Répertoires</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://rvm.example.org/rvm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Rues</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Rues</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Québec (Province)</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Québec (Province)</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Montréal, Région de</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Montréal, Région de</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Répertoires</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Répertoires.</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Classification rdf:about="http://example.org/11318171classification14">
+      <bf:classificationScheme rdf:resource="http://id.loc.gov/authorities/classSchemes/ddc"/>
+      <bf:classificationNumber>971.4/28104/025</bf:classificationNumber>
+      <bf:label>971.4/28104/025</bf:label>
+      <bf:classificationEdition>full</bf:classificationEdition>
+      <bf:classificationEdition>19</bf:classificationEdition>
+   </bf:Classification>
+   <bf:Title rdf:about="http://example.org/11318171title24">
+      <bf:label>"Criss-cross", annu. rue-adresse, Montr. métrop. (1977)</bf:label>
+      <bf:titleQualifier>(1977)</bf:titleQualifier>
+      <bf:titleValue>"Criss-cross", annu. rue-adresse, Montr. métrop.</bf:titleValue>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/11318171title25">
+      <bf:label>"Criss-cross". L'annuaire rue-adresse. Montréal métropolitain (1977)</bf:label>
+      <bf:titleQualifier>(1977)</bf:titleQualifier>
+      <bf:titleValue>"Criss-cross". L'annuaire rue-adresse. Montréal métropolitain</bf:titleValue>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/11318171title26">
+      <bf:label>"Criss-cross", l'annuaire rue-adresse, Montréal métropolitain = "Criss-cross", street-address directory, metropolitan Montreal.</bf:label>
+      <bf:titleValue>"Criss-cross", l'annuaire rue-adresse, Montréal métropolitain </bf:titleValue>
+      <bf:subtitle>"Criss-cross", street-address directory, metropolitan Montreal.</bf:subtitle>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/11318171title27">
+      <bf:titleValue>"Criss-cross", street-address directory, metropolitan Montreal.</bf:titleValue>
+      <bf:titleType>parallel</bf:titleType>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/11318171title28">
+      <bf:titleType>parallel</bf:titleType>
+      <bf:label>"Criss-cross", street-address directory, metropolitan Montreal</bf:label>
+      <bf:titleValue>"Criss-cross", street-address directory, metropolitan Montreal</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

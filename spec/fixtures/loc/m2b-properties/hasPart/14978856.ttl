@@ -1,0 +1,889 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/14978856annotation46> a bf:Annotation;
+   bf:annotates <http://example.org/14978856>;
+   bf:changeDate "2013-06-03T10:38";
+   bf:derivedFrom <http://example.org/14978856.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/gihc>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/14978856helditem68> a bf:HeldItem;
+   bf:custodialHistory "Compiled by Mr. and Mrs. William M. Carpenter. Gift of Mrs. William Montelle Carpenter, 1955.";
+   bf:holdingFor <http://example.org/14978856instance47>;
+   bf:label "Z8465 .C373 1881";
+   bf:shelfMarkLcc "Z8465 .C373 1881" .
+
+<http://example.org/14978856summary12> a bf:Summary;
+   bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:annotationBody "Scrapbooks include various typescript drafts written by William M. Carpenter about Rudyard Kipling's life and document the collection of Rudyard Kipling materials acquired by Carpenter. Also includes numerous ephemeral items relating to the life of Kipling.";
+   bf:label "Summary";
+   bf:summaryOf <http://example.org/14978856> .
+
+<http://example.org/14978856agent48> a bf:Agent;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936."
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936." .
+
+<http://example.org/14978856agent49> a bf:Agent;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936."
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936." .
+
+<http://example.org/14978856instance47> a bf:Instance,
+     bf:Collection;
+   bf:accessCondition "Restrictions: Poor condition of many of the original clippings within the scrapbooks.";
+   bf:contentsNote "Vol. 1. Proof copy of Kipling's poem \"To the address of W.W.H.\" ; Carbon manuscript copy of fragment of essay by Rudyard Kipling written during the \"From Sea to Sea\" trip, 1889 ; Photostat copies of \"Manuscript from Sea to Sea letters India through Japan, 19 Turnovers\", 1889 (originals in Henry E. Huntington Library). Photographs and negatives. Typewritten transcripts of Kipling correspondence to James Conland, Charles Warren Stoddard and others transcribed by Carpenter. ALS from Sydney Lowe to W.M. Carpenter dated May 17, 1916 -- v. 2. Kipling's writings during the \"American Period\" / W.M. Carpenter. Kipling Society correspondence with Mr. Carpenter. ALS from L.C. Dunsterville to W.M. Carpenter, August 28, 1931. TLS to W.M. Carpenter from Henry H. Conland, February 20, 1928 -- v. 3. Kipling and his college / W.M. Carpenter. Group photograph of Kipling and his schoolmates, ca. 1881. TLS to W.M. Carpenter from Thomas McLean, schoolmate of Kipling from United Services College. On Balfour, Guthrie & Co. letterhead, Tacoma, Washington, dated June 10, 1931. Newspaper clippings from the Civil and Military Gazette, 1888 containing articles by Kipling. Handwritten notes from Mrs. Edmonia Taylor Hill. R.K.'s Allahabad home ; Kipling in San Francisco ; Oregon ; The Kipling creed ; Kipling items copied from newspapers-by W.M.C. ; various comments on individual Kipling titles / W.M. Carpenter. Putnam / Rudyard Kipling. \"Jungle Dinner Feb. 21, 1899\" / Mrs. Hill. TLS to W.M. Carpenter from F.W. Childs, August 9, 1928 and October 11, 1928. Transcripts of letters from W.D. Howells to Aurelia Howells and from Kipling to W.D. Howells. Transcripts of typewritten copies of Last will and testament of ... Rudyard Kipling and Last will and testament of ... Caroline Kipling, widow -- v. 4. William M. Carpenter typescripts relating to \"The Friend\" period in South Africa. Typescript: \"Copy of letter from Mrs. Flora V. Livingston to W.M. Carpenter about Kipling's contributions to 'The Friend'\". Typescript: \"A Burgher of the Free State\" / W.M. Carpenter with handwritten note initialed on first page by L.H. Chandler -- v. 5. Clippings: India, South Africa, America -- v. 6. Clippings: Reviews, Criticisms, Interviews, Addresses, Tributes, Miscellaneous items -- v. 7. Clippings: Kipling's life, homes, family. Vermont, World War I. School days. Honors. Religion-Rosicrucians. Illness. Death. Reviews & criticisms of his writings. Mrs. Kipling's death. Disposal of estate. Lord Birkenhead's biography of R.K. banned by Elsie Kipling Bambridge.";
+   bf:dimensions "30 x 26 cm. and 31 x 27 cm.";
+   bf:extent "7 scrapbooks (ca. 520 items) ;";
+   bf:formDesignation "graphic.";
+   bf:instanceOf <http://example.org/14978856>;
+   bf:instanceTitle <http://example.org/14978856title50>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2007581632"
+   ];
+   bf:modeOfIssuance "monographic";
+   bf:note "Scrapbooks include various typescript drafts written by William M. Carpenter about Rudyard Kipling's life and document the collection of Rudyard Kipling materials acquired by Carpenter. Also includes numerous ephemeral items relating to the life of Kipling.",
+     "Includes four scrapbooks of manuscripts, typescripts, correspondence, transcripts of correspondence, photostat copies of manuscripts, notes, clippings, photographs and other ephemera removed from original binders. Also includes three original scrapbook volumes containing newspaper and magazine clippings from various sources. Two additional volumes containing original correspondence of Rudyard Kipling had been rehoused into one container and are now cataloged under [Carpenter Kipling Collection miscellaneous letters] on lccn 2007581629.",
+     "Title devised by Library staff.",
+     "Compiled by Mr. and Mrs. William M. Carpenter. Gift of Mrs. William Montelle Carpenter, 1955.",
+     "LC collection rehoused in 4 boxes: 27 x 40 x 13 cm. and 3 boxes: 37 x 29 x 8 cm. Original scrapbook binders are included at the back of each box.";
+   bf:providerStatement "1881-1945";
+   bf:publication [
+     a bf:Provider;
+     bf:copyrightDate "[1881-1945]"
+   ];
+   bf:titleStatement "Carpenter Kipling scrapbooks";
+   bf:titleVariation <http://example.org/14978856title51> .
+
+<http://example.org/14978856organization26> a bf:Organization;
+   bf:authorizedAccessPoint "Kipling Society--Records and correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Kipling Society--Records and correspondence.";
+     mads:componentList ([
+         a mads:CorporateName,
+           mads:Authority;
+         mads:authoritativeLabel "Kipling Society";
+         mads:elementList ([
+             a mads:NameElement;
+             mads:elementValue "Kipling Society"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Records and correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Records and correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Kipling Society--Records and correspondence." .
+
+<http://example.org/14978856organization9> a bf:Organization;
+   bf:authorizedAccessPoint "Carpenter Kipling Collection (Library of Congress)";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Carpenter Kipling Collection (Library of Congress)"
+   ];
+   bf:label "Carpenter Kipling Collection (Library of Congress)" .
+
+<http://example.org/14978856person13> a bf:Person;
+   bf:authorizedAccessPoint "Carpenter, W. M. (William Montelle), 1866-1931--Manuscripts.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Carpenter, W. M. (William Montelle), 1866-1931--Manuscripts.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Carpenter, W. M. (William Montelle), 1866-1931";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Carpenter, W. M."
+           ] [
+             a mads:FullNameElement;
+             mads:elementValue "(William Montelle),"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1866-1931"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Manuscripts";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Manuscripts."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Carpenter, W. M. (William Montelle), 1866-1931--Manuscripts." .
+
+<http://example.org/14978856person14> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:PersonalName;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936.";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936." .
+
+<http://example.org/14978856person15> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936--Manuscripts.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936--Manuscripts.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Kipling, Rudyard, 1865-1936";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Kipling, Rudyard,"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1865-1936"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Manuscripts";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Manuscripts."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936--Manuscripts." .
+
+<http://example.org/14978856person16> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936--Manuscripts--Facsimiles.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936--Manuscripts--Facsimiles.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Kipling, Rudyard, 1865-1936";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Kipling, Rudyard,"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1865-1936"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Manuscripts";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Manuscripts"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Facsimiles";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Facsimiles."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936--Manuscripts--Facsimiles." .
+
+<http://example.org/14978856person17> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936--Miscellanea.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936--Miscellanea.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Kipling, Rudyard, 1865-1936";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Kipling, Rudyard,"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1865-1936"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Miscellanea";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Miscellanea."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936--Miscellanea." .
+
+<http://example.org/14978856person18> a bf:Person;
+   bf:authorizedAccessPoint "Carpenter, W. M. (William Montelle), 1866-1931--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Carpenter, W. M. (William Montelle), 1866-1931--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Carpenter, W. M. (William Montelle), 1866-1931";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Carpenter, W. M."
+           ] [
+             a mads:FullNameElement;
+             mads:elementValue "(William Montelle),"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1866-1931"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Carpenter, W. M. (William Montelle), 1866-1931--Correspondence." .
+
+<http://example.org/14978856person19> a bf:Person;
+   bf:authorizedAccessPoint "Carpenter, Lucile Russell--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Carpenter, Lucile Russell--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Carpenter, Lucile Russell";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Carpenter, Lucile Russell"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Carpenter, Lucile Russell--Correspondence." .
+
+<http://example.org/14978856person20> a bf:Person;
+   bf:authorizedAccessPoint "Childs, F. W. (Frederick W.), 1849-1946--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Childs, F. W. (Frederick W.), 1849-1946--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Childs, F. W. (Frederick W.), 1849-1946";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Childs, F. W."
+           ] [
+             a mads:FullNameElement;
+             mads:elementValue "(Frederick W.),"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1849-1946"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Childs, F. W. (Frederick W.), 1849-1946--Correspondence." .
+
+<http://example.org/14978856person21> a bf:Person;
+   bf:authorizedAccessPoint "Conland, Henry H., 1882---Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Conland, Henry H., 1882---Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Conland, Henry H., 1882-";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Conland, Henry H.,"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1882-"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Conland, Henry H., 1882---Correspondence." .
+
+<http://example.org/14978856person22> a bf:Person;
+   bf:authorizedAccessPoint "Dunsterville, L. C. (Lionel Charles), 1865-1946--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Dunsterville, L. C. (Lionel Charles), 1865-1946--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Dunsterville, L. C. (Lionel Charles), 1865-1946";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Dunsterville, L. C."
+           ] [
+             a mads:FullNameElement;
+             mads:elementValue "(Lionel Charles),"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "1865-1946"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Dunsterville, L. C. (Lionel Charles), 1865-1946--Correspondence." .
+
+<http://example.org/14978856person23> a bf:Person;
+   bf:authorizedAccessPoint "Hill, Edmonia Taylor, -1952--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Hill, Edmonia Taylor, -1952--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Hill, Edmonia Taylor, -1952";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Hill, Edmonia Taylor,"
+           ] [
+             a mads:DateNameElement;
+             mads:elementValue "-1952"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Hill, Edmonia Taylor, -1952--Correspondence." .
+
+<http://example.org/14978856person24> a bf:Person;
+   bf:authorizedAccessPoint "Lowe, Sidney--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Lowe, Sidney--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "Lowe, Sidney";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "Lowe, Sidney"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Lowe, Sidney--Correspondence." .
+
+<http://example.org/14978856person25> a bf:Person;
+   bf:authorizedAccessPoint "McLean, Thomas--Correspondence.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "McLean, Thomas--Correspondence.";
+     mads:componentList ([
+         a mads:PersonalName,
+           mads:Authority;
+         mads:authoritativeLabel "McLean, Thomas";
+         mads:elementList ([
+             a mads:FullNameElement;
+             mads:elementValue "McLean, Thomas"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "McLean, Thomas--Correspondence." .
+
+<http://example.org/14978856person44> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936."
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936." .
+
+<http://example.org/14978856person45> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936."
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936." .
+
+<http://example.org/14978856person46> a bf:Person;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kipling, Rudyard, 1865-1936."
+   ];
+   bf:label "Kipling, Rudyard, 1865-1936." .
+
+<http://example.org/14978856person7> a bf:Person;
+   bf:authorizedAccessPoint "Carpenter, W. M. (William Montelle), 1866-1931.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Carpenter, W. M. (William Montelle), 1866-1931."
+   ];
+   bf:label "Carpenter, W. M. (William Montelle), 1866-1931." .
+
+<http://example.org/14978856person8> a bf:Person;
+   bf:authorizedAccessPoint "Carpenter, Lucile Russell.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Carpenter, Lucile Russell."
+   ];
+   bf:label "Carpenter, Lucile Russell." .
+
+<http://example.org/14978856title50> a bf:Title;
+   bf:label "[Carpenter Kipling scrapbooks] [graphic].";
+   bf:titleValue "[Carpenter Kipling scrapbooks]" .
+
+<http://example.org/14978856title51> a bf:Title;
+   bf:label "Cited title: Carpenter Kipling Collection scrapbooks";
+   bf:titleType "Cited title:";
+   bf:titleValue "Carpenter Kipling Collection scrapbooks" .
+
+<http://example.org/14978856title6> a bf:Title;
+   bf:label "[Carpenter Kipling scrapbooks] [graphic].";
+   bf:titleValue "[Carpenter Kipling scrapbooks]" .
+
+<http://example.org/14978856topic27> a bf:Topic;
+   bf:authorizedAccessPoint "Authors, English--19th century--Biography";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Authors, English--19th century--Biography";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Authors, English";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Authors, English"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "19th century";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "19th century"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Biography";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Biography."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Authors, English--19th century--Biography" .
+
+<http://example.org/14978856topic28> a bf:Topic;
+   bf:authorizedAccessPoint "Authors, English--20th century--Biography";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Authors, English--20th century--Biography";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Authors, English";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Authors, English"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "20th century";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "20th century"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Biography";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Biography."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Authors, English--20th century--Biography" .
+
+<http://example.org/14978856topic29> a bf:Topic;
+   bf:authorizedAccessPoint "Book collectors--United States--Correspondence";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Book collectors--United States--Correspondence";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Book collectors";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Book collectors"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "United States";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "United States"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Correspondence";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Correspondence."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Book collectors--United States--Correspondence" .
+
+<http://example.org/14978856topic30> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gmgpc";
+   bf:authorizedAccessPoint "Scrapbooks--1920-1960";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Scrapbooks--1920-1960";
+     mads:componentList ([
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Scrapbooks";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Scrapbooks"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "1920-1960";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "1920-1960."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gmgpc>
+   ];
+   bf:label "Scrapbooks--1920-1960" .
+
+<http://example.org/14978856topic31> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gmgpc";
+   bf:authorizedAccessPoint "Photographic prints--1880-1890";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Photographic prints--1880-1890";
+     mads:componentList ([
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Photographic prints";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Photographic prints"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "1880-1890";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "1880-1890."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gmgpc>
+   ];
+   bf:label "Photographic prints--1880-1890" .
+
+<http://example.org/14978856topic32> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gmgpc";
+   bf:authorizedAccessPoint "Photographic prints--1920-1930";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Photographic prints--1920-1930";
+     mads:componentList ([
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Photographic prints";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Photographic prints"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "1920-1930";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "1920-1930."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gmgpc>
+   ];
+   bf:label "Photographic prints--1920-1930" .
+
+<http://example.org/14978856topic33> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gmgpc";
+   bf:authorizedAccessPoint "Portrait photographs--1920-1930";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Portrait photographs--1920-1930";
+     mads:componentList ([
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Portrait photographs";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Portrait photographs"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "1920-1930";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "1920-1930."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gmgpc>
+   ];
+   bf:label "Portrait photographs--1920-1930" .
+
+<http://example.org/14978856topic34> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gmgpc";
+   bf:authorizedAccessPoint "Clippings--1920-1960";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Clippings--1920-1960";
+     mads:componentList ([
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Clippings";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Clippings"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "1920-1960";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "1920-1960."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gmgpc>
+   ];
+   bf:label "Clippings--1920-1960" .
+
+<http://example.org/14978856topic35> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gmgpc";
+   bf:authorizedAccessPoint "Stats--1920-1930";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Stats--1920-1930";
+     mads:componentList ([
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Stats";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Stats"
+           ])
+       ] [
+         a mads:Temporal,
+           mads:Authority;
+         mads:authoritativeLabel "1920-1930";
+         mads:elementList ([
+             a mads:TemporalElement;
+             mads:elementValue "1920-1930."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gmgpc>
+   ];
+   bf:label "Stats--1920-1930" .
+
+<http://example.org/14978856work39> a bf:Work;
+   bf:authorizedAccessPoint "Civil & military gazette (Lahore, Pakistan)";
+   bf:title "Civil & military gazette (Lahore, Pakistan)" .
+
+<http://example.org/14978856work40> a bf:Work;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936. From sea to sea.";
+   bf:contributor <http://example.org/14978856person44>;
+   bf:title "From sea to sea." .
+
+<http://example.org/14978856work41> a bf:Work;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936. Putnam.";
+   bf:contributor <http://example.org/14978856person45>;
+   bf:title "Putnam." .
+
+<http://example.org/14978856work42> a bf:Work;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936. To the address of W.W.H.";
+   bf:contributor <http://example.org/14978856person46>;
+   bf:title "To the address of W.W.H." .
+
+<http://example.org/14978856work43> a bf:Work;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936. Putnam";
+   bf:contributor <http://example.org/14978856agent48>;
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/2007567098>;
+   bf:partOf <http://example.org/14978856>;
+   bf:title "Putnam" .
+
+<http://example.org/14978856work44> a bf:Work;
+   bf:authorizedAccessPoint "Kipling, Rudyard, 1865-1936. Putnam";
+   bf:contributor <http://example.org/14978856agent49>;
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/2007567098>;
+   bf:partOf <http://example.org/14978856>;
+   bf:title "Putnam" .
+
+<http://example.org/14978856> a bf:Work,
+     bf:Text,
+     bf:StillImage;
+   bf:authorizedAccessPoint "Carpenter, W. M. (William Montelle), 1866-1931. [Carpenter Kipling scrapbooks] [graphic].[Carpenter Kipling scrapbooks]",
+     "carpenterlucilerussellkiplingrudyard18651936kiplingrudyard18651936kiplingrudyard18651936carpenterkiplingcollectionlibraryofcongresscarpenterwmwilliammontelle18661931carpenterkiplingscrapbooksengworktext"@x-bf-hash;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/Z8465>;
+   bf:contributor <http://example.org/14978856person8>,
+     <http://example.org/14978856organization9>;
+   bf:creator <http://example.org/14978856person7>;
+   bf:findingAidNote "Finding aid consists of detailed list of contents of each volume compiled by Library staff laid in each box.";
+   bf:hasPart <http://example.org/14978856work41>,
+     <http://example.org/14978856work42>,
+     <http://example.org/14978856work43>,
+     <http://example.org/14978856work44>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:relatedResource <http://example.org/14978856work39>,
+     <http://example.org/14978856work40>;
+   bf:subject <http://example.org/14978856person13>,
+     <http://example.org/14978856person14>,
+     <http://example.org/14978856person15>,
+     <http://example.org/14978856person16>,
+     <http://example.org/14978856person17>,
+     <http://example.org/14978856person18>,
+     <http://example.org/14978856person19>,
+     <http://example.org/14978856person20>,
+     <http://example.org/14978856person21>,
+     <http://example.org/14978856person22>,
+     <http://example.org/14978856person23>,
+     <http://example.org/14978856person24>,
+     <http://example.org/14978856person25>,
+     <http://example.org/14978856organization26>,
+     <http://example.org/14978856topic27>,
+     <http://example.org/14978856topic28>,
+     <http://example.org/14978856topic29>,
+     <http://example.org/14978856topic30>,
+     <http://example.org/14978856topic31>,
+     <http://example.org/14978856topic32>,
+     <http://example.org/14978856topic33>,
+     <http://example.org/14978856topic34>,
+     <http://example.org/14978856topic35>,
+     <http://id.loc.gov/vocabulary/geographicAreas/n-us>,
+     <http://id.loc.gov/vocabulary/geographicAreas/e-uk-en>;
+   bf:workTitle <http://example.org/14978856title6> .

@@ -8,8 +8,7 @@ group :development do
   gem 'yard' # for documentation
   gem 'rubocop'
   gem 'rubocop-rspec'
-  # Use faraday for making HTTP requests
-  gem 'faraday'
+  gem 'faraday' # Used for HTTP (for SRU queries for LoC records)
 end
 
 # To use a debugger

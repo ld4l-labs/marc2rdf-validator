@@ -1,0 +1,446 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/11160818annotation26> a bf:Annotation;
+   bf:annotates <http://example.org/11160818>;
+   bf:changeDate "2014-05-07T17:06";
+   bf:derivedFrom <http://example.org/11160818.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/nsdp>,
+     <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/nsd>,
+     <http://id.loc.gov/vocabulary/organizations/dlc>,
+     <http://id.loc.gov/vocabulary/organizations/vrc>,
+     <http://id.loc.gov/vocabulary/organizations/mul>,
+     <http://id.loc.gov/vocabulary/organizations/udi>,
+     <http://id.loc.gov/vocabulary/organizations/ocl>,
+     <http://id.loc.gov/vocabulary/organizations/ser>,
+     <http://id.loc.gov/vocabulary/organizations/rcs>,
+     <http://id.loc.gov/vocabulary/organizations/aip>,
+     <http://id.loc.gov/vocabulary/organizations/nst>,
+     <http://id.loc.gov/vocabulary/organizations/iul>,
+     <http://id.loc.gov/vocabulary/organizations/hul>,
+     <http://id.loc.gov/vocabulary/organizations/agl>,
+     <http://id.loc.gov/vocabulary/organizations/myg>,
+     <http://id.loc.gov/vocabulary/organizations/nyg>,
+     <http://id.loc.gov/vocabulary/organizations/nlm>,
+     <http://id.loc.gov/vocabulary/organizations/gua>,
+     <http://id.loc.gov/vocabulary/organizations/oclcq>,
+     <http://id.loc.gov/vocabulary/organizations/nlggc>,
+     <http://id.loc.gov/vocabulary/organizations/lvb>,
+     <http://id.loc.gov/vocabulary/organizations/cui>,
+     <http://id.loc.gov/vocabulary/organizations/deh>,
+     <http://id.loc.gov/vocabulary/organizations/amazn>,
+     <http://id.loc.gov/vocabulary/organizations/cud>,
+     <http://id.loc.gov/vocabulary/organizations/upm>,
+     <http://id.loc.gov/vocabulary/organizations/oclcf>,
+     <http://id.loc.gov/vocabulary/organizations/p4i>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/mul>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/11160818helditem64> a bf:HeldItem;
+   bf:holdingFor <http://example.org/11160818instance27>;
+   bf:label "TD180 .E5";
+   bf:shelfMarkLcc "TD180 .E5",
+     "TP1 .E5";
+   bf:shelfMarkNlm "W1 EN985S" .
+
+<http://example.org/11160818instance28> a bf:Instance,
+     bf:Electronic;
+   bf:instanceOf <http://example.org/11160818>;
+   bf:label "Electronic Resource";
+   bf:uri <http://pubs.acs.org/journals/esthag/index.html> .
+
+<http://example.org/11160818instance27> a bf:Instance,
+     bf:Serial;
+   bf:abbreviatedTitle <http://example.org/11160818title30>;
+   bf:coden [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:coden;
+     bf:identifierValue "ESTHAG"
+   ];
+   bf:dimensions "29 cm.";
+   bf:extent "v. :";
+   bf:frequencyNote "Semimonthly, 1998-";
+   bf:identifier [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:coden;
+     bf:identifierValue "ESTHAG"
+   ];
+   bf:illustrationNote "ill. (some col.), ports. ;";
+   bf:instanceOf <http://example.org/11160818>;
+   bf:instanceTitle <http://example.org/11160818title32>;
+   bf:issn [
+     a bf:Identifier;
+     bf:identifierAssigner "1";
+     bf:identifierScheme loc_ids:issn;
+     bf:identifierValue "0013-936X"
+   ];
+   bf:keyTitle <http://example.org/11160818title31>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "68005797"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierStatus "canceled/invalid";
+     bf:identifierValue "sn 95020206"
+   ];
+   bf:modeOfIssuance "serial";
+   bf:nban [
+     a bf:Identifier;
+     bf:identifierAssigner "DNLM";
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "E10680000"
+   ],  [
+     a bf:Identifier;
+     bf:identifierAssigner "DNLM";
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "0213155"
+   ];
+   bf:note "Title from cover.",
+     "One issue annually, Sept. 1993- consists of the 1994- Environmental buyers' guide edition.",
+     "Published: Washington, DC, <Sept. 1993- >",
+     "Chemical abstracts",
+     "SERBIB/SERLOC merged record",
+     "ACQN: aq 94014037",
+     "13 no. a year,",
+     "FRO Vendor change";
+   bf:otherPhysicalFormat <http://example.org/11160818instance37>,
+     <http://example.org/11160818instance38>;
+   bf:postalRegistration [
+     a bf:Identifier;
+     bf:identifierAssigner "USPS";
+     bf:identifierScheme loc_ids:postalRegistration;
+     bf:identifierValue "177660"
+   ];
+   bf:providerStatement "Easton, Pa. : American Chemical Society, c1967-";
+   bf:publication [
+     a bf:Provider;
+     bf:copyrightDate "c1967-";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "American Chemical Society"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Easton, Pa. "
+     ]
+   ];
+   bf:serialFirstIssue "Vol. 1, no. 1 (Jan. 1967)";
+   bf:systemNumber <http://www.worldcat.org/oclc/01568096>;
+   bf:titleStatement "Environmental science & technology.";
+   bf:titleVariation <http://example.org/11160818title33>,
+     <http://example.org/11160818title34> .
+
+<http://example.org/11160818instance37> a bf:Instance;
+   bf:issn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issn;
+     bf:identifierValue "1520-5851"
+   ];
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "sn 98004602"
+   ],
+     <http://www.worldcat.org/oclc/36773586>;
+   bf:title "Environmental science & technology (Easton, Pa. : Online)" .
+
+<http://example.org/11160818instance38> a bf:Instance;
+   bf:systemNumber <http://www.worldcat.org/oclc/685248727>;
+   bf:title "Environmental science & technology (Easton, Pa.)" .
+
+<http://example.org/11160818organization7> a bf:Organization;
+   bf:authorizedAccessPoint "American Chemical Society.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "American Chemical Society."
+   ];
+   bf:label "American Chemical Society." .
+
+<http://example.org/11160818title30> a bf:Title;
+   bf:label "Environ. sci. technol.";
+   bf:titleValue "Environ. sci. technol." .
+
+<http://example.org/11160818title31> a bf:Title;
+   bf:label "Environmental science & technology";
+   bf:titleValue "Environmental science & technology" .
+
+<http://example.org/11160818title32> a bf:Title;
+   bf:label "Environmental science & technology.";
+   bf:titleValue "Environmental science & technology" .
+
+<http://example.org/11160818title33> a bf:Title;
+   bf:label "ES & T Jan. 1978-";
+   bf:titleValue "ES & T";
+   bf:titleVariationDate "Jan. 1978-" .
+
+<http://example.org/11160818title34> a bf:Title;
+   bf:label "Environmental science and technology";
+   bf:titleType "running";
+   bf:titleValue "Environmental science and technology" .
+
+<http://example.org/11160818title6> a bf:Title;
+   bf:titleValue "Environmental science & technology (Easton, Pa.)" .
+
+<http://example.org/11160818topic11> a bf:Topic;
+   bf:authorizedAccessPoint "Pollution--Periodicals";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Pollution--Periodicals";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Pollution";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Pollution"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Periodicals";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Periodicals."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Pollution--Periodicals" .
+
+<http://example.org/11160818topic12> a bf:Topic;
+   bf:authorizedAccessPoint "Sanitary chemistry--Periodicals";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Sanitary chemistry--Periodicals";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Sanitary chemistry";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Sanitary chemistry"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Periodicals";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Periodicals."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Sanitary chemistry--Periodicals" .
+
+<http://example.org/11160818topic13> a bf:Topic;
+   bf:authorizedAccessPoint "Environmental engineering--Periodicals";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Environmental engineering--Periodicals";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Environmental engineering";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Environmental engineering"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Periodicals";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Periodicals."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Environmental engineering--Periodicals" .
+
+<http://example.org/11160818topic14> a bf:Topic;
+   bf:authorizedAccessPoint "Environmental Health--Periodicals";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Environmental Health--Periodicals";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Environmental Health";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Environmental Health"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Periodicals";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Periodicals."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/mesh>
+   ];
+   bf:label "Environmental Health--Periodicals" .
+
+<http://example.org/11160818topic15> a bf:Topic;
+   bf:authorizedAccessPoint "Sanitation--Periodicals";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Sanitation--Periodicals";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Sanitation";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Sanitation"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Periodicals";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Periodicals."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/mesh>
+   ];
+   bf:label "Sanitation--Periodicals" .
+
+<http://example.org/11160818topic16> a bf:Topic;
+   bf:authorizedAccessPoint "Pollution--Périodiques";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Pollution--Périodiques";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Pollution";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Pollution"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Périodiques";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Périodiques."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Pollution--Périodiques" .
+
+<http://example.org/11160818topic17> a bf:Topic;
+   bf:authorizedAccessPoint "Environnement, Technique de l'--Périodiques";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Environnement, Technique de l'--Périodiques";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Environnement, Technique de l'";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Environnement, Technique de l'"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Périodiques";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Périodiques."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Environnement, Technique de l'--Périodiques" .
+
+<http://example.org/11160818topic18> a bf:Topic;
+   bf:authorizedAccessPoint "Chimie sanitaire--Périodiques";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Chimie sanitaire--Périodiques";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Chimie sanitaire";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Chimie sanitaire"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Périodiques";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Périodiques."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Chimie sanitaire--Périodiques" .
+
+<http://example.org/11160818work24> a bf:Work;
+   bf:authorizedAccessPoint "Environmental buyers' guide";
+   bf:issn <urn:issn:1068-4980>;
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/93648173>;
+   bf:systemNumber <http://www.worldcat.org/oclc/22605922>;
+   bf:title "Environmental buyers' guide" .
+
+<http://example.org/11160818> a bf:Work,
+     bf:Text;
+   bf:absorbed <http://example.org/11160818work24>;
+   bf:authorizedAccessPoint "American Chemical Society. Environmental science & technology (Easton, Pa.)",
+     "americanchemicalsocietyenvironmentalsciencetechnologyeastonpaengworktext"@x-bf-hash;
+   bf:classificationDdc <http://dewey.info/class/628%2F.5%2F05/about>;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/TD180>,
+     <http://id.loc.gov/authorities/classification/TP1>;
+   bf:classificationNlm <http://nlm.example.org/classification/W1>;
+   bf:contributor <http://example.org/11160818organization7>;
+   bf:issnL [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issnL;
+     bf:identifierValue "0013-936X"
+   ],  [
+     a bf:Identifier;
+     bf:identifierAssigner "1";
+     bf:identifierScheme loc_ids:issnL;
+     bf:identifierValue "0013-936X"
+   ];
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:subject <http://example.org/11160818topic11>,
+     <http://example.org/11160818topic12>,
+     <http://example.org/11160818topic13>,
+     <http://example.org/11160818topic14>,
+     <http://example.org/11160818topic15>,
+     <http://example.org/11160818topic16>,
+     <http://example.org/11160818topic17>,
+     <http://example.org/11160818topic18>;
+   bf:supplementaryContentNote "Some issues for <1972-Feb. 1991> accompanied by supplementary material on microfiche; Mar. 1995-1998 by supporting information on microfiche; supporting information available only online after 1998.";
+   bf:workTitle <http://example.org/11160818title6>;
+   mads:authoritativeLabel "Environmental science & technology (Easton, Pa.)" .

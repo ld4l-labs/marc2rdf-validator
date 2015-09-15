@@ -1,0 +1,146 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/16763577annotation14> a bf:Annotation;
+   bf:annotates <http://example.org/16763577>;
+   bf:changeDate "2011-05-20T14:27";
+   bf:derivedFrom <http://example.org/16763577.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/hua>,
+     <http://id.loc.gov/vocabulary/organizations/bcbtc>,
+     <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/cnpit>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/16763577helditem36> a bf:HeldItem;
+   bf:holdingFor <http://example.org/16763577instance15>;
+   bf:label "ML336 .C475 2010";
+   bf:shelfMarkLcc "ML336 .C475 2010" .
+
+<http://example.org/16763577instance15> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "21 cm.";
+   bf:edition "第 1 版."@zh-hani,
+     "Di 1 ban.";
+   bf:extent "4, 14, 12, 489 p. :";
+   bf:illustrationNote "ill. ;";
+   bf:instanceOf <http://example.org/16763577>;
+   bf:instanceTitle <http://example.org/16763577title18>;
+   bf:isbn10 <http://isbn.example.org/7010085900>;
+   bf:isbn13 <http://isbn.example.org/9787010085906>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2010426798"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:providerStatement "Beijing : Ren min chu ban she, 2010.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "2010",
+       "2010."@zh-hani;
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Ren min chu ban she",
+         "人民出版社"@zh-hani
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Beijing ",
+         "北京 :"@zh-hani
+     ]
+   ];
+   bf:responsibilityStatement "陈万鼐著."@zh-hani;
+   bf:supplementaryContentNote "Includes bibliographical references.";
+   bf:systemNumber <http://www.worldcat.org/oclc/611873265>;
+   bf:titleStatement "\"Qing shi gao, yue zhi\" yan jiu";
+   bf:titleVariation <http://example.org/16763577title19> .
+
+<http://example.org/16763577person6> a bf:Person;
+   bf:authorizedAccessPoint "Chen, Wannai.",
+     "陈万鼐."@zh-hani;
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Chen, Wannai."
+   ];
+   bf:label "Chen, Wannai." .
+
+<http://example.org/16763577title18> a bf:Title;
+   bf:label "\"Qing shi gao, yue zhi\" yan jiu / Chen Wannai zhu.";
+   bf:titleValue "\"Qing shi gao, yue zhi\" yan jiu",
+     "《清史稿・乐志》研究"@zh-hani .
+
+<http://example.org/16763577title19> a bf:Title;
+   bf:label "Colophon title also in pinyin: Qingshigao yuezhi yanjiu";
+   bf:titleType "Colophon title also in pinyin:";
+   bf:titleValue "Qingshigao yuezhi yanjiu" .
+
+<http://example.org/16763577title5> a bf:Title;
+   bf:label "\"Qing shi gao, yue zhi\" yan jiu / Chen Wannai zhu.";
+   bf:titleValue "\"Qing shi gao, yue zhi\" yan jiu",
+     "《清史稿・乐志》研究"@zh-hani .
+
+<http://example.org/16763577topic8> a bf:Topic;
+   bf:authorizedAccessPoint "Music--China--History and criticism";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Music--China--History and criticism";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Music";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Music"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "China";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "China"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "History and criticism";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "History and criticism."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Music--China--History and criticism" .
+
+<http://example.org/16763577work11> a bf:Work;
+   bf:authorizedAccessPoint "Qing shi gao.",
+     "清史稿. Selections. 2010."@zh-hani;
+   bf:formDesignation "Selections.";
+   bf:originDate "2010.";
+   bf:title "Qing shi gao." .
+
+<http://example.org/16763577work12> a bf:Work;
+   bf:authorizedAccessPoint "Guo jia Qing shi bian zuan wei yuan hui yan jiu cong kan",
+     "国家清史编纂委员会研究丛刊"@zh-hani;
+   bf:title "Guo jia Qing shi bian zuan wei yuan hui yan jiu cong kan" .
+
+<http://example.org/16763577> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Chen, Wannai. \"Qing shi gao, yue zhi\" yan jiu / Chen Wannai zhu.\"Qing shi gao, yue zhi\" yan jiu《清史稿・乐志》研究",
+     "chenwannaiqingshigaoyuezhiyanjiuchiworktext"@x-bf-hash;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/ML336>;
+   bf:creator <http://example.org/16763577person6>;
+   bf:hasPart <http://example.org/16763577work11>;
+   bf:language <http://id.loc.gov/vocabulary/languages/chi>;
+   bf:series <http://example.org/16763577work12>;
+   bf:subject <http://example.org/16763577topic8>,
+     <http://id.loc.gov/vocabulary/geographicAreas/a-cc>;
+   bf:workTitle <http://example.org/16763577title5> .

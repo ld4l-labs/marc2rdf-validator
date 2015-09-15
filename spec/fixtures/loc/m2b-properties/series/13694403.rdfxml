@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/13694403">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Hoshi, Ryōichi, 1935- Aizu rakujō : Boshin Sensō saidai no higeki / Hoshi Ryōichi cho.Aizu rakujō :Boshin Sensō saidai no higeki 会津落城 戊辰戦争最大の悲劇</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/13694403title5"/>
+      <bf:creator rdf:resource="http://example.org/13694403person6"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/jpn"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/a-ja"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/DS881.83"/>
+      <bf:classification rdf:resource="http://example.org/13694403classification10"/>
+      <bf:series rdf:resource="http://example.org/13694403work11"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">hoshiryōichi1935aizurakujōboshinsensōsaidainohigekijpnworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/13694403work11">
+      <bf:title>Chūkō shinsho ; 1728</bf:title>
+      <bf:authorizedAccessPoint>Chūkō shinsho ; 1728</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="ja-jpan">中公新書 ;</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/13694403instance14">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/13694403title17"/>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/4121017285"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9784121017284"/>
+      <bf:responsibilityStatement xml:lang="ja-jpan">星亮一著.</bf:responsibilityStatement>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Chūō Kōron Shinsha</bf:label>
+                  <bf:label xml:lang="ja-jpan">中央公論新社</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Tōkyō </bf:label>
+                  <bf:label xml:lang="ja-jpan">東京 :</bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>2003</bf:providerDate>
+            <bf:providerDate xml:lang="ja-jpan">2003.</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>iv, 202 , 4 p. :</bf:extent>
+      <bf:dimensions>18 cm.</bf:dimensions>
+      <bf:illustrationNote>ill., maps ;</bf:illustrationNote>
+      <bf:titleStatement>Aizu rakujō : Boshin Sensō saidai no higeki</bf:titleStatement>
+      <bf:providerStatement>Tōkyō : Chūō Kōron Shinsha, 2003.</bf:providerStatement>
+      <bf:supplementaryContentNote>Includes bibliographical references (p. 202).</bf:supplementaryContentNote>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>2004701796</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>(CStRLIN)DCLP04-B11158</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/systemNumber"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:instanceOf rdf:resource="http://example.org/13694403"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/13694403annotation13">
+      <bf:derivedFrom rdf:resource="http://example.org/13694403.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlcr"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/pcc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2007-08-24T23:46</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/13694403"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/13694403helditem32">
+      <bf:label>DS881.83 .H66 2003</bf:label>
+      <bf:shelfMarkLcc>DS881.83 .H66 2003</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://example.org/13694403instance14"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://example.org/13694403title5">
+      <bf:label> Aizu rakujō : Boshin Sensō saidai no higeki / Hoshi Ryōichi cho.</bf:label>
+      <bf:titleValue>Aizu rakujō :</bf:titleValue>
+      <bf:subtitle>Boshin Sensō saidai no higeki </bf:subtitle>
+      <bf:titleValue xml:lang="ja-jpan">会津落城 戊辰戦争最大の悲劇</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/13694403person6">
+      <bf:label>Hoshi, Ryōichi, 1935-</bf:label>
+      <bf:authorizedAccessPoint>Hoshi, Ryōichi, 1935-</bf:authorizedAccessPoint>
+      <bf:authorizedAccessPoint xml:lang="ja-jpan">星亮一, 1935-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Hoshi, Ryōichi, 1935-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Classification rdf:about="http://example.org/13694403classification10">
+      <bf:classificationScheme>njb/9</bf:classificationScheme>
+      <bf:classificationNumber>210.61</bf:classificationNumber>
+      <bf:label>210.61</bf:label>
+   </bf:Classification>
+   <bf:Title rdf:about="http://example.org/13694403title17">
+      <bf:label> Aizu rakujō : Boshin Sensō saidai no higeki / Hoshi Ryōichi cho.</bf:label>
+      <bf:titleValue>Aizu rakujō :</bf:titleValue>
+      <bf:subtitle>Boshin Sensō saidai no higeki </bf:subtitle>
+      <bf:titleValue xml:lang="ja-jpan">会津落城 戊辰戦争最大の悲劇</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

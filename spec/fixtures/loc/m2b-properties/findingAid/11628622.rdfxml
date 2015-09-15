@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/11628622">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/StillImage"/>
+      <bf:authorizedAccessPoint>Bransby, David Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress) [graphic].Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/11628622title5"/>
+      <relators:pht rdf:resource="http://example.org/11628622person6"/>
+      <relators:pht rdf:resource="http://example.org/11628622person7"/>
+      <relators:pht rdf:resource="http://example.org/11628622person8"/>
+      <relators:pht rdf:resource="http://example.org/11628622person9"/>
+      <relators:pht rdf:resource="http://example.org/11628622person10"/>
+      <relators:pht rdf:resource="http://example.org/11628622person11"/>
+      <relators:pht rdf:resource="http://example.org/11628622person12"/>
+      <relators:pht rdf:resource="http://example.org/11628622person13"/>
+      <relators:pht rdf:resource="http://example.org/11628622person14"/>
+      <relators:pht rdf:resource="http://example.org/11628622person15"/>
+      <relators:pht rdf:resource="http://example.org/11628622person16"/>
+      <relators:pht rdf:resource="http://example.org/11628622person17"/>
+      <relators:pht rdf:resource="http://example.org/11628622person18"/>
+      <relators:pht rdf:resource="http://example.org/11628622person19"/>
+      <relators:pht rdf:resource="http://example.org/11628622person20"/>
+      <relators:pht rdf:resource="http://example.org/11628622person21"/>
+      <relators:pht rdf:resource="http://example.org/11628622person22"/>
+      <relators:pht rdf:resource="http://example.org/11628622person23"/>
+      <relators:pht rdf:resource="http://example.org/11628622person24"/>
+      <relators:pht rdf:resource="http://example.org/11628622person25"/>
+      <bf:contributor rdf:resource="http://example.org/11628622jurisdiction26"/>
+      <bf:contributor rdf:resource="http://example.org/11628622jurisdiction27"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:index rdf:resource="http://example.org/11628622work29"/>
+      <bf:subject rdf:resource="http://example.org/11628622organization31"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic32"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic33"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic34"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic35"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic36"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic37"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic38"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic39"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic40"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic41"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic42"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic43"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic44"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic45"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic46"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic47"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic48"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic49"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic50"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic51"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic52"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic53"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic54"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic55"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic56"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic57"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic58"/>
+      <bf:subject rdf:resource="http://example.org/11628622topic59"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us"/>
+      <bf:relatedWork rdf:resource="http://example.org/11628622work61"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">bransbydavidcollinsmarjory19121985collierjohnjr19131992delanojackdixonroydendowneyjackfeiningerandreas19061999hollemhowardrjacobsfenno19041975leerussell19031986libermanhowardpalmeralfredtrittasewilliamm18941968rosskamlouise19102003rothsteinarthur19151985rousjohnsherwoodmarksiegelarthursvachonjohn19141975wolcottmarionpost19101990unitedstatesfarmsecurityadministrationunitedstatesofficeofwarinformationfarmsecurityadministrationofficeofwarinformationcolorslidesandtransparenciescollectionlibraryofcongressengworkstillimage</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11628622work29">
+      <bf:authorizedAccessPoint>A set of catalog records describing each item is available through the Open Archives Initiative Protocol for Metadata Harvesting. See</bf:authorizedAccessPoint>
+      <bf:title>A set of catalog records describing each item is available through the Open Archives Initiative Protocol for Metadata Harvesting. See</bf:title>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11628622work61">
+      <bf:title>America from the great depression to World War II: color photographs from the FSA-OWI, 1939-1945.</bf:title>
+      <bf:authorizedAccessPoint>America from the great depression to World War II: color photographs from the FSA-OWI, 1939-1945.</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/11628622instance33">
+      <bf:hdl rdf:resource="http://hdl.loc.gov/loc.gdc/lcoa1.about"/>
+      <bf:instanceOf rdf:resource="http://example.org/11628622work29"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://example.org/11628622instance64">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Collection"/>
+      <bf:instanceTitle rdf:resource="http://example.org/11628622title68"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:copyrightDate>1939-1944</bf:copyrightDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:soundContent>Unknown</bf:soundContent>
+      <bf:soundContent>Unknown</bf:soundContent>
+      <bf:soundContent>Unknown</bf:soundContent>
+      <bf:soundContent>Unknown</bf:soundContent>
+      <bf:modeOfIssuance>monographic</bf:modeOfIssuance>
+      <bf:extent>1,616 transparencies (film and slides) :</bf:extent>
+      <bf:dimensions>4 x 5 in. or smaller.</bf:dimensions>
+      <bf:illustrationNote>color ;</bf:illustrationNote>
+      <bf:titleStatement>Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)</bf:titleStatement>
+      <bf:formDesignation>graphic.</bf:formDesignation>
+      <bf:providerStatement>1939-1944.</bf:providerStatement>
+      <bf:accessCondition>Please use online digital copies instead of original material, following Division's preservation policy.</bf:accessCondition>
+      <bf:immediateAcquisition>Transfer; U.S. Office of War Information; 1944.</bf:immediateAcquisition>
+      <bf:note>Documentary images of life and culture in the United States, Puerto Rico, and the U.S. Virgin Islands. Farm Security Administration images focus on rural areas, depicting farming, mining, forestry, migrant labor, children, and fairs. Includes particularly extensive coverage of Afro-Americans, but also includes whites, Hispanic Americans, and islanders. Office of War Information images cover civilian training during World War II, civil engineering (especially dam construction and operation of the Tennessee Valley Authority), factories and industrial labor, women working in the defense industry, transportation (particularly by railroad and by air), World War II mobilization, military facilities (with an emphasis on air bases), scenes related to national security and civil service, and war industries. Includes scenes of mountains, rivers, forests, other natural features, and towns. Also includes some historic sites and monuments.</bf:note>
+      <bf:note>The U.S. Farm Security Administration (FSA) was created in the Department of Agriculture in 1937. The FSA and its predecessor, the Resettlement Administration (RA), were New Deal programs designed to assist poor farmers working in the Dust Bowl and during the Great Depression. The U.S. Office of War Information (OWI) was created in 1942 to be a U.S. government propaganda agency during World War II. The images created by these agencies during this period are among the earliest color film photographs used for documentary purpose. Many of the assignments covered in color were also covered in black and white.</bf:note>
+      <bf:note>Digitized images of all items in the collection and their associated identifying information are available through the Prints &amp; Photographs Online Catalog,</bf:note>
+      <bf:note>Digitized images were also available through the Library of Congress American Memory Web site published in 1996 and closed in 2013; called: America from the Great Depression to World War II: color photographs from the FSA-OWI, 1939-1945.</bf:note>
+      <bf:note>B&amp;w reference copy prints are LOT 11671 and LOT 12002.</bf:note>
+      <bf:note>Collection title devised by Library staff.</bf:note>
+      <bf:note>Photographers are: David Bransby (1942), John Collier (1942-1943), Marjory Collins (1943), Jack Delano (1940-1943), Royden Dixon (1941-1942), Jack Downey (1944), Andreas Feininger (1942), Howard R. Hollem (ca. 1941-1945), Fenno Jacobs (1942), Russell Lee (1940-1942), Howard Liberman (1942), Alfred T. Palmer (1941-1943), William M. Rittase (1942), Louise Rosskam (1941-1942), Arthur Rothstein (1942), John Rous (1941), Mark Sherwood (1942), Arthur S. Siegel (1942), John Vachon (1939-1942), and Marion Post Wolcott (1939-1941).</bf:note>
+      <bf:note>Includes 550 35mm slides; the other transparencies are larger format: 2 1/2 x 2 1/2, 3x4, and 4x5 inches. The type of film is Kodachrome.</bf:note>
+      <bf:note>Published in: Bound for glory: America in color, 1939-43 / Essay by Paul Hendrickson. New York : H.N. Abrams, 2004.</bf:note>
+      <bf:systemNumber>
+         <bf:Identifier>
+            <bf:identifierValue>11628622</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:systemNumber>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>93845501</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:arrangement rdf:resource="http://example.org/11628622arrangement94"/>
+      <bf:instanceOf rdf:resource="http://example.org/11628622"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://example.org/11628622instance65">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Electronic"/>
+      <bf:label>Electronic Resource</bf:label>
+      <bf:hdl rdf:resource="http://hdl.loc.gov/loc.pnp/pp.fsac"/>
+      <bf:instanceOf rdf:resource="http://example.org/11628622"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/11628622annotation63">
+      <bf:derivedFrom rdf:resource="http://example.org/11628622.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/gihc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2015-06-26T08:24</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/11628622"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/11628622helditem96">
+      <bf:label/>
+      <bf:heldBy>Library of Congress</bf:heldBy>
+      <bf:subLocation>Prints and Photographs Division</bf:subLocation>
+      <bf:hdl rdf:resource="http://hdl.loc.gov/loc.pnp/pp.print"/>
+      <bf:holdingFor rdf:resource="http://example.org/11628622instance64"/>
+   </bf:HeldItem>
+   <bf:Summary rdf:about="http://example.org/11628622summary30">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Summary"/>
+      <bf:label>Summary</bf:label>
+      <bf:annotationAssertedBy rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:annotationBody>Documentary images of life and culture in the United States, Puerto Rico, and the U.S. Virgin Islands. Farm Security Administration images focus on rural areas, depicting farming, mining, forestry, migrant labor, children, and fairs. Includes particularly extensive coverage of Afro-Americans, but also includes whites, Hispanic Americans, and islanders. Office of War Information images cover civilian training during World War II, civil engineering (especially dam construction and operation of the Tennessee Valley Authority), factories and industrial labor, women working in the defense industry, transportation (particularly by railroad and by air), World War II mobilization, military facilities (with an emphasis on air bases), scenes related to national security and civil service, and war industries. Includes scenes of mountains, rivers, forests, other natural features, and towns. Also includes some historic sites and monuments.</bf:annotationBody>
+      <bf:summaryOf rdf:resource="http://example.org/11628622"/>
+   </bf:Summary>
+   <bf:Title rdf:about="http://example.org/11628622title5">
+      <bf:label>Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress) [graphic].</bf:label>
+      <bf:titleValue>Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/11628622person6">
+      <bf:label>Bransby, David</bf:label>
+      <bf:authorizedAccessPoint>Bransby, David</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Bransby, David</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person7">
+      <bf:label>Collins, Marjory, 1912-1985</bf:label>
+      <bf:authorizedAccessPoint>Collins, Marjory, 1912-1985</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Collins, Marjory, 1912-1985</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person8">
+      <bf:label>Collier, John, Jr., 1913-1992</bf:label>
+      <bf:authorizedAccessPoint>Collier, John, Jr., 1913-1992</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Collier, John, Jr., 1913-1992</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person9">
+      <bf:label>Delano, Jack</bf:label>
+      <bf:authorizedAccessPoint>Delano, Jack</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Delano, Jack</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person10">
+      <bf:label>Dixon, Royden</bf:label>
+      <bf:authorizedAccessPoint>Dixon, Royden</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Dixon, Royden</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person11">
+      <bf:label>Downey, Jack</bf:label>
+      <bf:authorizedAccessPoint>Downey, Jack</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Downey, Jack</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person12">
+      <bf:label>Feininger, Andreas, 1906-1999</bf:label>
+      <bf:authorizedAccessPoint>Feininger, Andreas, 1906-1999</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Feininger, Andreas, 1906-1999</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person13">
+      <bf:label>Hollem, Howard R.</bf:label>
+      <bf:authorizedAccessPoint>Hollem, Howard R.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Hollem, Howard R.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person14">
+      <bf:label>Jacobs, Fenno, 1904-1975</bf:label>
+      <bf:authorizedAccessPoint>Jacobs, Fenno, 1904-1975</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Jacobs, Fenno, 1904-1975</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person15">
+      <bf:label>Lee, Russell, 1903-1986</bf:label>
+      <bf:authorizedAccessPoint>Lee, Russell, 1903-1986</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Lee, Russell, 1903-1986</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person16">
+      <bf:label>Liberman, Howard</bf:label>
+      <bf:authorizedAccessPoint>Liberman, Howard</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Liberman, Howard</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person17">
+      <bf:label>Palmer, Alfred T.</bf:label>
+      <bf:authorizedAccessPoint>Palmer, Alfred T.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Palmer, Alfred T.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person18">
+      <bf:label>Rittase, William M., 1894-1968</bf:label>
+      <bf:authorizedAccessPoint>Rittase, William M., 1894-1968</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Rittase, William M., 1894-1968</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person19">
+      <bf:label>Rosskam, Louise, 1910-2003</bf:label>
+      <bf:authorizedAccessPoint>Rosskam, Louise, 1910-2003</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Rosskam, Louise, 1910-2003</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person20">
+      <bf:label>Rothstein, Arthur, 1915-1985</bf:label>
+      <bf:authorizedAccessPoint>Rothstein, Arthur, 1915-1985</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Rothstein, Arthur, 1915-1985</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person21">
+      <bf:label>Rous, John</bf:label>
+      <bf:authorizedAccessPoint>Rous, John</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Rous, John</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person22">
+      <bf:label>Sherwood, Mark</bf:label>
+      <bf:authorizedAccessPoint>Sherwood, Mark</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Sherwood, Mark</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person23">
+      <bf:label>Siegel, Arthur S.</bf:label>
+      <bf:authorizedAccessPoint>Siegel, Arthur S.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Siegel, Arthur S.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person24">
+      <bf:label>Vachon, John, 1914-1975</bf:label>
+      <bf:authorizedAccessPoint>Vachon, John, 1914-1975</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Vachon, John, 1914-1975</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11628622person25">
+      <bf:label>Wolcott, Marion Post, 1910-1990</bf:label>
+      <bf:authorizedAccessPoint>Wolcott, Marion Post, 1910-1990</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Wolcott, Marion Post, 1910-1990</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Jurisdiction rdf:about="http://example.org/11628622jurisdiction26">
+      <bf:label>United States. Farm Security Administration.</bf:label>
+      <bf:authorizedAccessPoint>United States. Farm Security Administration.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>United States. Farm Security Administration.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Jurisdiction>
+   <bf:Jurisdiction rdf:about="http://example.org/11628622jurisdiction27">
+      <bf:label>United States. Office of War Information.</bf:label>
+      <bf:authorizedAccessPoint>United States. Office of War Information.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>United States. Office of War Information.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Jurisdiction>
+   <bf:Organization rdf:about="http://example.org/11628622organization31">
+      <bf:authorizedAccessPoint>Tennessee Valley Authority--1930-1940.</bf:authorizedAccessPoint>
+      <bf:label>Tennessee Valley Authority--1930-1940.</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Tennessee Valley Authority--1930-1940.</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource=""/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:CorporateName>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Tennessee Valley Authority</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:NameElement>
+                        <madsrdf:elementValue>Tennessee Valley Authority</madsrdf:elementValue>
+                     </madsrdf:NameElement>
+                  </madsrdf:elementList>
+               </madsrdf:CorporateName>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1940</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1940.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Topic rdf:about="http://example.org/11628622topic32">
+      <bf:authorizedAccessPoint>Aeronautics--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Aeronautics--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Aeronautics--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Aeronautics</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Aeronautics</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic33">
+      <bf:authorizedAccessPoint>African Americans--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>African Americans--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>African Americans--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource=""/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>African Americans</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>African Americans</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic34">
+      <bf:authorizedAccessPoint>Agriculture--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Agriculture--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Agriculture--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Agriculture</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Agriculture</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic35">
+      <bf:authorizedAccessPoint>Assembly-line methods--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Assembly-line methods--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Assembly-line methods--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Assembly-line methods</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Assembly-line methods</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic36">
+      <bf:authorizedAccessPoint>Children--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Children--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Children--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Children</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Children</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic37">
+      <bf:authorizedAccessPoint>Civil engineering--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Civil engineering--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Civil engineering--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Civil engineering</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Civil engineering</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic38">
+      <bf:authorizedAccessPoint>Civil service--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Civil service--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Civil service--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Civil service</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Civil service</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic39">
+      <bf:authorizedAccessPoint>Country life--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Country life--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Country life--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Country life</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Country life</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic40">
+      <bf:authorizedAccessPoint>Depressions--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Depressions--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Depressions--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Depressions</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Depressions</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic41">
+      <bf:authorizedAccessPoint>Dwellings--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Dwellings--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Dwellings--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Dwellings</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Dwellings</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic42">
+      <bf:authorizedAccessPoint>Fairs--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Fairs--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Fairs--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Fairs</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Fairs</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic43">
+      <bf:authorizedAccessPoint>Farm relief--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Farm relief--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Farm relief--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Farm relief</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Farm relief</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic44">
+      <bf:authorizedAccessPoint>Farms--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Farms--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Farms--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Farms</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Farms</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic45">
+      <bf:authorizedAccessPoint>Forestry--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Forestry--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Forestry--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Forestry</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Forestry</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic46">
+      <bf:authorizedAccessPoint>Historic sites--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Historic sites--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Historic sites--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Historic sites</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Historic sites</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic47">
+      <bf:authorizedAccessPoint>Industrial facilities--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Industrial facilities--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Industrial facilities--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Industrial facilities</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Industrial facilities</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic48">
+      <bf:authorizedAccessPoint>Mining--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Mining--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Mining--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Mining</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Mining</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic49">
+      <bf:authorizedAccessPoint>Mountains--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Mountains--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Mountains--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Mountains</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Mountains</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic50">
+      <bf:authorizedAccessPoint>National security--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>National security--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>National security--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>National security</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>National security</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic51">
+      <bf:authorizedAccessPoint>Railroads--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Railroads--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Railroads--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Railroads</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Railroads</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic52">
+      <bf:authorizedAccessPoint>Shipping--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Shipping--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Shipping--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Shipping</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Shipping</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic53">
+      <bf:authorizedAccessPoint>Transportation--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Transportation--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Transportation--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lctgm"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Transportation</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Transportation</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lctgm</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic54">
+      <bf:authorizedAccessPoint>Women--Employment--United States--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Women--Employment--United States--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Women--Employment--United States--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource=""/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Women</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Women</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Employment</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Employment</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>United States</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic55">
+      <bf:authorizedAccessPoint>World War, 1939-1945</bf:authorizedAccessPoint>
+      <bf:label>World War, 1939-1945</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Topic"/>
+            <madsrdf:authoritativeLabel>World War, 1939-1945</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic56">
+      <bf:authorizedAccessPoint>Dust Bowl Era, 1931-1939</bf:authorizedAccessPoint>
+      <bf:label>Dust Bowl Era, 1931-1939</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Topic"/>
+            <madsrdf:authoritativeLabel>Dust Bowl Era, 1931-1939</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic57">
+      <bf:authorizedAccessPoint>Landscape photographs--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Landscape photographs--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Landscape photographs--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/gmgpc"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Landscape photographs</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Landscape photographs</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/gmgpc</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic58">
+      <bf:authorizedAccessPoint>Film transparencies--Color--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Film transparencies--Color--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Film transparencies--Color--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/gmgpc"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Film transparencies</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Film transparencies</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Color</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Color</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/gmgpc</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11628622topic59">
+      <bf:authorizedAccessPoint>Slides--Color--1930-1950</bf:authorizedAccessPoint>
+      <bf:label>Slides--Color--1930-1950</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Slides--Color--1930-1950</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/gmgpc"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Slides</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Slides</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Color</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Color</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Temporal>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>1930-1950</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TemporalElement>
+                        <madsrdf:elementValue>1930-1950.</madsrdf:elementValue>
+                     </madsrdf:TemporalElement>
+                  </madsrdf:elementList>
+               </madsrdf:Temporal>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/gmgpc</bf:authoritySource>
+   </bf:Topic>
+   <bf:Title rdf:about="http://example.org/11628622title68">
+      <bf:label>Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress) [graphic].</bf:label>
+      <bf:titleValue>Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)</bf:titleValue>
+   </bf:Title>
+   <bf:Arrangement rdf:about="http://example.org/11628622arrangement94">
+      <bf:materialOrganization>Organized into two series (FSA and OWI): FSA has a series code beginning with the prefix LC-USF35; OWI has a series code beginning with prefix LC-USW36;</bf:materialOrganization>
+      <bf:materialArrangement>Each series is arranged by name of photographer, and subarranged by shooting assignment.</bf:materialArrangement>
+   </bf:Arrangement>
+</rdf:RDF>
