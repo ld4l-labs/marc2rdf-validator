@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+<record xmlns="http://www.loc.gov/MARC21/slim">
   <leader>01055cgm a22002655a 4500</leader>
   <controlfield tag="001">13488078</controlfield>
   <controlfield tag="005">20040211160725.0</controlfield>
@@ -72,4 +72,4 @@
   <datafield tag="520" ind1=" " ind2=" ">
     <subfield code="a">On a giant Matzah Ball in outer space lives a family of funny, furry, Jewish aliens. When a menorah crash lands the 9-year-old is puzzled as to what it is because they have not kept up with traditions. He looks to Earth to see kids celebrating Chanukah.</subfield>
   </datafield>
-</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13488078</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>
+</record>

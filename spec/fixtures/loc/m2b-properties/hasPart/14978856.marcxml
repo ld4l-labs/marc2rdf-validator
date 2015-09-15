@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+<record xmlns="http://www.loc.gov/MARC21/slim">
   <leader>06510ckc a22006857a 4500</leader>
   <controlfield tag="001">14978856</controlfield>
   <controlfield tag="005">20130603103814.0</controlfield>
@@ -228,4 +228,4 @@
     <subfield code="t">Putnam</subfield>
     <subfield code="w">(DLC)    2007567098</subfield>
   </datafield>
-</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=14978856</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>
+</record>

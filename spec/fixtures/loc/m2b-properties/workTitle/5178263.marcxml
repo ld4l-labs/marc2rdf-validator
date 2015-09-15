@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+<record xmlns="http://www.loc.gov/MARC21/slim">
   <leader>02709cam a2200565 a 4500</leader>
   <controlfield tag="001">5178263</controlfield>
   <controlfield tag="005">20090701095949.0</controlfield>
@@ -208,4 +208,4 @@
     <subfield code="e">1.1</subfield>
     <subfield code="f">See field: 245(1)</subfield>
   </datafield>
-</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5178263</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>
+</record>
