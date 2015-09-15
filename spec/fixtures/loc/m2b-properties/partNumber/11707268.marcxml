@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02449cgm a22003735a 4500</leader>
+  <controlfield tag="001">11707268</controlfield>
+  <controlfield tag="005">20130325073350.0</controlfield>
+  <controlfield tag="007">v| ||||||</controlfield>
+  <controlfield tag="008">971205s1994    xx 045            vlund  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   97520645</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">ibc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-movingim</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   97520645 </subfield>
+  </datafield>
+  <datafield tag="017" ind1=" " ind2=" ">
+    <subfield code="a">PA729-328</subfield>
+    <subfield code="b">U.S. Copyright Office</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">amim</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">VAD 6713 (viewing copy)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">'Til death do us part /</subfield>
+    <subfield code="c">CNN Special Reports.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2=" ">
+    <subfield code="a">Special reports.</subfield>
+    <subfield code="p">'Til death do us part</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">United States :</subfield>
+    <subfield code="b">CNN,</subfield>
+    <subfield code="c">[1994?] ;</subfield>
+    <subfield code="a">United States :</subfield>
+    <subfield code="b">[CNN Video],</subfield>
+    <subfield code="c">1994.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 videocassette of 1 (VHS) (ca. 45 min.) :</subfield>
+    <subfield code="b">sd., col. ;</subfield>
+    <subfield code="c">1/2 in. viewing copy.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Copyright: Cable News Network, Inc. Prev.: Footage preexisting. NM: all other cinematographic material incl. the narration. DCR 1993; PUB 15Jun94; REG 25Jul94; PA729-328.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Series title given as Special reports on copyright data sheet.</subfield>
+  </datafield>
+  <datafield tag="511" ind1="0" ind2=" ">
+    <subfield code="a">Correspondent: Larry LaMotte.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">LC copy is videocassette reissue copy.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Cindy, a woman in Georgia, claims she was slapped, kicked and choked regularly by her husband, who also repeatedly threatened to kill her. She shot him to death. Now she is in prison for murder but she argues it was self-defense. Thousands of abused American women are behind bars for killing the men they loved. Are they hardened criminals or victims of what is called the "battered woman syndrome?" This report follows Cindy throughout her trial and explores the minds of America's battered women and the abusive men they love. It also examines a developing legal standard in the "battered woman syndrome" murder defense. Proponents claim it is a compassionate argument of self-defense; opponents say it is simply a license to kill.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Summary taken from videocassette box.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">On videocassette box: CNN Video cat. no. 3132; ISBN 0-7806-0512-X.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Sources used: copyright data sheet; copyright data base; videocassette box.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="d">Received: 11/23/94;</subfield>
+    <subfield code="3">viewing copy;</subfield>
+    <subfield code="c">copyright deposit--RNR;</subfield>
+    <subfield code="a">Copyright Collection.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Documentary television programs.</subfield>
+    <subfield code="2">lcgft</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Nonfiction television programs.</subfield>
+    <subfield code="2">lcgft</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Television specials.</subfield>
+    <subfield code="2">lcgft</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Copyright Collection (Library of Congress)</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="953" ind1=" " ind2=" ">
+    <subfield code="a">TE01</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-MP&amp;TV</subfield>
+    <subfield code="h">VAD 6713 (viewing copy)</subfield>
+    <subfield code="w">MUMS VM File</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11707268</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>04370ckc a2200397 a 4500</leader>
+  <controlfield tag="001">14747204</controlfield>
+  <controlfield tag="005">20101210145356.0</controlfield>
+  <controlfield tag="007">kh|mmm</controlfield>
+  <controlfield tag="008">070224i18641940xxunnn            kneng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">ibc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-printpho</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2007675754</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="e">gihc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Guide Record</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Johnston, Frances Benjamin,</subfield>
+    <subfield code="d">1864-1952,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Carnegie Survey of the Architecture of the South (Library of Congress)</subfield>
+    <subfield code="h">[graphic].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1927-1943, bulk 1933-1940.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">ca. 7,600 photographic prints ;</subfield>
+    <subfield code="c">8 x 10 in.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">ca. 6,800 negatives :</subfield>
+    <subfield code="b">film ;</subfield>
+    <subfield code="c">8 x 10 in.</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="3">Photographic prints made by the Library of Congress:</subfield>
+    <subfield code="a">Organized into 8 groups (LOTS);</subfield>
+    <subfield code="b">arranged by state and subdivided by county. The call numbers are: LOT 11833 (ALA), LOT 11834 (FLA), LOT 11835 (GA), LOT 11836 (LA), LOT 11837 (MD), LOT 11839 (NC), LOT 11840 (SC), LOT 11841 (VA).</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="a">Original negatives:</subfield>
+    <subfield code="b">Arranged by state and a four-digit negative number within series code LC-J7. Sample call number: LC-J7-VA-</subfield>
+  </datafield>
+  <datafield tag="520" ind1="0" ind2=" ">
+    <subfield code="a">A systematic visual record of the early buildings and gardens of nine southern states: Virginia (ca. 600 sites), North Carolina (ca. 300 sites), Georgia (ca. 250 sites), Louisiana (ca. 170 sites), Alabama (ca.150 sites), South Carolina (ca.150 sites), Maryland (ca.135 sites), Florida (ca. 60 sites), and Mississippi (ca. 30 sites). These architectural photographs show vernacular building traditions as well as great mansions. In addition to churches, graveyards, row houses, offices, kitchens, warehouses mills, shops, farm buildings, and inns, numerous shots feature interiors and architectural details. Johnston also documented structures in disrepair and aroused local interest in rediscovering and paying attention to such situations.</subfield>
+  </datafield>
+  <datafield tag="545" ind1=" " ind2=" ">
+    <subfield code="a">One of the first American women to achieve prominence as a photographer, Frances Benjamin Johnston opened a studio in Washington, D.C., in 1890, carrying out portrait and photojournalism assignments. She entered into partnership with Mattie Edwards Hewitt, operating a New York City studio that specialized in architectural and garden photography, 1913-1917. Johnston began a series of systematic architectural field trips in 1927-29 with a privately commissioned survey of Fredersicksburg, Va., and Old Falmouth for Mrs. Daniel B. Devore "to preserve something of the atmosphere of an old Virginia town." A grant from the Carnegie Corporation of New York extended the survey to cover the entire state of Virginia under sponsorship of the University of Virginia. Successive Carnegie grants totaled $26,000 to cover the other States under Library of Congress sponsorship. The American Institute of Architects honored Miss Johnston for her achievement in 1945. Johnston kept control of the negatives during her lifetime, but selective sets of prints were made for several libraries and museums.</subfield>
+  </datafield>
+  <datafield tag="510" ind1="4" ind2=" ">
+    <subfield code="a">Special Collections in the Library of Congress / compiled by Annette Melville. Washington, D.C. : Library of Congress, 1980,</subfield>
+    <subfield code="c">no. 39</subfield>
+  </datafield>
+  <datafield tag="510" ind1="4" ind2=" ">
+    <subfield code="a">Guide to the Special Collections of Prints and Photographs in the Library of Congress / compiled by Paul Vanderbilt. Washington, D.C. : Library of Congress Reference Department, 1955,</subfield>
+    <subfield code="c">no. 388</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also available on microfiche: The Carnegie survey of the architecture of the South, 1927-1943  [microform] : photographs / by Frances Benjamin Johnston ; edited by Janet M. Gwaltney ; with an introduction by C. Ford Peatross. Alexandria, Va. :  Chadwyck-Healey, 1985.</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">No known restrictions on publication.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="c">Purchase from</subfield>
+    <subfield code="a">Frances Benjamin Johnston estate,</subfield>
+    <subfield code="d">1953.</subfield>
+  </datafield>
+  <datafield tag="555" ind1="0" ind2=" ">
+    <subfield code="a">A card catalog available in the Prints &amp; Photographs Division Reading Room lists each building and the negative numbers, sometimes with a description of the site.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Architecture</subfield>
+    <subfield code="z">Southern States</subfield>
+    <subfield code="y">1930-1940.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Film negatives</subfield>
+    <subfield code="y">19300-1940.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Carnegie Corporation of New York,</subfield>
+    <subfield code="e">sponsor.</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Library of Congress</subfield>
+    <subfield code="b">Prints and Photographs Division</subfield>
+    <subfield code="e">Washington, D.C. 20540 USA</subfield>
+    <subfield code="n">dcu</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="z">Search for Carnegie Survey images in the Prints &amp; Photographs Online Catalog</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.csas</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">pp/guide</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-P&amp;P</subfield>
+    <subfield code="v">obj.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=14747204</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

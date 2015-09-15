@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03995ckd a2200637 a 4500</leader>
+  <controlfield tag="001">16530652</controlfield>
+  <controlfield tag="005">20110616095858.0</controlfield>
+  <controlfield tag="007">kj co </controlfield>
+  <controlfield tag="008">101103i18391950xx nnn            kneng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-printpho</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">qw44 2010-11n</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2010651582</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">gihc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">LOT 14015 A-F</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Sheet music, fables, miscellaneous 19th century periodicals, illustrations from the Masses, and a delegate's kit for the 1948 New Party founding convention</subfield>
+    <subfield code="h">[graphic].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1839-1950.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">67 prints :</subfield>
+    <subfield code="b">chiefly lithographs, wood engravings, letterpress, offset, and halftone, some color ;</subfield>
+    <subfield code="c">sheets 42 x 30 cm or smaller, vertical and horizontal orientation.</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="a">Organized into subdivisions: LOT 14015 A-F;</subfield>
+    <subfield code="b">Arranged in folders by type of material LOT 14015-A (large-format periodicals) - LOT 14015-B (delegate's Kit, 1948) - LOT 14015-C (Masses cover illustrations) - LOT 14015-D (fables) - LOT 14015-E (fragments of magazines) - LOT 14015-F (sheet music).</subfield>
+  </datafield>
+  <datafield tag="520" ind1="0" ind2=" ">
+    <subfield code="a">Prints show periodicals, political documentation for founding convention for the New Party, cover illustrations for the Masses, fables with illustration and text that have been removed from books, fragments from Graham's Lady's and Gentleman's magazine, and sheet music with words and score of minstrels and plantation favorites, many with cover illustrations.</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">Rights status of individual images not evaluated. For general information see: "Copyright and Other Restrictions which apply to Publication and Other Forms of Distribution of Images: Sources for Information"</subfield>
+    <subfield code="u">http://lcweb.loc.gov/rr/print/195_copr.html</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">LOT title devised by Library staff.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Some of the periodical issues are complete, some lack covers, pages, or illustrations.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Selections from Graham's Lady's and Gentleman's magazine are illustrations and text related to women.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Sheet music are complete, words and score, or score only; many have illustrated covers, some in color.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="555" ind1="0" ind2=" ">
+    <subfield code="a">Finding Aid (unpublished): Filed under LOT 14013, LOT 14014 and LOT 14015 is available in the Prints &amp; Photographs Reading Room.</subfield>
+  </datafield>
+  <datafield tag="580" ind1=" " ind2=" ">
+    <subfield code="a">Forms part of: Ben and Beatrice Goldstein Foundation collection.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Wallace, Henry A.</subfield>
+    <subfield code="q">(Henry Agard),</subfield>
+    <subfield code="d">1888-1965.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Taylor, Glen H.</subfield>
+    <subfield code="q">(Glen Hearst),</subfield>
+    <subfield code="d">1904-1984.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Manners &amp; customs</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Women</subfield>
+    <subfield code="x">Social life</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Fables</subfield>
+    <subfield code="y">1830-1850.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Political conventions</subfield>
+    <subfield code="z">Pennsylvania</subfield>
+    <subfield code="z">Philadelphia</subfield>
+    <subfield code="y">1940-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Presidential elections</subfield>
+    <subfield code="y">1940-1950.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Periodical illustrations</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Sheet music covers</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Covers (Illustration)</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Portrait prints</subfield>
+    <subfield code="y">1940-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Cartoons (Commentary)</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Letterpress works</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Prints</subfield>
+    <subfield code="x">Color</subfield>
+    <subfield code="y">1830-1950.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Barns, Cornelia,</subfield>
+    <subfield code="d">1888-1941.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Bewick, Thomas,</subfield>
+    <subfield code="d">1753-1828.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Davis, Stuart,</subfield>
+    <subfield code="d">1892-1964.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Dore&#x301;, Gustave,</subfield>
+    <subfield code="d">1832-1883.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Chamberlain, Kenneth Russell,</subfield>
+    <subfield code="d">1891-1984.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Coleman, Glenn O.,</subfield>
+    <subfield code="d">1887-1932.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Grant, Gordon,</subfield>
+    <subfield code="d">1875-1962.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Heyer, Hermann,</subfield>
+    <subfield code="d">1876-1950.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Higgins, Eugene,</subfield>
+    <subfield code="d">1874-1958.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Nankivell, Frank A.</subfield>
+    <subfield code="q">(Frank Arthur),</subfield>
+    <subfield code="d">1869-1959.</subfield>
+  </datafield>
+  <datafield tag="773" ind1="0" ind2=" ">
+    <subfield code="t">Ben and Beatrice Goldstein Foundation collection</subfield>
+    <subfield code="w">(DLC)   2009632515</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Library of Congress</subfield>
+    <subfield code="b">Prints and Photographs Division</subfield>
+    <subfield code="e">Washington, D.C. 20540 USA</subfield>
+    <subfield code="n">dcu</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.print</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="z">Search for images in Prints &amp; Photographs Online Catalog</subfield>
+    <subfield code="u">http://lcweb2.loc.gov/pp/cphquery.html</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">pp/coll</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-P&amp;P</subfield>
+    <subfield code="m">(H)</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=16530652</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

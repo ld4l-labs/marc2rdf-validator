@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>05201cas a2201021 a 4500</leader>
+  <controlfield tag="001">11158170</controlfield>
+  <controlfield tag="005">20130711075246.0</controlfield>
+  <controlfield tag="008">770121c19609999xr  x m       0    0cze  </controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   65053756 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1307100316-p-----    </subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">009184557</subfield>
+    <subfield code="2">Uk</subfield>
+  </datafield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0474-1048</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm02692777 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">CtY</subfield>
+    <subfield code="d">CtY</subfield>
+    <subfield code="d">N</subfield>
+    <subfield code="d">MnMULS</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">MH</subfield>
+    <subfield code="d">InU</subfield>
+    <subfield code="d">UKMGB</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">InU</subfield>
+  </datafield>
+  <datafield tag="041" ind1="0" ind2=" ">
+    <subfield code="a">cze</subfield>
+    <subfield code="a">eng</subfield>
+    <subfield code="a">fre</subfield>
+    <subfield code="a">ger</subfield>
+    <subfield code="a">pol</subfield>
+    <subfield code="a">rus</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">P19</subfield>
+    <subfield code="b">.O522</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">405</subfield>
+    <subfield code="b">O5253</subfield>
+  </datafield>
+  <datafield tag="222" ind1=" " ind2="0">
+    <subfield code="a">Philologica</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Acta Universitatis Palackianae Olomucensis.</subfield>
+    <subfield code="p">Philologica /</subfield>
+    <subfield code="c">Facultas Philosophica.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="0">
+    <subfield code="a">Philologica</subfield>
+  </datafield>
+  <datafield tag="249" ind1="0" ind2=" ">
+    <subfield code="i">ACQUIRE Title:</subfield>
+    <subfield code="a">Acta Universitatis Palackianae Olomucensis.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Praha :</subfield>
+    <subfield code="b">Sta&#x301;tni&#x301; pedagogicke&#x301; nakl.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">v. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">25 cm.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Irregular</subfield>
+  </datafield>
+  <datafield tag="362" ind1="1" ind2=" ">
+    <subfield code="a">Began with 1 in 1960.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also issued online.</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">Chiefly in Czech; some articles in English, French, German, Polish, or Russian; summaries in Czech, English, French, German, and/or Russian.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on: 50, published in 1984.</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">SERBIB/SERLOC merged record</subfield>
+  </datafield>
+  <datafield tag="592" ind1=" " ind2=" ">
+    <subfield code="a">ACQN: aq 96004188</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Philology.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Univerzita Palacke&#x301;ho v Olomouci.</subfield>
+    <subfield code="b">Filozoficka&#x301; fakulta.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="t">Acta Universitatis Palackianae Olomucensis. Philologica</subfield>
+    <subfield code="w">(OCoLC)608181330</subfield>
+  </datafield>
+  <datafield tag="780" ind1="0" ind2="0">
+    <subfield code="t">Sborni&#x301;k Vysoke&#x301; s&#x30C;koly pedagogicke&#x301; v Olomouci. Jazyk a literatura</subfield>
+    <subfield code="w">(DLC)   64031466</subfield>
+    <subfield code="w">(OCoLC)5419041</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="a">MnU</subfield>
+    <subfield code="a">NcD</subfield>
+    <subfield code="a">ViU</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="x">universal pattern</subfield>
+  </datafield>
+  <datafield tag="853" ind1="2" ind2="0">
+    <subfield code="8">1</subfield>
+    <subfield code="a">no.</subfield>
+    <subfield code="i">(year)</subfield>
+    <subfield code="w">x</subfield>
+  </datafield>
+  <datafield tag="863" ind1="4" ind2="1">
+    <subfield code="8">1.1</subfield>
+    <subfield code="a">&lt;31&gt;</subfield>
+    <subfield code="i">&lt;1972&gt;</subfield>
+  </datafield>
+  <datafield tag="890" ind1=" " ind2=" ">
+    <subfield code="a">Olomouc, Moravia. Palacke&#x301;ho universita. Filosoficka&#x301; fakulta.  Philologica.</subfield>
+    <subfield code="i">sv88-86835</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">Keep 1</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015071</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">1-5 * 1960 -61</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00002605557</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">12 * 1965</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030014923</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">15 * 1965</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030014881</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">16 * 1965</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015125</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">17 * 1965</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015083</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">19 * 1965</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015046</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">23 * 1967</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015216</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">26 * 1968</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015174</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">27 * 1971</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015137</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">28 * 1969</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015332</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">29 * 1971</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030014807</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">3 * 1960</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015290</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">30 * 1971</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015253</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">30 * 1971</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015411</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">31 * 1972</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">0003001537A</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">32 * 1972 -73</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015459</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">34 * 1973</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015496</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">35 * 1973</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015186</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">36 * 1974</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015149</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">37 * 1975</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015228</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">38 * 1973</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015307</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">39 * 1976</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015265</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">40 * 1977</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015344</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">42 * 1978</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015381</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">43 * 1979</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015460</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">44 * 1980</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015502</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">45 * 1980</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015423</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">46:2 * 1982</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015150</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">48 * 1983</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015198</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">50 * 1984</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015277</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">51 * 1985</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">0003001523A</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">53 * 1985</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015356</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">54:6 * 1986</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015435</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">55:4 * 1987</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015319</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">59:5 * 1989</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030014844</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">6 * 1962</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015393</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">60:7 * 1989</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015514</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">62 * 1991</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015472</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">66:8 * 1993</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030014765</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">7 * 1962</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030014960</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">7 * 1990</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">P19</subfield>
+    <subfield code="i">.O522</subfield>
+    <subfield code="p">00030015009</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">8--11 * 1962 -65</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-Ser</subfield>
+    <subfield code="w">ACQUIRE</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">EMPTY</subfield>
+    <subfield code="w">ACQUIRE</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">call x7-5305</subfield>
+    <subfield code="w">SERLOC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11158170</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

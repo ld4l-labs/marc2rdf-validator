@@ -8,6 +8,8 @@ group :development do
   gem 'yard' # for documentation
   gem 'rubocop'
   gem 'rubocop-rspec'
+  # Use faraday for making HTTP requests
+  gem 'faraday'
 end
 
 # To use a debugger

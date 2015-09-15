@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03125cam a2200625 a 4500</leader>
+  <controlfield tag="001">5217778</controlfield>
+  <controlfield tag="005">20130430133402.0</controlfield>
+  <controlfield tag="008">930902r19921683cc ab         000 0 chi d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-rlinjack</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   93120144 </subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">7501309140</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CStRLIN)DCLP93-B14905</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">HNK</subfield>
+    <subfield code="c">HNK</subfield>
+    <subfield code="d">CStRLIN</subfield>
+    <subfield code="d">MiU-A</subfield>
+    <subfield code="d">DLC-R</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">DS793.J785</subfield>
+    <subfield code="b">J85 1992</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">$1</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">951/.222</subfield>
+    <subfield code="2">20</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Ruijin xian zhi.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">130-01/$1</subfield>
+    <subfield code="a">&#x745E;&#x91D1;&#x7E23;&#x5FD7;.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">(Kangxi) Ruijin xian zhi /</subfield>
+    <subfield code="c">[Zhu Weigao xiu ; Yang Changshi zuan].  (Kangxi) Xu xiu Ruijin xian zhi / [Guo Yihao xiu ; Zhu Yunying, Xie Chongba zuan].  (Kangxi) Shangyou xian zhi / [Zhang Zhen'e zuan xiu].</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/$1</subfield>
+    <subfield code="a">(&#x5EB7;&#x7199;) &#x745E;&#x91D1;&#x7E23;&#x5FD7; /</subfield>
+    <subfield code="c">[&#x6731;&#x7DAD;&#x9AD8;&#x4FEE; ; &#x694A;&#x9577;&#x4E16;&#x7E82;].  (&#x5EB7;&#x7199;) &#x7E8C;&#x4FEE;&#x745E;&#x91D1;&#x7E23;&#x5FD7; / [&#x90ED;&#x4E00;&#x8C6A;&#x4FEE; ; &#x6731;&#x96F2;&#x6620;, &#x8B1D;&#x91CD;&#x62D4;&#x7E82;]. (&#x5EB7;&#x7199;) &#x4E0A;&#x7336;&#x7E23;&#x5FD7; / [&#x7AE0;&#x632F;&#x843C;&#x7E82;&#x4FEE;].</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">Beijing di 1 ban.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">250-03/$1</subfield>
+    <subfield code="a">&#x5317;&#x4EAC;&#x7B2C;1&#x7248;.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">Beijing :</subfield>
+    <subfield code="b">Shu mu wen xian chu ban she :</subfield>
+    <subfield code="b">Xin hua shu dian Beijing fa xing suo fa xing,</subfield>
+    <subfield code="c">1992.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-04/$1</subfield>
+    <subfield code="a">&#x5317;&#x4EAC; :</subfield>
+    <subfield code="b">&#x66F8;&#x76EE;&#x6587;&#x737B;&#x51FA;&#x7248;&#x793E; :</subfield>
+    <subfield code="b">&#x65B0;&#x83EF;&#x66F8;&#x5E97;&#x5317;&#x4EAC;&#x53D1;&#x884C;&#x6240;&#x53D1;&#x884C;,</subfield>
+    <subfield code="c">1992.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">374 p. :</subfield>
+    <subfield code="b">ill., maps ;</subfield>
+    <subfield code="c">27 cm.</subfield>
+  </datafield>
+  <datafield tag="440" ind1=" " ind2="0">
+    <subfield code="6">880-05</subfield>
+    <subfield code="a">Riben cang Zhongguo han jian di fang zhi cong kan</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2="0">
+    <subfield code="6">440-05/$1</subfield>
+    <subfield code="a">&#x65E5;&#x672C;&#x85CF;&#x4E2D;&#x570B;&#x7F55;&#x898B;&#x5730;&#x65B9;&#x5FD7;&#x53E2;&#x520A;</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">First work originally published: 1683. 2nd work originally published: 1710. 3rd work originally published: 1697.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Each page represents 2 leaves of the original.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="6">880-06</subfield>
+    <subfield code="a">Ruijin Xian (China)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2="0">
+    <subfield code="6">651-06/$1</subfield>
+    <subfield code="a">&#x745E;&#x91D1;&#x7E23; (China)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="6">880-07</subfield>
+    <subfield code="a">Shangyou Xian (China)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2="0">
+    <subfield code="6">651-07/$1</subfield>
+    <subfield code="a">&#x4E0A;&#x7336;&#x7E23; (China)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="6">880-08</subfield>
+    <subfield code="a">Zhu, Weigao,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">700-08/$1</subfield>
+    <subfield code="a">&#x6731;&#x7DAD;&#x9AD8;,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="6">880-09</subfield>
+    <subfield code="a">Yang, Changshi,</subfield>
+    <subfield code="d">active 17th century.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">700-09/$1</subfield>
+    <subfield code="a">&#x694A;&#x9577;&#x4E16;,</subfield>
+    <subfield code="d">active 17th century.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="6">880-10</subfield>
+    <subfield code="a">Guo, Yihao,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">700-10/$1</subfield>
+    <subfield code="a">&#x90ED;&#x4E00;&#x8C6A;,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="6">880-11</subfield>
+    <subfield code="a">Zhu, Yunying,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">700-11/$1</subfield>
+    <subfield code="a">&#x6731;&#x96F2;&#x6620;,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="6">880-12</subfield>
+    <subfield code="a">Xie, Chongba,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">700-12/$1</subfield>
+    <subfield code="a">&#x8B1D;&#x91CD;&#x62D4;,</subfield>
+    <subfield code="d">active 17th century-18th century.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="6">880-13</subfield>
+    <subfield code="a">Zhang, Zhen'e,</subfield>
+    <subfield code="d">jin shi 1685.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">700-13/$1</subfield>
+    <subfield code="a">&#x7AE0;&#x632F;&#x843C;,</subfield>
+    <subfield code="d">jin shi 1685.</subfield>
+  </datafield>
+  <datafield tag="730" ind1="0" ind2="2">
+    <subfield code="6">880-14</subfield>
+    <subfield code="a">Xu xiu Ruijin xian zhi.</subfield>
+    <subfield code="f">1992.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2="2">
+    <subfield code="6">730-14/$1</subfield>
+    <subfield code="a">&#x7E8C;&#x4FEE;&#x745E;&#x91D1;&#x7E23;&#x5FD7;.</subfield>
+    <subfield code="f">1992.</subfield>
+  </datafield>
+  <datafield tag="730" ind1="0" ind2="2">
+    <subfield code="6">880-15</subfield>
+    <subfield code="a">Shangyou xian zhi.</subfield>
+    <subfield code="f">1992.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2="2">
+    <subfield code="6">730-15/$1</subfield>
+    <subfield code="a">&#x4E0A;&#x7336;&#x7E23;&#x5FD7;.</subfield>
+    <subfield code="f">1992.</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2=" ">
+    <subfield code="6">880-16</subfield>
+    <subfield code="a">(Kangxi) Xu xiu Ruijin xian zhi.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">740-16/$1</subfield>
+    <subfield code="a">(&#x5EB7;&#x7199;)&#x3000;&#x7E8C;&#x4FEE;&#x745E;&#x91D1;&#x7E23;&#x5FD7;.</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2=" ">
+    <subfield code="6">880-17</subfield>
+    <subfield code="a">(Kangxi) Shangyou xian zhi.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">740-17/$1</subfield>
+    <subfield code="a">(&#x5EB7;&#x7199;)&#x3000;&#x4E0A;&#x7336;&#x7E23;&#x5FD7;.</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">spacingreload</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5217778</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

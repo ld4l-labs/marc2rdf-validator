@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02045cam a22002894a 4500</leader>
+  <controlfield tag="001">13428604</controlfield>
+  <controlfield tag="005">20040617133553.0</controlfield>
+  <controlfield tag="008">031208s2005    njua          001 0 eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">1</subfield>
+    <subfield code="e">ecip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">sj02 2003-12-08</subfield>
+    <subfield code="c">sj02 2003-12-08;</subfield>
+    <subfield code="d">sj07 2003-12-09</subfield>
+    <subfield code="e">sj05 2003-12-09 to Dewey;</subfield>
+    <subfield code="a">aa11 2003-12-09</subfield>
+    <subfield code="a">ps12 2004-06-14 1 copy rec'd., to CIP ver.;</subfield>
+    <subfield code="f">sj04 2004-06-17;</subfield>
+    <subfield code="g">sj04 2004-06-17 to BCCD</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2003026721</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">013117360X</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us-ca</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">LB1573</subfield>
+    <subfield code="b">.Z315 2005</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">372.48/2/09794</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Zarrillo, James.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Ready for RICA :</subfield>
+    <subfield code="b">a test preparation guide for California's Reading Instruction Competence Assessment /</subfield>
+    <subfield code="c">James J. Zarrillo.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">2nd ed.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Upper Saddle River, N.J. :</subfield>
+    <subfield code="b">Pearson/Merrill/Prentice Hall,</subfield>
+    <subfield code="c">c2005.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xviii, 155 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes index.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Introduction : the test and test-taking strategies -- Content area 1 : conducting ongoing assessment of reading development -- Content area 2 : planning, organizing, and managing reading instruction -- Content area 3 : phonemic awareness -- Content area 4 : concepts about print -- Content area 5 : systematic, explicit phonics and other word identification strategies -- Content area 6 : spelling instruction -- Content area 7 : reading comprehension -- Content area 8 : literary response and analysis -- Content area 9 : content-area literacy -- Content area 10 : student independent reading -- Content area 11 : supporting reading through oral and written language development -- Content area 12 : vocabulary development -- Content area 13 : structure of the English language -- The case study -- Sample RICA examination -- Answers to the sample examination.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Reading (Elementary)</subfield>
+    <subfield code="z">California</subfield>
+    <subfield code="x">Examinations</subfield>
+    <subfield code="v">Study guides.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="3">Table of contents</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/toc/ecip0412/2003026721.html</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13428604</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

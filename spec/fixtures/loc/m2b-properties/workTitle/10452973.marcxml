@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01081cam a2200265 i 4500</leader>
+  <controlfield tag="001">10452973</controlfield>
+  <controlfield tag="005">20140305154731.0</controlfield>
+  <controlfield tag="008">851209s1869    ru            000 0 rus  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">premver</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   78413632 </subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   78413632</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">CarP</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">e-ur---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">BS2565.A4</subfield>
+    <subfield code="b">R85 1869</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">Bible.</subfield>
+    <subfield code="p">Gospels.</subfield>
+    <subfield code="k">Selections.</subfield>
+    <subfield code="l">Russian.</subfield>
+    <subfield code="f">1869.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Voskresnoe i prazdnichnoe chteni&#x304;e iz Evangelistov :</subfield>
+    <subfield code="b">dli&#xFE20;a&#xFE21; Rimsko-Katolikov.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Vil&#x2B9;na :</subfield>
+    <subfield code="b">Pechatni&#xFE20;a&#xFE21; A.G. Syrkina,</subfield>
+    <subfield code="c">1869.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">204 p. ;</subfield>
+    <subfield code="c">15 cm.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Romanized.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">LC copy has the bookplate of Alexander III; his monogram gold stamped on spine. A calligraphic stamp on t.p.: Alek&#xFE20;s&#xFE21;andra.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="630" ind1="0" ind2="0">
+    <subfield code="a">Bible.</subfield>
+    <subfield code="p">Gospels</subfield>
+    <subfield code="x">Liturgical lessons, Russian.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Russian Imperial Collection (Library of Congress)</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2="2">
+    <subfield code="a">Dli&#xFE20;a&#xFE21; Rimsko-Katolikov.</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">rarebk/ric</subfield>
+    <subfield code="e">rbc</subfield>
+    <subfield code="f">qr04</subfield>
+    <subfield code="g">enh</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-RareBook</subfield>
+    <subfield code="h">BS2565.A4</subfield>
+    <subfield code="i">R85 1869</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="m">Russian Imperial Coll</subfield>
+    <subfield code="w">PREM</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=10452973</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

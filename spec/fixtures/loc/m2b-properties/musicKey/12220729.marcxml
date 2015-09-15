@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01365cjm a22003494a 4500</leader>
+  <controlfield tag="001">12220729</controlfield>
+  <controlfield tag="005">20130524121048.0</controlfield>
+  <controlfield tag="007">sd|dmsennmslub</controlfield>
+  <controlfield tag="008">001102s194u    nyucon   z               </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">4</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-genmusic</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">vk03 11-02-00</subfield>
+    <subfield code="e">vk03 2002-06-05 added copy 3 to MBRS</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   00724815 </subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="2">
+    <subfield code="a">X-182</subfield>
+    <subfield code="b">Columbia (set : manual sequence)</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="0">
+    <subfield code="a">11440-D</subfield>
+    <subfield code="b">Columbia</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="0">
+    <subfield code="a">11441-D</subfield>
+    <subfield code="b">Columbia</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="0">
+    <subfield code="a">MX 182</subfield>
+    <subfield code="b">Columbia Masterworks (set : automatic sequence)</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">RDA 00533-00534</subfield>
+  </datafield>
+  <datafield tag="051" ind1=" " ind2=" ">
+    <subfield code="a">RDA 04321-04322</subfield>
+    <subfield code="c">Automatic sequence.</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Saint-Sae&#x308;ns, Camille,</subfield>
+    <subfield code="d">1835-1921.</subfield>
+  </datafield>
+  <datafield tag="240" ind1="1" ind2="0">
+    <subfield code="a">Concertos,</subfield>
+    <subfield code="m">cello, orchestra,</subfield>
+    <subfield code="n">no. 1, op. 33,</subfield>
+    <subfield code="r">A minor</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">'Cello concerto no. 1 in A minor, op. 33</subfield>
+    <subfield code="h">[sound recording] /</subfield>
+    <subfield code="c">Saint-Sae&#x308;ns.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[New York] :</subfield>
+    <subfield code="b">Columbia,</subfield>
+    <subfield code="c">[194-?]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">2 sound discs :</subfield>
+    <subfield code="b">analog, 78 rpm ;</subfield>
+    <subfield code="c">12 in.</subfield>
+  </datafield>
+  <datafield tag="511" ind1="0" ind2=" ">
+    <subfield code="a">Gregor Piatigorsky, violoncello ; Chicago Symphony Orchestra ; Frederick Stock, conductor.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Notes on and inserted in jacket.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Concertos (Cello)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Piatigorsky, Gregor,</subfield>
+    <subfield code="d">1903-1976.</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Stock, Frederick,</subfield>
+    <subfield code="d">1872-1942.</subfield>
+    <subfield code="4">cnd</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Chicago Symphony Orchestra.</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=12220729</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

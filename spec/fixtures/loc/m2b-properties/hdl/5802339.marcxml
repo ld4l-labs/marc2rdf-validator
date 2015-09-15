@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>06411cpcaa2201021 i 4500</leader>
+  <controlfield tag="001">5802339</controlfield>
+  <controlfield tag="005">20150810144829.0</controlfield>
+  <controlfield tag="007">cr |||||||||||</controlfield>
+  <controlfield tag="008">780918||||||||||||                 eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-manuscri</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">mm 78030189 </subfield>
+    <subfield code="b">ms 59000183 </subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)mm 78030189</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="e">dacs</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="072" ind1=" " ind2="7">
+    <subfield code="a">W</subfield>
+    <subfield code="2">lcmd</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">0623O</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">Oversize 0623O</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">Oversize 1:11</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">Vault C</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="b">Microfilm 5,075-1N</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="b">Microfilm 12,005-97N; 12,088-97P</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Lincoln, Abraham,</subfield>
+    <subfield code="d">1809-1865.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Abraham Lincoln papers,</subfield>
+    <subfield code="f">1774-1948.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">40,550</subfield>
+    <subfield code="f">items.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">221</subfield>
+    <subfield code="f">containers plus</subfield>
+    <subfield code="a">11</subfield>
+    <subfield code="f">oversize.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">98</subfield>
+    <subfield code="f">microfilm reels.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">48</subfield>
+    <subfield code="f">linear feet.</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="a">Arranged in five series.  Series 1: General Correspondence and Related Documents, 1833-1916; Series 2: Additional Correspondence, 1858-1865; Series 3: Miscellaneous, 1837-1897; Series 4: Addenda, 1774-1948; and Series 5: Oversize, 1776-1865.</subfield>
+  </datafield>
+  <datafield tag="506" ind1="0" ind2=" ">
+    <subfield code="a">Open to research.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="8" ind2=" ">
+    <subfield code="a">Correspondence and other papers relating primarily to Abraham Lincoln's presidency and the Civil War.  Includes two drafts of the Gettysburg address, material preserved by John G. Nicolay in his capacities as Lincoln's secretary and editor of the Complete Works of Abraham Lincoln (1905), a letter of condolence from Queen Victoria to Mary Todd Lincoln, and a small amount of material about Lincoln dated after 1865.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="8" ind2=" ">
+    <subfield code="a">Correspondents include Nathaniel Prentiss Banks, Edward Bates, Montgomery Blair, Benjamin Harris Brewster, Salmon P. Chase, Schuyler Colfax, David Davis, Ulysses S. Grant, John Hay, Andrew Johnson, Reverdy Johnson, George Brinton McClellan, George Gordon Meade, Edwin D. Morgan, John G. Nicolay, William S. Rosecrans, William Henry Seward, Horatio Seymour, Caleb B. Smith, James Speed, Edwin McMasters Stanton, Charles Sumner, Lyman Trumbull, Lew Wallace, E.B. Washburne, and Gideon Welles.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Abraham Lincoln Papers at the Library of Congress : Series 1-3 available through the Library of Congress Web site at</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.mss/collmss.ms000005</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Microfilm edition (J.F. Alexander) available,</subfield>
+    <subfield code="d">no. 5,075 (1N).</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Microfilm edition of Series 1-3 available,</subfield>
+    <subfield code="d">no. 12,005-97N (no. 12,088-97P; 2nd copy: no. 12,088.1-97P).</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Microfilm produced from originals in the Manuscript Division.</subfield>
+    <subfield code="b">Washington, D.C. :</subfield>
+    <subfield code="c">Library of Congress Photoduplication Service,</subfield>
+    <subfield code="d">1960.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="c">Gift,</subfield>
+    <subfield code="a">Robert Todd Lincoln,</subfield>
+    <subfield code="d">1923.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="c">Gift,</subfield>
+    <subfield code="a">Helen Nicolay,</subfield>
+    <subfield code="d">1947.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="c">Other gifts, transfers, deposits, purchases, and reproductions,</subfield>
+    <subfield code="d">1901-2013.</subfield>
+  </datafield>
+  <datafield tag="544" ind1=" " ind2=" ">
+    <subfield code="3">Selected materials</subfield>
+    <subfield code="e">transferred to</subfield>
+    <subfield code="a">appropriate custodial divisions of the Library of Congress.</subfield>
+  </datafield>
+  <datafield tag="545" ind1="0" ind2=" ">
+    <subfield code="a">U.S. president and representative and lawyer from Illinois.</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">Collection material in English.</subfield>
+  </datafield>
+  <datafield tag="555" ind1="8" ind2=" ">
+    <subfield code="a">Finding aid available in the Library of Congress Manuscript Reading Room and at</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.mss/eadmss.ms009304</subfield>
+  </datafield>
+  <datafield tag="555" ind1="8" ind2=" ">
+    <subfield code="a">Index published by the Library of Congress in 1960 available in the Library of Congress Manuscript Reading Room and at</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.gdc/scd0001.20101124004al.2</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">MSS30189</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Banks, Nathaniel Prentiss,</subfield>
+    <subfield code="d">1816-1894</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Bates, Edward,</subfield>
+    <subfield code="d">1793-1869</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Blair, Montgomery,</subfield>
+    <subfield code="d">1813-1883</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Brewster, Benjamin Harris,</subfield>
+    <subfield code="d">1816-1888</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Chase, Salmon P.</subfield>
+    <subfield code="q">(Salmon Portland),</subfield>
+    <subfield code="d">1808-1873</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Colfax, Schuyler,</subfield>
+    <subfield code="d">1823-1885</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Davis, David,</subfield>
+    <subfield code="d">1815-1886</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Grant, Ulysses S.</subfield>
+    <subfield code="q">(Ulysses Simpson),</subfield>
+    <subfield code="d">1822-1885</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Hay, John,</subfield>
+    <subfield code="d">1838-1905</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Johnson, Andrew,</subfield>
+    <subfield code="d">1808-1875</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Johnson, Reverdy,</subfield>
+    <subfield code="d">1796-1876</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Lincoln, Mary Todd,</subfield>
+    <subfield code="d">1818-1882</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">McClellan, George B.</subfield>
+    <subfield code="q">(George Brinton),</subfield>
+    <subfield code="d">1826-1885</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Meade, George Gordon,</subfield>
+    <subfield code="d">1815-1872</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Morgan, Edwin D.</subfield>
+    <subfield code="q">(Edwin Denison),</subfield>
+    <subfield code="d">1811-1883</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Nicolay, John G.</subfield>
+    <subfield code="q">(John George),</subfield>
+    <subfield code="d">1832-1901.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Nicolay, John G.</subfield>
+    <subfield code="q">(John George),</subfield>
+    <subfield code="d">1832-1901</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Rosecrans, William S.</subfield>
+    <subfield code="q">(William Starke),</subfield>
+    <subfield code="d">1819-1898</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Seward, William Henry,</subfield>
+    <subfield code="d">1801-1872</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Seymour, Horatio,</subfield>
+    <subfield code="d">1810-1886</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Smith, Caleb B.</subfield>
+    <subfield code="q">(Caleb Blood),</subfield>
+    <subfield code="d">1808-1864</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Speed, James,</subfield>
+    <subfield code="d">1812-1887</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Stanton, Edwin McMasters,</subfield>
+    <subfield code="d">1814-1869</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Sumner, Charles,</subfield>
+    <subfield code="d">1811-1874</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Trumbull, Lyman,</subfield>
+    <subfield code="d">1813-1896</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="0">
+    <subfield code="a">Victoria,</subfield>
+    <subfield code="c">Queen of Great Britain,</subfield>
+    <subfield code="d">1819-1901</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Wallace, Lew,</subfield>
+    <subfield code="d">1827-1905</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Washburne, E. B.</subfield>
+    <subfield code="q">(Elihu Benjamin),</subfield>
+    <subfield code="d">1816-1887</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Welles, Gideon,</subfield>
+    <subfield code="d">1802-1878</subfield>
+    <subfield code="v">Correspondence.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Civil War, 1861-1865.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Politics and government</subfield>
+    <subfield code="y">1861-1865.</subfield>
+  </datafield>
+  <datafield tag="656" ind1=" " ind2="7">
+    <subfield code="a">Lawyers.</subfield>
+    <subfield code="2">itoamc</subfield>
+  </datafield>
+  <datafield tag="656" ind1=" " ind2="7">
+    <subfield code="a">Presidents</subfield>
+    <subfield code="z">United States.</subfield>
+    <subfield code="2">itoamc</subfield>
+  </datafield>
+  <datafield tag="656" ind1=" " ind2="7">
+    <subfield code="a">Representatives, U.S. Congress</subfield>
+    <subfield code="z">Illinois.</subfield>
+    <subfield code="2">itoamc</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Lincoln, Abraham,</subfield>
+    <subfield code="d">1809-1865.</subfield>
+    <subfield code="t">Gettysburg address.</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2=" ">
+    <subfield code="a">Abraham Lincoln Papers at the Library of Congress</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Library of Congress</subfield>
+    <subfield code="b">Manuscript Division</subfield>
+    <subfield code="e">Washington, D.C. 20540 USA</subfield>
+    <subfield code="n">dcu</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.mss/mss.home</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="3">Abraham Lincoln Papers at the Library of Congress</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.mss/collmss.ms000005</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="3">Finding aid</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.mss/eadmss.ms009304</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="3">Finding aid (PDF)</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.mss/eadmss.ms009304.3</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="3">Index to the Abraham Lincoln papers (PDF)</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.gdc/scd0001.20101124004al.1</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="3">Index to the Abraham Lincoln papers (Page view)</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.gdc/scd0001.20101124004al.2</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">collpull</subfield>
+    <subfield code="e">ammem</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">MSS.</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">mss/ead</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5802339</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

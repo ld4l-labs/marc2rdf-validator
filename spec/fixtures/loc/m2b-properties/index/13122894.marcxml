@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>06754ckc a2200889 a 4500</leader>
+  <controlfield tag="001">13122894</controlfield>
+  <controlfield tag="005">20131127195842.0</controlfield>
+  <controlfield tag="007">kh|boo</controlfield>
+  <controlfield tag="008">030313i18801893tu nnn            knota  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">ibc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-printpho</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2003652945</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">gihc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">a-tu---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Guide Record</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Abdul-Hamid II collection of photographs of the Ottoman Empire</subfield>
+    <subfield code="h">[graphic].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1880-1893.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">51 albums ;</subfield>
+    <subfield code="c">32 x 19 in. or smaller.</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="a">Albums generally arranged by subject. Each album assigned a LOT number and photographs numbered within each LOT.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="0" ind2=" ">
+    <subfield code="a">These photographic albums portray the Ottoman Empire during the reign of one of its last sultans, Abdul-Hamid  II. They highlight the modernization of numerous aspects of the Ottoman Empire. Most of the places depicted are within the boundaries of modern-day Turkey, but buildings and sites in Iraq, Lebanon, Greece and other countries are also included. The images show students and educational facilities, including law, medical and military schools; well-equipped army and navy personnel and facilities; technologically advanced lifesaving and fire fighting brigades; factories; mines; harbors; hospitals; and government buildings. The     collection also documents historic Byzantine and Ottoman monuments, mosques, mosaics, fountains, palaces, and mausoleums, and includes panoramic landscapes and urban scenes. Other photographs depict Abdul Hamid's Yildiz Palace, yacht, and horses.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Well-known Ottoman commercial photographers such as Abdullah Fre&#x300;res, Sebah &amp; Joaillier, and Phe&#x300;bus took the bulk of the photographs. Turkish military photographer Ali R&#x131;za Pasa and the Photographic Unit of the Imperial School of Engineering also contributed numerous images.</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">No known restrictions on publication.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Collection title devised by Library staff.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Albums include four major subject categories: Category I: views, buildings, monuments and antiquities (LOTS 9515, 9516, 9517, 9518, 9523, 9524, 9528, 9529, 9532, 9533, 9534, 9535, 9541, 11907, 11910, 11912, 11913); Category II: military, naval, rescue services and military and industrial facilities (LOTS 9521, 9522, 9536, 9537, 9539, 9540, 9543, 9545, 11905, 11906, 11909, 11911, 11914, 11915, 11917, 11918, 11919); Category III: educational facilities (LOTS 9511, 9512, 9513, 9514, 9519, 9520, 9525, 9526, 9527, 9530, 9531, 9538, 9542, 9544, 11908); and Category IV: horses and imperial stables (LOTS 9546, 11916)</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Photographs are chiefly albumen, some gelatin silver.</subfield>
+  </datafield>
+  <datafield tag="506" ind1=" " ind2=" ">
+    <subfield code="a">Please use digital and print surrogates instead originals, following preservation policy.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Black-and-white copy photographs are also available for reference purposes under LOT call numbers.</subfield>
+  </datafield>
+  <datafield tag="506" ind1=" " ind2=" ">
+    <subfield code="3">Original albums;</subfield>
+    <subfield code="a">Restricted access: Materials extremely fragile;</subfield>
+    <subfield code="c">Served by appointment only.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Digitized images of all items in the collection display with their associated catalog records in the Prints &amp; Photographs Division Online Catalog,</subfield>
+    <subfield code="u">hdl.loc.gov/loc.pnp/pp.ahii</subfield>
+  </datafield>
+  <datafield tag="510" ind1="4" ind2=" ">
+    <subfield code="a">Guide to the Special Collections of Prints &amp; Photographs in the Library of Congress / compiled by Paul Vanderbilt. Washington, D.C. : 1955,</subfield>
+    <subfield code="c">no. 2</subfield>
+  </datafield>
+  <datafield tag="510" ind1="4" ind2=" ">
+    <subfield code="a">Special Collections in the Library of Congress / compiled by Annette Melville. Washington, D.C. : Library of Congress, 1980,</subfield>
+    <subfield code="c">no. 1</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="c">Gift;</subfield>
+    <subfield code="a">Abdu&#x308;lhamid II;</subfield>
+    <subfield code="d">1893-1894.</subfield>
+  </datafield>
+  <datafield tag="555" ind1="8" ind2=" ">
+    <subfield code="a">Collection profile available online</subfield>
+    <subfield code="u">hdl.loc.gov/loc.pnp/pp.ahii</subfield>
+  </datafield>
+  <datafield tag="555" ind1="8" ind2=" ">
+    <subfield code="a">A set of catalog records describing each item is available through the Open Archives Initiative Protocol for Metadata Harvesting. See</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.gdc/lcoa1.about</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">Abdul-Hamid II (1842-1918), an avid collector and promoter of photography, appears to have conceived this collection as a portrait of his empire for a western audience. He presented a copy of the survey to the Library of Congress in 1893 or 1894. He also gave another almost identical collection to the British Museum (now in the British Library).</subfield>
+  </datafield>
+  <datafield tag="581" ind1="8" ind2=" ">
+    <subfield code="a">Imperial self-portrait: The Ottoman Empire as revealed in the Sultan Abdul Hamid II's Photographic Albums. Edited by Carney E.S. Gavin and the Harvard Semitic Museum. Journal of Turkish Studies, v. 12, 1988. [Cambridge, Mass] : Harvard University, 1988.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="4">
+    <subfield code="a">Abdu&#x308;lhamid</subfield>
+    <subfield code="b">II,</subfield>
+    <subfield code="c">Sultan of the Turks,</subfield>
+    <subfield code="d">1842-1918</subfield>
+    <subfield code="x">Associated objects.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Government facilities</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Educational facilities</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Military facilities</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Lifesaving</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Students</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Mosaics</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Fountains</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Tombs &amp; sepulchral monuments</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Horses</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Mosques</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Castles &amp; palaces</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Hospitals</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Ships</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Fire fighting</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Forts &amp; fortifications</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">City walls</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Yachts</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Factories</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Navies</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Military personnel</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Military life</subfield>
+    <subfield code="z">Turkey</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">lctgm</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="4">
+    <subfield code="a">Greece</subfield>
+    <subfield code="y">1880-1900.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="4">
+    <subfield code="a">Middle East</subfield>
+    <subfield code="y">1880-1900.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Turkey</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Ottoman Empire, 1288-1918.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Turkey</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">1878-1909.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="4">
+    <subfield code="a">Bosporus (Turkey)</subfield>
+    <subfield code="y">1880-1900.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="4">
+    <subfield code="a">Istanbul (Turkey)</subfield>
+    <subfield code="y">1880-1900.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="4">
+    <subfield code="a">Bursa (Turkey)</subfield>
+    <subfield code="y">1880-1900.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Cityscapes</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Photograph albums</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Portrait photographs</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Group portraits</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Albumen prints</subfield>
+    <subfield code="y">1880-1900.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Abdu&#x308;lhamid</subfield>
+    <subfield code="b">II,</subfield>
+    <subfield code="c">Sultan of the Turks,</subfield>
+    <subfield code="d">1842-1918</subfield>
+    <subfield code="e">donor.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Abdullah fre&#x300;res,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Sebah &amp; Joaillier,</subfield>
+    <subfield code="e">photographer.</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Library of Congress</subfield>
+    <subfield code="b">Prints and Photographs Division</subfield>
+    <subfield code="e">Washington, D.C. 20540 USA</subfield>
+    <subfield code="n">dcu</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="z">Search for Abdul-Hamid II images in Prints &amp; Photographs Online Catalog</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.ahii</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">pp/guide</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">collpull</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-P&amp;P</subfield>
+    <subfield code="v">obj.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13122894</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

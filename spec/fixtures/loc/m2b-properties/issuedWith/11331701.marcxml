@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02308cas a2200541 a 4500</leader>
+  <controlfield tag="001">11331701</controlfield>
+  <controlfield tag="005">20121213081215.0</controlfield>
+  <controlfield tag="008">790906u1921uuuubl ar p   o   0    0por c</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   87649402 </subfield>
+    <subfield code="z">sf 80000694 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1212124522-p-----    </subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm05345915 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CLU</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">CLU</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">TxU</subfield>
+    <subfield code="d">OCoLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">s-bl---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">BX805</subfield>
+    <subfield code="b">.O7</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">Ordem (Rio de Janeiro, Brazil)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="2">
+    <subfield code="a">A ordem.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Rio de Janeiro :</subfield>
+    <subfield code="b">[Centro Dom Vital]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">v. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">23 cm.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Annual,</subfield>
+    <subfield code="b">&lt;1991-&gt;</subfield>
+  </datafield>
+  <datafield tag="321" ind1=" " ind2=" ">
+    <subfield code="a">Bimonthly,</subfield>
+    <subfield code="b">-Dec. 1936</subfield>
+  </datafield>
+  <datafield tag="321" ind1=" " ind2=" ">
+    <subfield code="a">Monthly,</subfield>
+    <subfield code="b">Jan. 1937-&lt;Apr. 1964&gt;</subfield>
+  </datafield>
+  <datafield tag="321" ind1=" " ind2=" ">
+    <subfield code="a">Four no. a year,</subfield>
+    <subfield code="b">&lt;1979?-&gt;</subfield>
+  </datafield>
+  <datafield tag="362" ind1="1" ind2=" ">
+    <subfield code="a">Began in 1921.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Editor: &lt;July 1936-June 1939&gt;, A.A. Lima (July 1936-May 1937 under pseudonym Trista&#x303;o de Athayde; June 1937, Trista&#x303;o de Ataide).</subfield>
+  </datafield>
+  <datafield tag="515" ind1=" " ind2=" ">
+    <subfield code="a">Some numbers issued in combined form.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also issued on microfilm from the Library of Congress Photoduplication Service.</subfield>
+  </datafield>
+  <datafield tag="580" ind1=" " ind2=" ">
+    <subfield code="a">Issues for Nov. 1937-Aug. 1938 include: Boletim do Instituto Cato&#x301;lico de Cooperac&#x327;a&#x303;o Intelectual, ano 1, num. 1-10.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on: Ano 23, v. 29, n. 1 (jan. 1943).</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Latest issue consulted: Vol. 92, ano 82 (2003).</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">SERBIB/SERLOC merged record</subfield>
+  </datafield>
+  <datafield tag="610" ind1="2" ind2="0">
+    <subfield code="a">Catholic Church</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Theology</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="610" ind1="2" ind2="0">
+    <subfield code="a">Catholic Church</subfield>
+    <subfield code="z">Brazil</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Brazil</subfield>
+    <subfield code="x">Church history</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Lima, Alceu Amoroso,</subfield>
+    <subfield code="d">1893-1983.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Centro Dom Vital.</subfield>
+  </datafield>
+  <datafield tag="730" ind1="0" ind2=" ">
+    <subfield code="a">Boletim do Instituto Cato&#x301;lico de Cooperac&#x327;a&#x303;o Intelectual.</subfield>
+  </datafield>
+  <datafield tag="770" ind1="0" ind2=" ">
+    <subfield code="t">Pensamento da Polo&#x302;nia cato&#x301;lica</subfield>
+    <subfield code="w">(DLC)   87649403</subfield>
+    <subfield code="w">(OCoLC)17278790</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2=" ">
+    <subfield code="c">Microfilm</subfield>
+    <subfield code="d">Library of Congress Photoduplication Service</subfield>
+    <subfield code="w">(DLC)sn 94095215</subfield>
+    <subfield code="w">(OCoLC)33122942</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="t">Ordem (Rio de Janeiro, Brazil)</subfield>
+    <subfield code="w">(OCoLC)656578273</subfield>
+  </datafield>
+  <datafield tag="777" ind1="1" ind2=" ">
+    <subfield code="t">Boletim do Instituto Cato&#x301;lico de Cooperac&#x327;a&#x303;o Intelectual</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="a">OrU</subfield>
+  </datafield>
+  <datafield tag="890" ind1=" " ind2=" ">
+    <subfield code="a">Ordem (Rio de Janeiro, Brazil)</subfield>
+    <subfield code="i">87-649402</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">4</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">Keep 1</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">BX805</subfield>
+    <subfield code="i">.O7</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="992" ind1=" " ind2=" ">
+    <subfield code="b">SER</subfield>
+    <subfield code="w">SERLOC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11331701</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

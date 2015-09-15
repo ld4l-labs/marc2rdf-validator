@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01944cas a2200433 a 4500</leader>
+  <controlfield tag="001">17125262</controlfield>
+  <controlfield tag="005">20120313155919.0</controlfield>
+  <controlfield tag="008">880629d18941895ru mr p       0    0rus d</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2012214517</subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1201180328-p-----</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn234342892</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">MH</subfield>
+    <subfield code="c">MH</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">e-ur---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">NX6</subfield>
+    <subfield code="b">.T44</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">(N</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">Artist (Moscow, Russia)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Artist.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">Moskva :</subfield>
+    <subfield code="b">I.N. Kushnerev,</subfield>
+    <subfield code="c">1894-1895.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">14 v. :</subfield>
+    <subfield code="b">ill., music ;</subfield>
+    <subfield code="c">28-30 cm.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Monthly</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">No 33 (i&#xFE20;a&#xFE21;nv. 1894 g.)-no 46 (fevr. 1895 g.).</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">"Zhurnal izi&#xFE20;a&#xFE21;shchnykh iskusstv i literatury."</subfield>
+  </datafield>
+  <datafield tag="515" ind1=" " ind2=" ">
+    <subfield code="a">No 33 (1894)-no 46 (1895) called also g. 6.-g. 7.</subfield>
+  </datafield>
+  <datafield tag="525" ind1=" " ind2=" ">
+    <subfield code="a">All nos. contain supplements.</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="3">no 37 (1894, May), no 44 (1894, Dec.)</subfield>
+    <subfield code="a">LC copies have Yudin accession no. 104837 1907.</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Arts</subfield>
+    <subfield code="z">Russia</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Arts</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="3">no 37 (1894, May), no 44 (1894, Dec.)</subfield>
+    <subfield code="a">Yudin Collection (Library of Congress)</subfield>
+    <subfield code="5">DLC</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version</subfield>
+    <subfield code="t">Artist (Moscow, R.S.F.S.R.)</subfield>
+    <subfield code="w">(OCoLC)665183639</subfield>
+  </datafield>
+  <datafield tag="780" ind1="0" ind2="0">
+    <subfield code="6">880-04</subfield>
+    <subfield code="t">Teatral&#x2B9;nyi&#x306;, muzykal&#x2B9;nyi&#x306; i khudozhestvennyi&#x306; zhurnal "Artist"</subfield>
+    <subfield code="w">(DLC)  2012214516</subfield>
+    <subfield code="w">(OCoLC)773195122</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-01/(N</subfield>
+    <subfield code="a">&#x410;&#x440;&#x442;&#x438;&#x441;&#x442;&#x44A;.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-02/(N</subfield>
+    <subfield code="a">&#x41C;&#x43E;&#x441;&#x43A;&#x432;&#x430; :</subfield>
+    <subfield code="b">&#x418;.&#x41D;. &#x41A;&#x443;&#x448;&#x43D;&#x435;&#x440;&#x435;&#x432;&#x44A;,</subfield>
+    <subfield code="c">1894-1895.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">500-03/(N</subfield>
+    <subfield code="a">"&#x416;&#x443;&#x440;&#x43D;&#x430;&#x43B;&#x44A; &#x438;&#x437;&#x44F;&#x449;&#x43D;&#x44B;&#x445;&#x44A; &#x438;&#x441;&#x43A;&#x443;&#x441;&#x441;&#x442;&#x432;&#x44A; &#x438; &#x43B;&#x438;&#x442;&#x435;&#x440;&#x430;&#x442;&#x443;&#x440;&#x44B;."</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2="0">
+    <subfield code="6">780-04/(N</subfield>
+    <subfield code="t">&#x422;&#x435;&#x430;&#x442;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;, &#x43C;&#x443;&#x437;&#x44B;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x438; &#x445;&#x443;&#x434;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x436;&#x443;&#x440;&#x43D;&#x430;&#x43B;&#x44A; "&#x410;&#x440;&#x442;&#x438;&#x441;&#x442;&#x44A;"</subfield>
+    <subfield code="w">(DLC)  2012214516</subfield>
+    <subfield code="w">(OCoLC)773195122</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serasst</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">Acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default 2012-01-18</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">fe00 2012-01-18</subfield>
+    <subfield code="i">fe04 2012-01-18 (EurRR uncataloged serials) to BCCD</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=17125262</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

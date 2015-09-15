@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01964cam a2200421 a 4500</leader>
+  <controlfield tag="001">16763577</controlfield>
+  <controlfield tag="005">20110520142756.0</controlfield>
+  <controlfield tag="008">110505s2010    cc a     b    000 0 chi d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">copycat</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-nonroman</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="b">cc14 2011-05-05 z-processor</subfield>
+    <subfield code="c">cc14 2011-05-05 to MUSIC</subfield>
+    <subfield code="a">vl00 2011-05-15</subfield>
+    <subfield code="d">vl27 2011-05-20 (telework) to BCCD</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2010426798</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9787010085906</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn611873265</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CNPIT</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">CNPIT</subfield>
+    <subfield code="d">HUA</subfield>
+    <subfield code="d">BCBTC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">a-cc---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">ML336</subfield>
+    <subfield code="b">.C475 2010</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">$1</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Chen, Wannai.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">100-01/$1</subfield>
+    <subfield code="a">&#x9648;&#x4E07;&#x9F10;.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">"Qing shi gao, yue zhi" yan jiu /</subfield>
+    <subfield code="c">Chen Wannai zhu.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/$1</subfield>
+    <subfield code="a">&#x300A;&#x6E05;&#x53F2;&#x7A3F;&#x30FB;&#x4E50;&#x5FD7;&#x300B;&#x7814;&#x7A76; /</subfield>
+    <subfield code="c">&#x9648;&#x4E07;&#x9F10;&#x8457;.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2=" ">
+    <subfield code="i">Colophon title also in pinyin:</subfield>
+    <subfield code="a">Qingshigao yuezhi yanjiu</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">Di 1 ban.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">250-03/$1</subfield>
+    <subfield code="a">&#x7B2C; 1 &#x7248;.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">Beijing :</subfield>
+    <subfield code="b">Ren min chu ban she,</subfield>
+    <subfield code="c">2010.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-04/$1</subfield>
+    <subfield code="a">&#x5317;&#x4EAC; :</subfield>
+    <subfield code="b">&#x4EBA;&#x6C11;&#x51FA;&#x7248;&#x793E;,</subfield>
+    <subfield code="c">2010.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">4, 14, 12, 489 p. :</subfield>
+    <subfield code="b">ill. ;</subfield>
+    <subfield code="c">21 cm.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="0" ind2=" ">
+    <subfield code="6">880-05</subfield>
+    <subfield code="a">Guo jia Qing shi bian zuan wei yuan hui yan jiu cong kan</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">490-05/$1</subfield>
+    <subfield code="a">&#x56FD;&#x5BB6;&#x6E05;&#x53F2;&#x7F16;&#x7E82;&#x59D4;&#x5458;&#x4F1A;&#x7814;&#x7A76;&#x4E1B;&#x520A;</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Music</subfield>
+    <subfield code="z">China</subfield>
+    <subfield code="x">History and criticism.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">China</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Qing dynasty, 1644-1912.</subfield>
+  </datafield>
+  <datafield tag="730" ind1="0" ind2="2">
+    <subfield code="6">880-06</subfield>
+    <subfield code="a">Qing shi gao.</subfield>
+    <subfield code="t">Yue zhi.</subfield>
+    <subfield code="k">Selections.</subfield>
+    <subfield code="f">2010.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2="2">
+    <subfield code="6">730-06/$1</subfield>
+    <subfield code="a">&#x6E05;&#x53F2;&#x7A3F;.</subfield>
+    <subfield code="t">&#x6E05;&#x53F2;&#x7A3F;&#x4E50;&#x5FD7;.</subfield>
+    <subfield code="k">Selections.</subfield>
+    <subfield code="f">2010.</subfield>
+  </datafield>
+  <datafield tag="923" ind1=" " ind2=" ">
+    <subfield code="s">CNP</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">520-00/$1</subfield>
+    <subfield code="a">&#x300A;&#x6E05;&#x53F2;&#x7A3F;&#x300B;&#x662F;&#x7814;&#x7A76;&#x6211;&#x56FD;&#x6709;&#x5173;&#x6E05;&#x4EE3;&#x5386;&#x53F2;&#x7684;&#x4E00;&#x90E8;&#x91CD;&#x8981;&#x53F2;&#x6599;, &#x672C;&#x6587;&#x9009;&#x53D6;&#x5176;&#x4E2D;&#x7684;&#x300A;&#x4E50;&#x5FD7;&#x300B;&#x90E8;&#x5206;, &#x7740;&#x91CD;&#x4ECE;&#x8BBE;&#x7F6E;&#x4E0E;&#x7F16;&#x6B21;&#x3001;&#x7ED3;&#x6784;&#x4E0E;&#x5185;&#x5BB9;&#x4EE5;&#x53CA;&#x97F3;&#x4E50;&#x53F2;&#x5B66;&#x610F;&#x4E49;&#x4E09;&#x4E2A;&#x65B9;&#x9762;&#x8FDB;&#x884C;&#x4E86;&#x5206;&#x6790;, &#x8FDB;&#x800C;&#x5BF9;&#x300A;&#x6E05;&#x53F2;&#x7A3F;[MARC+A8]&#x4E50;&#x5FD7;&#x300B;&#x5728;&#x97F3;&#x4E50;&#x53F2;&#x7814;&#x7A76;&#x4E2D;&#x7684;&#x5730;&#x4F4D;&#x548C;&#x4EF7;&#x503C;&#x505A;&#x51FA;&#x4E86;&#x8BC4;&#x4EF7;.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=16763577</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>09110cas a2201645 a 4500</leader>
+  <controlfield tag="001">11134216</controlfield>
+  <controlfield tag="005">20130620075454.0</controlfield>
+  <controlfield tag="007">cr un|</controlfield>
+  <controlfield tag="008">750726c18909999paubr p       0   a0eng c</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   06019013 </subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1306191785-p-----    </subfield>
+  </datafield>
+  <datafield tag="015" ind1=" " ind2=" ">
+    <subfield code="a">010002723</subfield>
+    <subfield code="2">dnb</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">010002723</subfield>
+    <subfield code="2">DE-101</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">328-1</subfield>
+    <subfield code="2">DE-600</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">7505202</subfield>
+    <subfield code="2">DNLM</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">A34665000</subfield>
+    <subfield code="2">DNLM</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">001731895</subfield>
+    <subfield code="2">IsJJNL</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">009833730</subfield>
+    <subfield code="2">Uk</subfield>
+  </datafield>
+  <datafield tag="022" ind1="0" ind2=" ">
+    <subfield code="a">0002-7162</subfield>
+    <subfield code="l">0002-7162</subfield>
+    <subfield code="2">1</subfield>
+  </datafield>
+  <datafield tag="030" ind1=" " ind2=" ">
+    <subfield code="z">AAYPA</subfield>
+  </datafield>
+  <datafield tag="032" ind1=" " ind2=" ">
+    <subfield code="a">026060</subfield>
+    <subfield code="b">USPS</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm01479265 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">MnMULS</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">MnMULS</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">NcU-H</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">MH</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">DNAL</subfield>
+    <subfield code="d">AIP</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">InU</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">N</subfield>
+    <subfield code="d">NST</subfield>
+    <subfield code="d">MH</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">InU</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">DNLM</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">MiU</subfield>
+    <subfield code="d">CU-S</subfield>
+    <subfield code="d">MCM</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">MCM</subfield>
+    <subfield code="d">InU</subfield>
+    <subfield code="d">NLGGC</subfield>
+    <subfield code="d">CaQQL</subfield>
+    <subfield code="d">NYDWH</subfield>
+    <subfield code="d">CaQMUQ</subfield>
+    <subfield code="d">ZP2</subfield>
+    <subfield code="d">KRTAS</subfield>
+    <subfield code="d">AMAZN</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">J9U</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">GBVCP</subfield>
+    <subfield code="d">UKMGB</subfield>
+    <subfield code="d">OCoLC</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">OCoLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">nsdp</subfield>
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">H1</subfield>
+    <subfield code="b">.A4</subfield>
+  </datafield>
+  <datafield tag="051" ind1=" " ind2=" ">
+    <subfield code="c">2d set</subfield>
+  </datafield>
+  <datafield tag="060" ind1="0" ind2="0">
+    <subfield code="a">W1</subfield>
+    <subfield code="b">AN626K</subfield>
+  </datafield>
+  <datafield tag="070" ind1="0" ind2=" ">
+    <subfield code="a">280.9</subfield>
+    <subfield code="b">Am34</subfield>
+  </datafield>
+  <datafield tag="072" ind1=" " ind2="0">
+    <subfield code="a">X800</subfield>
+  </datafield>
+  <datafield tag="082" ind1="1" ind2="0">
+    <subfield code="a">300</subfield>
+    <subfield code="2">11</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">320</subfield>
+  </datafield>
+  <datafield tag="210" ind1="0" ind2=" ">
+    <subfield code="a">Ann. Am. Acad. Polit. Soc. Sci.</subfield>
+  </datafield>
+  <datafield tag="222" ind1=" " ind2="4">
+    <subfield code="a">The Annals of the American Academy of Political and Social Science</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Annals of the American Academy of Political and Social Science.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Philadelphia :</subfield>
+    <subfield code="b">Published by A.L. Hummel for the American Academy of Political and Social Science.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">volumes :</subfield>
+    <subfield code="b">illustrations, maps ;</subfield>
+    <subfield code="c">24-26 cm</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Bimonthly,</subfield>
+    <subfield code="b">July 1891-</subfield>
+  </datafield>
+  <datafield tag="321" ind1=" " ind2=" ">
+    <subfield code="a">Quarterly,</subfield>
+    <subfield code="b">1890-Apr. 1891</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="362" ind1="1" ind2=" ">
+    <subfield code="a">Began with: Vol. 1 (July 1890-June 1891).</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Some issues have also distinctive titles.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Publisher varies.</subfield>
+  </datafield>
+  <datafield tag="525" ind1=" " ind2=" ">
+    <subfield code="a">Numerous supplements.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also issued online.</subfield>
+  </datafield>
+  <datafield tag="555" ind1=" " ind2=" ">
+    <subfield code="a">Vols. 1 (1890)-63 (Jan. 1916) issued as suppl. to Mar. 1916. 1 v.; Vols. 64 (Mar. 1916)-96 (July 1921). 1 v.; Vols. 97 (Sept. 1921)-126 (July 1926). 1 v.; Vols. 127 (Sept. 1926)-152 (Nov. 1930) issued as v. 159, pt. 2; Vols. 153 (1931)-182 (1935). 1 v.; Vols. 183 (1936)-212 (1940). 1 v.; Vols. 213 (1941)-242 (1945). 1 v.; Vols. 243 (1946)-272 (1950). 1 v.; Vols. 273 (1951)-302 (1955). 1 v.; Vols. 303 (1956)-332 (1960). 1 v.; Vols. 333 (1961)-362 (1965). 1 v.; Vols. 363 (1966)-392 (1970). 1 v.; Vols. 393 (1971)-422 (1975). 1 v.; Vols. 423 (1976)-452 (1980). 1 v.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on: Vol. 1, no. 2 (Oct. 1890); title from cover.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Latest issue consulted: Vol. 598 (Mar. 2005).</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">SERBIB/SERLOC merged record</subfield>
+  </datafield>
+  <datafield tag="592" ind1=" " ind2=" ">
+    <subfield code="a">ACQN: aq 94023022</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Social sciences</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Political science</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Government</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Politics</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Social Sciences</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Social Work</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="6">
+    <subfield code="a">Sciences sociales</subfield>
+    <subfield code="v">Pe&#x301;riodiques.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="6">
+    <subfield code="a">Science politique</subfield>
+    <subfield code="v">Pe&#x301;riodiques.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="6">
+    <subfield code="a">Service social</subfield>
+    <subfield code="v">Pe&#x301;riodiques.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Sociale wetenschappen.</subfield>
+    <subfield code="2">gtt</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Politieke wetenschappen.</subfield>
+    <subfield code="2">gtt</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Service social.</subfield>
+    <subfield code="2">rasuqam</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Sciences sociales.</subfield>
+    <subfield code="2">rasuqam</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Science politique.</subfield>
+    <subfield code="2">rasuqam</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">POLITICAL SCIENCE.</subfield>
+    <subfield code="2">unbist</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">SOCIAL SCIENCES.</subfield>
+    <subfield code="2">unbist</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Pe&#x301;riodique e&#x301;lectronique (Descripteur de forme)</subfield>
+    <subfield code="2">rasuqam</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Ressource Internet (Descripteur de forme)</subfield>
+    <subfield code="2">rasuqam</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">American Academy of Political and Social Science.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">National American Woman Suffrage Association Collection (Library of Congress)</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="t">Annals (American Academy of Political and Social Science)</subfield>
+    <subfield code="x">1552-3349</subfield>
+    <subfield code="w">(DLC)  2004235682</subfield>
+    <subfield code="w">(OCoLC)50544474</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="t">Annals of the American Academy of Political and Social Science</subfield>
+    <subfield code="w">(OCoLC)654395271</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">AzU</subfield>
+    <subfield code="a">CSt</subfield>
+    <subfield code="a">CU-S</subfield>
+    <subfield code="a">CaOWtU</subfield>
+    <subfield code="a">CoU</subfield>
+    <subfield code="a">CtY-L</subfield>
+    <subfield code="a">DLC</subfield>
+    <subfield code="a">DNAL</subfield>
+    <subfield code="a">IC</subfield>
+    <subfield code="a">IaAS</subfield>
+    <subfield code="a">In</subfield>
+    <subfield code="a">MH-KG</subfield>
+    <subfield code="a">MH-L</subfield>
+    <subfield code="a">MH-P</subfield>
+    <subfield code="a">N</subfield>
+    <subfield code="a">NcRS</subfield>
+    <subfield code="a">OkU</subfield>
+    <subfield code="a">TxDaM</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="x">universal pattern</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://ann.sagepub.com</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://www.jstor.org/journals/00027162.html</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://firstsearch.oclc.org</subfield>
+    <subfield code="z">Address for accessing the journal using authorization number and password through OCLC FirstSearch Electronic Collections Online. Subscription to online journal required for access to abstracts and full text</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://firstsearch.oclc.org/journal=0002-7162;screen=info;ECOIP</subfield>
+    <subfield code="z">Address for accessing the journal from an authorized IP address through OCLC FirstSearch Electronic Collections Online. Subscription to online journal required for access to abstracts and full text</subfield>
+  </datafield>
+  <datafield tag="853" ind1="2" ind2="0">
+    <subfield code="8">1</subfield>
+    <subfield code="a">v.</subfield>
+    <subfield code="i">(year)</subfield>
+    <subfield code="j">(month)</subfield>
+    <subfield code="w">f</subfield>
+  </datafield>
+  <datafield tag="863" ind1="4" ind2="1">
+    <subfield code="8">1.1</subfield>
+    <subfield code="a">&lt;1&gt;</subfield>
+    <subfield code="i">&lt;1890&gt;</subfield>
+  </datafield>
+  <datafield tag="853" ind1="2" ind2="0">
+    <subfield code="8">2</subfield>
+    <subfield code="a">v.</subfield>
+    <subfield code="i">(year)</subfield>
+    <subfield code="j">(month)</subfield>
+    <subfield code="w">b</subfield>
+    <subfield code="x">01</subfield>
+  </datafield>
+  <datafield tag="863" ind1="4" ind2="0">
+    <subfield code="8">2.1</subfield>
+    <subfield code="a">&lt;21&gt;</subfield>
+    <subfield code="i">&lt;1903&gt;</subfield>
+  </datafield>
+  <datafield tag="890" ind1=" " ind2=" ">
+    <subfield code="a">American Academy of Political and Social Science, Philadelphia.  Annals.  Philadelphia.</subfield>
+    <subfield code="i">sv85-2210</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">Keep 2</subfield>
+  </datafield>
+  <datafield tag="984" ind1=" " ind2=" ">
+    <subfield code="a">srvf</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">eserial 200406</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-RareBook</subfield>
+    <subfield code="t">2d set</subfield>
+    <subfield code="m">NAWSA Coll</subfield>
+    <subfield code="w">SERIALS</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00014034006</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">113:1924 May * 1992</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00033846939</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">219 * 1942</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00034430731</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">242 * 1945</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00033847191</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">254 * 1947</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00060083848</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">3 * 1893 Jan-Jun</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">0003289382A</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">306-308 * 1956</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00039925850</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">32 Jul-Dec * 1908</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00060083885</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">4 * 1893 Jul-Dec</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00013703231</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">483 * 1986</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00039094484</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">484 * 1986 Mar</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00039094861</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">486 * 1986 Jul</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00039094563</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">487 * 1986 Sept</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00039094526</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">488 * 1986 Nov</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00023388947</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">519 * 1992</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011457903</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">215 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00020957621</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">257 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">0002095761A</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">419 * 1987 May</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00002190205</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">514 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00024915086</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">514 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00017789144</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">8 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00012376499</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">8 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00020336262</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">8 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00012338922</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">11 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00001204385</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">28 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00014944576</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">152 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011460811</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">192-194 1937 Jul-Nov * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00012604476</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">195 Jan 1938 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00012483880</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">195-197 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011460823</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">199 1938 Sept * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011177384</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">202 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011457319</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">215 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00013423544</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">290 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00020957633</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">335 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011282696</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">374 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00014414368</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">391-393 Sept-Jan * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00021002343</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">412 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00025537099</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">423-452 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00022666113</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">437 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00017939099</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">461 May 1982 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00023371273</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">476:Nov 1984 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00014472435</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">486 1986 Jul * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00014325396</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">1987 Set 2 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00014322942</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">490 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00000191371</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">493 1987 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00005158606</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">501 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00005342235</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">502 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00001276499</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">508 Mar 1990 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00008358266</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">509 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00011383002</subfield>
+    <subfield code="t">Copy 2</subfield>
+    <subfield code="v">509 May 1990 * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-GenColl</subfield>
+    <subfield code="h">H1</subfield>
+    <subfield code="i">.A4</subfield>
+    <subfield code="p">00017972613</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="v">509 1990 May * 8888</subfield>
+    <subfield code="w">CCF</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=11134216</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

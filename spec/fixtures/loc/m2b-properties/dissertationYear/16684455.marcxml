@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01532cam a2200313 a 4500</leader>
+  <controlfield tag="001">16684455</controlfield>
+  <controlfield tag="005">20120622113842.0</controlfield>
+  <controlfield tag="008">110309s2008    is            000 0 heb  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">origres</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-nonroman</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="b">cd06 2011-03-09 z-processor JACKPHY IBC to cd00 shelves;</subfield>
+    <subfield code="c">cd05 2012-03-14 telework to cd06 for subj ;</subfield>
+    <subfield code="d">cd06 2012-06-22 telework to ASME labeling</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2011407000</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">e-sp---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">PJ4592</subfield>
+    <subfield code="b">.B47 2008</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">(2</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Bernat-Wiener, Ornah Rachel.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">100-01/(2/r&#x200F;</subfield>
+    <subfield code="a">&#x200F;&#x5D1;&#x5E8;&#x5E0;&#x5D8;&#x5BE;&#x5D5;&#x5D9;&#x5E0;&#x5E8;, &#x5D0;&#x5D5;&#x5E8;&#x5E0;&#x5D4; &#x5E8;&#x5D7;&#x5DC;.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a">Sodot ha-nik&#x323;ud ba-k&#x323;abalah ha-Sefaradit-ha-K&#x323;ast&#x323;ilyanit ba-me&#x2BC;ah ha-13 /</subfield>
+    <subfield code="c">me-et Ornah Bernat&#x323;-V&#x323;iner.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/(2/r&#x200F;</subfield>
+    <subfield code="a">&#x200F;&#x5E1;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5D4;&#x5E0;&#x5D9;&#x5E7;&#x5D5;&#x5D3; &#x5D1;&#x5E7;&#x5D1;&#x5DC;&#x5D4; &#x5D4;&#x5E1;&#x5E4;&#x5E8;&#x5D3;&#x5D9;&#x5EA;&#x5BE;&#x5D4;&#x5E7;&#x5E1;&#x5D8;&#x5D9;&#x5DC;&#x5D9;&#x5D0;&#x5E0;&#x5D9;&#x5EA; &#x5D1;&#x5DE;&#x5D0;&#x5D4; &#x5D4;&#x5D9;&#x5F4;&#x5D2; /&#x200F;</subfield>
+    <subfield code="c">&#x200F;&#x5DE;&#x5D0;&#x5EA; &#x5D0;&#x5D5;&#x5E8;&#x5E0;&#x5D4; &#x5E8;&#x5D7;&#x5DC; &#x5D1;&#x5E8;&#x5E0;&#x5D8;&#x5BE;&#x5D5;&#x5D9;&#x5E0;&#x5E8;.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2="5">
+    <subfield code="a">Mysteries of the Vocalization of the Spanish-Castilla Kabbalah in the 13th century</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">[Ramat Gan? :</subfield>
+    <subfield code="b">h&#x323;. mo. l.,</subfield>
+    <subfield code="c">2008?]</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-03/(2/r&#x200F;</subfield>
+    <subfield code="a">&#x200F;[&#x200F;&#x202A;Ramat Gan?&#x202C;&#x200F; :&#x200F;</subfield>
+    <subfield code="b">&#x200F;&#x5D7;&#x5DE;&#x5D5;"&#x5DC;,&#x200F;</subfield>
+    <subfield code="c">&#x200F;&#x202A;2008?&#x202C;]&#x202C;&#x200F;&#x202A;</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">482, [10] p. ;</subfield>
+    <subfield code="c">30 cm.</subfield>
+  </datafield>
+  <datafield tag="502" ind1=" " ind2=" ">
+    <subfield code="a">Thesis</subfield>
+    <subfield code="b">(Ph. D)</subfield>
+    <subfield code="c">Universit&#x323;at Bar-Ilan,</subfield>
+    <subfield code="d">2008.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Hebrew language</subfield>
+    <subfield code="x">Vocalization</subfield>
+    <subfield code="x">Philosophy.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Cabala</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">13th century.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Jews</subfield>
+    <subfield code="z">Spain</subfield>
+    <subfield code="z">Castile</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">13th century.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=16684455</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

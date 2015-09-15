@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02214cjm a2200469 a 4500</leader>
+  <controlfield tag="001">5795097</controlfield>
+  <controlfield tag="005">20130502115120.0</controlfield>
+  <controlfield tag="007">sd|fungnnmmneu</controlfield>
+  <controlfield tag="008">981021p19981927it snn                   </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-genmusic</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">vl15 10-21-98</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   98708137 </subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="0">
+    <subfield code="a">QT 99.360</subfield>
+    <subfield code="b">Strings</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="0">
+    <subfield code="a">QT 99.361</subfield>
+    <subfield code="b">Strings</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="0">
+    <subfield code="a">QT 99.360/1</subfield>
+    <subfield code="b">Strings</subfield>
+  </datafield>
+  <datafield tag="033" ind1="2" ind2=" ">
+    <subfield code="a">1927----</subfield>
+    <subfield code="a">1939----</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   98708137</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">Strings QT 99.360/1</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Beethoven, Ludwig van,</subfield>
+    <subfield code="d">1770-1827.</subfield>
+  </datafield>
+  <datafield tag="240" ind1="1" ind2="0">
+    <subfield code="a">Instrumental music.</subfield>
+    <subfield code="k">Selections</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="4">
+    <subfield code="a">The complete sonatas for cello and piano</subfield>
+    <subfield code="h">[sound recording] /</subfield>
+    <subfield code="c">Beethoven.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Erba, Italy :</subfield>
+    <subfield code="b">Strings,</subfield>
+    <subfield code="c">p1998.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">2 sound discs :</subfield>
+    <subfield code="b">digital ;</subfield>
+    <subfield code="c">4 3/4 in.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Strings: QT 99.360--QT 99.361; QT 99.360/1 (on container).</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">The 7th work originally for orchestra.</subfield>
+  </datafield>
+  <datafield tag="511" ind1="0" ind2=" ">
+    <subfield code="a">Pablo Casals, violoncello ; Mieczyslaw Horszowski, Otto Schulhof, or Alfred Cortot, piano.</subfield>
+  </datafield>
+  <datafield tag="518" ind1=" " ind2=" ">
+    <subfield code="a">Recorded in Paris or London, 1927-1939.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Compact discs.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Sonata no. 1 for cello and piano, op. 5, no. 1, in F -- Sonata no. 2 for cello and piano, op. 5, no. 2, in G minor -- Sonata no. 3 for cello and piano, op. 69, in A -- Sonata no. 4 for cello and piano, op. 102, no. 1, in C -- Sonata no. 5 for cello and piano, op. 102, no. 2, in D -- Seven variations on Mozart's "Bei Ma&#x308;nnern" from "Die Zauberflo&#x308;te" -- Minuet in G, WoO 10, no. 2.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Sonatas (Cello and piano)</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Cello and piano music.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Cello and piano music, Arranged.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Casals, Pablo,</subfield>
+    <subfield code="d">1876-1973.</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Horszowski, Mieczyslaw.</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Schulhof, Otto,</subfield>
+    <subfield code="d">-1958.</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Cortot, Alfred,</subfield>
+    <subfield code="d">1877-1962.</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Beethoven, Ludwig van,</subfield>
+    <subfield code="d">1770-1827.</subfield>
+    <subfield code="t">Sonatas,</subfield>
+    <subfield code="m">cello, piano.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Beethoven, Ludwig van,</subfield>
+    <subfield code="d">1770-1827.</subfield>
+    <subfield code="t">Variations sur le the&#x300;me Bei Ma&#x308;nnern, welche Liebe fu&#x308;hlen.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Beethoven, Ludwig van,</subfield>
+    <subfield code="d">1770-1827.</subfield>
+    <subfield code="t">Minuets,</subfield>
+    <subfield code="m">orchestra,</subfield>
+    <subfield code="n">WoO 10.</subfield>
+    <subfield code="n">No. 2;</subfield>
+    <subfield code="o">arranged.</subfield>
+  </datafield>
+  <datafield tag="953" ind1=" " ind2=" ">
+    <subfield code="a">TA28</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-RecSound</subfield>
+    <subfield code="h">Strings QT 99.360/1</subfield>
+    <subfield code="w">MUSIC</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5795097</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

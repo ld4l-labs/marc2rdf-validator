@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01454cam a22003854a 4500</leader>
+  <controlfield tag="001">13694403</controlfield>
+  <controlfield tag="005">20070824234633.0</controlfield>
+  <controlfield tag="008">040621s2003    ja ab         000 0djpn  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">origres</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-rlinjack</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">md04 to RCCD 06-21-2004</subfield>
+    <subfield code="c">yf07 2004-08-20</subfield>
+    <subfield code="d">yf14 2004-11-19</subfield>
+    <subfield code="e">yf08 04-11-19 to BCCD</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2004701796</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">4121017285</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CStRLIN)DCLP04-B11158</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC-R</subfield>
+    <subfield code="c">DLC-R</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">a-ja---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">DS881.83</subfield>
+    <subfield code="b">.H66 2003</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">$1</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+    <subfield code="a">210.61</subfield>
+    <subfield code="2">njb/9</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Hoshi, Ryo&#x304;ichi,</subfield>
+    <subfield code="d">1935-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a"> Aizu rakujo&#x304; :</subfield>
+    <subfield code="b">Boshin Senso&#x304; saidai no higeki /</subfield>
+    <subfield code="c">Hoshi Ryo&#x304;ichi cho.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">To&#x304;kyo&#x304; :</subfield>
+    <subfield code="b">Chu&#x304;o&#x304; Ko&#x304;ron Shinsha,</subfield>
+    <subfield code="c">2003.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">iv,  202 ,  4 p.  :</subfield>
+    <subfield code="b">ill., maps ;</subfield>
+    <subfield code="c">18 cm.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="0" ind2=" ">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">Chu&#x304;ko&#x304; shinsho ;</subfield>
+    <subfield code="v">1728</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references  (p. 202).</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Japan</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Civil War, 1868.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="6">880-05</subfield>
+    <subfield code="a">Aizu-han (Japan)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">100-01/$1</subfield>
+    <subfield code="a">&#x661F;&#x4EAE;&#x4E00;,</subfield>
+    <subfield code="d">1935-</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/$1</subfield>
+    <subfield code="a">&#x4F1A;&#x6D25;&#x843D;&#x57CE; :</subfield>
+    <subfield code="b">&#x620A;&#x8FB0;&#x6226;&#x4E89;&#x6700;&#x5927;&#x306E;&#x60B2;&#x5287; /</subfield>
+    <subfield code="c">&#x661F;&#x4EAE;&#x4E00;&#x8457;.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-03/$1</subfield>
+    <subfield code="a">&#x6771;&#x4EAC; :</subfield>
+    <subfield code="b">&#x4E2D;&#x592E;&#x516C;&#x8AD6;&#x65B0;&#x793E;,</subfield>
+    <subfield code="c">2003.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="0" ind2=" ">
+    <subfield code="6">490-04/$1</subfield>
+    <subfield code="a">&#x4E2D;&#x516C;&#x65B0;&#x66F8; ;</subfield>
+    <subfield code="v">1728</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2="4">
+    <subfield code="6">651-05/$1</subfield>
+    <subfield code="a">&#x4F1A;&#x6D25;&#x85E9; (Japan)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="923" ind1=" " ind2=" ">
+    <subfield code="d">20040514</subfield>
+    <subfield code="n">31085233</subfield>
+    <subfield code="s">JPTC</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">spacingreload</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13694403</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02603ccm a22005294a 4500</leader>
+  <controlfield tag="001">16241964</controlfield>
+  <controlfield tag="005">20130606100858.0</controlfield>
+  <controlfield tag="008">100519s2007    wiusga|  bdhi  n  | ger c</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">pccadap</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-genmusic</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">vl00 2010-05-19</subfield>
+    <subfield code="a">vk67 2010-05-19 z-client</subfield>
+    <subfield code="i">vk67 2010-05-19</subfield>
+    <subfield code="e">vl34 2010-06-01 to Music Division</subfield>
+    <subfield code="e">vl39 2010-06-03 to BCCD</subfield>
+    <subfield code="a">Barcode 00261861409 returned from bindery 2010-07-08</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2010561618</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780895796189</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">089579618X</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn180205181</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)180205181</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">MRW</subfield>
+    <subfield code="c">STF</subfield>
+    <subfield code="d">MRW</subfield>
+    <subfield code="d">BCO</subfield>
+    <subfield code="d">CPL</subfield>
+    <subfield code="d">OHX</subfield>
+    <subfield code="d">BTCTA</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">UMC</subfield>
+    <subfield code="d">YDXCP</subfield>
+    <subfield code="d">NOC</subfield>
+    <subfield code="d">CUY</subfield>
+    <subfield code="d">TXH</subfield>
+    <subfield code="d">TFW</subfield>
+    <subfield code="d">CUV</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="041" ind1="1" ind2=" ">
+    <subfield code="a">ger</subfield>
+    <subfield code="e">ger</subfield>
+    <subfield code="e">eng</subfield>
+    <subfield code="h">ger</subfield>
+    <subfield code="g">eng</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="045" ind1="2" ind2=" ">
+    <subfield code="b">d1815</subfield>
+    <subfield code="b">d1890</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">oa</subfield>
+    <subfield code="b">va01</subfield>
+    <subfield code="b">sa01</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">ta01</subfield>
+    <subfield code="a">oa</subfield>
+    <subfield code="b">vn01</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">oa</subfield>
+    <subfield code="b">vf01</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">oa</subfield>
+    <subfield code="b">ve01</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">oa</subfield>
+    <subfield code="b">vn01</subfield>
+    <subfield code="b">sa01</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">ta01</subfield>
+    <subfield code="a">oa</subfield>
+    <subfield code="b">va01</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="a">wc01</subfield>
+    <subfield code="a">oa</subfield>
+    <subfield code="b">vn01</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">M2</subfield>
+    <subfield code="b">.R23834 vol. 44</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Orchestral lieder (1815-1890) /</subfield>
+    <subfield code="c">edited by Timothy J. Roden.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Middleton, Wis. :</subfield>
+    <subfield code="b">A-R Editions,</subfield>
+    <subfield code="c">c2007.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 score (xxi, 142 p., 2 p. of plates) :</subfield>
+    <subfield code="b">facsims. ;</subfield>
+    <subfield code="c">31 cm.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Recent researches in the music of the nineteenth and early twentieth centuries,</subfield>
+    <subfield code="x">0193-5364 ;</subfield>
+    <subfield code="v">44</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Words also printed as texts with English translations on p. xix-xxi.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes introd. and critical report in English.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Sehnsucht / Andreas Romberg -- Die Fahnenwacht / Peter Joseph von Lindpaintner -- Ko&#x308;nig Sifrid / Wendelin Weissheimer -- Zigeunerisches Sta&#x308;ndchen / Georg Henschel -- In der Nacht / Carl Grammann -- Der Hirt auf dem Felsen / [music by Franz Schubert ; orchestrated by] Carl Reinecke.</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">German words, also printed as texts with English translations on p. xix-xxi.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Songs with orchestra</subfield>
+    <subfield code="y">19th century</subfield>
+    <subfield code="v">Scores.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Roden, Timothy James.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Reinecke, Carl,</subfield>
+    <subfield code="d">1824-1910.</subfield>
+    <subfield code="4">arr</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Romberg, Andreas,</subfield>
+    <subfield code="d">1767-1821.</subfield>
+    <subfield code="t">Sehnsucht.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Lindpaintner, Peter Joseph von,</subfield>
+    <subfield code="d">1791-1856.</subfield>
+    <subfield code="t">Fahnenwacht.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Weissheimer, Wendelin,</subfield>
+    <subfield code="d">1838-1910.</subfield>
+    <subfield code="t">Ko&#x308;nig Sifrid.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Henschel, George,</subfield>
+    <subfield code="d">1850-1934.</subfield>
+    <subfield code="t">Zigeunerisches Sta&#x308;ndchen.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Grammann, Carl,</subfield>
+    <subfield code="d">1842-1897.</subfield>
+    <subfield code="t">In der Nacht.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Schubert, Franz,</subfield>
+    <subfield code="d">1797-1828.</subfield>
+    <subfield code="t">Hirt auf dem Felsen;</subfield>
+    <subfield code="o">arranged.</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Recent researches in the music of the nineteenth and early twentieth centuries ;</subfield>
+    <subfield code="v">v. 44.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=16241964</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

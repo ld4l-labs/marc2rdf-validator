@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01794cas a2200433 a 4500</leader>
+  <controlfield tag="001">12800873</controlfield>
+  <controlfield tag="005">20130323160419.0</controlfield>
+  <controlfield tag="007">t|</controlfield>
+  <controlfield tag="008">020604d20012003caumn p       0   a0eng c</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2002214131</subfield>
+  </datafield>
+  <datafield tag="012" ind1=" " ind2=" ">
+    <subfield code="a">-3-7-1303221703-p-----    </subfield>
+  </datafield>
+  <datafield tag="022" ind1="0" ind2=" ">
+    <subfield code="a">1539-5251</subfield>
+    <subfield code="l">1539-5251</subfield>
+    <subfield code="2">1</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm49534979 </subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="b">Fawcette Technical Publications, 209 Hamilton Ave., Palo Alto, CA 94301</subfield>
+    <subfield code="c">$19.95 (U.S.)</subfield>
+    <subfield code="c">$37.95 (Canada &amp; Mexico)</subfield>
+    <subfield code="c">$63.95 (foreign)</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">NSDP</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">NSDP</subfield>
+    <subfield code="d">TxU</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">NSDP</subfield>
+    <subfield code="d">OCoLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">nsdp</subfield>
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">TK5105.8885.M57</subfield>
+    <subfield code="b">N48</subfield>
+  </datafield>
+  <datafield tag="082" ind1="1" ind2="0">
+    <subfield code="a">005</subfield>
+    <subfield code="2">13</subfield>
+  </datafield>
+  <datafield tag="130" ind1="0" ind2=" ">
+    <subfield code="a">.Net magazine (Palo Alto, Calif.)</subfield>
+  </datafield>
+  <datafield tag="210" ind1="0" ind2=" ">
+    <subfield code="a">.Net mag.</subfield>
+    <subfield code="b">(Palo Alto, Calif.)</subfield>
+  </datafield>
+  <datafield tag="222" ind1=" " ind2="0">
+    <subfield code="a">.Net magazine</subfield>
+    <subfield code="b">(Palo Alto, Calif.)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">.Net magazine.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Palo Alto, CA :</subfield>
+    <subfield code="b">Fawcette Technical Publications,</subfield>
+    <subfield code="c">2001-</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">v. :</subfield>
+    <subfield code="b">ill. (some col.) ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Monthly (July/Aug. issue combined)</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">Vol. 1, no. 1 (fall/winter 2001)-</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title from cover.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Also issued on the Internet.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Latest issue consulted: Vol. 2, no. 1 (Jan. 2002).</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Microsoft .NET Framework</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="630" ind1="0" ind2="0">
+    <subfield code="a">Microsoft Visual studio</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Internet</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="785" ind1="0" ind2="0">
+    <subfield code="t">Windows server system magazine</subfield>
+    <subfield code="x">1548-8926</subfield>
+    <subfield code="w">(DLC)  2004210111</subfield>
+    <subfield code="w">(OCoLC)53968198</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+  </datafield>
+  <datafield tag="859" ind1="4" ind2="1">
+    <subfield code="u">http://www.thedotnetmag.com</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">serials</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">n-oclcserc</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">Acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default, 2002-07-22</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">dm12 2002-06-04 to Selection Officer</subfield>
+    <subfield code="a">ejm, 2002-07-22 to CAD</subfield>
+    <subfield code="a">uf19 2002-08-22 to SRD</subfield>
+    <subfield code="a">db00 2002-09-13 {conser} SERCAT2</subfield>
+    <subfield code="i">db64 2003-01-10</subfield>
+    <subfield code="e">db64 2003-01-10 to cat tech</subfield>
+    <subfield code="g">db16 2003-01-21 to SER</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="e">eserial 200406</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=12800873</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

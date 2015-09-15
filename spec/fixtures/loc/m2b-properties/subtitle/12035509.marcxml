@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02847cam a2200493 a 4500</leader>
+  <controlfield tag="001">12035509</controlfield>
+  <controlfield tag="005">20110119132227.0</controlfield>
+  <controlfield tag="007">cr||||--------</controlfield>
+  <controlfield tag="008">990629m20009999dcugh        f000 0 eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencompf</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">vb23 06-09-00; vb07 06-21-00 to vl22</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   00529707 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">M2.3.U6</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Historic American sheet music, 1850-1920</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">selected from the collections of Duke University.</subfield>
+  </datafield>
+  <datafield tag="256" ind1=" " ind2=" ">
+    <subfield code="a">Computer data.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[Washington, D.C.] :</subfield>
+    <subfield code="b">Library of Congress,</subfield>
+    <subfield code="c">1999-</subfield>
+  </datafield>
+  <datafield tag="538" ind1=" " ind2=" ">
+    <subfield code="a">Mode of access: World Wide Web.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title from home page as viewed on June 2, 2000.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Offered as part of the American Memory online resource compiled by the National Digital Library Program of the Library of Congress.</subfield>
+  </datafield>
+  <datafield tag="586" ind1="8" ind2=" ">
+    <subfield code="a">"LC/Ameritech Award Winner"</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Digital images of 3042 pieces of sheet music published in the United States between 1850 and 1920 selected from the collections in the Rare Book, Manuscript, and Special Collections Library, Duke University. The selection presents a significant perspective on American history and culture. The sheet music chosen for digital reproduction represents a wide variety of music types including bel canto, minstrel songs, protest songs, sentimental songs, patriotic and political songs, plantation songs, Civil War songs, spirituals, dance music, songs from vaudeville and musicals, "Tin pan alley" songs, and songs from World War I. The collection is particularly strong in antebellum Southern music, Confederate imprints, and Civil war songs. Piano music includes marches, variations, opera excerpts, and dance music (waltzes, quadrilles, polkas, etc.)</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Music</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African Americans</subfield>
+    <subfield code="v">Music.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Music publishers</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Music publishing</subfield>
+    <subfield code="z">United States</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Popular music</subfield>
+    <subfield code="y">To 1901.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Popular music</subfield>
+    <subfield code="y">1901-1910.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Popular music</subfield>
+    <subfield code="y">1911-1920.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Dance music</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Instrumental music.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Songs with piano.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Operas</subfield>
+    <subfield code="v">Excerpts.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Confederate States of America</subfield>
+    <subfield code="v">Songs and music.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">Civil War, 1861-1865</subfield>
+    <subfield code="v">Songs and music.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">World War, 1914-1918</subfield>
+    <subfield code="v">Songs and music.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Patriotic music</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Miller, Stephen D.</subfield>
+    <subfield code="q">(Stephen Douglas),</subfield>
+    <subfield code="d">1971-</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Schultz, Lois,</subfield>
+    <subfield code="d">1944-</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Duke University.</subfield>
+    <subfield code="b">Rare Book, Manuscript, and Special Collections Library.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Library of Congress.</subfield>
+    <subfield code="b">National Digital Library Program.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">http://hdl.loc.gov/loc.gdc/collgdc.gc000022</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">collpull</subfield>
+    <subfield code="e">ammem</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=12035509</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

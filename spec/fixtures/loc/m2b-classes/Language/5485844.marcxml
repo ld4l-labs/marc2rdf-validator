@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01635cem a2200385 a 4500</leader>
+  <controlfield tag="001">5485844</controlfield>
+  <controlfield tag="005">20130501114526.0</controlfield>
+  <controlfield tag="007">aj|canzn</controlfield>
+  <controlfield tag="008">860123s1984    nz abcgcc a  f  0   eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-geogmaps</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">ga07;ga15</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   85697116 </subfield>
+  </datafield>
+  <datafield tag="034" ind1="1" ind2=" ">
+    <subfield code="a">a</subfield>
+    <subfield code="b">500000</subfield>
+    <subfield code="d">E1763000</subfield>
+    <subfield code="e">W1780000</subfield>
+    <subfield code="f">S0160000</subfield>
+    <subfield code="g">S0190000</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   85697116</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">G9381.P6 1984</subfield>
+    <subfield code="b">.N4</subfield>
+  </datafield>
+  <datafield tag="052" ind1=" " ind2=" ">
+    <subfield code="a">9381</subfield>
+  </datafield>
+  <datafield tag="110" ind1="1" ind2=" ">
+    <subfield code="a">New Zealand.</subfield>
+    <subfield code="b">Department of Lands and Survey.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Topographical map 1:500 000.</subfield>
+    <subfield code="p">Fiji Islands aeronautical chart.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">Ed. 1.</subfield>
+  </datafield>
+  <datafield tag="255" ind1=" " ind2=" ">
+    <subfield code="a">Scale 1:500,000 ;</subfield>
+    <subfield code="b">Lambert conformal conic proj., standard parallels at 16&#x2070;12&#x2B9;S and 18&#x2070;48&#x2B9;S</subfield>
+    <subfield code="c">(E 176&#x2070;30&#x2B9;--W 178&#x2070;00&#x2B9;/S 16&#x2070;00&#x2B9;--S 19&#x2070;00&#x2B9;).</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[Wellington, N.Z.] :</subfield>
+    <subfield code="b">Dept. of Lands and Survey,</subfield>
+    <subfield code="c">[1984]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 map :</subfield>
+    <subfield code="b">col. ;</subfield>
+    <subfield code="c">on sheet 80 x 120 cm., folded to 21 x 12 cm.</subfield>
+  </datafield>
+  <datafield tag="440" ind1=" " ind2="0">
+    <subfield code="a">NZMS ;</subfield>
+    <subfield code="v">242A Fiji Islands</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"Aeronautical information effective: 25 Oct. 1984."</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Relief shown by contours, shading, gradient tints, and spot heights.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Panel title.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"Published ... for the Civil Aviation Division, Ministry of Transport and Ministry of Defence."</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes 3 insets.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Aeronautical charts</subfield>
+    <subfield code="z">Fiji.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2=" ">
+    <subfield code="a">New Zealand.</subfield>
+    <subfield code="b">Civil Aviation Division.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2=" ">
+    <subfield code="a">New Zealand.</subfield>
+    <subfield code="b">Ministry of Defence.</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2=" ">
+    <subfield code="a">Topographical map 1:500,000.</subfield>
+    <subfield code="p">Fiji Islands aeronautical chart.</subfield>
+  </datafield>
+  <datafield tag="740" ind1="0" ind2=" ">
+    <subfield code="a">Fiji Islands aeronautical chart.</subfield>
+  </datafield>
+  <datafield tag="991" ind1=" " ind2=" ">
+    <subfield code="b">c-G&amp;M</subfield>
+    <subfield code="h">G9381.P6 1984</subfield>
+    <subfield code="i">.N4</subfield>
+    <subfield code="t">Copy 1</subfield>
+    <subfield code="w">MAPS</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=5485844</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

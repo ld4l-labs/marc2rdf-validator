@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02366cam a22004695a 4500</leader>
+  <controlfield tag="001">16866807</controlfield>
+  <controlfield tag="005">20130521070408.0</controlfield>
+  <controlfield tag="007">cr cn|||||||||</controlfield>
+  <controlfield tag="008">110712s2009    ohua    ob    101 0 eng d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">0</subfield>
+    <subfield code="b">ibc</subfield>
+    <subfield code="c">copycat</subfield>
+    <subfield code="d">2</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="b">xe07 2011-07-12 z-processor to USPL</subfield>
+    <subfield code="a">xh00 2011-07-14  to USPL/STM</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2011282795</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780470599730</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0470599731</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">0470408499</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">9780470408490</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1002/9780470599730</subfield>
+    <subfield code="2">doi</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn587063590</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">10.1002/9780470599730</subfield>
+    <subfield code="b">Wiley InterScience</subfield>
+    <subfield code="n">http://www3.interscience.wiley.com</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DG1</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DG1</subfield>
+    <subfield code="d">E7B</subfield>
+    <subfield code="d">DG1</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">671.3/73</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="097" ind1="0" ind2="0">
+    <subfield code="a">TN695</subfield>
+    <subfield code="b">.I59 2008</subfield>
+  </datafield>
+  <datafield tag="111" ind1="2" ind2=" ">
+    <subfield code="a">International Conference on Sintering</subfield>
+    <subfield code="d">(2008 :</subfield>
+    <subfield code="c">La Jolla, San Diego, Calif.)</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Advances in sintering science and technology</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">a collection of papers presented at the International Conference on Sintering, November 16-20, 2009 [i.e. 2008], La Jolla, California /</subfield>
+    <subfield code="c">edited by Rajendra K. Bordia, Eugene A. Olevsky.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">[Westerville, Ohio] :</subfield>
+    <subfield code="b">American Ceramic Society ;</subfield>
+    <subfield code="a">Hoboken, N.J. :</subfield>
+    <subfield code="b">Wiley,</subfield>
+    <subfield code="c">c2009.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (xiv, 439 p.) :</subfield>
+    <subfield code="b">ill.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Ceramic transactions,</subfield>
+    <subfield code="x">1042-1122 ;</subfield>
+    <subfield code="v">v. 209</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on print version record.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Sintering</subfield>
+    <subfield code="v">Congresses.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="4">
+    <subfield code="a">Electronic books.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Bordia, Rajendra K.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Olevsky, Eugene A.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Wiley InterScience (Online service)</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Print version:</subfield>
+    <subfield code="a">International Conference on Sintering (2008 : La Jolla, San Diego, Calif.).</subfield>
+    <subfield code="t">Advances in sintering science and technology.</subfield>
+    <subfield code="d">[Westerville, Ohio] : American Ceramic Society ; Hoboken, N.J. : Wiley, c2009</subfield>
+    <subfield code="z">9780470408490</subfield>
+    <subfield code="z">0470408499</subfield>
+    <subfield code="w">(OCoLC)286483950</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Ceramic transactions ;</subfield>
+    <subfield code="v">v. 209.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="3">ebrary</subfield>
+    <subfield code="u">http://site.ebrary.com/id/10366612</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="3">John Wiley</subfield>
+    <subfield code="u">http://dx.doi.org/10.1002/9780470599730</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Publisher description</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/enhancements/fy1304/2011282795-d.html</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="3">Table of contents only</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/enhancements/fy1304/2011282795-t.html</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=16866807</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

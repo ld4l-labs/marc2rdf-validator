@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>03956cam a2200445 i 4500</leader>
+  <controlfield tag="001">17432593</controlfield>
+  <controlfield tag="005">20130604182306.0</controlfield>
+  <controlfield tag="008">120816s2012    caua     b    001 0 eng  </controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">1</subfield>
+    <subfield code="e">ecip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="b">xh00 2012-08-16</subfield>
+    <subfield code="i">xh07 2012-08-16 ONIX to Dewey</subfield>
+    <subfield code="w">rd14 2012-08-16</subfield>
+    <subfield code="a">xn02 2012-09-11 1 copy rec'd., to CIP ver.</subfield>
+    <subfield code="f">xh12 2012-09-13 to BCCD</subfield>
+    <subfield code="t">xn05 2012-11-01 copy 2 added</subfield>
+    <subfield code="e">tc12 2013-06-04 Copy 2 to BCCD/MRC</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2012024875</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781593274252 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1593274254 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">QA76.76.O63</subfield>
+    <subfield code="b">G7247 2012</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">005.4/32</subfield>
+    <subfield code="2">23</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+    <subfield code="a">COM046070</subfield>
+    <subfield code="a">COM046000</subfield>
+    <subfield code="a">COM051390</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Grant, Rickford,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Ubuntu made easy :</subfield>
+    <subfield code="b">a project-based introduction to Linux /</subfield>
+    <subfield code="c">by Rickford Grant with Phil Bull.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">San Francisco :</subfield>
+    <subfield code="b">No Starch Press,</subfield>
+    <subfield code="c">[2012]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xxxvi, 441 pages :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">24 cm</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 CD-ROM (4 3/4 in.)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="3">book</subfield>
+    <subfield code="a">text</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="3">DVD-ROM</subfield>
+    <subfield code="a">computer program</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="3">book</subfield>
+    <subfield code="a">unmediated</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="3">DVD-ROM</subfield>
+    <subfield code="a">computer</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="3">book</subfield>
+    <subfield code="a">volume</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="3">DVD-ROM</subfield>
+    <subfield code="a">computer disc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">"Ubuntu brings Linux to the masses, but it can still be intimidating for newbies, neophytes, and geeks-in-training. With Ubuntu Made Easy by your side you'll be ready to face any challenge, and you'll discover just how fun Linux can be.Packed with tips, tricks, and helpful pointers, Ubuntu Made Easy will get you up and running with the world's most popular free operating system. Authors Rickford Grant and Phil Bull walk you through common tasks like installing and playing games, accessing your favorite social networks, troubleshooting hardware and software problems, interacting with your Windows installation, and more.With the help of the book's straightforward explanations and step-by-step projects, you'll also learn how to:   Set up printers, scanners, USB flash drives, and other hardware   Install and play free games like Frets on Fire and Frozen Bubble as well as commercial hits like Braid and World of Goo   Watch DVDs, listen to music, and sync your mobile devices   Edit and share digital photos and videos   Create documents, spreadsheets, and presentations   Work with the command line (or avoid it altogether!)   If you're looking for a pain-free way to learn Linux, Ubuntu Made Easy is just what you need to get started. Covers Ubuntu 12.04, Precise Pangolin. Includes LiveCD"--</subfield>
+    <subfield code="c">Provided by publisher.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="8" ind2=" ">
+    <subfield code="a">Machine generated contents note: DedicationAcknowledgmentsIntroductionChapter 1: Becoming a PenguinistaChapter 2: Wading and DivingChapter 3: A New Place to Call HomeChapter 4: More Than Webbed FeetChapter 5: Slipping and SlidingChapter 6: Rounding Out the BirdChapter 7: A Tidy NestChapter 8: Simple Kitten WaysChapter 9: Dressing Up the BirdChapter 10: GutenbirdChapter 11: Polyglot PenguinsChapter 12: Penguins at WorkChapter 13: Right-Brain PenguinsChapter 14: Tux RocksChapter 15: Pluggin' In the PenguinChapter 16: Couch PenguinsChapter 17: Feathered FlippersChapter 18: Sweet Home AntarcticaChapter 19: Penguins at the GatesChapter 20: Defending the NestChapter 21: A Colony of PenguinsChapter 22: Wounded WingsInstalling Ubuntu from a USB Flash DriveUbuntu Desktop 64-Bit DiscsManually Partitioning Your Hard DiskResourcesUPDATESAbout the CD.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (pages 419-424) and index.</subfield>
+  </datafield>
+  <datafield tag="630" ind1="0" ind2="0">
+    <subfield code="a">Ubuntu (Electronic resource)</subfield>
+  </datafield>
+  <datafield tag="630" ind1="0" ind2="0">
+    <subfield code="a">Linux.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Operating systems (Computers)</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">COMPUTERS / Operating Systems / Linux.</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">COMPUTERS / Operating Systems / General.</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">COMPUTERS / Programming / Open Source.</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Bull, Phil,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=17432593</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

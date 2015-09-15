@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>marcxml</zs:recordSchema><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01557cam a2200409 a 4500</leader>
+  <controlfield tag="001">13686297</controlfield>
+  <controlfield tag="005">20070825192306.0</controlfield>
+  <controlfield tag="008">040622s2004    ja ab    bl   000 0 jpn d</controlfield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">copycat</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-rlinjack</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">md04 to RCCD 06-22-2004</subfield>
+    <subfield code="c">yf03 2004-08-06</subfield>
+    <subfield code="d">yg20 2004-08-23</subfield>
+    <subfield code="e">yg18 2004-09-01</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2004701789</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">4784514295</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CStRLIN)DCLP04-B11306</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CU-EAST)GLAD185178320</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">*LWU*</subfield>
+    <subfield code="c">*LWU*</subfield>
+    <subfield code="d">CU</subfield>
+    <subfield code="d">CStRLIN</subfield>
+    <subfield code="d">DLC-R</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">a-ja---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">HD919.H6</subfield>
+    <subfield code="b">H67 2004</subfield>
+  </datafield>
+  <datafield tag="066" ind1=" " ind2=" ">
+    <subfield code="c">$1</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="6">880-01</subfield>
+    <subfield code="a">Horiuchi, Ko&#x304;ichi,</subfield>
+    <subfield code="d">1949-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="6">880-02</subfield>
+    <subfield code="a"> Ainu moshiri dakkai :</subfield>
+    <subfield code="b">kensho&#x304; Ainu kyo&#x304;yu&#x304; zaisan saiban /</subfield>
+    <subfield code="c">Horiuchi Ko&#x304;ichi.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="6">880-03</subfield>
+    <subfield code="a">Shohan.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="6">880-04</subfield>
+    <subfield code="a">To&#x304;kyo&#x304; :</subfield>
+    <subfield code="b">Shakai Hyo&#x304;ronsha,</subfield>
+    <subfield code="c">2004.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">348 p. :</subfield>
+    <subfield code="b">ill., maps ;</subfield>
+    <subfield code="c">20 cm.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 321-323).</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Land tenure</subfield>
+    <subfield code="z">Japan</subfield>
+    <subfield code="z">Hokkaido</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Ainu</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Ainu</subfield>
+    <subfield code="x">Civil rights.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Right of property</subfield>
+    <subfield code="z">Japan</subfield>
+    <subfield code="z">Hokkaido</subfield>
+    <subfield code="x">Trials, litigation, etc.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Hokkaido (Japan)</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2=" ">
+    <subfield code="6">100-01/$1</subfield>
+    <subfield code="a">&#x5800;&#x5167;&#x5149;&#x4E00;,</subfield>
+    <subfield code="d">1949-</subfield>
+  </datafield>
+  <datafield tag="880" ind1="1" ind2="0">
+    <subfield code="6">245-02/$1</subfield>
+    <subfield code="a">&#x30A2;&#x30A4;&#x30CC;&#x30E2;&#x30B7;&#x30EA;&#x596A;&#x56DE; :</subfield>
+    <subfield code="b">&#x691C;&#x8A3C;&#x30FB;&#x30A2;&#x30A4;&#x30CC;&#x5171;&#x6709;&#x8CA1;&#x7523;&#x88C1;&#x5224; /</subfield>
+    <subfield code="c">&#x5800;&#x5167;&#x5149;&#x4E00;.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">250-03/$1</subfield>
+    <subfield code="a">&#x521D;&#x7248;.</subfield>
+  </datafield>
+  <datafield tag="880" ind1=" " ind2=" ">
+    <subfield code="6">260-04/$1</subfield>
+    <subfield code="a">&#x6771;&#x4EAC; :</subfield>
+    <subfield code="b">&#x793E;&#x4F1A;&#x8A55;&#x8AD6;&#x793E;,</subfield>
+    <subfield code="c">2004.</subfield>
+  </datafield>
+  <datafield tag="923" ind1=" " ind2=" ">
+    <subfield code="d">20040521</subfield>
+    <subfield code="n">31086728</subfield>
+    <subfield code="s">JPTC</subfield>
+  </datafield>
+  <datafield tag="985" ind1=" " ind2=" ">
+    <subfield code="a">spacingreload</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>2.0</zs:version><zs:query>rec.id=13686297</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordXMLEscaping>xml</zs:recordXMLEscaping><zs:recordSchema>marcxml</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>
