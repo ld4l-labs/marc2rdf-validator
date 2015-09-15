@@ -1,0 +1,341 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/17438799annotation22> a bf:Annotation;
+   bf:annotates <http://example.org/17438799>;
+   bf:changeDate "2012-09-27T14:52";
+   bf:derivedFrom <http://example.org/17438799.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/cdx>,
+     <http://id.loc.gov/vocabulary/organizations/oclco>,
+     <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/nlc>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/17438799helditem40> a bf:HeldItem;
+   bf:holdingFor <http://example.org/17438799instance23>;
+   bf:label "PE1128 .H4145 2012";
+   bf:shelfMarkLcc "PE1128 .H4145 2012" .
+
+<http://example.org/17438799agent24> a bf:Agent;
+   bf:authorizedAccessPoint "Payne, Beverley, 1950- Don Mills, Ont. : Oxford University Press, c2012.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Payne, Beverley, 1950- Don Mills, Ont. : Oxford University Press, c2012."
+   ];
+   bf:label "Payne, Beverley, 1950- Don Mills, Ont. : Oxford University Press, c2012." .
+
+<http://example.org/17438799classification18> a bf:Classification;
+   bf:classificationEdition "full",
+     "23";
+   bf:classificationNumber "428.6/4";
+   bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bf:label "428.6/4" .
+
+<http://example.org/17438799instance23> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "28 cm.";
+   bf:extent "ix, 198 p. :";
+   bf:illustrationNote "ill. (some col.), maps ;";
+   bf:instanceOf <http://example.org/17438799>;
+   bf:instanceTitle <http://example.org/17438799title26>;
+   bf:isbn10 <http://isbn.example.org/0195444426>;
+   bf:isbn13 <http://isbn.example.org/9780195444421>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2012451667"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:providerStatement "Don Mills, Ont. : Oxford University Press, c2012.";
+   bf:publication [
+     a bf:Provider;
+     bf:copyrightDate "c2012.";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Oxford University Press"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Don Mills, Ont. "
+     ]
+   ];
+   bf:supplementaryContentNote "Includes bibliographical references.";
+   bf:systemNumber <http://www.worldcat.org/oclc/710886482>;
+   bf:titleStatement "Reel Canada : integrated skills through Canadian film" .
+
+<http://example.org/17438799person6> a bf:Person;
+   bf:authorizedAccessPoint "Hashemi, Mohammad, 1969-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Hashemi, Mohammad, 1969-"
+   ];
+   bf:label "Hashemi, Mohammad, 1969-" .
+
+<http://example.org/17438799title26> a bf:Title;
+   bf:label "Reel Canada : integrated skills through Canadian film / Mohammad Hashemi.";
+   bf:subtitle "integrated skills through Canadian film ";
+   bf:titleValue "Reel Canada :" .
+
+<http://example.org/17438799title5> a bf:Title;
+   bf:label "Reel Canada : integrated skills through Canadian film / Mohammad Hashemi.";
+   bf:subtitle "integrated skills through Canadian film ";
+   bf:titleValue "Reel Canada :" .
+
+<http://example.org/17438799topic10> a bf:Topic;
+   bf:authorizedAccessPoint "English language--Problems, exercises, etc";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "English language--Problems, exercises, etc";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "English language";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "English language"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Problems, exercises, etc";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Problems, exercises, etc."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "English language--Problems, exercises, etc" .
+
+<http://example.org/17438799topic11> a bf:Topic;
+   bf:authorizedAccessPoint "English language--Textbooks for second language learners";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "English language--Textbooks for second language learners";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "English language";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "English language"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Textbooks for second language learners";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Textbooks for second language learners."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://www.collectionscanada.gc.ca/obj/900/f11/040004/canadian-subject-headings>
+   ];
+   bf:label "English language--Textbooks for second language learners" .
+
+<http://example.org/17438799topic12> a bf:Topic;
+   bf:authorizedAccessPoint "Anglais (Langue)--Manuels pour allophones";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Anglais (Langue)--Manuels pour allophones";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Anglais (Langue)";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Anglais (Langue)"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Manuels pour allophones";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Manuels pour allophones."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Anglais (Langue)--Manuels pour allophones" .
+
+<http://example.org/17438799topic13> a bf:Topic;
+   bf:authorizedAccessPoint "Anglais (Langue)--Lectures et morceaux choisis--Cinéma--Canada";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Anglais (Langue)--Lectures et morceaux choisis--Cinéma--Canada";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Anglais (Langue)";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Anglais (Langue)"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Lectures et morceaux choisis";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Lectures et morceaux choisis"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Cinéma";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Cinéma"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Canada";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Canada."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Anglais (Langue)--Lectures et morceaux choisis--Cinéma--Canada" .
+
+<http://example.org/17438799topic14> a bf:Topic;
+   bf:authorizedAccessPoint "Anglais (Langue)--Lectures et morceaux choisis pour adultes";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Anglais (Langue)--Lectures et morceaux choisis pour adultes";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Anglais (Langue)";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Anglais (Langue)"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Lectures et morceaux choisis pour adultes";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Lectures et morceaux choisis pour adultes."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Anglais (Langue)--Lectures et morceaux choisis pour adultes" .
+
+<http://example.org/17438799topic15> a bf:Topic;
+   bf:authorizedAccessPoint "Anglais (Langue)--Problèmes et exercices";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Anglais (Langue)--Problèmes et exercices";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Anglais (Langue)";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Anglais (Langue)"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Problèmes et exercices";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Problèmes et exercices."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Anglais (Langue)--Problèmes et exercices" .
+
+<http://example.org/17438799topic8> a bf:Topic;
+   bf:authorizedAccessPoint "Readers--Motion pictures--Canada";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Readers--Motion pictures--Canada";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Readers";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Readers"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Motion pictures";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Motion pictures"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Canada";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Canada."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Readers--Motion pictures--Canada" .
+
+<http://example.org/17438799topic9> a bf:Topic;
+   bf:authorizedAccessPoint "Readers (Adult)";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:Topic;
+     mads:authoritativeLabel "Readers (Adult)";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Readers (Adult)" .
+
+<http://example.org/17438799work19> a bf:Work;
+   bf:authorizedAccessPoint "Culture link ; no. 1";
+   bf:title "Culture link ; no. 1" .
+
+<http://example.org/17438799work20> a bf:Work;
+   bf:authorizedAccessPoint "Payne, Beverley, 1950- Don Mills, Ont. : Oxford University Press, c2012. Reel Canada workbook. Culture link Culture link ;";
+   bf:contributor <http://example.org/17438799agent24>;
+   bf:title "Reel Canada workbook. Culture link Culture link ;" .
+
+<http://example.org/17438799> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Hashemi, Mohammad, 1969- Reel Canada : integrated skills through Canadian film / Mohammad Hashemi.Reel Canada :integrated skills through Canadian film",
+     "hashemimohammad1969reelcanadaintegratedskillsthroughcanadianfilmengworktext"@x-bf-hash;
+   bf:classification <http://example.org/17438799classification18>;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/PE1128>;
+   bf:creator <http://example.org/17438799person6>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:series <http://example.org/17438799work19>;
+   bf:subject <http://example.org/17438799topic8>,
+     <http://example.org/17438799topic9>,
+     <http://example.org/17438799topic10>,
+     <http://example.org/17438799topic11>,
+     <http://example.org/17438799topic12>,
+     <http://example.org/17438799topic13>,
+     <http://example.org/17438799topic14>,
+     <http://example.org/17438799topic15>,
+     <http://id.loc.gov/vocabulary/geographicAreas/n-cn>;
+   bf:supplement <http://example.org/17438799work20>;
+   bf:workTitle <http://example.org/17438799title5> .

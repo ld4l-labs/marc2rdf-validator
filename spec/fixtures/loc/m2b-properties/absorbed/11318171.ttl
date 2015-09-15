@@ -1,0 +1,211 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/11318171annotation20> a bf:Annotation;
+   bf:annotates <http://example.org/11318171>;
+   bf:changeDate "2010-03-14T14:41";
+   bf:derivedFrom <http://example.org/11318171.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/nlc>,
+     <http://id.loc.gov/vocabulary/descriptionAuthentication/isds/c>,
+     <http://id.loc.gov/vocabulary/descriptionAuthentication/pcc>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>,
+     <http://id.loc.gov/vocabulary/organizations/nst>,
+     <http://id.loc.gov/vocabulary/organizations/caoonl>,
+     <http://id.loc.gov/vocabulary/organizations/b2q>,
+     <http://id.loc.gov/vocabulary/organizations/ocolc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/caoonl>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/11318171helditem47> a bf:HeldItem;
+   bf:holdingFor <http://example.org/11318171instance21>;
+   bf:label "F1054.5.M83 C74";
+   bf:shelfMarkLcc "F1054.5.M83 C74",
+     "F5449 M6 A27214 fol." .
+
+<http://example.org/11318171classification14> a bf:Classification;
+   bf:classificationEdition "full",
+     "19";
+   bf:classificationNumber "971.4/28104/025";
+   bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bf:label "971.4/28104/025" .
+
+<http://example.org/11318171instance21> a bf:Instance,
+     bf:Serial;
+   bf:abbreviatedTitle <http://example.org/11318171title24>;
+   bf:dimensions "30 cm.";
+   bf:extent "v. ;";
+   bf:frequencyNote "Annual";
+   bf:instanceOf <http://example.org/11318171>;
+   bf:instanceTitle <http://example.org/11318171title26>,
+     <http://example.org/11318171title27>;
+   bf:issn [
+     a bf:Identifier;
+     bf:identifierAssigner "4";
+     bf:identifierScheme loc_ids:issn;
+     bf:identifierValue "0708-7152"
+   ];
+   bf:keyTitle <http://example.org/11318171title25>;
+   bf:languageNote "Text in English and French.";
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "86649486"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierStatus "canceled/invalid";
+     bf:identifierValue "ce 79031611"
+   ];
+   bf:modeOfIssuance "serial";
+   bf:nban [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "790316110E"
+   ];
+   bf:note "Published: Lovell Litho & Publications, 198-?-1990.",
+     "SERBIB/SERLOC merged record";
+   bf:providerStatement "Montreal : J. Lovell, 1977-1990.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "1977-1990";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "J. Lovell"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Montreal "
+     ]
+   ];
+   bf:serialFirstIssue "1977";
+   bf:serialLastIssue "1989/90.";
+   bf:systemNumber <http://www.worldcat.org/oclc/05528235>;
+   bf:titleStatement "\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain = \"Criss-cross\", street-address directory, metropolitan Montreal.";
+   bf:titleVariation <http://example.org/11318171title28> .
+
+<http://example.org/11318171title24> a bf:Title;
+   bf:label "\"Criss-cross\", annu. rue-adresse, Montr. métrop. (1977)";
+   bf:titleQualifier "(1977)";
+   bf:titleValue "\"Criss-cross\", annu. rue-adresse, Montr. métrop." .
+
+<http://example.org/11318171title25> a bf:Title;
+   bf:label "\"Criss-cross\". L'annuaire rue-adresse. Montréal métropolitain (1977)";
+   bf:titleQualifier "(1977)";
+   bf:titleValue "\"Criss-cross\". L'annuaire rue-adresse. Montréal métropolitain" .
+
+<http://example.org/11318171title26> a bf:Title;
+   bf:label "\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain = \"Criss-cross\", street-address directory, metropolitan Montreal.";
+   bf:subtitle "\"Criss-cross\", street-address directory, metropolitan Montreal.";
+   bf:titleValue "\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain " .
+
+<http://example.org/11318171title27> a bf:Title;
+   bf:titleType "parallel";
+   bf:titleValue "\"Criss-cross\", street-address directory, metropolitan Montreal." .
+
+<http://example.org/11318171title28> a bf:Title;
+   bf:label "\"Criss-cross\", street-address directory, metropolitan Montreal";
+   bf:titleType "parallel";
+   bf:titleValue "\"Criss-cross\", street-address directory, metropolitan Montreal" .
+
+<http://example.org/11318171title5> a bf:Title;
+   bf:label "\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain = \"Criss-cross\", street-address directory, metropolitan Montreal.";
+   bf:subtitle "\"Criss-cross\", street-address directory, metropolitan Montreal.";
+   bf:titleValue "\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain " .
+
+<http://example.org/11318171title6> a bf:Title;
+   bf:titleType "parallel";
+   bf:titleValue "\"Criss-cross\", street-address directory, metropolitan Montreal." .
+
+<http://example.org/11318171topic10> a bf:Topic;
+   bf:authorizedAccessPoint "Rues--Québec (Province)--Montréal, Région de--Répertoires";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Rues--Québec (Province)--Montréal, Région de--Répertoires";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Rues";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Rues"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Québec (Province)";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Québec (Province)"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Montréal, Région de";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Montréal, Région de"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Répertoires";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Répertoires."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://rvm.example.org/rvm>
+   ];
+   bf:label "Rues--Québec (Province)--Montréal, Région de--Répertoires" .
+
+<http://example.org/11318171work16> a bf:Work;
+   bf:authorizedAccessPoint "\"Criss-cross\", street address directory, Metropolitan Montreal";
+   bf:issn <urn:issn:0317-686X>;
+   bf:systemNumber <http://www.worldcat.org/oclc/2441787>;
+   bf:title "\"Criss-cross\", street address directory, Metropolitan Montreal" .
+
+<http://example.org/11318171work17> a bf:Work;
+   bf:authorizedAccessPoint "\"Criss-cross\" suburban Montreal street-address directory";
+   bf:issn <urn:issn:0703-4652>;
+   bf:systemNumber <http://www.worldcat.org/oclc/3979791>;
+   bf:title "\"Criss-cross\" suburban Montreal street-address directory" .
+
+<http://example.org/11318171work18> a bf:Work;
+   bf:authorizedAccessPoint "\"Criss-cross\" Montréal métropolitain";
+   bf:issn <urn:issn:1187-2608>;
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/93641256>;
+   bf:systemNumber <http://www.worldcat.org/oclc/25423761>;
+   bf:title "\"Criss-cross\" Montréal métropolitain" .
+
+<http://example.org/11318171> a bf:Work,
+     bf:Text;
+   bf:absorbed <http://example.org/11318171work17>;
+   bf:authorizedAccessPoint "\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain = \"Criss-cross\", street-address directory, metropolitan Montreal.\"Criss-cross\", l'annuaire rue-adresse, Montréal métropolitain \"Criss-cross\", street-address directory, metropolitan Montreal",
+     "crisscrosslannuairerueadressemontréalmétropolitaincrisscrossstreetaddressdirectorymetropolitanmontrealengworktext"@x-bf-hash;
+   bf:classification <http://example.org/11318171classification14>;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/F1054.5.M83>,
+     <http://id.loc.gov/authorities/classification/F5449%20M6>;
+   bf:continuedBy <http://example.org/11318171work18>;
+   bf:continues <http://example.org/11318171work16>;
+   bf:issnL [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:issnL;
+     bf:identifierValue "0708-7152"
+   ],  [
+     a bf:Identifier;
+     bf:identifierAssigner "4";
+     bf:identifierScheme loc_ids:issnL;
+     bf:identifierValue "0708-7152"
+   ];
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>,
+     <http://id.loc.gov/vocabulary/languages/fre>;
+   bf:subject <http://example.org/11318171topic10>,
+     <http://id.loc.gov/vocabulary/geographicAreas/n-cn-qu>;
+   bf:workTitle <http://example.org/11318171title5>,
+     <http://example.org/11318171title6> .

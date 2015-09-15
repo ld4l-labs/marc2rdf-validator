@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/16859464">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Maine. Legislature. Legislative Youth Advisory Council. ...Biennial report to the Maine Legislature / Legislative Youth Advisory Council...Biennial report to the Maine Legislature</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/16859464title5"/>
+      <bf:creator rdf:resource="http://example.org/16859464jurisdiction6"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:subject rdf:resource="http://example.org/16859464organization8"/>
+      <bf:subject rdf:resource="http://example.org/16859464topic9"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us-me"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/KFM91.M5"/>
+      <bf:continues rdf:resource="http://example.org/16859464work12"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">mainelegislaturelegislativeyouthadvisorycouncilbiennialreporttothemainelegislatureengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/16859464work12">
+      <bf:title>Annual report of Maine Legislative Youth Advisory Council</bf:title>
+      <bf:authorizedAccessPoint>Maine. Legislature. Legislative Youth Advisory Council. Annual report of Maine Legislative Youth Advisory Council</bf:authorizedAccessPoint>
+      <bf:lccn rdf:resource="http://id.loc.gov/authorities/test/identifiers/lccn/2004201803"/>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/51849067"/>
+      <bf:contributor rdf:resource="http://example.org/16859464agent18"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/16859464instance15">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Serial"/>
+      <bf:instanceTitle rdf:resource="http://example.org/16859464title18"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Office of Policy and Legal Analysis</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Augusta, Me. </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>2007-</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>serial</bf:modeOfIssuance>
+      <bf:extent>v. :</bf:extent>
+      <bf:dimensions>28 cm.</bf:dimensions>
+      <bf:illustrationNote>ill. ;</bf:illustrationNote>
+      <bf:titleStatement>...Biennial report to the Maine Legislature</bf:titleStatement>
+      <bf:providerStatement>Augusta, Me. : Office of Policy and Legal Analysis, 2007-</bf:providerStatement>
+      <bf:frequencyNote>Biennial</bf:frequencyNote>
+      <bf:note>Description based on: 2007; title from cover</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>2011215139</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/184987547"/>
+      <bf:serialFirstIssue>2007</bf:serialFirstIssue>
+      <bf:instanceOf rdf:resource="http://example.org/16859464"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/16859464annotation14">
+      <bf:derivedFrom rdf:resource="http://example.org/16859464.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/melr"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2011-07-07T07:08</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/16859464"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/16859464helditem32">
+      <bf:label>KFM91.M5 A165</bf:label>
+      <bf:shelfMarkLcc>KFM91.M5 A165</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://example.org/16859464instance15"/>
+   </bf:HeldItem>
+   <bf:Title rdf:about="http://example.org/16859464title5">
+      <bf:label>...Biennial report to the Maine Legislature / Legislative Youth Advisory Council</bf:label>
+      <bf:titleValue>...Biennial report to the Maine Legislature</bf:titleValue>
+   </bf:Title>
+   <bf:Jurisdiction rdf:about="http://example.org/16859464jurisdiction6">
+      <bf:label>Maine. Legislature. Legislative Youth Advisory Council.</bf:label>
+      <bf:authorizedAccessPoint>Maine. Legislature. Legislative Youth Advisory Council.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Maine. Legislature. Legislative Youth Advisory Council.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Jurisdiction>
+   <bf:Organization rdf:about="http://example.org/16859464organization8">
+      <bf:authorizedAccessPoint>Maine. Legislature. Legislative Youth Advisory Council.</bf:authorizedAccessPoint>
+      <bf:label>Maine. Legislature. Legislative Youth Advisory Council.</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#CorporateName"/>
+            <madsrdf:authoritativeLabel>Maine. Legislature. Legislative Youth Advisory Council.</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Topic rdf:about="http://example.org/16859464topic9">
+      <bf:authorizedAccessPoint>Youth--Maine</bf:authorizedAccessPoint>
+      <bf:label>Youth--Maine</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Youth--Maine</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Youth</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Youth</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Maine</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Maine.</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Agent rdf:about="http://example.org/16859464agent18">
+      <bf:label>Maine. Legislature. Legislative Youth Advisory Council.</bf:label>
+      <bf:authorizedAccessPoint>Maine. Legislature. Legislative Youth Advisory Council.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Maine. Legislature. Legislative Youth Advisory Council.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Agent>
+   <bf:Title rdf:about="http://example.org/16859464title18">
+      <bf:label>...Biennial report to the Maine Legislature / Legislative Youth Advisory Council</bf:label>
+      <bf:titleValue>...Biennial report to the Maine Legislature</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

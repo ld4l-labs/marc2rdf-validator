@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/11515605">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/MovingImage"/>
+      <bf:authorizedAccessPoint>Ames, Alfred, 1866-1950 From stump to ship (Motion picture 1986)</bf:authorizedAccessPoint>
+      <madsrdf:authoritativeLabel>From stump to ship (Motion picture 1986)</madsrdf:authoritativeLabel>
+      <bf:workTitle rdf:resource="http://example.org/11515605title6"/>
+      <relators:fmk rdf:resource="http://example.org/11515605person7"/>
+      <bf:contributor rdf:resource="http://example.org/11515605person8"/>
+      <relators:fmp rdf:resource="http://example.org/11515605person9"/>
+      <relators:fmp rdf:resource="http://example.org/11515605person10"/>
+      <relators:fmp rdf:resource="http://example.org/11515605person11"/>
+      <relators:nrt rdf:resource="http://example.org/11515605person12"/>
+      <relators:spn rdf:resource="http://example.org/11515605organization13"/>
+      <relators:fds rdf:resource="http://example.org/11515605organization14"/>
+      <bf:contributor rdf:resource="http://example.org/11515605organization15"/>
+      <bf:event rdf:resource="http://example.org/11515605event16"/>
+      <bf:note>Filmed in 1930 in Washington County, Maine.</bf:note>
+      <bf:awardNote>This film was selected for the National Film Registry.</bf:awardNote>
+      <bf:contentCategory rdf:resource="http://id.loc.gov/vocabulary/contentTypes/tdi"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:subject rdf:resource="http://example.org/11515605topic22"/>
+      <bf:subject rdf:resource="http://example.org/11515605topic23"/>
+      <bf:subject rdf:resource="http://example.org/11515605organization24"/>
+      <bf:subject rdf:resource="http://example.org/11515605topic25"/>
+      <bf:subject rdf:resource="http://example.org/11515605topic26"/>
+      <bf:subject rdf:resource="http://example.org/11515605topic27"/>
+      <bf:subject rdf:resource="http://example.org/11515605topic28"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us-me"/>
+      <bf:relatedResource rdf:resource="http://example.org/11515605work30"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">amesalfred18661950kanehoward18871946weissdavids1954sheldonkarannevisonhenrysampletim1951universityofmaineatorononortheasthistoricfilmorganizationcopyrightcollectionlibraryofcongressfromstumptoshipmotionpicture1986engworkmovingimage</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11515605work30">
+      <bf:title>From stump to ship (Motion picture 1930)</bf:title>
+      <bf:authorizedAccessPoint>From stump to ship (Motion picture 1930)</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/11515605instance33">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/11515605title36"/>
+      <bf:titleVariation rdf:resource="http://example.org/11515605title37"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Northeast Historic Film</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Bucksport, Maine </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>[1986] ©1985</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:soundContent>Sound on medium</bf:soundContent>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>1 film reel (26 min., 24 sec., 990 ft.) : viewing print.</bf:extent>
+      <bf:dimensions>16 mm</bf:dimensions>
+      <bf:illustrationNote>sound, black and white, positive ;</bf:illustrationNote>
+      <bf:titleStatement>From stump to ship</bf:titleStatement>
+      <bf:edition>Reconstruction with added prologue and sound</bf:edition>
+      <bf:editionResponsibility>A Project of The University of Maine at Orono and Northeast Archives of Folklore and Oral History ; executive producer and project director, Henry Nevison.</bf:editionResponsibility>
+      <bf:providerStatement>Bucksport, Maine : Northeast Historic Film, 1986 ©1985.</bf:providerStatement>
+      <bf:creditsNote>Credits: Camera, Alfred Ames, Dr. Howard Kane ; traditional music, Sandy Ives, Albert Pelletier, Bill Schubeck ; script editor, Karan Sheldon ; film editors, Henry Nevison, David Weiss.</bf:creditsNote>
+      <bf:performerNote>Narrator: Tim Sample.</bf:performerNote>
+      <bf:note>Generation: composite positive.</bf:note>
+      <bf:note>"The long log drive: a spring journey down icy streams and rivers moving logs from the forest to the mill for sawing into boards, laths, and clapboards. For more than 150 years, logging techniques remained the same. Men cut trees by hand and loaded them on horse-drawn sleds to be hauled over snow to the river. Skilled river drivers maneuvered the logs downstream, risking their limbs and lives every day. This film survives as a record of the long log business. Highly detailed scenes, filmed year-round, are uniquely enhanced by the original script, written to be read with the silent footage in the 1930s. The soundtrack is brought to life by Tim Sample, narrator and renowned Maine humorist, in the role of the filmmaker, Alfred Ames"--National Archives and Record Service WWW site.</bf:note>
+      <bf:note>Made with the support of The Maine Humanities Council and the National Endowment for the Humanities and Champion International Corporation.</bf:note>
+      <bf:note>This film was selected for the National Film Registry.</bf:note>
+      <bf:note>According to the Northeast Historic Film WWW site, the original script was written by Alfred Ames and his nephew, Rufus Fuller.</bf:note>
+      <bf:note>Sources used: Wikipedia WWW site, viewed Oct. 7, 2010; Northeast Historic Film WWW site (From Stump to Ship : Forgotten Film to the Formation of a Film Archives article, by Janna Jones), viewed Oct. 7, 2010; National Archives and Record Service WWW site, viewed Sep. 28, 2010.</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>88708240</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:legalDeposit>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/legalDeposit"/>
+            <bf:identifierValue>PA358-831</bf:identifierValue>
+            <bf:identifierAssigner>U.S. Copyright Office</bf:identifierAssigner>
+         </bf:Identifier>
+      </bf:legalDeposit>
+      <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/g"/>
+      <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/mr"/>
+      <bf:instanceOf rdf:resource="http://example.org/11515605"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/11515605annotation32">
+      <bf:derivedFrom rdf:resource="http://example.org/11515605.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+      <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/isbd"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2011-07-25T10:28</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/11515605"/>
+   </bf:Annotation>
+   <bf:Summary rdf:about="http://example.org/11515605summary21">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Summary"/>
+      <bf:label>Summary</bf:label>
+      <bf:annotationAssertedBy rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:annotationBody>"The long log drive: a spring journey down icy streams and rivers moving logs from the forest to the mill for sawing into boards, laths, and clapboards. For more than 150 years, logging techniques remained the same. Men cut trees by hand and loaded them on horse-drawn sleds to be hauled over snow to the river. Skilled river drivers maneuvered the logs downstream, risking their limbs and lives every day. This film survives as a record of the long log business. Highly detailed scenes, filmed year-round, are uniquely enhanced by the original script, written to be read with the silent footage in the 1930s. The soundtrack is brought to life by Tim Sample, narrator and renowned Maine humorist, in the role of the filmmaker, Alfred Ames"--National Archives and Record Service WWW site.</bf:annotationBody>
+      <bf:summaryOf rdf:resource="http://example.org/11515605"/>
+   </bf:Summary>
+   <bf:Title rdf:about="http://example.org/11515605title6">
+      <bf:titleValue>From stump to ship (Motion picture : 1986)</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/11515605person7">
+      <bf:label>Ames, Alfred, 1866-1950</bf:label>
+      <bf:authorizedAccessPoint>Ames, Alfred, 1866-1950</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Ames, Alfred, 1866-1950</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11515605person8">
+      <bf:label>Kane, Howard, 1887-1946</bf:label>
+      <bf:authorizedAccessPoint>Kane, Howard, 1887-1946</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Kane, Howard, 1887-1946</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11515605person9">
+      <bf:label>Weiss, David S., 1954-</bf:label>
+      <bf:authorizedAccessPoint>Weiss, David S., 1954-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Weiss, David S., 1954-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11515605person10">
+      <bf:label>Sheldon, Karan</bf:label>
+      <bf:authorizedAccessPoint>Sheldon, Karan</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Sheldon, Karan</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11515605person11">
+      <bf:label>Nevison, Henry</bf:label>
+      <bf:authorizedAccessPoint>Nevison, Henry</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Nevison, Henry</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Person rdf:about="http://example.org/11515605person12">
+      <bf:label>Sample, Tim, 1951-</bf:label>
+      <bf:authorizedAccessPoint>Sample, Tim, 1951-</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Sample, Tim, 1951-</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Organization rdf:about="http://example.org/11515605organization13">
+      <bf:label>University of Maine at Orono</bf:label>
+      <bf:authorizedAccessPoint>University of Maine at Orono</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>University of Maine at Orono</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://example.org/11515605organization14">
+      <bf:label>Northeast Historic Film (Organization)</bf:label>
+      <bf:authorizedAccessPoint>Northeast Historic Film (Organization)</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Northeast Historic Film (Organization)</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Organization rdf:about="http://example.org/11515605organization15">
+      <bf:label>Copyright Collection (Library of Congress)</bf:label>
+      <bf:authorizedAccessPoint>Copyright Collection (Library of Congress)</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Copyright Collection (Library of Congress)</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Event rdf:about="http://example.org/11515605event16">
+      <bf:eventDate rdf:datatype="xsd:dateTime">1930----</bf:eventDate>
+      <bf:eventPlace rdf:resource="http://id.loc.gov/authorities/classification/G3733.W4"/>
+   </bf:Event>
+   <bf:Topic rdf:about="http://example.org/11515605topic22">
+      <bf:authorizedAccessPoint>Logging--Maine</bf:authorizedAccessPoint>
+      <bf:label>Logging--Maine</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Logging--Maine</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Logging</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Logging</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Maine</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Maine.</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11515605topic23">
+      <bf:authorizedAccessPoint>Lumber trade--Maine</bf:authorizedAccessPoint>
+      <bf:label>Lumber trade--Maine</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Lumber trade--Maine</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Lumber trade</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Lumber trade</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:Geographic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Maine</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GeographicElement>
+                        <madsrdf:elementValue>Maine.</madsrdf:elementValue>
+                     </madsrdf:GeographicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Geographic>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Organization rdf:about="http://example.org/11515605organization24">
+      <bf:authorizedAccessPoint>Machias Lumber Company (Machias, Me.)</bf:authorizedAccessPoint>
+      <bf:label>Machias Lumber Company (Machias, Me.)</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#CorporateName"/>
+            <madsrdf:authoritativeLabel>Machias Lumber Company (Machias, Me.)</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Organization>
+   <bf:Topic rdf:about="http://example.org/11515605topic25">
+      <bf:authorizedAccessPoint>Industrial films</bf:authorizedAccessPoint>
+      <bf:label>Industrial films</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <madsrdf:authoritativeLabel>Industrial films</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lcgft"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lcgft</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11515605topic26">
+      <bf:authorizedAccessPoint>Amateur films</bf:authorizedAccessPoint>
+      <bf:label>Amateur films</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <madsrdf:authoritativeLabel>Amateur films</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lcgft"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lcgft</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11515605topic27">
+      <bf:authorizedAccessPoint>Short films</bf:authorizedAccessPoint>
+      <bf:label>Short films</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <madsrdf:authoritativeLabel>Short films</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lcgft"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lcgft</bf:authoritySource>
+   </bf:Topic>
+   <bf:Topic rdf:about="http://example.org/11515605topic28">
+      <bf:authorizedAccessPoint>Nonfiction films</bf:authorizedAccessPoint>
+      <bf:label>Nonfiction films</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <madsrdf:authoritativeLabel>Nonfiction films</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/vocabulary/subjectSchemes/lcgft"/>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+      <bf:authoritySource>http://id.loc.gov/vocabulary/subjectSchemes/lcgft</bf:authoritySource>
+   </bf:Topic>
+   <bf:Title rdf:about="http://example.org/11515605title36">
+      <bf:label>From stump to ship / a film by Alfred Ames ; producers, David Weiss and Karan Sheldon.</bf:label>
+      <bf:titleValue>From stump to ship</bf:titleValue>
+   </bf:Title>
+   <bf:Title rdf:about="http://example.org/11515605title37">
+      <bf:titleType>Variant title from the Internet movie database:</bf:titleType>
+      <bf:label>Variant title from the Internet movie database: From Stump to Ship: A 1930 Logging Film</bf:label>
+      <bf:titleValue>From Stump to Ship: A 1930 Logging Film</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

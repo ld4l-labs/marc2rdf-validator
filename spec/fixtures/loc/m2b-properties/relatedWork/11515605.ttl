@@ -1,0 +1,300 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix marcrelators: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/11515605annotation32> a bf:Annotation;
+   bf:annotates <http://example.org/11515605>;
+   bf:changeDate "2011-07-25T10:28";
+   bf:derivedFrom <http://example.org/11515605.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda>,
+     <http://id.loc.gov/vocabulary/descriptionConventions/isbd>;
+   bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/11515605instance33> a bf:Instance,
+     bf:Monograph;
+   bf:carrierCategory <http://id.loc.gov/vocabulary/carriers/mr>;
+   bf:creditsNote "Credits: Camera, Alfred Ames, Dr. Howard Kane ; traditional music, Sandy Ives, Albert Pelletier, Bill Schubeck ; script editor, Karan Sheldon ; film editors, Henry Nevison, David Weiss.";
+   bf:dimensions "16 mm";
+   bf:edition "Reconstruction with added prologue and sound";
+   bf:editionResponsibility "A Project of The University of Maine at Orono and Northeast Archives of Folklore and Oral History ; executive producer and project director, Henry Nevison.";
+   bf:extent "1 film reel (26 min., 24 sec., 990 ft.) : viewing print.";
+   bf:illustrationNote "sound, black and white, positive ;";
+   bf:instanceOf <http://example.org/11515605>;
+   bf:instanceTitle <http://example.org/11515605title36>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "88708240"
+   ];
+   bf:legalDeposit [
+     a bf:Identifier;
+     bf:identifierAssigner "U.S. Copyright Office";
+     bf:identifierScheme loc_ids:legalDeposit;
+     bf:identifierValue "PA358-831"
+   ];
+   bf:mediaCategory <http://id.loc.gov/vocabulary/mediaTypes/g>;
+   bf:modeOfIssuance "single unit";
+   bf:note "Generation: composite positive.",
+     "\"The long log drive: a spring journey down icy streams and rivers moving logs from the forest to the mill for sawing into boards, laths, and clapboards. For more than 150 years, logging techniques remained the same. Men cut trees by hand and loaded them on horse-drawn sleds to be hauled over snow to the river. Skilled river drivers maneuvered the logs downstream, risking their limbs and lives every day. This film survives as a record of the long log business. Highly detailed scenes, filmed year-round, are uniquely enhanced by the original script, written to be read with the silent footage in the 1930s. The soundtrack is brought to life by Tim Sample, narrator and renowned Maine humorist, in the role of the filmmaker, Alfred Ames\"--National Archives and Record Service WWW site.",
+     "Made with the support of The Maine Humanities Council and the National Endowment for the Humanities and Champion International Corporation.",
+     "This film was selected for the National Film Registry.",
+     "According to the Northeast Historic Film WWW site, the original script was written by Alfred Ames and his nephew, Rufus Fuller.",
+     "Sources used: Wikipedia WWW site, viewed Oct. 7, 2010; Northeast Historic Film WWW site (From Stump to Ship : Forgotten Film to the Formation of a Film Archives article, by Janna Jones), viewed Oct. 7, 2010; National Archives and Record Service WWW site, viewed Sep. 28, 2010.";
+   bf:performerNote "Narrator: Tim Sample.";
+   bf:providerStatement "Bucksport, Maine : Northeast Historic Film, 1986 ©1985.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "[1986] ©1985";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Northeast Historic Film"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Bucksport, Maine "
+     ]
+   ];
+   bf:soundContent "Sound on medium";
+   bf:titleStatement "From stump to ship";
+   bf:titleVariation <http://example.org/11515605title37> .
+
+<http://example.org/11515605summary21> a bf:Summary;
+   bf:annotationAssertedBy <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:annotationBody "\"The long log drive: a spring journey down icy streams and rivers moving logs from the forest to the mill for sawing into boards, laths, and clapboards. For more than 150 years, logging techniques remained the same. Men cut trees by hand and loaded them on horse-drawn sleds to be hauled over snow to the river. Skilled river drivers maneuvered the logs downstream, risking their limbs and lives every day. This film survives as a record of the long log business. Highly detailed scenes, filmed year-round, are uniquely enhanced by the original script, written to be read with the silent footage in the 1930s. The soundtrack is brought to life by Tim Sample, narrator and renowned Maine humorist, in the role of the filmmaker, Alfred Ames\"--National Archives and Record Service WWW site.";
+   bf:label "Summary";
+   bf:summaryOf <http://example.org/11515605> .
+
+<http://example.org/11515605event16> a bf:Event;
+   bf:eventDate "1930----"^^<xsd:dateTime>;
+   bf:eventPlace <http://id.loc.gov/authorities/classification/G3733.W4> .
+
+<http://example.org/11515605organization13> a bf:Organization;
+   bf:authorizedAccessPoint "University of Maine at Orono";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "University of Maine at Orono"
+   ];
+   bf:label "University of Maine at Orono" .
+
+<http://example.org/11515605organization14> a bf:Organization;
+   bf:authorizedAccessPoint "Northeast Historic Film (Organization)";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Northeast Historic Film (Organization)"
+   ];
+   bf:label "Northeast Historic Film (Organization)" .
+
+<http://example.org/11515605organization15> a bf:Organization;
+   bf:authorizedAccessPoint "Copyright Collection (Library of Congress)";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Copyright Collection (Library of Congress)"
+   ];
+   bf:label "Copyright Collection (Library of Congress)" .
+
+<http://example.org/11515605organization24> a bf:Organization;
+   bf:authorizedAccessPoint "Machias Lumber Company (Machias, Me.)";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:CorporateName;
+     mads:authoritativeLabel "Machias Lumber Company (Machias, Me.)";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Machias Lumber Company (Machias, Me.)" .
+
+<http://example.org/11515605person10> a bf:Person;
+   bf:authorizedAccessPoint "Sheldon, Karan";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sheldon, Karan"
+   ];
+   bf:label "Sheldon, Karan" .
+
+<http://example.org/11515605person11> a bf:Person;
+   bf:authorizedAccessPoint "Nevison, Henry";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Nevison, Henry"
+   ];
+   bf:label "Nevison, Henry" .
+
+<http://example.org/11515605person12> a bf:Person;
+   bf:authorizedAccessPoint "Sample, Tim, 1951-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Sample, Tim, 1951-"
+   ];
+   bf:label "Sample, Tim, 1951-" .
+
+<http://example.org/11515605person7> a bf:Person;
+   bf:authorizedAccessPoint "Ames, Alfred, 1866-1950";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Ames, Alfred, 1866-1950"
+   ];
+   bf:label "Ames, Alfred, 1866-1950" .
+
+<http://example.org/11515605person8> a bf:Person;
+   bf:authorizedAccessPoint "Kane, Howard, 1887-1946";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kane, Howard, 1887-1946"
+   ];
+   bf:label "Kane, Howard, 1887-1946" .
+
+<http://example.org/11515605person9> a bf:Person;
+   bf:authorizedAccessPoint "Weiss, David S., 1954-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Weiss, David S., 1954-"
+   ];
+   bf:label "Weiss, David S., 1954-" .
+
+<http://example.org/11515605title36> a bf:Title;
+   bf:label "From stump to ship / a film by Alfred Ames ; producers, David Weiss and Karan Sheldon.";
+   bf:titleValue "From stump to ship" .
+
+<http://example.org/11515605title37> a bf:Title;
+   bf:label "Variant title from the Internet movie database: From Stump to Ship: A 1930 Logging Film";
+   bf:titleType "Variant title from the Internet movie database:";
+   bf:titleValue "From Stump to Ship: A 1930 Logging Film" .
+
+<http://example.org/11515605title6> a bf:Title;
+   bf:titleValue "From stump to ship (Motion picture : 1986)" .
+
+<http://example.org/11515605topic22> a bf:Topic;
+   bf:authorizedAccessPoint "Logging--Maine";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Logging--Maine";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Logging";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Logging"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Maine";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Maine."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Logging--Maine" .
+
+<http://example.org/11515605topic23> a bf:Topic;
+   bf:authorizedAccessPoint "Lumber trade--Maine";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Lumber trade--Maine";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Lumber trade";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Lumber trade"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Maine";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Maine."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Lumber trade--Maine" .
+
+<http://example.org/11515605topic25> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Industrial films";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Industrial films";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Industrial films" .
+
+<http://example.org/11515605topic26> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Amateur films";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Amateur films";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Amateur films" .
+
+<http://example.org/11515605topic27> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Short films";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Short films";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Short films" .
+
+<http://example.org/11515605topic28> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/lcgft";
+   bf:authorizedAccessPoint "Nonfiction films";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Nonfiction films";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/lcgft>
+   ];
+   bf:label "Nonfiction films" .
+
+<http://example.org/11515605work30> a bf:Work;
+   bf:authorizedAccessPoint "From stump to ship (Motion picture 1930)";
+   bf:title "From stump to ship (Motion picture 1930)" .
+
+<http://example.org/11515605> a bf:Work,
+     bf:MovingImage;
+   bf:authorizedAccessPoint "Ames, Alfred, 1866-1950 From stump to ship (Motion picture 1986)",
+     "amesalfred18661950kanehoward18871946weissdavids1954sheldonkarannevisonhenrysampletim1951universityofmaineatorononortheasthistoricfilmorganizationcopyrightcollectionlibraryofcongressfromstumptoshipmotionpicture1986engworkmovingimage"@x-bf-hash;
+   bf:awardNote "This film was selected for the National Film Registry.";
+   bf:contentCategory <http://id.loc.gov/vocabulary/contentTypes/tdi>;
+   bf:contributor <http://example.org/11515605person8>,
+     <http://example.org/11515605organization15>;
+   bf:event <http://example.org/11515605event16>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:note "Filmed in 1930 in Washington County, Maine.";
+   bf:relatedResource <http://example.org/11515605work30>;
+   bf:subject <http://example.org/11515605topic22>,
+     <http://example.org/11515605topic23>,
+     <http://example.org/11515605organization24>,
+     <http://example.org/11515605topic25>,
+     <http://example.org/11515605topic26>,
+     <http://example.org/11515605topic27>,
+     <http://example.org/11515605topic28>,
+     <http://id.loc.gov/vocabulary/geographicAreas/n-us-me>;
+   bf:workTitle <http://example.org/11515605title6>;
+   marcrelators:fds <http://example.org/11515605organization14>;
+   marcrelators:fmk <http://example.org/11515605person7>;
+   marcrelators:fmp <http://example.org/11515605person9>,
+     <http://example.org/11515605person10>,
+     <http://example.org/11515605person11>;
+   marcrelators:nrt <http://example.org/11515605person12>;
+   marcrelators:spn <http://example.org/11515605organization13>;
+   mads:authoritativeLabel "From stump to ship (Motion picture 1986)" .

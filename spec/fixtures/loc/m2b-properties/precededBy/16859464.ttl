@@ -1,0 +1,133 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/16859464annotation14> a bf:Annotation;
+   bf:annotates <http://example.org/16859464>;
+   bf:changeDate "2011-07-07T07:08";
+   bf:derivedFrom <http://example.org/16859464.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/melr>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/16859464helditem32> a bf:HeldItem;
+   bf:holdingFor <http://example.org/16859464instance15>;
+   bf:label "KFM91.M5 A165";
+   bf:shelfMarkLcc "KFM91.M5 A165" .
+
+<http://example.org/16859464agent18> a bf:Agent;
+   bf:authorizedAccessPoint "Maine. Legislature. Legislative Youth Advisory Council.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Maine. Legislature. Legislative Youth Advisory Council."
+   ];
+   bf:label "Maine. Legislature. Legislative Youth Advisory Council." .
+
+<http://example.org/16859464instance15> a bf:Instance,
+     bf:Serial;
+   bf:dimensions "28 cm.";
+   bf:extent "v. :";
+   bf:frequencyNote "Biennial";
+   bf:illustrationNote "ill. ;";
+   bf:instanceOf <http://example.org/16859464>;
+   bf:instanceTitle <http://example.org/16859464title18>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2011215139"
+   ];
+   bf:modeOfIssuance "serial";
+   bf:note "Description based on: 2007; title from cover";
+   bf:providerStatement "Augusta, Me. : Office of Policy and Legal Analysis, 2007-";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "2007-";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Office of Policy and Legal Analysis"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Augusta, Me. "
+     ]
+   ];
+   bf:serialFirstIssue "2007";
+   bf:systemNumber <http://www.worldcat.org/oclc/184987547>;
+   bf:titleStatement "...Biennial report to the Maine Legislature" .
+
+<http://example.org/16859464jurisdiction6> a bf:Jurisdiction;
+   bf:authorizedAccessPoint "Maine. Legislature. Legislative Youth Advisory Council.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Maine. Legislature. Legislative Youth Advisory Council."
+   ];
+   bf:label "Maine. Legislature. Legislative Youth Advisory Council." .
+
+<http://example.org/16859464organization8> a bf:Organization;
+   bf:authorizedAccessPoint "Maine. Legislature. Legislative Youth Advisory Council.";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:CorporateName;
+     mads:authoritativeLabel "Maine. Legislature. Legislative Youth Advisory Council.";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Maine. Legislature. Legislative Youth Advisory Council." .
+
+<http://example.org/16859464title18> a bf:Title;
+   bf:label "...Biennial report to the Maine Legislature / Legislative Youth Advisory Council";
+   bf:titleValue "...Biennial report to the Maine Legislature" .
+
+<http://example.org/16859464title5> a bf:Title;
+   bf:label "...Biennial report to the Maine Legislature / Legislative Youth Advisory Council";
+   bf:titleValue "...Biennial report to the Maine Legislature" .
+
+<http://example.org/16859464topic9> a bf:Topic;
+   bf:authorizedAccessPoint "Youth--Maine";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Youth--Maine";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Youth";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Youth"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "Maine";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "Maine."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Youth--Maine" .
+
+<http://example.org/16859464work12> a bf:Work;
+   bf:authorizedAccessPoint "Maine. Legislature. Legislative Youth Advisory Council. Annual report of Maine Legislative Youth Advisory Council";
+   bf:contributor <http://example.org/16859464agent18>;
+   bf:lccn <http://id.loc.gov/authorities/test/identifiers/lccn/2004201803>;
+   bf:systemNumber <http://www.worldcat.org/oclc/51849067>;
+   bf:title "Annual report of Maine Legislative Youth Advisory Council" .
+
+<http://example.org/16859464> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Maine. Legislature. Legislative Youth Advisory Council. ...Biennial report to the Maine Legislature / Legislative Youth Advisory Council...Biennial report to the Maine Legislature",
+     "mainelegislaturelegislativeyouthadvisorycouncilbiennialreporttothemainelegislatureengworktext"@x-bf-hash;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/KFM91.M5>;
+   bf:continues <http://example.org/16859464work12>;
+   bf:creator <http://example.org/16859464jurisdiction6>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:subject <http://example.org/16859464organization8>,
+     <http://example.org/16859464topic9>,
+     <http://id.loc.gov/vocabulary/geographicAreas/n-us-me>;
+   bf:workTitle <http://example.org/16859464title5> .

@@ -1,0 +1,126 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/14342057annotation19> a bf:Annotation;
+   bf:annotates <http://example.org/14342057>;
+   bf:changeDate "2008-07-07T17:23";
+   bf:derivedFrom <http://example.org/14342057.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/njp>,
+     <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/frpjt>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/14342057helditem40> a bf:HeldItem;
+   bf:holdingFor <http://example.org/14342057instance20>;
+   bf:label "PA6235 .A2 2002";
+   bf:shelfMarkLcc "PA6235 .A2 2002" .
+
+<http://example.org/14342057instance20> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "23 cm.";
+   bf:extent "2 v. :";
+   bf:illustrationNote "ill., maps ;";
+   bf:instanceOf <http://example.org/14342057>;
+   bf:instanceTitle <http://example.org/14342057title23>;
+   bf:isbn10 <http://isbn.example.org/2841031276>;
+   bf:isbn13 <http://isbn.example.org/9782841031276>;
+   bf:languageNote "In Latin; introductory matters and marginal notes in French.";
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2006464780"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:providerStatement "Chantilly : Musée Condé ; Bordeaux : William Blake & Co. ; c2002.";
+   bf:publication [
+     a bf:Provider;
+     bf:copyrightDate "c2002.";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Musée Condé "
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Chantilly "
+     ]
+   ],  [
+     a bf:Provider;
+     bf:copyrightDate "c2002.";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "William Blake & Co. "
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Bordeaux "
+     ]
+   ];
+   bf:supplementaryContentNote "Includes bibliographical references.";
+   bf:systemNumber [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(CStRLIN)NJPGV4078532-B"
+   ],  [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:systemNumber;
+     bf:identifierValue "(NjP)4078532"
+   ];
+   bf:titleStatement "\"Somme, c'est César--\" : première reproduction, en fac-simile, de l'exemplaire des Commentaires de César, annoté par Montaigne" .
+
+<http://example.org/14342057person7> a bf:Person;
+   bf:authorizedAccessPoint "Caesar, Julius.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Caesar, Julius."
+   ];
+   bf:label "Caesar, Julius." .
+
+<http://example.org/14342057person8> a bf:Person;
+   bf:authorizedAccessPoint "Montaigne, Michel de, 1533-1592.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Montaigne, Michel de, 1533-1592."
+   ];
+   bf:label "Montaigne, Michel de, 1533-1592." .
+
+<http://example.org/14342057person9> a bf:Person;
+   bf:authorizedAccessPoint "Gallet, André.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Gallet, André."
+   ];
+   bf:label "Gallet, André." .
+
+<http://example.org/14342057title23> a bf:Title;
+   bf:label "\"Somme, c'est César--\" : première reproduction, en fac-simile, de l'exemplaire des Commentaires de César, annoté par Montaigne / Michel de Montaigne ; publié par André Gallet ; avec une introduction par André Gallet ; une notice bibliographique de Francis Pottiée-Sperry ; et une note historique par Emmanuelle Toulet.";
+   bf:subtitle "première reproduction, en fac-simile, de l'exemplaire des Commentaires de César, annoté par Montaigne ";
+   bf:titleValue "\"Somme, c'est César--\" :" .
+
+<http://example.org/14342057title6> a bf:Title;
+   bf:titleValue "Works." .
+
+<http://example.org/14342057work17> a bf:Work;
+   bf:authorizedAccessPoint "C. Iulii Caesaris Commentarii, novis emendationibus illustrati";
+   bf:title "C. Iulii Caesaris Commentarii, novis emendationibus illustrati" .
+
+<http://example.org/14342057> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Caesar, Julius. Works. 2003",
+     "caesarjuliusmontaignemichelde15331592galletandréworks2003freworktext"@x-bf-hash;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/PA6235>;
+   bf:contributor <http://example.org/14342057person8>,
+     <http://example.org/14342057person9>;
+   bf:creator <http://example.org/14342057person7>;
+   bf:language <http://id.loc.gov/vocabulary/languages/fre>,
+     <http://id.loc.gov/vocabulary/languages/lat>;
+   bf:originalVersion <http://example.org/14342057work17>;
+   bf:subject <http://id.loc.gov/vocabulary/geographicAreas/e>,
+     <http://id.loc.gov/vocabulary/geographicAreas/ff>,
+     <http://id.loc.gov/vocabulary/geographicAreas/aw>;
+   bf:workTitle <http://example.org/14342057title6>;
+   mads:authoritativeLabel "Works. 2003" .

@@ -1,0 +1,113 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/3599904annotation13> a bf:Annotation;
+   bf:annotates <http://example.org/3599904>;
+   bf:changeDate "1985-03-13T00:00";
+   bf:derivedFrom <http://example.org/3599904.marcxml.xml>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/nonisbd>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/3599904helditem28> a bf:HeldItem;
+   bf:holdingFor <http://example.org/3599904instance14>;
+   bf:label "BT736.2 .W42 1808a";
+   bf:shelfMarkLcc "BT736.2 .W42 1808a" .
+
+<http://example.org/3599904instance14> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "22 cm.";
+   bf:extent "52 p.";
+   bf:instanceOf <http://example.org/3599904>;
+   bf:instanceTitle <http://example.org/3599904title17>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "70137560"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:note "Facsim. reprint.";
+   bf:providerStatement "New York, J. S. Ozer, 1972";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "1972]";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "J. S. Ozer"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "New York"
+     ]
+   ];
+   bf:title "essay on war"@x-bf-sort;
+   bf:titleStatement "An essay on war. Proving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church." .
+
+<http://example.org/3599904person7> a bf:Person;
+   bf:authorizedAccessPoint "Wells, John I.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Wells, John I."
+   ];
+   bf:label "Wells, John I." .
+
+<http://example.org/3599904title17> a bf:Title;
+   bf:label "An essay on war. Proving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church. Hartford, Printed by Hudson and Goodwin, 1808.";
+   bf:subtitle "Proving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church.";
+   bf:titleValue "An essay on war" .
+
+<http://example.org/3599904title5> a bf:Title;
+   bf:label "An essay on war. Proving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church. Hartford, Printed by Hudson and Goodwin, 1808.";
+   bf:subtitle "Proving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church.";
+   bf:titleValue "An essay on war" .
+
+<http://example.org/3599904topic9> a bf:Topic;
+   bf:authorizedAccessPoint "War--Religious aspects--Christianity";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "War--Religious aspects--Christianity";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "War";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "War"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Religious aspects";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Religious aspects"
+           ])
+       ] [
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Christianity";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Christianity."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "War--Religious aspects--Christianity" .
+
+<http://example.org/3599904> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Wells, John I. An essay on war. Proving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church. Hartford, Printed by Hudson and Goodwin, 1808.An essay on warProving that the spirit of war, existing in the rational mind, is ever inimical to the spirit of the Gospel; that the wars mentioned in the history of the Jews, were for the happiness of that people, the punishment of idolatrous nations, and the instruction of mankind generally. Also, that the spirit of war is wholly excluded from the Christian Church",
+     "wellsjohniessayonwarprovingthatthespiritofwarexistingintherationalmindiseverinimicaltothespiritofthegospelthatthewarsmentionedinthehistoryofthejewswereforthehappinessofthatpeoplethepunishmentofidolatrousnationsandtheinstructionofmankindgenerallyalsothatthespiritofwariswhollyexcludedfromthechristianchurchengworktext"@x-bf-hash;
+   bf:classificationDdc <http://dewey.info/class/261.8%2F73/about>;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/BT736.2>;
+   bf:creator <http://example.org/3599904person7>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:subject <http://example.org/3599904topic9>;
+   bf:title "essay on war"@x-bf-sort;
+   bf:workTitle <http://example.org/3599904title5> .

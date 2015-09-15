@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/11267155">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>The Mendon globe-leader.The Mendon globe-leader</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/11267155title5"/>
+      <bf:title xml:lang="x-bf-sort">Mendon globe-leader</bf:title>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:subject rdf:resource="http://example.org/11267155topic8"/>
+      <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us-mi"/>
+      <bf:unionOf rdf:resource="http://example.org/11267155work10"/>
+      <bf:unionOf rdf:resource="http://example.org/11267155work11"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">mendonglobeleaderengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11267155work10">
+      <bf:title>Weekly globe (Mendon, Mich.)</bf:title>
+      <bf:authorizedAccessPoint>Weekly globe (Mendon, Mich.)</bf:authorizedAccessPoint>
+      <bf:lccn rdf:resource="http://id.loc.gov/authorities/test/identifiers/lccn/sn00062696"/>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/45216255"/>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/11267155work11">
+      <bf:title>Mendon leader</bf:title>
+      <bf:authorizedAccessPoint>Mendon leader</bf:authorizedAccessPoint>
+      <bf:lccn rdf:resource="http://id.loc.gov/authorities/test/identifiers/lccn/sn00062691"/>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/45216336"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/11267155instance14">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Serial"/>
+      <bf:instanceTitle rdf:resource="http://example.org/11267155title17"/>
+      <bf:title xml:lang="x-bf-sort">Mendon globe-leader</bf:title>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>R.L. Foltz</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Mendon, Mich. </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>serial</bf:modeOfIssuance>
+      <bf:extent>v. :</bf:extent>
+      <bf:dimensions>60 cm.</bf:dimensions>
+      <bf:illustrationNote>ill. ;</bf:illustrationNote>
+      <bf:titleStatement>The Mendon globe-leader.</bf:titleStatement>
+      <bf:providerStatement>Mendon, Mich. : R.L. Foltz</bf:providerStatement>
+      <bf:frequencyNote>Weekly</bf:frequencyNote>
+      <bf:note>"Independent." Cf. Ayer, 1970.</bf:note>
+      <bf:note>"Saint Joseph County's most progressive weekly."</bf:note>
+      <bf:note>Formed by the union of: Weekly globe (Mendon, Mich.), and: Mendon leader.</bf:note>
+      <bf:note>Description based on: Apr. 12, 1945.</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>sn 83016407</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/09798434"/>
+      <bf:serialFirstIssue>Began in 1912?</bf:serialFirstIssue>
+      <bf:instanceOf rdf:resource="http://example.org/11267155"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/11267155annotation13">
+      <bf:derivedFrom rdf:resource="http://example.org/11267155.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/mhn"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclco"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/ocolc"/>
+      <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/msc"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2013-03-02T15:57</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/11267155"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://example.org/11267155title5">
+      <bf:label>The Mendon globe-leader.</bf:label>
+      <bf:titleValue>The Mendon globe-leader</bf:titleValue>
+   </bf:Title>
+   <bf:Topic rdf:about="http://example.org/11267155topic8">
+      <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic"/>
+      <bf:authorizedAccessPoint>United States. Michigan. Saint Joseph. Mendon.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>United States. Michigan. Saint Joseph. Mendon.</madsrdf:authoritativeLabel>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Country>
+                  <madsrdf:authoritativeLabel>United States</madsrdf:authoritativeLabel>
+               </madsrdf:Country>
+               <madsrdf:State>
+                  <madsrdf:authoritativeLabel>Michigan</madsrdf:authoritativeLabel>
+               </madsrdf:State>
+               <madsrdf:County>
+                  <madsrdf:authoritativeLabel>Saint Joseph</madsrdf:authoritativeLabel>
+               </madsrdf:County>
+               <madsrdf:City>
+                  <madsrdf:authoritativeLabel>Mendon.</madsrdf:authoritativeLabel>
+               </madsrdf:City>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Title rdf:about="http://example.org/11267155title17">
+      <bf:label>The Mendon globe-leader.</bf:label>
+      <bf:titleValue>The Mendon globe-leader</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>
