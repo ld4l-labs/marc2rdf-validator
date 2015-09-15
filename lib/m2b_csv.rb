@@ -8,11 +8,11 @@ require 'fileutils'
 # #
 class M2bCSV
   def m2b_classes_dir
-    "../doc/m2b-classes.csv".to_s
+    "../import/m2b-classes.csv".to_s
   end
 
   def m2b_props_dir
-    "../doc/m2b-properties.csv".to_s
+    "../import/m2b-properties.csv".to_s
   end
 
   def output_dir

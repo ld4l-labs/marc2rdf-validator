@@ -8,6 +8,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+/import/
 *.bundle
 *.so
 *.o
