@@ -322,12 +322,15 @@ describe 'the work described by the MARC record' do
       it 'single work' do
         expect(g.query(work_squery).size).to eq 1
       end
-      it 'work title from 245' do
+      it 'work title from 245a' do
         solns = g.query(work_title_value_squery)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Slippery noodles/)
+        expect(title_value).not_to match(/a culinary history of China/) # 245b
         expect(title_value).not_to match(/Lin, Hsiang-ju/) # 100a
+      end
+      it 'work subtitle from 245b' do
         solns = g.query(work_subtitle_squery)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
@@ -364,7 +367,7 @@ describe 'the work described by the MARC record' do
     end
     context '111 ‡a ‡n ‡d ‡c ‡= and 245 ‡a ‡b ‡c' do
       let(:g) {
-      rec_id = '111andc_245abc'
+        rec_id = '111andc_245abc'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="2" ind2=" " tag="111">
             <subfield code="a">International Jean Sibelius Conference</subfield>
@@ -390,6 +393,8 @@ describe 'the work described by the MARC record' do
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Sibelius forum II/)
         expect(title_value).not_to match(/International Jean Sibelius Conference/)  # 245b, 111a
+      end
+      it 'work subtitle from 245b' do
         solns = g.query(work_subtitle_squery)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
@@ -397,33 +402,42 @@ describe 'the work described by the MARC record' do
         expect(subtitle).not_to match(/Finland/) #111c
       end
     end
-    it '245 non-filing chars (ind2)' do
-      rec_id = '100_245_non_filing'
-      marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-        '<datafield ind1="1" ind2=" " tag="100">
-          <subfield code="a">Walker, Alice,</subfield>
-          <subfield code="d">1944-</subfield>
-          <subfield code="=">^A128228</subfield>
-        </datafield>
-        <datafield ind1="1" ind2="4" tag="245">
-          <subfield code="a">The color purple :</subfield>
-          <subfield code="b">a novel /</subfield>
-          <subfield code="c">by Alice Walker.</subfield>
-        </datafield>
-      </record>'
-      g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      expect(g.query(work_squery).size).to eq 1
-      solns = g.query(work_title_value_squery)
-      expect(solns.size).to eq 1
-      title_value = solns.first.titleValue.to_s
-      expect(title_value).to match(/The color purple/)
-      expect(title_value).not_to match(/Walker/) # 100a, 245c
-      solns = g.query(work_subtitle_squery)
-      expect(solns.size).to eq 1
-      subtitle = solns.first.subtitle.to_s
-      expect(subtitle).to match(/a novel/)
-      expect(subtitle).not_to match(/Walker/) # 100a, 245c
-      skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
+    context '245 non-filing chars (ind2)' do
+      let(:g) {
+        rec_id = '100_245_non_filing'
+        marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+          '<datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Walker, Alice,</subfield>
+            <subfield code="d">1944-</subfield>
+            <subfield code="=">^A128228</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The color purple :</subfield>
+            <subfield code="b">a novel /</subfield>
+            <subfield code="c">by Alice Walker.</subfield>
+          </datafield>
+        </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+      }
+      it 'single work' do
+        expect(g.query(work_squery).size).to eq 1
+      end
+      it 'work title from 245a' do
+        solns = g.query(work_title_value_squery)
+        expect(solns.size).to eq 1
+        title_value = solns.first.titleValue.to_s
+        expect(title_value).to match(/The color purple/)
+        expect(title_value).not_to match(/a novel/) # 245b
+        expect(title_value).not_to match(/Walker/) # 100a, 245c
+      end
+      it 'work subtitle from 245b' do
+        solns = g.query(work_subtitle_squery)
+        expect(solns.size).to eq 1
+        subtitle = solns.first.subtitle.to_s
+        expect(subtitle).to match(/a novel/)
+        expect(subtitle).not_to match(/Walker/) # 100a, 245c
+        skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
+      end
     end
   end # context 1xx and 245
 
@@ -444,18 +458,20 @@ describe 'the work described by the MARC record' do
         expect(g.query(work_squery).size).to eq 1
       end
       it 'work title includes ‡a' do
-        expect(g.query(work_squery).size).to eq 1
         solns = g.query(work_title_value_squery)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Primary colors/)
         expect(title_value).not_to match(/a novel of politics/) # 245b
         expect(title_value).not_to match(/Anonymous/) # 245c
+      end
+      it 'work subtitle from ‡b' do
         solns = g.query(work_subtitle_squery)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
         expect(subtitle).to match(/a novel of politics/)
         expect(subtitle).not_to match(/Anonymous/) # 245c
+        expect(subtitle).not_to match(/Primary colors/) # 245a
       end
     end
     context '245 non-filing chars (ind2)' do
@@ -473,15 +489,16 @@ describe 'the work described by the MARC record' do
         expect(g.query(work_squery).size).to eq 1
       end
       it 'work title includes ‡a' do
-        expect(g.query(work_squery).size).to eq 1
         solns = g.query(work_title_value_squery)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/A Memoir of Mary Ann/)
         expect(title_value).not_to match(/by the Dominican nuns of Our Lady of Perpetual Help Home/)
+        skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
+      end
+      it 'no work subtitle (no ‡b)' do
         solns = g.query(work_subtitle_squery)
         expect(solns.size).to eq 0 # no 245b
-        skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
       end
     end
   end # context 245 no 1xx
