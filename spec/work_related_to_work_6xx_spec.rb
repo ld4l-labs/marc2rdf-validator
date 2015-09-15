@@ -26,19 +26,11 @@ describe 'work related to the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_squery) {
+  let(:work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?work
                   WHERE {
                     ?work a bf:Work .
-                  }") }
-  let(:main_part_work_sqy) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?mainwork ?workpart
-                  WHERE {
-                    ?mainwork a bf:Work .
-                    ?mainwork bf:hasPart ?workpart .
-                    ?workpart a bf:Work .
                   }") }
 
   context "600" do

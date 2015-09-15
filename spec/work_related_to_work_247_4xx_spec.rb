@@ -26,13 +26,13 @@ describe 'work related to the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_squery) {
+  let(:work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?work
                   WHERE {
                     ?work a bf:Work .
                   }") }
-  let(:related_work_sqy) {
+  let(:work_relatedWork_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?mainwork ?relwork
                   WHERE {
@@ -57,11 +57,11 @@ describe 'work related to the work described by the MARC record' do
       self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
     }
     it '2 works' do
-      expect(g.query(work_squery).size).to eq 2
+      expect(g.query(work_sparql_query).size).to eq 2
     end
     it '1 related work' do
 puts g.to_ttl
-      expect(g.query(related_work_sqy).size).to eq 1
+      expect(g.query(work_relatedWork_work_sparql_query).size).to eq 1
     end
 
   end # 247

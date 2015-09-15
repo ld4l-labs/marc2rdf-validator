@@ -22,13 +22,13 @@ describe 'the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_squery) {
+  let(:work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?work
                   WHERE {
                     ?work a bf:Work .
                   }") }
-  let(:work_title_value_squery) {
+  let(:titleValue_of_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?titleValue
                   WHERE {
@@ -37,7 +37,7 @@ describe 'the work described by the MARC record' do
                     ?title a bf:Title .
                     ?title bf:titleValue ?titleValue .
                   }") }
-  let(:work_subtitle_squery) {
+  let(:subtitle_of_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?subtitle
                   WHERE {
@@ -62,10 +62,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 130' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Beowulf/)
@@ -88,10 +88,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 130' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Beowulf/)
@@ -117,10 +117,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 130' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Annale/)
@@ -142,7 +142,7 @@ describe 'the work described by the MARC record' do
         </datafield>
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      solns = g.query(work_title_value_squery)
+      solns = g.query(titleValue_of_work_sparql_query)
       expect(solns.size).to eq 1
       title_value = solns.first.titleValue.to_s
       expect(title_value).to match(/The annual register/)
@@ -170,10 +170,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 240' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Birth of the cool/)
@@ -202,10 +202,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 240' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Annual report \(Online\)/)
@@ -233,10 +233,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 240' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Proceedings \(Online\)/)
@@ -264,7 +264,7 @@ describe 'the work described by the MARC record' do
         </datafield>
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      solns = g.query(work_title_value_squery)
+      solns = g.query(titleValue_of_work_sparql_query)
       expect(solns.size).to eq 1
       title_value = solns.first.titleValue.to_s
       expect(title_value).to match(/The art/)
@@ -290,7 +290,7 @@ describe 'the work described by the MARC record' do
         </datafield>
       </record>'
       g = self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      solns = g.query(work_title_value_squery)
+      solns = g.query(titleValue_of_work_sparql_query)
       expect(solns.size).to eq 1
       title_value = solns.first.titleValue.to_s
       expect(title_value).to match(/Works/)
@@ -320,10 +320,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 245a' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Slippery noodles/)
@@ -331,7 +331,7 @@ describe 'the work described by the MARC record' do
         expect(title_value).not_to match(/Lin, Hsiang-ju/) # 100a
       end
       it 'work subtitle from 245b' do
-        solns = g.query(work_subtitle_squery)
+        solns = g.query(subtitle_of_work_sparql_query)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
         expect(subtitle).to match(/a culinary history of China/)
@@ -356,10 +356,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 245' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Stanford University, Women's Community Center, records/)
@@ -385,17 +385,17 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 245' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Sibelius forum II/)
         expect(title_value).not_to match(/International Jean Sibelius Conference/)  # 245b, 111a
       end
       it 'work subtitle from 245b' do
-        solns = g.query(work_subtitle_squery)
+        solns = g.query(subtitle_of_work_sparql_query)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
         expect(subtitle).to match(/proceedings from the third International Jean Sibelius Conference/)
@@ -420,10 +420,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title from 245a' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/The color purple/)
@@ -431,7 +431,7 @@ describe 'the work described by the MARC record' do
         expect(title_value).not_to match(/Walker/) # 100a, 245c
       end
       it 'work subtitle from 245b' do
-        solns = g.query(work_subtitle_squery)
+        solns = g.query(subtitle_of_work_sparql_query)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
         expect(subtitle).to match(/a novel/)
@@ -455,10 +455,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title includes ‡a' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/Primary colors/)
@@ -466,7 +466,7 @@ describe 'the work described by the MARC record' do
         expect(title_value).not_to match(/Anonymous/) # 245c
       end
       it 'work subtitle from ‡b' do
-        solns = g.query(work_subtitle_squery)
+        solns = g.query(subtitle_of_work_sparql_query)
         expect(solns.size).to eq 1
         subtitle = solns.first.subtitle.to_s
         expect(subtitle).to match(/a novel of politics/)
@@ -486,10 +486,10 @@ describe 'the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it 'single work' do
-        expect(g.query(work_squery).size).to eq 1
+        expect(g.query(work_sparql_query).size).to eq 1
       end
       it 'work title includes ‡a' do
-        solns = g.query(work_title_value_squery)
+        solns = g.query(titleValue_of_work_sparql_query)
         expect(solns.size).to eq 1
         title_value = solns.first.titleValue.to_s
         expect(title_value).to match(/A Memoir of Mary Ann/)
@@ -497,7 +497,7 @@ describe 'the work described by the MARC record' do
         skip 'non-filing chars (stupidly) observed in title bf:title property on bf:Work'
       end
       it 'no work subtitle (no ‡b)' do
-        solns = g.query(work_subtitle_squery)
+        solns = g.query(subtitle_of_work_sparql_query)
         expect(solns.size).to eq 0 # no 245b
       end
     end

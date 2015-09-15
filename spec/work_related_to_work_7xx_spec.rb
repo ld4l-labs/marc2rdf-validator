@@ -26,13 +26,13 @@ describe 'work related to the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_squery) {
+  let(:work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?work
                   WHERE {
                     ?work a bf:Work .
                   }") }
-  let(:related_work_sqy) {
+  let(:work_relatedWork_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?mainwork ?relwork
                   WHERE {
@@ -40,7 +40,7 @@ describe 'work related to the work described by the MARC record' do
                     ?mainwork bf:relatedWork ?relwork .
                     ?relwork a bf:Work .
                   }") }
-  let(:related_work_sqy2) {
+  let(:work_subPropOf_relatedWork_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
                   SELECT DISTINCT ?mainwork ?prop ?relwork
@@ -50,7 +50,7 @@ describe 'work related to the work described by the MARC record' do
                     ?relwork a bf:Work .
                     ?prop rdfs:subPropertyOf* bf:relatedWork .
                   }") }
-  let(:work_to_work_sqy) {
+  let(:work_prop_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?mainwork ?prop ?relwork
                   WHERE {
@@ -90,16 +90,16 @@ describe 'work related to the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it '2 works' do
-        expect(g.query(work_squery).size).to eq 2
+        expect(g.query(work_sparql_query).size).to eq 2
       end
       it 'property between works' do
-        solns = g.query(work_to_work_sqy)
+        solns = g.query(work_prop_work_sparql_query)
         expect(solns.size).to eq 1
         property = solns.first.prop.to_s
         expect(property).to eq "http://bibframe.org/vocab/continuedBy"
       end
       it '1 related work' do
-        expect(g.query(related_work_sqy2).size).to eq 1
+        expect(g.query(work_subPropOf_relatedWork_work_sparql_query).size).to eq 1
       end
     end # ind2 = 1
 
@@ -120,16 +120,16 @@ describe 'work related to the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it '2 works' do
-        expect(g.query(work_squery).size).to eq 2
+        expect(g.query(work_sparql_query).size).to eq 2
       end
       it 'property between works' do
-        solns = g.query(work_to_work_sqy)
+        solns = g.query(work_prop_work_sparql_query)
         expect(solns.size).to eq 1
         property = solns.first.prop.to_s
         expect(property).to eq "http://bibframe.org/vocab/continuedBy"
       end
       it '1 related work' do
-        expect(g.query(related_work_sqy).size).to eq 1
+        expect(g.query(work_relatedWork_work_sparql_query).size).to eq 1
         squery = SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                               PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
                               SELECT *
@@ -166,16 +166,16 @@ describe 'work related to the work described by the MARC record' do
       }
       it '2 works' do
 puts g.to_ttl
-        expect(g.query(work_squery).size).to eq 2
+        expect(g.query(work_sparql_query).size).to eq 2
       end
       it 'partOf property' do
-        solns = g.query(work_to_work_sqy)
+        solns = g.query(work_prop_work_sparql_query)
         expect(solns.size).to eq 1
         property = solns.first.prop.to_s
         expect(property).to eq "http://bibframe.org/vocab/partOf"
       end
       it '0 related works' do
-        expect(g.query(related_work_sqy).size).to eq 1
+        expect(g.query(work_relatedWork_work_sparql_query).size).to eq 1
       end
     end # ind2 = 2
   end # 740
@@ -215,10 +215,10 @@ puts g.to_ttl
       self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
     }
     it '2 works' do
-      expect(g.query(work_squery).size).to eq 2
+      expect(g.query(work_sparql_query).size).to eq 2
     end
     it 'property between works' do
-      solns = g.query(work_to_work_sqy)
+      solns = g.query(work_prop_work_sparql_query)
       expect(solns.size).to eq 1
       property = solns.first.prop.to_s
       expect(property).to eq "http://bibframe.org/vocab/continuedBy"
