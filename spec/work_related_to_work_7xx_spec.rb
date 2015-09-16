@@ -32,24 +32,6 @@ describe 'work related to the work described by the MARC record' do
                   WHERE {
                     ?work a bf:Work .
                   }") }
-  let(:work_relatedWork_work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?mainwork ?relwork
-                  WHERE {
-                    ?mainwork a bf:Work .
-                    ?mainwork bf:relatedWork ?relwork .
-                    ?relwork a bf:Work .
-                  }") }
-  let(:work_subPropOf_relatedWork_work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                  SELECT DISTINCT ?mainwork ?prop ?relwork
-                  WHERE {
-                    ?mainwork a bf:Work .
-                    ?mainwork ?prop ?relwork .
-                    ?relwork a bf:Work .
-                    ?prop rdfs:subPropertyOf* bf:relatedWork .
-                  }") }
   let(:work_prop_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?mainwork ?prop ?relwork
@@ -60,19 +42,113 @@ describe 'work related to the work described by the MARC record' do
                   }") }
 
   context "700" do
-
+    context "ind2 blank" do
+      context "‡t" do
+        let(:g) {
+          rec_id = '700_ind2_blank_t'
+          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+            '<datafield ind1="0" ind2="4" tag="245">
+              <subfield code="a">The grapes of wrath</subfield>
+              <subfield code="h">[videorecording] /</subfield>
+              <subfield code="c">Twentieth Century-Fox presents Darryl F. Zanuck\'s production ; directed by John Ford ; screenplay by Nunnally Johnson.</subfield>
+            </datafield>
+            <datafield ind1="1" ind2=" " tag="700">
+              <subfield code="a">Steinbeck, John,</subfield>
+              <subfield code="d">1902-1968.</subfield>
+              <subfield code="t">Grapes of wrath.</subfield>
+              <subfield code="=">^A2091926</subfield>
+            </datafield>
+          </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+        }
+        it '2 works' do
+          expect(g.query(work_sparql_query).size).to eq 2
+        end
+        it 'main work relatedResource to 730 work' do
+          solns = g.query(work_prop_work_sparql_query)
+          expect(solns.size).to eq 1
+          # as of 2015-09-16, LoC xquery code uses relatedResource but that is not in the RDF::Vocab::Bibframe
+          #expect(solns.first.prop).to eq RDF::Vocab::Bibframe.relatedResource
+          expect(solns.first.prop.to_s).to eq RDF::Vocab::Bibframe.to_s + "relatedResource"
+        end
+      end # ‡t
+      it 'need example data mult 700 ind2 blank with ‡t' do
+        fail 'need example data 700 ind2 blank with ‡t'
+      end
+      it 'need example data 700 ind2 blank without ‡t' do
+        fail 'need example data 700 ind2 blank without ‡t'
+      end
+    end # ind2 blank
+    it 'need tests for other ind2 values' do
+      fail 'need example data 700 ind2 not 2 or blank'
+      # for each ind2 value
+      #  with t
+      #  mult with t
+      #  without t
+    end
   end # 700
 
   context "710" do
-
+    it 'need example 710 ind2 not 2' do
+      fail 'need example 710 ind2 not 2'
+      # for each ind2 value
+      #  with t
+      #  mult with t
+      #  without t
+    end
   end # 710
 
   context "711" do
-
+    it 'need example 711 ind2 not 2' do
+      fail 'need example 711 ind2 not 2'
+      # for each ind2 value
+      #  with t
+      #  mult with t
+      #  without t
+    end
   end # 711
 
   context "730" do
+    context "ind2 blank" do
+      context "mult 730" do
+        let(:g) {
+          rec_id = '730_ind2blank'
+          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+            '<datafield ind1="0" ind2="0" tag="245">
+              <subfield code="a">Alfred Hitchcock, the masterpiece collection</subfield>
+              <subfield code="h">[videorecording].</subfield>
+            </datafield>
+            <datafield ind1="0" ind2=" " tag="730">
+              <subfield code="a">Rope (Motion picture)</subfield>
+              <subfield code="=">^A3046122</subfield>
+            </datafield>
+            <datafield ind1="0" ind2=" " tag="730">
+              <subfield code="a">Rear window (Motion picture)</subfield>
+              <subfield code="=">^A1268811</subfield>
+            </datafield>
+          </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+        }
+        it '2 works' do
+          expect(g.query(work_sparql_query).size).to eq 3
+        end
+        it 'main work relatedResource to 730 work' do
+          solns = g.query(work_prop_work_sparql_query)
+          expect(solns.size).to eq 2
+          solns.each { |soln|
+            # as of 2015-09-16, LoC xquery code uses relatedResource but that is not in the RDF::Vocab::Bibframe
+            #expect(solns.prop).to eq RDF::Vocab::Bibframe.relatedResource
+            expect(soln.prop.to_s).to eq RDF::Vocab::Bibframe.to_s + "relatedResource"
+          }
+        end
+      end
+    end # ind2 blank
 
+    it 'need tests for ind2 not 2 or blank' do
+      fail 'need example data 730 ind2 not 2 or blank'
+      # single 730 field and mult 730 fields
+    end
+    # NOTE:  ind2 = 2 is tested in work_with_work_spec
   end # 730
 
   context "740" do
@@ -92,14 +168,10 @@ describe 'work related to the work described by the MARC record' do
       it '2 works' do
         expect(g.query(work_sparql_query).size).to eq 2
       end
-      it 'property between works' do
+      it 'main work relatedWork to 740 work' do
         solns = g.query(work_prop_work_sparql_query)
         expect(solns.size).to eq 1
-        property = solns.first.prop.to_s
-        expect(property).to eq "http://bibframe.org/vocab/continuedBy"
-      end
-      it '1 related work' do
-        expect(g.query(work_subPropOf_relatedWork_work_sparql_query).size).to eq 1
+        expect(solns.first.prop).to eq RDF::Vocab::Bibframe.relatedWork
       end
     end # ind2 = 1
 
@@ -108,7 +180,6 @@ describe 'work related to the work described by the MARC record' do
         rec_id = '740ind2blank'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2="0" tag="245">
-            <subfield code="6">880-01</subfield>
             <subfield code="a">Punno ŭi p\'odo =</subfield>
             <subfield code="b">The Grapes of wrath /</subfield>
             <subfield code="c">John E. Steinbeck ; Sisa Yŏngŏsa P\'yŏnjipkuk yŏk.</subfield>
@@ -122,62 +193,13 @@ describe 'work related to the work described by the MARC record' do
       it '2 works' do
         expect(g.query(work_sparql_query).size).to eq 2
       end
-      it 'property between works' do
+      it 'main work relatedWork to 740 work' do
         solns = g.query(work_prop_work_sparql_query)
         expect(solns.size).to eq 1
-        property = solns.first.prop.to_s
-        expect(property).to eq "http://bibframe.org/vocab/continuedBy"
-      end
-      it '1 related work' do
-        expect(g.query(work_relatedWork_work_sparql_query).size).to eq 1
-        squery = SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                              PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                              SELECT *
-                              WHERE {
-                    ?mainwork a bf:Work .
-                    ?mainwork ?prop ?relwork .
-                    ?relwork a bf:Work .
-                              }")
-        solns = g.query(squery)
-        squery = SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                              PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                              SELECT *
-                              WHERE {
-                                ?prop rdfs:subPropertyOf ?foo
-                              }")
-        solns = g.query(squery)
-        expect(solns.size).to eq 1
+        expect(solns.first.prop).to eq RDF::Vocab::Bibframe.relatedWork
       end
     end # ind2 blank
-    context "ind2 = 2" do
-      let(:g) {
-        rec_id = '740ind2_2'
-        marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-          '<datafield ind1="1" ind2="0" tag="245">
-            <subfield code="a">Fancher Creek ranch, property of James Karnes, Fresno Co.</subfield>
-            <subfield code="h">[electronic resource] ;</subfield>
-            <subfield code="b">Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</subfield>
-          </datafield>
-          <datafield ind1="0" ind2="2" tag="740">
-            <subfield code="a">Home ranch &amp; residence of James Karnes, 3 miles S. of Sanger.</subfield>
-          </datafield>
-       </record>'
-        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      }
-      it '2 works' do
-puts g.to_ttl
-        expect(g.query(work_sparql_query).size).to eq 2
-      end
-      it 'partOf property' do
-        solns = g.query(work_prop_work_sparql_query)
-        expect(solns.size).to eq 1
-        property = solns.first.prop.to_s
-        expect(property).to eq "http://bibframe.org/vocab/partOf"
-      end
-      it '0 related works' do
-        expect(g.query(work_relatedWork_work_sparql_query).size).to eq 1
-      end
-    end # ind2 = 2
+    # NOTE:  ind2 = 2 is tested in work_with_work_spec
   end # 740
 
   context "76x-78x" do
@@ -199,30 +221,31 @@ puts g.to_ttl
 
   end # 76x-78x
 
-  context "785 - continuedBy" do
-    let(:g) {
-      rec_id = '785'
-      marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-        '<datafield ind1="0" ind2="0" tag="245">
-          <subfield code="a">Computers and translation :</subfield>
-          <subfield code="b">CaT.</subfield>
-        </datafield>
-        <datafield ind1="0" ind2="0" tag="785">
-          <subfield code="t">Machine translation</subfield>
-          <subfield code="x">0922-6567</subfield>
-        </datafield>
-      </record>'
-      self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-    }
-    it '2 works' do
-      expect(g.query(work_sparql_query).size).to eq 2
-    end
-    it 'property between works' do
-      solns = g.query(work_prop_work_sparql_query)
-      expect(solns.size).to eq 1
-      property = solns.first.prop.to_s
-      expect(property).to eq "http://bibframe.org/vocab/continuedBy"
-    end
+  context "785" do
+    context "ind2 = 0" do
+      let(:g) {
+        rec_id = '785'
+        marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+          '<datafield ind1="0" ind2="0" tag="245">
+            <subfield code="a">Computers and translation :</subfield>
+            <subfield code="b">CaT.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="0" tag="785">
+            <subfield code="t">Machine translation</subfield>
+            <subfield code="x">0922-6567</subfield>
+          </datafield>
+        </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+      }
+      it '2 works' do
+        expect(g.query(work_sparql_query).size).to eq 2
+      end
+      it 'main work continuedBy 785 work' do
+        solns = g.query(work_prop_work_sparql_query)
+        expect(solns.size).to eq 1
+        expect(solns.first.prop).to eq RDF::Vocab::Bibframe.continuedBy
+      end
+    end # ind2 = 0
   end # 785
 
   context "79x" do
