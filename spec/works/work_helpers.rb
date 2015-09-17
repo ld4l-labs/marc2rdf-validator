@@ -17,7 +17,6 @@ module WorkHelpers
                                                 ?relwork a bf:Work .
                                               }")
 
-  # TODO: naomi_must_comment_and_test_this_method
   def expect_work2work_property(graph, exp_num, exp_prop)
     solns = g.query(WORK_PROP_WORK_SPARQL_QUERY)
     expect(solns.size).to eq exp_num
