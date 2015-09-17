@@ -26,20 +26,6 @@ describe 'work related to the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?work
-                  WHERE {
-                    ?work a bf:Work .
-                  }") }
-  let(:work_prop_work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?mainwork ?prop ?relwork
-                  WHERE {
-                    ?mainwork a bf:Work .
-                    ?mainwork ?prop ?relwork .
-                    ?relwork a bf:Work .
-                  }") }
 
   context "700" do
     context "ind2 blank" do
@@ -62,10 +48,10 @@ describe 'work related to the work described by the MARC record' do
           self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
         }
         it '2 works' do
-          expect(g.query(work_sparql_query).size).to eq 2
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
         end
         it 'main work relatedResource to 730 work' do
-          solns = g.query(work_prop_work_sparql_query)
+          solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
           expect(solns.size).to eq 1
           # as of 2015-09-16, LoC xquery code uses relatedResource but that is not in the RDF::Vocab::Bibframe
           #expect(solns.first.prop).to eq RDF::Vocab::Bibframe.relatedResource
@@ -130,10 +116,10 @@ describe 'work related to the work described by the MARC record' do
           self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
         }
         it '2 works' do
-          expect(g.query(work_sparql_query).size).to eq 3
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 3
         end
         it 'main work relatedResource to 730 work' do
-          solns = g.query(work_prop_work_sparql_query)
+          solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
           expect(solns.size).to eq 2
           solns.each { |soln|
             # as of 2015-09-16, LoC xquery code uses relatedResource but that is not in the RDF::Vocab::Bibframe
@@ -152,7 +138,7 @@ describe 'work related to the work described by the MARC record' do
   end # 730
 
   context "740" do
-    context "ind2 = 1" do
+    context "ind2=1" do
       let(:g) {
         rec_id = '740ind2_1'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
@@ -166,12 +152,10 @@ describe 'work related to the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it '2 works' do
-        expect(g.query(work_sparql_query).size).to eq 2
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
       end
       it 'main work relatedWork to 740 work' do
-        solns = g.query(work_prop_work_sparql_query)
-        expect(solns.size).to eq 1
-        expect(solns.first.prop).to eq RDF::Vocab::Bibframe.relatedWork
+        expect_work2work_property(g, 1, RDF::Vocab::Bibframe.relatedWork)
       end
     end # ind2 = 1
 
@@ -191,18 +175,19 @@ describe 'work related to the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it '2 works' do
-        expect(g.query(work_sparql_query).size).to eq 2
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
       end
       it 'main work relatedWork to 740 work' do
-        solns = g.query(work_prop_work_sparql_query)
-        expect(solns.size).to eq 1
-        expect(solns.first.prop).to eq RDF::Vocab::Bibframe.relatedWork
+        expect_work2work_property(g, 1, RDF::Vocab::Bibframe.relatedWork)
       end
     end # ind2 blank
     # NOTE:  ind2 = 2 is tested in work_with_work_spec
   end # 740
 
   context "76x-78x" do
+    it 'need tests for 76x-78x' do
+      fail 'need example data for 76x-78x'
+    end
 #     760 - Main Series Entry (R) Full | Concise
 #762 - Subseries Entry (R) Full | Concise
 #765 - Original Language Entry (R) Full | Concise
@@ -222,7 +207,7 @@ describe 'work related to the work described by the MARC record' do
   end # 76x-78x
 
   context "785" do
-    context "ind2 = 0" do
+    context "ind2=0" do
       let(:g) {
         rec_id = '785'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
@@ -238,17 +223,17 @@ describe 'work related to the work described by the MARC record' do
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
       }
       it '2 works' do
-        expect(g.query(work_sparql_query).size).to eq 2
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
       end
       it 'main work continuedBy 785 work' do
-        solns = g.query(work_prop_work_sparql_query)
-        expect(solns.size).to eq 1
-        expect(solns.first.prop).to eq RDF::Vocab::Bibframe.continuedBy
+        expect_work2work_property(g, 1, RDF::Vocab::Bibframe.continuedBy)
       end
     end # ind2 = 0
   end # 785
 
   context "79x" do
-
+    it 'need tests for 79x' do
+      fail 'need example data for 79x'
+    end
   end # 79x
 end

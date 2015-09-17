@@ -26,24 +26,10 @@ describe 'work related to the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?work
-                  WHERE {
-                    ?work a bf:Work .
-                  }") }
-  let(:work_relatedWork_work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?mainwork ?relwork
-                  WHERE {
-                    ?mainwork a bf:Work .
-                    ?mainwork bf:relatedWork ?relwork .
-                    ?relwork a bf:Work .
-                  }") }
 
   context "247" do
     let(:g) {
-      rec_id = 'dashes_no_spaces'
+      rec_id = '247'
       marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
         '<datafield ind1="0" ind2="4" tag="245">
           <subfield code="a">The New York times</subfield>
@@ -57,32 +43,41 @@ describe 'work related to the work described by the MARC record' do
       self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
     }
     it '2 works' do
-      expect(g.query(work_sparql_query).size).to eq 2
+      expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
     end
     it '1 related work' do
-puts g.to_ttl
-      expect(g.query(work_relatedWork_work_sparql_query).size).to eq 1
+      expect_work2work_property(g, 1, RDF::Vocab::Bibframe.relatedWork)
     end
 
   end # 247
 
   context "400" do
-
+    it 'need tests for 400' do
+      fail 'need example data for 400'
+    end
   end # 400
 
   context "410" do
-
+    it 'need tests for 410' do
+      fail 'need example data for 410'
+    end
   end # 410
 
   context "411" do
-
+    it 'need tests for 411' do
+      fail 'need example data for 411'
+    end
   end # 411
 
   context "440" do
-
+    it 'need tests for 440' do
+      fail 'need example data for 440'
+    end
   end # 440
 
   context "490" do
-
+    it 'need tests for 490' do
+      fail 'need example data for 490'
+    end
   end # 490
 end

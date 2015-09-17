@@ -26,51 +26,67 @@ describe 'work related to the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_sparql_query) {
-    SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?work
-                  WHERE {
-                    ?work a bf:Work .
-                  }") }
 
   context "500" do
-
+    it 'need tests for 500' do
+      fail 'need example data for 500'
+    end
   end # 500
 
   context "501" do
-
+    it 'need tests for 501' do
+      fail 'need example data for 501'
+    end
   end # 501
 
-  context "510" do
+  # NOTE:  505 is covered by work_within_work spec
 
+  context "510" do
+    it 'need tests for 510' do
+      fail 'need example data for 510'
+    end
   end # 510
 
   context "525" do
-
+    it 'need tests for 525' do
+      fail 'need example data for 525'
+    end
   end # 525
 
   context "533" do
-
+    it 'need tests for 533' do
+      fail 'need example data for 533'
+    end
   end # 533
 
   context "534" do
-
+    it 'need tests for 534' do
+      fail 'need example data for 534'
+    end
   end # 534
 
   context "547" do
-
+    it 'need tests for 547' do
+      fail 'need example data for 547'
+    end
   end # 547
 
   context "555" do
-
+    it 'need tests for 555' do
+      fail 'need example data for 555'
+    end
   end # 555
 
   context "580" do
-
+    it 'need tests for 580' do
+      fail 'need example data for 580'
+    end
   end # 580
 
   context "581" do
-
+    it 'need tests for 581' do
+      fail 'need example data for 581'
+    end
   end # 581
 
 end
