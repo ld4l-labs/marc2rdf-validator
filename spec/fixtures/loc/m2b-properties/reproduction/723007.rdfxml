@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/723007">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <bf:authorizedAccessPoint>Kuññirāmannāyar, Pi., 1905-1978. Nirmmala [microform] / Pi. Kuññirāmannāyar.Nirmmala</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/723007title5"/>
+      <bf:creator rdf:resource="http://example.org/723007person6"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/mal"/>
+      <bf:reproduction rdf:resource="http://example.org/723007work8"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">kuññirāmannāyarpi19051978nirmmalamalworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Work rdf:about="http://example.org/723007work8">
+      <bf:authorizedAccessPoint>Nirmmala</bf:authorizedAccessPoint>
+      <bf:title>Nirmmala</bf:title>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/723007instance12">
+      <bf:instanceTitle rdf:resource="http://example.org/723007title14"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>New Delhi :</bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Chicago :</bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1997</bf:providerDate>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Library of Congress Office ;</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Available from Center for Research Libraries,</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+         </bf:Provider>
+      </bf:publication>
+      <bf:extent>On 1 microfilm reel with other items ; 35 mm.</bf:extent>
+      <bf:carrierCategory rdf:resource="http://example.org/723007category17"/>
+      <bf:note>Master microform held by: ICRL.</bf:note>
+      <bf:instanceOf rdf:resource="http://example.org/723007work8"/>
+   </bf:Instance>
+   <bf:Instance rdf:about="http://example.org/723007instance11">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/723007title14"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Vi. Sundarayyar Ānt̲ Saṇs</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Tr̥śśūr </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>1123 [1948]</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>82 p. ;</bf:extent>
+      <bf:dimensions>19 cm.</bf:dimensions>
+      <bf:titleStatement>Nirmmala</bf:titleStatement>
+      <bf:formDesignation>microform</bf:formDesignation>
+      <bf:providerStatement>Tr̥śśūr : Vi. Sundarayyar Ānt̲ Saṇs, 1123 1948</bf:providerStatement>
+      <bf:languageNote>In Malayalam.</bf:languageNote>
+      <bf:note>Novel.</bf:note>
+      <bf:note>Microfilm.</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>97908428</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:lcOverseasAcq>
+         <bf:Identifier>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lcOverseasAcq"/>
+            <bf:identifierValue>NBIL-27073</bf:identifierValue>
+         </bf:Identifier>
+      </bf:lcOverseasAcq>
+      <bf:instanceOf rdf:resource="http://example.org/723007"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/723007annotation10">
+      <bf:derivedFrom rdf:resource="http://example.org/723007.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/lcode"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>1998-02-05T05:53</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/723007"/>
+   </bf:Annotation>
+   <bf:Title rdf:about="http://example.org/723007title5">
+      <bf:label>Nirmmala [microform] / Pi. Kuññirāmannāyar.</bf:label>
+      <bf:titleValue>Nirmmala</bf:titleValue>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/723007person6">
+      <bf:label>Kuññirāmannāyar, Pi., 1905-1978.</bf:label>
+      <bf:authorizedAccessPoint>Kuññirāmannāyar, Pi., 1905-1978.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Kuññirāmannāyar, Pi., 1905-1978.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Title rdf:about="http://example.org/723007title14">
+      <bf:label>Nirmmala</bf:label>
+   </bf:Title>
+   <bf:Category rdf:about="http://example.org/723007category17">
+      <bf:categoryValue>Microfilm</bf:categoryValue>
+   </bf:Category>
+   <bf:Title rdf:about="http://example.org/723007title14">
+      <bf:label>Nirmmala [microform] / Pi. Kuññirāmannāyar.</bf:label>
+      <bf:titleValue>Nirmmala</bf:titleValue>
+   </bf:Title>
+</rdf:RDF>

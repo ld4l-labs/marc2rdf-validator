@@ -1,0 +1,345 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix marcrelators: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/15798171annotation25> a bf:Annotation;
+   bf:annotates <http://example.org/15798171>;
+   bf:changeDate "2015-07-28T14:51";
+   bf:derivedFrom <http://example.org/15798171.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/ukblsr>,
+     <http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/ukm>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/15798171helditem46> a bf:HeldItem;
+   bf:holdingFor <http://example.org/15798171instance26>;
+   bf:label "PR5317 .H4 2008";
+   bf:shelfMarkLcc "PR5317 .H4 2008" .
+
+<http://example.org/15798171classification22> a bf:Classification;
+   bf:classificationEdition "full",
+     "22";
+   bf:classificationNumber "823/.7";
+   bf:classificationScheme <http://id.loc.gov/authorities/classSchemes/ddc>;
+   bf:label "823/.7" .
+
+<http://example.org/15798171instance26> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "20 cm.";
+   bf:extent "xxviii, 583 p. :";
+   bf:illustrationNote "map ;";
+   bf:instanceOf <http://example.org/15798171>;
+   bf:instanceTitle <http://example.org/15798171title29>;
+   bf:isbn10 <http://isbn.example.org/0199538395>;
+   bf:isbn13 <http://isbn.example.org/9780199538393>;
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "2009291733"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:nban [
+     a bf:Identifier;
+     bf:identifierAssigner "Uk";
+     bf:identifierScheme loc_ids:nban;
+     bf:identifierValue "014887201"
+   ];
+   bf:nbn [
+     a bf:Identifier;
+     bf:identifierAssigner "bnb";
+     bf:identifierScheme loc_ids:nbn;
+     bf:identifierValue "GBA955444"
+   ];
+   bf:providerStatement "Oxford ; New York : Oxford University Press, 2008";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "[2008]";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Oxford University Press"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Oxford "
+     ]
+   ];
+   bf:supplementaryContentNote "Includes bibliographical references.";
+   bf:systemNumber <http://www.worldcat.org/oclc/390477218>;
+   bf:title "heart of Midlothian"@x-bf-sort;
+   bf:titleStatement "The heart of Midlothian" .
+
+<http://example.org/15798171person7> a bf:Person;
+   bf:authorizedAccessPoint "Scott, Walter, 1771-1832.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Scott, Walter, 1771-1832."
+   ];
+   bf:label "Scott, Walter, 1771-1832." .
+
+<http://example.org/15798171person8> a bf:Person;
+   bf:authorizedAccessPoint "Lamont, Claire, 1942-";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Lamont, Claire, 1942-"
+   ];
+   bf:label "Lamont, Claire, 1942-" .
+
+<http://example.org/15798171title29> a bf:Title;
+   bf:label "The heart of Midlothian / Walter Scott ; edited with an introduction and notes by Claire Lamont.";
+   bf:titleValue "The heart of Midlothian" .
+
+<http://example.org/15798171title5> a bf:Title;
+   bf:label "The heart of Midlothian / Walter Scott ; edited with an introduction and notes by Claire Lamont.";
+   bf:titleValue "The heart of Midlothian" .
+
+<http://example.org/15798171topic10> a bf:Topic;
+   bf:authorizedAccessPoint "Porteous Riots, 1736--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Porteous Riots, 1736--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Porteous Riots, 1736";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Porteous Riots, 1736"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Porteous Riots, 1736--Fiction" .
+
+<http://example.org/15798171topic11> a bf:Topic;
+   bf:authorizedAccessPoint "Scots--England--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Scots--England--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Scots";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Scots"
+           ])
+       ] [
+         a mads:Geographic,
+           mads:Authority;
+         mads:authoritativeLabel "England";
+         mads:elementList ([
+             a mads:GeographicElement;
+             mads:elementValue "England"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Scots--England--Fiction" .
+
+<http://example.org/15798171topic12> a bf:Topic;
+   bf:authorizedAccessPoint "Women travelers--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Women travelers--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Women travelers";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Women travelers"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Women travelers--Fiction" .
+
+<http://example.org/15798171topic13> a bf:Topic;
+   bf:authorizedAccessPoint "Women prisoners--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Women prisoners--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Women prisoners";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Women prisoners"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Women prisoners--Fiction" .
+
+<http://example.org/15798171topic14> a bf:Topic;
+   bf:authorizedAccessPoint "Trials (Murder)--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Trials (Murder)--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Trials (Murder)";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Trials (Murder)"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Trials (Murder)--Fiction" .
+
+<http://example.org/15798171topic15> a bf:Topic;
+   bf:authorizedAccessPoint "Sisters--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Sisters--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Sisters";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Sisters"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Sisters--Fiction" .
+
+<http://example.org/15798171topic16> a bf:Topic;
+   bf:authorizedAccessPoint "Pardon--Fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:ComplexSubject;
+     mads:authoritativeLabel "Pardon--Fiction";
+     mads:componentList ([
+         a mads:Topic,
+           mads:Authority;
+         mads:authoritativeLabel "Pardon";
+         mads:elementList ([
+             a mads:TopicElement;
+             mads:elementValue "Pardon"
+           ])
+       ] [
+         a mads:GenreForm,
+           mads:Authority;
+         mads:authoritativeLabel "Fiction";
+         mads:elementList ([
+             a mads:GenreFormElement;
+             mads:elementValue "Fiction."
+           ])
+       ]);
+     mads:isMemberOfMADSScheme <http://id.loc.gov/authorities/subjects>
+   ];
+   bf:label "Pardon--Fiction" .
+
+<http://example.org/15798171topic17> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gsafd";
+   bf:authorizedAccessPoint "Historical fiction";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Historical fiction";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gsafd>
+   ];
+   bf:label "Historical fiction" .
+
+<http://example.org/15798171topic18> a bf:Topic;
+   bf:authoritySource "http://id.loc.gov/vocabulary/subjectSchemes/gsafd";
+   bf:authorizedAccessPoint "Legal stories";
+   bf:hasAuthority [
+     a mads:Authority,
+       mads:GenreForm;
+     mads:authoritativeLabel "Legal stories";
+     mads:isMemberOfMADSScheme <http://id.loc.gov/vocabulary/subjectSchemes/gsafd>
+   ];
+   bf:label "Legal stories" .
+
+<http://example.org/15798171work23> a bf:Work;
+   bf:authorizedAccessPoint "Oxford World's Classics";
+   bf:title "Oxford World's Classics" .
+
+<http://example.org/15798171> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Scott, Walter, 1771-1832. The heart of Midlothian / Walter Scott ; edited with an introduction and notes by Claire Lamont.The heart of Midlothian",
+     "lamontclaire1942scottwalter17711832heartofmidlothianengworktext"@x-bf-hash;
+   bf:classification <http://example.org/15798171classification22>;
+   bf:classificationLcc <http://id.loc.gov/authorities/classification/PR5317>;
+   bf:creator <http://example.org/15798171person7>;
+   bf:language <http://id.loc.gov/vocabulary/languages/eng>;
+   bf:series <http://example.org/15798171work23>;
+   bf:subject <http://example.org/15798171topic10>,
+     <http://example.org/15798171topic11>,
+     <http://example.org/15798171topic12>,
+     <http://example.org/15798171topic13>,
+     <http://example.org/15798171topic14>,
+     <http://example.org/15798171topic15>,
+     <http://example.org/15798171topic16>,
+     <http://example.org/15798171topic17>,
+     <http://example.org/15798171topic18>,
+     <http://id.loc.gov/vocabulary/geographicAreas/e-uk>,
+     <http://id.loc.gov/vocabulary/geographicAreas/e-uk-st>;
+   bf:title "heart of Midlothian"@x-bf-sort;
+   bf:workTitle <http://example.org/15798171title5>;
+   marcrelators:edt <http://example.org/15798171person8> .

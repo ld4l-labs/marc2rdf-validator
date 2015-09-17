@@ -1,0 +1,108 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix loc_ids: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/723007annotation10> a bf:Annotation;
+   bf:annotates <http://example.org/723007>;
+   bf:changeDate "1998-02-05T05:53";
+   bf:derivedFrom <http://example.org/723007.marcxml.xml>;
+   bf:descriptionAuthentication <http://id.loc.gov/vocabulary/descriptionAuthentication/lcode>;
+   bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/aacr2>;
+   bf:descriptionSource <http://id.loc.gov/vocabulary/organizations/dlc>;
+   bf:generationProcess "DLC transform-tool:2015-07-23-T17:01:00" .
+
+<http://example.org/723007instance11> a bf:Instance,
+     bf:Monograph;
+   bf:dimensions "19 cm.";
+   bf:extent "82 p. ;";
+   bf:formDesignation "microform";
+   bf:instanceOf <http://example.org/723007>;
+   bf:instanceTitle <http://example.org/723007title14>;
+   bf:languageNote "In Malayalam.";
+   bf:lcOverseasAcq [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lcOverseasAcq;
+     bf:identifierValue "NBIL-27073"
+   ];
+   bf:lccn [
+     a bf:Identifier;
+     bf:identifierScheme loc_ids:lccn;
+     bf:identifierValue "97908428"
+   ];
+   bf:modeOfIssuance "single unit";
+   bf:note "Novel.",
+     "Microfilm.";
+   bf:providerStatement "Tr̥śśūr : Vi. Sundarayyar Ānt̲ Saṇs, 1123 1948";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "1123 [1948]";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Vi. Sundarayyar Ānt̲ Saṇs"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "Tr̥śśūr "
+     ]
+   ];
+   bf:titleStatement "Nirmmala" .
+
+<http://example.org/723007instance12> a bf:Instance;
+   bf:carrierCategory <http://example.org/723007category17>;
+   bf:extent "On 1 microfilm reel with other items ; 35 mm.";
+   bf:instanceOf <http://example.org/723007work8>;
+   bf:instanceTitle <http://example.org/723007title14>;
+   bf:note "Master microform held by: ICRL.";
+   bf:publication [
+     a bf:Provider;
+     bf:providerDate "1997";
+     bf:providerName [
+       a bf:Organization;
+       bf:label "Library of Congress Office ;"
+     ],  [
+       a bf:Organization;
+       bf:label "Available from Center for Research Libraries,"
+     ];
+     bf:providerPlace [
+       a bf:Place;
+       bf:label "New Delhi :"
+     ],  [
+       a bf:Place;
+       bf:label "Chicago :"
+     ]
+   ] .
+
+<http://example.org/723007category17> a bf:Category;
+   bf:categoryValue "Microfilm" .
+
+<http://example.org/723007person6> a bf:Person;
+   bf:authorizedAccessPoint "Kuññirāmannāyar, Pi., 1905-1978.";
+   bf:hasAuthority [
+     a mads:Authority;
+     mads:authoritativeLabel "Kuññirāmannāyar, Pi., 1905-1978."
+   ];
+   bf:label "Kuññirāmannāyar, Pi., 1905-1978." .
+
+<http://example.org/723007title5> a bf:Title;
+   bf:label "Nirmmala [microform] / Pi. Kuññirāmannāyar.";
+   bf:titleValue "Nirmmala" .
+
+<http://example.org/723007> a bf:Work,
+     bf:Text;
+   bf:authorizedAccessPoint "Kuññirāmannāyar, Pi., 1905-1978. Nirmmala [microform] / Pi. Kuññirāmannāyar.Nirmmala",
+     "kuññirāmannāyarpi19051978nirmmalamalworktext"@x-bf-hash;
+   bf:creator <http://example.org/723007person6>;
+   bf:language <http://id.loc.gov/vocabulary/languages/mal>;
+   bf:reproduction <http://example.org/723007work8>;
+   bf:workTitle <http://example.org/723007title5> .
+
+<http://example.org/723007title14> a bf:Title;
+   bf:label "Nirmmala",
+     "Nirmmala [microform] / Pi. Kuññirāmannāyar.";
+   bf:titleValue "Nirmmala" .
+
+<http://example.org/723007work8> a bf:Work;
+   bf:authorizedAccessPoint "Nirmmala";
+   bf:title "Nirmmala" .
