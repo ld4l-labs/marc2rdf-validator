@@ -18,19 +18,19 @@ describe 'work within the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:work_squery) {
+  let(:work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?work
                   WHERE {
                     ?work a bf:Work .
                   }") }
-  let(:main_part_work_sqy) {
+  let(:work_prop_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
-                  SELECT DISTINCT ?mainwork ?workpart
+                  SELECT DISTINCT ?mainwork ?prop ?relwork
                   WHERE {
                     ?mainwork a bf:Work .
-                    ?mainwork bf:hasPart ?workpart .
-                    ?workpart a bf:Work .
+                    ?mainwork ?prop ?relwork .
+                    ?relwork a bf:Work .
                   }") }
 
   context "505" do
@@ -53,10 +53,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '4 works' do
-            expect(g.query(work_squery).size).to eq 4
+            expect(g.query(work_sparql_query).size).to eq 4
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 3
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 3
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # -- no spaces
         context "-- spaces" do
@@ -75,10 +79,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '17 works' do
-            expect(g.query(work_squery).size).to eq 17
+            expect(g.query(work_sparql_query).size).to eq 17
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 16
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 16
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # -- spaces
         context "-- and semicolons" do
@@ -96,10 +104,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '3 works' do
-            expect(g.query(work_squery).size).to eq 3
+            expect(g.query(work_sparql_query).size).to eq 3
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 2
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 2
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # -- and semicolons
         context "-|-  (Nielsen)" do
@@ -123,10 +135,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '4 works' do
-            expect(g.query(work_squery).size).to eq 4
+            expect(g.query(work_sparql_query).size).to eq 4
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 3
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 3
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # mult 505s
       end # ‡a
@@ -146,10 +162,12 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '2 works' do
-            expect(g.query(work_squery).size).to eq 2
+            expect(g.query(work_sparql_query).size).to eq 2
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 1
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 1
+            expect(solns.first.prop).to eq RDF::Vocab::Bibframe.hasPart
           end
         end
         context "multiple ‡t" do
@@ -179,10 +197,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '14 works' do
-            expect(g.query(work_squery).size).to eq 14
+            expect(g.query(work_sparql_query).size).to eq 14
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 13
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 13
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # multiple ‡t
         context "multiple 505" do
@@ -218,10 +240,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '6 works' do
-            expect(g.query(work_squery).size).to eq 6
+            expect(g.query(work_sparql_query).size).to eq 6
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 5
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 5
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # mult 505
       end # ‡t
@@ -247,10 +273,14 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '4 works' do
-            expect(g.query(work_squery).size).to eq 4
+            expect(g.query(work_sparql_query).size).to eq 4
           end
-          it 'main work hasPart each 505 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 3
+          it 'main work hasPart to each 505 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 3
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # -- no spaces
       end # ‡a
@@ -286,10 +316,12 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '2 works' do
-            expect(g.query(work_squery).size).to eq 2
+            expect(g.query(work_sparql_query).size).to eq 2
           end
-          it 'main work hasPart for 700 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 1
+          it 'main work hasPart to 700 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 1
+            expect(solns.first.prop).to eq RDF::Vocab::Bibframe.hasPart
           end
         end # with ‡t
         context "without ‡t" do
@@ -310,10 +342,10 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '1 work' do
-            expect(g.query(work_squery).size).to eq 1
+            expect(g.query(work_sparql_query).size).to eq 1
           end
-          it '0 main work hasPart' do
-            expect(g.query(main_part_work_sqy).size).to eq 0
+          it 'no work <-> work' do
+            expect(g.query(work_prop_work_sparql_query).size).to eq 0
           end
         end # without ‡t
         context "mult with ‡t" do
@@ -354,44 +386,45 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '4 works' do
-            expect(g.query(work_squery).size).to eq 4
+            expect(g.query(work_sparql_query).size).to eq 4
           end
-          it 'main work hasPart to 700 work' do
-            expect(g.query(main_part_work_sqy).size).to eq 3
+          it 'main work hasPart to each 700 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 3
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+            }
           end
         end # mult with ‡t
       end # ind2 = 2
-      context "ind2 blank w ‡t" do
-        let(:g) {
-          rec_id = '700_ind2_blank_t'
-          marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-            '<datafield ind1="0" ind2="4" tag="245">
-              <subfield code="a">The grapes of wrath</subfield>
-              <subfield code="h">[videorecording] /</subfield>
-              <subfield code="c">Twentieth Century-Fox presents Darryl F. Zanuck\'s production ; directed by John Ford ; screenplay by Nunnally Johnson.</subfield>
-            </datafield>
-            <datafield ind1="1" ind2=" " tag="700">
-              <subfield code="a">Steinbeck, John,</subfield>
-              <subfield code="d">1902-1968.</subfield>
-              <subfield code="t">Grapes of wrath.</subfield>
-              <subfield code="=">^A2091926</subfield>
-            </datafield>
-          </record>'
-          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-        }
-        it '1 work' do
-          expect(g.query(work_squery).size).to eq 1
-        end
-        it '0 main work hasPart' do
-          expect(g.query(main_part_work_sqy).size).to eq 0
-        end
-      end
+      # Note:  other values for ind2 are tested in work_related_work_7xx_spec
     end # 700
+
     context "710" do
       context "ind 2 = 2" do
         context "with ‡t" do
-          it 'need example 710 ind2 2 with ‡t' do
-            fail 'need example 710 ind2 2 with ‡t'
+          let(:g) {
+            rec_id = '710_t'
+            marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
+              '<datafield tag="025" ind1=" " ind2=" ">
+                <subfield code="a">I E 59127 (LoC 2466523)</subfield>
+              </datafield>
+              <datafield tag="710" ind1="1" ind2="2">
+                <subfield code="a">India.</subfield>
+                <subfield code="t">Bonded Labour System (Abolition) Act, 1976</subfield>
+                <subfield code="h">[microform].</subfield>
+                <subfield code="f">1987.</subfield>
+              </datafield>
+            </record>'
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
+          }
+          it '2 works' do
+            expect(g.query(work_sparql_query).size).to eq 2
+          end
+          it '1 main work hasPart to 710 work' do
+            solns = g.query(work_prop_work_sparql_query)
+            expect(solns.size).to eq 1
+            expect(solns.first.prop).to eq RDF::Vocab::Bibframe.hasPart
           end
         end # with ‡t
         context "without ‡t" do
@@ -411,10 +444,10 @@ describe 'work within the work described by the MARC record' do
             self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
           }
           it '1 work' do
-            expect(g.query(work_squery).size).to eq 1
+            expect(g.query(work_sparql_query).size).to eq 1
           end
-          it '0 main work hasPart' do
-            expect(g.query(main_part_work_sqy).size).to eq 0
+          it 'no work <-> work' do
+            expect(g.query(work_prop_work_sparql_query).size).to eq 0
           end
         end # without ‡t
         context "mult with ‡t" do
@@ -423,11 +456,9 @@ describe 'work within the work described by the MARC record' do
           end
         end # mult with ‡t
       end # ind2 = 2
-      # ind2 not 2 with ‡t?
-      it 'need example 710 ind2 not 2 with ‡t' do
-        fail 'need example 710 ind2 not 2 with ‡t'
-      end
+      # Note:  other values for ind2 are tested in work_related_work_7xx_spec
     end # 710
+
     context "711" do
       context "ind 2 = 2" do
         context "with ‡t" do
@@ -446,10 +477,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # mult with ‡t
       end # ind2 = 2
-      # ind2 not 2 with ‡t?
-      it 'need example 711 ind2 not 2 with ‡t' do
-        fail 'need example 711 ind2 not 2 with ‡t'
-      end
+      # Note:  other values for ind2 are tested in work_related_work_7xx_spec
     end # 711
   end  # 700-711 with ind2 = 2 and ‡t
 
@@ -472,10 +500,12 @@ describe 'work within the work described by the MARC record' do
           self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
         }
         it '2 works' do
-          expect(g.query(work_squery).size).to eq 2
+          expect(g.query(work_sparql_query).size).to eq 2
         end
         it 'main work hasPart to 730 work' do
-          expect(g.query(main_part_work_sqy).size).to eq 1
+          solns = g.query(work_prop_work_sparql_query)
+          expect(solns.size).to eq 1
+          expect(solns.first.prop).to eq RDF::Vocab::Bibframe.hasPart
         end
       end # single 730
       context "multiple 730" do
@@ -501,39 +531,19 @@ describe 'work within the work described by the MARC record' do
           self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
         }
         it '4 works' do
-          expect(g.query(work_squery).size).to eq 4
+          expect(g.query(work_sparql_query).size).to eq 4
         end
         it 'main work hasPart to each 730 work' do
-          expect(g.query(main_part_work_sqy).size).to eq 3
+          solns = g.query(work_prop_work_sparql_query)
+          expect(solns.size).to eq 3
+          solns.each { |soln|
+            expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+          }
         end
       end # mult 730
     end # ind2 = 2
-    context "ind2 blank" do
-      let(:g) {
-        rec_id = '730_ind2blank'
-        marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-          '<datafield ind1="0" ind2="0" tag="245">
-            <subfield code="a">Alfred Hitchcock, the masterpiece collection</subfield>
-            <subfield code="h">[videorecording].</subfield>
-          </datafield>
-          <datafield ind1="0" ind2=" " tag="730">
-            <subfield code="a">Rope (Motion picture)</subfield>
-            <subfield code="=">^A3046122</subfield>
-          </datafield>
-          <datafield ind1="0" ind2=" " tag="730">
-            <subfield code="a">Rear window (Motion picture)</subfield>
-            <subfield code="=">^A1268811</subfield>
-          </datafield>
-        </record>'
-        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      }
-      it '1 work' do
-        expect(g.query(work_squery).size).to eq 1
-      end
-      it '0 main work hasPart' do
-        expect(g.query(main_part_work_sqy).size).to eq 0
-      end
-    end # ind2 blank
+
+    # Note:  other values for ind2 are tested in work_related_work_7xx_spec
   end # 730
 
   context "740" do
@@ -554,10 +564,12 @@ describe 'work within the work described by the MARC record' do
           self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
         }
         it '2 works' do
-          expect(g.query(work_squery).size).to eq 2
+          expect(g.query(work_sparql_query).size).to eq 2
         end
         it 'main work hasPart to 740 work' do
-          expect(g.query(main_part_work_sqy).size).to eq 1
+          solns = g.query(work_prop_work_sparql_query)
+          expect(solns.size).to eq 1
+          expect(solns.first.prop).to eq RDF::Vocab::Bibframe.hasPart
         end
       end # single 740
       context "multiple 740" do
@@ -580,58 +592,19 @@ describe 'work within the work described by the MARC record' do
           self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
         }
         it '3 works' do
-          expect(g.query(work_squery).size).to eq 3
+          expect(g.query(work_sparql_query).size).to eq 3
         end
         it 'main work hasPart to each 740 work' do
-          expect(g.query(main_part_work_sqy).size).to eq 2
+          solns = g.query(work_prop_work_sparql_query)
+          expect(solns.size).to eq 2
+          solns.each { |soln|
+            expect(soln.prop).to eq RDF::Vocab::Bibframe.hasPart
+          }
         end
       end # mult 740
     end # ind2 = 2
 
-    context "ind2 = 1" do
-      let(:g) {
-        rec_id = '740ind2_1'
-        marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-          '<datafield ind1="1" ind2="4" tag="245">
-            <subfield code="a">The grapes of wrath.</subfield>
-          </datafield>
-          <datafield ind1="0" ind2="1" tag="740">
-            <subfield code="a">Screenplay collection.</subfield>
-          </datafield>
-        </record>'
-        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      }
-      it '1 work' do
-        expect(g.query(work_squery).size).to eq 1
-      end
-      it '0 main work hasPart' do
-        expect(g.query(main_part_work_sqy).size).to eq 0
-      end
-    end # ind2 = 1
-
-    context "ind2 blank" do
-      let(:g) {
-        rec_id = '740ind2blank'
-        marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
-          '<datafield ind1="1" ind2="0" tag="245">
-            <subfield code="6">880-01</subfield>
-            <subfield code="a">Punno ŭi p\'odo =</subfield>
-            <subfield code="b">The Grapes of wrath /</subfield>
-            <subfield code="c">John E. Steinbeck ; Sisa Yŏngŏsa P\'yŏnjipkuk yŏk.</subfield>
-          </datafield>
-          <datafield ind1="0" ind2=" " tag="740">
-            <subfield code="a">Grapes of wrath.</subfield>
-          </datafield>
-       </record>'
-        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, rec_id)
-      }
-      it '1 work' do
-        expect(g.query(work_squery).size).to eq 1
-      end
-      it '0 main work hasPart' do
-        expect(g.query(main_part_work_sqy).size).to eq 0
-      end
-    end # ind2 blank
+    # Note:  other values for ind2 are tested in work_related_work_7xx_spec
   end # 740
 
 end
