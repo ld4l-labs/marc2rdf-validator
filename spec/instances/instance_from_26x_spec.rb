@@ -163,12 +163,12 @@ describe 'instance from 26x or 300' do
           fail 'need example of multiple 260s when leader6=a, leader7=i'
         end
       end
-      context "leader6=a, leader7=s" do
+      context "leader6=a, leader7=s (serial)" do
         let(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>02015cas a2200529 a 4500</leader>
-            <controlfield tag="001">mult260</controlfield>
+            <controlfield tag="001">serial_mult260</controlfield>
             <controlfield tag="008">921028c19899999fr br         0   b0fre c</controlfield>
           <datafield tag="245" ind1="1" ind2="0">
             <subfield code="a">Textuel.</subfield>
@@ -196,6 +196,18 @@ describe 'instance from 26x or 300' do
         end
         it '3 instanceOf' do
           expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
+        end
+        it 'single Work or relationship between Instances or between Works' do
+          num_works = g.query(WorkHelpers::WORK_SPARQL_QUERY).size
+          expect(num_works).to be >= 1
+          if num_works > 1
+            num_work_rels = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY).size
+            num_instance_rels = g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size
+            expect(num_work_rels + num_instance_rels).to be > 0
+          end
+        end
+        it 'no direct relationship between Instances' do
+          expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
         end
       end # leader6=a, leader7=s
       context "leader6=a, leader7 not b, i, s" do
@@ -231,6 +243,12 @@ describe 'instance from 26x or 300' do
         end
         it '3 instanceOf' do
           expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
+        end
+        it 'single Work' do
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 1
+        end
+        it 'no direct relationship between Instances' do
+          expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
         end
       end
       context "leader6 not a" do
