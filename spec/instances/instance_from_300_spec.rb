@@ -294,6 +294,12 @@ describe 'instance from 300' do
       it '3 instanceOf' do
         expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
       end
+      it 'single Work' do
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 1
+      end
+      it 'no direct relationship between Instances' do
+        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
+      end
     end # no 26x
     context "260" do
       let(:g) {
@@ -330,6 +336,12 @@ describe 'instance from 300' do
       end
       it '3 instanceOf' do
         expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
+      end
+      it 'single Work' do
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 1
+      end
+      it 'no direct relationship between Instances' do
+        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
       end
     end # 260
     context "264" do
@@ -370,6 +382,12 @@ describe 'instance from 300' do
       end
       it '3 instanceOf' do
         expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
+      end
+      it 'single Work' do
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 1
+      end
+      it 'no direct relationship between Instances' do
+        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
       end
     end # 264
   end # mult 300
