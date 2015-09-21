@@ -44,30 +44,126 @@ describe 'instance from 26x or 300' do
     # first of 260|261|262|264|300
     # 260 (except the first one) when leader6 == 'a' && leader7 == 'b', 'i' or 's'
     context 'single 260' do
-      let(:g) {
-        marcxml_str =
-          '<record xmlns="http://www.loc.gov/MARC21/slim">
-            <leader>02308cas a2200541 a 4500</leader>
-            <controlfield tag="001">260</controlfield>
-            <controlfield tag="008">790906u1921uuuubl ar p   o   0    0por c</controlfield>
-            <datafield tag="245" ind1="1" ind2="2">
-              <subfield code="a">A ordem.</subfield>
-            </datafield>
-            <datafield tag="260" ind1=" " ind2=" ">
-              <subfield code="a">Rio de Janeiro :</subfield>
-            </datafield>
-          </record>'
-        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '260')
-      }
-      it '1 Instance' do
-        expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 1
+      context "leader6=a, leader7=b" do
+        it 'need example of single 260 when leader6=a, leader7=b' do
+          fail 'need example of single 260 when leader6=a, leader7=b'
+        end
       end
-      it '1 instanceOf' do
-        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 1
-      end
+      context "leader6=a, leader7=i" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>03514cai a2200661 a 4500</leader>
+              <controlfield tag="001">260_leader6a_leader7i</controlfield>
+              <controlfield tag="008">790906u1921uuuubl ar p   o   0    0por c</controlfield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Iraq War 2003 web archive</subfield>
+                <subfield code="h">[electronic resource].</subfield>
+              </datafield>
+              <datafield tag="260" ind1=" " ind2=" ">
+                <subfield code="a">Washington, D.C. :</subfield>
+                <subfield code="b">Library of Congress,</subfield>
+                <subfield code="c">2008-</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '260_leader6a_leader7i')
+        }
+        it '1 Instance' do
+          expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 1
+        end
+        it '1 instanceOf' do
+          expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 1
+        end
+      end # leader6=a, leader7=i
+      context "leader6=a, leader7=s" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>02308cas a2200541 a 4500</leader>
+              <controlfield tag="001">260_serial</controlfield>
+              <controlfield tag="008">790906u1921uuuubl ar p   o   0    0por c</controlfield>
+              <datafield tag="245" ind1="1" ind2="2">
+                <subfield code="a">A ordem.</subfield>
+              </datafield>
+              <datafield tag="260" ind1=" " ind2=" ">
+                <subfield code="a">Rio de Janeiro :</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '260_serial')
+        }
+        it '1 Instance' do
+          expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 1
+        end
+        it '1 instanceOf' do
+          expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 1
+        end
+      end # leader6=a, leader7=s
+      context "leader6=a, leader7 not b, i, s" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>06174nam a2200445Ia 4500</leader>
+              <controlfield tag="001">260_leader6a_leader7_not_bis</controlfield>
+              <controlfield tag="008">080813s2008    njua    s     001 0 eng d</controlfield>
+              <datafield ind1="1" ind2="0" tag="245">
+                <subfield code="a">Expert podcasting practices for dummies</subfield>
+                <subfield code="h">[electronic resource] /</subfield>
+                <subfield code="c">by Tee Morris, Evo Terra, and Ryan Williams.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="260">
+                <subfield code="a">Hoboken, [N.J.] :</subfield>
+                <subfield code="b">Wiley Pub.,</subfield>
+                <subfield code="c">c2008.</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '260_leader6a_leader7_not_bis')
+        }
+        it '1 Instance' do
+          expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 1
+        end
+        it '1 instanceOf' do
+          expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 1
+        end
+      end # leader6=a, leader7 not b, i, s
+      context "leader6 not a" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>01656ccm a2200349 a 4500</leader>
+              <controlfield tag="001">260_leader6_not_a</controlfield>
+              <controlfield tag="008">020925s2002    wiujza   fi    n    zxx d</controlfield>
+              <datafield ind1="1" ind2="0" tag="245">
+                <subfield code="a">Birth of the cool /</subfield>
+                <subfield code="c">Miles Davis.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="260">
+                <subfield code="a">Milwaukee, WI :</subfield>
+                <subfield code="b">H. Leonard Corp.,</subfield>
+                <subfield code="c">[2002?]</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '260_serial')
+        }
+        it '1 Instance' do
+          expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 1
+        end
+        it '1 instanceOf' do
+          expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 1
+        end
+      end # leader6 not a
     end # single 260
     context "mult 260" do
-      context "serial_mult260" do
+      context "leader6=a, leader7=b" do
+        it 'need example of multiple 260s when leader6=a, leader7=b' do
+          fail 'need example of multiple 260s when leader6=a, leader7=b'
+        end
+      end
+      context "leader6=a, leader7=i" do
+        it 'need example of multiple 260 when leader6=a, leader7=i' do
+          fail 'need example of multiple 260s when leader6=a, leader7=i'
+        end
+      end
+      context "leader6=a, leader7=s" do
         let(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
@@ -101,8 +197,8 @@ describe 'instance from 26x or 300' do
         it '3 instanceOf' do
           expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
         end
-      end
-      context "non-serial mult260" do
+      end # leader6=a, leader7=s
+      context "leader6=a, leader7 not b, i, s" do
         # TODO:  real example needed?
         let(:g) {
         marcxml_str =
@@ -137,22 +233,30 @@ describe 'instance from 26x or 300' do
           expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
         end
       end
+      context "leader6 not a" do
+        it 'need example of mult 260 when leader6 not a' do
+          fail 'need example of mult 260 when leader6 not a'
+        end
+      end
     end # mult 260
   end # 260
 
   context "261" do
+    # TODO:  does this need to have same spread of leader6 and leader7 conditions as 260?
     it 'need example data for 261' do
       fail 'need example data for 261'
     end
   end
 
   context "262" do
+    # TODO:  does this need to have same spread of leader6 and leader7 conditions as 260?
     it 'need example data for 262' do
       fail 'need example data for 262'
     end
   end
 
   context "264" do
+    # TODO:  does this need to have same spread of leader6 and leader7 conditions as 260?
     context "single 264" do
       context '264 ind2=1 book' do
         let(:g) {
