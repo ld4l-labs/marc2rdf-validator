@@ -24,6 +24,13 @@ module InstanceHelpers
                                                               ?instance2 a bf:Instance .
                                                             }")
 
+  self::ANNOTATION_BODY_SPARQL_QUERY = SPARQL.parse(" PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
+                                                      SELECT DISTINCT ?annotationBody
+                                                      WHERE {
+                                                        ?anno a bf:Annotation .
+                                                        ?anno bf:annotationBody ?annotationBody .
+                                                      }")
+
   self::TITLE_VALUE_OF_INSTANCE_SPARQL_QUERY = SPARQL.parse(" PREFIX bf: <http://bibframe.org/vocab/>
                                                               SELECT DISTINCT ?titleValue
                                                               WHERE {
