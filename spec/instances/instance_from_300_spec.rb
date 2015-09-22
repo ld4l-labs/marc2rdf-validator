@@ -288,11 +288,12 @@ describe 'instance from 300' do
           </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '300s_no_26x_video')
       }
-      it '3 Instances' do
-        expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 3
+      it '1 Instance' do
+        # should archival only generate 1 Instance for all the 300s?
+        expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 1
       end
-      it '3 instanceOf' do
-        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 3
+      it '1 instanceOf' do
+        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 1
       end
       it 'single Work' do
         expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 1
