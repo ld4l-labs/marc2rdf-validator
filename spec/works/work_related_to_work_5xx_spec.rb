@@ -154,10 +154,136 @@ describe 'work related to the work described by the MARC record' do
     end # recording
   end # 533
 
-  context "534" do
-    it 'need tests for 534' do
-      fail 'need example data for 534'
+  context "534 (original version)" do
+    it 'should Work only be created when 534 has (t|b|f|k)?' do
+      fail 'should Work only be created when 534 has (t|b|f|k)?'
+      # see https://github.com/lcnetdev/marc2bibframe/.../modules/module.MBIB-2-BIBFRAME-Shared.xqy#L2301
     end
+    context "single 534" do
+      context "with |t" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>01711cam a22003614a 4500</leader>
+              <controlfield tag="001">14342057</controlfield>
+              <controlfield tag="008">020911s2002    fr ab    b    000 0 fre d</controlfield>
+              <datafield tag="245" ind1="1" ind2="0">
+                <subfield code="a">"Somme, c\'est Ce&#x301;sar--" :</subfield>
+                <subfield code="b">premie&#x300;re reproduction, en fac-simile, de l\'exemplaire des Commentaires de Ce&#x301;sar, annote&#x301; par Montaigne /</subfield>
+                <subfield code="c">Michel de Montaigne ; publie&#x301; par Andre&#x301; Gallet ; avec une introduction par Andre&#x301; Gallet ; une notice bibliographique de Francis Pottie&#x301;e-Sperry ; et une note historique par Emmanuelle Toulet.</subfield>
+              </datafield>
+              <datafield tag="260" ind1=" " ind2=" ">
+                <subfield code="a">Chantilly :</subfield>
+                <subfield code="b">Muse&#x301;e Conde&#x301; ;</subfield>
+                <subfield code="a">Bordeaux :</subfield>
+                <subfield code="b">William Blake &amp; Co. ;</subfield>
+                <subfield code="c">c2002.</subfield>
+              </datafield>
+              <datafield tag="300" ind1=" " ind2=" ">
+                <subfield code="a">2 v. :</subfield>
+                <subfield code="b">ill., maps ;</subfield>
+                <subfield code="c">23 cm.</subfield>
+              </datafield>
+              <datafield tag="534" ind1=" " ind2=" ">
+                <subfield code="p">Facsim. of:</subfield>
+                <subfield code="t">C. Iulii Caesaris Commentarii, novis emendationibus illustrati,</subfield>
+                <subfield code="c">Antverpiae : Ex officina Christoph. Plantini, 1570.</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'a293532')
+        }
+        it '2 Works' do
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
+        end
+        it 'one Work originalVersion of other Work' do
+          # TODO:  is this relationship in the right direction?
+          solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
+          expect(solns.size).to eq 1
+          expect(solns.first.prop).to eq RDF::Vocab::Bibframe.originalVersion
+        end
+      end # with |t
+      context "without |t" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>02295cam a22004217a 4500</leader>
+              <controlfield tag="001">15535030</controlfield>
+              <controlfield tag="008">081125s2008    kv ||||  y56||||| ||srp  </controlfield>
+              <datafield tag="245" ind1="1" ind2="0">
+                <subfield code="a">Validator test record for Nov. 2008 rollout /</subfield>
+                <subfield code="c">David Reser.</subfield>
+              </datafield>
+              <datafield tag="260" ind1=" " ind2=" ">
+                <subfield code="a">Original place :</subfield>
+                <subfield code="b">Original Pub,</subfield>
+                <subfield code="c">2008.</subfield>
+              </datafield>
+              <datafield tag="300" ind1=" " ind2=" ">
+                <subfield code="a">1 v.</subfield>
+              </datafield>
+              <datafield tag="534" ind1=" " ind2=" ">
+                <subfield code="a">data</subfield>
+                <subfield code="o">other resource identifier</subfield>
+                <subfield code="p">mand</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '15535030')
+        }
+        it '2 Works' do
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
+        end
+        it 'one Work originalVersion of other Work' do
+          # TODO:  is this relationship in the right direction?
+          solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
+          expect(solns.size).to eq 1
+          expect(solns.first.prop).to eq RDF::Vocab::Bibframe.originalVersion
+        end
+      end # without |t
+    end # single 534
+
+    context "mult 534 without |t" do
+      let(:g) {
+        marcxml_str =
+          '<record xmlns="http://www.loc.gov/MARC21/slim">
+            <leader>01811ccm a2200409 a 4500</leader>
+            <controlfield tag="001">a293532</controlfield>
+            <controlfield tag="008">890719r19891906nyusya   z     n    ger  </controlfield>
+            <datafield ind1="0" ind2="0" tag="245">
+              <subfield code="a">Symphonies nos. 3 and 4 /</subfield>
+              <subfield code="c">Gustav Mahler.</subfield>
+            </datafield>
+            <datafield ind1=" " ind2=" " tag="260">
+              <subfield code="a">New York :</subfield>
+              <subfield code="b">Dover,</subfield>
+              <subfield code="c">1989.</subfield>
+            </datafield>
+            <datafield ind1=" " ind2=" " tag="300">
+              <subfield code="a">1 score (353 p.) ;</subfield>
+              <subfield code="c">31 cm.</subfield>
+            </datafield>
+            <datafield ind1=" " ind2=" " tag="534">
+              <subfield code="p">Reprint (1st work). Originally published:</subfield>
+              <subfield code="c">Vienna : Universal Edition, 1906.</subfield>
+            </datafield>
+            <datafield ind1=" " ind2=" " tag="534">
+              <subfield code="p">Reprint (2nd work). Originally published:</subfield>
+              <subfield code="c">Vienna : Universal Edition, 1906.</subfield>
+            </datafield>
+          </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'a293532')
+      }
+      it '3 Works' do
+        expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 3
+      end
+      it '2 Works originalVersion of other Work' do
+        # TODO:  is this relationship in the right direction?
+        solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
+        expect(solns.size).to eq 2
+        solns.each { |soln|
+          expect(soln.prop).to eq RDF::Vocab::Bibframe.originalVersion
+        }
+      end
+    end # mult 534 without |t
   end # 534
 
   context "547" do
@@ -167,6 +293,9 @@ describe 'work related to the work described by the MARC record' do
   end # 547
 
   context "555 (index)" do
+    it 'should Work only be created when 555 has |u?' do
+      fail 'should Work only be created when 555 has |u?'
+    end
     context "single 555 single u" do
       context "260, 300, image collection" do
         let(:g) {
@@ -250,173 +379,172 @@ describe 'work related to the work described by the MARC record' do
     end # single 555 single u
 
     context "single 555 no u" do
-        context "journal 260, 300" do
+      context "journal 260, 300" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>04849cas a2200613 a 4500</leader>
+              <controlfield tag="001">555_no_u_260_300</controlfield>
+              <controlfield tag="008">810709c19719999okufr p       0   a0eng d</controlfield>
+              <datafield ind1="0" ind2="4" tag="245">
+                <subfield code="a">The Horn call.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="260">
+                <subfield code="a">Durant, Okla. :</subfield>
+                <subfield code="b">International Horn Society.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="300">
+                <subfield code="a">v. :</subfield>
+                <subfield code="b">ill., music, ports. ;</subfield>
+                <subfield code="c">23 cm.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="555">
+                <subfield code="a">Vols. 1-10, after v. 10.</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '555_no_u_260_300')
+        }
+        it '2 Works' do
+          # should it create a Work when there is no |u in 555?
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
+        end
+        it 'one Work index of other Work' do
+          # TODO:  is this relationship in the right direction?
+          solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
+          expect(solns.size).to eq 1
+          expect(solns.first.prop).to eq RDF::Vocab::Bibframe.index
+        end
+      end # journal 260, 300
+      context "archival coll no 260, yes 300" do
+        let(:g) {
+          marcxml_str =
+            '<record xmlns="http://www.loc.gov/MARC21/slim">
+              <leader>01855cemaa22003131a 4500</leader>
+              <controlfield tag="001">555_no_u_300</controlfield>
+              <controlfield tag="008">020123q14861865sa                  eng u</controlfield>
+              <datafield ind1="1" ind2="0" tag="245">
+                <subfield code="a">Dr. Oscar I. Norwich collection of maps of Africa and its islands,</subfield>
+                <subfield code="f">1486 - ca. 1865.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="300">
+                <subfield code="a">312 items.</subfield>
+              </datafield>
+              <datafield ind1=" " ind2=" " tag="555">
+                <subfield code="a">Finding aid available online and in the Special Collections Reading Room.</subfield>
+              </datafield>
+            </record>'
+          self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '555_no_u_300')
+        }
+        it '2 Works' do
+          # should it create a Work when there is no |u in 555?
+          expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
+        end
+        it 'one Work index of other Work' do
+          # TODO:  is this relationship in the right direction?
+          solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
+          expect(solns.size).to eq 1
+          expect(solns.first.prop).to eq RDF::Vocab::Bibframe.index
+        end
+      end # archival coll no 260, yes 300
+    end # single 555 no u
+
+    context "mult 555" do
+      context "each has u" do
+        context "260, 300, photograph collection" do
           let(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
-                <leader>04849cas a2200613 a 4500</leader>
-                <controlfield tag="001">555_no_u_260_300</controlfield>
-                <controlfield tag="008">810709c19719999okufr p       0   a0eng d</controlfield>
-                <datafield ind1="0" ind2="4" tag="245">
-                  <subfield code="a">The Horn call.</subfield>
+                <leader>06754ckc a2200889 a 4500</leader>
+                <controlfield tag="001">mult555_photo_coll</controlfield>
+                <controlfield tag="008">030313i18801893tu nnn            knota  </controlfield>
+                <datafield tag="245" ind1="0" ind2="0">
+                  <subfield code="a">Abdul-Hamid II collection of photographs of the Ottoman Empire</subfield>
+                  <subfield code="h">[graphic].</subfield>
                 </datafield>
-                <datafield ind1=" " ind2=" " tag="260">
-                  <subfield code="a">Durant, Okla. :</subfield>
-                  <subfield code="b">International Horn Society.</subfield>
+                <datafield tag="260" ind1=" " ind2=" ">
+                  <subfield code="c">1880-1893.</subfield>
                 </datafield>
-                <datafield ind1=" " ind2=" " tag="300">
-                  <subfield code="a">v. :</subfield>
-                  <subfield code="b">ill., music, ports. ;</subfield>
-                  <subfield code="c">23 cm.</subfield>
+                <datafield tag="300" ind1=" " ind2=" ">
+                  <subfield code="a">51 albums ;</subfield>
+                  <subfield code="c">32 x 19 in. or smaller.</subfield>
                 </datafield>
-                <datafield ind1=" " ind2=" " tag="555">
-                  <subfield code="a">Vols. 1-10, after v. 10.</subfield>
+                <datafield tag="555" ind1="8" ind2=" ">
+                  <subfield code="a">Collection profile available online</subfield>
+                  <subfield code="u">hdl.loc.gov/loc.pnp/pp.ahii</subfield>
+                </datafield>
+                <datafield tag="555" ind1="8" ind2=" ">
+                  <subfield code="a">A set of catalog records describing each item is available through the Open Archives Initiative Protocol for Metadata Harvesting. See</subfield>
+                  <subfield code="u">http://hdl.loc.gov/loc.gdc/lcoa1.about</subfield>
                 </datafield>
               </record>'
-            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '555_no_u_260_300')
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'mult555_photo_coll')
           }
-          it '2 Works' do
-            # should it create a Work when there is no |u in 555?
-            expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
+          it '3 Works' do
+            expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 3
           end
-          it 'one Work index of other Work' do
+          it 'two Works index of other Work' do
             # TODO:  is this relationship in the right direction?
             solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
-            expect(solns.size).to eq 1
-            expect(solns.first.prop).to eq RDF::Vocab::Bibframe.index
+            expect(solns.size).to eq 2
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.index
+            }
           end
-        end # journal 260, 300
-        context "archival coll no 260, yes 300" do
+        end # 260, 300 photograph collection
+        context "mult 300, no 260, papers" do
           let(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
-                <leader>01855cemaa22003131a 4500</leader>
-                <controlfield tag="001">555_no_u_300</controlfield>
-                <controlfield tag="008">020123q14861865sa                  eng u</controlfield>
-                <datafield ind1="1" ind2="0" tag="245">
-                  <subfield code="a">Dr. Oscar I. Norwich collection of maps of Africa and its islands,</subfield>
-                  <subfield code="f">1486 - ca. 1865.</subfield>
+                <leader>06411cpcaa2201021 i 4500</leader>
+                <controlfield tag="001">mult555_mult300_no_260_papers</controlfield>
+                <controlfield tag="008">780918||||||||||||                 eng  </controlfield>
+                <datafield tag="245" ind1="0" ind2="0">
+                  <subfield code="a">Abraham Lincoln papers,</subfield>
+                  <subfield code="f">1774-1948.</subfield>
                 </datafield>
-                <datafield ind1=" " ind2=" " tag="300">
-                  <subfield code="a">312 items.</subfield>
+                <datafield tag="300" ind1=" " ind2=" ">
+                  <subfield code="a">40,550</subfield>
+                  <subfield code="f">items.</subfield>
                 </datafield>
-                <datafield ind1=" " ind2=" " tag="555">
-                  <subfield code="a">Finding aid available online and in the Special Collections Reading Room.</subfield>
+                <datafield tag="300" ind1=" " ind2=" ">
+                  <subfield code="a">221</subfield>
+                  <subfield code="f">containers plus</subfield>
+                  <subfield code="a">11</subfield>
+                  <subfield code="f">oversize.</subfield>
+                </datafield>
+                <datafield tag="300" ind1=" " ind2=" ">
+                  <subfield code="a">98</subfield>
+                  <subfield code="f">microfilm reels.</subfield>
+                </datafield>
+                <datafield tag="300" ind1=" " ind2=" ">
+                  <subfield code="a">48</subfield>
+                  <subfield code="f">linear feet.</subfield>
+                </datafield>
+                <datafield tag="555" ind1="8" ind2=" ">
+                  <subfield code="a">Finding aid available in the Library of Congress Manuscript Reading Room and at</subfield>
+                  <subfield code="u">http://hdl.loc.gov/loc.mss/eadmss.ms009304</subfield>
+                </datafield>
+                <datafield tag="555" ind1="8" ind2=" ">
+                  <subfield code="a">Index published by the Library of Congress in 1960 available in the Library of Congress Manuscript Reading Room and at</subfield>
+                  <subfield code="u">http://hdl.loc.gov/loc.gdc/scd0001.20101124004al.2</subfield>
                 </datafield>
               </record>'
-            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '555_no_u_300')
+            self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'mult555_mult300_no_260_papers')
           }
-          it '2 Works' do
-            # should it create a Work when there is no |u in 555?
-            expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 2
+          it '3 Works' do
+            expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 3
           end
-          it 'one Work index of other Work' do
+          it 'two Works index of other Work' do
             # TODO:  is this relationship in the right direction?
             solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
-            expect(solns.size).to eq 1
-            expect(solns.first.prop).to eq RDF::Vocab::Bibframe.index
+            expect(solns.size).to eq 2
+            solns.each { |soln|
+              expect(soln.prop).to eq RDF::Vocab::Bibframe.index
+            }
           end
-        end # archival coll no 260, yes 300
-      end # single 555 no u
-
-      context "mult 555" do
-        context "each has u" do
-          context "260, 300, photograph collection" do
-            let(:g) {
-              marcxml_str =
-                '<record xmlns="http://www.loc.gov/MARC21/slim">
-                  <leader>06754ckc a2200889 a 4500</leader>
-                  <controlfield tag="001">mult555_photo_coll</controlfield>
-                  <controlfield tag="008">030313i18801893tu nnn            knota  </controlfield>
-                  <datafield tag="245" ind1="0" ind2="0">
-                    <subfield code="a">Abdul-Hamid II collection of photographs of the Ottoman Empire</subfield>
-                    <subfield code="h">[graphic].</subfield>
-                  </datafield>
-                  <datafield tag="260" ind1=" " ind2=" ">
-                    <subfield code="c">1880-1893.</subfield>
-                  </datafield>
-                  <datafield tag="300" ind1=" " ind2=" ">
-                    <subfield code="a">51 albums ;</subfield>
-                    <subfield code="c">32 x 19 in. or smaller.</subfield>
-                  </datafield>
-                  <datafield tag="555" ind1="8" ind2=" ">
-                    <subfield code="a">Collection profile available online</subfield>
-                    <subfield code="u">hdl.loc.gov/loc.pnp/pp.ahii</subfield>
-                  </datafield>
-                  <datafield tag="555" ind1="8" ind2=" ">
-                    <subfield code="a">A set of catalog records describing each item is available through the Open Archives Initiative Protocol for Metadata Harvesting. See</subfield>
-                    <subfield code="u">http://hdl.loc.gov/loc.gdc/lcoa1.about</subfield>
-                  </datafield>
-                </record>'
-              self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'mult555_photo_coll')
-            }
-            it '3 Works' do
-              expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 3
-            end
-            it 'two Works index of other Work' do
-              # TODO:  is this relationship in the right direction?
-              solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
-              expect(solns.size).to eq 2
-              solns.each { |soln|
-                expect(soln.prop).to eq RDF::Vocab::Bibframe.index
-              }
-            end
-          end # 260, 300 photograph collection
-          context "mult 300, no 260, papers" do
-            let(:g) {
-              marcxml_str =
-                '<record xmlns="http://www.loc.gov/MARC21/slim">
-                  <leader>06411cpcaa2201021 i 4500</leader>
-                  <controlfield tag="001">mult555_mult300_no_260_papers</controlfield>
-                  <controlfield tag="008">780918||||||||||||                 eng  </controlfield>
-                  <datafield tag="245" ind1="0" ind2="0">
-                    <subfield code="a">Abraham Lincoln papers,</subfield>
-                    <subfield code="f">1774-1948.</subfield>
-                  </datafield>
-                  <datafield tag="300" ind1=" " ind2=" ">
-                    <subfield code="a">40,550</subfield>
-                    <subfield code="f">items.</subfield>
-                  </datafield>
-                  <datafield tag="300" ind1=" " ind2=" ">
-                    <subfield code="a">221</subfield>
-                    <subfield code="f">containers plus</subfield>
-                    <subfield code="a">11</subfield>
-                    <subfield code="f">oversize.</subfield>
-                  </datafield>
-                  <datafield tag="300" ind1=" " ind2=" ">
-                    <subfield code="a">98</subfield>
-                    <subfield code="f">microfilm reels.</subfield>
-                  </datafield>
-                  <datafield tag="300" ind1=" " ind2=" ">
-                    <subfield code="a">48</subfield>
-                    <subfield code="f">linear feet.</subfield>
-                  </datafield>
-                  <datafield tag="555" ind1="8" ind2=" ">
-                    <subfield code="a">Finding aid available in the Library of Congress Manuscript Reading Room and at</subfield>
-                    <subfield code="u">http://hdl.loc.gov/loc.mss/eadmss.ms009304</subfield>
-                  </datafield>
-                  <datafield tag="555" ind1="8" ind2=" ">
-                    <subfield code="a">Index published by the Library of Congress in 1960 available in the Library of Congress Manuscript Reading Room and at</subfield>
-                    <subfield code="u">http://hdl.loc.gov/loc.gdc/scd0001.20101124004al.2</subfield>
-                  </datafield>
-                </record>'
-              self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'mult555_mult300_no_260_papers')
-            }
-            it '3 Works' do
-              expect(g.query(WorkHelpers::WORK_SPARQL_QUERY).size).to eq 3
-            end
-            it 'two Works index of other Work' do
-              # TODO:  is this relationship in the right direction?
-              solns = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY)
-              expect(solns.size).to eq 2
-              solns.each { |soln|
-                expect(soln.prop).to eq RDF::Vocab::Bibframe.index
-              }
-            end
-          end # mult 300, no 260, papers
-        end # each has u
-      end # mult 555
-
+        end # mult 300, no 260, papers
+      end # each has u
+    end # mult 555
   end # 555
 
   context "580" do
