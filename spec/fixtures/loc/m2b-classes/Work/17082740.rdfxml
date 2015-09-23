@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:bf2="http://bibframe.org/vocab2/"
+         xmlns:bf="http://bibframe.org/vocab/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <bf:Work rdf:about="http://example.org/17082740">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Dataset"/>
+      <bf:authorizedAccessPoint>Drucker, Lisa K. ASVAB flashcards : Army * Air Force * Navy * Marines * Coast Guard / Lisa K. Drucker.ASVAB flashcards :Army * Air Force * Navy * Marines * Coast Guard</bf:authorizedAccessPoint>
+      <bf:workTitle rdf:resource="http://example.org/17082740title6"/>
+      <relators:aut rdf:resource="http://example.org/17082740person7"/>
+      <bf:contentCategory rdf:resource="http://id.loc.gov/vocabulary/contentTypes/txt"/>
+      <bf:contentCategory rdf:resource="http://id.loc.gov/vocabulary/contentTypes/cod"/>
+      <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      <bf:subject rdf:resource="http://example.org/17082740topic11"/>
+      <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/U408.5"/>
+      <bf:authorizedAccessPoint xml:lang="x-bf-hash">druckerlisakasvabflashcardsarmyairforcenavymarinescoastguardengworktext</bf:authorizedAccessPoint>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/17082740instance15">
+      <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+      <bf:instanceTitle rdf:resource="http://example.org/17082740title18"/>
+      <bf:isbn10 rdf:resource="http://isbn.example.org/0738609080"/>
+      <bf:isbn13 rdf:resource="http://isbn.example.org/9780738609089"/>
+      <bf:publication>
+         <bf:Provider>
+            <bf:providerName>
+               <bf:Organization>
+                  <bf:label>Research &amp; Education Association</bf:label>
+               </bf:Organization>
+            </bf:providerName>
+            <bf:providerPlace>
+               <bf:Place>
+                  <bf:label>Piscataway, New Jersey </bf:label>
+               </bf:Place>
+            </bf:providerPlace>
+            <bf:providerDate>©2011</bf:providerDate>
+         </bf:Provider>
+      </bf:publication>
+      <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+      <bf:extent>vii, 552 pages : 1 CD-ROM ( 4 3/4 in.)</bf:extent>
+      <bf:dimensions>21 cm. +</bf:dimensions>
+      <bf:titleStatement>ASVAB flashcards : Army * Air Force * Navy * Marines * Coast Guard</bf:titleStatement>
+      <bf:providerStatement>Piscataway, New Jersey : Research &amp; Education Association, ©2011.</bf:providerStatement>
+      <bf:note>Accompanying CD-ROM includes 100 of the book's flashcards.</bf:note>
+      <bf:note>System requirements pentium 75 MHz (300 MHx recommended), or higher or compatible processor; Microsoft Windows 98 or later, 64 MB RAM: Internet Explorer 5.5 or higher (Internet Explorer 5.5 is included on the CD). -- page 552.</bf:note>
+      <bf:lccn>
+         <bf:Identifier>
+            <bf:identifierValue>2011276039</bf:identifierValue>
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/lccn"/>
+         </bf:Identifier>
+      </bf:lccn>
+      <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/728111328"/>
+      <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+      <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/"/>
+      <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/nc"/>
+      <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/ce"/>
+      <bf:instanceOf rdf:resource="http://example.org/17082740"/>
+   </bf:Instance>
+   <bf:Annotation rdf:about="http://example.org/17082740annotation14">
+      <bf:derivedFrom rdf:resource="http://example.org/17082740.marcxml.xml"/>
+      <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/eik"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/zhx"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/btcta"/>
+      <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+      <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/descriptionAuthentication/lccopycat"/>
+      <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+      <bf:generationProcess>DLC transform-tool:2015-07-23-T17:01:00</bf:generationProcess>
+      <bf:changeDate>2012-02-15T11:37</bf:changeDate>
+      <bf:annotates rdf:resource="http://example.org/17082740"/>
+   </bf:Annotation>
+   <bf:Annotation rdf:about="http://example.org/17082740annotation17">
+      <bf:label>Sample text</bf:label>
+      <bf:annotationBody rdf:resource="http://www.loc.gov/catdir/enhancements/fy1205/2011276039-s.html"/>
+      <bf:annotates rdf:resource="http://example.org/17082740"/>
+   </bf:Annotation>
+   <bf:HeldItem rdf:about="http://example.org/17082740helditem36">
+      <bf:label>U408.5 .D78 2011</bf:label>
+      <bf:shelfMarkLcc>U408.5 .D78 2011</bf:shelfMarkLcc>
+      <bf:holdingFor rdf:resource="http://example.org/17082740instance15"/>
+   </bf:HeldItem>
+   <bf:Summary rdf:about="http://example.org/17082740summary16">
+      <bf:label>Publisher description</bf:label>
+      <bf:review rdf:resource="http://www.loc.gov/catdir/enhancements/fy1205/2011276039-d.html"/>
+      <bf:summaryOf rdf:resource="http://example.org/17082740"/>
+   </bf:Summary>
+   <bf:TableOfContents rdf:about="http://example.org/17082740tableofcontents18">
+      <bf:label>Table of contents only</bf:label>
+      <bf:tableOfContents rdf:resource="http://www.loc.gov/catdir/enhancements/fy1205/2011276039-t.html"/>
+      <bf:tableOfContentsFor rdf:resource="http://example.org/17082740"/>
+   </bf:TableOfContents>
+   <bf:Title rdf:about="http://example.org/17082740title6">
+      <bf:label>ASVAB flashcards : Army * Air Force * Navy * Marines * Coast Guard / Lisa K. Drucker.</bf:label>
+      <bf:titleValue>ASVAB flashcards :</bf:titleValue>
+      <bf:subtitle>Army * Air Force * Navy * Marines * Coast Guard </bf:subtitle>
+   </bf:Title>
+   <bf:Person rdf:about="http://example.org/17082740person7">
+      <bf:label>Drucker, Lisa K.</bf:label>
+      <bf:authorizedAccessPoint>Drucker, Lisa K.</bf:authorizedAccessPoint>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <madsrdf:authoritativeLabel>Drucker, Lisa K.</madsrdf:authoritativeLabel>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Person>
+   <bf:Topic rdf:about="http://example.org/17082740topic11">
+      <bf:authorizedAccessPoint>Armed Services Vocational Aptitude Battery--Study guides</bf:authorizedAccessPoint>
+      <bf:label>Armed Services Vocational Aptitude Battery--Study guides</bf:label>
+      <bf:hasAuthority>
+         <madsrdf:Authority>
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+            <madsrdf:authoritativeLabel>Armed Services Vocational Aptitude Battery--Study guides</madsrdf:authoritativeLabel>
+            <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+            <madsrdf:componentList rdf:parseType="Collection">
+               <madsrdf:Topic>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Armed Services Vocational Aptitude Battery</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:TopicElement>
+                        <madsrdf:elementValue>Armed Services Vocational Aptitude Battery</madsrdf:elementValue>
+                     </madsrdf:TopicElement>
+                  </madsrdf:elementList>
+               </madsrdf:Topic>
+               <madsrdf:GenreForm>
+                  <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+                  <madsrdf:authoritativeLabel>Study guides</madsrdf:authoritativeLabel>
+                  <madsrdf:elementList rdf:parseType="Collection">
+                     <madsrdf:GenreFormElement>
+                        <madsrdf:elementValue>Study guides.</madsrdf:elementValue>
+                     </madsrdf:GenreFormElement>
+                  </madsrdf:elementList>
+               </madsrdf:GenreForm>
+            </madsrdf:componentList>
+         </madsrdf:Authority>
+      </bf:hasAuthority>
+   </bf:Topic>
+   <bf:Title rdf:about="http://example.org/17082740title18">
+      <bf:label>ASVAB flashcards : Army * Air Force * Navy * Marines * Coast Guard / Lisa K. Drucker.</bf:label>
+      <bf:titleValue>ASVAB flashcards :</bf:titleValue>
+      <bf:subtitle>Army * Air Force * Navy * Marines * Coast Guard </bf:subtitle>
+   </bf:Title>
+</rdf:RDF>
