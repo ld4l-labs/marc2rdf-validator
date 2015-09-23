@@ -6,11 +6,13 @@ MARC2BF_GRAPH_METHOD = CONFIG_SETTINGS['helper_method'].to_sym
 require 'support/m2bf_xquery_helpers'
 
 require 'instances/instance_helpers'
+require 'publications/publication_helpers'
 require 'works/work_helpers'
 
 RSpec.configure do |config|
   config.include Helpers
   config.include InstanceHelpers
+  config.include PublicationHelpers
   config.include WorkHelpers
 
   # Run specs in random order to surface order dependencies. If you find an
