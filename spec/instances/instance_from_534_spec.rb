@@ -13,7 +13,7 @@ describe 'related instance from MARC 534' do
   #
 
   context "single 534" do
-    let(:g) {
+    let!(:g) {
       marcxml_str =
         '<record xmlns="http://www.loc.gov/MARC21/slim">
           <leader>01711cam a22003614a 4500</leader>
@@ -57,7 +57,7 @@ describe 'related instance from MARC 534' do
   end # single 534
 
   context "mult 534" do
-    let(:g) {
+    let!(:g) {
       marcxml_str =
         '<record xmlns="http://www.loc.gov/MARC21/slim">
           <leader>01811ccm a2200409 a 4500</leader>

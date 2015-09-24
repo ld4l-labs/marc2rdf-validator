@@ -28,7 +28,7 @@ describe 'work related to the work described by the MARC record' do
   }
 
   context "247" do
-    let(:g) {
+    let!(:g) {
       rec_id = '247'
       marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
         '<datafield ind1="0" ind2="4" tag="245">

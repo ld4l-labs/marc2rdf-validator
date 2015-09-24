@@ -68,7 +68,7 @@ describe 'instance from 856' do
       context "ind2=0" do
         context "260" do
           context "online image coll - Stanford" do
-            let(:g) {
+            let!(:g) {
               marcxml_str =
                 '<record xmlns="http://www.loc.gov/MARC21/slim">
                   <leader>01998cka a2200385Ka 4500</leader>
@@ -102,7 +102,7 @@ describe 'instance from 856' do
             end
           end # online image coll - Stanford
           context "online image coll - LC" do
-            let(:g) {
+            let!(:g) {
               marcxml_str =
                 '<record xmlns="http://www.loc.gov/MARC21/slim">
                   <leader>02847cam a2200493 a 4500</leader>
@@ -235,7 +235,7 @@ describe 'instance from 856' do
       end # ind2=0
 
       context "ind2=1" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>06411cpcaa2201021 i 4500</leader>
@@ -271,7 +271,7 @@ describe 'instance from 856' do
       end # ind2=1
 
       context "ind2=2" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01855cemaa22003131a 4500</leader>
@@ -318,7 +318,7 @@ describe 'instance from 856' do
 
       context "ind2=blank" do
         context "mult 856" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>03469cpcaa2200589 a 4500</leader>
@@ -385,7 +385,7 @@ describe 'instance from 856' do
     context "ind1=4" do
       context "ind2=0" do
         context "260" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>06174nam a2200445Ia 4500</leader>
@@ -432,7 +432,7 @@ describe 'instance from 856' do
           end
         end # 260
         context "264" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>03714njm a2200649Ki 4500</leader>
@@ -478,7 +478,7 @@ describe 'instance from 856' do
 
       context "ind2=1" do
         context "260" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>03995ckd a2200637 a 4500</leader>
@@ -526,7 +526,7 @@ describe 'instance from 856' do
       context "ind2=2" do
         context "260" do
           context "cover image" do
-            let(:g) {
+            let!(:g) {
               marcxml_str =
                 '<record xmlns="http://www.loc.gov/MARC21/slim">
                   <leader>03022cam a2200481 i 4500</leader>
@@ -598,7 +598,7 @@ describe 'instance from 856' do
 
       context "ind2=blank" do
         context "260" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>02195cam a2200433 a 4500</leader>
@@ -669,7 +669,7 @@ describe 'instance from 856' do
 
     context "ind1 blank" do
       context "mult 856 one ind1 blank" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01523cam a2200361 a 4500</leader>

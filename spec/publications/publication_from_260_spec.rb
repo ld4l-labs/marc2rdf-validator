@@ -13,7 +13,7 @@ describe 'publication from 260' do
 
     context "|a, |b, |c" do
       context "with 020a isbn" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>06174nam a2200445Ia 4500</leader>
@@ -58,7 +58,7 @@ describe 'publication from 260' do
         end
       end # with 020a isbn
       context "without 020a isbn" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>06174nam a2200445Ia 4500</leader>
@@ -100,7 +100,7 @@ describe 'publication from 260' do
         end
       end # without 020a isbn
       context "abc - Integrating (leader07 = 'i')" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>03514cai a2200661 a 4500</leader>
@@ -143,7 +143,7 @@ describe 'publication from 260' do
     end # |a, |b, |c
 
     context "serial 260 |a, |b" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01384cas a22003377a 4500</leader>
@@ -183,7 +183,7 @@ describe 'publication from 260' do
     end # serial 260 |a, |b
 
     context "book |a, |c" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>00595cam a2200193   4500</leader>
@@ -222,7 +222,7 @@ describe 'publication from 260' do
     end # book |a, |c
 
     context "multiple 260 - serial" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>02015cas a2200529 a 4500</leader>
@@ -480,7 +480,7 @@ describe 'publication from 260' do
     end # with 020a ISBN
     context "without 020a ISBN" do
       context "recording" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01779cim a2200373 a 4500</leader>
@@ -515,7 +515,7 @@ describe 'publication from 260' do
         end
       end # recording
       context "screenplay" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>00602nam a22001935  4500</leader>

@@ -21,7 +21,7 @@ describe 'instance from 300' do
         end
       end # leader6=a, leader7=s
       context "leader6=a, leader7 not b, i, s" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01736cam a22003254a 4500</leader>
@@ -48,7 +48,7 @@ describe 'instance from 300' do
         end
       end # leader6=a, leader7 not b, i, s
       context "leader6 not a" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01464cpcaa22003133a 4500</leader>
@@ -85,7 +85,7 @@ describe 'instance from 300' do
         end
       end # leader6=a, leader7=i
       context "leader6=a leader7=s" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>04849cas a2200613 a 4500</leader>
@@ -114,7 +114,7 @@ describe 'instance from 300' do
         end
       end # leader6=a leader7=s
       context "leader6=a, leader7 not b, i, s" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>06174nam a2200445Ia 4500</leader>
@@ -147,7 +147,7 @@ describe 'instance from 300' do
         end
       end # leader6=a, leader7 not b, i, s
       context "leader6 not a" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01656ccm a2200349 a 4500</leader>
@@ -195,7 +195,7 @@ describe 'instance from 300' do
         end
       end # leader6=a, leader7=i
       context "leader6=a leader7=m" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01052cam a2200313 i 4500</leader>
@@ -224,7 +224,7 @@ describe 'instance from 300' do
         end
       end # leader6=a leader7=m
       context "leader6 not a" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01553cem a2200433 i 4500</leader>
@@ -262,7 +262,7 @@ describe 'instance from 300' do
   context "mult 300" do
     # TODO:  does this need to have same spread of leader6 and leader7 conditions as single 300?
     context "no 26x" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01619cpcaa2200361   4500</leader>
@@ -303,7 +303,7 @@ describe 'instance from 300' do
       end
     end # no 26x
     context "260" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>02093cam a22004095i 4500</leader>
@@ -346,7 +346,7 @@ describe 'instance from 300' do
       end
     end # 260
     context "264" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>05477com a2200913 i 4500</leader>

@@ -22,7 +22,7 @@ describe 'the work described by the MARC record' do
       <controlfield tag="001">aRECORD_ID</controlfield>
       <controlfield tag="008">760219s1925    en            000 0 eng  </controlfield>'
   }
-  let(:titleValue_of_work_sparql_query) {
+  let!(:titleValue_of_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?titleValue
                   WHERE {
@@ -31,7 +31,7 @@ describe 'the work described by the MARC record' do
                     ?title a bf:Title .
                     ?title bf:titleValue ?titleValue .
                   }") }
-  let(:subtitle_of_work_sparql_query) {
+  let!(:subtitle_of_work_sparql_query) {
     SPARQL.parse("PREFIX bf: <http://bibframe.org/vocab/>
                   SELECT DISTINCT ?subtitle
                   WHERE {
@@ -43,7 +43,7 @@ describe 'the work described by the MARC record' do
 
   context "130" do
     context "‡a (+ 245) only" do
-      let(:g) {
+      let!(:g) {
         rec_id = '130a_only'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="0" ind2=" " tag="130">
@@ -68,7 +68,7 @@ describe 'the work described by the MARC record' do
     end
 
     context "‡a ‡= (+ 245) only" do
-      let(:g) {
+      let!(:g) {
         rec_id = '130a_equal'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="0" ind2=" " tag="130">
@@ -94,7 +94,7 @@ describe 'the work described by the MARC record' do
     end
 
     context "‡a, ‡n, ‡? (+ 245) only" do
-      let(:g) {
+      let!(:g) {
         rec_id = '130an_question_mark'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="0" ind2=" " tag="130">
@@ -145,7 +145,7 @@ describe 'the work described by the MARC record' do
 
   context "100|110|111 and 240" do
     context '100 ‡a, ‡? and 240 ‡a, ‡?' do
-      let(:g) {
+      let!(:g) {
         rec_id = '100a_240a_question_marks'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2=" " tag="100">
@@ -176,7 +176,7 @@ describe 'the work described by the MARC record' do
       end
     end
     context '110 ‡a, ‡b, ‡= and 240 ‡a has single work' do
-      let(:g) {
+      let!(:g) {
         rec_id = '110ab_240a_equal'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2=" " tag="110">
@@ -208,7 +208,7 @@ describe 'the work described by the MARC record' do
       end
     end
     context '111 ‡a, ‡? and 240 ‡a has single work' do
-      let(:g) {
+      let!(:g) {
         rec_id = '111a_240a'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="2" ind2=" " tag="111">
@@ -296,7 +296,7 @@ describe 'the work described by the MARC record' do
 
   context "100|110|111 and 245" do
     context '100 ‡a, ‡d, ‡e, ‡= and 245 ‡a, ‡b, ‡c' do
-      let(:g) {
+      let!(:g) {
         rec_id = '100ade_245abc'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2=" " tag="100">
@@ -334,7 +334,7 @@ describe 'the work described by the MARC record' do
       end
     end
     context '110 ‡a, ‡b, ‡= and 245 ‡a, ‡f' do
-      let(:g) {
+      let!(:g) {
         rec_id = '110ab_245af'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="2" ind2=" " tag="110">
@@ -360,7 +360,7 @@ describe 'the work described by the MARC record' do
       end
     end
     context '111 ‡a ‡n ‡d ‡c ‡= and 245 ‡a ‡b ‡c' do
-      let(:g) {
+      let!(:g) {
         rec_id = '111andc_245abc'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="2" ind2=" " tag="111">
@@ -397,7 +397,7 @@ describe 'the work described by the MARC record' do
       end
     end
     context '245 non-filing chars (ind2)' do
-      let(:g) {
+      let!(:g) {
         rec_id = '100_245_non_filing'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2=" " tag="100">
@@ -437,7 +437,7 @@ describe 'the work described by the MARC record' do
 
   context "245 no 1xx" do
     context '245 ‡a ‡b ‡c' do
-      let(:g) {
+      let!(:g) {
         rec_id = '245only'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="0" ind2="0" tag="245">
@@ -469,7 +469,7 @@ describe 'the work described by the MARC record' do
       end
     end
     context '245 non-filing chars (ind2)' do
-      let(:g) {
+      let!(:g) {
         rec_id = '245only_non_filing'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="0" ind2="2" tag="245">

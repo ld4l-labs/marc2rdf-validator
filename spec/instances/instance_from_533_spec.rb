@@ -42,7 +42,7 @@ describe 'instance from 533 (related reproduction)' do
 
   context "combo of some of |b, |c, |d, |e, |m or |n" do
     context "533 + 260" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>06174nam a2200445Ia 4500</leader>
@@ -90,7 +90,7 @@ describe 'instance from 533 (related reproduction)' do
       end
     end # 533 + 260
     context "533 + 260 + 020s" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>06174nam a2200445Ia 4500</leader>
@@ -144,7 +144,7 @@ describe 'instance from 533 (related reproduction)' do
       end
     end # 533 + 260 + 020s
     context "533 + 260 + 300 serial" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01384cas a22003377a 4500</leader>
@@ -196,7 +196,7 @@ describe 'instance from 533 (related reproduction)' do
       end
     end # 533 + 260 + 300 serial
     context "533 + 260 + 300 recording" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01779cim a2200373 a 4500</leader>
