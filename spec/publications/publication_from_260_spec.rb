@@ -51,7 +51,7 @@ describe 'publication from 260' do
         it 'copyright date' do
           solns = g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY)
           expect(solns.size).to eq 1
-          expect(solns.first.copyright_date.to_s).to match /2008/
+          expect(solns.first.copyright_date.to_s).to match /^2008$/
         end
         it 'no providerDate' do
           expect(g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY).size).to eq 0
@@ -93,7 +93,7 @@ describe 'publication from 260' do
         it 'copyright date' do
           solns = g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY)
           expect(solns.size).to eq 1
-          expect(solns.first.copyright_date.to_s).to match /2008/
+          expect(solns.first.copyright_date.to_s).to match /^2008$/
         end
         it 'no providerDate' do
           expect(g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY).size).to eq 0
@@ -137,7 +137,7 @@ describe 'publication from 260' do
         it 'providerDate' do
           solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
           expect(solns.size).to eq 1
-          expect(solns.first.publish_date.to_s).to match /2008/
+          expect(solns.first.publish_date.to_s).to match /^2008/
         end
       end # abc integrating
     end # |a, |b, |c
@@ -214,7 +214,7 @@ describe 'publication from 260' do
       it 'copyright date' do
         solns = g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY)
         expect(solns.size).to eq 1
-        expect(solns.first.copyright_date.to_s).to match /1967/
+        expect(solns.first.copyright_date.to_s).to match /^1967$/
       end
       it 'no providerDate' do
         expect(g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY).size).to eq 0
@@ -270,7 +270,7 @@ describe 'publication from 260' do
       it 'providerDate' do
         solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
         expect(solns.size).to eq 1
-        expect(solns.first.publish_date.to_s).to match /1990/
+        expect(solns.first.publish_date.to_s).to match /^1990/
       end
     end # multiple 260 - serial
 
@@ -511,7 +511,7 @@ describe 'publication from 260' do
         it 'date of publication' do
           solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
           expect(solns.size).to eq 1
-          expect(solns.first.publish_date.to_s).to match /^1958/
+          expect(solns.first.publish_date.to_s).to match /^1958$/
         end
       end # recording
       context "screenplay" do
@@ -545,7 +545,7 @@ describe 'publication from 260' do
         it 'date of publication' do
           solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
           expect(solns.size).to eq 1
-          expect(solns.first.publish_date.to_s).to match /^1974/
+          expect(solns.first.publish_date.to_s).to match /^1974$/
         end
       end
     end # without 020a ISBN
