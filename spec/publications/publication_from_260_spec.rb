@@ -276,6 +276,178 @@ describe 'publication from 260' do
 
   end # combo of |a, |b, |c, |e or |f
 
+  context "ignore s.l. in |a" do
+    context "[S.l.] :" do
+      let!(:g) {
+        marcxml_str =
+          '<record xmlns="http://www.loc.gov/MARC21/slim">
+            <leader>01787cam a22004217a 4500</leader>
+            <controlfield tag="001">15599751</controlfield>
+            <controlfield tag="008">090121s2009    xx a     b    001 0 eng d</controlfield>
+            <datafield tag="245" ind1="1" ind2="0">
+              <subfield code="a">Ancient engineers\' inventions :</subfield>
+              <subfield code="b">precursors of the present /</subfield>
+              <subfield code="c">Cesare Rossi, Flavio Russo, Ferruccio Russo.</subfield>
+            </datafield>
+            <datafield tag="260" ind1=" " ind2=" ">
+              <subfield code="a">[S.l.] :</subfield>
+              <subfield code="b">Springer,</subfield>
+              <subfield code="c">c2009.</subfield>
+            </datafield>
+          </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '15599751')
+      }
+      it '1 bf:publication' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 1
+      end
+      it 'publisher name' do
+        solns = g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publisher_name.to_s).to match /^Springer/
+      end
+      it 'no place of publication' do
+        expect(g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY).size).to eq 0
+      end
+      it 'copyright date' do
+        solns = g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.copyright_date.to_s).to match /2009/
+        expect(solns.first.copyright_date.to_s).to match /^2009$/
+      end
+      it 'no providerDate' do
+        expect(g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY).size).to eq 0
+      end
+    end # [S.l.] :
+  end # ignore s.l. in |a
+
+  context "ignore s.n. in |b" do
+    context "s.n.]," do
+      let!(:g) {
+        marcxml_str =
+          '<record xmlns="http://www.loc.gov/MARC21/slim">
+            <leader>02195cam a2200433 a 4500</leader>
+            <controlfield tag="001">17439166</controlfield>
+            <controlfield tag="008">830121s1788    fr bf         000 0 fre d</controlfield>
+            <datafield tag="245" ind1="1" ind2="0">
+              <subfield code="a">Conside&#x301;rations sur la guerre actuelle des Turcs /</subfield>
+              <subfield code="c">par Mr. de Volney.</subfield>
+            </datafield>
+            <datafield tag="260" ind1=" " ind2=" ">
+              <subfield code="a">A&#x300; Londres [i.e. Paris :</subfield>
+              <subfield code="b">s.n.],</subfield>
+              <subfield code="c">1788.</subfield>
+            </datafield>
+          </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '17439166')
+      }
+      it '1 bf:publication' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 1
+      end
+      it 'no publisher name' do
+        expect(g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY).size).to eq 0
+      end
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_place.to_s).to match /^À Londres/
+        expect(solns.first.publish_place.to_s).to match /Paris/
+        expect(solns.first.publish_place.to_s).to match /Paris$/ # this SHOULD be output
+      end
+      it 'no copyright date' do
+        expect(g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY).size).to eq 0
+      end
+      it 'providerDate' do
+        solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_date.to_s).to match /^1788$/
+      end
+    end # s.n.],
+    context "[s.n.," do
+      let!(:g) {
+        marcxml_str =
+          '<record xmlns="http://www.loc.gov/MARC21/slim">
+            <leader>02026ckd a22004577a 4500</leader>
+            <controlfield tag="001">12006847</controlfield>
+            <controlfield tag="008">990922s1916    fr nnn  |||||u    knfre  </controlfield>
+            <datafield tag="245" ind1="1" ind2="4">
+              <subfield code="a">\'La Bai&#x308;onnette.\' Tous les jeudis. Bas les masques? . . . Viola&#x301;!</subfield>
+              <subfield code="h">[graphic].</subfield>
+            </datafield>
+            <datafield tag="260" ind1=" " ind2=" ">
+              <subfield code="a">Paris :</subfield>
+              <subfield code="b">[s.n.,</subfield>
+              <subfield code="c">1916]</subfield>
+            </datafield>
+          </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '12006847')
+      }
+      it '1 bf:publication' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 1
+      end
+      it 'no publisher name' do
+        expect(g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY).size).to eq 0
+      end
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_place.to_s).to match /^Paris/
+        expect(solns.first.publish_place.to_s).to match /^Paris$/ # this SHOULD be output
+      end
+      it 'no copyright date' do
+        expect(g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY).size).to eq 0
+      end
+      it 'providerDate' do
+        solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_date.to_s).to match /^1916/
+        expect(solns.first.publish_date.to_s).to match /^1916$/ # this SHOULD be output
+      end
+    end # [s.n.,
+    context "S.n.]" do
+      let!(:g) {
+        marcxml_str =
+          '<record xmlns="http://www.loc.gov/MARC21/slim">
+            <leader>01597cas a2200409 a 4500</leader>
+            <controlfield tag="001">11737193</controlfield>
+            <controlfield tag="008">931106c19229999gr wr ne      0    0greoc</controlfield>
+            <datafield tag="245" ind1="1" ind2="3">
+              <subfield code="a">To ve&#x304;ma.</subfield>
+            </datafield>
+            <datafield tag="260" ind1=" " ind2=" ">
+              <subfield code="a">Athe&#x304;nai [Athens, Greece :</subfield>
+              <subfield code="b">S.n.]</subfield>
+            </datafield>
+          </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '11737193')
+      }
+      it '1 bf:publication' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 1
+      end
+      it 'no publisher name' do
+        expect(g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY).size).to eq 0
+      end
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_place.to_s).to match /^Athēnai/
+        expect(solns.first.publish_place.to_s).to match /Athens, Greece/
+        expect(solns.first.publish_place.to_s).to match /Athens, Greece$/ # this SHOULD be output
+      end
+      it 'no copyright date' do
+        expect(g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY).size).to eq 0
+      end
+      it 'no providerDate' do
+        expect(g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY).size).to eq 0
+      end
+    end # S.n.]
+  end # ignore s.n. in |b
+
+  context "when |c has copyrightDate" do
+    it 'need to write tests for variant ways of denoting copyright date' do
+      fail 'test to be implemented'
+    end
+  end
+
   context "|a only" do
     it 'need test data for 260 a only' do
       fail 'need test data for 260 a only'
