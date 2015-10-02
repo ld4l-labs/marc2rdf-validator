@@ -29,12 +29,20 @@ For example, a config.yml to use the marc_to_graph_m2bf_xquery method is:
     # base URI to use for fake urls created
     base_uri: http://example.org/
 
+You may need to make local changes to marc2bibframe/bin/convert-saxon.sh:
+
+  # replace all `readlink -e $1` with just '$1'
+  # add the argument 'usebnodes=false' to the java command:
+
+  'java -cp $SAXON_JAR net.sf.saxon.Query $MYDIR/../xbin/saxon.xqy marcxmluri="$MARCPATH" baseuri="$BASEURI" serialization="$SERIALIZATION" usebnodes=false 1>$OUTPUT'
+
+In order to suppress the xquery error messages, in /marc2bibframe/xbin/saxon.xqy (: comment out :) all the lines with 'declare option saxon:default'
+
 The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_xquery_helpers:  https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
 
     MARC2BIBFRAME_PATH = CONFIG_SETTINGS['marc2bibframe_path']
     SAXON_JAR_PATH = CONFIG_SETTINGS['saxon_jar_path']
     BASE_URI = CONFIG_SETTINGS['base_uri']
-
 
 # The specs
 
