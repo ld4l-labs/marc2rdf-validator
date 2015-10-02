@@ -15,9 +15,10 @@ describe 'bf:Person from MARC 100 (Main Entry - Perosnal Name)' do
        </record>'
     self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '100mainEntry')
   }
-  it 'creates person entity' do
-    puts g.query(PersonHelpers::PERSON_SPARQL_QUERY)
-
-    expect(g.query(PersonHelpers::PERSON_SPARQL_QUERY).size).to eq 3
+  it 'creates one person entity' do
+    expect(g.query(PersonHelpers::PERSON_SPARQL_QUERY).size).to eq 1
+  end
+  it 'creates one authority' do
+    expect(g.query(PersonHelpers::PERSON_AUTHORITY_SPARQL_QUERY).size).to eq 1
   end
 end
