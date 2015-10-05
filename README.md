@@ -31,8 +31,8 @@ For example, a config.yml to use the marc_to_graph_m2bf_xquery method is:
 
 You may need to make local changes to marc2bibframe/bin/convert-saxon.sh:
 
-  # replace all `readlink -e $1` with just '$1'
-  # add the argument 'usebnodes=false' to the java command:
+  . replace all `readlink -e $1` with just '$1'
+  . add the argument 'usebnodes=false' to the java command:
 
   'java -cp $SAXON_JAR net.sf.saxon.Query $MYDIR/../xbin/saxon.xqy marcxmluri="$MARCPATH" baseuri="$BASEURI" serialization="$SERIALIZATION" usebnodes=false 1>$OUTPUT'
 

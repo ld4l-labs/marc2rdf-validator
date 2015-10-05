@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'linkeddata'
 
 describe 'bf:Person from MARC 100 (Main Entry - Perosnal Name)' do
-  let(:g) {
+  let!(:g) {
     marcxml_str =
     '<record xmlns="http://www.loc.gov/MARC21/slim">
          <leader>01787cam a22004217a 4500</leader>
