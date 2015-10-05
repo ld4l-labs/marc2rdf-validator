@@ -55,7 +55,7 @@ describe 'work related to the work described by the MARC record' do
 
   context "533 (reproduction)" do
     context "electronic repro" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>06174nam a2200445Ia 4500</leader>
@@ -88,7 +88,7 @@ describe 'work related to the work described by the MARC record' do
       end
     end # electronic repro
     context "serial" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01384cas a22003377a 4500</leader>
@@ -122,7 +122,7 @@ describe 'work related to the work described by the MARC record' do
       end
     end # serial
     context "recording" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01779cim a2200373 a 4500</leader>
@@ -161,7 +161,7 @@ describe 'work related to the work described by the MARC record' do
     end
     context "single 534" do
       context "with |t" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01711cam a22003614a 4500</leader>
@@ -203,7 +203,7 @@ describe 'work related to the work described by the MARC record' do
         end
       end # with |t
       context "without |t" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>02295cam a22004217a 4500</leader>
@@ -242,7 +242,7 @@ describe 'work related to the work described by the MARC record' do
     end # single 534
 
     context "mult 534 without |t" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01811ccm a2200409 a 4500</leader>
@@ -298,7 +298,7 @@ describe 'work related to the work described by the MARC record' do
     end
     context "single 555 single u" do
       context "260, 300, image collection" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>07792ckc a2201081 a 4500</leader>
@@ -334,7 +334,7 @@ describe 'work related to the work described by the MARC record' do
         end
       end # image coll 260, 300
       context "300s only (no 26x)" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>03469cpcaa2200589 a 4500</leader>
@@ -380,7 +380,7 @@ describe 'work related to the work described by the MARC record' do
 
     context "single 555 no u" do
       context "journal 260, 300" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>04849cas a2200613 a 4500</leader>
@@ -416,7 +416,7 @@ describe 'work related to the work described by the MARC record' do
         end
       end # journal 260, 300
       context "archival coll no 260, yes 300" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>01855cemaa22003131a 4500</leader>
@@ -451,7 +451,7 @@ describe 'work related to the work described by the MARC record' do
     context "mult 555" do
       context "each has u" do
         context "260, 300, photograph collection" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>06754ckc a2200889 a 4500</leader>
@@ -492,7 +492,7 @@ describe 'work related to the work described by the MARC record' do
           end
         end # 260, 300 photograph collection
         context "mult 300, no 260, papers" do
-          let(:g) {
+          let!(:g) {
             marcxml_str =
               '<record xmlns="http://www.loc.gov/MARC21/slim">
                 <leader>06411cpcaa2201021 i 4500</leader>

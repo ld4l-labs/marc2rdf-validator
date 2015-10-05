@@ -1,8 +1,9 @@
 require 'spec_helper'
 require 'linkeddata'
 
-describe 'instance from 533 (related reproduction)' do
+describe 'publication from 533 (related reproduction)' do
   # each 533 with |b, |c, |d, |e, |m or |n
+  #   (b=pubPlace, c=publisher_name, d=pubDate)
 
   context "|b" do
     it 'need test data for 533 b only' do
@@ -70,23 +71,35 @@ describe 'instance from 533 (related reproduction)' do
           </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '533combo_260')
       }
-      it '2 Instances' do
+      it '2 bf:Instances' do
         expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 2
       end
-      it '2 instanceOf' do
-        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 2
+      it '2 bf:publications' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 2
       end
-      it 'single Work or relationship between Instances or between Works' do
-        num_works = g.query(WorkHelpers::WORK_SPARQL_QUERY).size
-        expect(num_works).to be >= 1
-        if num_works > 1
-          num_work_rels = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY).size
-          num_instance_rels = g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size
-          expect(num_work_rels + num_instance_rels).to be > 0
-        end
+      it 'publisher name' do
+        solns = g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY)
+        expect(solns.size).to eq 2
+        solns.each { |soln|
+          expect(soln.publisher_name.to_s).to match /^(Wiley Pub|Safari Books Online)/
+        }
       end
-      it 'no direct relationship between Instances' do
-        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 2
+        solns.each { |soln|
+          expect(soln.publish_place.to_s).to match /^(Hoboken, [N.J.]|Boston, Mass)/
+        }
+      end
+      it 'copyright date' do
+        solns = g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.copyright_date.to_s).to match /^2008$/
+      end
+      it 'publication date' do
+        solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_date.to_s).to match /^2008$/
       end
     end # 533 + 260
     context "533 + 260 + 020s" do
@@ -94,7 +107,7 @@ describe 'instance from 533 (related reproduction)' do
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>06174nam a2200445Ia 4500</leader>
-            <controlfield tag="001">533combo_260_020s</controlfield>
+            <controlfield tag="001">a8260810</controlfield>
             <controlfield tag="008">080813s2008    njua    s     001 0 eng d</controlfield>
             <datafield ind1=" " ind2=" " tag="020">
               <subfield code="a">9780470149263</subfield>
@@ -122,25 +135,37 @@ describe 'instance from 533 (related reproduction)' do
               <subfield code="7">s2008    maun s</subfield>
             </datafield>
           </record>'
-        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '533combo_260_020s')
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '8260810')
       }
-      it '2 Instances' do
+      it '2 bf:Instances' do
         expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 2
       end
-      it '2 instanceOf' do
-        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 2
+      it '2 bf:publications' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 2
       end
-      it 'single Work or relationship between Instances or between Works' do
-        num_works = g.query(WorkHelpers::WORK_SPARQL_QUERY).size
-        expect(num_works).to be >= 1
-        if num_works > 1
-          num_work_rels = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY).size
-          num_instance_rels = g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size
-          expect(num_work_rels + num_instance_rels).to be > 0
-        end
+      it 'publisher name' do
+        solns = g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY)
+        expect(solns.size).to eq 2
+        solns.each { |soln|
+          expect(soln.publisher_name.to_s).to match /^(Wiley Pub|Safari Books Online)/
+        }
       end
-      it 'no direct relationship between Instances' do
-        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 2
+        solns.each { |soln|
+          expect(soln.publish_place.to_s).to match /^(Hoboken, [N.J.]|Boston, Mass)/
+        }
+      end
+      it 'copyright date' do
+        solns = g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.copyright_date.to_s).to match /^2008$/
+      end
+      it 'publication date' do
+        solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_date.to_s).to match /^2008$/
       end
     end # 533 + 260 + 020s
     context "533 + 260 + 300 serial" do
@@ -176,23 +201,35 @@ describe 'instance from 533 (related reproduction)' do
           </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '533combo_260_300_serial')
       }
-      it '2 Instances' do
+      it '2 bf:Instances' do
         expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 2
+        fail 'should this be 2 or 3 Instances?'
       end
-      it '2 instanceOf' do
-        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 2
+      it '3 bf:publications' do
+        fail 'should this be 2 or 3 Publications?'
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 3
       end
-      it 'single Work or relationship between Instances or between Works' do
-        num_works = g.query(WorkHelpers::WORK_SPARQL_QUERY).size
-        expect(num_works).to be >= 1
-        if num_works > 1
-          num_work_rels = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY).size
-          num_instance_rels = g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size
-          expect(num_work_rels + num_instance_rels).to be > 0
-        end
+      it 'publisher name' do
+        solns = g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY)
+        expect(solns.size).to eq 3
+        solns.each { |soln|
+          expect(soln.publisher_name.to_s).to match /^(National Budget|Library of Congress (Office|Photoduplication))/
+        }
       end
-      it 'no direct relationship between Instances' do
-        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 3
+        solns.each { |soln|
+          expect(soln.publish_place.to_s).to match /(Thimphu|New Delhi|Washington, D.C.)/
+        }
+      end
+      it 'no copyright date' do
+        expect(g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY).size).to eq 0
+      end
+      it 'publication date' do
+        solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_date.to_s).to match /^1995$/
       end
     end # 533 + 260 + 300 serial
     context "533 + 260 + 300 recording" do
@@ -224,23 +261,33 @@ describe 'instance from 533 (related reproduction)' do
           </record>'
         self.send(MARC2BF_GRAPH_METHOD, marcxml_str, '533combo_260_300_recording')
       }
-      it '2 Instances' do
+      it '2 bf:Instances' do
         expect(g.query(InstanceHelpers::INSTANCE_SPARQL_QUERY).size).to eq 2
       end
-      it '2 instanceOf' do
-        expect(g.query(InstanceHelpers::INSTANCE_OF_SPARQL_QUERY).size).to eq 2
+      it '2 bf:publications' do
+        expect(g.query(PublicationHelpers::PUBLICATION_SPARQL_QUERY).size).to eq 2
       end
-      it 'single Work or relationship between Instances or between Works' do
-        num_works = g.query(WorkHelpers::WORK_SPARQL_QUERY).size
-        expect(num_works).to be >= 1
-        if num_works > 1
-          num_work_rels = g.query(WorkHelpers::WORK_PROP_WORK_SPARQL_QUERY).size
-          num_instance_rels = g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size
-          expect(num_work_rels + num_instance_rels).to be > 0
-        end
+      it 'publisher name' do
+        solns = g.query(PublicationHelpers::PUBLISHER_NAME_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publisher_name.to_s).to match /^Library of Congress Magnetic Recording Laboratory/
       end
-      it 'no direct relationship between Instances' do
-        expect(g.query(InstanceHelpers::INSTANCE_PROP_INSTANCE_SPARQL_QUERY).size).to eq 0
+      it 'place of publication' do
+        solns = g.query(PublicationHelpers::PUBLISH_PLACE_SPARQL_QUERY)
+        expect(solns.size).to eq 1
+        expect(solns.first.publish_place.to_s).to match /^Washington, D.C./
+      end
+      it 'no copyright date' do
+        fail "when there is a 533 and a 260, should the 260 automatically become the copyright date?"
+        expect(g.query(PublicationHelpers::COPYRIGHT_DATE_SPARQL_QUERY).size).to eq 0
+      end
+      it 'publication dates' do
+        fail "when there is a 533 and a 260, should the 260 automatically become the copyright date?"
+        solns = g.query(PublicationHelpers::PUBLISH_DATE_SPARQL_QUERY)
+        expect(solns.size).to eq 2
+        solns.each { |soln|
+          expect(soln.publish_date.to_s).to match /(1958|1973)/
+        }
       end
     end # 533 + 260 + 300 recording
   end # combo

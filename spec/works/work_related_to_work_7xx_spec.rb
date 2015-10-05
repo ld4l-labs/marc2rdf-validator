@@ -30,7 +30,7 @@ describe 'work related to the work described by the MARC record' do
   context "700" do
     context "ind2 blank" do
       context "‡t" do
-        let(:g) {
+        let!(:g) {
           rec_id = '700_ind2_blank_t'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="0" ind2="4" tag="245">
@@ -97,7 +97,7 @@ describe 'work related to the work described by the MARC record' do
   context "730" do
     context "ind2 blank" do
       context "mult 730" do
-        let(:g) {
+        let!(:g) {
           rec_id = '730_ind2blank'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="0" ind2="0" tag="245">
@@ -139,7 +139,7 @@ describe 'work related to the work described by the MARC record' do
 
   context "740" do
     context "ind2=1" do
-      let(:g) {
+      let!(:g) {
         rec_id = '740ind2_1'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2="4" tag="245">
@@ -160,7 +160,7 @@ describe 'work related to the work described by the MARC record' do
     end # ind2 = 1
 
     context "ind2 blank" do
-      let(:g) {
+      let!(:g) {
         rec_id = '740ind2blank'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="1" ind2="0" tag="245">
@@ -208,7 +208,7 @@ describe 'work related to the work described by the MARC record' do
 
   context "785" do
     context "ind2=0" do
-      let(:g) {
+      let!(:g) {
         rec_id = '785'
         marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
           '<datafield ind1="0" ind2="0" tag="245">

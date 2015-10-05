@@ -24,7 +24,7 @@ describe 'work within the work described by the MARC record' do
     context "ind1 = 0" do
       context "‡a (formatted contents note)" do
         context "-- no spaces" do
-          let(:g) {
+          let!(:g) {
             rec_id = 'dashes_no_spaces'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="0" ind2="0" tag="245">
@@ -46,7 +46,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # -- no spaces
         context "-- spaces" do
-          let(:g) {
+          let!(:g) {
             rec_id = 'semicolons'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="0" ind2="4" tag="245">
@@ -68,7 +68,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # -- spaces
         context "-- and semicolons" do
-          let(:g) {
+          let!(:g) {
             rec_id = 'semicolons'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="1" ind2="4" tag="245">
@@ -92,7 +92,7 @@ describe 'work within the work described by the MARC record' do
           #https://github.com/sul-dlss/SearchWorks/blob/c8da26f975a44d99849670a1212097230a6b8758/app/helpers/marc_helper.rb#L273
         end
         context "mult 505s" do
-          let(:g) {
+          let!(:g) {
             rec_id = '505_mult_w_a'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="1" ind2="0" tag="245">
@@ -119,7 +119,7 @@ describe 'work within the work described by the MARC record' do
 
       context "‡t (title)" do
         context "single ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = '505_mult_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="1" ind2="0" tag="245">
@@ -139,7 +139,7 @@ describe 'work within the work described by the MARC record' do
           end
         end
         context "multiple ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = '505_mult_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="1" ind2="0" tag="245">
@@ -172,7 +172,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # multiple ‡t
         context "multiple 505" do
-          let(:g) {
+          let!(:g) {
             rec_id = '505_mult_w_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="0" ind2="0" tag="245">
@@ -216,7 +216,7 @@ describe 'work within the work described by the MARC record' do
     context "ind1 = 1" do
       context "‡a (formatted contents note)" do
         context "-- no spaces" do
-          let(:g) {
+          let!(:g) {
             rec_id = 'dashes_no_spaces'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="0" ind2="4" tag="245">
@@ -253,7 +253,7 @@ describe 'work within the work described by the MARC record' do
     context "700" do
       context "ind2 = 2" do
         context "with ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = '700_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="0" ind2="0" tag="245">
@@ -279,7 +279,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # with ‡t
         context "without ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = '700_no_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="1" ind2="4" tag="245">
@@ -303,7 +303,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # without ‡t
         context "mult with ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = 'mult_700_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="0" ind2="0" tag="245">
@@ -353,7 +353,7 @@ describe 'work within the work described by the MARC record' do
     context "710" do
       context "ind 2 = 2" do
         context "with ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = '710_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield tag="025" ind1=" " ind2=" ">
@@ -376,7 +376,7 @@ describe 'work within the work described by the MARC record' do
           end
         end # with ‡t
         context "without ‡t" do
-          let(:g) {
+          let!(:g) {
             rec_id = '710_no_t'
             marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
               '<datafield ind1="1" ind2="4" tag="245">
@@ -432,7 +432,7 @@ describe 'work within the work described by the MARC record' do
   context "730" do
     context "ind2 = 2" do
       context "single 730" do
-        let(:g) {
+        let!(:g) {
           rec_id = '730'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="0" ind2="2" tag="245">
@@ -455,7 +455,7 @@ describe 'work within the work described by the MARC record' do
         end
       end # single 730
       context "multiple 730" do
-        let(:g) {
+        let!(:g) {
           rec_id = '730_3_of_em'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="0" ind2="0" tag="245">
@@ -491,7 +491,7 @@ describe 'work within the work described by the MARC record' do
   context "740" do
     context "ind2 = 2" do
       context "single 740" do
-        let(:g) {
+        let!(:g) {
           rec_id = '740'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="1" ind2="0" tag="245">
@@ -513,7 +513,7 @@ describe 'work within the work described by the MARC record' do
         end
       end # single 740
       context "multiple 740" do
-        let(:g) {
+        let!(:g) {
           rec_id = '740_twice'
           marcxml_str = marc_ldr_001_008.sub('RECORD_ID', rec_id) +
             '<datafield ind1="0" ind2="0" tag="245">

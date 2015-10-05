@@ -4,7 +4,7 @@ require 'linkeddata'
 describe 'instance from 555 (cumulative index / finding aids)' do
   context "single 555 single u" do
     context "260, 300, image collection" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>07792ckc a2201081 a 4500</leader>
@@ -46,7 +46,7 @@ describe 'instance from 555 (cumulative index / finding aids)' do
       end
     end # image coll 260, 300
     context "300s only (no 26x)" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>03469cpcaa2200589 a 4500</leader>
@@ -106,7 +106,7 @@ describe 'instance from 555 (cumulative index / finding aids)' do
 
   context "single 555 no u" do
     context "journal 260, 300" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>04849cas a2200613 a 4500</leader>
@@ -138,7 +138,7 @@ describe 'instance from 555 (cumulative index / finding aids)' do
       end
     end # journal 260, 300
     context "archival coll no 260, yes 300" do
-      let(:g) {
+      let!(:g) {
         marcxml_str =
           '<record xmlns="http://www.loc.gov/MARC21/slim">
             <leader>01855cemaa22003131a 4500</leader>
@@ -169,7 +169,7 @@ describe 'instance from 555 (cumulative index / finding aids)' do
   context "mult 555" do
     context "each has u" do
       context "260, 300, photograph collection" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>06754ckc a2200889 a 4500</leader>
@@ -216,7 +216,7 @@ describe 'instance from 555 (cumulative index / finding aids)' do
         end
       end # 260, 300 photograph collection
       context "mult 300, no 260, papers" do
-        let(:g) {
+        let!(:g) {
           marcxml_str =
             '<record xmlns="http://www.loc.gov/MARC21/slim">
               <leader>06411cpcaa2201021 i 4500</leader>

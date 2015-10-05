@@ -23,7 +23,7 @@ describe 'related instances from MARC 7xx' do
 # 787 - Other Relationship Entry (R) Full | Concise
 
   context "776 otherPhysicalFormat" do
-    let(:g) {
+    let!(:g) {
       marcxml_str =
         '<record xmlns="http://www.loc.gov/MARC21/slim">
           <leader>01780cas a2200445 a 4500</leader>
@@ -62,7 +62,7 @@ describe 'related instances from MARC 7xx' do
   end
 
   context "777 issuedWith" do
-    let(:g) {
+    let!(:g) {
       marcxml_str =
         '<record xmlns="http://www.loc.gov/MARC21/slim">
           <leader>02308cas a2200541 a 4500</leader>
