@@ -8,6 +8,28 @@ describe 'publication copyright dates from 260, 264' do
 
   # the LC xquery converter determines copyright dates from 'c' at the beginning of a pub date string.
   context "single year" do
+    describe "some test" do
+      let!(:g) {
+        marcxml_str =
+          '<record xmlns="http://www.loc.gov/MARC21/slim">
+            <leader>06174nam a2200445Ia 4500</leader>
+            <controlfield tag="001">cdddd</controlfield>
+            <controlfield tag="008">080813s2008    njua    s     001 0 eng d</controlfield>
+            <datafield ind1="1" ind2="0" tag="245">
+              <subfield code="a">copyright date</subfield>
+            </datafield>
+            <datafield ind1=" " ind2=" " tag="260">
+              <subfield code="c">c2014</subfield>
+            </datafield>
+          </record>'
+        self.send(MARC2BF_GRAPH_METHOD, marcxml_str, 'cdddd')
+      }
+      it 'does something' do
+        fail 'test to be implemented'
+      end
+
+
+    end
     describe "cdddd" do
       let!(:g) {
         marcxml_str =
