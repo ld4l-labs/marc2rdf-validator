@@ -18,3 +18,4 @@ mkmf.log
 .pry_history
 .pryrc
 .ruby-version
+config.yml
