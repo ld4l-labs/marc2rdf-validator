@@ -5,7 +5,7 @@
 
 This project is focused on validating particulars of bibframe graphs produced from MARC data.  Ruby RSpec is used as a means of validating the properties of data in the Bibframe model.  We want evaluation code that can be run against bibframe resources to determine the quality of the conversion process.
 
-This project should help us evaluate the quality of bibframe produced by different converters.  https://github.com/lcnetdev/marc2bibframe is the current reference implementation, but we expect other converters will appear.  This project provides a framework for calling external converter code to convert a single MARC record to an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
+This project should help us evaluate the quality of bibframe produced by different converters. https://github.com/lcnetdev/marc2bibframe is the current reference implementation, but we expect other converters will appear.  This project provides a framework for calling external converter code to convert a single MARC record to an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
 
 # Approach
 
@@ -13,6 +13,7 @@ In order to make these tests agnostic for marc -> bibframe processing, the idea 
 
 For example, look at spec/support/m2bf_xquery_helpers.rb.  This class provides the marc_to_graph_m2bf_xquery method.
 
+# Install and Configure
 To run the specs, the config.yml file must have the appropriate configuration information for the helper method that will be used.
 
 For example, a config.yml to use the marc_to_graph_m2bf_xquery method is:
@@ -29,16 +30,28 @@ For example, a config.yml to use the marc_to_graph_m2bf_xquery method is:
     # base URI to use for fake urls created
     base_uri: http://example.org/
 
-You may need to make local changes to marc2bibframe/bin/convert-saxon.sh:
+You may also need to make local changes to marc2bibframe/bin/convert-saxon.sh:
 
-  . replace all `readlink -e $1` with just '$1'
-  . add the argument 'usebnodes=false' to the java command:
-
-  'java -cp $SAXON_JAR net.sf.saxon.Query $MYDIR/../xbin/saxon.xqy marcxmluri="$MARCPATH" baseuri="$BASEURI" serialization="$SERIALIZATION" usebnodes=false 1>$OUTPUT'
-
+- Replace all `readlink -e $1` with just '$1'
+```
+#MARCPATH=`readlink -e $1`
+MARCPATH=$1
+```
+- Replace all `readlink -e $2` with just '$2'
+```
+#OUTPUT=`readlink -f $2`
+OUTPUT=$2
+```
+- Add the argument 'usebnodes=false' (or `true` if you want blank nodes) to the java command:
+```
+BN_ARG='usebnodes=false'
+```
+```
+java -cp $SAXON_JAR net.sf.saxon.Query $MYDIR/../xbin/saxon.xqy marcxmluri="$MARCPATH" baseuri="$BASEURI" serialization="$SERIALIZATION" usebnodes=false 1>$OUTPUT
+```
 In order to suppress the xquery error messages, in /marc2bibframe/xbin/saxon.xqy (: comment out :) all the lines with 'declare option saxon:default'
 
-The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_xquery_helpers:  https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
+The helper_method property is required by the individual specs; the other properties are specific to the m2bf_xquery_helpers: https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
 
     MARC2BIBFRAME_PATH = CONFIG_SETTINGS['marc2bibframe_path']
     SAXON_JAR_PATH = CONFIG_SETTINGS['saxon_jar_path']
