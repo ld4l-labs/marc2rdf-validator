@@ -1,0 +1,25 @@
+# configuration settings for bibframe validation
+# copy this file to config.yml and change the settings as necessary
+#
+# In order to make these tests agnostic for marc -> bibframe processing, the
+# idea is that a helper method will be provided to get from an inline (known)
+# marc record (as marcxml) to an RDF::Graph object holding bibframe triples.
+#
+# For example, look at spec/support/m2bf_xquery_helpers.rb.  This class provides
+#  the marc_to_graph_m2bf_xquery method.  The lines below pertain to the config
+#  info needed by marc_to_graph_m2bf_xquery in m2bf_xquery_helpers.rb
+#
+# To run the specs, the config.yml file must have the appropriate configuration
+# information for the helper method that will be used. See README for more
+# information.
+
+helper_method: marc_to_graph_m2bf_xquery
+
+# Settings for marc2bibframe LoC xquery converter
+#   see spec/support/m2bf_xquery_helpers.rb
+# location of clone repo from git@github.com:lcnetdev/marc2bibframe.git
+marc2bibframe_path: /path/to/marc2bibframe
+# location of saxon jar
+saxon_jar_path: /path/to/saxon.jar
+# base URI to use for fake urls created
+base_uri: http://example.org/
