@@ -1,0 +1,14 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+<leader>01787cam a22004217a 4500</leader>
+<controlfield tag="001">15599751</controlfield>
+<controlfield tag="005">20120719124759.0</controlfield>
+<controlfield tag="008">090121s2009    xx a     b    001 0 eng d</controlfield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Russo, Flavio,</subfield>
+    <subfield code="d">1947-</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Russo, Ferruccio,</subfield>
+    <subfield code="d">1980-</subfield>
+  </datafield>
+</record>
