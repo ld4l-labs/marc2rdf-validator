@@ -28,7 +28,7 @@ Difficulties for conversion: consistent mappings with legacy literals, needed re
 Some of this will be moved/updated with LD4All Target Mapping work. Right now, keeping a list below of possible new / related Works to test for existence of in this suite. Priority is fed by what seems both important for convertor support + confirming non-lossy conversions, but also
 
 MARC Field/Subfield | Related Work information | Priority for this work
-====================|==========================|========================
+------------------- | ------------------- | ------------------- 
 400t | (obsolete) Added entry personal name, $t indicating title. | TBD
 410t | (obsolete) Added entry corporate name, $t indicating title. | TBD
 411t | (obsolete) Added entry meeting name, $t indicating title. | TBD
