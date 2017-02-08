@@ -1,4 +1,4 @@
-[![Dependency Status](https://gemnasium.com/ld4l-labs/marc-to-bibframe-validation.svg)](https://gemnasium.com/ld4l-labs/marc-to-bibframe-validation)
+[![Dependency Status](https://gemnasium.com/ld4l-labs/marc2rdf-validator.svg)](https://gemnasium.com/ld4l-labs/marc2rdf-validator)
 
 # Marc to Bibframe Validation
 
