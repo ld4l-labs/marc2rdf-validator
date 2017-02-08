@@ -6,8 +6,28 @@ reversed engineered from LoC xquery implementation of Marc -> BibFrame
   bf:Person  are created for bib records by:
     modules/module.MBIB-2-BIBFRAME-Shared.xqy
 
+People in MARC bibliographic records
+All of the following could include corporate names, except the X00 fields.
+•	100, 400, 600, 700, 800: 1st indicator 0 or 1 or 2 and subfields $a, $b, $c, $d, $j, $q
+o	100 definitely refers to the work/instance described in the MARC record
+o	400, 600, 700, 800 can refer to related or included works/instances of thing described in MARC record
+•	245: subfield $c
+o	may also include works/instances and roles in some cases
+•	250: subfield $b
+•	254: unformatted
+•	260: subfields $b, $f
+•	264: subfield $b
+•	490: unformatted (after a slash in most cases)
+•	500: unformatted
+•	501$a, 505$r or $a after slash, 508, 510 (can have person name), 511, 520 (need named entity extraction for this field), 533$c, 545$a, 561$a, 580$a, 581$a, 590$a
+o	All of the above 5XX fields are unformatted.
+•	534$a, $b, $c, $f (also includes other things)
+•	720: subfield $a
+•	76X, 77X, 78X: subfield $a
+•	690, 653, 796: subfield $a (local fields)
+•	880 with the corresponding above tags and indicators and subfields
 
-a bf:Person is created when the Bib record has:
+In M2B converter a bf:Person is created when the Bib record has:
 
 case 1A:
   100
@@ -257,4 +277,3 @@ modules/module.MBIB-2-BIBFRAME-Shared.xqy
 2997:-:29 '600': ('subject', {'bibframeType': 'Person'}),
 3284:            "bf:Person"
 3292:            "bf:Person" (:????:)
-
