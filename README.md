@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/ld4l-labs/marc-to-bibframe-validation.svg?branch=master)](https://travis-ci.org/ld4l-labs/marc-to-bibframe-validation)
 [![Dependency Status](https://gemnasium.com/ld4l-labs/marc-to-bibframe-validation.svg)](https://gemnasium.com/ld4l-labs/marc-to-bibframe-validation)
 
 # Marc to Bibframe Validation
