@@ -1,2 +1,4 @@
---color
 --require spec_helper
+--require ld4p_formatter
+--format Ld4pFormatter
+--color
