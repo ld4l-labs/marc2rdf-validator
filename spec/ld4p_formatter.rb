@@ -1,3 +1,8 @@
+# This formatter enables rspec to produce a more human-readable report.
+# Instead of .....F.....FF..., etc, and then a dump of the failed tests,
+# it tells you when tests both pass or fail and uses colors to delineate the
+# different contexts, and also refers to the code lines of both passing and failed tests.
+
 require 'rspec/core/formatters/console_codes'
 
 class Ld4pFormatter
