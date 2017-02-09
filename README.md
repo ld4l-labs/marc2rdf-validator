@@ -1,34 +1,34 @@
 [![Dependency Status](https://gemnasium.com/ld4l-labs/marc2rdf-validator.svg)](https://gemnasium.com/ld4l-labs/marc2rdf-validator)
+[![Stories in Ready](https://badge.waffle.io/ld4l-labs/marc2rdf-validator.png?label=ready&title=Ready)](http://waffle.io/ld4l-labs/marc2rdf-validator)
 
 # Marc to Bibframe Validation
 
 This project is focused on validating particulars of bibframe graphs produced from MARC data.  Ruby RSpec is used as a means of validating the properties of data in the Bibframe model.  We want evaluation code that can be run against bibframe resources to determine the quality of the conversion process.
-
-This project should help us evaluate the quality of bibframe produced by different converters.  https://github.com/lcnetdev/marc2bibframe is the current reference implementation, but we expect other converters will appear.  This project provides a framework for calling external converter code to convert a single MARC record to an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
+This approach should help us evaluate the quality of bibframe, and potentially other flavors of RDF library data converted from MARC, produced by different converters. The Library of Congress marc2bibframe converter (https://github.com/lcnetdev/marc2bibframe) is the current working implementation. The LD4L-Labs MARC to Bibframe converter (https://github.com/ld4l-labs/bib2lod) will be the next reference implementation, but we also expect to try other converters as they appear and become viable to use by the LD4L/LD4P projects. Some of these may include the Bibframe 2.0 version of the LOC marc2bibframe converter (See generally https://github.com/lcnetdev/) and the ALIADA tool (https://github.com/ALIADA/aliada-tool).  We expect to allow the framework to support all viable converters that exist that are able to be called independently as described below.
 
 # Approach
+Here we provide a framework for calling external converter code as described above to convert a single MARC record into an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
 
-In order to make these tests agnostic for marc -> bibframe processing, the idea is that a helper method will be provided to get from an inline (known) marc record (as marcxml) to an RDF::Graph object holding bibframe triples.
+In order to make these tests agnostic for MARC -> bibframe processing, the idea is that a helper method will be provided to get from an inline (known) MARC record (represented as MARCXML) to an RDF::Graph object that holds bibframe triples.
 
-For example, look at spec/support/m2bf_xquery_helpers.rb.  This class provides the marc_to_graph_m2bf_xquery method.
+For example, look at spec/support/m2bf_bib2lod_helpers.rb.  This class provides the marc_to_graph_m2bf_bib2lod method.
 
 To run the specs, the config.yml file must have the appropriate configuration information for the helper method that will be used.
 
-For example, a config.yml to use the marc_to_graph_m2bf_xquery method is:
+For example, a config.yml to use the marc_to_graph_m2bf_bib2lod method is:
 
     # configuration settings for bibframe validation
-    helper_method: marc_to_graph_m2bf_xquery
+    helper_method: marc_to_graph_m2bf_bib2lod
 
-    # Settings for marc2bibframe LoC xquery converter
-    #   see spec/support/m2bf_xquery_helpers.rb
-    # location of clone repo from git@github.com:lcnetdev/marc2bibframe.git
-    marc2bibframe_path: /path/to/marc2bibframe
+    # Settings for the LD4L-Labs bib2lod converter
+    #   see spec/support/m2bf_bib2lod_helpers.rb
+    converter_path: /path/to/marc2bibframe
     # location of saxon jar
     saxon_jar_path: /path/to/saxon.jar
     # base URI to use for fake urls created
     base_uri: http://example.org/
 
-The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_xquery_helpers:  https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
+The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_xquery_helpers: https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
 
     MARC2BIBFRAME_PATH = CONFIG_SETTINGS['marc2bibframe_path']
     SAXON_JAR_PATH = CONFIG_SETTINGS['saxon_jar_path']
@@ -54,21 +54,6 @@ xxx.rdfxml is the output from https://github.com/lcnetdev/marc2bibframe run agai
 xxx.ttl is a turtle representation of the same data as the .rdfxml file -- provided for human readability.
 
 The specific marc records were chosen to try to exercise different wrinkles in work/instance information present in a single marc record.  As new work-instance wrinkles are surfaced, marc records and specs should be added to the project.
-
-# Importing LoC Bib marcxml Records via SRU
-
-1. Create a csv documents in the /docs folder:
-    /import/m2b-classes.csv
-        With header columns 'className' and 'bibid'
-    /import/m2b-properties.csv
-        With header columns 'propertyName' and 'bibid'
-
-2. From within the /lib folder:
-
-```bash
- 'ruby m2b_csv.rb'
-```
-  and marcxml records from the LoC SRU service will be written to spec/fixtures/loc/(className|propertyName)/(bibid).marcxml.
 
 # Working with other converters
 

@@ -2,9 +2,12 @@ require 'yaml'
 CONFIG_SETTINGS = YAML.load_file('config.yml')
 MARC2BF_GRAPH_METHOD = CONFIG_SETTINGS['helper_method'].to_sym
 
-# this MUST go after CONFIG_SETTINGS and MARC2BF_GRAPH_METHOD constants
+# these MUST go after CONFIG_SETTINGS and MARC2BF_GRAPH_METHOD constants:
+require 'support/m2rdf_helpers'
+  # Specific converter helpers go here:
 require 'support/m2bf_xquery_helpers'
-
+require 'support/bib2lod_helpers'
+  # Specific RDF entity helpers go here:
 require 'instances/instance_helpers'
 require 'publications/publication_helpers'
 require 'works/work_helpers'
