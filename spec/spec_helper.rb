@@ -11,6 +11,7 @@ require 'support/bib2lod_helpers'
 require 'instances/instance_helpers'
 require 'publications/publication_helpers'
 require 'works/work_helpers'
+require 'titles/title_helpers'
 
 RSpec.configure do |config|
   config.include Helpers
@@ -22,7 +23,7 @@ RSpec.configure do |config|
   # order dependency and want to debug it, you can fix the order by providing
   # the seed, which is printed after each run.
   #     --seed 1234
-  config.order = :random
+  # config.order = :random
 
   # Seed global randomization in this process using the `--seed` CLI option.
   # Setting this allows you to use `--seed` to deterministically reproduce
