@@ -5,7 +5,7 @@ require 'linkeddata'
 
 describe 'bf:title from uniform title' do
   context '$a or $t - Uniform title (NR)' do
-    let!(:g) {
+    let!(:graph) {
       marcxml =
       '<record xmlns="http://www.loc.gov/MARC21/slim">
         <leader>01033cam a22002891  4500</leader>
@@ -21,14 +21,22 @@ describe 'bf:title from uniform title' do
       </record>'
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '130_subfield_a_uniform_title')
     }
-    # THE LD4L TAG SHOULD NOT NECESSARILY APPLY HERE (PENDING SPEC) USED FOR TAGGING EXAMPLE ONLY
-    it 'should have a literal "Beowulf."', bf2: true, ld4l: true do
-      # puts "#{g.to_ttl}"
-      # puts "#{g.query(WorkHelpers::UNIFORM_TITLE_QUERY).to_tsv}"
-      expect(g.query(TitleHelpers::UNIFORM_TITLE_QUERY).to_tsv).to include("Beowulf.")
+
+    it 'should have a literal "Beowulf."', bf2: true do
+      # puts "#{graph.to_ttl}\n--"
+      # puts "\n#{graph.query(WorkHelpers::UNIFORM_TITLE_QUERY).to_tsv}"
+      expect(graph.query(TitleHelpers::TITLE_PROPERTY_QUERY).to_tsv).to include("Beowulf.")
     end
     it 'should have a bf:title property', bf2: true do
-      expect(g.query(TitleHelpers::UNIFORM_TITLE_QUERY).to_tsv).to include("<http://bibframe.org/vocab/title>")
+      expect(graph.query(TitleHelpers::TITLE_PROPERTY_QUERY).to_tsv).to include("<http://bibframe.org/vocab/title>")
     end
   end
 end
+
+TITLE_PROPERTY_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
+                                          SELECT DISTINCT ?localUri ?property ?titleLiteral
+                                          WHERE {
+                                            ?localUri ?property 'Beowulf.' .
+                                            ?localUri bf:titleValue ?titleLiteral
+                                          }
+                                         ")

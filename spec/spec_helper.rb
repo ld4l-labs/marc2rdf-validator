@@ -1,4 +1,5 @@
 require 'yaml'
+
 CONFIG_SETTINGS = YAML.load_file('config.yml')
 MARC2BF_GRAPH_METHOD = CONFIG_SETTINGS['helper_method'].to_sym
 
@@ -8,16 +9,15 @@ require 'support/m2rdf_helpers'
 require 'support/m2bf_xquery_helpers'
 require 'support/bib2lod_helpers'
   # Specific RDF entity helpers go here:
-require 'instances/instance_helpers'
-require 'publications/publication_helpers'
-require 'works/work_helpers'
-require 'titles/title_helpers'
+# require 'instances/instance_helpers'
+# require 'publications/publication_helpers'
+# require 'works/work_helpers'
 
 RSpec.configure do |config|
   config.include Helpers
-  config.include InstanceHelpers
-  config.include PublicationHelpers
-  config.include WorkHelpers
+  # config.include InstanceHelpers
+  # config.include PublicationHelpers
+  # config.include WorkHelpers
 
   # Run specs in random order to surface order dependencies. If you find an
   # order dependency and want to debug it, you can fix the order by providing
