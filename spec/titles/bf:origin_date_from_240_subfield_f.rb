@@ -23,15 +23,15 @@ describe 'bf:originDate from uniform title' do
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '240_subfield_f_uniform_title')
     }
 
-    it 'should have a "1968" originDate literal' do
+    it 'should have a "1968" originDate literal', bf2: true do
       # puts "#{graph.to_ttl}\n--"
       # puts "\n#{graph.query(ORIGIN_DATE_QUERY).to_tsv}"
       expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('1968')
     end
-    it 'should be part of a bf:Work' do
+    it 'should be part of a bf:Work', bf2: true do
       expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('<http://ld4p.library.org/catalogKeyID>')
     end
-    it 'should have a bf:originDate property' do
+    it 'should have a bf:originDate property', bf2: true do
       expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('<http://bibframe.org/vocab/originDate>')
     end
   end
