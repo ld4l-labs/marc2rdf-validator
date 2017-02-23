@@ -1,9 +1,8 @@
 require 'spec_helper'
-require 'linkeddata'
 
 # X30, 240, etc. - Uniform titles - R1
 
-describe 'bf:originDate from uniform title' do
+describe 'bf:originDate from uniform title, 240 subfield f' do
   context '$f - Date of a work (NR)' do
     let!(:graph) {
       marcxml = '
@@ -22,16 +21,15 @@ describe 'bf:originDate from uniform title' do
       </record>'
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '240_subfield_f_uniform_title')
     }
-
-    it 'should have a "1968" originDate literal', bf2: true do
+    it 'should have a "1968" originDate literal', :bf2 do
       # puts "#{graph.to_ttl}\n--"
-      # puts "\n#{graph.query(ORIGIN_DATE_QUERY).to_tsv}"
+      # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
       expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('1968')
     end
-    it 'should be part of a bf:Work', bf2: true do
+    it 'should be part of a bf:Work', :bf2 do
       expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('<http://ld4p.library.org/catalogKeyID>')
     end
-    it 'should have a bf:originDate property', bf2: true do
+    it 'should have a bf:originDate property', :bf2 do
       expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('<http://bibframe.org/vocab/originDate>')
     end
   end
