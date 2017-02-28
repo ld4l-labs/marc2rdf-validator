@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-# X30, 240, etc. - Uniform titles - R1
+# Fields 200-24X, except 240 - Other title fields - R1
 
 describe 'bf:originDate from Title, 245 subfield f' do
   context '$f - Inclusive dates' do
