@@ -5,8 +5,7 @@ require 'spec_helper'
 describe 'bf:originDate from Title, 245 subfield f' do
   context '$f - Inclusive dates' do
     let!(:graph) {
-      marcxml = '
-      <record xmlns="http://www.loc.gov/MARC21/slim">
+      marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
         <leader>00956nam 2200229 4500</leader>
         <controlfield tag="001">catalogKeyID</controlfield>
         <controlfield tag="005">19911001004553.0</controlfield>

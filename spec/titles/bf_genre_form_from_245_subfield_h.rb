@@ -5,8 +5,7 @@ require 'spec_helper'
 describe 'bf:genreForm from Title, 245 subfield h' do
   context '$h - Medium' do
     let!(:graph) {
-      marcxml = '
-      <record xmlns="http://www.loc.gov/MARC21/slim">
+      marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
         <leader>00956nam 2200229 4500</leader>
         <controlfield tag="001">catalogKeyID</controlfield>
         <controlfield tag="005">19911001004553.0</controlfield>

@@ -5,8 +5,7 @@ require 'spec_helper'
 describe 'bf:originDate from Title, 245 subfield fg' do
   context '$g - Bulk dates' do
     let!(:graph) {
-      marcxml = '
-      <record xmlns="http://www.loc.gov/MARC21/slim">
+      marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
       <leader>00956ctc 2200229La 4500</leader>
       <controlfield tag="001">catalogKeyID</controlfield>
       <controlfield tag="008">030826i18791898xx 000 0 ger d</controlfield>
