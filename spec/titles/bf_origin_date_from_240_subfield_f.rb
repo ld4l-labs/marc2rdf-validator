@@ -5,8 +5,7 @@ require 'spec_helper'
 describe 'bf:originDate from uniform title, 240 subfield f' do
   context '$f - Date of a work (NR)' do
     let!(:graph) {
-      marcxml = '
-      <record xmlns="http://www.loc.gov/MARC21/slim">
+      marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
         <leader>00956cam  22002291  4500</leader>
         <controlfield tag="001">catalogKeyID</controlfield>
         <controlfield tag="003">SIRSI</controlfield>
@@ -39,7 +38,7 @@ ORIGIN_DATE_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
                                           SELECT DISTINCT ?workUri ?property ?dateLiteral
                                           WHERE {
                                             ?workUri ?property 'Selections.' .
-                                            ?workUri bf:formDesignation ?dateLiteral .
+                                            ?workUri bf:originDate ?dateLiteral .
                                             ?workUri a bf:Work
                                           }
                                          ")
