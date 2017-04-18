@@ -10,6 +10,7 @@
 /spec/fixtures/
 /tmp/
 /import/
+/target/
 *.bundle
 *.so
 *.o

@@ -6,27 +6,43 @@
 # marc record (as marcxml) to an RDF::Graph object holding bibframe triples.
 #
 # For example, look at spec/support/m2bf_xquery_helpers.rb.  This class provides
-#  the marc_to_graph_m2bf_xquery method.  The lines below pertain to the config
-#  info needed by marc_to_graph_m2bf_xquery in m2bf_xquery_helpers.rb
+#  the marc_to_graph_m2bf method.  The lines below pertain to the config
+#  info needed by marc_to_graph_m2bf in m2bf_xquery_helpers.rb
 #
 # To run the specs, the config.yml file must have the appropriate configuration
 # information for the helper method that will be used. See README for more
 # information.
 
-## Settings for marc2bibframe LoC xquery converter
-helper_method: marc_to_graph_m2bf_xquery
+## Settings for various converters
+# If the helper_method is set here, it will override any command-line requirement
+#   of a specific converter:
+# helper_method: marc_to_graph_m2bf
+# helper_method: marc_to_graph_bib2lod
+
+## Converter-Specific settings:
+# These settings only get called when the specific helper is invoked by the helper_method
+#   The helper_method can be invoked by uncommenting ONE of the helper_methods above, or
+#   by specifying a required helper on the command line when running the rspec task
+#   (e.g. rspec spec/titles/bf_title_from_245_subfield_a.rb --require bf2_helper.rb)
+#
+# Location of clone repo from git@github.com:lcnetdev/marc2bibframe.git
 #   see spec/support/m2bf_xquery_helpers.rb
-# location of clone repo from git@github.com:lcnetdev/marc2bibframe.git
 marc2bibframe_path: /path/to/marc2bibframe
 # location of saxon jar
 saxon_jar_path: /path/to/saxon.jar
+
+#   see spec/support/m2bf2_xquery_helpers.rb
+# location of clone repo from git@github.com:lcnetdev/marc2bibframe2.git
+# requires an XSLT processor, such as xsltproc from libxslt
+marc2bibframe2_path: /path/to/marc2bibframe2
+
 # base URI to use for fake urls created
 base_uri: http://example.org/
 
 ## Setting for the bib2lod converter
-helper_method: marc_to_graph_bib2lod
 #   see spec/support/bib2lod_helpers.rb
-# location of clone repo from git@github.com:ld4l-labs/bib2lod.git
-bib2lod_path: /Users/jgreben/Projects/bib2lod/target/
-# namespace to use for fake urls created
-local_namespace: http://example.org/
+helper_method: marc_to_graph_bib2lod
+# path of the executable bib2lod.jar cloned and intalled from the git@github.com:ld4l-labs/bib2lod.git repo
+bib2lod_path: /path/to/bib2lod/target/
+# path of the bib2lod config file
+bib2lod_config: /path/to/bib2lod.config.json

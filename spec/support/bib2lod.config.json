@@ -1,0 +1,27 @@
+{
+  "localNamespace": "http://data.ld4l.org/stanford/",
+  "InputService": {
+    "class": "org.ld4l.bib2lod.io.FileInputService",
+    "source": "tmp/",
+    "extension": "marcxml"
+  },
+  "OutputService": {
+    "class": "org.ld4l.bib2lod.io.FileOutputService",
+    "destination": "tmp/",
+    "format": "N-TRIPLE"
+  },
+  "UriService": [
+    {
+      "class": "org.ld4l.bib2lod.uris.RandomUriMinter"
+    }
+  ],
+  "Cleaner": {
+    "class": "org.ld4l.bib2lod.cleaning.MarcxmlCleaner"
+  },
+  "Converter": {
+    "class": "org.ld4l.bib2lod.conversion.xml.marcxml.MarcxmlConverter"
+  },
+  "EntityBuilders": {
+    "class": "org.ld4l.bib2lod.entitybuilders.xml.marcxml.ld4l.MarcxmlToLd4lEntityBuilders"
+  }
+}

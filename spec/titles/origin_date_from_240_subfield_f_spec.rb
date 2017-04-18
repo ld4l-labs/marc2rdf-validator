@@ -3,7 +3,7 @@ require 'spec_helper'
 # X30, 240, etc. - Uniform titles - R1
 
 describe 'bf:originDate from uniform title, 240 subfield f' do
-  context '$f - Date of a work (NR)' do
+  context '$f - Date of a work (NR)', :bf do
     let!(:graph) {
       marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
         <leader>00956cam  22002291  4500</leader>
@@ -20,21 +20,22 @@ describe 'bf:originDate from uniform title, 240 subfield f' do
       </record>'
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '240_subfield_f_uniform_title')
     }
-    it 'should have a "1968" originDate literal', :bf2 do
+    it 'should have a "1968" originDate literal' do
       # puts "#{graph.to_ttl}\n--"
       # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
-      expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('1968')
+      puts "#{graph.query(ORIGIN_DATE_240_QUERY).to_tsv}"
+      expect(graph.query(ORIGIN_DATE_240_QUERY).to_tsv).to include('1968')
     end
-    it 'should be part of a bf:Work', :bf2 do
-      expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('<http://ld4p.library.org/catalogKeyID>')
+    it 'should be part of a bf:Work' do
+      expect(graph.query(ORIGIN_DATE_240_QUERY).to_tsv).to include('<http://ld4p.library.org/catalogKeyID>')
     end
-    it 'should have a bf:originDate property', :bf2 do
-      expect(graph.query(ORIGIN_DATE_QUERY).to_tsv).to include('<http://bibframe.org/vocab/originDate>')
+    it 'should have a bf:originDate property' do
+      expect(graph.query(ORIGIN_DATE_240_QUERY).to_tsv).to include('<http://bibframe.org/vocab/originDate>')
     end
   end
 end
 
-ORIGIN_DATE_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
+ORIGIN_DATE_240_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
                                           SELECT DISTINCT ?workUri ?property ?dateLiteral
                                           WHERE {
                                             ?workUri ?property 'Selections.' .

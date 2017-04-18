@@ -3,7 +3,7 @@ require 'spec_helper'
 # X30, 240, etc. - Uniform titles - R1
 
 describe 'bf:title from uniform title, 130 subfield a' do
-  context '$a Uniform title (NR)' do
+  context '$a Uniform title (NR)', :bf do
     let!(:graph) {
       marcxml =
       '<record xmlns="http://www.loc.gov/MARC21/slim">
@@ -21,17 +21,17 @@ describe 'bf:title from uniform title, 130 subfield a' do
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '130_subfield_a_uniform_title')
     }
 
-    it 'should have a literal "Beowulf."', :bf2 do
+    it 'should have a literal "Beowulf."' do
       # puts "#{graph.to_ttl}\n--"
       # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
       expect(graph.query(TitleHelpers::TITLE_PROPERTY_QUERY).to_tsv).to include("Beowulf.")
     end
-    it 'should have a bf:mainTitle property', :bf2 do
+    it 'should have a bf:mainTitle property' do
       expect(graph.query(TitleHelpers::TITLE_PROPERTY_QUERY).to_tsv).to include("<http://bibframe.org/vocab/mainTitle>")
     end
   end
 
-  context '$t Uniform title (NR)' do
+  context '$t Uniform title (NR)', :bf do
     let!(:graph) {
       marcxml =
       '<record xmlns="http://www.loc.gov/MARC21/slim">
@@ -49,18 +49,18 @@ describe 'bf:title from uniform title, 130 subfield a' do
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '130_subfield_a_uniform_title')
     }
 
-    it 'should have a literal "Beowulf."', :bf2 do
+    it 'should have a literal "Beowulf."' do
       # puts "#{graph.to_ttl}\n--"
       # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
-      expect(graph.query(TitleHelpers::TITLE_PROPERTY_QUERY).to_tsv).to include("Beowulf.")
+      expect(graph.query(TitleHelpers::TITLE_PROPERTY_130_QUERY).to_tsv).to include("Beowulf.")
     end
-    it 'should have a bf:mainTitle property', :bf2 do
-      expect(graph.query(TitleHelpers::TITLE_PROPERTY_QUERY).to_tsv).to include("<http://bibframe.org/vocab/mainTitle>")
+    it 'should have a bf:mainTitle property' do
+      expect(graph.query(TitleHelpers::TITLE_PROPERTY_130_QUERY).to_tsv).to include("<http://bibframe.org/vocab/mainTitle>")
     end
   end
 end
 
-TITLE_PROPERTY_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
+TITLE_PROPERTY_130_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
                                           SELECT DISTINCT ?localUri ?property ?titleLiteral
                                           WHERE {
                                             ?localUri ?property 'Beowulf.' .

@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-# Fields 200-24X, except 240 - Other title fields - R1
-
 describe 'bf:Title from 245' do
   let!(:graph) {
     marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
@@ -23,19 +21,19 @@ describe 'bf:Title from 245' do
   </record>'
     self.send(MARC2BF_GRAPH_METHOD, marcxml, '245_subfield_h_medium')
   }
-  context '$h - genreForm' do
+  context '$h - genreForm', :bf do
     it 'produces "electronic resource" as a genreForm literal', :bf2 do
       # puts "#{graph.to_ttl}"
       # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
-      expect(graph.query(GENRE_FORM_QUERY).to_tsv).to include("<http://bibframe.org/vocab/genreForm>")
+      expect(graph.query(GENRE_FORM_245_QUERY).to_tsv).to include("<http://id.loc.gov/ontologies/bibframe/genreForm>")
     end
-    it 'needs more tests pending bf2 converter', :bf2 do
+    it 'needs more tests' do
       pending('pending bf2 converter')
     end
   end
 end
 
-GENRE_FORM_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
+GENRE_FORM_245_QUERY = SPARQL.parse("PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
                                           SELECT DISTINCT ?localUri ?property ?literal
                                           WHERE {
                                             {
