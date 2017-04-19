@@ -32,4 +32,19 @@ module Helpers
     marc_record
   end
 
+  # @param [String] the path of the rdfxml file to be loaded
+  # @return [RDF::Graph] graph object per the rdfxml file
+  def load_graph_from_rdfxml(rdfxml_path)
+    require 'rdf'
+    require 'rdf/rdfxml'
+    RDF::Graph.new.from_rdfxml(File.open(rdfxml_path))
+  end
+
+  # @param [String] the path of the ntriple file to be loaded
+  # @return [RDF::Graph] graph object per the ntriple file
+  def load_graph_from_ntriples(ntriples_path)
+    require 'rdf'
+    require 'rdf/ntriples'
+    RDF::Graph.new.from_ntriples(File.open(ntriples_path))
+  end
 end

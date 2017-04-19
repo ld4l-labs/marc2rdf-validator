@@ -78,6 +78,15 @@ The specific marc records were chosen to try to exercise different wrinkles in w
 
 spec/support/m2bf_xquery_helpers.rb is an exemplar.
 
+# RDF Vocabularies
+In some of the sample sparql queries you will see a sparql vocabulary prefix defined like:
+
+`PREFIX bf: <#{RDF::Vocab::BF2.to_s}`
+
+For a list of this form of the vocabulary definitions look to https://github.com/ruby-rdf/rdf-vocab, otherwise, you can define the prefix in the standard way like this:
+
+`PREFIX bf: <http://id.loc.gov/ontologies/bibframe.html`
+
 # Contributing
 
 1. Fork the repository.

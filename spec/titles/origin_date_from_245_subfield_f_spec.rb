@@ -2,8 +2,8 @@ require 'spec_helper'
 
 # Fields 200-24X, except 240 - Other title fields - R1
 
-describe 'bf:genreForm from Title, 245 subfield h' do
-  context '$h - Medium' do
+describe 'bf:originDate from Title, 245 subfield f' do
+  context '$f - Inclusive dates', :bf do
     let!(:graph) {
       marcxml = '<record xmlns="http://www.loc.gov/MARC21/slim">
         <leader>00956nam 2200229 4500</leader>
@@ -19,25 +19,25 @@ describe 'bf:genreForm from Title, 245 subfield h' do
       </record>'
       self.send(MARC2BF_GRAPH_METHOD, marcxml, '245_subfield_f_title')
     }
-    it 'should have a "Microform" genreForm literal', :bf2 do
+    it 'should have a "1854-1921" originDate literal' do
       # puts "#{graph.to_ttl}\n--"
-      puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
-      expect(graph.query(GENRE_FORM_QUERY).to_tsv).to include('Microform')
+      # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"
+      expect(graph.query(ORIGIN_DATE_245f_QUERY).to_tsv).to include('1854-1921')
     end
-    it 'should be part of a bf:Work', :bf2 do
-      expect(graph.query(GENRE_FORM_QUERY).to_tsv).to include('<http://ld4p.library.org/catalogKeyID>')
+    it 'should be part of a bf:Work' do
+      expect(graph.query(ORIGIN_DATE_245f_QUERY).to_tsv).to include('<http://ld4p.library.org/catalogKeyID>')
     end
-    it 'should have a bf:genreForm property', :bf2 do
-      expect(graph.query(GENRE_FORM_QUERY).to_tsv).to include('<http://bibframe.org/vocab/genreForm>')
+    it 'should have a bf:originDate property' do
+      expect(graph.query(ORIGIN_DATE_245f_QUERY).to_tsv).to include('<http://bibframe.org/vocab/originDate>')
     end
   end
 end
 
-GENRE_FORM_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
-                                          SELECT DISTINCT ?workUri ?property ?genreFormLiteral
+ORIGIN_DATE_245f_QUERY = SPARQL.parse("PREFIX bf: <#{RDF::Vocab::Bibframe.to_s}>
+                                          SELECT DISTINCT ?workUri ?property ?dateLiteral
                                           WHERE {
                                             ?workUri ?property 'Diaries, 1854-1921. [Microform]Diaries,' .
-                                            ?workUri bf:genreForm ?genreFormLiteral .
+                                            ?workUri bf:originDate ?dateLiteral .
                                             ?workUri a bf:Work
                                           }
                                          ")
