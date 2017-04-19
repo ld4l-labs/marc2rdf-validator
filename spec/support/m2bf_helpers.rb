@@ -1,5 +1,5 @@
 # helper methods for rspec
-#  These particular methods pertain to using the marc2bibframe xquery converter code
+#  These particular methods pertain to using the marc2bibframe converter code
 #    from the Library of Congress, at https://github.com/lcnetdev/marc2bibframe
 #  Pre-Reqs:
 #  1.  https://github.com/lcnetdev/marc2bibframe  must be cloned
@@ -18,7 +18,7 @@ module Helpers
   JAR_ARG = "-j #{SAXON_JAR_PATH}"
 
   # given a marc record as a String containing marcxml, and a name to use for the temporary output files
-  # run the marc record through the marc2bibframe xquery converter and return the result as an RDF::Graph object
+  # run the marc record through the marc2bibframe converter and return the result as an RDF::Graph object
   # @param [String] marcxml_str an xml representaiton of a MARC record
   # @param [String] fname the name to assign to the marcxml and rdfxml files in the tmp directory
   # @return [RDF::Graph] loaded graph object from the converter for the marc record passed in

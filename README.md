@@ -28,7 +28,7 @@ For example, a config.yml to use the marc_to_graph_m2bf_bib2lod method is:
     # base URI to use for fake urls created
     base_uri: http://example.org/
 
-The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_xquery_helpers: https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
+The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_helpers:
 
     MARC2BIBFRAME_PATH = CONFIG_SETTINGS['marc2bibframe_path']
     SAXON_JAR_PATH = CONFIG_SETTINGS['saxon_jar_path']
@@ -76,7 +76,7 @@ The specific marc records were chosen to try to exercise different wrinkles in w
 3. Require your new helper file in spec/spec_helper.rb
 4. config.yml should work when your method name from 2. is used as the value for helper_method.  If you need additional information (e.g. path to your converter), add it to config.yml and access the info via CONFIG_SETTINGS in your helper file.
 
-spec/support/m2bf_xquery_helpers.rb is an exemplar.
+spec/support/m2bf_helpers.rb is an exemplar.
 
 # RDF Vocabularies
 In some of the sample sparql queries you will see a sparql vocabulary prefix defined like:

@@ -10,7 +10,7 @@ module Helpers
   BIB2LOD_CONFIG = CONFIG_SETTINGS['bib2lod_config']
 
   # given a marc record as a String containing marcxml, and a name to use for the temporary output files
-  # run the marc record through the marc2bibframe xquery converter and return the result as an RDF::Graph object
+  # run the marc record through the converter and return the result as an RDF::Graph object
   # @param [String] marcxml_str an xml representaiton of a MARC record
   # @param [String] fname the name to assign to the marcxml and rdfxml files in the tmp directory
   # @return [RDF::Graph] loaded graph object from the converter for the marc record passed in

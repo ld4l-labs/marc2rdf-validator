@@ -1,13 +1,13 @@
 require 'rake'
 require 'rspec/core/rake_task'
 
-desc 'Run the m2bf_xquery converter title tests'
+desc 'Run the m2bf converter title tests'
 RSpec::Core::RakeTask.new(:m2bf_titles) do |t|
   t.pattern = Dir.glob('spec/titles/')
   t.rspec_opts = '--tag bf --require m2bf_helper.rb'
 end
 
-desc 'Run the m2bf2_xquery converter title tests'
+desc 'Run the m2bf2 converter title tests'
 RSpec::Core::RakeTask.new(:m2bf2_titles) do |t|
   t.pattern = Dir.glob('spec/titles/')
   t.rspec_opts = '--tag bf2 --require m2bf2_helper.rb'
