@@ -19,7 +19,7 @@ module Helpers
   def marc_to_graph_m2bf2(marcxml_str, fname)
     ensure_marc_parses(marcxml_str)
     marc_path = create_marcxml_file(marcxml_str, fname)
-    rdfxml_path = create_rdfxml_via_marc2bibframe2_xqy(marc_path)
+    rdfxml_path = create_rdfxml_via_marc2bibframe2(marc_path)
     load_graph_from_rdfxml(rdfxml_path)
   end
 
@@ -30,7 +30,7 @@ module Helpers
   #  3.  requires an XSLT processor, such as xsltproc from libxslt
   # @param [String] the path of the marcxml file
   # @return [String] the path of the rdfxml file created
-  def create_rdfxml_via_marc2bibframe2_xqy(marc_path)
+  def create_rdfxml_via_marc2bibframe2(marc_path)
     output_file = marc_path.gsub('marcxml', 'rdfxml')
     command = "xsltproc --stringparam 'baseuri' '#{M2BF2_BASE_URI}' --stringparam 'idfield' '#{ID_FIELD}'\
                #{MARC2BIBFRAME2_PATH}/#{M2BF2_SCRIPT_PATH} #{marc_path} > #{output_file}"

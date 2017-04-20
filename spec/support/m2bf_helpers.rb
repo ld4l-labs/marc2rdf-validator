@@ -25,7 +25,7 @@ module Helpers
   def marc_to_graph_m2bf(marcxml_str, fname)
     ensure_marc_parses(marcxml_str)
     marc_path = create_marcxml_file(marcxml_str, fname)
-    rdfxml_path = create_rdfxml_via_marc2bibframe_xqy(marc_path)
+    rdfxml_path = create_rdfxml_via_marc2bibframe(marc_path)
     load_graph_from_rdfxml(rdfxml_path)
   end
 
@@ -37,7 +37,7 @@ module Helpers
   #  4.  location of saxon.jar must be in SAXON_JAR_PATH
   # @param [String] the path of the marcxml file
   # @return [String] the path of the rdfxml file created
-  def create_rdfxml_via_marc2bibframe_xqy(marc_path)
+  def create_rdfxml_via_marc2bibframe(marc_path)
     output_file = marc_path.gsub('marcxml', 'rdfxml')
     command = "#{MARC2BIBFRAME_PATH}/#{M2BF_SCRIPT_PATH} #{SZN_ARG} #{URI_ARG} #{JAR_ARG} #{marc_path} #{output_file}"
     `#{command}`
