@@ -21,7 +21,7 @@ describe 'bf:Title from 245' do
   </record>'
     self.send(MARC2BF_GRAPH_METHOD, marcxml, '245_subfield_h_medium')
   }
-  context '$h - genreForm', :bf do
+  context '$h - genreForm', :m2bf do
     it 'produces "electronic resource" as a genreForm literal', :bf2 do
       # puts "#{graph.to_ttl}"
       # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"

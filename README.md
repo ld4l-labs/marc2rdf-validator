@@ -3,80 +3,182 @@
 
 # Marc to Bibframe Validation
 
-This project is focused on validating particulars of bibframe graphs produced from MARC data.  Ruby RSpec is used as a means of validating the properties of data in the Bibframe model.  We want evaluation code that can be run against bibframe resources to determine the quality of the conversion process.
-This approach should help us evaluate the quality of bibframe, and potentially other flavors of RDF library data converted from MARC, produced by different converters. The Library of Congress marc2bibframe converter (https://github.com/lcnetdev/marc2bibframe) is the current working implementation. The LD4L-Labs MARC to Bibframe converter (https://github.com/ld4l-labs/bib2lod) will be the next reference implementation, but we also expect to try other converters as they appear and become viable to use by the LD4L/LD4P projects. Some of these may include the Bibframe 2.0 version of the LOC marc2bibframe converter (See generally https://github.com/lcnetdev/) and the ALIADA tool (https://github.com/ALIADA/aliada-tool).  We expect to allow the framework to support all viable converters that exist that are able to be called independently as described below.
+This project is focused on validating particulars of RDF graphs produced from MARC data by various converters.  Ruby RSpec is used as a means of testing and validating the classes and properties of data in the produced models.  We want evaluation code that can be run against produced resources to determine the quality of a conversion process, and compare the production of different converters.
+
+The Library of Congress marc2bibframe converter (https://github.com/lcnetdev/marc2bibframe) was the original working implementation. The LD4L-Labs MARC to Extended-Bibframe converter (https://github.com/ld4l-labs/bib2lod) and the LOC marc2bibframe2 xslt converter (https://github.com/lcnetdev/marc2bibframe2) are also included as reference implementations, but we expect to include other converters as they appear and become viable or desirable to use in LD4L/LD4P projects (for example, the ALIADA tool's ability to convert to various RDF models: https://github.com/ALIADA/aliada-tool). This framework should support any viable converters that exist that are able to be called independently as described below.
 
 # Approach
-Here we provide a framework for calling external converter code as described above to convert a single MARC record into an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
+Here we provide a framework for calling external converter code to convert a single MARC record fragment into an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
 
-In order to make these tests agnostic for MARC -> bibframe processing, the idea is that a helper method will be provided to get from an inline (known) MARC record (represented as MARCXML) to an RDF::Graph object that holds bibframe triples.
+In order to make these tests agnostic for MARC -> RDF processing, the idea is that a helper method will be provided to get from an inline (known) MARC record (represented as MARCXML) to an RDF::Graph object that holds RDF triples.
 
-For example, look at spec/support/m2bf_bib2lod_helpers.rb.  This class provides the marc_to_graph_m2bf_bib2lod method.
+For example, look at spec/support/m2bf2_helpers.rb.  This module provides the marc_to_graph_m2bf2 method that uses a number of shared methods (in m2rdf_helpers.rb) but specifically it has a method to call the marc2bibframe2 converter with a given MARC fragment.
 
-To run the specs, the config.yml file must have the appropriate configuration information for the helper method that will be used.
+To run the specs, the config.yml file must have the appropriate configuration information for the converter (and corresponding helper method) that will be used.
 
-For example, a config.yml to use the marc_to_graph_m2bf_bib2lod method is:
+For example, a config.yml to use the marc2bibframe2 converter via the marc_to_graph_m2bf2 method is:
 
-    # configuration settings for bibframe validation
-    helper_method: marc_to_graph_m2bf_bib2lod
+    ## Settings for various converters
+    # If the helper_method is set here, it will override any command-line requirement
+    #   of a specific converter:
+    #
+    helper_method: marc_to_graph_m2bf
 
-    # Settings for the LD4L-Labs bib2lod converter
-    #   see spec/support/m2bf_bib2lod_helpers.rb
-    converter_path: /path/to/marc2bibframe
-    # location of saxon jar
-    saxon_jar_path: /path/to/saxon.jar
+    # helper_method: marc_to_graph_bib2lod
+
+    # location of clone repo from git@github.com:lcnetdev/marc2bibframe2.git
+    # requires an XSLT processor, such as xsltproc from libxslt
+    #
+    marc2bibframe2_path: /path/to/marc2bibframe2
+
     # base URI to use for fake urls created
     base_uri: http://example.org/
 
-The helper_method property is required by the individual specs;  the other properties are specific to the m2bf_xquery_helpers: https://github.com/sul-dlss/marc-to-bibframe-validation/blob/master/spec/support/m2bf_xquery_helpers.rb#L11-L13:
+Note the comment that setting the helper_method in the config.yml file will make that converter method the global converter used for all tests in this suite. See the section below about [command line options and rake tasks](#Command-line-options-and-Rake-tasks) to run different tests using various converters. The call to the helper_method property is required to run the individual specs; the other properties are specific to the m2bf_helpers:
 
-    MARC2BIBFRAME_PATH = CONFIG_SETTINGS['marc2bibframe_path']
-    SAXON_JAR_PATH = CONFIG_SETTINGS['saxon_jar_path']
-    BASE_URI = CONFIG_SETTINGS['base_uri']
+    MARC2BIBFRAME2_PATH = CONFIG_SETTINGS['marc2bibframe2_path']
 
+    M2BF2_BASE_URI = CONFIG_SETTINGS['base_uri']
+    M2BF2_SCRIPT_PATH = 'xsl/marc2bibframe2.xsl'
+    ID_FIELD = '001'
 
-# The specs
+# The Specs
 
-Given known marc data, we should be able to describe exactly what we expect to be present in bibframe.
+Given known MARC data, we should be able to describe exactly what we expect to be present in a resulting RDF graph. For example, we may know that a certain MARC record should produce 2 Bibframe Works, with one Bibframe Instance for each work.  Another MARC record conversion might be expected to produce only 1 Work and 1 Instance. We might also want know that entities generated by a converter are reconciled with other entities produced by that converter in the resulting RDF data, so testing data that facilitates this (e.g. standard numbers, titles, creators, publishers, etc...) is highly desirable as well.  Given specific MARC data, we can test for specific information in titles, standard numbers, etc. in the produced graph. The way we do these tests is with SPARQL queries and corresponding RSpec expectations.
 
-For example, we may know that a certain marc record should produce 4 works, with one instance for each work.  Another marc record might have only 1 work and 1 instance.
+For example, look at `spec/titles/title_from_245_subfield_a_spec.rb`. All of the reference title tests are layed out in this way:
 
-We also know that we would like to reconcile a work generated by a converter against existing works in existing RDF data, so data that facilitates this (e.g. standard numbers, titles, creators, publisher, pub date ...) is highly desirable as well.  Given specific marc data, we can test for specific information in titles, standard numbers, etc. in the produced bibframe graph.
-
-# The data
-
-See spec/fixtures
-
-xxx.marcxml are MARC records from Stanford - provided for reference and for use by conversion programs.
-
-xxx.rdfxml is the output from https://github.com/lcnetdev/marc2bibframe run against the .marcxml records
-
-xxx.ttl is a turtle representation of the same data as the .rdfxml file -- provided for human readability.
-
-The specific marc records were chosen to try to exercise different wrinkles in work/instance information present in a single marc record.  As new work-instance wrinkles are surfaced, marc records and specs should be added to the project.
+Following the RSpec language we describe generally what we are trying to test:
+```
+describe 'bf:Title from 245' do
+```
+We define a `:graph` object and send it a marcxml fragment that we know should exercise the converter to produce some expected RDF:
+```
+  let!(:graph) {
+    marcxml = '<?xml version="1.0" encoding="UTF-8"?>
+    <collection xmlns="http://www.loc.gov/MARC21/slim">
+    <record>
+      <leader>01052cam a2200313 i 4500</leader>
+      <controlfield tag="001">a10689710</controlfield>
+      <controlfield tag="003">SIRSI</controlfield>
+      <controlfield tag="005">20150708003002.0</controlfield>
+      <controlfield tag="008">140604t20152015enk      b    001 0 eng d</controlfield>
+      <datafield ind1="1" ind2="0" tag="245">
+        <subfield code="a">Slippery noodles :</subfield>
+        <subfield code="b">a culinary history of China /</subfield>
+        <subfield code="c">Hsiang Ju Lin.</subfield>
+      </datafield>
+    </record>
+    </collection>'
+    self.send(MARC2BF_GRAPH_METHOD, marcxml, '245_subfield_a_title')
+  }
+```
+The `MARC2BF_GRAPH_METHOD` represents the converter we defined to use as described above, `marcxml` is the fragment, and the third argument ands up as the saved marcxml file and the converted file name under the `tmp/` directory. Now we define our expectations for conversion. In RSpec we can categorize these into 'contexts':
+```
+    context '$a - Title' do
+      it 'produces a bibk:Title' do
+        expect(graph.query(TITLE_PROPERTY_245_QUERY)).not_to be_empty
+      end
+      it 'has the literal "Slippery noodles :" as the rdfs:label property' do
+        expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("Slippery noodles :")
+      end
+      it 'has a bf:mainTitle property' do
+        expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("<http://bib.ld4l.org/ontology/MainTitleElement>")
+      end
+    end
+...
+end
+```
+The simplest rspec expectations ask if the result of the SPARQL query exist, or include some expected text. The SPARQL query is defined here as `TITLE_PROPERTY_245_QUERY` and is included in the same file:
+```
+TITLE_PROPERTY_245_QUERY = SPARQL.parse("PREFIX ld4l: <http://bib.ld4l.org/ontology/>
+                                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                                         SELECT DISTINCT ?localUri ?property ?titleLiteral ?obj
+                                         WHERE {
+                                          {
+                                            ?localUri a ld4l:MainTitleElement .
+                                            ?localUri ?property ?obj .
+                                          } UNION {
+                                              ?localUri rdfs:label 'Clinical cardiopulmonary physiology.'
+                                            }
+                                          }
+                                         ")
+```
 
 # Working with other converters
 
-1. Create a xxx_helper.rb file in the spec/support folder:
-
+1. Create a (e.g.) my_converter_helpers.rb file in the spec/support folder:
+```
     Module Helpers
-        def marc_to_graph_my_converter(marcxml_str, param)
-          a = method1
-          graph = method2(a)
-        end
+      def marc_to_graph_my_converter(marcxml_str, fname)
+        ensure_marc_parses(marcxml_str)
+        marc_path = create_marcxml_file(marcxml_str, fname)
+        rdfxml_path = create_rdfxml_via_my_converter(marc_path)
+        load_graph_from_rdfxml(rdfxml_path)
+      end
 
-        def method1
-        end
-
-        def method2
-        end
+      def create_rdfxml_via_my_converter(marc_path)
+        # Here you will have to determine how to invoke the converter
+        # Look at the existing reference helpers under support/
+        # which call the converters from the command line and
+        # define constants required by particular converter commands.
+      end
     end
-
-2. Have a method in your xxx_helper.rb file that takes marcxml as a string, a second argument (which can be ignored or used), and returns an RDF::Graph object loaded with the bibframe triples created by the converter for the passed marc.
+```
+2. Have a method in your my_converter_helper.rb file that takes marcxml as a string, a second argument (which can be ignored or used), and returns an RDF::Graph object loaded with the bibframe triples created by the converter for the passed marc.
 3. Require your new helper file in spec/spec_helper.rb
+```
+  # Specific converter helpers go here:
+  require 'support/my_converter_helpers'
+```
 4. config.yml should work when your method name from 2. is used as the value for helper_method.  If you need additional information (e.g. path to your converter), add it to config.yml and access the info via CONFIG_SETTINGS in your helper file.
 
-spec/support/m2bf_xquery_helpers.rb is an exemplar.
+spec/support/m2bf_helpers.rb is an exemplar.
+
+# Command line options, Rake tasks, and RSpec tags
+## requiring that a specific converter be used
+As mentioned above, adding a `helper_method` to the config.yml file will make that converter's helper method the global default for all validation tests. If you want to be able to call a chosen converter for a specific test, use the RSpec `--reqire` flag. In the spec/ directory there are several reference ruby rspec configuration files (e.g. bib2lod.rb) that, when called from the command line using the `--require` flag, will be invoked for those tests that you run. E.g. here the bib2lod.rb configuration file tells RSpec to use the 'marc_to_graph_bib2lod' method as the MARC2BF_GRAPH_METHOD for all of the tests:
+```
+RSpec.configure { |c| c.before(:each) { MARC2BF_GRAPH_METHOD ||= 'marc_to_graph_bib2lod' } }
+```
+## tagging for a specific converter
+In order to scope the tests that will run for a particular converter in this way, you can tag each test (or context of tests) with the symbol for the converter you want to use (in this example, `:bib2lod`). Tagging a test just means adding the symbol used in the configuration file after the `context` or `it` statement:
+```
+context '$a - Title', :bib2lod do
+  it 'produces a bibk:Title' do
+    expect(graph.query(TITLE_PROPERTY_245_QUERY)).not_to be_empty
+  end
+  ...
+end
+```
+The tag can be anything as long as it matches what you use on the command line. As a matter of convention, it should be the same as the name of the configuration file as well.
+## running a test or a suite of tests
+To use the converter-specific configuration and tags, you run the conversion like this (for one test):
+```
+rspec spec/titles/title_from_245_subfield_a_spec.rb --require bib2lod.rb --tag bib2lod
+```
+...and like this for the entire suite of title tests:
+```
+rspec spec/titles/ --require bib2lod.rb --tag bib2lod
+```
+If you do not tag a test it will be skipped when running the test(s) in this way. Conversely, if you do not use the (e.g.) `--tag bib2lod` flag when running the test, all of the tests will run using the specified converter, and some of the tests might not pass if they were not written specifically for use with the converter being used. However, this scenario might be something that you want to do in order to see how a converter behaves for tests designed for different converters.
+
+There are also a handful of reference Rake tasks in the Rakefile that encapsulate running the suite of tests. In this example, to run the entire suite of title tests using the bib2lod converter you would just type `rake bib2lod_titles` on the command line.
+```
+desc 'Run the bib2lod converter title tests'
+RSpec::Core::RakeTask.new(:bib2lod_titles) do |t|
+  t.pattern = Dir.glob('spec/titles/')
+  t.rspec_opts = '--tag bib2lod --require bib2lod.rb'
+end
+```
+If you are using a globally defined converter and want to run a test or suite of tests. just make sure the `helper_method` in the config.yml file is set and run (for a suite of tests, e.g.):
+```
+rspec spec/titles
+```
+or for a specific test (e.g.):
+```
+rspec spec/titles/title_from_245_subfield_a_spec.rb
+```
 
 # RDF Vocabularies
 In some of the sample sparql queries you will see a sparql vocabulary prefix defined like:
@@ -87,9 +189,11 @@ For a list of this form of the vocabulary definitions look to https://github.com
 
 `PREFIX bf: <http://id.loc.gov/ontologies/bibframe.html`
 
-# Contributing
+# Contributing fixes, enhancements, new tests, or new converter helpers
 
 1. Fork the repository.
 2. Create a branch in your fork for your edits.
-3. Create a new Pull Request.  (https://help.github.com/articles/using-pull-requests/)
+3. Create a new Pull Request.  (https://help.github.com/articles/using-pull-requests/). As appropriate:
     - be clear about what problem the pull request is addressing
+    - write a short description (generally) about what the test or tests are doing
+    - provide a link to documentation or the code repository about a new converter being used.

@@ -19,7 +19,7 @@ describe 'bf:responsibilityStatement from 245, 246' do
     </collection>'
     self.send(MARC2BF_GRAPH_METHOD, marcxml, '245_subfield_c_subtitle')
   }
-  context '$a, $b, $c - Statement of Responsibility', :bf2, :bib2lod do
+  context '$a, $b, $c - Statement of Responsibility', :m2bf2, :bib2lod do
     it 'produces a bf2:responsibilityStatement' do
       # puts "#{graph.to_ttl}\n--"
       # puts "#{graph.query(TRIPLES_QUERY).to_tsv}"

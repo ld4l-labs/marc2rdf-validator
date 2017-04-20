@@ -3,7 +3,7 @@ require 'spec_helper'
 # X30, 240, etc. - Uniform titles - R1
 
 describe 'bf:title from uniform title, 130 subfield a' do
-  context '$a Uniform title (NR)', :bf do
+  context '$a Uniform title (NR)', :m2bf do
     let!(:graph) {
       marcxml =
       '<record xmlns="http://www.loc.gov/MARC21/slim">
@@ -31,7 +31,7 @@ describe 'bf:title from uniform title, 130 subfield a' do
     end
   end
 
-  context '$t Uniform title (NR)', :bf do
+  context '$t Uniform title (NR)', :m2bf do
     let!(:graph) {
       marcxml =
       '<record xmlns="http://www.loc.gov/MARC21/slim">
