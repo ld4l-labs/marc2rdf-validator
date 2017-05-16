@@ -7,6 +7,12 @@ This project is focused on validating particulars of RDF graphs produced from MA
 
 The Library of Congress marc2bibframe converter (https://github.com/lcnetdev/marc2bibframe) was the original working implementation. The LD4L-Labs MARC to Extended-Bibframe converter (https://github.com/ld4l-labs/bib2lod) and the LOC marc2bibframe2 xslt converter (https://github.com/lcnetdev/marc2bibframe2) are also included as reference implementations, but we expect to include other converters as they appear and become viable or desirable to use in LD4L/LD4P projects (for example, the ALIADA tool's ability to convert to various RDF models: https://github.com/ALIADA/aliada-tool). This framework should support any viable converters that exist that are able to be called independently as described below.
 
+# Adding tests
+
+If you would like to request that a test be created in order to test a specific converter and a specific converter output, please submit an issue here (https://github.com/ld4l-labs/marc2rdf-validator/issues) and apply the `Write a test` label. Please be as specific as possible about the kind of test required, the converter(s) to be used, and the conversion expectations (what the converter <em>should</em> produce). If you also have specific a specific MARC record or snippet and a specific sparql query that should be used with the requested test, please provide those as well.
+
+You can also contribute your own tests as described below (see: [Contributing fixes, enhancements, new tests, or new converter helpers](#contributing-fixes-enhancements-new-tests-or-new-converter-helpers))
+
 # Approach
 Here we provide a framework for calling external converter code to convert a single MARC record fragment into an RDF::Graph object; the framework then provides tests for evaluating the resulting graph.
 
@@ -34,7 +40,7 @@ For example, a config.yml to use the marc2bibframe2 converter via the marc_to_gr
     # base URI to use for fake urls created
     base_uri: http://example.org/
 
-Note the comment that setting the helper_method in the config.yml file will make that converter method the global converter used for all tests in this suite. See the section below about [command line options and rake tasks](#Command-line-options-and-Rake-tasks) to run different tests using various converters. The call to the helper_method property is required to run the individual specs; the other properties are specific to the m2bf_helpers:
+Note the comment that setting the helper_method in the config.yml file will make that converter method the global converter used for all tests in this suite. See the section below about [command line options and rake tasks](#command-line-options-rake-tasks-and-rspec-tags) to run different tests using various converters. The call to the helper_method property is required to run the individual specs; the other properties are specific to the m2bf_helpers:
 
     MARC2BIBFRAME2_PATH = CONFIG_SETTINGS['marc2bibframe2_path']
 

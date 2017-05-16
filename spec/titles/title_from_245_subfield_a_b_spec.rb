@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'bf:Title from 245' do
+describe 'Title and subtitle from 245' do
   let!(:graph) {
     marcxml = '<?xml version="1.0" encoding="UTF-8"?>
     <collection xmlns="http://www.loc.gov/MARC21/slim">
@@ -30,7 +30,7 @@ describe 'bf:Title from 245' do
       expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("Slippery noodles :")
     end
     it 'has a bf:mainTitle property' do
-      expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("<http://bib.ld4l.org/ontology/MainTitleElement>")
+      expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("<http://data.ld4l.org/ontology/MainTitleElement>")
     end
   end
 
@@ -39,34 +39,34 @@ describe 'bf:Title from 245' do
       expect(graph.query(SUBTITLE_245_QUERY).to_tsv).to include("a culinary history of China ")
     end
     it 'has a bf:subtitle property' do
-      expect(graph.query(SUBTITLE_245_QUERY).to_tsv).to include("<http://bib.ld4l.org/ontology/SubtitleElement>")
+      expect(graph.query(SUBTITLE_245_QUERY).to_tsv).to include("<http://data.ld4l.org/ontology/SubtitleElement>")
     end
   end
 
 end
 
-TITLE_PROPERTY_245_QUERY = SPARQL.parse("PREFIX ld4l: <http://bib.ld4l.org/ontology/>
+TITLE_PROPERTY_245_QUERY = SPARQL.parse("PREFIX bibk: <http://bibliotek-o.org/ontology/>
                                          PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
                                          SELECT DISTINCT ?localUri ?property ?titleLiteral ?obj
                                          WHERE {
                                           {
-                                            ?localUri a ld4l:MainTitleElement .
+                                            ?localUri a bibk:MainTitleElement .
                                             ?localUri ?property ?obj .
                                           } UNION {
-                                              ?localUri rdfs:label 'Clinical cardiopulmonary physiology.'
+                                              ?localUri rdfs:label 'a culinary history of China /'
                                             }
                                           }
                                          ")
 
-SUBTITLE_245_QUERY = SPARQL.parse("PREFIX ld4l: <http://bib.ld4l.org/ontology/>
+SUBTITLE_245_QUERY = SPARQL.parse("PREFIX bibk: <http://bibliotek-o.org/ontology/>
                                    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
                                    SELECT DISTINCT ?localUri ?property ?titleLiteral ?obj
                                    WHERE {
                                     {
-                                      ?localUri a ld4l:SubtitleElement .
+                                      ?localUri a bibk:SubtitleElement .
                                       ?localUri ?property ?obj .
                                     } UNION {
-                                        ?localUri rdfs:label 'Clinical cardiopulmonary physiology.'
+                                        ?localUri rdfs:label 'a culinary history of China /'
                                       }
                                     }
                                     ")
