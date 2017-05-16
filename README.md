@@ -1,5 +1,4 @@
 [![Dependency Status](https://gemnasium.com/ld4l-labs/marc2rdf-validator.svg)](https://gemnasium.com/ld4l-labs/marc2rdf-validator)
-[![Stories in Ready](https://badge.waffle.io/ld4l-labs/marc2rdf-validator.png?label=ready&title=Ready)](http://waffle.io/ld4l-labs/marc2rdf-validator)
 
 # Marc to Bibframe Validation
 
