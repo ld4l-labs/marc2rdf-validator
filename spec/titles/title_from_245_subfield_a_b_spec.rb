@@ -30,7 +30,7 @@ describe 'Title and subtitle from 245' do
       expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("Slippery noodles :")
     end
     it 'has a bf:mainTitle property' do
-      expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("<http://data.ld4l.org/ontology/MainTitleElement>")
+      expect(graph.query(TITLE_PROPERTY_245_QUERY).to_tsv).to include("<http://bibliotek-o.org.org/ontology/MainTitleElement>")
     end
   end
 
@@ -39,7 +39,7 @@ describe 'Title and subtitle from 245' do
       expect(graph.query(SUBTITLE_245_QUERY).to_tsv).to include("a culinary history of China ")
     end
     it 'has a bf:subtitle property' do
-      expect(graph.query(SUBTITLE_245_QUERY).to_tsv).to include("<http://data.ld4l.org/ontology/SubtitleElement>")
+      expect(graph.query(SUBTITLE_245_QUERY).to_tsv).to include("<http://bibliotek-o.org.org/ontology/SubtitleElement>")
     end
   end
 

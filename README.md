@@ -140,6 +140,10 @@ TITLE_PROPERTY_245_QUERY = SPARQL.parse("PREFIX ld4l: <http://bib.ld4l.org/ontol
 
 spec/support/m2bf_helpers.rb is an exemplar.
 
+# A Note about the LD4 bib2lod converter
+The bib2lod converter uses a configuration file to specify details about the input, output and namespace used in the conversion. When writing tests involving the namespace used with the bib2lod converter, be aware about the configuration detail in the config.json file that you use.
+
+
 # Command line options, Rake tasks, and RSpec tags
 ## requiring that a specific converter be used
 As mentioned above, adding a `helper_method` to the config.yml file will make that converter's helper method the global default for all validation tests. If you want to be able to call a chosen converter for a specific test, use the RSpec `--reqire` flag. In the spec/ directory there are several reference ruby rspec configuration files (e.g. bib2lod.rb) that, when called from the command line using the `--require` flag, will be invoked for those tests that you run. E.g. here the bib2lod.rb configuration file tells RSpec to use the 'marc_to_graph_bib2lod' method as the MARC2BF_GRAPH_METHOD for all of the tests:
