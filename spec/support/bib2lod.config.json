@@ -1,5 +1,5 @@
 {
-  "localNamespace": "http://data.ld4l.org/stanford/",
+  "localNamespace": "http://bibliotek-o.org.org/stanford/",
   "InputService": {
     "class": "org.ld4l.bib2lod.io.FileInputService",
     "source": "tmp/",
